@@ -68,7 +68,7 @@ occupationalCategory: "Journeyman"
 identifier:
   name: "Royal Electric"
   value: "br0239"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: true
 ---
 

@@ -68,7 +68,7 @@ occupationalCategory: "Journeyman"
 identifier:
   name: "Rex Moore Electric"
   value: "id0288"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: true
 ---
 

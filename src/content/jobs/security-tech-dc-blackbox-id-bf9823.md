@@ -26,7 +26,7 @@ Certifications such as BICSI, NICET, or equivalent in low voltage or security sy
 Manufacturer-specific training or certifications for security products like Honeywell, Bosch, or Axis.
 Knowledge of state and local regulations regarding low voltage systems."
 # start of location
-location: "Glendale, CA"
+location: "Washington, DC"
 team: "Commercial"
 datePosted: "2024-11-20T00:00:00Z"
 validThrough: "2025-02-20T00:00:00Z"
@@ -38,10 +38,10 @@ hiringOrganization:
 jobLocation:
   streetAddress: "123 Main Street"
     # City
-  addressLocality: "Glendale"
+  addressLocality: "Washington"
   # State   
-  addressRegion: "CA"   
-  postalCode: "91204"
+  addressRegion: "DC"   
+  postalCode: "20001"
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
@@ -53,7 +53,7 @@ experienceRequirements: "seniorLevel"
 occupationalCategory: "Level 3"
 identifier:
   name: "Black Box"
-  value: "br8421"
+  value: "bf9823"
 featured: false
 email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---

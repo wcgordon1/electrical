@@ -68,7 +68,7 @@ occupationalCategory: "Apprentice"
 identifier:
   name: "Rex Moore Electric"
   value: "rb4293"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: false
 ---
 

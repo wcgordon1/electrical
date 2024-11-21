@@ -32,7 +32,7 @@ identifier:
     name: "Nexus Alarm & Suppression"
     value: "FIRE-ALARM-TECHNICIAN-wk7740"
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 

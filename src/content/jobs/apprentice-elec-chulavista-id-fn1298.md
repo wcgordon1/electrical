@@ -59,16 +59,16 @@ jobLocation:
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
-  value: 42
-  minValue: 48
-  maxValue: 56
+  value: 26
+  minValue: 22
+  maxValue: 36
   unitText: "Hour"
 experienceRequirements: "seniorLevel"
 occupationalCategory: "Apprentice"
 identifier:
   name: "Royal Electric"
   value: "fn1298"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: false
 ---
 

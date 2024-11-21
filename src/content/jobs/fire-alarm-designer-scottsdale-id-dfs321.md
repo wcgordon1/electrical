@@ -32,7 +32,7 @@ identifier:
   name: "Nexus Alarm & Suppression"
   value: "FIRE-ALARM-DESIGNER-fdsae42"
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 ### Job Description

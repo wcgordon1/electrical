@@ -62,7 +62,7 @@ occupationalCategory: "Apprentice"
 identifier:
   name: "IES Electric"
   value: "br7593"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: false
 ---
 We are seeking a motivated and detail-oriented Apprentice Electrician to join our team in Scottsdale, AZ. This is an excellent opportunity for individuals looking to start or grow their career in the electrical trade. The Apprentice Electrician will work under the supervision of a licensed electrician to install, maintain, and repair electrical systems, including fire and security systems, in residential, commercial, and industrial settings.

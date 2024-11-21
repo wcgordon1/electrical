@@ -32,7 +32,7 @@ identifier:
   name: "Convergint Technologies"
   value: "SECURITY-TECH-fdsae42"
 featured: true
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 **Location:** Tempe, Arizona  
 **Company:** Convergint  

@@ -32,7 +32,7 @@ identifier:
   name: "Berg Electric"
   value: "APP-ELECTRICIAN-ms8293"
 featured: false
-email: ['will@bestelectricianjobs.com']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 ### Job Description

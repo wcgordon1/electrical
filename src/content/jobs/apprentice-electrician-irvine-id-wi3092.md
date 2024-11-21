@@ -32,7 +32,7 @@ identifier:
   name: "Berg Electric"
   value: "APP-ELECTRICIAN-wi3092"
 featured: false
-email: ['will@bestelectricianjobs.com']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 Apprentice Electrician Opportunity at Berg Electric - Irvine

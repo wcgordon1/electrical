@@ -32,8 +32,9 @@ identifier:
     name: "Nexus Alarm & Suppression"
     value: "FIRE-ALARM-TECHNICIAN-fdsae42"
 featured: true
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
+
 **Company:** Nexus Alarm and Suppression  
 **Location:** In-Person (Data Centers)  
 **Pay Range:** $35.00 - $42.00 per hour  

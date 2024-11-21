@@ -32,7 +32,7 @@ identifier:
   name: "Kane Communications"
   value: "CABLE-TECHNICIAN-fdsae42"
 featured: true
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 **Company Overview**

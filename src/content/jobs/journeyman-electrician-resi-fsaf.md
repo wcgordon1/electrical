@@ -29,7 +29,7 @@ occupationalCategory: "Journeyman"
 identifier:
   name: "Hal Hayes Electric"
   value: "JRN-HAL-2024"
-email: ['will@tustinrecruiting.com', 'wcgordon1@gmail.com']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: false
 ---
 

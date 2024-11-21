@@ -30,7 +30,7 @@ identifier:
   name: "Salt n Light Electric"
   value: "JRN-ELEC-2024"
 featured: false
-email: ['will@bestelectricianjobs.com']
+email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 ---
 
 **Company:** [Salt n Light Electric](https://saltnlightelectric.com/)  
