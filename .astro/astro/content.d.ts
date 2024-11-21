@@ -156,28 +156,28 @@ declare module 'astro:content' {
   slug: "convergint";
   body: string;
   collection: "company";
-  data: InferEntrySchema<"company">
+  data: any
 } & { render(): Render[".md"] };
 "hal-hayes-electric.md": {
 	id: "hal-hayes-electric.md";
   slug: "hal-hayes-electric";
   body: string;
   collection: "company";
-  data: InferEntrySchema<"company">
+  data: any
 } & { render(): Render[".md"] };
 "salt-n-light-electric.md": {
 	id: "salt-n-light-electric.md";
   slug: "salt-n-light-electric";
   body: string;
   collection: "company";
-  data: InferEntrySchema<"company">
+  data: any
 } & { render(): Render[".md"] };
 "west-coast-fire.md": {
 	id: "west-coast-fire.md";
   slug: "west-coast-fire";
   body: string;
   collection: "company";
-  data: InferEntrySchema<"company">
+  data: any
 } & { render(): Render[".md"] };
 };
 "customers": {
@@ -186,21 +186,21 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "customers";
-  data: InferEntrySchema<"customers">
+  data: any
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "customers";
-  data: InferEntrySchema<"customers">
+  data: any
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "customers";
-  data: InferEntrySchema<"customers">
+  data: any
 } & { render(): Render[".md"] };
 };
 "helpcenter": {
@@ -209,35 +209,35 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "helpcenter";
-  data: InferEntrySchema<"helpcenter">
+  data: any
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "helpcenter";
-  data: InferEntrySchema<"helpcenter">
+  data: any
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "helpcenter";
-  data: InferEntrySchema<"helpcenter">
+  data: any
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "helpcenter";
-  data: InferEntrySchema<"helpcenter">
+  data: any
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
   body: string;
   collection: "helpcenter";
-  data: InferEntrySchema<"helpcenter">
+  data: any
 } & { render(): Render[".md"] };
 };
 "infopages": {
@@ -246,28 +246,28 @@ declare module 'astro:content' {
   slug: "bug-bounty";
   body: string;
   collection: "infopages";
-  data: InferEntrySchema<"infopages">
+  data: any
 } & { render(): Render[".md"] };
 "dpa.md": {
 	id: "dpa.md";
   slug: "dpa";
   body: string;
   collection: "infopages";
-  data: InferEntrySchema<"infopages">
+  data: any
 } & { render(): Render[".md"] };
 "privacy.md": {
 	id: "privacy.md";
   slug: "privacy";
   body: string;
   collection: "infopages";
-  data: InferEntrySchema<"infopages">
+  data: any
 } & { render(): Render[".md"] };
 "terms.md": {
 	id: "terms.md";
   slug: "terms";
   body: string;
   collection: "infopages";
-  data: InferEntrySchema<"infopages">
+  data: any
 } & { render(): Render[".md"] };
 };
 "integrations": {
@@ -276,42 +276,42 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 "6.md": {
 	id: "6.md";
   slug: "6";
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
+  data: any
 } & { render(): Render[".md"] };
 };
 "jobs": {
@@ -320,105 +320,175 @@ declare module 'astro:content' {
   slug: "apprentice-electrician-berg-morgan-hill-id23121";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "apprentice-electrician-berg-sf-id-fg212.md": {
 	id: "apprentice-electrician-berg-sf-id-fg212.md";
   slug: "apprentice-electrician-berg-sf-id-fg212";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "apprentice-electrician-helix-sj-id-fh213.md": {
 	id: "apprentice-electrician-helix-sj-id-fh213.md";
   slug: "apprentice-electrician-helix-sj-id-fh213";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-electrician-irvine-id-wi3092.md": {
+	id: "apprentice-electrician-irvine-id-wi3092.md";
+  slug: "apprentice-electrician-irvine-id-wi3092";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-electrician-la-id-ek23940.md": {
+	id: "apprentice-electrician-la-id-ek23940.md";
+  slug: "apprentice-electrician-la-id-ek23940";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-electrician-oceanside-id-ms8293.md": {
+	id: "apprentice-electrician-oceanside-id-ms8293.md";
+  slug: "apprentice-electrician-oceanside-id-ms8293";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-electrician-phoenix-id-3mw8301.md": {
+	id: "apprentice-electrician-phoenix-id-3mw8301.md";
+  slug: "apprentice-electrician-phoenix-id-3mw8301";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"cable-tech-la-kane-id-jg3892.md": {
+	id: "cable-tech-la-kane-id-jg3892.md";
+  slug: "cable-tech-la-kane-id-jg3892";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"cable-tech-sd-kane-id-gj3423.md": {
+	id: "cable-tech-sd-kane-id-gj3423.md";
+  slug: "cable-tech-sd-kane-id-gj3423";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"cable-tech-sf-kane-id-jf3322.md": {
+	id: "cable-tech-sf-kane-id-jf3322.md";
+  slug: "cable-tech-sf-kane-id-jf3322";
+  body: string;
+  collection: "jobs";
+  data: any
 } & { render(): Render[".md"] };
 "cable-technician-columbia-md-id-fds43.md": {
 	id: "cable-technician-columbia-md-id-fds43.md";
   slug: "cable-technician-columbia-md-id-fds43";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "fire-alarm-designer-scottsdale-id-dfs321.md": {
 	id: "fire-alarm-designer-scottsdale-id-dfs321.md";
   slug: "fire-alarm-designer-scottsdale-id-dfs321";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "fire-alarm-installer-irvine-id-fsdf9.md": {
 	id: "fire-alarm-installer-irvine-id-fsdf9.md";
   slug: "fire-alarm-installer-irvine-id-fsdf9";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
+} & { render(): Render[".md"] };
+"fire-alarm-tech-la-nexaus-id-ms-9302.md": {
+	id: "fire-alarm-tech-la-nexaus-id-ms-9302.md";
+  slug: "fire-alarm-tech-la-nexaus-id-ms-9302";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"fire-alarm-tech-sf-id-mf0921.md": {
+	id: "fire-alarm-tech-sf-id-mf0921.md";
+  slug: "fire-alarm-tech-sf-id-mf0921";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"fire-alarm-tech-sj-id-wk7740.md": {
+	id: "fire-alarm-tech-sj-id-wk7740.md";
+  slug: "fire-alarm-tech-sj-id-wk7740";
+  body: string;
+  collection: "jobs";
+  data: any
 } & { render(): Render[".md"] };
 "fire-alarm-technician-scottsdale-id-fds2.md": {
 	id: "fire-alarm-technician-scottsdale-id-fds2.md";
   slug: "fire-alarm-technician-scottsdale-id-fds2";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "fire-sprinkler-designer-mesa-id-fds23.md": {
 	id: "fire-sprinkler-designer-mesa-id-fds23.md";
   slug: "fire-sprinkler-designer-mesa-id-fds23";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "journeyman-electrician-resi-fsaf.md": {
 	id: "journeyman-electrician-resi-fsaf.md";
   slug: "journeyman-electrician-resi-fsaf";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "lead-cable-tech-chantilly-id-fds24.md": {
 	id: "lead-cable-tech-chantilly-id-fds24.md";
   slug: "lead-cable-tech-chantilly-id-fds24";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "residential-journeyman-electrician-jrn-elec.md": {
 	id: "residential-journeyman-electrician-jrn-elec.md";
   slug: "residential-journeyman-electrician-jrn-elec";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "security-tech-reston-id-df243.md": {
 	id: "security-tech-reston-id-df243.md";
   slug: "security-tech-reston-id-df243";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "security-technician-tempe-id-da2321.md": {
 	id: "security-technician-tempe-id-da2321.md";
   slug: "security-technician-tempe-id-da2321";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "service-electrician-irvine-id-23452.md": {
 	id: "service-electrician-irvine-id-23452.md";
   slug: "service-electrician-irvine-id-23452";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 "voice-data-installer-fairfax-id-ds23.md": {
 	id: "voice-data-installer-fairfax-id-ds23.md";
   slug: "voice-data-installer-fairfax-id-ds23";
   body: string;
   collection: "jobs";
-  data: InferEntrySchema<"jobs">
+  data: any
 } & { render(): Render[".md"] };
 };
 "posts": {
@@ -427,21 +497,21 @@ declare module 'astro:content' {
   slug: "journeyman-electrician-job-description";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "best-paying-electrician-jobs.md": {
 	id: "best-paying-electrician-jobs.md";
   slug: "best-paying-electrician-jobs";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to-find-electrician-jobs.md": {
 	id: "how-to-find-electrician-jobs.md";
   slug: "how-to-find-electrician-jobs";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -453,5 +523,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }

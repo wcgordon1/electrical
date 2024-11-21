@@ -3,7 +3,7 @@ position: "Fire Alarm Technician"
 # Start of Selection
 description: "Nexus Alarm & Suppression is seeking a skilled Fire Alarm Technician to join our dynamic team. In this role, you will be responsible for installing, maintaining, and programming advanced fire alarm systems."
 # End of Selection
-location: "Scottsdale, AZ"
+location: "San Jose, CA"
 team: "Commercial"
 datePosted: "2024-11-20T00:00:00Z"
 validThrough: "2025-02-20T00:00:00Z"
@@ -15,10 +15,10 @@ hiringOrganization:
 jobLocation:
   streetAddress: "123 Main Street"
   # City
-  addressLocality: "Scottsdale"
+  addressLocality: "San Jose"
   # State
-  addressRegion: "AZ"
-  postalCode: "85251"
+  addressRegion: "CA"
+  postalCode: "95136"
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
@@ -30,10 +30,12 @@ experienceRequirements: "seniorLevel"
 occupationalCategory: "Level 2"
 identifier:
     name: "Nexus Alarm & Suppression"
-    value: "FIRE-ALARM-TECHNICIAN-fdsae42"
+    value: "FIRE-ALARM-TECHNICIAN-wk7740"
 featured: true
 email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
 ---
+
+
 **Company:** Nexus Alarm and Suppression  
 **Location:** In-Person (Data Centers)  
 **Pay Range:** $35.00 - $42.00 per hour  

@@ -5,8 +5,8 @@ description: "Berg Electric is seeking a motivated individual to join our team a
 # End of Selection
 location: "Morgan Hill, CA"
 team: "Commercial"
-datePosted: "2024-11-10T00:00:00Z"
-validThrough: "2025-01-30T00:00"
+datePosted: "2024-11-20T00:00:00Z"
+validThrough: "2025-02-20T00:00:00Z"
 employmentType: "FULL_TIME"
 hiringOrganization: 
   name: "Berg Electric"

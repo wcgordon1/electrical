@@ -1,9 +1,9 @@
 ---
 position: "Apprentice Electrician"
 # Start of Selection
-description: "Helix Electric is seeking a motivated individual to join our team as an Apprentice Electrician in San Jose, CA. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
+description: "Helix Electric is seeking a motivated individual to join our team as an Apprentice Electrician in Oceanside, CA. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
 # End of Selection
-location: "San Jose, CA"
+location: "Oceanside, CA"
 team: "Commercial"
 datePosted: "2024-11-20T00:00:00Z"
 validThrough: "2025-02-20T00:00:00Z"
@@ -15,10 +15,10 @@ hiringOrganization:
 jobLocation:
   streetAddress: "123 Main Street"  
   # City
-  addressLocality: "San Jose"
+  addressLocality: "Oceanside"
   # State   
   addressRegion: "CA"
-  postalCode: "95136"
+  postalCode: "92054"
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
@@ -30,7 +30,7 @@ experienceRequirements: "seniorLevel"
 occupationalCategory: "Apprentice"
 identifier:
   name: "Berg Electric"
-  value: "APP-ELECTRICIAN-fd2s1342"
+  value: "APP-ELECTRICIAN-ms8293"
 featured: false
 email: ['will@bestelectricianjobs.com']
 ---
@@ -39,7 +39,7 @@ email: ['will@bestelectricianjobs.com']
 
 Helix Electric is seeking motivated Apprentice Electricians to join our team in San Jose, CA. This role offers an excellent opportunity to learn and grow in the electrical trade while working on diverse projects across residential, commercial, and industrial sectors.
 
-#### Key Responsibilities for Apprentice Electrician in San Jose, CA
+#### Key Responsibilities for Apprentice Electrician in Oceanside, CA
 - Assist journeyman electricians in installing, maintaining, and repairing electrical systems
 - Learn to read and interpret electrical blueprints and schematics
 - Help with the installation of wiring, conduits, and electrical fixtures
@@ -47,7 +47,7 @@ Helix Electric is seeking motivated Apprentice Electricians to join our team in 
 - Participate in safety training and adhere to all safety protocols
 - Attend required apprenticeship classes and complete coursework
 
-#### Qualifications for Apprentice Electrician in San Jose, CA
+#### Qualifications for Apprentice Electrician in Oceanside, CA
 - High school diploma or equivalent
 - Enrollment in or willingness to enroll in a recognized electrical apprenticeship program
 - Basic understanding of electrical theory and safety practices
@@ -55,7 +55,7 @@ Helix Electric is seeking motivated Apprentice Electricians to join our team in 
 - Good physical condition and ability to work in various environments
 - Valid driver's license and reliable transportation
 
-#### Benefits for Apprentice Electrician in San Jose, CA
+#### Benefits for Apprentice Electrician in Oceanside, CA
 - Competitive hourly rate ($22 - $28/hr based on experience and progress in apprenticeship)
 - Health, dental, and vision insurance
 - 401(k) with company match

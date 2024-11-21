@@ -1,9 +1,9 @@
 ---
 position: "Apprentice Electrician"
 # Start of Selection
-description: "Berg Electric is seeking a motivated individual to join our team as an Apprentice Electrician in San Francisco. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
+description: "Berg Electric is seeking a motivated individual to join our team as an Apprentice Electrician in Los Angeles. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
 # End of Selection
-location: "San Francisco, CA"
+location: "Los Angeles, CA"
 team: "Commercial"
 datePosted: "2024-11-20T00:00:00Z"
 validThrough: "2025-02-20T00:00:00Z"
@@ -15,10 +15,10 @@ hiringOrganization:
 jobLocation:
   streetAddress: "123 Main Street"  
   # City
-  addressLocality: "San Francisco"
+  addressLocality: "Los Angeles"
   # State   
   addressRegion: "CA"
-  postalCode: "94103"
+  postalCode: "90038"
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
@@ -30,14 +30,14 @@ experienceRequirements: "seniorLevel"
 occupationalCategory: "Apprentice"
 identifier:
   name: "Berg Electric"
-  value: "APP-ELECTRICIAN-fdsa242"
+  value: "APP-ELECTRICIAN-ek23940"
 featured: false
 email: ['will@bestelectricianjobs.com']
 ---
 
-Apprentice Electrician Opportunity at Berg Electric - San Francisco
+Apprentice Electrician Opportunity at Berg Electric - Los Angeles
 
-Berg Electric, a leader in the electrical contracting industry, is seeking motivated individuals to join our team as Apprentice Electricians in San Francisco. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation.
+Berg Electric, a leader in the electrical contracting industry, is seeking motivated individuals to join our team as Apprentice Electricians in Los Angeles. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation.
 
 ## About Berg Electric
 
