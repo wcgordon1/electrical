@@ -31,7 +31,7 @@ occupationalCategory: "Level 2"
 identifier:
     name: "Nexus Alarm & Suppression"
     value: "FIRE-ALARM-TECHNICIAN-mf0921"
-featured: true
+featured: false
 email: ['will@bestelectricianjobs.com', 'support@primepartners.info']
 ---
 

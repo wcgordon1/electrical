@@ -1,5 +1,13 @@
 ---
-// No props needed as we'll handle everything client-side
+// Get total number of jobs
+import { getCollection } from "astro:content";
+
+// Get all jobs and count them
+const jobs = await getCollection("jobs");
+const totalJobs = jobs.length;
+
+// Make totalJobs available to the template
+const placeholder = `Search ${totalJobs} jobs...`;
 ---
 
 <div class="lg:-mt-24 mx-auto md:px-32 py-6 max-w-7xl">
@@ -9,7 +17,7 @@
         id="searchInput"
         class="leading-none text-left block w-full rounded-2xl border-0 py-3.5 pl-4 pr-24 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6 duration-200 outline-none"
         type="text"
-        placeholder="Search jobs..."
+        placeholder={placeholder}
         aria-label="Search jobs"
       />
       <button

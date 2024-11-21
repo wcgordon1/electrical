@@ -315,6 +315,55 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "jobs": {
+"apprentice-elec-chulavista-id-fn1298.md": {
+	id: "apprentice-elec-chulavista-id-fn1298.md";
+  slug: "apprentice-elec-chulavista-id-fn1298";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-phoenix-ies-id-br4298.md": {
+	id: "apprentice-elec-phoenix-ies-id-br4298.md";
+  slug: "apprentice-elec-phoenix-ies-id-br4298";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-rexmoore-cupertino-id-br9328.md": {
+	id: "apprentice-elec-rexmoore-cupertino-id-br9328.md";
+  slug: "apprentice-elec-rexmoore-cupertino-id-br9328";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-rexmoore-glendal-id-ve9838.md": {
+	id: "apprentice-elec-rexmoore-glendal-id-ve9838.md";
+  slug: "apprentice-elec-rexmoore-glendal-id-ve9838";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-rexmoore-sanclemente-id-rb4293.md": {
+	id: "apprentice-elec-rexmoore-sanclemente-id-rb4293.md";
+  slug: "apprentice-elec-rexmoore-sanclemente-id-rb4293";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-royal-anaheim-idbr3829.md": {
+	id: "apprentice-elec-royal-anaheim-idbr3829.md";
+  slug: "apprentice-elec-royal-anaheim-idbr3829";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-scottsdale-ies-id-br7593.md": {
+	id: "apprentice-elec-scottsdale-ies-id-br7593.md";
+  slug: "apprentice-elec-scottsdale-ies-id-br7593";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "apprentice-electrician-berg-morgan-hill-id23121.md": {
 	id: "apprentice-electrician-berg-morgan-hill-id23121.md";
   slug: "apprentice-electrician-berg-morgan-hill-id23121";
@@ -441,6 +490,48 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"journeyman-elec-irvine-rexmoore-id-ne0294.md": {
+	id: "journeyman-elec-irvine-rexmoore-id-ne0294.md";
+  slug: "journeyman-elec-irvine-rexmoore-id-ne0294";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"journeyman-elec-la-rexmoore-id-id0288.md": {
+	id: "journeyman-elec-la-rexmoore-id-id0288.md";
+  slug: "journeyman-elec-la-rexmoore-id-id0288";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"journeyman-elec-longbeach-royal-id-bf7894.md": {
+	id: "journeyman-elec-longbeach-royal-id-bf7894.md";
+  slug: "journeyman-elec-longbeach-royal-id-bf7894";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"journeyman-elec-sacramento-royal-id-bf8492.md": {
+	id: "journeyman-elec-sacramento-royal-id-bf8492.md";
+  slug: "journeyman-elec-sacramento-royal-id-bf8492";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"journeyman-elec-sd-rexmoore-id-po2341.md": {
+	id: "journeyman-elec-sd-rexmoore-id-po2341.md";
+  slug: "journeyman-elec-sd-rexmoore-id-po2341";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"journeyman-elec-torrance-royal-id-br0239.md": {
+	id: "journeyman-elec-torrance-royal-id-br0239.md";
+  slug: "journeyman-elec-torrance-royal-id-br0239";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "journeyman-electrician-resi-fsaf.md": {
 	id: "journeyman-electrician-resi-fsaf.md";
   slug: "journeyman-electrician-resi-fsaf";
@@ -462,9 +553,37 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"security-tech-glendale-blackbox-id-br8421.md": {
+	id: "security-tech-glendale-blackbox-id-br8421.md";
+  slug: "security-tech-glendale-blackbox-id-br8421";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"security-tech-paloalto-blackbox-id-br8922.md": {
+	id: "security-tech-paloalto-blackbox-id-br8922.md";
+  slug: "security-tech-paloalto-blackbox-id-br8922";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "security-tech-reston-id-df243.md": {
 	id: "security-tech-reston-id-df243.md";
   slug: "security-tech-reston-id-df243";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"security-tech-sf-blackbox-id-br8429.md": {
+	id: "security-tech-sf-blackbox-id-br8429.md";
+  slug: "security-tech-sf-blackbox-id-br8429";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"security-tech-torrance-blackbox-id-br9842.md": {
+	id: "security-tech-torrance-blackbox-id-br9842.md";
+  slug: "security-tech-torrance-blackbox-id-br9842";
   body: string;
   collection: "jobs";
   data: any
