@@ -62,7 +62,7 @@ baseSalary:
   maxValue: 34
   unitText: "Hour"
 experienceRequirements: "seniorLevel"
-occupationalCategory: "Journeyman"
+occupationalCategory: "Apprentice"
 identifier:
   name: "Rogers Electric"
   value: "me-2109"   

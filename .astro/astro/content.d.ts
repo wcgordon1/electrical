@@ -371,6 +371,34 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"apprentice-elec-rogers-charlotte-id-fk0942.md": {
+	id: "apprentice-elec-rogers-charlotte-id-fk0942.md";
+  slug: "apprentice-elec-rogers-charlotte-id-fk0942";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-rogers-greensboro-id-nf9201.md": {
+	id: "apprentice-elec-rogers-greensboro-id-nf9201.md";
+  slug: "apprentice-elec-rogers-greensboro-id-nf9201";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-rogers-marietta-id-jf-2032.md": {
+	id: "apprentice-elec-rogers-marietta-id-jf-2032.md";
+  slug: "apprentice-elec-rogers-marietta-id-jf-2032";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-rogers-raleigh-id-mm49203.md": {
+	id: "apprentice-elec-rogers-raleigh-id-mm49203.md";
+  slug: "apprentice-elec-rogers-raleigh-id-mm49203";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "apprentice-elec-royal-anaheim-idbr3829.md": {
 	id: "apprentice-elec-royal-anaheim-idbr3829.md";
   slug: "apprentice-elec-royal-anaheim-idbr3829";
