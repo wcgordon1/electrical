@@ -609,6 +609,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"fire-sprinkler-prime-scottsdale-id-bf9441.md": {
+	id: "fire-sprinkler-prime-scottsdale-id-bf9441.md";
+  slug: "fire-sprinkler-prime-scottsdale-id-bf9441";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"fire-technician-prime-tempe-id-bf9832.md": {
+	id: "fire-technician-prime-tempe-id-bf9832.md";
+  slug: "fire-technician-prime-tempe-id-bf9832";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "journeyman-elec-encore-boulder-id-jj3817.md": {
 	id: "journeyman-elec-encore-boulder-id-jj3817.md";
   slug: "journeyman-elec-encore-boulder-id-jj3817";
