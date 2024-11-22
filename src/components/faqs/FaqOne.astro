@@ -26,7 +26,25 @@ const faqs = [
     answer: "Support varies by plan - Basic includes email support, Growth adds phone support, and Enterprise includes 24/7 priority support with a dedicated account manager. We're here to help you find the right electricians for your team.",
   },
 ];
+
+// Create the JSON-LD data structure
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
 ---
+
+<Fragment slot="head">
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd, null, 2)} />
+</Fragment>
 
 <section class="bg-white">
   <div

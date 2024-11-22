@@ -23,9 +23,40 @@ const features = [
     description: "Interested in partnering? Let's discuss opportunities.",
   },
 ];
+
+// Add JSON-LD data
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Best Electrician Jobs",
+  "url": "https://bestelectricianjobs.com",
+  "logo": "https://bestelectricianjobs.com/images/eleclog.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "hello@bestelectricianjobs.com",
+    "availableLanguage": "English",
+    "areaServed": "US"
+  },
+  "sameAs": [
+    "https://www.reddit.com/r/ElectricalJobs/",
+    "https://www.linkedin.com/company/electrician-jobs/",
+    "https://x.com/electricaljob__"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Costa Mesa",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  }
+};
 ---
 
 <BaseLayout>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(organizationJsonLd, null, 2)} />
+  </Fragment>
+
   <section>
     <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
       <div class="flex flex-col gap-12 lg:gap-24">
