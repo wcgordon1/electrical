@@ -34,7 +34,7 @@ Previous work in residential or commercial electrical projects is a plus."
 
 #start of info
 
-location: "Phoenix, AZ"
+location: "Riverside, CA"
 team: "Commercial"
 datePosted: "2024-11-21T00:00:00Z"
 validThrough: "2025-02-21T00:00:00Z"
@@ -46,10 +46,10 @@ hiringOrganization:
 jobLocation:
   streetAddress: "123 Main Street"
   # City
-  addressLocality: "Phoenix"
+  addressLocality: "Riverside"
   # State
-  addressRegion: "AZ"
-  postalCode: "85001"
+  addressRegion: "CA"
+  postalCode: "92503"
   addressCountry: "USA"
 baseSalary:
   currency: "USD"
@@ -61,11 +61,11 @@ experienceRequirements: "seniorLevel"
 occupationalCategory: "Apprentice"
 identifier:
   name: "IES Electric"
-  value: "br7593"
+  value: "bf0934"
 email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
 featured: false
 ---
-We are seeking a motivated and detail-oriented Apprentice Electrician to join our team in Scottsdale, AZ. This is an excellent opportunity for individuals looking to start or grow their career in the electrical trade. The Apprentice Electrician will work under the supervision of a licensed electrician to install, maintain, and repair electrical systems, including fire and security systems, in residential, commercial, and industrial settings.
+We are seeking a motivated and detail-oriented Apprentice Electrician to join our team in Riverside, CA. This is an excellent opportunity for individuals looking to start or grow their career in the electrical trade. The Apprentice Electrician will work under the supervision of a licensed electrician to install, maintain, and repair electrical systems, including fire and security systems, in residential, commercial, and industrial settings.
 
 ---
 

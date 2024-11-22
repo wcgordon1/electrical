@@ -165,6 +165,13 @@ declare module 'astro:content' {
   collection: "company";
   data: InferEntrySchema<"company">
 } & { render(): Render[".md"] };
+"premiere-electrical.md": {
+	id: "premiere-electrical.md";
+  slug: "premiere-electrical";
+  body: string;
+  collection: "company";
+  data: InferEntrySchema<"company">
+} & { render(): Render[".md"] };
 "salt-n-light-electric.md": {
 	id: "salt-n-light-electric.md";
   slug: "salt-n-light-electric";
@@ -315,16 +322,16 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "jobs": {
-"apprentice-elec-chulavista-id-fn1298.md": {
-	id: "apprentice-elec-chulavista-id-fn1298.md";
-  slug: "apprentice-elec-chulavista-id-fn1298";
+"apprentice-elec-bakersfield-id-nf2904.md": {
+	id: "apprentice-elec-bakersfield-id-nf2904.md";
+  slug: "apprentice-elec-bakersfield-id-nf2904";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
-"apprentice-elec-phoenix-ies-id-br4298.md": {
-	id: "apprentice-elec-phoenix-ies-id-br4298.md";
-  slug: "apprentice-elec-phoenix-ies-id-br4298";
+"apprentice-elec-chulavista-id-fn1298.md": {
+	id: "apprentice-elec-chulavista-id-fn1298.md";
+  slug: "apprentice-elec-chulavista-id-fn1298";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -350,9 +357,30 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"apprentice-elec-riverside-ies-id-bf0934.md": {
+	id: "apprentice-elec-riverside-ies-id-bf0934.md";
+  slug: "apprentice-elec-riverside-ies-id-bf0934";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-rogers-augusta-id-me-2109.md": {
+	id: "apprentice-elec-rogers-augusta-id-me-2109.md";
+  slug: "apprentice-elec-rogers-augusta-id-me-2109";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "apprentice-elec-royal-anaheim-idbr3829.md": {
 	id: "apprentice-elec-royal-anaheim-idbr3829.md";
   slug: "apprentice-elec-royal-anaheim-idbr3829";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-scottdale-ies-id-br4298.md": {
+	id: "apprentice-elec-scottdale-ies-id-br4298.md";
+  slug: "apprentice-elec-scottdale-ies-id-br4298";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -507,6 +535,76 @@ declare module 'astro:content' {
 "journeyman-elec-longbeach-royal-id-bf7894.md": {
 	id: "journeyman-elec-longbeach-royal-id-bf7894.md";
   slug: "journeyman-elec-longbeach-royal-id-bf7894";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-alpharetta-id-tt8976.md": {
+	id: "journeyman-elec-premiere-alpharetta-id-tt8976.md";
+  slug: "journeyman-elec-premiere-alpharetta-id-tt8976";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-ashville-id-bf2931.md": {
+	id: "journeyman-elec-premiere-ashville-id-bf2931.md";
+  slug: "journeyman-elec-premiere-ashville-id-bf2931";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-atlanta-id-bg3982.md": {
+	id: "journeyman-elec-premiere-atlanta-id-bg3982.md";
+  slug: "journeyman-elec-premiere-atlanta-id-bg3982";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-charleston-id-md2109.md": {
+	id: "journeyman-elec-premiere-charleston-id-md2109.md";
+  slug: "journeyman-elec-premiere-charleston-id-md2109";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-charlotte-id-ng8923.md": {
+	id: "journeyman-elec-premiere-charlotte-id-ng8923.md";
+  slug: "journeyman-elec-premiere-charlotte-id-ng8923";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-greensboro-id-ng8492.md": {
+	id: "journeyman-elec-premiere-greensboro-id-ng8492.md";
+  slug: "journeyman-elec-premiere-greensboro-id-ng8492";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-raleigh-id-mg8992.md": {
+	id: "journeyman-elec-premiere-raleigh-id-mg8992.md";
+  slug: "journeyman-elec-premiere-raleigh-id-mg8992";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-roswell-id-ba-0930.md": {
+	id: "journeyman-elec-premiere-roswell-id-ba-0930.md";
+  slug: "journeyman-elec-premiere-roswell-id-ba-0930";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-sandysprings-id-nr2128.md": {
+	id: "journeyman-elec-premiere-sandysprings-id-nr2128.md";
+  slug: "journeyman-elec-premiere-sandysprings-id-nr2128";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-premiere-spartansburg-id-nr9302.md": {
+	id: "journeyman-elec-premiere-spartansburg-id-nr9302.md";
+  slug: "journeyman-elec-premiere-spartansburg-id-nr9302";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
