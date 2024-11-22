@@ -336,6 +336,34 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"apprentice-elec-encore-denver-id-bf8421.md": {
+	id: "apprentice-elec-encore-denver-id-bf8421.md";
+  slug: "apprentice-elec-encore-denver-id-bf8421";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-mmr-atlanta-id-bf7482.md": {
+	id: "apprentice-elec-mmr-atlanta-id-bf7482.md";
+  slug: "apprentice-elec-mmr-atlanta-id-bf7482";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-mmr-greensboro-id-mnb2377.md": {
+	id: "apprentice-elec-mmr-greensboro-id-mnb2377.md";
+  slug: "apprentice-elec-mmr-greensboro-id-mnb2377";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"apprentice-elec-mmr-lawrenceville-id-fb9238.md": {
+	id: "apprentice-elec-mmr-lawrenceville-id-fb9238.md";
+  slug: "apprentice-elec-mmr-lawrenceville-id-fb9238";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "apprentice-elec-rexmoore-cupertino-id-br9328.md": {
 	id: "apprentice-elec-rexmoore-cupertino-id-br9328.md";
   slug: "apprentice-elec-rexmoore-cupertino-id-br9328";
@@ -469,9 +497,44 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"cable-tech-encore-aurora-id-bz1188.md": {
+	id: "cable-tech-encore-aurora-id-bz1188.md";
+  slug: "cable-tech-encore-aurora-id-bz1188";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"cable-tech-encore-boulder-id-by7741.md": {
+	id: "cable-tech-encore-boulder-id-by7741.md";
+  slug: "cable-tech-encore-boulder-id-by7741";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "cable-tech-la-kane-id-jg3892.md": {
 	id: "cable-tech-la-kane-id-jg3892.md";
   slug: "cable-tech-la-kane-id-jg3892";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"cable-tech-mmr-athens-id-bf8923.md": {
+	id: "cable-tech-mmr-athens-id-bf8923.md";
+  slug: "cable-tech-mmr-athens-id-bf8923";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"cable-tech-mmr-marietta-id-bf7928.md": {
+	id: "cable-tech-mmr-marietta-id-bf7928.md";
+  slug: "cable-tech-mmr-marietta-id-bf7928";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"cable-tech-mmr-raleigh-id-bf7877.md": {
+	id: "cable-tech-mmr-raleigh-id-bf7877.md";
+  slug: "cable-tech-mmr-raleigh-id-bf7877";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -542,6 +605,13 @@ declare module 'astro:content' {
 "fire-sprinkler-designer-mesa-id-fds23.md": {
 	id: "fire-sprinkler-designer-mesa-id-fds23.md";
   slug: "fire-sprinkler-designer-mesa-id-fds23";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"journeyman-elec-encore-boulder-id-jj3817.md": {
+	id: "journeyman-elec-encore-boulder-id-jj3817.md";
+  slug: "journeyman-elec-encore-boulder-id-jj3817";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -686,9 +756,23 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"security-tech-encore-denver-id-bw9920.md": {
+	id: "security-tech-encore-denver-id-bw9920.md";
+  slug: "security-tech-encore-denver-id-bw9920";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "security-tech-glendale-blackbox-id-br8421.md": {
 	id: "security-tech-glendale-blackbox-id-br8421.md";
   slug: "security-tech-glendale-blackbox-id-br8421";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"security-tech-mmr-atlanta-id-bf8741.md": {
+	id: "security-tech-mmr-atlanta-id-bf8741.md";
+  slug: "security-tech-mmr-atlanta-id-bf8741";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
