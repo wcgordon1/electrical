@@ -25,6 +25,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://bestelectricianjobs.com',
+  site: 'https://www.bestelectricianjobs.com',
   integrations: [tailwind(), sitemap(), mdx()]
 });
