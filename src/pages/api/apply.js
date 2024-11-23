@@ -69,19 +69,22 @@ will@bestelectricianjobs.com
         status: 200,
         headers: {
           'Content-Type': 'application/json',
+          'Cache-Control': 'no-store'
         },
       }
     );
   } catch (error) {
+    console.error('API Error:', error);
     return new Response(
       JSON.stringify({
         success: false,
-        error: error.message,
+        error: error.message || 'An error occurred'
       }),
       {
         status: 500,
         headers: {
           'Content-Type': 'application/json',
+          'Cache-Control': 'no-store'
         },
       }
     );

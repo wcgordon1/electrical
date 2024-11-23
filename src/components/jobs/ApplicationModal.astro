@@ -142,6 +142,8 @@ const { jobTitle, company, location, jobId, emails } = Astro.props;
   const modalOverlay = document.getElementById('modalOverlay');
   const modalContent = document.getElementById('modalContent');
   const form = document.getElementById('applicationForm') as HTMLFormElement;
+  const submitButton = document.getElementById('submitButton') as HTMLButtonElement;
+  const statusMessage = document.getElementById('statusMessage');
 
   // Close modal when clicking close button
   closeModal?.addEventListener('click', () => {
@@ -171,19 +173,23 @@ const { jobTitle, company, location, jobId, emails } = Astro.props;
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const formData = new FormData(form);
-    const submitButton = document.getElementById('submitButton');
-    const statusMessage = document.getElementById('statusMessage');
 
     try {
-      // Update button state
       submitButton.disabled = true;
       submitButton.innerHTML = 'Sending...';
-      statusMessage.classList.add('hidden');
+      statusMessage?.classList.add('hidden');
 
       const response = await fetch('/api/apply', {
         method: 'POST',
         body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
       });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
 
       const result = await response.json();
       
@@ -223,7 +229,6 @@ const { jobTitle, company, location, jobId, emails } = Astro.props;
         </div>
       `;
     } finally {
-      // Reset button state
       submitButton.disabled = false;
       submitButton.innerHTML = 'Submit Application';
     }
