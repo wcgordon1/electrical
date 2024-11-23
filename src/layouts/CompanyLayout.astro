@@ -9,9 +9,16 @@ function formatSalary(baseSalary) {
   const { currency, minValue, maxValue, unitText } = baseSalary;
   return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
 }
+
+const pageTitle = `${frontmatter.name} Company Profile`;
+const pageDescription = `${frontmatter.name} is hiring skilled electricians and technicians! Explore open positions, job locations, and career opportunities at ${frontmatter.name}.`;
+
 ---
 
-<BaseLayout>
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <section>
     <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 lg:flex pt-24">
       <div class="lg:w-1/2 lg:pl-12 lg:ml-auto">
@@ -60,9 +67,9 @@ function formatSalary(baseSalary) {
       <div class="lg:w-1/2 lg:order-first">
         <div class="flex-shrink-0">
           <div>
-            <p class="text-purple-900 font-semibold mt-6 text-4xl tracking-tight">
+            <h1 class="text-purple-900 font-semibold mt-6 text-4xl tracking-tight">
               {frontmatter.name}
-            </p>
+            </h1>
             
             <!-- Company Content -->
             <div class="prose-styles mt-10">
@@ -72,7 +79,7 @@ function formatSalary(baseSalary) {
             <!-- Job Listings using CompanyJobs component -->
             <div class="mt-12">
               <h2 class="text-purple-900 font-semibold text-2xl tracking-tight mb-8">
-                Current Openings
+                Current Jobs at {frontmatter.name}
               </h2>
               <ul class="divide-y divide-slate-100">
                 {jobs.map(job => (

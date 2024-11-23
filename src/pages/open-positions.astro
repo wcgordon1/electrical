@@ -21,11 +21,15 @@ function formatSalary(baseSalary) {
   const { currency, minValue, maxValue, unitText } = baseSalary;
   return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
 }
-const pageTitle = "Best Electrician Jobs Open Positions";
+const pageTitle = "Companies Hiring Electricians";
 const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Controls, Voice/Data, Audio/Visual, Solar, and Security Installer, Technician, Project Manager, and more jobs.";
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
+
   <section>
     <header class="px-8 mx-auto max-w-7xl lg:px-16 xl:px-24 pt-8">
       <div

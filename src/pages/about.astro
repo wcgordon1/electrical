@@ -7,10 +7,16 @@ import FeatureTwelve from "@/components/features/FeatureTwelve.astro";
 import FeatureFive from "@/components/features/FeatureFive.astro";
 import StatsTwo from "@/components/stats/StatsTwo.astro";
 import CtaThree from "@/components/cta/CtaThree.astro";
-import FaqTwo from "@/components/faqs/FaqTwo.astro";
 import FaqOne from "@/components/faqs/FaqOne.astro";
+const pageTitle = "About Best Electrician Jobs | The #1 Platform for Hiring Qualified Electricians";
+const pageDescription = "We are the leading electrical job board in the USA. Hire qualified electricians from our platform faster than any other job board.";
 ---
-<BaseLayout>
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
+
   <HeaderAbout />
   <FeatureFive />
   <TestimonialFour />

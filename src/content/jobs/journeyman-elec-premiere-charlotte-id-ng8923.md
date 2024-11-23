@@ -111,9 +111,4 @@ featured: false
 - Experience in the manufacturing, food processing, or automotive industry
 - Bilingual (English/Spanish) skills
 
-## Benefits:
-- Competitive pay and overtime opportunities
-- Health, dental, and vision insurance
-- 401(k) retirement plan with company match
-- Paid time off and holidays
-- Opportunities for career growth and professional development
+
