@@ -92,7 +92,7 @@ baseSalary:
   value: 32
   minValue: 26
   maxValue: 41
-  unitText: "Hour"
+  unitText: "HOUR"
 experienceRequirements: "seniorLevel"
 occupationalCategory: "Level 2"
 identifier:

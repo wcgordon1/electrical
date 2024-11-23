@@ -41,7 +41,7 @@ baseSalary:
   value: 28
   minValue: 22
   maxValue: 38
-  unitText: "Hour"
+  unitText: "HOUR"
 experienceRequirements: "seniorLevel"
 occupationalCategory: "Apprentice"
 identifier:

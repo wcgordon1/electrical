@@ -79,7 +79,7 @@ baseSalary:
   value: 90000
   minValue: 80000
   maxValue: 100000
-  unitText: "Year"
+  unitText: "YEAR"
 experienceRequirements: "seniorLevel"
 occupationalCategory: "Level 3"
 identifier:

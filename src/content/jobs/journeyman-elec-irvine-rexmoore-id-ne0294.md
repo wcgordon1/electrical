@@ -62,7 +62,7 @@ baseSalary:
   value: 40
   minValue: 47
   maxValue: 55
-  unitText: "Hour"
+  unitText: "HOUR"
 experienceRequirements: "seniorLevel"
 occupationalCategory: "Journeyman"
 identifier:
