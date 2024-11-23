@@ -2,6 +2,300 @@
 	"version": 3,
 	"routes": [
 		{
+			"src": "/404/",
+			"headers": {
+				"Location": "/404"
+			},
+			"status": 308
+		},
+		{
+			"src": "/about/",
+			"headers": {
+				"Location": "/about"
+			},
+			"status": 308
+		},
+		{
+			"src": "/articles/",
+			"headers": {
+				"Location": "/articles"
+			},
+			"status": 308
+		},
+		{
+			"src": "/companies/home/",
+			"headers": {
+				"Location": "/companies/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/companies(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/companies/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/company/home/",
+			"headers": {
+				"Location": "/company/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/company/([^/]+?)/",
+			"headers": {
+				"Location": "/company/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/company(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/company/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/contact/",
+			"headers": {
+				"Location": "/contact"
+			},
+			"status": 308
+		},
+		{
+			"src": "/customers/home/",
+			"headers": {
+				"Location": "/customers/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/customers(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/customers/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/forms/contact/",
+			"headers": {
+				"Location": "/forms/contact"
+			},
+			"status": 308
+		},
+		{
+			"src": "/forms/forgot/",
+			"headers": {
+				"Location": "/forms/forgot"
+			},
+			"status": 308
+		},
+		{
+			"src": "/forms/login/",
+			"headers": {
+				"Location": "/forms/login"
+			},
+			"status": 308
+		},
+		{
+			"src": "/forms/signup/",
+			"headers": {
+				"Location": "/forms/signup"
+			},
+			"status": 308
+		},
+		{
+			"src": "/forms/submit/",
+			"headers": {
+				"Location": "/forms/submit"
+			},
+			"status": 308
+		},
+		{
+			"src": "/helpcenter/home/",
+			"headers": {
+				"Location": "/helpcenter/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/helpcenter(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/helpcenter/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/infopages/coming-soon/",
+			"headers": {
+				"Location": "/infopages/coming-soon"
+			},
+			"status": 308
+		},
+		{
+			"src": "/infopages/cookie-settings/",
+			"headers": {
+				"Location": "/infopages/cookie-settings"
+			},
+			"status": 308
+		},
+		{
+			"src": "/infopages(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/infopages/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/integrations/home/",
+			"headers": {
+				"Location": "/integrations/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/integrations(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/integrations/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/jobs/Filters/",
+			"headers": {
+				"Location": "/jobs/Filters"
+			},
+			"status": 308
+		},
+		{
+			"src": "/jobs/home/",
+			"headers": {
+				"Location": "/jobs/home"
+			},
+			"status": 308
+		},
+		{
+			"src": "/jobs/job-application/",
+			"headers": {
+				"Location": "/jobs/job-application"
+			},
+			"status": 308
+		},
+		{
+			"src": "/jobs/open-roles/",
+			"headers": {
+				"Location": "/jobs/open-roles"
+			},
+			"status": 308
+		},
+		{
+			"src": "/jobs(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/jobs/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/landingpages/landing-three/",
+			"headers": {
+				"Location": "/landingpages/landing-three"
+			},
+			"status": 308
+		},
+		{
+			"src": "/landingpages/landing-two/",
+			"headers": {
+				"Location": "/landingpages/landing-two"
+			},
+			"status": 308
+		},
+		{
+			"src": "/open-positions/",
+			"headers": {
+				"Location": "/open-positions"
+			},
+			"status": 308
+		},
+		{
+			"src": "/post-a-job/",
+			"headers": {
+				"Location": "/post-a-job"
+			},
+			"status": 308
+		},
+		{
+			"src": "/posts(?:\\/(.*?))?/",
+			"headers": {
+				"Location": "/posts/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/pricing/pricing-three/",
+			"headers": {
+				"Location": "/pricing/pricing-three"
+			},
+			"status": 308
+		},
+		{
+			"src": "/pricing/pricing-two/",
+			"headers": {
+				"Location": "/pricing/pricing-two"
+			},
+			"status": 308
+		},
+		{
+			"src": "/sections/all-features/",
+			"headers": {
+				"Location": "/sections/all-features"
+			},
+			"status": 308
+		},
+		{
+			"src": "/sections/all-pricing/",
+			"headers": {
+				"Location": "/sections/all-pricing"
+			},
+			"status": 308
+		},
+		{
+			"src": "/sections/all-testimonials/",
+			"headers": {
+				"Location": "/sections/all-testimonials"
+			},
+			"status": 308
+		},
+		{
+			"src": "/system/overview/",
+			"headers": {
+				"Location": "/system/overview"
+			},
+			"status": 308
+		},
+		{
+			"src": "/system/styleguide/",
+			"headers": {
+				"Location": "/system/styleguide"
+			},
+			"status": 308
+		},
+		{
+			"src": "/tags/([^/]+?)/",
+			"headers": {
+				"Location": "/tags/$1"
+			},
+			"status": 308
+		},
+		{
+			"src": "/tags/",
+			"headers": {
+				"Location": "/tags"
+			},
+			"status": 308
+		},
+		{
 			"src": "^/_astro/(.*)$",
 			"headers": {
 				"cache-control": "public, max-age=31536000, immutable"
@@ -16,15 +310,15 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^\\/api\\/apply\\/?$",
+			"src": "^\\/api\\/apply$",
 			"dest": "_render"
 		},
 		{
-			"src": "^\\/api\\/contact\\/?$",
+			"src": "^\\/api\\/contact$",
 			"dest": "_render"
 		},
 		{
-			"src": "^\\/api\\/jobdescription\\/?$",
+			"src": "^\\/api\\/jobdescription$",
 			"dest": "_render"
 		},
 		{
