@@ -10,6 +10,8 @@ export default defineConfig({
     analytics: true,
     webAnalytics: true,
     speedInsights: true,
+    buildCache: false,      // Just added this to clear cache
+    maxDuration: 60        // Just added this to clear cache
   }),
   server: {
     port: 3000,
