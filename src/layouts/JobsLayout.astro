@@ -4,7 +4,7 @@ import ApplicationModal from "../components/jobs/ApplicationModal.astro";
 const { frontmatter } = Astro.props;
 
 // Create dynamic SEO title and description
-const seoTitle = `${frontmatter.position} in ${frontmatter.location}`;
+const seoTitle = `Hiring: ${frontmatter.position} in ${frontmatter.location}`;
 const seoDescription = frontmatter.description.length > 160 
   ? `${frontmatter.description.substring(0, 157)}...`
   : frontmatter.description;
@@ -187,10 +187,10 @@ const jobSchema = {
       </div>
       <div class="lg:w-1/2 lg:order-first">
         <div class="flex-shrink-0">
-          <p
+          <h1
             class="text-purple-900 font-semibold mt-6 text-3xl tracking-tight lg:text-balance">
-            {frontmatter.position}
-          </p>
+            {frontmatter.position} at {frontmatter.hiringOrganization.name}
+          </h1>
           <div class="prose-styles">
             <slot />
           </div>
