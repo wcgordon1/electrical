@@ -26,5 +26,6 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://www.bestelectricianjobs.com',
+  trailingSlash: 'never', // Enforce no trailing slash
   integrations: [tailwind(), sitemap(), mdx()]
 });
