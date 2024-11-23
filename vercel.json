@@ -1,0 +1,17 @@
+{
+    "headers": [
+      {
+        "source": "/jz4fmwev4jq9fu8wgemebuczukcd3hcu.txt",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain; charset=utf-8"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ]
+  }
