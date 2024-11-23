@@ -72,8 +72,6 @@ email: ['will@bestelectricianjobs.com', 'Michael.Mckeaige@pes123.com', 'resumes@
 featured: false
 ---
 
-# Industrial Electrician - North Carolina (Various Sites)
-
 **Compensation:** Competitive hourly rate based on experience  
 **Schedule:** Full-time, Monday-Friday with occasional overtime and weekend work  
 **Locations:** Various industrial sites across North Carolina  
