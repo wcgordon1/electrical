@@ -48,7 +48,11 @@ const jobSchema = {
 ---
 
 <BaseLayout title={seoTitle} description={seoDescription}>
-  <script type="application/ld+json" set:html={JSON.stringify(jobSchema)} />
+  <Fragment slot="head">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+    <script type="application/ld+json" set:html={JSON.stringify(jobSchema)} />
+  </Fragment>
   
   <section>
     <div
