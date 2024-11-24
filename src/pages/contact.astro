@@ -52,11 +52,14 @@ const organizationJsonLd = {
     "addressCountry": "US"
   }
 };
+const pageTitle = "Contact Us. We are happy to help!";
+const pageDescription = "Contact Best Electrician Jobs to learn more about our services and how we can help you find the perfect electrician or technician for your business.";
 ---
 
-<BaseLayout>
+<BaseLayout title={pageTitle} description={pageDescription}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(organizationJsonLd, null, 2)} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
   </Fragment>
 
   <section>

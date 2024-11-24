@@ -17,12 +17,14 @@ const sortedPosts = allPosts.sort((a, b) =>
 
 );
 
+const pageTitle = "Guides and Articles on Electrician Work";
+const pageDescription = "Commercial, Residential, and Industrial Electricians. Fire Alarm, Controls, Security, Solar, Voice/Data, and Audio/Visual Job & Articles.";
 ---
 
-
-
-<BaseLayout>
-
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <section>
 
     <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
@@ -48,8 +50,8 @@ const sortedPosts = allPosts.sort((a, b) =>
             class="text-blue-600 items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-50 hover:bg-blue-100 w-auto"
             title="Post a Job" 
             aria-label="Post a Job"
-            href="/contact">
-            Post a Job
+            href="/tags">
+            Article Tags
           </a>
         </div>
 
