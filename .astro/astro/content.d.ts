@@ -350,6 +350,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"apprentice-elec-howell-lacanada-id-gj132.md": {
+	id: "apprentice-elec-howell-lacanada-id-gj132.md";
+  slug: "apprentice-elec-howell-lacanada-id-gj132";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-howell-sanfernando-id-mg2398.md": {
+	id: "apprentice-elec-howell-sanfernando-id-mg2398.md";
+  slug: "apprentice-elec-howell-sanfernando-id-mg2398";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "apprentice-elec-mmr-atlanta-id-bf7482.md": {
 	id: "apprentice-elec-mmr-atlanta-id-bf7482.md";
   slug: "apprentice-elec-mmr-atlanta-id-bf7482";
