@@ -322,6 +322,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "jobs": {
+"all-work-elec-premiere-id-re8291.md": {
+	id: "all-work-elec-premiere-id-re8291.md";
+  slug: "all-work-elec-premiere-id-re8291";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "apprentice-elec-bakersfield-id-nf2904.md": {
 	id: "apprentice-elec-bakersfield-id-nf2904.md";
   slug: "apprentice-elec-bakersfield-id-nf2904";
@@ -332,6 +339,13 @@ declare module 'astro:content' {
 "apprentice-elec-chulavista-id-fn1298.md": {
 	id: "apprentice-elec-chulavista-id-fn1298.md";
   slug: "apprentice-elec-chulavista-id-fn1298";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"apprentice-elec-d-mmr-burbank-id-fds34242.md": {
+	id: "apprentice-elec-d-mmr-burbank-id-fds34242.md";
+  slug: "apprentice-elec-d-mmr-burbank-id-fds34242";
   body: string;
   collection: "jobs";
   data: any
@@ -633,6 +647,13 @@ declare module 'astro:content' {
 "cable-technician-columbia-md-id-fds43.md": {
 	id: "cable-technician-columbia-md-id-fds43.md";
   slug: "cable-technician-columbia-md-id-fds43";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"electrician-premiere-roswell-id-be8942.md": {
+	id: "electrician-premiere-roswell-id-be8942.md";
+  slug: "electrician-premiere-roswell-id-be8942";
   body: string;
   collection: "jobs";
   data: any
