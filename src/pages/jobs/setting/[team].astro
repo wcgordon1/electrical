@@ -1,0 +1,168 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SearchJobs from "@/components/jobs/SearchJobs.astro";
+import JobFilters from "@/components/jobs/JobFilters.astro";
+import CtaWack from "@/components/cta/CtaWack.astro";
+
+// Required for static paths
+export async function getStaticPaths() {
+  const allJobs = await getCollection("jobs");
+  const uniqueTeams = [...new Set(allJobs.map(job => job.data.team))];
+  
+  return uniqueTeams.map(team => ({
+    params: { 
+      team: `${team.toLowerCase().replace(/\s+/g, '-')}-jobs` 
+    },
+    props: { teamName: team }
+  }));
+}
+
+// Get props and params
+const { teamName } = Astro.props;
+const { team } = Astro.params;
+
+// Get all jobs
+const allJobs = await getCollection("jobs");
+
+// Filter jobs for this team
+const teamJobs = allJobs.filter(job => 
+  job.data.team.toLowerCase().replace(/\s+/g, '-') === 
+  team.replace(/-jobs$/, '')
+);
+
+// Sort jobs by featured status first, then by date
+const sortedJobs = teamJobs.sort((a, b) => {
+  if (a.data.featured && !b.data.featured) return -1;
+  if (!a.data.featured && b.data.featured) return 1;
+  return new Date(b.data.datePosted).getTime() - new Date(a.data.datePosted).getTime();
+});
+
+// Format salary for display
+function formatSalary(baseSalary) {
+  const { currency, minValue, maxValue, unitText } = baseSalary;
+  return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
+}
+
+// Create dynamic title and description
+const pageTitle = `${teamName} Electrician Jobs`;
+const pageDescription = `Find ${teamName} electrician jobs with top employers. Browse the latest ${teamName.toLowerCase()} electrical positions with competitive pay and benefits. Apply today!`;
+
+// Capitalize team name for display
+const displayTeam = teamName.charAt(0).toUpperCase() + teamName.slice(1);
+
+// Create breadcrumb JSON-LD
+const breadcrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.bestelectricianjobs.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Jobs",
+      "item": "https://www.bestelectricianjobs.com/open-positions"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": `${displayTeam} Jobs`,
+      "item": new URL(Astro.url.pathname, Astro.site).toString()
+    }
+  ]
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbList, null, 2)} />
+  </Fragment>
+
+  <!-- Header section -->
+  <section>
+    <header class="px-8 mx-auto max-w-7xl lg:px-16 xl:px-24 pt-8">
+      <div
+        class="p-8 lg:px-20 lg:py-32 rounded-3xl bg-gradient-to-tr from-purple-900 via-purple-800 to-blue-700">
+        <div class="text-center max-w-xl mx-auto">
+          <nav class="inline-flex text-white text-sm leading-6 px-4 py-2 relative bg-white/10 ring-1 ring-white/20 rounded-full">
+            <a 
+              href="/" 
+              class="hover:underline transition-all"
+            >
+              Home
+            </a>
+            <span class="mx-2 text-white/60">/</span>
+            <a 
+              href="/open-positions" 
+              class="hover:underline transition-all"
+            >
+              Jobs
+            </a>
+            <span class="mx-2 text-white/60">/</span>
+            <span class="underline">
+              {displayTeam} Jobs
+            </span>
+          </nav>
+          <h1
+            class="text-white font-semibold tracking-tight lg:text-5xl mt-8 text-3xl lg:text-balance">
+            {displayTeam} Electrician Jobs
+          </h1>
+          <p class="text-slate-300 mt-5 lg:text-pretty">
+            Find the best {displayTeam.toLowerCase()} electrician jobs. We connect skilled electricians with top employers in {displayTeam.toLowerCase()} settings.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search component with correct spacing -->
+    <div class="lg:-mt-24 -mt-11">
+      <SearchJobs />
+    </div>
+  </section>
+
+  <!-- Main content with three columns -->
+  <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24">
+    <div class="mt-4 lg:mt-12 lg:flex lg:gap-x-16">
+      <!-- Left column - Filters -->
+      <div class="lg:w-1/4">
+        <div class="lg:sticky lg:top-8">
+          <JobFilters />
+        </div>
+      </div>
+      
+      <!-- Middle column - Job listings -->
+      <div class="lg:w-2/4 mt-8 lg:mt-0 mb-24">
+        <!-- Job listings will go here -->
+      </div>
+
+      <!-- Right column -->
+      <div class="lg:w-1/4">
+        <div class="lg:sticky lg:top-8">
+          <div class="bg-slate-50 rounded-3xl p-4 lg:p-6">
+            <div>
+              <h3 class="text-lg font-medium text-purple-900">{displayTeam} Electrician Jobs</h3>
+              <p class="text-slate-500 text-sm mt-2">Where Electricians Find Jobs.</p>
+              <p class="text-slate-500 text-sm mt-2">Indeed & ZipRecruiter not working? Give us a try.</p>
+            </div>
+            <div class="mt-6">
+              <a 
+                href="/post-a-job" 
+                class="w-full text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 rounded-full inline-block text-center"
+              >
+                Post a Job
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <CtaWack />
+</BaseLayout> 
