@@ -1,0 +1,168 @@
+---
+import { getCollection } from "astro:content";
+
+interface Props {
+  context: 'team' | 'category' | 'location';
+  currentValue: string;
+}
+
+const { context, currentValue } = Astro.props;
+
+// Get all jobs and filter based on context
+const allJobs = await getCollection("jobs");
+let filteredJobs: any[] = [];
+
+switch (context) {
+  case 'team':
+    filteredJobs = allJobs.filter(job => 
+      job.data.team.toLowerCase() === currentValue.toLowerCase()
+    );
+    break;
+  case 'category':
+    filteredJobs = allJobs.filter(job => 
+      job.data.occupationalCategory.toLowerCase() === currentValue.toLowerCase()
+    );
+    break;
+  case 'location':
+    filteredJobs = allJobs.filter(job => 
+      job.data.location === currentValue
+    );
+    break;
+}
+
+// Make totalJobs available to the template
+const totalJobs = filteredJobs.length;
+const placeholder = context === 'location' 
+  ? `Search ${totalJobs} jobs in ${currentValue}...`
+  : `Search ${totalJobs} ${currentValue} jobs...`;
+
+// Get current search value from URL if it exists
+const searchValue = Astro.url.searchParams.get('search') || '';
+---
+
+<div class="lg:-mt-24 mx-auto md:px-32 py-6 max-w-7xl">
+  <div class="mx-auto rounded-3xl p-4 lg:p-4 mt-4 bg-white/20 backdrop-blur-xl shadow-2xl shadow-purple-500/10">
+    <div class="flex-grow relative">
+      <input
+        id="searchInput"
+        class="leading-none text-left block w-full rounded-2xl border-0 py-3.5 pl-4 pr-24 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6 duration-200 outline-none"
+        type="text"
+        placeholder={placeholder}
+        aria-label="Search jobs"
+      />
+      <svg
+        id="searchIcon"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <button
+        id="clearButton"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-sm font-medium hidden"
+        aria-label="Clear search">
+        Clear
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+  const clearButton = document.getElementById('clearButton');
+  const searchIcon = document.getElementById('searchIcon');
+  
+  function filterJobs() {
+    const searchTerm = searchInput?.value.toLowerCase() || '';
+    const jobItems = document.querySelectorAll('.job-item');
+
+    // Show/hide clear button and search icon based on search length
+    if (clearButton && searchIcon) {
+      const hasSearch = searchTerm.length >= 2;
+      clearButton.classList.toggle('hidden', !hasSearch);
+      searchIcon.classList.toggle('hidden', hasSearch);
+    }
+
+    // Filter jobs if search term is 2 or more characters
+    if (searchTerm.length >= 2) {
+      jobItems.forEach(item => {
+        if (!(item instanceof HTMLElement)) return;
+        
+        const jobData = {
+          position: item.dataset.position?.toLowerCase() || '',
+          location: item.dataset.location?.toLowerCase() || '',
+          team: item.dataset.team?.toLowerCase() || '',
+          description: item.dataset.description?.toLowerCase() || '',
+          category: item.dataset.category?.toLowerCase() || '',
+          company: item.dataset.company?.toLowerCase() || ''
+        };
+
+        // Split search term into words
+        const searchWords = searchTerm.trim().split(/\s+/);
+
+        // Check if any word matches any field
+        const matchesSearch = searchWords.every(word => {
+          return Object.values(jobData).some(value => 
+            // Check for exact matches first
+            value === word ||
+            // Then check for partial matches
+            value.includes(word) ||
+            // Check for company name matches (e.g., "mmr", "rex moore")
+            value.split(/\s+/).some(part => 
+              part === word || part.startsWith(word)
+            )
+          );
+        });
+
+        item.style.display = matchesSearch ? '' : 'none';
+      });
+    } else {
+      // Show all jobs if search term is less than 2 characters
+      jobItems.forEach(item => {
+        if (item instanceof HTMLElement) {
+          item.style.display = '';
+        }
+      });
+    }
+
+    // Check for no results
+    checkForResults();
+  }
+
+  function clearSearch() {
+    if (searchInput) {
+      searchInput.value = '';
+      filterJobs();
+    }
+  }
+
+  function checkForResults() {
+    const jobItems = document.querySelectorAll('.job-item');
+    const noResults = document.getElementById('noResults');
+    if (!noResults) return;
+
+    let hasVisibleJobs = false;
+    jobItems.forEach(item => {
+      if (item instanceof HTMLElement && item.style.display !== 'none') {
+        hasVisibleJobs = true;
+      }
+    });
+
+    noResults.style.display = hasVisibleJobs ? 'none' : 'block';
+  }
+
+  searchInput?.addEventListener('input', filterJobs);
+  clearButton?.addEventListener('click', clearSearch);
+
+  // Initial check
+  checkForResults();
+</script> 

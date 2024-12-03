@@ -1,9 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import SearchJobs from "@/components/jobs/SearchJobs.astro";
-import JobFilters from "@/components/jobs/JobFilters.astro";
+import DynamicSearch from "@/components/jobs/dynamic/DynamicSearch.astro";
+import DynamicOptions from "@/components/jobs/dynamic/DynamicOptions.astro";
 import CtaWack from "@/components/cta/CtaWack.astro";
+import DynamicEntries from "@/components/jobs/dynamic/DynamicEntries.astro";
 
 // Required for static paths
 export async function getStaticPaths() {
@@ -123,7 +124,10 @@ const breadcrumbList = {
 
     <!-- Search component with correct spacing -->
     <div class="lg:-mt-24 -mt-11">
-      <SearchJobs />
+      <DynamicSearch 
+        context="location"
+        currentValue={locationName}
+      />
     </div>
   </section>
 
@@ -132,18 +136,18 @@ const breadcrumbList = {
     <div class="mt-4 lg:mt-12 lg:flex lg:gap-x-16">
       <!-- Left column - Filters -->
       <div class="lg:w-1/4">
-        <div class="lg:sticky lg:top-8">
-          <JobFilters />
-        </div>
+        <DynamicOptions />
       </div>
       
       <!-- Middle column - Job listings -->
       <div class="lg:w-2/4 mt-8 lg:mt-0 mb-24">
-        <!-- Job listings will go here -->
+        <ul role="list" class="divide-y divide-slate-100">
+          <DynamicEntries jobs={sortedJobs} />
+        </ul>
       </div>
 
       <!-- Right column -->
-      <div class="lg:w-1/4">
+      <div class="lg:w-1/4 min-w-[240px]">
         <div class="lg:sticky lg:top-8">
           <div class="bg-slate-50 rounded-3xl p-4 lg:p-6">
             <div>
@@ -151,8 +155,14 @@ const breadcrumbList = {
               <p class="text-slate-500 text-sm mt-2">Where Electricians Find Jobs.</p>
               <p class="text-slate-500 text-sm mt-2">Indeed & ZipRecruiter not working? Give us a try.</p>
             </div>
-            <div class="mt-6">
-              <a 
+            <div class="mt-6 flex flex-col gap-3">
+                <a
+                  href="/open-positions"
+                  class="w-full text-blue-600 items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-2 rounded-full active:bg-blue-800 active:text-white bg-blue-100 hover:bg-blue-50"
+                >
+                  View All Jobs
+                </a>
+                <a 
                 href="/post-a-job" 
                 class="w-full text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 rounded-full inline-block text-center"
               >

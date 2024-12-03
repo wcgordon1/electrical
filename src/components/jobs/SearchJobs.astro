@@ -8,6 +8,9 @@ const totalJobs = jobs.length;
 
 // Make totalJobs available to the template
 const placeholder = `Search ${totalJobs} jobs...`;
+
+// Get current search value from URL if it exists
+const searchValue = Astro.url.searchParams.get('search') || '';
 ---
 
 <div class="lg:-mt-24 mx-auto md:px-32 py-6 max-w-7xl">
@@ -15,18 +18,15 @@ const placeholder = `Search ${totalJobs} jobs...`;
     <div class="flex-grow relative">
       <input
         id="searchInput"
+        name="search"
+        value={searchValue}
         class="leading-none text-left block w-full rounded-2xl border-0 py-3.5 pl-4 pr-24 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6 duration-200 outline-none"
         type="text"
         placeholder={placeholder}
         aria-label="Search jobs"
       />
-      <button
-        id="clearButton"
-        class="absolute right-12 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-sm font-medium hidden"
-        aria-label="Clear search">
-        Clear
-      </button>
       <svg
+        id="searchIcon"
         class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400"
         width="20"
         height="20"
@@ -41,6 +41,12 @@ const placeholder = `Search ${totalJobs} jobs...`;
           stroke-linejoin="round"
         />
       </svg>
+      <button
+        id="clearButton"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-sm font-medium hidden"
+        aria-label="Clear search">
+        Clear
+      </button>
     </div>
   </div>
 </div>
@@ -49,6 +55,7 @@ const placeholder = `Search ${totalJobs} jobs...`;
   document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput') as HTMLInputElement;
     const clearButton = document.getElementById('clearButton');
+    const searchIcon = document.getElementById('searchIcon');
     
     document.addEventListener('resetSearch', () => {
       if (searchInput) {
@@ -61,28 +68,54 @@ const placeholder = `Search ${totalJobs} jobs...`;
       const jobItems = document.querySelectorAll('.job-item');
       const searchTerm = searchInput?.value.toLowerCase() || '';
 
-      // Show/hide clear button based on search length
-      if (clearButton) {
-        clearButton.classList.toggle('hidden', searchTerm.length < 2);
+      // Show/hide clear button and search icon based on search length
+      if (clearButton && searchIcon) {
+        const hasSearch = searchTerm.length >= 2;
+        clearButton.classList.toggle('hidden', !hasSearch);
+        searchIcon.classList.toggle('hidden', hasSearch);
       }
 
-      jobItems.forEach(item => {
-        if (!(item instanceof HTMLElement)) return;
-        
-        const jobData = {
-          position: item.dataset.position,
-          location: item.dataset.location,
-          team: item.dataset.team,
-          description: item.dataset.description,
-          category: item.dataset.category
-        };
+      // Filter jobs if search term is 2 or more characters
+      if (searchTerm.length >= 2) {
+        jobItems.forEach(item => {
+          if (!(item instanceof HTMLElement)) return;
+          
+          const jobData = {
+            position: item.dataset.position?.toLowerCase() || '',
+            location: item.dataset.location?.toLowerCase() || '',
+            team: item.dataset.team?.toLowerCase() || '',
+            description: item.dataset.description?.toLowerCase() || '',
+            category: item.dataset.category?.toLowerCase() || '',
+            company: item.dataset.company?.toLowerCase() || ''
+          };
 
-        const matchesSearch = !searchTerm || Object.values(jobData).some(value => 
-          value && value.toLowerCase().includes(searchTerm)
-        );
+          // Split search term into words
+          const searchWords = searchTerm.trim().split(/\s+/);
 
-        item.style.display = matchesSearch ? '' : 'none';
-      });
+          // Check if any word matches any field
+          const matchesSearch = searchWords.every(word => {
+            return Object.values(jobData).some(value => 
+              // Check for exact matches first
+              value === word ||
+              // Then check for partial matches
+              value.includes(word) ||
+              // Check for company name matches (e.g., "mmr", "rex moore")
+              value.split(/\s+/).some(part => 
+                part === word || part.startsWith(word)
+              )
+            );
+          });
+
+          item.style.display = matchesSearch ? '' : 'none';
+        });
+      } else {
+        // Show all jobs if search term is less than 2 characters
+        jobItems.forEach(item => {
+          if (item instanceof HTMLElement) {
+            item.style.display = '';
+          }
+        });
+      }
     }
 
     function clearSearch() {

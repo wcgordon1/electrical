@@ -1,0 +1,190 @@
+---
+interface Props {
+  jobs: Array<{
+    slug: string;
+    data: {
+      position: string;
+      location: string;
+      team: string;
+      hiringOrganization: {
+        name: string;
+        logo: string;
+      };
+      baseSalary: {
+        currency: string;
+        minValue: number;
+        maxValue: number;
+        unitText: string;
+      };
+      employmentType: string;
+      description: string;
+      occupationalCategory: string;
+      featured: boolean;
+      datePosted: string;
+    };
+  }>;
+}
+
+const { jobs } = Astro.props;
+
+function formatSalary(baseSalary) {
+  const { currency, minValue, maxValue, unitText } = baseSalary;
+  return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
+}
+---
+
+{jobs.map(job => (
+  <li 
+    class={`job-item ${job.data.featured ? 'featured' : ''}`}
+    data-position={job.data.position}
+    data-location={job.data.location}
+    data-team={job.data.team}
+    data-description={job.data.description}
+    data-category={job.data.occupationalCategory}
+    data-salary={formatSalary(job.data.baseSalary).replace(/[^0-9]/g, '')}
+    data-featured={job.data.featured}
+  >
+    <a 
+      href={`/jobs/${job.slug}`} 
+      class="group block hover:bg-slate-50 p-4 sm:p-6 rounded-2xl transition-colors"
+    >
+      <div class="relative flex items-center w-full">
+        <!-- Company Logo -->
+        <div class="relative size-12 sm:size-14 flex-none">
+          <img
+            class="absolute inset-0 size-full object-contain"
+            src={job.data.hiringOrganization.logo}
+            alt={`${job.data.hiringOrganization.name} logo`}
+          />
+          <div class="absolute inset-0 rounded-full ring-1 ring-inset ring-slate-200/10">
+          </div>
+        </div>
+
+        <!-- Text Content -->
+        <dl class="ml-4 flex-1 flex flex-col gap-y-2 sm:ml-6">
+          <!-- Company Name -->
+          <div>
+            <dt class="sr-only">Company</dt>
+            <dd class="text-sm font-medium text-blue-600">
+              {job.data.hiringOrganization.name}
+            </dd>
+          </div>
+
+          <!-- Title and Location -->
+          <div class="flex items-center justify-between">
+            <dt class="sr-only">Title and Location</dt>
+            <dd class="text-base font-semibold text-purple-900 flex-1">
+              {job.data.position}
+            </dd>
+            <dd class="text-sm text-slate-500 text-right">
+              {job.data.location}
+            </dd>
+          </div>
+
+          <!-- Employment Type and Salary -->
+          <div class="flex items-center gap-x-4">
+            <dt class="sr-only">Employment Type</dt>
+            <dd class="text-xs text-slate-500">
+              {job.data.employmentType}
+            </dd>
+            <dt class="sr-only">Salary</dt>
+            <dd class="flex items-center text-xs text-slate-500">
+              {formatSalary(job.data.baseSalary)}
+            </dd>
+          </div>
+
+          <!-- Team and Date -->
+          <div class="flex items-center gap-x-4">
+            <dt class="sr-only">Team and Date</dt>
+            <dd class="text-xs font-medium tracking-wide text-blue-600">
+              {job.data.team}
+            </dd>
+            <dd class="text-xs text-slate-500">
+              Posted: 
+              {new Date(job.data.datePosted).toLocaleDateString('en-US', {
+                month: '2-digit',
+                day: '2-digit',
+                year: 'numeric'
+              })}
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </a>
+  </li>
+))}
+
+<!-- No Results Message -->
+<div id="noResults" class="hidden">
+  <div class="text-center py-12 px-4 bg-slate-50 rounded-3xl">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      class="size-12 mx-auto text-slate-400 mb-4" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      stroke-width="2" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    >
+      <circle cx="11" cy="11" r="8" />
+      <path d="m21 21-4.3-4.3" />
+    </svg>
+    <h3 class="text-lg font-medium text-purple-900 mb-2">No jobs match your search</h3>
+    <p class="text-slate-500 text-sm mb-4">Try adjusting your search or filters to find what you're looking for.</p>
+    <button
+      onclick="window.resetAllFilters()"
+      class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-2 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600"
+    >
+      Reset Search
+    </button>
+  </div>
+</div>
+
+<style>
+  .featured {
+    position: relative;
+    background-color: rgb(243 244 246 / 0.2);
+    border-radius: 1rem;
+  }
+  
+  .featured::before {
+    content: "Featured";
+    position: absolute;
+    top: 1rem;
+    right: 0.3rem;
+    z-index: 10;
+    background-color: rgb(59 130 246);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    pointer-events: none;
+  }
+
+  .featured .group:hover::before {
+    z-index: 1;
+  }
+</style>
+
+<script>
+  // Function to check if any jobs are visible and show/hide the no results message
+  function checkForResults() {
+    const jobItems = document.querySelectorAll('.job-item');
+    const noResults = document.getElementById('noResults');
+    if (!noResults) return;
+
+    let hasVisibleJobs = false;
+    jobItems.forEach(item => {
+      if (item instanceof HTMLElement && item.style.display !== 'none') {
+        hasVisibleJobs = true;
+      }
+    });
+
+    noResults.style.display = hasVisibleJobs ? 'none' : 'block';
+  }
+
+  // Initial check
+  checkForResults();
+</script> 

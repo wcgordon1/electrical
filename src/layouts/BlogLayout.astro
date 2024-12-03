@@ -125,19 +125,19 @@ const jsonLd = {
           }
         </div>
         <!-- Featured Image -->
-        <!--{frontmatter.image && (
+        {frontmatter.image && (
           <img
             src={frontmatter.image.url}
             alt={frontmatter.image.alt}
             class="rounded-2xl w-full max-w-4xl mx-auto object-cover aspect-video shadow-lg"
           />
-        )}-->
+        )}
       </div>
     </div>
   </section>
   <!-- Content -->
   <section>
-    <div class="mx-auto max-w-4xl lg:px-16 md:px-12 px-8 xl:px-24 mb-12">
+    <div class="mx-auto max-w-4xl lg:px-16 md:px-12 px-8 xl:px-24 py-12">
       <div class="prose prose-lg prose-slate max-w-none">
         <slot />
       </div>

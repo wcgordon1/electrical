@@ -18,21 +18,21 @@
 
 - [ ] Create @pages/jobs/teams/[team].astro
   - Basic page structure
-  - Use existing components temporarily but do not update these components
+  - Use existing components temporarily
   - Filter jobs by team
   - Examples: /commercial-jobs, /industrial-jobs
   - Test routing and job filtering
 
 - [ ] Create @pages/jobs/categories/[category].astro
   - Basic page structure
-  - Use existing components temporarily but do not update these components
+  - Use existing components temporarily
   - Filter jobs by category
   - Examples: /apprentice-jobs, /journeyman-jobs
   - Test routing and job filtering
 
 - [ ] Create @pages/jobs/locations/[location].astro
   - Basic page structure
-  - Use existing components temporarily but do not update these components
+  - Use existing components temporarily
   - Handle "City, State" format
   - Test routing and job filtering
 
