@@ -131,48 +131,39 @@ const currentCategory = searchParams.get('category');
         items.forEach(item => jobList.appendChild(item));
       }
     });
+
+    // Trigger check for no results
+    document.dispatchEvent(new CustomEvent('checkResults'));
   }
 
-  // Event Listeners
-  const radioGroups = ['salary-sort', 'team-filter', 'category-filter'];
-  
-  radioGroups.forEach(group => {
-    document.querySelectorAll<HTMLInputElement>(`input[name="${group}"]`).forEach(radio => {
-      radio.addEventListener('change', (e) => {
-        const target = e.target as HTMLInputElement;
-        const filterType = group.split('-')[0] as keyof Filters;
-        activeFilters[filterType] = target.value;
-        filterJobs();
-      });
-    });
-  });
-
-  document.getElementById('resetFilters')?.addEventListener('click', () => {
-    activeFilters = { salary: null, team: null, category: null };
-    document.querySelectorAll<HTMLInputElement>('input[type="radio"]')
-      .forEach(radio => radio.checked = false);
-    
-    // Dispatch custom event for search reset
-    document.dispatchEvent(new CustomEvent('resetSearch'));
-    
-    filterJobs();
-  });
-
-  // Auto-submit form when any radio button changes
-  document.querySelectorAll('input[data-preserve-filters="true"]').forEach(radio => {
+  // Event Listeners for Radio Buttons
+  document.querySelectorAll<HTMLInputElement>('input[type="radio"]').forEach(radio => {
     radio.addEventListener('change', (e) => {
-      const form = e.target.closest('form') as HTMLFormElement;
-      if (form) {
-        // Get current URL parameters
-        const params = new URLSearchParams(window.location.search);
-        
-        // Update or add the changed parameter
-        params.set(radio.name, radio.value);
-        
-        // Update form action with all parameters
-        form.action = `/open-positions?${params.toString()}`;
-        form.submit();
-      }
+      const target = e.target as HTMLInputElement;
+      const filterType = target.name.split('-')[0] as keyof Filters;
+      activeFilters[filterType] = target.value;
+      filterJobs();
     });
   });
+
+  // Reset Filters
+  const resetButton = document.querySelector('a[href="/open-positions"]');
+  if (resetButton) {
+    resetButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      activeFilters = { salary: null, team: null, category: null };
+      document.querySelectorAll<HTMLInputElement>('input[type="radio"]')
+        .forEach(radio => radio.checked = false);
+      
+      // Reset search
+      document.dispatchEvent(new CustomEvent('resetSearch'));
+      
+      // Reset job visibility
+      document.querySelectorAll<HTMLElement>('.job-item')
+        .forEach(item => item.style.display = '');
+
+      // Check for results
+      document.dispatchEvent(new CustomEvent('checkResults'));
+    });
+  }
 </script> 
