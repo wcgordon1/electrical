@@ -43,3 +43,35 @@ function filterByLimit(jobs, limit) {
         .sort((a, b) => b.datePosted - a.datePosted)
         .slice(0, limit);
 } 
+
+// Add imports and setup from index-jobs.js
+// Then modify getRecentJobs to use our filters:
+
+async function getRecentJobs() {
+  const jobsDir = path.resolve(__dirname, process.env.JOBS_DIRECTORY);
+  const files = fs.readdirSync(jobsDir);
+  let jobs = files
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const content = fs.readFileSync(path.join(jobsDir, file), 'utf8');
+      const { data } = matter(content);
+      return {
+        slug: file.replace('.md', ''),
+        datePosted: new Date(data.datePosted),
+        url: `${process.env.SITE_URL}/jobs/${file.replace('.md', '')}`
+      };
+    });
+
+  // Apply filters based on arguments
+  if (filter.days) {
+    jobs = filterByDays(jobs, filter.days);
+  }
+  if (filter.since) {
+    jobs = filterBySince(jobs, filter.since);
+  }
+  if (filter.limit) {
+    jobs = filterByLimit(jobs, filter.limit);
+  }
+
+  return jobs;
+} 
