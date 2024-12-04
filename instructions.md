@@ -1,81 +1,155 @@
-# SEO-Optimized Dynamic Job Pages Implementation
+# Google Indexing API Implementation for Job Postings
 
-## Component Reference Guide
+## Prerequisites Setup
 
-### Existing Components (Will Not Modify):
-- @SearchJobs.astro - Main search functionality
-- @JobFilters.astro - Main filter functionality
-- @open-positions.astro - Main jobs listing page
-- @JobsLayout.astro - Jobs-specific layout
+1. **Google Search Console & API Setup** (Already Completed)
+   - Site verified in Search Console ✓
+   - Google Cloud Project created ✓
+   - Service account credentials downloaded (electricianjobs-3fbbf4fd4ce5.json) ✓
+
+2. **Project Structure Setup**
+```bash
+# Create necessary directories
+mkdir -p scripts/config
+mkdir -p scripts/logs
+
+# Move credentials file to secure location
+cp /Users/williamgordon/Downloads/electricianjobs-3fbbf4fd4ce5.json scripts/config/credentials.json
+
+# Create required files
+touch scripts/index-jobs.js
+touch scripts/config/.env
+touch scripts/logs/indexing.log
+```
+
+3. **Environment Setup**
+```bash
+# Install required packages
+npm install googleapis dotenv gray-matter
+
+# Add to package.json scripts
+{
+  "scripts": {
+    "index-jobs": "node scripts/index-jobs.js"
+  }
+}
+```
+
+4. **Configure Environment Variables**
+Add to scripts/config/.env:
+```env
+GOOGLE_APPLICATION_CREDENTIALS="./config/credentials.json"
+SITE_URL="https://bestelectricianjobs.com"
+JOBS_DIRECTORY="../content/jobs"
+LOG_FILE="./logs/indexing.log"
+```
 
 ## Implementation Steps
 
-### 1. Create Basic Dynamic Pages First
-- [ ] Create folder structure:
-  ```bash
-  mkdir -p src/pages/jobs/{teams,categories,locations}
-  ```
+1. **Create Basic Script Structure**
+File: scripts/index-jobs.js
+```javascript
+require('dotenv').config({ path: './config/.env' });
+const { google } = require('googleapis');
+const fs = require('fs');
+const matter = require('gray-matter');
+const path = require('path');
 
-- [ ] Create @pages/jobs/teams/[team].astro
-  - Basic page structure
-  - Use existing components temporarily
-  - Filter jobs by team
-  - Examples: /commercial-jobs, /industrial-jobs
-  - Test routing and job filtering
+// Log function
+const log = (message) => {
+  const timestamp = new Date().toISOString();
+  const logMessage = `${timestamp}: ${message}\n`;
+  fs.appendFileSync(process.env.LOG_FILE, logMessage);
+  console.log(message);
+};
+```
 
-- [ ] Create @pages/jobs/categories/[category].astro
-  - Basic page structure
-  - Use existing components temporarily
-  - Filter jobs by category
-  - Examples: /apprentice-jobs, /journeyman-jobs
-  - Test routing and job filtering
+2. **Add Job Reading Function**
+```javascript
+async function getRecentJobs() {
+  const jobsDir = path.resolve(__dirname, process.env.JOBS_DIRECTORY);
+  const files = fs.readdirSync(jobsDir);
+  const today = new Date();
+  const thirtyDaysAgo = new Date(today - 30 * 24 * 60 * 60 * 1000);
 
-- [ ] Create @pages/jobs/locations/[location].astro
-  - Basic page structure
-  - Use existing components temporarily
-  - Handle "City, State" format
-  - Test routing and job filtering
+  return files
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const content = fs.readFileSync(path.join(jobsDir, file), 'utf8');
+      const { data } = matter(content);
+      return {
+        slug: file.replace('.md', ''),
+        datePosted: new Date(data.datePosted),
+        url: `${process.env.SITE_URL}/jobs/${file.replace('.md', '')}`
+      };
+    })
+    .filter(job => job.datePosted > thirtyDaysAgo);
+}
+```
 
-### 2. Add SEO Elements to Dynamic Pages
-- [ ] Add proper meta tags
-- [ ] Create unique titles and descriptions
-- [ ] Add schema markup
-- [ ] Set canonical URLs
-- [ ] Update sitemap.xml
+3. **Add Indexing Function**
+```javascript
+async function indexJobs() {
+  try {
+    // Auth setup
+    const auth = new google.auth.GoogleAuth({
+      keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+      scopes: ['https://www.googleapis.com/auth/indexing'],
+    });
 
-### 3. Create Dynamic Components
-- [ ] Create @components/jobs/dynamic/DynamicSearch.astro
-  - Based on working page implementation
-  - Optimize for filtered context
-  - Maintain existing search UX
+    const indexing = google.indexing({ version: 'v3', auth });
+    const jobs = await getRecentJobs();
 
-- [ ] Create @components/jobs/dynamic/DynamicFilters.astro
-  - Based on working page implementation
-  - Show only relevant filters
-  - Maintain existing filter UX
+    for (const job of jobs) {
+      try {
+        const result = await indexing.urlNotifications.publish({
+          requestBody: {
+            url: job.url,
+            type: 'URL_UPDATED'
+          }
+        });
+        log(`Indexed: ${job.url} - Status: ${result.status}`);
+      } catch (error) {
+        log(`Error indexing ${job.url}: ${error.message}`);
+      }
+    }
+  } catch (error) {
+    log(`Fatal error: ${error.message}`);
+  }
+}
+```
 
-- [ ] Create @components/jobs/dynamic/DynamicEntries.astro
-  - Based on working page implementation
-  - Optimize for filtered context
-  - Maintain existing styling
+## Running the Script
 
-### 4. Replace Temporary Components
-- [ ] Update team pages with dynamic components
-- [ ] Update category pages with dynamic components
-- [ ] Update location pages with dynamic components
-- [ ] Test all functionality
+1. **First Time Setup**
+```bash
+# Create directories and move files
+mkdir -p scripts/config scripts/logs
+cp /Users/williamgordon/Downloads/electricianjobs-3fbbf4fd4ce5.json scripts/config/credentials.json
 
-### 5. Final Testing
-- [ ] Test all dynamic routes
-- [ ] Verify SEO elements
-- [ ] Check mobile responsiveness
-- [ ] Validate schema markup
-- [ ] Test search and filters
-- [ ] Check performance
+# Install dependencies
+npm install googleapis dotenv gray-matter
+```
 
-## Notes
-- Build and test pages first
-- Add SEO elements early
-- Create specialized components last
-- Keep existing functionality intact
-- Test thoroughly at each step
+2. **Test Run**
+```bash
+# Run script manually
+npm run index-jobs
+```
+
+3. **Check Results**
+- Review scripts/logs/indexing.log
+- Check Google Search Console for indexing status
+
+## Security Notes
+- ✓ Keep credentials.json secure and never commit it
+- ✓ Add scripts/config/credentials.json to .gitignore
+- ✓ Add scripts/config/.env to .gitignore
+- ✓ Add scripts/logs/* to .gitignore
+
+## Maintenance
+- Run script manually after adding new jobs
+- Check logs for any indexing errors
+- Monitor Search Console for job indexing status
+
+Would you like me to explain any part in more detail?
