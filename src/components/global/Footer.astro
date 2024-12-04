@@ -1,4 +1,20 @@
 ---
+import { getCollection } from "astro:content";
+
+const allJobs = await getCollection("jobs");
+
+// Get unique values
+const teams = [...new Set(allJobs.map(job => job.data.team))].sort();
+const categories = [...new Set(allJobs.map(job => job.data.occupationalCategory))].sort();
+const locations = [...new Set(allJobs.map(job => job.data.location))].sort();
+
+// Format URLs
+const formatUrl = (value: string, type: string) => {
+  // Convert spaces and commas to hyphens, make lowercase
+  const formattedValue = value.toLowerCase().replace(/,?\s+/g, '-');
+  return `/jobs/${type}/${formattedValue}-jobs`;
+};
+
 const footerSections = [
   {
     title: "Navigation",
@@ -128,22 +144,67 @@ const footerSections = [
         </div>
       </div>
     </div>
-    <div class="col-span-full md:col-span-1 max-w-xl mt-12 lg:mt-24">
-      <div
-        class="flex flex-col col-span-full md:flex-row justify-center gap-6 lg:ml-auto">
+    <div class="col-span-full max-w-none mt-12">
+      <!-- Buttons container -->
+      <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
         <a
           class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full"
-          title="link to your page"
-          aria-label="your label"
           href="/open-positions">
           Open Positions
-        </a><a
-          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-transparent border-white border hover:border-blue-500 w-full"
-          title="link to your page"
-          aria-label="your label"
-          href="/post-a-job">
-          <span>Post a Job</span>
         </a>
+        <a
+          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-transparent border-white border hover:border-blue-500 w-full"
+          href="/post-a-job">
+          Post a Job
+        </a>
+      </div>
+
+      <!-- Dynamic Links Section - Full Width -->
+      <div class="mt-8 w-full">
+        <!-- Settings -->
+        <div class="mb-4">
+          <h4 class="text-white/60 text-sm mb-2">Eletrical Work:</h4>
+          <div class="flex flex-wrap gap-4">
+            {teams.map(team => (
+              <a 
+                href={formatUrl(team, 'setting')}
+                class="text-white/40 hover:text-white font-normal text-xs"
+              >
+                {team}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="mb-4">
+          <h4 class="text-white/60 text-sm mb-2">Skill Level:</h4>
+          <div class="flex flex-wrap gap-4">
+            {categories.map(category => (
+              <a 
+                href={formatUrl(category, 'skill')}
+                class="text-white/40 hover:text-white font-normal text-xs"
+              >
+                {category}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Locations -->
+        <div class="mb-4">
+          <h4 class="text-white/60 text-sm mb-2">Job Locations:</h4>
+          <div class="flex flex-wrap gap-4">
+            {locations.map(location => (
+              <a 
+                href={formatUrl(location, 'location')}
+                class="text-white/40 hover:text-white font-normal text-xs whitespace-nowrap"
+              >
+                {location} Jobs
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   </div>
