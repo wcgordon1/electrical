@@ -3,10 +3,23 @@ npm run index-jobs
 node scripts/update-dates.js
 
 # Last 7 days
-npm run index-recent -- -days=7
+npm run index-recent-jobs -- -days=7
 
 # Since specific date
-npm run index-recent -- -since=2024-04-20
+npm run index-recent-jobs -- -since=2024-04-20
 
 # Most recent 100
-npm run index-recent -- -limit=100
+npm run index-recent-jobs -- -limit=100
+
+Sudden mass date changes might look suspicious
+Google prefers natural content updates
+Daily quota limits (200 URLs/day)
+More natural for SEO
+Suggested Approach:
+Wait 3-5 days
+Update dates in groups:
+Day 1: 25 jobs
+Day 2: Another 25
+Day 3: Another 25
+etc.
+Use slightly different dates for each batch

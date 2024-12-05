@@ -1,3 +1,13 @@
+const path = require('path');
+const fs = require('fs');
+const matter = require('gray-matter');
+const { google } = require('googleapis');
+
+// Load environment variables
+require('dotenv').config({ 
+  path: path.resolve(__dirname, 'config/.env.local')
+});
+
 const args = process.argv.slice(2);
 const usage = `
 Usage: 
@@ -75,3 +85,36 @@ async function getRecentJobs() {
 
   return jobs;
 } 
+
+async function indexJobs() {
+  try {
+    const auth = new google.auth.GoogleAuth({
+      keyFile: path.resolve(__dirname, 'config/credentials.json'),
+      scopes: ['https://www.googleapis.com/auth/indexing'],
+    });
+
+    const indexing = google.indexing({ version: 'v3', auth });
+    const jobs = await getRecentJobs();
+
+    console.log(`Found ${jobs.length} jobs to index...`);
+
+    for (const job of jobs) {
+      try {
+        const result = await indexing.urlNotifications.publish({
+          requestBody: {
+            url: job.url,
+            type: 'URL_UPDATED'
+          }
+        });
+        console.log(`Indexed: ${job.url} - Status: ${result.status}`);
+      } catch (error) {
+        console.error(`Error indexing ${job.url}: ${error.message}`);
+      }
+    }
+  } catch (error) {
+    console.error(`Fatal error: ${error.message}`);
+  }
+}
+
+// Run the indexing
+indexJobs();
