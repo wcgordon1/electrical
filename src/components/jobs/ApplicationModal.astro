@@ -11,9 +11,9 @@ const { jobTitle, company, location, jobId, emails } = Astro.props;
 ---
 
 <dialog id="applicationModal" class="bg-transparent relative">
-  <div class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm" id="modalOverlay">
+  <div class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm overflow-y-auto">
     <div 
-      class="bg-white rounded-3xl max-w-2xl mx-auto mt-20 p-8 relative"
+      class="bg-white rounded-3xl max-w-2xl mx-auto my-4 p-8 relative min-h-[calc(100vh-2rem)]  md:min-h-0 md:my-20"
       id="modalContent"
     >
       <button
