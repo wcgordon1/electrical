@@ -1,38 +1,42 @@
 ---
-position: "Cable Technician"
-# Start of Selection
-description: "Kane Communications is seeking a skilled Cable Technician to join our dynamic team. In this role, you will be responsible for installing and terminating voice and data cables, including twisted pair, coaxial, power-limited tray, and low voltage cables, as well as CAT-5, CAT-6, and both single-mode and multi-mode fiber optic cables."
-# End of Selection
-location: "San Francisco, CA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Kane Communications"
-  sameAs: "https://kanecommgroup.com/"
-  logo: "https://kane.com/wp-content/uploads/2020/05/Kane-logo-1.png"
+position: Cable Technician
+description: >-
+  Kane Communications is seeking a skilled Cable Technician to join our dynamic
+  team. In this role, you will be responsible for installing and terminating
+  voice and data cables, including twisted pair, coaxial, power-limited tray,
+  and low voltage cables, as well as CAT-5, CAT-6, and both single-mode and
+  multi-mode fiber optic cables.
+location: 'San Francisco, CA'
+team: Commercial
+datePosted: '2024-12-02T08:20:06Z'
+validThrough: '2025-01-31T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Kane Communications
+  sameAs: 'https://kanecommgroup.com/'
+  logo: 'https://kane.com/wp-content/uploads/2020/05/Kane-logo-1.png'
 jobLocation:
-  streetAddress: "123 Main Street"
-    # City
-  addressLocality: "San Francisco"
-  # State   
-  addressRegion: "CA"   
-  postalCode: "94016"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: San Francisco
+  addressRegion: CA
+  postalCode: '94016'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 31
   minValue: 28
   maxValue: 35
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 3"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 3
 identifier:
-  name: "Kane Communications"
-  value: "CABLE-TECHNICIAN-jqf3322"
+  name: Kane Communications
+  value: CABLE-TECHNICIAN-jqf3322
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Company Overview**

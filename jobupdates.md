@@ -11,6 +11,9 @@ npm run index-recent-jobs -- -since=2024-04-20
 # Most recent 100
 npm run index-recent-jobs -- -limit=100
 
+# update dates
+npm run update-dates
+
 Sudden mass date changes might look suspicious
 Google prefers natural content updates
 Daily quota limits (200 URLs/day)

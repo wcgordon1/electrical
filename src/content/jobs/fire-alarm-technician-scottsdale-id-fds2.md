@@ -1,38 +1,41 @@
 ---
-position: "Fire Alarm Technician"
-# Start of Selection
-description: "Nexus Alarm & Suppression is seeking a skilled Fire Alarm Technician to join our dynamic team. In this role, you will be responsible for installing, maintaining, and programming advanced fire alarm systems."
-# End of Selection
-location: "Scottsdale, AZ"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Nexus Alarm & Suppression"
-  sameAs: "https://www.nexusfire.com/"
-  logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s"
+position: Fire Alarm Technician
+description: >-
+  Nexus Alarm & Suppression is seeking a skilled Fire Alarm Technician to join
+  our dynamic team. In this role, you will be responsible for installing,
+  maintaining, and programming advanced fire alarm systems.
+location: 'Scottsdale, AZ'
+team: Commercial
+datePosted: '2024-12-03T08:20:06Z'
+validThrough: '2025-02-01T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Nexus Alarm & Suppression
+  sameAs: 'https://www.nexusfire.com/'
+  logo: >-
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Scottsdale"
-  # State
-  addressRegion: "AZ"
-  postalCode: "85251"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Scottsdale
+  addressRegion: AZ
+  postalCode: '85251'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 37
   minValue: 35
   maxValue: 42
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 2"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 2
 identifier:
-    name: "Nexus Alarm & Suppression"
-    value: "FIRE-ALARM-TECHNICIAN-fdsae42"
+  name: Nexus Alarm & Suppression
+  value: FIRE-ALARM-TECHNICIAN-fdsae42
 featured: true
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Company:** Nexus Alarm and Suppression  

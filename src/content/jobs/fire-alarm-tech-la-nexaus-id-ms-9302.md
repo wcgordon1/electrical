@@ -1,38 +1,41 @@
 ---
-position: "Fire Alarm Technician"
-# Start of Selection
-description: "Nexus Alarm & Suppression is seeking a skilled Fire Alarm Technician to join our dynamic team. In this role, you will be responsible for installing, maintaining, and programming advanced fire alarm systems."
-# End of Selection
-location: "Los Angeles, CA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Nexus Alarm & Suppression"
-  sameAs: "https://www.nexusfire.com/"
-  logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s"
+position: Fire Alarm Technician
+description: >-
+  Nexus Alarm & Suppression is seeking a skilled Fire Alarm Technician to join
+  our dynamic team. In this role, you will be responsible for installing,
+  maintaining, and programming advanced fire alarm systems.
+location: 'Los Angeles, CA'
+team: Commercial
+datePosted: '2024-12-03T08:20:06Z'
+validThrough: '2025-02-01T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Nexus Alarm & Suppression
+  sameAs: 'https://www.nexusfire.com/'
+  logo: >-
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Los Angeles"
-  # State
-  addressRegion: "CA"
-  postalCode: "90038"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Los Angeles
+  addressRegion: CA
+  postalCode: '90038'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 37
   minValue: 35
   maxValue: 42
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 2"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 2
 identifier:
-    name: "Nexus Alarm & Suppression"
-    value: "FIRE-ALARM-TECHNICIAN-ms9302"
+  name: Nexus Alarm & Suppression
+  value: FIRE-ALARM-TECHNICIAN-ms9302
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 

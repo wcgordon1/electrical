@@ -2,67 +2,44 @@ const path = require('path');
 const fs = require('fs');
 const matter = require('gray-matter');
 
-// Batch size and delay
-const BATCH_SIZE = 25;
-const DAYS_BETWEEN_BATCHES = 1;
-
-// Track progress in a JSON file
-const progressFile = path.join(__dirname, 'config/update-progress.json');
-let progress = { 
-    lastBatch: -1,
-    lastRun: null
-};
-
-// Load previous progress
-if (fs.existsSync(progressFile)) {
-    progress = JSON.parse(fs.readFileSync(progressFile, 'utf8'));
-}
-
-// Check if enough time has passed
-const lastRun = progress.lastRun ? new Date(progress.lastRun) : null;
-const now = new Date();
-if (lastRun && (now - lastRun) < (DAYS_BETWEEN_BATCHES * 24 * 60 * 60 * 1000)) {
-    console.log(`Please wait ${DAYS_BETWEEN_BATCHES} day(s) between batches.`);
-    console.log(`Last run: ${lastRun.toLocaleString()}`);
-    process.exit(0);
-}
-
-// Get next batch
-const nextBatch = progress.lastBatch + 1;
 const jobsDir = path.resolve(__dirname, '../src/content/jobs');
+
+// Get all job files
 const jobFiles = fs.readdirSync(jobsDir).filter(file => file.endsWith('.md'));
-const batches = [];
-for (let i = 0; i < jobFiles.length; i += BATCH_SIZE) {
-    batches.push(jobFiles.slice(i, i + BATCH_SIZE));
+
+// Generate dates for the last 3 days
+const today = new Date();
+const dates = [];
+for (let i = 1; i <= 3; i++) {
+  const date = new Date(today);
+  date.setDate(date.getDate() - i);
+  dates.push(date);
 }
 
-if (nextBatch >= batches.length) {
-    console.log('All batches completed!');
-    process.exit(0);
-}
-
-// Process next batch
-console.log(`Processing batch ${nextBatch + 1}/${batches.length}`);
-const batch = batches[nextBatch];
-batch.forEach((file, jobIndex) => {
-    const filePath = path.join(jobsDir, file);
-    const content = fs.readFileSync(filePath, 'utf8');
-    const doc = matter(content);
-    
-    // Update datePosted
-    const newDate = generateDate(nextBatch, jobIndex);
-    doc.data.datePosted = newDate;
-    
-    // Write back to file
-    const updatedContent = matter.stringify(doc.content, doc.data);
-    fs.writeFileSync(filePath, updatedContent);
-    
-    console.log(`Updated ${file} to ${newDate}`);
+// Process each job file
+jobFiles.forEach((file, index) => {
+  const filePath = path.join(jobsDir, file);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const doc = matter(content);
+  
+  // Assign a random date from the last 3 days
+  const datePosted = dates[index % 3];
+  
+  // Calculate validThrough (60 days after datePosted)
+  const validThrough = new Date(datePosted);
+  validThrough.setDate(validThrough.getDate() + 60);
+  
+  // Update the frontmatter
+  doc.data.datePosted = datePosted.toISOString().split('.')[0] + 'Z';
+  doc.data.validThrough = validThrough.toISOString().split('.')[0] + 'Z';
+  
+  // Write back to file
+  const updatedContent = matter.stringify(doc.content, doc.data);
+  fs.writeFileSync(filePath, updatedContent);
+  
+  console.log(`Updated ${file}:`);
+  console.log(`  datePosted: ${doc.data.datePosted}`);
+  console.log(`  validThrough: ${doc.data.validThrough}`);
 });
 
-// Save progress
-progress.lastBatch = nextBatch;
-progress.lastRun = now.toISOString();
-fs.writeFileSync(progressFile, JSON.stringify(progress, null, 2));
-
-console.log(`\nBatch ${nextBatch + 1} complete. Run again in ${DAYS_BETWEEN_BATCHES} day(s).`); 
+console.log(`\nUpdated ${jobFiles.length} job files`);

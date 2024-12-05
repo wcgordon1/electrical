@@ -1,38 +1,42 @@
 ---
-position: "Apprentice Electrician"
-# Start of Selection
-description: "Berg Electric is seeking a motivated individual to join our team as an Apprentice Electrician in San Francisco. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
-# End of Selection
-location: "San Francisco, CA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Berg Electric"
-  sameAs: "https://www.berg-electric.com/"
-  logo: "https://pbs.twimg.com/profile_images/1433515221495123981/lN1y0hEr_400x400.png"
+position: Apprentice Electrician
+description: >-
+  Berg Electric is seeking a motivated individual to join our team as an
+  Apprentice Electrician in San Francisco. This is an excellent opportunity to
+  start your career in the electrical trade with a company known for its
+  commitment to quality, safety, and innovation.
+location: 'San Francisco, CA'
+team: Commercial
+datePosted: '2024-12-03T08:20:06Z'
+validThrough: '2025-02-01T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Berg Electric
+  sameAs: 'https://www.berg-electric.com/'
+  logo: >-
+    https://pbs.twimg.com/profile_images/1433515221495123981/lN1y0hEr_400x400.png
 jobLocation:
-  streetAddress: "123 Main Street"  
-  # City
-  addressLocality: "San Francisco"
-  # State   
-  addressRegion: "CA"
-  postalCode: "94103"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: San Francisco
+  addressRegion: CA
+  postalCode: '94103'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 26
-  minValue: 22     
+  minValue: 22
   maxValue: 30
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Apprentice"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Apprentice
 identifier:
-  name: "Berg Electric"
-  value: "APP-ELECTRICIAN-fdsa242"
+  name: Berg Electric
+  value: APP-ELECTRICIAN-fdsa242
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 Apprentice Electrician Opportunity at Berg Electric - San Francisco

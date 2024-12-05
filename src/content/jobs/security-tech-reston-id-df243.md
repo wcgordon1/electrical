@@ -1,38 +1,40 @@
 ---
-position: "Security Technician"
-# Start of Selection
-description: "Kane Communications is seeking a skilled Security Technician to join our dynamic team. In this role, you will be responsible for installing, maintaining, and repairing security systems."
-# End of Selection
-location: "Reston, VA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Kane Communications"
-  sameAs: "https://www.nexusfire.com/"
-  logo: "https://kane.com/wp-content/uploads/2020/05/Kane-logo-1.png"
+position: Security Technician
+description: >-
+  Kane Communications is seeking a skilled Security Technician to join our
+  dynamic team. In this role, you will be responsible for installing,
+  maintaining, and repairing security systems.
+location: 'Reston, VA'
+team: Commercial
+datePosted: '2024-12-04T08:20:06Z'
+validThrough: '2025-02-02T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Kane Communications
+  sameAs: 'https://www.nexusfire.com/'
+  logo: 'https://kane.com/wp-content/uploads/2020/05/Kane-logo-1.png'
 jobLocation:
-  streetAddress: "123 Main Street"
-    # City
-  addressLocality: "Reston"
-  # State   
-  addressRegion: "VA"
-  postalCode: "20190"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Reston
+  addressRegion: VA
+  postalCode: '20190'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 31
   minValue: 28
   maxValue: 35
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 3"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 3
 identifier:
-  name: "Kane Communications"
-  value: "LEAD-CABLE-TECHNICIAN-fdsae42"
+  name: Kane Communications
+  value: LEAD-CABLE-TECHNICIAN-fdsae42
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Company Overview**

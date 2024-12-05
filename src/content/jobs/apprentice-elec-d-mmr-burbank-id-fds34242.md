@@ -1,52 +1,55 @@
 ---
-position: "Commercial Electrician"
+position: Commercial Electrician
+description: >-
+  Competitive hourly wage based on experience. Willing to pay top dollar for the
+  right candidate. Experience: Hiring all levels! We encourge you to apply even
+  if you are just starting out. Schedule: Full-time, Monday-Friday with
+  occasional overtime
 
-#description
-description: "Competitive hourly wage based on experience. Willing to pay top dollar for the right candidate. Experience: Hiring all levels! We encourge you to apply even if you are just starting out. Schedule: Full-time, Monday-Friday with occasional overtime
+  All levels welcome!
 
-All levels welcome!
-
-We have a heavy workload and are looking for motivated individuals to join our team.
-We offer hands-on training and experience in commercial electrical work, with opportunities to learn and grow under the guidance of skilled Journeyman Electricians.
-If you’re looking to build a career in the electrical trade, this is the perfect opportunity to get started.
-Responsibilities:
-Assist with installing, repairing, and maintaining electrical systems in commercial properties such as office buildings and retail spaces.
-Support senior electricians in reading and interpreting electrical blueprints and schematics.
-Prepare and organize tools, materials, and job sites for daily tasks.
-Pull wires, install conduits, and mount electrical panels and fixtures.
-Follow safety protocols and utilize proper personal protective equipment (PPE)."
-
-#start of info
-
-location: "Burbank, CA"
-team: "Commercial"
-datePosted: "2024-11-26T00:00:00Z"
-validThrough: "2025-02-26T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "MMR Group"
-  sameAs: "https://mmrgrp.com/"
-  logo: "https://mmrgrp.com/assets/images/mmrlogo.svg"
+  We have a heavy workload and are looking for motivated individuals to join our
+  team. We offer hands-on training and experience in commercial electrical work,
+  with opportunities to learn and grow under the guidance of skilled Journeyman
+  Electricians. If you’re looking to build a career in the electrical trade,
+  this is the perfect opportunity to get started. Responsibilities: Assist with
+  installing, repairing, and maintaining electrical systems in commercial
+  properties such as office buildings and retail spaces. Support senior
+  electricians in reading and interpreting electrical blueprints and schematics.
+  Prepare and organize tools, materials, and job sites for daily tasks. Pull
+  wires, install conduits, and mount electrical panels and fixtures. Follow
+  safety protocols and utilize proper personal protective equipment (PPE).
+location: 'Burbank, CA'
+team: Commercial
+datePosted: '2024-12-03T08:20:06Z'
+validThrough: '2025-02-01T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: MMR Group
+  sameAs: 'https://mmrgrp.com/'
+  logo: 'https://mmrgrp.com/assets/images/mmrlogo.svg'
 jobLocation:
-  streetAddress: "3400 Magnolia Blvd"
-  # City
-  addressLocality: "Burbank"
-  # State
-  addressRegion: "CA"
-  postalCode: "91505"
-  addressCountry: "USA"
+  streetAddress: 3400 Magnolia Blvd
+  addressLocality: Burbank
+  addressRegion: CA
+  postalCode: '91505'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 25
   minValue: 25
   maxValue: 39
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Apprentice"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Apprentice
 identifier:
-  name: "MMR Group"
-  value: "bf7482"   
-email: ['will@bestelectricianjobs.com', 'prime.partners+candidate+jl6y59w7r@mail.manatal.com', 'resumes@bestelectricianjobs.zohorecruitmail.com', 'support@primepartners.info']
+  name: MMR Group
+  value: bf7482
+email:
+  - will@bestelectricianjobs.com
+  - prime.partners+candidate+jl6y59w7r@mail.manatal.com
+  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - support@primepartners.info
 featured: false
 ---
 

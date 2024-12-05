@@ -1,38 +1,41 @@
 ---
-position: "Security Technician"
-# Start of Selection
-description: "Convergint Technologies is seeking a skilled Security Technician to join our dynamic team. In this role, you will be responsible for installing, maintaining, and programming advanced security systems, including access control and CCTV solutions."
-# End of Selection
-location: "Tempe, AZ"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Convergint Technologies"
-  sameAs: "https://convergint.com/"
-  logo: "https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png"
+position: Security Technician
+description: >-
+  Convergint Technologies is seeking a skilled Security Technician to join our
+  dynamic team. In this role, you will be responsible for installing,
+  maintaining, and programming advanced security systems, including access
+  control and CCTV solutions.
+location: 'Tempe, AZ'
+team: Commercial
+datePosted: '2024-12-02T08:20:06Z'
+validThrough: '2025-01-31T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Convergint Technologies
+  sameAs: 'https://convergint.com/'
+  logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Tempe"
-  # State
-  addressRegion: "AZ"
-  postalCode: "85281"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Tempe
+  addressRegion: AZ
+  postalCode: '85281'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 35
   minValue: 30
   maxValue: 42
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 3"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 3
 identifier:
-  name: "Convergint Technologies"
-  value: "SECURITY-TECH-fdsae42"
+  name: Convergint Technologies
+  value: SECURITY-TECH-fdsae42
 featured: true
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 **Location:** Tempe, Arizona  
 **Company:** Convergint  

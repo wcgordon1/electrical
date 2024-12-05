@@ -1,74 +1,81 @@
 ---
-position: "Apprentice Electrician"
+position: Apprentice Electrician
+description: >-
+  We are seeking a skilled and certified Apprentice Electrician to join our
+  team, specializing in commercial electrical projects throughout California.
+  The ideal candidate will have a valid California ET Card and experience in
+  site-to-site commercial work, including installation, troubleshooting, and
+  maintenance of electrical systems. This role involves travel to various
+  project sites, working both independently and as part of a team to ensure
+  high-quality electrical installations that comply with safety standards and
+  regulations.
 
-#description
-description: "We are seeking a skilled and certified Apprentice Electrician to join our team, specializing in commercial electrical projects throughout California. The ideal candidate will have a valid California ET Card and experience in site-to-site commercial work, including installation, troubleshooting, and maintenance of electrical systems. This role involves travel to various project sites, working both independently and as part of a team to ensure high-quality electrical installations that comply with safety standards and regulations.
+  Key Responsibilities:
 
-Key Responsibilities:
+  Electrical Installation & Maintenance:
 
-Electrical Installation & Maintenance:
+  Install, maintain, and repair electrical systems, including wiring, conduits,
+  lighting, circuit breakers, and control panels in commercial buildings.
+  Interpret and work from blueprints, technical diagrams, and electrical
+  schematics to complete project specifications. Troubleshooting & Repairs:
 
-Install, maintain, and repair electrical systems, including wiring, conduits, lighting, circuit breakers, and control panels in commercial buildings.
-Interpret and work from blueprints, technical diagrams, and electrical schematics to complete project specifications.
-Troubleshooting & Repairs:
+  Diagnose and resolve electrical issues promptly using appropriate tools and
+  testing equipment. Replace defective components and perform preventive
+  maintenance on electrical systems. Compliance & Safety:
 
-Diagnose and resolve electrical issues promptly using appropriate tools and testing equipment.
-Replace defective components and perform preventive maintenance on electrical systems.
-Compliance & Safety:
+  Ensure all work complies with local, state, and national electrical codes
+  (NEC) and OSHA safety standards. Conduct regular safety checks on tools,
+  equipment, and installations to prevent accidents. Use personal protective
+  equipment (PPE) and maintain a clean and organized work environment.
+  Collaboration & Communication:
 
-Ensure all work complies with local, state, and national electrical codes (NEC) and OSHA safety standards.
-Conduct regular safety checks on tools, equipment, and installations to prevent accidents.
-Use personal protective equipment (PPE) and maintain a clean and organized work environment.
-Collaboration & Communication:
+  Work with project managers, contractors, and other trades to meet project
+  deadlines and coordinate work schedules. Provide clear updates on progress,
+  issues, and completion timelines to supervisors or clients. Travel to Job
+  Sites:
 
-Work with project managers, contractors, and other trades to meet project deadlines and coordinate work schedules.
-Provide clear updates on progress, issues, and completion timelines to supervisors or clients.
-Travel to Job Sites:
+  Travel between job sites across California as required for projects, with some
+  flexibility for longer-term assignments. Testing & Quality Assurance:
 
-Travel between job sites across California as required for projects, with some flexibility for longer-term assignments.
-Testing & Quality Assurance:
+  Perform inspections and tests of completed electrical systems to ensure
+  functionality, safety, and compliance. Document work completed and address any
+  deficiencies or required adjustments. Qualifications:
 
-Perform inspections and tests of completed electrical systems to ensure functionality, safety, and compliance.
-Document work completed and address any deficiencies or required adjustments.
-Qualifications:
-
-Certification: Valid California ET Card (required).
-Experience: Minimum 3 years of experience in commercial electrical work.
-Knowledge:
-Strong understanding of the National Electrical Code (NEC).
-Familiarity with commercial electrical systems, tools, and techniques."
-
-#start of info
-
-location: "Anaheim, CA"
-team: "Commercial"
-datePosted: "2024-11-21T00:00:00Z"
-validThrough: "2025-02-21T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Royal Electric"
-  sameAs: "https://www.royalelect.com/"
-  logo: "https://www.royalelect.com/wp-content/uploads/2021/04/royal-electric-logo-full-color-rgb.svg"
+  Certification: Valid California ET Card (required). Experience: Minimum 3
+  years of experience in commercial electrical work. Knowledge: Strong
+  understanding of the National Electrical Code (NEC). Familiarity with
+  commercial electrical systems, tools, and techniques.
+location: 'Anaheim, CA'
+team: Commercial
+datePosted: '2024-12-02T08:20:06Z'
+validThrough: '2025-01-31T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Royal Electric
+  sameAs: 'https://www.royalelect.com/'
+  logo: >-
+    https://www.royalelect.com/wp-content/uploads/2021/04/royal-electric-logo-full-color-rgb.svg
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Anaheim"
-  # State
-  addressRegion: "CA"
-  postalCode: "92804"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Anaheim
+  addressRegion: CA
+  postalCode: '92804'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 42
   minValue: 48
   maxValue: 56
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Apprentice"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Apprentice
 identifier:
-  name: "Royal Electric"
-  value: "br3829"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+  name: Royal Electric
+  value: br3829
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 featured: false
 ---
 

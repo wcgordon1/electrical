@@ -1,36 +1,41 @@
 ---
-position: "Fire Alarm Installer"
-description: "West Coast Fire Inc. is seeking a talented Fire Alarm Installer to join our innovative team. In this role, you will be responsible for installing, maintaining, and repairing fire alarm systems."
-location: "Irvine, CA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "West Coast Fire Inc."
-  sameAs: "https://westcoastfireinc.com/"
-  logo: "https://westcoastfireinc.com/wp-content/uploads/2024/04/WCFI_logo_V1_Transparent-1-800x294.png"
+position: Fire Alarm Installer
+description: >-
+  West Coast Fire Inc. is seeking a talented Fire Alarm Installer to join our
+  innovative team. In this role, you will be responsible for installing,
+  maintaining, and repairing fire alarm systems.
+location: 'Irvine, CA'
+team: Commercial
+datePosted: '2024-12-04T08:20:06Z'
+validThrough: '2025-02-02T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: West Coast Fire Inc.
+  sameAs: 'https://westcoastfireinc.com/'
+  logo: >-
+    https://westcoastfireinc.com/wp-content/uploads/2024/04/WCFI_logo_V1_Transparent-1-800x294.png
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Irvine"
-  # State
-  addressRegion: "CA"
-  postalCode: "92618"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Irvine
+  addressRegion: CA
+  postalCode: '92618'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 37
   minValue: 32
   maxValue: 42
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 2"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 2
 identifier:
-  name: "West Coast Fire Inc."
-  value: "FIRE-WCFI-2024"
+  name: West Coast Fire Inc.
+  value: FIRE-WCFI-2024
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 **Position Description:**
 

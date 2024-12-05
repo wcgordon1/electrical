@@ -1,38 +1,41 @@
 ---
-position: "Fire Alarm Designer"
-# Start of Selection
-description: "Nexus Alarm & Suppression is seeking a skilled Fire Alarm Designer to join our dynamic team. In this role, you will be responsible for designing and programming advanced fire alarm systems."
-# End of Selection
-location: "Scottsdale, AZ"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Nexus Alarm & Suppression"
-  sameAs: "https://www.nexusfire.com/"
-  logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s"
+position: Fire Alarm Designer
+description: >-
+  Nexus Alarm & Suppression is seeking a skilled Fire Alarm Designer to join our
+  dynamic team. In this role, you will be responsible for designing and
+  programming advanced fire alarm systems.
+location: 'Scottsdale, AZ'
+team: Commercial
+datePosted: '2024-12-02T08:20:06Z'
+validThrough: '2025-01-31T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Nexus Alarm & Suppression
+  sameAs: 'https://www.nexusfire.com/'
+  logo: >-
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V6N9LFLzX5l8PuiWFwyM5svfbgwxPx4whA&s
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Scottsdale"
-  # State
-  addressRegion: "AZ"
-  postalCode: "85251"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Scottsdale
+  addressRegion: AZ
+  postalCode: '85251'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 90000
   minValue: 80000
   maxValue: 100000
-  unitText: "YEAR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Level 3"
+  unitText: YEAR
+experienceRequirements: seniorLevel
+occupationalCategory: Level 3
 identifier:
-  name: "Nexus Alarm & Suppression"
-  value: "FIRE-ALARM-DESIGNER-fdsae42"
+  name: Nexus Alarm & Suppression
+  value: FIRE-ALARM-DESIGNER-fdsae42
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 ### Job Description

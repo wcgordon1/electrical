@@ -1,38 +1,42 @@
 ---
-position: "Apprentice Electrician"
-# Start of Selection
-description: "Helix Electric is seeking a motivated individual to join our team as an Apprentice Electrician in San Jose, CA. This is an excellent opportunity to start your career in the electrical trade with a company known for its commitment to quality, safety, and innovation."
-# End of Selection
-location: "San Jose, CA"
-team: "Commercial"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Helix Electric"
-  sameAs: "https://www.helixelectric.com/"
-  logo: "https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg"
+position: Apprentice Electrician
+description: >-
+  Helix Electric is seeking a motivated individual to join our team as an
+  Apprentice Electrician in San Jose, CA. This is an excellent opportunity to
+  start your career in the electrical trade with a company known for its
+  commitment to quality, safety, and innovation.
+location: 'San Jose, CA'
+team: Commercial
+datePosted: '2024-12-02T08:20:06Z'
+validThrough: '2025-01-31T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Helix Electric
+  sameAs: 'https://www.helixelectric.com/'
+  logo: >-
+    https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg
 jobLocation:
-  streetAddress: "123 Main Street"  
-  # City
-  addressLocality: "San Jose"
-  # State   
-  addressRegion: "CA"
-  postalCode: "95136"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: San Jose
+  addressRegion: CA
+  postalCode: '95136'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 26
-  minValue: 22     
+  minValue: 22
   maxValue: 30
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Apprentice"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Apprentice
 identifier:
-  name: "Berg Electric"
-  value: "APP-ELECTRICIAN-fd2s1342"
+  name: Berg Electric
+  value: APP-ELECTRICIAN-fd2s1342
 featured: false
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 ### Job Description

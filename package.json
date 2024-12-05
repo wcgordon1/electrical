@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "index-jobs": "node scripts/index-jobs.js",
-    "index-recent-jobs": "node scripts/index-recent-jobs.js"
+    "index-recent-jobs": "node scripts/index-recent-jobs.js",
+    "update-dates": "node scripts/update-dates.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

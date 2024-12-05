@@ -1,35 +1,40 @@
 ---
-position: "Journeyman Electrician"
-description: "Hal Hayes is seeking a talented ResidentialJourneyman Electrician to join our innovative team. In this role, you will be responsible for installing, maintaining, and repairing electrical systems and equipment."
-location: "Irvine, CA"
-team: "Residential"
-datePosted: "2024-11-20T00:00:00Z"
-validThrough: "2025-02-20T00:00:00Z"
-employmentType: "FULL_TIME"
-hiringOrganization: 
-  name: "Hal Hayes Electric"
-  sameAs: "https://www.halhays.com/"
-  logo: "https://www.halhays.com/wp-content/uploads/2020/07/hal-hays-logo-final.svg?x82171"
+position: Journeyman Electrician
+description: >-
+  Hal Hayes is seeking a talented ResidentialJourneyman Electrician to join our
+  innovative team. In this role, you will be responsible for installing,
+  maintaining, and repairing electrical systems and equipment.
+location: 'Irvine, CA'
+team: Residential
+datePosted: '2024-12-03T08:20:06Z'
+validThrough: '2025-02-01T08:20:06Z'
+employmentType: FULL_TIME
+hiringOrganization:
+  name: Hal Hayes Electric
+  sameAs: 'https://www.halhays.com/'
+  logo: >-
+    https://www.halhays.com/wp-content/uploads/2020/07/hal-hays-logo-final.svg?x82171
 jobLocation:
-  streetAddress: "123 Main Street"
-  # City
-  addressLocality: "Irvine"
-  # State
-  addressRegion: "CA"
-  postalCode: "92618"
-  addressCountry: "USA"
+  streetAddress: 123 Main Street
+  addressLocality: Irvine
+  addressRegion: CA
+  postalCode: '92618'
+  addressCountry: USA
 baseSalary:
-  currency: "USD"
+  currency: USD
   value: 40
   minValue: 47
   maxValue: 55
-  unitText: "HOUR"
-experienceRequirements: "seniorLevel"
-occupationalCategory: "Journeyman"
+  unitText: HOUR
+experienceRequirements: seniorLevel
+occupationalCategory: Journeyman
 identifier:
-  name: "Hal Hayes Electric"
-  value: "JRN-HAL-2024"
-email: ['will@bestelectricianjobs.com', 'support@primepartners.info', 'resumes@bestelectricianjobs.zohorecruitmail.com']
+  name: Hal Hayes Electric
+  value: JRN-HAL-2024
+email:
+  - will@bestelectricianjobs.com
+  - support@primepartners.info
+  - resumes@bestelectricianjobs.zohorecruitmail.com
 featured: false
 ---
 
