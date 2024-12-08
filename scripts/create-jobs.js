@@ -21,6 +21,7 @@ if (!jobTitle) {
 
 const LOCATIONS = [
   // California
+  
   { city: 'Los Angeles', state: 'CA', zipCode: '90001' },
   { city: 'San Francisco', state: 'CA', zipCode: '94105' },
   { city: 'San Diego', state: 'CA', zipCode: '92101' },
@@ -41,8 +42,38 @@ const LOCATIONS = [
   { city: 'Berkeley', state: 'CA', zipCode: '94704' },
   { city: 'Santa Monica', state: 'CA', zipCode: '90401' },
   { city: 'Burbank', state: 'CA', zipCode: '91502' },
-
+  { city: 'Fresno', state: 'CA', zipCode: '93721' },
+  { city: 'Riverside', state: 'CA', zipCode: '92501' },
+  { city: 'Stockton', state: 'CA', zipCode: '95202' },
+  { city: 'Bakersfield', state: 'CA', zipCode: '93301' },
+  { city: 'Santa Ana', state: 'CA', zipCode: '92701' },
+  { city: 'Chula Vista', state: 'CA', zipCode: '91910' },
+  { city: 'San Bernardino', state: 'CA', zipCode: '92401' },
+  { city: 'Modesto', state: 'CA', zipCode: '95354' },
+  { city: 'Oxnard', state: 'CA', zipCode: '93030' },
+  { city: 'Fontana', state: 'CA', zipCode: '92335' },
+  { city: 'Moreno Valley', state: 'CA', zipCode: '92553' },
+  { city: 'Huntington Beach', state: 'CA', zipCode: '92648' },
+  { city: 'Ontario', state: 'CA', zipCode: '91764' },
+  { city: 'Rancho Cucamonga', state: 'CA', zipCode: '91730' },
+  { city: 'Santa Rosa', state: 'CA', zipCode: '95404' },
+  { city: 'Garden Grove', state: 'CA', zipCode: '92840' },
+  { city: 'Oceanside', state: 'CA', zipCode: '92054' },
+  { city: 'Elk Grove', state: 'CA', zipCode: '95624' },
+  { city: 'Corona', state: 'CA', zipCode: '92882' },
+  { city: 'Lancaster', state: 'CA', zipCode: '93534' },
+  { city: 'Palmdale', state: 'CA', zipCode: '93550' },
+  { city: 'Salinas', state: 'CA', zipCode: '93901' },
+  { city: 'Hayward', state: 'CA', zipCode: '94541' },
+  { city: 'Pomona', state: 'CA', zipCode: '91766' },
+  { city: 'Escondido', state: 'CA', zipCode: '92025' },
+  { city: 'Sunnyvale', state: 'CA', zipCode: '94086' },
+  { city: 'Torrance', state: 'CA', zipCode: '90503' },
+  { city: 'Roseville', state: 'CA', zipCode: '95661' },
+  { city: 'Fullerton', state: 'CA', zipCode: '92832' },
+  { city: 'Visalia', state: 'CA', zipCode: '93291' },
   // Georgia
+  /*
   { city: 'Atlanta', state: 'GA', zipCode: '30303' },
   { city: 'Marietta', state: 'GA', zipCode: '30060' },
   { city: 'Alpharetta', state: 'GA', zipCode: '30009' },
@@ -55,7 +86,7 @@ const LOCATIONS = [
   { city: 'Smyrna', state: 'GA', zipCode: '30080' },
   { city: 'Dunwoody', state: 'GA', zipCode: '30338' },
   { city: 'Johns Creek', state: 'GA', zipCode: '30097' },
-
+ */
   // Arizona
   { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
   { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
@@ -65,7 +96,36 @@ const LOCATIONS = [
   { city: 'Gilbert', state: 'AZ', zipCode: '85234' },
   { city: 'Glendale', state: 'AZ', zipCode: '85301' },
   { city: 'Peoria', state: 'AZ', zipCode: '85345' },
+  { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
+{ city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
+{ city: 'Tempe', state: 'AZ', zipCode: '85281' },
+{ city: 'Mesa', state: 'AZ', zipCode: '85201' },
+{ city: 'Chandler', state: 'AZ', zipCode: '85225' },
+{ city: 'Gilbert', state: 'AZ', zipCode: '85234' },
+{ city: 'Glendale', state: 'AZ', zipCode: '85301' },
+{ city: 'Peoria', state: 'AZ', zipCode: '85345' },
+{ city: 'Tucson', state: 'AZ', zipCode: '85701' },
+{ city: 'Surprise', state: 'AZ', zipCode: '85374' },
+{ city: 'Yuma', state: 'AZ', zipCode: '85364' },
+{ city: 'Avondale', state: 'AZ', zipCode: '85323' },
+{ city: 'Goodyear', state: 'AZ', zipCode: '85338' },
+{ city: 'Flagstaff', state: 'AZ', zipCode: '86001' },
+{ city: 'Buckeye', state: 'AZ', zipCode: '85326' },
+{ city: 'Lake Havasu City', state: 'AZ', zipCode: '86403' },
+{ city: 'Casa Grande', state: 'AZ', zipCode: '85122' },
+{ city: 'Sierra Vista', state: 'AZ', zipCode: '85635' },
+{ city: 'Maricopa', state: 'AZ', zipCode: '85138' },
+{ city: 'Oro Valley', state: 'AZ', zipCode: '85737' },
+{ city: 'Prescott', state: 'AZ', zipCode: '86301' },
+{ city: 'Bullhead City', state: 'AZ', zipCode: '86442' },
+{ city: 'Prescott Valley', state: 'AZ', zipCode: '86314' },
+{ city: 'Apache Junction', state: 'AZ', zipCode: '85120' },
+{ city: 'Marana', state: 'AZ', zipCode: '85653' },
+{ city: 'El Mirage', state: 'AZ', zipCode: '85335' },
+{ city: 'Queen Creek', state: 'AZ', zipCode: '85142' },
+{ city: 'Florence', state: 'AZ', zipCode: '85132' }
 
+  /*
   // North Carolina
   { city: 'Charlotte', state: 'NC', zipCode: '28202' },
   { city: 'Raleigh', state: 'NC', zipCode: '27601' },
@@ -85,12 +145,11 @@ const LOCATIONS = [
   { city: 'Plano', state: 'TX', zipCode: '75024' },
   { city: 'Irving', state: 'TX', zipCode: '75038' },
   { city: 'Frisco', state: 'TX', zipCode: '75034' }
+  */
 ];
 
 const TEAMS = [
   'Commercial', 
-  'Industrial', 
-  'Residential', 
   'Data Center'
 ];
 
@@ -114,8 +173,8 @@ const SALARY_RANGES = {
     category: 'Security'
   },
   'Voice & Data Technician': {
-    minValue: 20,
-    maxValue: 30,
+    minValue: 23,
+    maxValue: 35,
     experienceLevel: 'midLevel',
     category: 'Voice & Data'
   },
@@ -152,7 +211,7 @@ const SALARY_RANGES = {
 };
 
 async function generateJobDescription(title, location) {
-  const prompt = `Create a detailed job description for a ${title} position in ${location.city}, ${location.state}. Include key responsibilities, qualifications, and requirements. Focus on electrical industry specifics.`;
+  const prompt = `Create a detailed job description for a ${title} position in ${location.city}, ${location.state}. Include key responsibilities, qualifications, and requirements. Focus on electrical industry specifics for commercial work, mainly new construction and big box retail. The company name is Prime Partners and include surrounding cities that border the job location.`;
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4",
@@ -242,7 +301,7 @@ async function createJob(title, index) {
 async function createJobs() {
   console.log(`Creating 25 ${jobTitle} positions...`);
   
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 78; i++) {
     await createJob(jobTitle, i);
   }
 
