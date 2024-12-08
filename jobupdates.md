@@ -26,3 +26,28 @@ Day 2: Another 25
 Day 3: Another 25
 etc.
 Use slightly different dates for each batch
+
+npm run index-jobs
+
+node scripts/update-dates.js
+
+# Last 7 days
+npm run index-recent -- -days=7
+
+# Since specific date
+npm run index-recent -- -since=2024-04-20
+
+# Most recent 100
+npm run index-recent -- -limit=100
+
+
+--------------------------------
+
+# Create 25 Apprentice jobs
+npm run create-jobs "Apprentice Electrician"
+
+# Create 25 Commercial Journeyman jobs
+npm run create-jobs "Commercial Journeyman Electrician"
+
+# Create 25 Fire Alarm jobs
+npm run create-jobs "Fire Alarm Technician"

@@ -10,7 +10,8 @@
     "astro": "astro",
     "index-jobs": "node scripts/index-jobs.js",
     "index-recent-jobs": "node scripts/index-recent-jobs.js",
-    "update-dates": "node scripts/update-dates.js"
+    "update-dates": "node scripts/update-dates.js",
+    "create-jobs": "node scripts/create-jobs.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
@@ -30,6 +31,7 @@
     "dotenv": "^16.4.7",
     "googleapis": "^144.0.0",
     "gray-matter": "^4.0.3",
+    "openai": "^4.76.0",
     "resend": "^4.0.1-alpha.0",
     "sharp": "^0.33.3",
     "shiki": "^1.2.4",
