@@ -21,7 +21,7 @@ if (!jobTitle) {
 
 const LOCATIONS = [
   // California
-  
+  /*
   { city: 'Los Angeles', state: 'CA', zipCode: '90001' },
   { city: 'San Francisco', state: 'CA', zipCode: '94105' },
   { city: 'San Diego', state: 'CA', zipCode: '92101' },
@@ -72,8 +72,10 @@ const LOCATIONS = [
   { city: 'Roseville', state: 'CA', zipCode: '95661' },
   { city: 'Fullerton', state: 'CA', zipCode: '92832' },
   { city: 'Visalia', state: 'CA', zipCode: '93291' },
+  */
+ 
   // Georgia
-  /*
+  
   { city: 'Atlanta', state: 'GA', zipCode: '30303' },
   { city: 'Marietta', state: 'GA', zipCode: '30060' },
   { city: 'Alpharetta', state: 'GA', zipCode: '30009' },
@@ -86,7 +88,19 @@ const LOCATIONS = [
   { city: 'Smyrna', state: 'GA', zipCode: '30080' },
   { city: 'Dunwoody', state: 'GA', zipCode: '30338' },
   { city: 'Johns Creek', state: 'GA', zipCode: '30097' },
- */
+
+  // Colorado
+  { city: 'Denver', state: 'CO', zipCode: '80202' },
+  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
+  { city: 'Aurora', state: 'CO', zipCode: '80012' },
+  { city: 'Fort Collins', state: 'CO', zipCode: '80525' },
+  { city: 'Lakewood', state: 'CO', zipCode: '80226' },
+  { city: 'Thornton', state: 'CO', zipCode: '80229' },
+  { city: 'Arvada', state: 'CO', zipCode: '80002' },
+  { city: 'Westminster', state: 'CO', zipCode: '80031' },
+  { city: 'Pueblo', state: 'CO', zipCode: '81003' },
+  { city: 'Centennial', state: 'CO', zipCode: '80112' },
+  /*
   // Arizona
   { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
   { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
@@ -124,8 +138,8 @@ const LOCATIONS = [
 { city: 'El Mirage', state: 'AZ', zipCode: '85335' },
 { city: 'Queen Creek', state: 'AZ', zipCode: '85142' },
 { city: 'Florence', state: 'AZ', zipCode: '85132' }
-
-  /*
+*/
+  
   // North Carolina
   { city: 'Charlotte', state: 'NC', zipCode: '28202' },
   { city: 'Raleigh', state: 'NC', zipCode: '27601' },
@@ -136,6 +150,18 @@ const LOCATIONS = [
   { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
   { city: 'Cary', state: 'NC', zipCode: '27513' },
 
+  // South Carolina
+  { city: 'Columbia', state: 'SC', zipCode: '29201' },
+  { city: 'Charleston', state: 'SC', zipCode: '29401' },
+  { city: 'North Charleston', state: 'SC', zipCode: '29406' },
+  { city: 'Mount Pleasant', state: 'SC', zipCode: '29464' },
+  { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
+  { city: 'Greenville', state: 'SC', zipCode: '29601' },
+  { city: 'Summerville', state: 'SC', zipCode: '29483' },
+{ city: 'Sumter', state: 'SC', zipCode: '29150' },
+  { city: 'Goose Creek', state: 'SC', zipCode: '29445' },
+  { city: 'Hilton Head Island', state: 'SC', zipCode: '29928' }
+/*
   // Texas
   { city: 'Austin', state: 'TX', zipCode: '78701' },
   { city: 'Dallas', state: 'TX', zipCode: '75201' },
@@ -149,8 +175,7 @@ const LOCATIONS = [
 ];
 
 const TEAMS = [
-  'Commercial', 
-  'Data Center'
+  'Industrial'
 ];
 
 const SALARY_RANGES = {
@@ -179,8 +204,20 @@ const SALARY_RANGES = {
     category: 'Voice & Data'
   },
   'Commercial Journeyman Electrician': {
-    minValue: 35,
-    maxValue: 45,
+    minValue: 28,
+    maxValue: 38,
+    experienceLevel: 'seniorLevel',
+    category: 'Journeyman'
+  },
+  'Commercial Electrician': {
+    minValue: 28,
+    maxValue: 38,
+    experienceLevel: 'seniorLevel',
+    category: 'Journeyman'
+  },
+  'Industrial Electrician': {
+    minValue: 25,
+    maxValue: 35,
     experienceLevel: 'seniorLevel',
     category: 'Journeyman'
   },
@@ -211,7 +248,7 @@ const SALARY_RANGES = {
 };
 
 async function generateJobDescription(title, location) {
-  const prompt = `Create a detailed job description for a ${title} position in ${location.city}, ${location.state}. Include key responsibilities, qualifications, and requirements. Focus on electrical industry specifics for commercial work, mainly new construction and big box retail. The company name is Prime Partners and include surrounding cities that border the job location.`;
+  const prompt = `Create a detailed job description for a ${title} position in ${location.city}, ${location.state}. Include key responsibilities, qualifications, and requirements. Focus on electrical industry specifics for ${title} work. The company name is Premier Electric, include surrounding cities that border ${location.city}. Applicants should have a minimum of 1 year of ${title} experience. Include specific job funtions and skills required for ${title}s.`;
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4",
@@ -232,9 +269,9 @@ async function createJob(title, index) {
   // Get salary range and experience level
   const salaryInfo = SALARY_RANGES[title] || {
     minValue: 25,
-    maxValue: 40,
+    maxValue: 35,
     experienceLevel: 'midLevel',
-    category: 'Level 2'
+    category: 'Industrial'
   };
 
   // Generate unique job ID
@@ -253,9 +290,9 @@ async function createJob(title, index) {
     validThrough: validThrough.toISOString(),
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'Prime Partners',
-      sameAs: 'https://primepartners.info/',
-      logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png'
+      name: 'Premier Electric',
+      sameAs: 'https://www.premierelectricalstaffing.com/',
+      logo: ' https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
     },
     jobLocation: {
       streetAddress: '123 Main Street',
@@ -274,15 +311,14 @@ async function createJob(title, index) {
     experienceRequirements: salaryInfo.experienceLevel,
     occupationalCategory: salaryInfo.category,
     identifier: {
-      name: 'Prime Partners',
+      name: 'Premier Electric',
       value: jobId
     },
     featured: Math.random() < 0.2, // 20% chance of being featured
     email: [
       'will@bestelectricianjobs.com',
-      'support@primepartners.info',
-      'resumes@bestelectricianjobs.zohorecruitmail.com',
-      'prime.partners+candidate+jl6y59w7r@mail.manatal.com'
+      'Michael.Mckeaige@pes123.com',
+      'resumes@bestelectricianjobs.zohorecruitmail.com'
     ]
   };
 
@@ -291,7 +327,7 @@ async function createJob(title, index) {
   const finalContent = `${frontmatter}\n\n${fullDescription}`; // Add full description after frontmatter
 
   // Write to file
-  const filename = `prime-${title.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase()}-${jobId.toLowerCase()}.md`;
+  const filename = `premier-${title.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase()}-${jobId.toLowerCase()}.md`;
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   fs.writeFileSync(filePath, finalContent);
 
@@ -301,7 +337,7 @@ async function createJob(title, index) {
 async function createJobs() {
   console.log(`Creating 25 ${jobTitle} positions...`);
   
-  for (let i = 0; i < 78; i++) {
+  for (let i = 0; i < 40; i++) {
     await createJob(jobTitle, i);
   }
 

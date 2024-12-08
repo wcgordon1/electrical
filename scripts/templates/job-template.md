@@ -9,9 +9,9 @@ validThrough: '{{validThrough}}'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners
-  sameAs: 'https://primepartners.info/'
+  sameAs: 'https://www.premierelectricalstaffing.com/'
   logo: >-
-    https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png
+    https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png
 jobLocation:
   streetAddress: 123 Main Street
   addressLocality: {{city}}
@@ -31,8 +31,7 @@ identifier:
   value: {{jobId}}
 featured: {{featured}}
 email:
-  - will@bestelectricianjobs.com
-  - support@primepartners.info
+- will@bestelectricianjobs.com
+  - Michael.Mckeaige@pes123.com
   - resumes@bestelectricianjobs.zohorecruitmail.com
-  - prime.partners+candidate+jl6y59w7r@mail.manatal.com
 --- 
