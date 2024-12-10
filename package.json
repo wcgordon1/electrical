@@ -11,7 +11,8 @@
     "index-jobs": "node scripts/index-jobs.js",
     "index-recent-jobs": "node scripts/index-recent-jobs.js",
     "update-dates": "node scripts/update-dates.js",
-    "create-jobs": "node scripts/create-jobs.js"
+    "create-jobs": "node scripts/create-jobs.js",
+    "create-varied-jobs": "node scripts/create-varied-jobs.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

@@ -1218,6 +1218,293 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"premier-cable-installer-alpharetta-cabl-07pmrq.md": {
+	id: "premier-cable-installer-alpharetta-cabl-07pmrq.md";
+  slug: "premier-cable-installer-alpharetta-cabl-07pmrq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-arvada-cabl-c47flh.md": {
+	id: "premier-cable-installer-arvada-cabl-c47flh.md";
+  slug: "premier-cable-installer-arvada-cabl-c47flh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-atlanta-cabl-4gi56o.md": {
+	id: "premier-cable-installer-atlanta-cabl-4gi56o.md";
+  slug: "premier-cable-installer-atlanta-cabl-4gi56o";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-aurora-cabl-exfxk4.md": {
+	id: "premier-cable-installer-aurora-cabl-exfxk4.md";
+  slug: "premier-cable-installer-aurora-cabl-exfxk4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-centennial-cabl-ne0fgu.md": {
+	id: "premier-cable-installer-centennial-cabl-ne0fgu.md";
+  slug: "premier-cable-installer-centennial-cabl-ne0fgu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-colorado-springs-cabl-qaumg2.md": {
+	id: "premier-cable-installer-colorado-springs-cabl-qaumg2.md";
+  slug: "premier-cable-installer-colorado-springs-cabl-qaumg2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-denver-cabl-9nztjm.md": {
+	id: "premier-cable-installer-denver-cabl-9nztjm.md";
+  slug: "premier-cable-installer-denver-cabl-9nztjm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-duluth-cabl-kwajau.md": {
+	id: "premier-cable-installer-duluth-cabl-kwajau.md";
+  slug: "premier-cable-installer-duluth-cabl-kwajau";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-dunwoody-cabl-yb1as9.md": {
+	id: "premier-cable-installer-dunwoody-cabl-yb1as9.md";
+  slug: "premier-cable-installer-dunwoody-cabl-yb1as9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-fort-collins-cabl-af1b6y.md": {
+	id: "premier-cable-installer-fort-collins-cabl-af1b6y.md";
+  slug: "premier-cable-installer-fort-collins-cabl-af1b6y";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-johns-creek-cabl-x03ozo.md": {
+	id: "premier-cable-installer-johns-creek-cabl-x03ozo.md";
+  slug: "premier-cable-installer-johns-creek-cabl-x03ozo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-kennesaw-cabl-7iiadu.md": {
+	id: "premier-cable-installer-kennesaw-cabl-7iiadu.md";
+  slug: "premier-cable-installer-kennesaw-cabl-7iiadu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-lakewood-cabl-dupm60.md": {
+	id: "premier-cable-installer-lakewood-cabl-dupm60.md";
+  slug: "premier-cable-installer-lakewood-cabl-dupm60";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-lawrenceville-cabl-z72sc8.md": {
+	id: "premier-cable-installer-lawrenceville-cabl-z72sc8.md";
+  slug: "premier-cable-installer-lawrenceville-cabl-z72sc8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-pueblo-cabl-no3mfk.md": {
+	id: "premier-cable-installer-pueblo-cabl-no3mfk.md";
+  slug: "premier-cable-installer-pueblo-cabl-no3mfk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-roswell-cabl-0ypr5n.md": {
+	id: "premier-cable-installer-roswell-cabl-0ypr5n.md";
+  slug: "premier-cable-installer-roswell-cabl-0ypr5n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-smyrna-cabl-wq49is.md": {
+	id: "premier-cable-installer-smyrna-cabl-wq49is.md";
+  slug: "premier-cable-installer-smyrna-cabl-wq49is";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-thornton-cabl-jrkmze.md": {
+	id: "premier-cable-installer-thornton-cabl-jrkmze.md";
+  slug: "premier-cable-installer-thornton-cabl-jrkmze";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-installer-westminster-cabl-yagaag.md": {
+	id: "premier-cable-installer-westminster-cabl-yagaag.md";
+  slug: "premier-cable-installer-westminster-cabl-yagaag";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-alpharetta-cabl-tv1kyi.md": {
+	id: "premier-cable-technician-alpharetta-cabl-tv1kyi.md";
+  slug: "premier-cable-technician-alpharetta-cabl-tv1kyi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-arvada-cabl-f03hgu.md": {
+	id: "premier-cable-technician-arvada-cabl-f03hgu.md";
+  slug: "premier-cable-technician-arvada-cabl-f03hgu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-athens-cabl-216ahj.md": {
+	id: "premier-cable-technician-athens-cabl-216ahj.md";
+  slug: "premier-cable-technician-athens-cabl-216ahj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-athens-cabl-lj8v18.md": {
+	id: "premier-cable-technician-athens-cabl-lj8v18.md";
+  slug: "premier-cable-technician-athens-cabl-lj8v18";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-atlanta-cabl-zeoqhb.md": {
+	id: "premier-cable-technician-atlanta-cabl-zeoqhb.md";
+  slug: "premier-cable-technician-atlanta-cabl-zeoqhb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-aurora-cabl-x03ik1.md": {
+	id: "premier-cable-technician-aurora-cabl-x03ik1.md";
+  slug: "premier-cable-technician-aurora-cabl-x03ik1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-centennial-cabl-rrfz7j.md": {
+	id: "premier-cable-technician-centennial-cabl-rrfz7j.md";
+  slug: "premier-cable-technician-centennial-cabl-rrfz7j";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-colorado-springs-cabl-rez163.md": {
+	id: "premier-cable-technician-colorado-springs-cabl-rez163.md";
+  slug: "premier-cable-technician-colorado-springs-cabl-rez163";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-denver-cabl-8mq4mr.md": {
+	id: "premier-cable-technician-denver-cabl-8mq4mr.md";
+  slug: "premier-cable-technician-denver-cabl-8mq4mr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-duluth-cabl-1h0n34.md": {
+	id: "premier-cable-technician-duluth-cabl-1h0n34.md";
+  slug: "premier-cable-technician-duluth-cabl-1h0n34";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-dunwoody-cabl-f2gbcs.md": {
+	id: "premier-cable-technician-dunwoody-cabl-f2gbcs.md";
+  slug: "premier-cable-technician-dunwoody-cabl-f2gbcs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-fort-collins-cabl-kxosig.md": {
+	id: "premier-cable-technician-fort-collins-cabl-kxosig.md";
+  slug: "premier-cable-technician-fort-collins-cabl-kxosig";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-johns-creek-cabl-myfnpj.md": {
+	id: "premier-cable-technician-johns-creek-cabl-myfnpj.md";
+  slug: "premier-cable-technician-johns-creek-cabl-myfnpj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-kennesaw-cabl-dtxzxn.md": {
+	id: "premier-cable-technician-kennesaw-cabl-dtxzxn.md";
+  slug: "premier-cable-technician-kennesaw-cabl-dtxzxn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-lakewood-cabl-lkmuyo.md": {
+	id: "premier-cable-technician-lakewood-cabl-lkmuyo.md";
+  slug: "premier-cable-technician-lakewood-cabl-lkmuyo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-lawrenceville-cabl-j197wd.md": {
+	id: "premier-cable-technician-lawrenceville-cabl-j197wd.md";
+  slug: "premier-cable-technician-lawrenceville-cabl-j197wd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-pueblo-cabl-9cdyvy.md": {
+	id: "premier-cable-technician-pueblo-cabl-9cdyvy.md";
+  slug: "premier-cable-technician-pueblo-cabl-9cdyvy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-roswell-cabl-7nwn1k.md": {
+	id: "premier-cable-technician-roswell-cabl-7nwn1k.md";
+  slug: "premier-cable-technician-roswell-cabl-7nwn1k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-sandy-springs-cabl-munxim.md": {
+	id: "premier-cable-technician-sandy-springs-cabl-munxim.md";
+  slug: "premier-cable-technician-sandy-springs-cabl-munxim";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-smyrna-cabl-5cyejx.md": {
+	id: "premier-cable-technician-smyrna-cabl-5cyejx.md";
+  slug: "premier-cable-technician-smyrna-cabl-5cyejx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-thornton-cabl-qkde1h.md": {
+	id: "premier-cable-technician-thornton-cabl-qkde1h.md";
+  slug: "premier-cable-technician-thornton-cabl-qkde1h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-cable-technician-westminster-cabl-57p02l.md": {
+	id: "premier-cable-technician-westminster-cabl-57p02l.md";
+  slug: "premier-cable-technician-westminster-cabl-57p02l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "premier-commercial-electrician-alpharetta-comm-8f5sk0.md": {
 	id: "premier-commercial-electrician-alpharetta-comm-8f5sk0.md";
   slug: "premier-commercial-electrician-alpharetta-comm-8f5sk0";
@@ -1774,6 +2061,153 @@ declare module 'astro:content' {
 "premier-industrial-electrician-winston-salem-indu-l4fhhg.md": {
 	id: "premier-industrial-electrician-winston-salem-indu-l4fhhg.md";
   slug: "premier-industrial-electrician-winston-salem-indu-l4fhhg";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-alpharetta-low-2mdfdh.md": {
+	id: "premier-low-voltage-technician-alpharetta-low-2mdfdh.md";
+  slug: "premier-low-voltage-technician-alpharetta-low-2mdfdh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-athens-low--1bsl8k.md": {
+	id: "premier-low-voltage-technician-athens-low--1bsl8k.md";
+  slug: "premier-low-voltage-technician-athens-low--1bsl8k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-atlanta-low-aj5k5l.md": {
+	id: "premier-low-voltage-technician-atlanta-low-aj5k5l.md";
+  slug: "premier-low-voltage-technician-atlanta-low-aj5k5l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-lawrenceville-low--307dkz.md": {
+	id: "premier-low-voltage-technician-lawrenceville-low--307dkz.md";
+  slug: "premier-low-voltage-technician-lawrenceville-low--307dkz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-roswell-low-8bx2bm.md": {
+	id: "premier-low-voltage-technician-roswell-low-8bx2bm.md";
+  slug: "premier-low-voltage-technician-roswell-low-8bx2bm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-low-voltage-technician-sandy springs-low-tb7vnl.md": {
+	id: "premier-low-voltage-technician-sandy springs-low-tb7vnl.md";
+  slug: "premier-low-voltage-technician-sandy-springs-low-tb7vnl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-arvada-voic-d4ou4h.md": {
+	id: "premier-voice-&-data-installer-arvada-voic-d4ou4h.md";
+  slug: "premier-voice--data-installer-arvada-voic-d4ou4h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-aurora-voic-gjje0r.md": {
+	id: "premier-voice-&-data-installer-aurora-voic-gjje0r.md";
+  slug: "premier-voice--data-installer-aurora-voic-gjje0r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-centennial-voic-9iuopd.md": {
+	id: "premier-voice-&-data-installer-centennial-voic-9iuopd.md";
+  slug: "premier-voice--data-installer-centennial-voic-9iuopd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-colorado-springs-voic-gv8r3i.md": {
+	id: "premier-voice-&-data-installer-colorado-springs-voic-gv8r3i.md";
+  slug: "premier-voice--data-installer-colorado-springs-voic-gv8r3i";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-denver-voic-n0b63x.md": {
+	id: "premier-voice-&-data-installer-denver-voic-n0b63x.md";
+  slug: "premier-voice--data-installer-denver-voic-n0b63x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-duluth-voic-20i4yt.md": {
+	id: "premier-voice-&-data-installer-duluth-voic-20i4yt.md";
+  slug: "premier-voice--data-installer-duluth-voic-20i4yt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-dunwoody-voic-8iq0sn.md": {
+	id: "premier-voice-&-data-installer-dunwoody-voic-8iq0sn.md";
+  slug: "premier-voice--data-installer-dunwoody-voic-8iq0sn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-fort-collins-voic-7p5urz.md": {
+	id: "premier-voice-&-data-installer-fort-collins-voic-7p5urz.md";
+  slug: "premier-voice--data-installer-fort-collins-voic-7p5urz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-johns-creek-voic-m990ve.md": {
+	id: "premier-voice-&-data-installer-johns-creek-voic-m990ve.md";
+  slug: "premier-voice--data-installer-johns-creek-voic-m990ve";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-kennesaw-voic-6j4q5c.md": {
+	id: "premier-voice-&-data-installer-kennesaw-voic-6j4q5c.md";
+  slug: "premier-voice--data-installer-kennesaw-voic-6j4q5c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-lakewood-voic-m4pp6d.md": {
+	id: "premier-voice-&-data-installer-lakewood-voic-m4pp6d.md";
+  slug: "premier-voice--data-installer-lakewood-voic-m4pp6d";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-pueblo-voic-4gdjn2.md": {
+	id: "premier-voice-&-data-installer-pueblo-voic-4gdjn2.md";
+  slug: "premier-voice--data-installer-pueblo-voic-4gdjn2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-smyrna-voic-y1jr6t.md": {
+	id: "premier-voice-&-data-installer-smyrna-voic-y1jr6t.md";
+  slug: "premier-voice--data-installer-smyrna-voic-y1jr6t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-thornton-voic-g3umdv.md": {
+	id: "premier-voice-&-data-installer-thornton-voic-g3umdv.md";
+  slug: "premier-voice--data-installer-thornton-voic-g3umdv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-voice-&-data-installer-westminster-voic-41b9hc.md": {
+	id: "premier-voice-&-data-installer-westminster-voic-41b9hc.md";
+  slug: "premier-voice--data-installer-westminster-voic-41b9hc";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
