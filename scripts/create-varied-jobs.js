@@ -13,45 +13,79 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
- { city: 'Duluth', state: 'GA', zipCode: '30096' },
-  { city: 'Kennesaw', state: 'GA', zipCode: '30144' },
-  { city: 'Smyrna', state: 'GA', zipCode: '30080' },
-  { city: 'Dunwoody', state: 'GA', zipCode: '30338' },
-  { city: 'Johns Creek', state: 'GA', zipCode: '30097' },
-  // Colorado
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-  { city: 'Aurora', state: 'CO', zipCode: '80012' },
-  { city: 'Fort Collins', state: 'CO', zipCode: '80525' },
-  { city: 'Lakewood', state: 'CO', zipCode: '80226' },
-  { city: 'Thornton', state: 'CO', zipCode: '80229' },
-  { city: 'Arvada', state: 'CO', zipCode: '80002' },
-  { city: 'Westminster', state: 'CO', zipCode: '80031' },
-  { city: 'Pueblo', state: 'CO', zipCode: '81003' },
-  { city: 'Centennial', state: 'CO', zipCode: '80112' }
+    { city: 'Los Angeles', state: 'CA', zipCode: '90001' },
+    { city: 'San Francisco', state: 'CA', zipCode: '94105' },
+    { city: 'San Diego', state: 'CA', zipCode: '92101' },
+    { city: 'San Jose', state: 'CA', zipCode: '95113' },
+    { city: 'Irvine', state: 'CA', zipCode: '92618' },
+    { city: 'Sacramento', state: 'CA', zipCode: '95814' },
+    { city: 'Anaheim', state: 'CA', zipCode: '92805' },
+    { city: 'Long Beach', state: 'CA', zipCode: '90802' },
+    { city: 'Pasadena', state: 'CA', zipCode: '91101' },
+    { city: 'Glendale', state: 'CA', zipCode: '91205' },
+    { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
+    { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
+    { city: 'Tempe', state: 'AZ', zipCode: '85281' },
+    { city: 'Mesa', state: 'AZ', zipCode: '85201' },
+    { city: 'Chandler', state: 'AZ', zipCode: '85225' },
 ];
 
 const TEAMS = ['Commercial'];
 
 const JOB_TYPES = {
   'Electrician': {
-    minValue: 20,
-    maxValue: 30,
+    minValue: 35,
+    maxValue: 52,
     experienceLevel: 'seniorLevel',
     category: 'Apprentice',
-    prompt: 'Create a detailed job description for a commercial Electrician. Include both Apprentice and Journeyman level skillsets. Focus on general electrical work for new construction office buildings and hospitals.'
+    prompt: 'Create a detailed job description for a commercial Electrician. Include both experienced Apprentice level skillsets and Journeyman level skillsets. Focus on general electrical work for new construction office buildings and hospitals.'
   },
-  'Apprentice Electrician': {
-    minValue: 18,
-    maxValue: 32,
+  'Fire Alarm Technician': {
+    minValue: 28,
+    maxValue: 45,
     experienceLevel: 'seniorLevel',
-    category: 'Apprentice',
-    prompt: 'Create a detailed job description for an Apprentice Commercial Electrician. Focus on general electrical work for new construction office buildings and hospitals. Apprentice should have at least 1 year of experience as an electrician.'
+    category: 'Fire Alarm',
+    prompt: 'Create a detailed job description for a Fire Alarm Technician with a minimum of 2 years of experience. Focus on job skills for new construction office buildings and hospitals as well as maintenance of existing fire alarm systems. More experienced technicians should have experience with troubleshooting and maintenance of existing fire alarm systems.'
+  },
+  'Fire Alarm Installer': {
+    minValue: 25,
+    maxValue: 38,
+    experienceLevel: 'seniorLevel',
+    category: 'Fire Alarm',
+    prompt: 'Create a detailed job description for a Fire Alarm Installer with a minimum of 2 years of experience. Focus on installing fire alarm systems in new construction office buildings, hospitals, big box retail stores, and other commercial properties.'
+  },
+  'Security Technician': {
+    minValue: 28,
+    maxValue: 40,
+    experienceLevel: 'seniorLevel',
+    category: 'Security',
+    prompt: 'Create a detailed job description for a Security Technician with a minimum of 2 years of experience. Focus on installing security systems in new construction office buildings, hospitals, big box retail stores, and other commercial properties. Name specific skills, tools, and preferred certifications needed for the job.'
+  },
+  'Commercial Journeyman Electrician': {
+    minValue: 41,
+    maxValue: 56,
+    experienceLevel: 'seniorLevel',
+    category: 'Journeyman',
+    prompt: 'Create a detailed job description for a Commercial Journeyman Electrician with a minimum of 4 years of electrical experience. Focus on installing electrical systems in new construction office buildings, hospitals, big box retail stores, and other commercial properties. Offer a $300 sign on bonus after their first pay check.'
   }
 };
 
 async function generateJobDescription(jobType, location) {
-  const prompt = `Create a detailed job description for a ${jobType} position in ${location.city}, ${location.state}. Include key responsibilities, qualifications, and requirements. Focus on industry specifics for ${jobType} work. The company name is Premier Electric, include surrounding cities that border ${location.city}. Include specific job functions and skills required for ${jobType}s.`;
+  const prompt = `${JOB_TYPES[jobType].prompt}
+
+Position: ${jobType}
+Location: ${location.city}, ${location.state}
+Company: Prime Partners
+
+Create a detailed job description that includes:
+- Key responsibilities specific to ${jobType}
+- Required qualifications and certifications
+- Service area including ${location.city} and surrounding cities
+- Specific tools and equipment knowledge needed
+- Safety requirements and protocols
+- Benefits and growth opportunities
+
+The description should be detailed and focus on commercial electrical work in ${location.city}, ${location.state} and nearby areas.`;
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4",
@@ -87,9 +121,9 @@ async function createJob(jobType, location) {
     validThrough: validThrough.toISOString(),
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'Premier Electric',
-      sameAs: 'https://www.premierelectricalstaffing.com/',
-      logo: 'https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
+      name: 'Prime Partners',
+      sameAs: 'https://primepartners.info',
+      logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png'
     },
     jobLocation: {
       streetAddress: '123 Main Street',
@@ -108,14 +142,15 @@ async function createJob(jobType, location) {
     experienceRequirements: jobInfo.experienceLevel,
     occupationalCategory: jobInfo.category,
     identifier: {
-      name: 'Premier Electric',
+      name: 'Prime Partners',
       value: jobId
     },
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com',
-      'resumes@bestelectricianjobs.zohorecruitmail.com'
+      'support@primepartners.info',
+      'resumes@bestelectricianjobs.zohorecruitmail.com',
+      'prime.partners+candidate+jl6y59w7r@mail.manatal.com'
     ]
   };
 
@@ -124,7 +159,7 @@ async function createJob(jobType, location) {
   const finalContent = `${frontmatter}\n\n${fullDescription}`;
 
   // Write to file
-  const filename = `premier-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city
+  const filename = `prime-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city
     .toLowerCase()
     .replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}`.replace(/\s+/g, '-') + '.md';
 
