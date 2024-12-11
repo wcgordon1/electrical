@@ -2,16 +2,16 @@ import { Resend } from 'resend';
 
 export const prerender = false;
 
-// Create API endpoint
 export async function POST({ request }) {
   try {
-    const resend = new Resend(import.meta.env.RESEND_API_KEY);
-
     if (!import.meta.env.RESEND_API_KEY) {
       throw new Error('Missing Resend API key');
     }
 
+    const resend = new Resend(import.meta.env.RESEND_API_KEY);
     const formData = await request.formData();
+
+    // Get all form data explicitly
     const name = formData.get('name');
     const email = formData.get('email');
     const phone = formData.get('phone');
@@ -21,12 +21,15 @@ export async function POST({ request }) {
     const resume = formData.get('resume');
     const emails = JSON.parse(formData.get('emails'));
 
+    // Process resume
     const resumeArrayBuffer = await resume.arrayBuffer();
     const resumeContent = Buffer.from(resumeArrayBuffer).toString('base64');
 
-    const data = await resend.emails.send({
+    // Send email to all recipients
+    const emailResponse = await resend.emails.send({
       from: 'Application Alert <application@bestelectricianmail.com>',
-      to: emails,
+      replyTo: 'hello@bestelectricianjobs.com',
+      to: emails, // This sends to all emails in the array
       subject: `New Job Application: ${jobTitle} from ${name}`,
       text: `
 Job Application Details:
@@ -60,33 +63,19 @@ will@bestelectricianjobs.com
       ],
     });
 
+    console.log('Sending to emails:', emails);
+    console.log('Email response:', emailResponse);
+
     return new Response(
-      JSON.stringify({
-        success: true,
-        id: data.id
-      }),
-      {
-        status: 200,
-        headers: {
-          'Content-Type': 'application/json',
-          'Cache-Control': 'no-store'
-        },
-      }
+      JSON.stringify({ success: true }),
+      { status: 200 }
     );
+
   } catch (error) {
-    console.error('API Error:', error);
+    console.error('Send error:', error);
     return new Response(
-      JSON.stringify({
-        success: false,
-        error: error.message || 'An error occurred'
-      }),
-      {
-        status: 500,
-        headers: {
-          'Content-Type': 'application/json',
-          'Cache-Control': 'no-store'
-        },
-      }
+      JSON.stringify({ success: false, error: error.message }),
+      { status: 500 }
     );
   }
 } 
