@@ -3675,6 +3675,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"prime-structured-cable-technician-suffolk-va-id-mm7388.md": {
+	id: "prime-structured-cable-technician-suffolk-va-id-mm7388.md";
+  slug: "prime-structured-cable-technician-suffolk-va-id-mm7388";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "prime-voice-&-data-technician-anaheim-voic-5us0c6.md": {
 	id: "prime-voice-&-data-technician-anaheim-voic-5us0c6.md";
   slug: "prime-voice--data-technician-anaheim-voic-5us0c6";
@@ -4312,9 +4319,30 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"tr-cable-technician-portland-rogers-id-mm8313.md": {
+	id: "tr-cable-technician-portland-rogers-id-mm8313.md";
+  slug: "tr-cable-technician-portland-rogers-id-mm8313";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"tr-cabletech-arlington-kane-id-gg8200.md": {
+	id: "tr-cabletech-arlington-kane-id-gg8200.md";
+  slug: "tr-cabletech-arlington-kane-id-gg8200";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "tr-data-installer-fremont-id-hv8477.md": {
 	id: "tr-data-installer-fremont-id-hv8477.md";
   slug: "tr-data-installer-fremont-id-hv8477";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"tr-data-installer-seattle-id-bb8834.md": {
+	id: "tr-data-installer-seattle-id-bb8834.md";
+  slug: "tr-data-installer-seattle-id-bb8834";
   body: string;
   collection: "jobs";
   data: any

@@ -8,8 +8,8 @@ description: >-
   multi-mode fiber optic cables.
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-12T08:20:06Z'
+validThrough: '2025-02-12T06:10:16Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications
@@ -17,7 +17,7 @@ hiringOrganization:
   logo: 'https://kane.com/wp-content/uploads/2020/05/Kane-logo-1.png'
 jobLocation:
   streetAddress: 123 Main Street
-  addressLocality: San Franqisco
+  addressLocality: San Francisco
   addressRegion: CA
   postalCode: '94103'
   addressCountry: USA
