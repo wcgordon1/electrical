@@ -81,12 +81,12 @@ const currentCategory = searchParams.get('category');
     </div>
 
     <!-- Reset Button -->
-    <a
-      href="/open-positions"
+    <button
+      id="resetFilters"
       class="block w-full text-center text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 rounded-full mt-6"
     >
       Reset Filters
-    </a>
+    </button>
   </div>
 </div>
 
@@ -104,36 +104,52 @@ const currentCategory = searchParams.get('category');
   };
 
   function filterJobs() {
+    console.log('Filtering with:', activeFilters); // Debug active filters
+
     const jobItems = document.querySelectorAll<HTMLElement>('.job-item');
+    const jobList = document.querySelector<HTMLElement>('.job-list');
 
-    jobItems.forEach(item => {
-      const team = item.dataset.team || '';
-      const category = item.dataset.category || '';
-      const salary = parseInt(item.dataset.salary || '0');
+    if (!jobList) {
+      console.error('Job list container not found');
+      return;
+    }
 
-      const matchesTeam = !activeFilters.team || team === activeFilters.team;
-      const matchesCategory = !activeFilters.category || category === activeFilters.category;
+    try {
+      // First, handle visibility based on team and category
+      jobItems.forEach(item => {
+        const team = item.dataset.team || '';
+        const category = item.dataset.category || '';
+        
+        console.log('Checking job:', { team, category }); // Debug each job
 
-      item.style.display = (matchesTeam && matchesCategory) ? '' : 'none';
+        const matchesTeam = !activeFilters.team || team === activeFilters.team;
+        const matchesCategory = !activeFilters.category || category === activeFilters.category;
+        
+        item.style.display = (matchesTeam && matchesCategory) ? '' : 'none';
+      });
 
-      // Handle salary sorting
+      // Then handle salary sorting separately
       if (activeFilters.salary) {
-        const jobList = document.querySelector<HTMLElement>('.job-list');
-        if (!jobList) return;
+        console.log('Sorting by salary:', activeFilters.salary); // Debug sorting
 
-        const items = Array.from(jobList.children) as HTMLElement[];
-        items.sort((a, b) => {
+        const visibleItems = Array.from(jobItems).filter(item => 
+          item instanceof HTMLElement && item.style.display !== 'none'
+        ) as HTMLElement[];
+
+        visibleItems.sort((a, b) => {
           const salaryA = parseInt(a.dataset.salary || '0');
           const salaryB = parseInt(b.dataset.salary || '0');
           return activeFilters.salary === 'high-low' ? salaryB - salaryA : salaryA - salaryB;
         });
 
-        items.forEach(item => jobList.appendChild(item));
+        // Clear and re-append only visible items
+        visibleItems.forEach(item => jobList.appendChild(item));
       }
-    });
 
-    // Trigger check for no results
-    document.dispatchEvent(new CustomEvent('checkResults'));
+      document.dispatchEvent(new CustomEvent('checkResults'));
+    } catch (error) {
+      console.error('Error during filtering:', error);
+    }
   }
 
   // Event Listeners for Radio Buttons
@@ -147,10 +163,12 @@ const currentCategory = searchParams.get('category');
   });
 
   // Reset Filters
-  const resetButton = document.querySelector('a[href="/open-positions"]');
+  const resetButton = document.getElementById('resetFilters');
   if (resetButton) {
     resetButton.addEventListener('click', (e) => {
       e.preventDefault();
+      
+      // Reset filters
       activeFilters = { salary: null, team: null, category: null };
       document.querySelectorAll<HTMLInputElement>('input[type="radio"]')
         .forEach(radio => radio.checked = false);
@@ -161,6 +179,24 @@ const currentCategory = searchParams.get('category');
       // Reset job visibility
       document.querySelectorAll<HTMLElement>('.job-item')
         .forEach(item => item.style.display = '');
+
+      // Smooth scroll to search with offset
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) {
+        const headerOffset = 100; // Adjust this value based on your header height
+        const elementPosition = searchInput.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+        
+        // Focus the search input after scrolling
+        setTimeout(() => {
+          searchInput.focus();
+        }, 800); // Adjust timing if needed
+      }
 
       // Check for results
       document.dispatchEvent(new CustomEvent('checkResults'));
