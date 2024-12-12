@@ -4312,6 +4312,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"tr-data-installer-fremont-id-hv8477.md": {
+	id: "tr-data-installer-fremont-id-hv8477.md";
+  slug: "tr-data-installer-fremont-id-hv8477";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
+"tr-data-installer-virginia-id-tr8001.md": {
+	id: "tr-data-installer-virginia-id-tr8001.md";
+  slug: "tr-data-installer-virginia-id-tr8001";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "voice-data-installer-fairfax-id-ds23.md": {
 	id: "voice-data-installer-fairfax-id-ds23.md";
   slug: "voice-data-installer-fairfax-id-ds23";
