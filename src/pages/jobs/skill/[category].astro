@@ -28,9 +28,11 @@ const { category } = Astro.params;
 const allJobs = await getCollection("jobs");
 
 // Filter jobs for this category
-const categoryJobs = allJobs.filter(job => 
-  job.data.occupationalCategory.toLowerCase() === category.replace(/-jobs$/, '')
-);
+const categoryJobs = allJobs.filter(job => {
+  const jobCategory = job.data.occupationalCategory.toLowerCase().replace(/\s+/g, '-');
+  const urlCategory = category.replace(/-jobs$/, '');
+  return jobCategory === urlCategory;
+});
 
 // Sort jobs by featured status first, then by date
 const sortedJobs = categoryJobs.sort((a, b) => {
