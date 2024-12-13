@@ -4354,6 +4354,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"tr-journeyman-electrician-morgan-hill-rogers-id-bb5881.md": {
+	id: "tr-journeyman-electrician-morgan-hill-rogers-id-bb5881.md";
+  slug: "tr-journeyman-electrician-morgan-hill-rogers-id-bb5881";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "voice-data-installer-fairfax-id-ds23.md": {
 	id: "voice-data-installer-fairfax-id-ds23.md";
   slug: "voice-data-installer-fairfax-id-ds23";

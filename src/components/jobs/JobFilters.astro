@@ -176,26 +176,42 @@ const currentCategory = searchParams.get('category');
       // Reset search
       document.dispatchEvent(new CustomEvent('resetSearch'));
       
-      // Reset job visibility
-      document.querySelectorAll<HTMLElement>('.job-item')
-        .forEach(item => item.style.display = '');
+      // Reset job visibility and order
+      const jobList = document.querySelector('.job-list');
+      const jobItems = document.querySelectorAll('.job-item');
+      
+      // Show all jobs and restore original order
+      jobItems.forEach(item => {
+        if (item instanceof HTMLElement) {
+          item.style.display = '';
+          // Remove any sorting classes
+          item.classList.remove('sorted');
+        }
+      });
 
-      // Smooth scroll to search with offset
+      // Sort by featured and date (restore original order)
+      const sortedItems = Array.from(jobItems).sort((a, b) => {
+        const aFeatured = a.getAttribute('data-featured') === 'true';
+        const bFeatured = b.getAttribute('data-featured') === 'true';
+        
+        if (aFeatured && !bFeatured) return -1;
+        if (!aFeatured && bFeatured) return 1;
+        
+        const aDate = new Date(a.getAttribute('data-date-posted') || '');
+        const bDate = new Date(b.getAttribute('data-date-posted') || '');
+        return bDate.getTime() - aDate.getTime();
+      });
+
+      // Reappend in correct order
+      if (jobList) {
+        sortedItems.forEach(item => jobList.appendChild(item));
+      }
+
+      // Scroll to search input
       const searchInput = document.getElementById('searchInput');
       if (searchInput) {
-        const headerOffset = 100; // Adjust this value based on your header height
-        const elementPosition = searchInput.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-        
-        // Focus the search input after scrolling
-        setTimeout(() => {
-          searchInput.focus();
-        }, 800); // Adjust timing if needed
+        searchInput.scrollIntoView({ behavior: 'smooth' });
+        searchInput.focus();
       }
 
       // Check for results

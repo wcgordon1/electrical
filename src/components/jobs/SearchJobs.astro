@@ -7,7 +7,7 @@ const jobs = await getCollection("jobs");
 const totalJobs = jobs.length;
 
 // Make totalJobs available to the template
-const placeholder = `Search ${totalJobs} jobs...`;
+const placeholder = `${totalJobs} jobs - Search all fields here!`;
 
 // Get current search value from URL if it exists
 const searchValue = Astro.url.searchParams.get('search') || '';
