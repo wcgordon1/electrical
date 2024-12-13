@@ -1,11 +1,11 @@
 ---
 position: Journeyman Electrician
 description: >-
-  Rogers Electric is a premier electrical contractor specializing in commercial projects across the United States. With a focus on quality, safety, and efficiency, we deliver top-tier electrical services to meet the needs of our clients. We are seeking a **Journeyman Electrician** to join our team in Morgan Hill, CA, focusing on commercial new construction projects in Morgan Hill and surrounding cities, including Gilroy, San Jose, Hollister, Sunnyvale, and Santa Clara.  We are looking for a skilled Journeyman Electrician to join our team and grow their skills in the field of electrical work. This position offers hands-on experience in commercial and industrial electrical work...
+  Rogers Electric is a premier electrical contractor specializing in commercial projects across the United States. With a focus on quality, safety, and efficiency, we deliver top-tier electrical services to meet the needs of our clients. We are seeking a **Journeyman Electrician** to join our team in Morgan Hill, CA, focusing on commercial new construction projects in Morgan Hill and surrounding cities, including Gilroy, San Jose, Hollister, Cupertino, and Santa Clara.  We are looking for a skilled Journeyman Electrician to join our team and grow their skills in the field of electrical work. This position offers hands-on experience in commercial and industrial electrical work...
 location: 'Morgan Hill, CA'
 team: Commercial
-datePosted: '2024-12-12T16:20:992Z'
-validThrough: '2025-02-12T16:20:992Z'
+datePosted: '2024-12-12T06:10:16Z'
+validThrough: '2025-02-12T06:10:16Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric
@@ -20,15 +20,15 @@ jobLocation:
   addressCountry: USA
 baseSalary:
   currency: USD
-  value: 48
-  minValue: 48
-  maxValue: 55
+  value: 38
+  minValue: 38
+  maxValue: 45
   unitText: HOUR
 experienceRequirements: seniorLevel
 occupationalCategory: Voice Data
 identifier:
   name: Rogers Electric
-  value: mm8313
+  value: bb5881
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
@@ -39,9 +39,10 @@ featured: true
 
 Rogers Electric is a premier electrical contractor specializing in commercial projects across the United States. With a focus on quality, safety, and efficiency, we deliver top-tier electrical services to meet the needs of our clients. We are seeking a **Journeyman Electrician** to join our team in Morgan Hill, CA, focusing on commercial new construction projects in Morgan Hill and surrounding cities, including Gilroy, San Jose, Hollister, Cupertino, and Santa Clara.  
 
+### Rogers Electric  
 **Location:** Morgan Hill, CA  
-**Company:** Rogers Electric  
 **Pay Range:** $48 - $55/hour (based on experience)  
+**Team:** Commercial  
 
 ---
 
