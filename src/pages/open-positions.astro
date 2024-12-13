@@ -61,7 +61,7 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
           <JobFilters />
         </div>
         
-        <div class="lg:w-2/4 mt-8 lg:mt-0 mb-24">
+        <div class="lg:w-3/4 mt-8 lg:mt-0 mb-24">
           <ul role="list" class="job-list divide-y divide-slate-100">
             {
               sortedPosts.map((post) => (
@@ -83,26 +83,6 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
               ))
             }
           </ul>
-        </div>
-
-        <div class="lg:w-1/4">
-          <div class="lg:sticky lg:top-8">
-            <div class="bg-slate-50 rounded-3xl p-4 lg:p-6">
-              <div>
-                <h3 class="text-lg font-medium text-purple-900">Electrician Jobs</h3>
-                <p class="text-slate-500 text-sm mt-2">Where Electricians Find Jobs.</p>
-                <p class="text-slate-500 text-sm mt-2">Indeed & ZipRecruiter not working? Give us a try.</p>
-              </div>
-              <div class="mt-6">
-                <a 
-                  href="/post-a-job" 
-                  class="w-full text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 rounded-full inline-block text-center"
-                >
-                  Post a Job
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

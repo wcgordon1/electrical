@@ -4354,6 +4354,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: any
 } & { render(): Render[".md"] };
+"tr-fiber-optic-technician-mcenroe-sb-id-mm4811.md": {
+	id: "tr-fiber-optic-technician-mcenroe-sb-id-mm4811.md";
+  slug: "tr-fiber-optic-technician-mcenroe-sb-id-mm4811";
+  body: string;
+  collection: "jobs";
+  data: any
+} & { render(): Render[".md"] };
 "tr-journeyman-electrician-morgan-hill-rogers-id-bb5881.md": {
 	id: "tr-journeyman-electrician-morgan-hill-rogers-id-bb5881.md";
   slug: "tr-journeyman-electrician-morgan-hill-rogers-id-bb5881";
