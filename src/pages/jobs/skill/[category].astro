@@ -83,7 +83,6 @@ const breadcrumbList = {
 
 <BaseLayout title={pageTitle} description={pageDescription}>
   <Fragment slot="head">
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbList, null, 2)} />
   </Fragment>
 
