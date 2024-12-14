@@ -17,7 +17,7 @@ jobLocation:
   streetAddress: 1000 S 1st St
   addressLocality: San Jose
   addressRegion: CA
-  postalCode: '95126'
+  postalCode: '95110'
   addressCountry: USA
 baseSalary:
   currency: USD
@@ -34,8 +34,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - >-
-    resumes@bestelectricianjobs.zohorecruitmail.com'prime.partners+candidate+jl6y59w7r@mail.manatal.com
 ---
 
 **Company:** Howell Electric  

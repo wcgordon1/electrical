@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import CtaOne from "@/components/cta/CtaOne.astro";
-
 const { frontmatter } = Astro.props;
 
 // Create dynamic SEO title and description
@@ -9,14 +8,18 @@ const seoTitle = frontmatter.title;
 const seoDescription = frontmatter.description.length > 160 
   ? `${frontmatter.description.substring(0, 157)}...`
   : frontmatter.description;
-
 // Get the current URL for mainEntityOfPage
 const currentUrl = Astro.url;
-
-// Convert the content to plain text for articleBody
+// Convert the content to plain text for articleBody and truncate
 const articleBody = await Astro.slots.render('default');
-const plainTextContent = articleBody.replace(/<[^>]*>/g, '');
-
+const plainTextContent = articleBody
+  .replace(/<[^>]*>/g, '')
+  .replace(/\n/g, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
+const truncatedArticleBody = plainTextContent.length > 160 
+  ? `${plainTextContent.substring(0, 157)}...` 
+  : plainTextContent;
 // Create the JSON-LD data
 const jsonLd = {
   "@context": "https://schema.org",
@@ -26,23 +29,27 @@ const jsonLd = {
     "@id": currentUrl
   },
   "headline": frontmatter.title,
-  "datePublished": frontmatter.pubDate.toISOString(),
-  "dateModified": frontmatter.modDate,
+  "datePublished": new Date(frontmatter.pubDate).toISOString(),
+  "dateModified": new Date(frontmatter.modDate).toISOString(),
   "author": {
     "@type": "Person",
     "name": frontmatter.author,
-    "url": "https://bestelectricianjobs.com/about"
+    "url": "https://www.bestelectricianjobs.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Best Electrician Jobs",
+    "name": "No Code Jobs",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://bestelectricianjobs.com/logo.png"
+      "url": "https://www.bestelectricianjobs.com/images/eleclog.png",
+      "width": 600,
+      "height": 60
     }
   },
-  "description": frontmatter.description,
-  "articleBody": plainTextContent,
+  "description": frontmatter.description.length > 160 
+    ? `${frontmatter.description.substring(0, 157)}...` 
+    : frontmatter.description,
+  "articleBody": truncatedArticleBody,
   "keywords": frontmatter.tags,
   "inLanguage": "en-US",
   "isAccessibleForFree": true,
@@ -50,14 +57,13 @@ const jsonLd = {
     "@type": "ImageObject",
     "url": frontmatter.image.url,
     "height": "800",
-    "width": "1200"
-  },
-  "mainEntity": {
-    "@type": "Thing",
-    "name": frontmatter.title
+    "width": "1200",
+    "caption": frontmatter.title
   }
 };
+
 ---
+
 
 <BaseLayout title={seoTitle} description={seoDescription}>
   <div class="fixed top-0 left-0 right-0 h-1 bg-slate-100 z-50">
