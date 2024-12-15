@@ -1085,6 +1085,125 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-bakersfield-sola-qd6940.md": {
+	id: "greenskies-solar-panel-installer-bakersfield-sola-qd6940.md";
+  slug: "greenskies-solar-panel-installer-bakersfield-sola-qd6940";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-blythe-sola-fm2v5u.md": {
+	id: "greenskies-solar-panel-installer-blythe-sola-fm2v5u.md";
+  slug: "greenskies-solar-panel-installer-blythe-sola-fm2v5u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-boulder-city-sola-liiq7a.md": {
+	id: "greenskies-solar-panel-installer-boulder-city-sola-liiq7a.md";
+  slug: "greenskies-solar-panel-installer-boulder-city-sola-liiq7a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-casa-grande-sola-k67uvp.md": {
+	id: "greenskies-solar-panel-installer-casa-grande-sola-k67uvp.md";
+  slug: "greenskies-solar-panel-installer-casa-grande-sola-k67uvp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-deming-sola-muy5t7.md": {
+	id: "greenskies-solar-panel-installer-deming-sola-muy5t7.md";
+  slug: "greenskies-solar-panel-installer-deming-sola-muy5t7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-desert-center-sola-mzrqcn.md": {
+	id: "greenskies-solar-panel-installer-desert-center-sola-mzrqcn.md";
+  slug: "greenskies-solar-panel-installer-desert-center-sola-mzrqcn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-el-centro-sola-8ktz51.md": {
+	id: "greenskies-solar-panel-installer-el-centro-sola-8ktz51.md";
+  slug: "greenskies-solar-panel-installer-el-centro-sola-8ktz51";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-gila-bend-sola-7yrg42.md": {
+	id: "greenskies-solar-panel-installer-gila-bend-sola-7yrg42.md";
+  slug: "greenskies-solar-panel-installer-gila-bend-sola-7yrg42";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-hatch-sola-emi3sq.md": {
+	id: "greenskies-solar-panel-installer-hatch-sola-emi3sq.md";
+  slug: "greenskies-solar-panel-installer-hatch-sola-emi3sq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-lancaster-sola-5e0dly.md": {
+	id: "greenskies-solar-panel-installer-lancaster-sola-5e0dly.md";
+  slug: "greenskies-solar-panel-installer-lancaster-sola-5e0dly";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-las-vegas-sola-s23p2z.md": {
+	id: "greenskies-solar-panel-installer-las-vegas-sola-s23p2z.md";
+  slug: "greenskies-solar-panel-installer-las-vegas-sola-s23p2z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-palm-springs-sola-t3sge8.md": {
+	id: "greenskies-solar-panel-installer-palm-springs-sola-t3sge8.md";
+  slug: "greenskies-solar-panel-installer-palm-springs-sola-t3sge8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-phoenix-sola-47qylq.md": {
+	id: "greenskies-solar-panel-installer-phoenix-sola-47qylq.md";
+  slug: "greenskies-solar-panel-installer-phoenix-sola-47qylq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-pueblo-sola-nn3meq.md": {
+	id: "greenskies-solar-panel-installer-pueblo-sola-nn3meq.md";
+  slug: "greenskies-solar-panel-installer-pueblo-sola-nn3meq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-rosamond-sola-0sy84w.md": {
+	id: "greenskies-solar-panel-installer-rosamond-sola-0sy84w.md";
+  slug: "greenskies-solar-panel-installer-rosamond-sola-0sy84w";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-san-antonio-sola-hbudm4.md": {
+	id: "greenskies-solar-panel-installer-san-antonio-sola-hbudm4.md";
+  slug: "greenskies-solar-panel-installer-san-antonio-sola-hbudm4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"greenskies-solar-panel-installer-tonopah-sola-1hgs05.md": {
+	id: "greenskies-solar-panel-installer-tonopah-sola-1hgs05.md";
+  slug: "greenskies-solar-panel-installer-tonopah-sola-1hgs05";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "howell-cable-tech-id-nf8492.md": {
 	id: "howell-cable-tech-id-nf8492.md";
   slug: "howell-cable-tech-id-nf8492";
@@ -1221,6 +1340,55 @@ declare module 'astro:content' {
 "lead-cable-tech-chantilly-id-fds24.md": {
 	id: "lead-cable-tech-chantilly-id-fds24.md";
   slug: "lead-cable-tech-chantilly-id-fds24";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-boise-voic-wc3l4q.md": {
+	id: "mcenroe-voice-&-data-installer-boise-voic-wc3l4q.md";
+  slug: "mcenroe-voice--data-installer-boise-voic-wc3l4q";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-boston-voic-xcyye7.md": {
+	id: "mcenroe-voice-&-data-installer-boston-voic-xcyye7.md";
+  slug: "mcenroe-voice--data-installer-boston-voic-xcyye7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-cheyenne-voic-cp1nuz.md": {
+	id: "mcenroe-voice-&-data-installer-cheyenne-voic-cp1nuz.md";
+  slug: "mcenroe-voice--data-installer-cheyenne-voic-cp1nuz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-columbus-voic-ljbx8r.md": {
+	id: "mcenroe-voice-&-data-installer-columbus-voic-ljbx8r.md";
+  slug: "mcenroe-voice--data-installer-columbus-voic-ljbx8r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-indianapolis-voic-p4n8ck.md": {
+	id: "mcenroe-voice-&-data-installer-indianapolis-voic-p4n8ck.md";
+  slug: "mcenroe-voice--data-installer-indianapolis-voic-p4n8ck";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-jacksonville-voic-caqg2m.md": {
+	id: "mcenroe-voice-&-data-installer-jacksonville-voic-caqg2m.md";
+  slug: "mcenroe-voice--data-installer-jacksonville-voic-caqg2m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mcenroe-voice-&-data-installer-omaha-voic-ygxet5.md": {
+	id: "mcenroe-voice-&-data-installer-omaha-voic-ygxet5.md";
+  slug: "mcenroe-voice--data-installer-omaha-voic-ygxet5";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
