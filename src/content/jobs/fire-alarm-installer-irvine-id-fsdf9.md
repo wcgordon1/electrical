@@ -6,8 +6,8 @@ description: >-
   maintaining, and repairing fire alarm systems.
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-14T08:41:53.211Z'
+validThrough: '2025-01-16T08:41:53.211Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire Inc.

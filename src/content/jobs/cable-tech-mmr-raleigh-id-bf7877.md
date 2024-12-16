@@ -43,8 +43,8 @@ description: >-
   sites
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T08:42:42.248Z'
+validThrough: '2025-01-25T08:42:42.248Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

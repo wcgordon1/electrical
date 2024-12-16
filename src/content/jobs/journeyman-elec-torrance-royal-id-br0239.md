@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T19:50:12.852Z'
+validThrough: '2025-01-16T19:50:12.852Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Royal Electric

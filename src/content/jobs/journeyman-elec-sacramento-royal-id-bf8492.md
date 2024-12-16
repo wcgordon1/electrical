@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-14T15:08:11.182Z'
+validThrough: '2025-01-20T15:08:11.182Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Royal Electric

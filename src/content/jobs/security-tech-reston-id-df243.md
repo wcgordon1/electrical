@@ -6,8 +6,8 @@ description: >-
   maintaining, and repairing security systems.
 location: 'Reston, VA'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T13:40:25.025Z'
+validThrough: '2025-01-27T13:40:25.025Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications

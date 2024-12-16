@@ -37,8 +37,8 @@ description: >-
   projects is a plus.
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-14T19:40:42.978Z'
+validThrough: '2025-01-28T19:40:42.978Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

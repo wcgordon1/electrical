@@ -71,8 +71,8 @@ description: >-
   environments, requiring flexibility and adaptability.
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-15T18:24:42.768Z'
+validThrough: '2025-01-26T18:24:42.768Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

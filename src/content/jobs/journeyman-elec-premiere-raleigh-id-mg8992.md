@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-16T06:35:32.250Z'
+validThrough: '2025-01-24T06:35:32.250Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

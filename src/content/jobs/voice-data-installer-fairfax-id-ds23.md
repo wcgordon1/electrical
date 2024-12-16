@@ -8,8 +8,8 @@ description: >-
   single-mode and multi-mode fiber optic cables.
 location: 'Fairfax, VA'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-14T22:06:17.322Z'
+validThrough: '2025-01-28T22:06:17.322Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications

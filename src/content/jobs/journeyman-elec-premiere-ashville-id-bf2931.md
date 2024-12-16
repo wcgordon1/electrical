@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Asheville, NC'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-16T02:46:39.257Z'
+validThrough: '2025-01-15T02:46:39.257Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

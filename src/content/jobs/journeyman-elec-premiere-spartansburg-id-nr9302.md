@@ -31,8 +31,8 @@ description: >-
   automotive industry Bilingual (English/Spanish) skills
 location: 'Spartansburg, NC'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T06:01:54.386Z'
+validThrough: '2025-01-18T06:01:54.386Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

@@ -42,8 +42,8 @@ description: >-
   Indoor and outdoor work settings Commercial and industrial installation sites
 location: 'Boulder, CO'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-15T09:13:44.175Z'
+validThrough: '2025-01-27T09:13:44.175Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Encore Electric

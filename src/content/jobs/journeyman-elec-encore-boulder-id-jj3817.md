@@ -54,8 +54,8 @@ description: >-
   construction.
 location: 'Boulder, CO'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T06:45:25.776Z'
+validThrough: '2025-01-13T06:45:25.776Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Encore Electric

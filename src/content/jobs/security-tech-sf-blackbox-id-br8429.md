@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T14:55:33.502Z'
+validThrough: '2025-01-13T14:55:33.502Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

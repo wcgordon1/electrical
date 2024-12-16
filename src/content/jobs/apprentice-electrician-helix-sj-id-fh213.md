@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T19:41:26.901Z'
+validThrough: '2025-01-14T19:41:26.901Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

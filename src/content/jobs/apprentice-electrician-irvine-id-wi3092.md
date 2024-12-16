@@ -7,8 +7,8 @@ description: >-
   quality, safety, and innovation.
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T23:58:39.422Z'
+validThrough: '2025-01-17T23:58:39.422Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berg Electric

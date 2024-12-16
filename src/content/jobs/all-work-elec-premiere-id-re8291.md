@@ -34,8 +34,8 @@ description: >-
   commercial construction.
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-04T08:20:06Z'
-validThrough: '2025-02-02T08:20:06Z'
+datePosted: '2024-12-15T09:07:47.101Z'
+validThrough: '2025-01-16T09:07:47.101Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

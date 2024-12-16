@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-15T10:20:08.363Z'
+validThrough: '2025-01-21T10:20:08.363Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

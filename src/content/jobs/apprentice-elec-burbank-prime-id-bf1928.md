@@ -32,8 +32,8 @@ description: >-
   development. Paid time off and holidays
 location: 'Burbank, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T13:53:02.936Z'
+validThrough: '2025-01-14T13:53:02.936Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

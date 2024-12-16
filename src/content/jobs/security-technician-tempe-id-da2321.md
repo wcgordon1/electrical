@@ -7,8 +7,8 @@ description: >-
   control and CCTV solutions.
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-15T07:30:41.766Z'
+validThrough: '2025-01-28T07:30:41.766Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint Technologies

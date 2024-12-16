@@ -37,8 +37,8 @@ description: >-
   projects is a plus.
 location: 'Riverside, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-15T15:11:29.412Z'
+validThrough: '2025-01-26T15:11:29.412Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

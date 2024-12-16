@@ -47,8 +47,8 @@ description: >-
   commercial electrical systems, tools, and techniques.
 location: 'Cupertino, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-15T09:28:28.297Z'
+validThrough: '2025-01-18T09:28:28.297Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

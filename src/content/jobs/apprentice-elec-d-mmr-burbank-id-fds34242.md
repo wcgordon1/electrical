@@ -21,8 +21,8 @@ description: >-
   safety protocols and utilize proper personal protective equipment (PPE).
 location: 'Burbank, CA'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-14T06:47:51.169Z'
+validThrough: '2025-01-13T06:47:51.169Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

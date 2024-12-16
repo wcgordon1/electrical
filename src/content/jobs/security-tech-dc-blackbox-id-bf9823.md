@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'Washington, DC'
 team: Commercial
-datePosted: '2024-12-03T08:20:06Z'
-validThrough: '2025-02-01T08:20:06Z'
+datePosted: '2024-12-15T09:21:52.744Z'
+validThrough: '2025-01-21T09:21:52.744Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

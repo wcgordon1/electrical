@@ -32,8 +32,8 @@ description: >-
   management experience AutoCAD proficiency Bilingual English/Spanish
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T19:06:43.504Z'
+validThrough: '2025-01-17T19:06:43.504Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

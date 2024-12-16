@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'Palo Alto, CA'
 team: Commercial
-datePosted: '2024-12-02T08:20:06Z'
-validThrough: '2025-01-31T08:20:06Z'
+datePosted: '2024-12-14T09:38:26.342Z'
+validThrough: '2025-01-28T09:38:26.342Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box
