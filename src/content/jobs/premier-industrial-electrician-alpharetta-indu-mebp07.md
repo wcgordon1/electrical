@@ -17,8 +17,8 @@ description: >-
   experience as an Industrial Electrician, have a strong unders...
 location: 'Alpharetta, GA'
 team: Industrial
-datePosted: '2024-12-08T23:23:59.866Z'
-validThrough: '2025-02-06T23:23:59.866Z'
+datePosted: '2024-12-16T04:35:52.325Z'
+validThrough: '2025-01-24T04:35:52.325Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

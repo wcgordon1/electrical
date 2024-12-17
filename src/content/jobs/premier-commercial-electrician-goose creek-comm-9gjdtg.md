@@ -21,8 +21,8 @@ description: >-
   1. Install, maintai...
 location: 'Goose Creek, SC'
 team: Commercial
-datePosted: '2024-12-08T23:10:32.486Z'
-validThrough: '2025-02-06T23:10:32.486Z'
+datePosted: '2024-12-17T18:04:48.246Z'
+validThrough: '2025-01-24T18:04:48.246Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

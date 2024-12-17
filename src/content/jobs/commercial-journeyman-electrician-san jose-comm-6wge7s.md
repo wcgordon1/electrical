@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and repair electrical control, wi...
 location: 'San Jose, CA'
 team: Data Center
-datePosted: '2024-12-08T07:51:06.017Z'
-validThrough: '2025-02-06T07:51:06.017Z'
+datePosted: '2024-12-16T03:27:37.401Z'
+validThrough: '2025-01-23T03:27:37.401Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

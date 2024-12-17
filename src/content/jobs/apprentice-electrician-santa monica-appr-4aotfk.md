@@ -108,8 +108,8 @@ description: >-
   heights, confined spaces and may occasionally lift heavy objects.
 location: 'Santa Monica, CA'
 team: Residential
-datePosted: '2024-12-08T07:36:47.054Z'
-validThrough: '2025-02-06T07:36:47.054Z'
+datePosted: '2024-12-16T00:47:43.529Z'
+validThrough: '2025-01-22T00:47:43.529Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

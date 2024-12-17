@@ -75,8 +75,8 @@ description: >-
   equal opportunity employer and encourage all qualified applicants to apply.
 location: 'Santa Clara, CA'
 team: Data Center
-datePosted: '2024-12-08T07:34:43.929Z'
-validThrough: '2025-02-06T07:34:43.929Z'
+datePosted: '2024-12-17T09:16:14.682Z'
+validThrough: '2025-01-16T09:16:14.682Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

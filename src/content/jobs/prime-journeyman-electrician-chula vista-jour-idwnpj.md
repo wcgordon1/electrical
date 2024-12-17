@@ -20,8 +20,8 @@ description: >-
   Key Responsibil...
 location: 'Chula Vista, CA'
 team: Data Center
-datePosted: '2024-12-08T15:04:30.746Z'
-validThrough: '2025-02-06T15:04:30.746Z'
+datePosted: '2024-12-17T08:43:44.852Z'
+validThrough: '2025-01-18T08:43:44.852Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and ...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-08T14:55:03.733Z'
-validThrough: '2025-02-06T14:55:03.733Z'
+datePosted: '2024-12-16T02:32:05.566Z'
+validThrough: '2025-01-18T02:32:05.566Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

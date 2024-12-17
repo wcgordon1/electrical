@@ -17,8 +17,8 @@ description: >-
   position will also require travel to surrounding cities such as Sed...
 location: 'Flagstaff, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:19:16.078Z'
-validThrough: '2025-02-06T15:19:16.078Z'
+datePosted: '2024-12-16T22:09:39.831Z'
+validThrough: '2025-01-19T22:09:39.831Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   work independently, solve problems, and work effectively under ...
 location: 'Glendale, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:14:31.684Z'
-validThrough: '2025-02-06T15:14:31.684Z'
+datePosted: '2024-12-17T12:02:43.234Z'
+validThrough: '2025-01-18T12:02:43.234Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   repairing electrical systems, e...
 location: 'Charleston, SC'
 team: Industrial
-datePosted: '2024-12-08T23:35:00.699Z'
-validThrough: '2025-02-06T23:35:00.699Z'
+datePosted: '2024-12-17T02:37:30.201Z'
+validThrough: '2025-01-24T02:37:30.201Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

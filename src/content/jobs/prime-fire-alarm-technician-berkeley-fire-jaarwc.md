@@ -26,8 +26,8 @@ description: >-
   1. Install new ...
 location: 'Berkeley, CA'
 team: Industrial
-datePosted: '2024-12-08T08:10:35.462Z'
-validThrough: '2025-02-06T08:10:35.462Z'
+datePosted: '2024-12-17T16:57:13.117Z'
+validThrough: '2025-01-19T16:57:13.117Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

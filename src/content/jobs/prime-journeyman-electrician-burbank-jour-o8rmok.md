@@ -18,8 +18,8 @@ description: >-
   systems and committed to providing excellent service to our client...
 location: 'Burbank, CA'
 team: Data Center
-datePosted: '2024-12-08T15:01:44.530Z'
-validThrough: '2025-02-06T15:01:44.530Z'
+datePosted: '2024-12-16T02:13:18.989Z'
+validThrough: '2025-01-17T02:13:18.989Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

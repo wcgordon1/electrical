@@ -19,8 +19,8 @@ description: >-
   wa...
 location: 'Westminster, CO'
 team: Data Center
-datePosted: '2024-12-08T23:04:22.601Z'
-validThrough: '2025-02-06T23:04:22.601Z'
+datePosted: '2024-12-17T05:19:32.186Z'
+validThrough: '2025-01-17T05:19:32.186Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

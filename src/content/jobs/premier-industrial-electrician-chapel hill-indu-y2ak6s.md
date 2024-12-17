@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repa...
 location: 'Chapel Hill, NC'
 team: Industrial
-datePosted: '2024-12-08T23:33:52.132Z'
-validThrough: '2025-02-06T23:33:52.132Z'
+datePosted: '2024-12-16T13:00:32.070Z'
+validThrough: '2025-01-29T13:00:32.070Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

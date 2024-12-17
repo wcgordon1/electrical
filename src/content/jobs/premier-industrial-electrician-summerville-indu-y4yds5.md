@@ -18,8 +18,8 @@ description: >-
   Summerville, SC, and surround...
 location: 'Summerville, SC'
 team: Industrial
-datePosted: '2024-12-08T23:36:30.402Z'
-validThrough: '2025-02-06T23:36:30.402Z'
+datePosted: '2024-12-16T11:30:29.234Z'
+validThrough: '2025-01-28T11:30:29.234Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

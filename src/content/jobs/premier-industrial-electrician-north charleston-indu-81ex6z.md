@@ -22,8 +22,8 @@ description: >-
   work environment for our...
 location: 'North Charleston, SC'
 team: Industrial
-datePosted: '2024-12-08T23:35:14.015Z'
-validThrough: '2025-02-06T23:35:14.015Z'
+datePosted: '2024-12-15T22:32:16.714Z'
+validThrough: '2025-01-14T22:32:16.714Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -17,8 +17,8 @@ description: >-
   retail. The ideal candidate will have a solid background in th...
 location: 'San Francisco, CA'
 team: Data Center
-datePosted: '2024-12-08T15:24:52.959Z'
-validThrough: '2025-02-06T15:24:52.959Z'
+datePosted: '2024-12-17T15:50:10.990Z'
+validThrough: '2025-01-31T15:50:10.990Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

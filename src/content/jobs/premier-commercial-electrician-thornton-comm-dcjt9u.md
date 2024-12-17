@@ -18,8 +18,8 @@ description: >-
   minimum of one year of experience in ...
 location: 'Thornton, CO'
 team: Data Center
-datePosted: '2024-12-08T23:03:35.194Z'
-validThrough: '2025-02-06T23:03:35.194Z'
+datePosted: '2024-12-17T16:45:24.413Z'
+validThrough: '2025-01-21T16:45:24.413Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

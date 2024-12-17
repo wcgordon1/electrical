@@ -23,8 +23,8 @@ description: >-
   1. Install, service, and repair...
 location: 'Roswell, GA'
 team: Data Center
-datePosted: '2024-12-08T08:11:58.751Z'
-validThrough: '2025-02-06T08:11:58.751Z'
+datePosted: '2024-12-17T01:33:04.699Z'
+validThrough: '2025-01-22T01:33:04.699Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

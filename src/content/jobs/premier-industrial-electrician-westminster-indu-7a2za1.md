@@ -16,8 +16,8 @@ description: >-
   Westminster area and surroundi...
 location: 'Westminster, CO'
 team: Industrial
-datePosted: '2024-12-08T23:31:16.141Z'
-validThrough: '2025-02-06T23:31:16.141Z'
+datePosted: '2024-12-17T10:48:04.102Z'
+validThrough: '2025-01-28T10:48:04.102Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

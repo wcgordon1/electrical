@@ -18,8 +18,8 @@ description: >-
   problem-solving skills, attention to detail, and ...
 location: 'Roswell, GA'
 team: Data Center
-datePosted: '2024-12-08T07:56:38.721Z'
-validThrough: '2025-02-06T07:56:38.721Z'
+datePosted: '2024-12-17T11:35:21.445Z'
+validThrough: '2025-01-22T11:35:21.445Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

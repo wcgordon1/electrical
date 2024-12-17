@@ -21,8 +21,8 @@ description: >-
   retail, so experience in these...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:40:04.217Z'
-validThrough: '2025-02-06T15:40:04.217Z'
+datePosted: '2024-12-16T01:52:31.898Z'
+validThrough: '2025-01-19T01:52:31.898Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

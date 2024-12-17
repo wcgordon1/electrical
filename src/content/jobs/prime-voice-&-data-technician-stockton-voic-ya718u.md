@@ -22,8 +22,8 @@ description: >-
   1. Installation and maintenance of voice and data sys...
 location: 'Stockton, CA'
 team: Commercial
-datePosted: '2024-12-08T15:31:23.450Z'
-validThrough: '2025-02-06T15:31:23.450Z'
+datePosted: '2024-12-16T13:57:59.783Z'
+validThrough: '2025-01-26T13:57:59.783Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -27,8 +27,8 @@ description: >-
   1. Install, maintain, and repair ele...
 location: 'North Charleston, SC'
 team: Commercial
-datePosted: '2024-12-08T23:08:45.965Z'
-validThrough: '2025-02-06T23:08:45.965Z'
+datePosted: '2024-12-16T04:44:16.153Z'
+validThrough: '2025-01-16T04:44:16.153Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

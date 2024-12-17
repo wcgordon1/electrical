@@ -791,6 +791,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"avispl-cable-tech-lead-beaverton-cabl-40wo6g.md": {
+	id: "avispl-cable-tech-lead-beaverton-cabl-40wo6g.md";
+  slug: "avispl-cable-tech-lead-beaverton-cabl-40wo6g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "avispl-cable-tech-lead-gresham-cabl-zp9p4r.md": {
 	id: "avispl-cable-tech-lead-gresham-cabl-zp9p4r.md";
   slug: "avispl-cable-tech-lead-gresham-cabl-zp9p4r";
@@ -798,9 +805,23 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"avispl-cable-tech-lead-tempe-cabl-54taog.md": {
+	id: "avispl-cable-tech-lead-tempe-cabl-54taog.md";
+  slug: "avispl-cable-tech-lead-tempe-cabl-54taog";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "avispl-commercial-project-manager-pacifica-comm-vw114m.md": {
 	id: "avispl-commercial-project-manager-pacifica-comm-vw114m.md";
   slug: "avispl-commercial-project-manager-pacifica-comm-vw114m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-fire-alarm-installer-low-voltage-alameda-fire-1l46wu.md": {
+	id: "avispl-fire-alarm-installer-low-voltage-alameda-fire-1l46wu.md";
+  slug: "avispl-fire-alarm-installer-low-voltage-alameda-fire-1l46wu";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -819,9 +840,37 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"avispl-fire-alarm-installer-low-voltage-renton-fire-hcvuqf.md": {
+	id: "avispl-fire-alarm-installer-low-voltage-renton-fire-hcvuqf.md";
+  slug: "avispl-fire-alarm-installer-low-voltage-renton-fire-hcvuqf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "avispl-fire-alarm-installer-low-voltage-scottsdale-fire-wywri0.md": {
 	id: "avispl-fire-alarm-installer-low-voltage-scottsdale-fire-wywri0.md";
   slug: "avispl-fire-alarm-installer-low-voltage-scottsdale-fire-wywri0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-low-voltage-security-installer-boulder-low--htifhg.md": {
+	id: "avispl-low-voltage-security-installer-boulder-low--htifhg.md";
+  slug: "avispl-low-voltage-security-installer-boulder-low--htifhg";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-low-voltage-security-installer-fremont-low--h5ljv6.md": {
+	id: "avispl-low-voltage-security-installer-fremont-low--h5ljv6.md";
+  slug: "avispl-low-voltage-security-installer-fremont-low--h5ljv6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-low-voltage-security-installer-sandy-low--0dmhth.md": {
+	id: "avispl-low-voltage-security-installer-sandy-low--0dmhth.md";
+  slug: "avispl-low-voltage-security-installer-sandy-low--0dmhth";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">

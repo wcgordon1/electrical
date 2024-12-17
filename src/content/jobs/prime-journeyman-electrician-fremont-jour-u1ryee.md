@@ -19,8 +19,8 @@ description: >-
   Hayward, and Pleas...
 location: 'Fremont, CA'
 team: Data Center
-datePosted: '2024-12-08T15:00:11.070Z'
-validThrough: '2025-02-06T15:00:11.070Z'
+datePosted: '2024-12-17T15:35:29.322Z'
+validThrough: '2025-01-21T15:35:29.322Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

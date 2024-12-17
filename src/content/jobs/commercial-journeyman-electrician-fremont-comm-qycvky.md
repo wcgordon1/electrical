@@ -18,8 +18,8 @@ description: >-
   This role requires excellent problem-solving...
 location: 'Fremont, CA'
 team: Data Center
-datePosted: '2024-12-08T07:54:04.100Z'
-validThrough: '2025-02-06T07:54:04.100Z'
+datePosted: '2024-12-17T06:37:14.440Z'
+validThrough: '2025-01-31T06:37:14.440Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

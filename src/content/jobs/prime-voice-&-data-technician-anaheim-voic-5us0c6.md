@@ -20,8 +20,8 @@ description: >-
   such as Fullerton, ...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-08T15:25:58.807Z'
-validThrough: '2025-02-06T15:25:58.807Z'
+datePosted: '2024-12-15T23:35:42.981Z'
+validThrough: '2025-01-15T23:35:42.981Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

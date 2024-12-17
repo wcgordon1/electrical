@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain, and repair...
 location: 'Hilton Head Island, SC'
 team: Industrial
-datePosted: '2024-12-08T23:37:19.873Z'
-validThrough: '2025-02-06T23:37:19.873Z'
+datePosted: '2024-12-17T16:05:31.141Z'
+validThrough: '2025-01-20T16:05:31.141Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

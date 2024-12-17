@@ -26,8 +26,8 @@ description: >-
   2. Perform gen...
 location: 'Stockton, CA'
 team: Commercial
-datePosted: '2024-12-08T15:02:43.205Z'
-validThrough: '2025-02-06T15:02:43.205Z'
+datePosted: '2024-12-16T16:27:44.099Z'
+validThrough: '2025-01-22T16:27:44.099Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -22,8 +22,8 @@ description: >-
   within industrial settings. This inclu...
 location: 'Athens, GA'
 team: Industrial
-datePosted: '2024-12-08T23:25:15.484Z'
-validThrough: '2025-02-06T23:25:15.484Z'
+datePosted: '2024-12-17T00:38:05.965Z'
+validThrough: '2025-01-30T00:38:05.965Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

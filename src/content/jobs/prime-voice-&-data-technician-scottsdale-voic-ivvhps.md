@@ -26,8 +26,8 @@ description: >-
   1. Install, terminate, and test all forms o...
 location: 'Scottsdale, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:43:08.483Z'
-validThrough: '2025-02-06T15:43:08.483Z'
+datePosted: '2024-12-16T18:03:29.745Z'
+validThrough: '2025-01-29T18:03:29.745Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

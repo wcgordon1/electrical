@@ -18,8 +18,8 @@ description: >-
   wire...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-08T15:24:32.693Z'
-validThrough: '2025-02-06T15:24:32.693Z'
+datePosted: '2024-12-16T06:10:37.968Z'
+validThrough: '2025-01-18T06:10:37.968Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

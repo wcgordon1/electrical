@@ -23,8 +23,8 @@ description: >-
   1. Install, ...
 location: 'Sumter, SC'
 team: Industrial
-datePosted: '2024-12-08T23:36:52.361Z'
-validThrough: '2025-02-06T23:36:52.361Z'
+datePosted: '2024-12-16T12:07:56.073Z'
+validThrough: '2025-01-20T12:07:56.073Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

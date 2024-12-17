@@ -22,8 +22,8 @@ description: >-
   Technician to join our team. The successful candi...
 location: 'Oxnard, CA'
 team: Commercial
-datePosted: '2024-12-08T15:33:19.462Z'
-validThrough: '2025-02-06T15:33:19.462Z'
+datePosted: '2024-12-15T23:05:54.458Z'
+validThrough: '2025-01-20T23:05:54.458Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

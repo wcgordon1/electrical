@@ -19,8 +19,8 @@ description: >-
   National Electrical Code an...
 location: 'Yuma, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:18:06.886Z'
-validThrough: '2025-02-06T15:18:06.886Z'
+datePosted: '2024-12-17T14:38:46.328Z'
+validThrough: '2025-01-25T14:38:46.328Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

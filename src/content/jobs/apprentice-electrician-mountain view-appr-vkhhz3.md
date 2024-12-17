@@ -89,8 +89,8 @@ description: >-
   protected by law.
 location: 'Mountain View, CA'
 team: Commercial
-datePosted: '2024-12-08T07:34:58.181Z'
-validThrough: '2025-02-06T07:34:58.181Z'
+datePosted: '2024-12-17T18:31:59.416Z'
+validThrough: '2025-01-16T18:31:59.416Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

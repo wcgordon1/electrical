@@ -26,8 +26,8 @@ description: >-
   Key R...
 location: 'Burbank, CA'
 team: Data Center
-datePosted: '2024-12-08T08:11:04.851Z'
-validThrough: '2025-02-06T08:11:04.851Z'
+datePosted: '2024-12-17T01:13:46.348Z'
+validThrough: '2025-01-22T01:13:46.348Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

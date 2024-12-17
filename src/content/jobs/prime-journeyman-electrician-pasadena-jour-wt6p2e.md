@@ -18,8 +18,8 @@ description: >-
   settings. Our ideal can...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-08T14:57:44.090Z'
-validThrough: '2025-02-06T14:57:44.090Z'
+datePosted: '2024-12-16T08:57:16.354Z'
+validThrough: '2025-01-20T08:57:16.354Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

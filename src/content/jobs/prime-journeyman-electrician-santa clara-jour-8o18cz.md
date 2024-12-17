@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and repair electrical control, wiring, and lightin...
 location: 'Santa Clara, CA'
 team: Data Center
-datePosted: '2024-12-08T14:58:49.563Z'
-validThrough: '2025-02-06T14:58:49.563Z'
+datePosted: '2024-12-16T03:01:21.126Z'
+validThrough: '2025-01-25T03:01:21.126Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

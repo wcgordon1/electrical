@@ -19,8 +19,8 @@ description: >-
   systems and equ...
 location: 'Gilbert, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:14:14.368Z'
-validThrough: '2025-02-06T15:14:14.368Z'
+datePosted: '2024-12-16T23:46:23.412Z'
+validThrough: '2025-01-26T23:46:23.412Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   candidate will have a st...
 location: 'Roswell, GA'
 team: Industrial
-datePosted: '2024-12-08T23:24:22.941Z'
-validThrough: '2025-02-06T23:24:22.941Z'
+datePosted: '2024-12-17T15:35:32.803Z'
+validThrough: '2025-01-20T15:35:32.803Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

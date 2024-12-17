@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and re...
 location: 'Santa Monica, CA'
 team: Residential
-datePosted: '2024-12-08T07:55:08.948Z'
-validThrough: '2025-02-06T07:55:08.948Z'
+datePosted: '2024-12-17T17:49:21.549Z'
+validThrough: '2025-01-26T17:49:21.549Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

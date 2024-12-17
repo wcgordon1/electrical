@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair ...
 location: 'Santa Clara, CA'
 team: Data Center
-datePosted: '2024-12-08T15:27:30.912Z'
-validThrough: '2025-02-06T15:27:30.912Z'
+datePosted: '2024-12-16T05:11:07.957Z'
+validThrough: '2025-01-17T05:11:07.957Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

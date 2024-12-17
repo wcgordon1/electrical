@@ -17,8 +17,8 @@ description: >-
   for a dedicated professional who has a minimum of 1-year hands-...
 location: 'Winston-Salem, NC'
 team: Industrial
-datePosted: '2024-12-08T23:34:18.725Z'
-validThrough: '2025-02-06T23:34:18.725Z'
+datePosted: '2024-12-16T21:54:18.263Z'
+validThrough: '2025-01-27T21:54:18.263Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

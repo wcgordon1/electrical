@@ -19,8 +19,8 @@ description: >-
   understanding of the electrica...
 location: 'Pueblo, CO'
 team: Commercial
-datePosted: '2024-12-08T23:04:49.043Z'
-validThrough: '2025-02-06T23:04:49.043Z'
+datePosted: '2024-12-16T10:59:49.932Z'
+validThrough: '2025-01-15T10:59:49.932Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -21,8 +21,8 @@ description: >-
   Key Respons...
 location: 'Modesto, CA'
 team: Data Center
-datePosted: '2024-12-08T15:05:13.240Z'
-validThrough: '2025-02-06T15:05:13.240Z'
+datePosted: '2024-12-17T14:59:53.812Z'
+validThrough: '2025-01-21T14:59:53.812Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -26,8 +26,8 @@ description: >-
   We are currently seeking a skilled Voice & Data Technician to join...
 location: 'Riverside, CA'
 team: Data Center
-datePosted: '2024-12-08T15:31:00.117Z'
-validThrough: '2025-02-06T15:31:00.117Z'
+datePosted: '2024-12-17T13:20:33.637Z'
+validThrough: '2025-01-20T13:20:33.637Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

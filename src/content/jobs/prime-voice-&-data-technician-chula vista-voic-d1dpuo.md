@@ -24,8 +24,8 @@ description: >-
   - ...
 location: 'Chula Vista, CA'
 team: Data Center
-datePosted: '2024-12-08T15:32:10.712Z'
-validThrough: '2025-02-06T15:32:10.712Z'
+datePosted: '2024-12-17T05:21:36.608Z'
+validThrough: '2025-01-18T05:21:36.608Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

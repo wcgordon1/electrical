@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain,...
 location: 'Hilton Head Island, SC'
 team: Data Center
-datePosted: '2024-12-08T23:10:46.188Z'
-validThrough: '2025-02-06T23:10:46.188Z'
+datePosted: '2024-12-16T06:44:30.308Z'
+validThrough: '2025-01-24T06:44:30.308Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

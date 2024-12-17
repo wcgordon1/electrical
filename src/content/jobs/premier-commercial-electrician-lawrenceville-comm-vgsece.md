@@ -21,8 +21,8 @@ description: >-
   Key Responsibilitie...
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-08T23:00:07.093Z'
-validThrough: '2025-02-06T23:00:07.093Z'
+datePosted: '2024-12-17T08:09:02.015Z'
+validThrough: '2025-01-19T08:09:02.015Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

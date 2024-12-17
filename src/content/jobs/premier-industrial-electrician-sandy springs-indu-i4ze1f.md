@@ -22,8 +22,8 @@ description: >-
   The Industrial Electrician will be...
 location: 'Sandy Springs, GA'
 team: Industrial
-datePosted: '2024-12-08T23:24:49.081Z'
-validThrough: '2025-02-06T23:24:49.081Z'
+datePosted: '2024-12-17T09:49:51.905Z'
+validThrough: '2025-01-23T09:49:51.905Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

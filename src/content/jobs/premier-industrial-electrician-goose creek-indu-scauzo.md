@@ -20,8 +20,8 @@ description: >-
   associated electrical controls....
 location: 'Goose Creek, SC'
 team: Industrial
-datePosted: '2024-12-08T23:37:07.399Z'
-validThrough: '2025-02-06T23:37:07.399Z'
+datePosted: '2024-12-16T07:49:59.791Z'
+validThrough: '2025-01-20T07:49:59.791Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

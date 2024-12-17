@@ -21,8 +21,8 @@ description: >-
   1. Install, mainta...
 location: 'Sacramento, CA'
 team: Industrial
-datePosted: '2024-12-08T07:51:42.993Z'
-validThrough: '2025-02-06T07:51:42.993Z'
+datePosted: '2024-12-17T05:30:13.868Z'
+validThrough: '2025-01-26T05:30:13.868Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

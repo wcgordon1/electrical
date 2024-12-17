@@ -18,8 +18,8 @@ description: >-
   including Moreno Valley, Norco, ...
 location: 'Riverside, CA'
 team: Data Center
-datePosted: '2024-12-08T15:02:16.983Z'
-validThrough: '2025-02-06T15:02:16.983Z'
+datePosted: '2024-12-16T22:31:53.418Z'
+validThrough: '2025-01-30T22:31:53.418Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

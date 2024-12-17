@@ -23,8 +23,8 @@ description: >-
   1. Install, inspect...
 location: 'Palo Alto, CA'
 team: Industrial
-datePosted: '2024-12-08T08:09:10.828Z'
-validThrough: '2025-02-06T08:09:10.828Z'
+datePosted: '2024-12-16T14:29:54.906Z'
+validThrough: '2025-01-27T14:29:54.906Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

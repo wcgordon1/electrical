@@ -23,8 +23,8 @@ description: >-
   1. Inspect, install, repair, and maintain electrical systems, including...
 location: 'Corona, CA'
 team: Commercial
-datePosted: '2024-12-08T15:09:59.056Z'
-validThrough: '2025-02-06T15:09:59.056Z'
+datePosted: '2024-12-17T18:46:45.920Z'
+validThrough: '2025-01-17T18:46:45.920Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -21,8 +21,8 @@ description: >-
   motors, genera...
 location: 'Durham, NC'
 team: Industrial
-datePosted: '2024-12-08T23:33:33.027Z'
-validThrough: '2025-02-06T23:33:33.027Z'
+datePosted: '2024-12-17T07:09:18.187Z'
+validThrough: '2025-01-25T07:09:18.187Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

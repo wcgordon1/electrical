@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain and repair electr...
 location: 'Thornton, CO'
 team: Industrial
-datePosted: '2024-12-08T23:30:31.059Z'
-validThrough: '2025-02-06T23:30:31.059Z'
+datePosted: '2024-12-16T19:37:29.680Z'
+validThrough: '2025-01-19T19:37:29.680Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

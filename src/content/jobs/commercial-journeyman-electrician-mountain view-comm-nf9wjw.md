@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and rep...
 location: 'Mountain View, CA'
 team: Commercial
-datePosted: '2024-12-08T07:53:30.463Z'
-validThrough: '2025-02-06T07:53:30.463Z'
+datePosted: '2024-12-16T19:11:22.953Z'
+validThrough: '2025-01-15T19:11:22.953Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

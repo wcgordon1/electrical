@@ -22,8 +22,8 @@ description: >-
   Commercial Electrician to j...
 location: 'Mount Pleasant, SC'
 team: Data Center
-datePosted: '2024-12-08T23:09:09.236Z'
-validThrough: '2025-02-06T23:09:09.236Z'
+datePosted: '2024-12-16T00:59:19.104Z'
+validThrough: '2025-01-27T00:59:19.104Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -18,8 +18,8 @@ description: >-
   and data ...
 location: 'Sierra Vista, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:48:43.090Z'
-validThrough: '2025-02-06T15:48:43.090Z'
+datePosted: '2024-12-17T02:29:22.470Z'
+validThrough: '2025-01-16T02:29:22.470Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

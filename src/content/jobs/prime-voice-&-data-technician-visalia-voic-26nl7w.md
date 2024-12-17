@@ -21,8 +21,8 @@ description: >-
   for problem-solving, and a co...
 location: 'Visalia, CA'
 team: Data Center
-datePosted: '2024-12-08T15:39:40.190Z'
-validThrough: '2025-02-06T15:39:40.190Z'
+datePosted: '2024-12-16T01:54:18.836Z'
+validThrough: '2025-01-23T01:54:18.836Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

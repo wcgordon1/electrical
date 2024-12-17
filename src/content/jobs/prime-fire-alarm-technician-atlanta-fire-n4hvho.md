@@ -23,8 +23,8 @@ description: >-
   1. Install new fire alarm system...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-08T08:11:21.725Z'
-validThrough: '2025-02-06T08:11:21.725Z'
+datePosted: '2024-12-17T10:26:14.129Z'
+validThrough: '2025-01-20T10:26:14.129Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

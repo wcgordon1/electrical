@@ -23,8 +23,8 @@ description: >-
   such as data racks, patch panels, rou...
 location: 'Lancaster, CA'
 team: Data Center
-datePosted: '2024-12-08T15:36:41.257Z'
-validThrough: '2025-02-06T15:36:41.257Z'
+datePosted: '2024-12-17T04:02:04.372Z'
+validThrough: '2025-01-29T04:02:04.372Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

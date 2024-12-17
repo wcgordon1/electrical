@@ -19,8 +19,8 @@ description: >-
   electronic commun...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-08T15:25:09.411Z'
-validThrough: '2025-02-06T15:25:09.411Z'
+datePosted: '2024-12-17T03:13:29.167Z'
+validThrough: '2025-01-26T03:13:29.167Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

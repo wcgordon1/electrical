@@ -18,8 +18,8 @@ description: >-
   p...
 location: 'Marietta, GA'
 team: Data Center
-datePosted: '2024-12-08T22:58:53.010Z'
-validThrough: '2025-02-06T22:58:53.010Z'
+datePosted: '2024-12-17T10:30:07.176Z'
+validThrough: '2025-01-25T10:30:07.176Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

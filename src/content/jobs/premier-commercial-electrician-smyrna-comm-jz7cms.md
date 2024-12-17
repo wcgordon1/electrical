@@ -18,8 +18,8 @@ description: >-
   of commercial electrician experience, possess a strong work ethic, and ...
 location: 'Smyrna, GA'
 team: Data Center
-datePosted: '2024-12-08T23:01:03.979Z'
-validThrough: '2025-02-06T23:01:03.979Z'
+datePosted: '2024-12-16T06:29:52.367Z'
+validThrough: '2025-01-21T06:29:52.367Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

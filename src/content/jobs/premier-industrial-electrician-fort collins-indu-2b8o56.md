@@ -20,8 +20,8 @@ description: >-
   repairing industrial electrical equipment and sys...
 location: 'Fort Collins, CO'
 team: Industrial
-datePosted: '2024-12-08T23:29:59.445Z'
-validThrough: '2025-02-06T23:29:59.445Z'
+datePosted: '2024-12-17T17:10:15.661Z'
+validThrough: '2025-01-31T17:10:15.661Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -17,8 +17,8 @@ description: >-
   systems and equipment in commercial settings. This position requires a ...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-08T22:58:27.763Z'
-validThrough: '2025-02-06T22:58:27.763Z'
+datePosted: '2024-12-17T19:55:56.649Z'
+validThrough: '2025-01-28T19:55:56.649Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

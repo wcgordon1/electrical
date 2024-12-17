@@ -26,8 +26,8 @@ description: >-
   1. Install, diagnose, repair, and maintain vo...
 location: 'Buckeye, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:47:41.134Z'
-validThrough: '2025-02-06T15:47:41.134Z'
+datePosted: '2024-12-17T12:36:18.726Z'
+validThrough: '2025-01-16T12:36:18.726Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

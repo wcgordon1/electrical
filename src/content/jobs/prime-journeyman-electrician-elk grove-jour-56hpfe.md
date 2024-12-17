@@ -23,8 +23,8 @@ description: >-
   1. Instal...
 location: 'Elk Grove, CA'
 team: Data Center
-datePosted: '2024-12-08T15:09:36.808Z'
-validThrough: '2025-02-06T15:09:36.808Z'
+datePosted: '2024-12-17T17:57:43.997Z'
+validThrough: '2025-01-20T17:57:43.997Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

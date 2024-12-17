@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair voice, data, and wireless c...
 location: 'Santa Ana, CA'
 team: Commercial
-datePosted: '2024-12-08T15:31:51.148Z'
-validThrough: '2025-02-06T15:31:51.148Z'
+datePosted: '2024-12-17T05:32:39.558Z'
+validThrough: '2025-01-25T05:32:39.558Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

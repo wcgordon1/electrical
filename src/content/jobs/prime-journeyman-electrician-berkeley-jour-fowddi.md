@@ -21,8 +21,8 @@ description: >-
   1. Installation, maintenance and repair of electrical systems, equipment...
 location: 'Berkeley, CA'
 team: Data Center
-datePosted: '2024-12-08T15:01:04.021Z'
-validThrough: '2025-02-06T15:01:04.021Z'
+datePosted: '2024-12-16T18:17:00.807Z'
+validThrough: '2025-01-24T18:17:00.807Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

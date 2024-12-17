@@ -87,8 +87,8 @@ description: >-
   characteristic protected by law.
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-08T07:38:13.736Z'
-validThrough: '2025-02-06T07:38:13.736Z'
+datePosted: '2024-12-16T23:20:29.044Z'
+validThrough: '2025-01-18T23:20:29.044Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -19,8 +19,8 @@ description: >-
   industry...
 location: 'Sumter, SC'
 team: Data Center
-datePosted: '2024-12-08T23:10:10.413Z'
-validThrough: '2025-02-06T23:10:10.413Z'
+datePosted: '2024-12-17T14:32:31.774Z'
+validThrough: '2025-01-24T14:32:31.774Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

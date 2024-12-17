@@ -22,8 +22,8 @@ description: >-
   Key Responsi...
 location: 'Cary, NC'
 team: Data Center
-datePosted: '2024-12-08T23:07:41.336Z'
-validThrough: '2025-02-06T23:07:41.336Z'
+datePosted: '2024-12-17T11:52:30.394Z'
+validThrough: '2025-01-24T11:52:30.394Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

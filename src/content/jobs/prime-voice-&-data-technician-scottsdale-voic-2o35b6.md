@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain,...
 location: 'Scottsdale, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:40:33.403Z'
-validThrough: '2025-02-06T15:40:33.403Z'
+datePosted: '2024-12-16T00:36:59.487Z'
+validThrough: '2025-01-29T00:36:59.487Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

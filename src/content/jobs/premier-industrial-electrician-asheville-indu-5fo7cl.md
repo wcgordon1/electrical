@@ -24,8 +24,8 @@ description: >-
   1. Install, ma...
 location: 'Asheville, NC'
 team: Industrial
-datePosted: '2024-12-08T23:33:19.025Z'
-validThrough: '2025-02-06T23:33:19.025Z'
+datePosted: '2024-12-16T16:29:02.613Z'
+validThrough: '2025-01-27T16:29:02.613Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

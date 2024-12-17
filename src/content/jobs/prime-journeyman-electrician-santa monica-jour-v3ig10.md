@@ -18,8 +18,8 @@ description: >-
   repairing electrical sys...
 location: 'Santa Monica, CA'
 team: Commercial
-datePosted: '2024-12-08T15:01:19.431Z'
-validThrough: '2025-02-06T15:01:19.431Z'
+datePosted: '2024-12-16T14:49:50.299Z'
+validThrough: '2025-01-26T14:49:50.299Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -29,8 +29,8 @@ description: >-
   We are seeking a skilled and dedicated Journeym...
 location: 'Ontario, CA'
 team: Commercial
-datePosted: '2024-12-08T15:08:15.631Z'
-validThrough: '2025-02-06T15:08:15.631Z'
+datePosted: '2024-12-15T19:59:35.999Z'
+validThrough: '2025-01-23T19:59:35.999Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

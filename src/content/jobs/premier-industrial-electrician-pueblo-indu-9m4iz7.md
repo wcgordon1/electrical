@@ -20,8 +20,8 @@ description: >-
   Job De...
 location: 'Pueblo, CO'
 team: Industrial
-datePosted: '2024-12-08T23:31:29.017Z'
-validThrough: '2025-02-06T23:31:29.017Z'
+datePosted: '2024-12-16T22:53:43.161Z'
+validThrough: '2025-01-29T22:53:43.161Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

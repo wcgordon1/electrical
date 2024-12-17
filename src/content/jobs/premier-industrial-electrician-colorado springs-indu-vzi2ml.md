@@ -21,8 +21,8 @@ description: >-
   We are currently seeking an experienced Indus...
 location: 'Colorado Springs, CO'
 team: Industrial
-datePosted: '2024-12-08T23:27:54.466Z'
-validThrough: '2025-02-06T23:27:54.466Z'
+datePosted: '2024-12-15T20:36:37.954Z'
+validThrough: '2025-01-28T20:36:37.954Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

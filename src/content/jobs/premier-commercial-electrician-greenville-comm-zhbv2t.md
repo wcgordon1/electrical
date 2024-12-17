@@ -21,8 +21,8 @@ description: >-
   co...
 location: 'Greenville, SC'
 team: Data Center
-datePosted: '2024-12-08T23:09:36.144Z'
-validThrough: '2025-02-06T23:09:36.144Z'
+datePosted: '2024-12-17T09:42:35.730Z'
+validThrough: '2025-01-22T09:42:35.730Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

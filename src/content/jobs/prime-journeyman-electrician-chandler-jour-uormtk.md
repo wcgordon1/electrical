@@ -23,8 +23,8 @@ description: >-
   2. Inspect and test components of electrical systems, ...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:13:49.477Z'
-validThrough: '2025-02-06T15:13:49.477Z'
+datePosted: '2024-12-16T10:18:51.038Z'
+validThrough: '2025-01-18T10:18:51.038Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -20,8 +20,8 @@ description: >-
   thorough knowledge of electrical systems, network setup, and da...
 location: 'Bakersfield, CA'
 team: Data Center
-datePosted: '2024-12-08T15:31:36.583Z'
-validThrough: '2025-02-06T15:31:36.583Z'
+datePosted: '2024-12-16T16:41:44.549Z'
+validThrough: '2025-01-20T16:41:44.549Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

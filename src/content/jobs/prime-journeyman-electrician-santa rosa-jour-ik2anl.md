@@ -19,8 +19,8 @@ description: >-
   all work...
 location: 'Santa Rosa, CA'
 team: Commercial
-datePosted: '2024-12-08T15:08:50.942Z'
-validThrough: '2025-02-06T15:08:50.942Z'
+datePosted: '2024-12-16T23:03:24.450Z'
+validThrough: '2025-01-20T23:03:24.450Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

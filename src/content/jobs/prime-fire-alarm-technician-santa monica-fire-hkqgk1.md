@@ -20,8 +20,8 @@ description: >-
   Key Responsibilitie...
 location: 'Santa Monica, CA'
 team: Residential
-datePosted: '2024-12-08T08:10:54.107Z'
-validThrough: '2025-02-06T08:10:54.107Z'
+datePosted: '2024-12-16T17:21:46.285Z'
+validThrough: '2025-01-27T17:21:46.285Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

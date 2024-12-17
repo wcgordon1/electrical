@@ -19,8 +19,8 @@ description: >-
   Electrician with Premier Electric, ...
 location: 'Duluth, GA'
 team: Data Center
-datePosted: '2024-12-08T23:00:32.677Z'
-validThrough: '2025-02-06T23:00:32.677Z'
+datePosted: '2024-12-16T01:03:08.301Z'
+validThrough: '2025-01-17T01:03:08.301Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -23,8 +23,8 @@ description: >-
   1. Installing, maintaining, and repairin...
 location: 'Moreno Valley, CA'
 team: Commercial
-datePosted: '2024-12-08T15:34:09.063Z'
-validThrough: '2025-02-06T15:34:09.063Z'
+datePosted: '2024-12-17T00:13:24.659Z'
+validThrough: '2025-01-29T00:13:24.659Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

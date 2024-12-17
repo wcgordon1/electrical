@@ -21,8 +21,8 @@ description: >-
   We are currently...
 location: 'Santa Ana, CA'
 team: Commercial
-datePosted: '2024-12-08T15:04:14.526Z'
-validThrough: '2025-02-06T15:04:14.526Z'
+datePosted: '2024-12-16T02:07:32.035Z'
+validThrough: '2025-01-17T02:07:32.035Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -22,8 +22,8 @@ description: >-
   1. Install, terminate, and test all forms of communication ca...
 location: 'San Bernardino, CA'
 team: Commercial
-datePosted: '2024-12-08T15:32:22.447Z'
-validThrough: '2025-02-06T15:32:22.447Z'
+datePosted: '2024-12-16T17:48:16.744Z'
+validThrough: '2025-01-17T17:48:16.744Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

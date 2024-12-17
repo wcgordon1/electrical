@@ -19,8 +19,8 @@ description: >-
   customer service....
 location: 'Peoria, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:14:48.038Z'
-validThrough: '2025-02-06T15:14:48.038Z'
+datePosted: '2024-12-17T07:17:09.862Z'
+validThrough: '2025-01-19T07:17:09.862Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

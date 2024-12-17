@@ -26,8 +26,8 @@ description: >-
   1. Insta...
 location: 'Long Beach, CA'
 team: Data Center
-datePosted: '2024-12-08T08:07:31.197Z'
-validThrough: '2025-02-06T08:07:31.197Z'
+datePosted: '2024-12-16T20:30:28.097Z'
+validThrough: '2025-01-19T20:30:28.097Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

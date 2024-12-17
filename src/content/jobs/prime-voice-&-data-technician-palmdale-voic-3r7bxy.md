@@ -20,8 +20,8 @@ description: >-
   Lancaster, Quartz Hill,...
 location: 'Palmdale, CA'
 team: Commercial
-datePosted: '2024-12-08T15:37:04.192Z'
-validThrough: '2025-02-06T15:37:04.192Z'
+datePosted: '2024-12-16T15:01:12.854Z'
+validThrough: '2025-01-17T15:01:12.854Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

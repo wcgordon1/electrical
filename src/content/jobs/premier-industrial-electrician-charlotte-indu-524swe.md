@@ -18,8 +18,8 @@ description: >-
   maintaining, and repairing electrical systems and equipment within ...
 location: 'Charlotte, NC'
 team: Industrial
-datePosted: '2024-12-08T23:32:10.504Z'
-validThrough: '2025-02-06T23:32:10.504Z'
+datePosted: '2024-12-16T23:37:56.952Z'
+validThrough: '2025-01-20T23:37:56.952Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

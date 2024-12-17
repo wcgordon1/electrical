@@ -87,8 +87,8 @@ description: >-
   a supportive environment.
 location: 'Marietta, GA'
 team: Industrial
-datePosted: '2024-12-08T07:37:31.582Z'
-validThrough: '2025-02-06T07:37:31.582Z'
+datePosted: '2024-12-16T23:57:24.491Z'
+validThrough: '2025-01-21T23:57:24.491Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

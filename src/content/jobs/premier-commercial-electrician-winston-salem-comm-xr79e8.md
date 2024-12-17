@@ -18,8 +18,8 @@ description: >-
   of experience in...
 location: 'Winston-Salem, NC'
 team: Commercial
-datePosted: '2024-12-08T23:07:26.008Z'
-validThrough: '2025-02-06T23:07:26.008Z'
+datePosted: '2024-12-17T12:36:29.090Z'
+validThrough: '2025-01-26T12:36:29.090Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

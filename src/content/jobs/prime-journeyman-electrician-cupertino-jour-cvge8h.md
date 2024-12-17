@@ -18,8 +18,8 @@ description: >-
   extensive knowledge of electr...
 location: 'Cupertino, CA'
 team: Commercial
-datePosted: '2024-12-08T14:58:25.508Z'
-validThrough: '2025-02-06T14:58:25.508Z'
+datePosted: '2024-12-17T19:56:36.326Z'
+validThrough: '2025-01-29T19:56:36.326Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

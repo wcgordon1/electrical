@@ -26,8 +26,8 @@ description: >-
   1. Read and in...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-08T23:00:48.696Z'
-validThrough: '2025-02-06T23:00:48.696Z'
+datePosted: '2024-12-17T06:00:52.116Z'
+validThrough: '2025-01-20T06:00:52.116Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

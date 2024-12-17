@@ -23,8 +23,8 @@ description: >-
   Key Responsibilities...
 location: 'Rock Hill, SC'
 team: Commercial
-datePosted: '2024-12-08T23:09:22.407Z'
-validThrough: '2025-02-06T23:09:22.407Z'
+datePosted: '2024-12-17T01:59:44.895Z'
+validThrough: '2025-01-26T01:59:44.895Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

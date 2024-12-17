@@ -18,8 +18,8 @@ description: >-
   plants, and other indus...
 location: 'Denver, CO'
 team: Industrial
-datePosted: '2024-12-08T23:27:40.909Z'
-validThrough: '2025-02-06T23:27:40.909Z'
+datePosted: '2024-12-17T11:43:42.953Z'
+validThrough: '2025-01-26T11:43:42.953Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -19,8 +19,8 @@ description: >-
   in the industrial electrician fi...
 location: 'Duluth, GA'
 team: Industrial
-datePosted: '2024-12-08T23:26:08.500Z'
-validThrough: '2025-02-06T23:26:08.500Z'
+datePosted: '2024-12-16T00:08:27.284Z'
+validThrough: '2025-01-23T00:08:27.284Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

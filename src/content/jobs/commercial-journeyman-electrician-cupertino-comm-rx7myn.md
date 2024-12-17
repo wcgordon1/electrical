@@ -21,8 +21,8 @@ description: >-
   Responsibiliti...
 location: 'Cupertino, CA'
 team: Residential
-datePosted: '2024-12-08T07:52:58.708Z'
-validThrough: '2025-02-06T07:52:58.708Z'
+datePosted: '2024-12-17T00:22:25.918Z'
+validThrough: '2025-01-16T00:22:25.918Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

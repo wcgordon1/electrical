@@ -22,8 +22,8 @@ description: >-
   1. Installation, termination, and testing ...
 location: 'Gilbert, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:41:52.453Z'
-validThrough: '2025-02-06T15:41:52.453Z'
+datePosted: '2024-12-15T20:24:04.221Z'
+validThrough: '2025-01-26T20:24:04.221Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

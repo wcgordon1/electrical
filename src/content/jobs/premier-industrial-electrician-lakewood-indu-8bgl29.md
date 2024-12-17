@@ -20,8 +20,8 @@ description: >-
   Electrician, with a deep understanding of electrica...
 location: 'Lakewood, CO'
 team: Industrial
-datePosted: '2024-12-08T23:30:11.175Z'
-validThrough: '2025-02-06T23:30:11.175Z'
+datePosted: '2024-12-17T13:35:38.382Z'
+validThrough: '2025-01-26T13:35:38.382Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

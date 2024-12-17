@@ -21,8 +21,8 @@ description: >-
   retail....
 location: 'Casa Grande, AZ'
 team: Commercial
-datePosted: '2024-12-08T15:48:19.088Z'
-validThrough: '2025-02-06T15:48:19.088Z'
+datePosted: '2024-12-16T07:55:32.416Z'
+validThrough: '2025-01-24T07:55:32.416Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -20,8 +20,8 @@ description: >-
   con...
 location: 'Sacramento, CA'
 team: Data Center
-datePosted: '2024-12-08T14:56:45.786Z'
-validThrough: '2025-02-06T14:56:45.786Z'
+datePosted: '2024-12-16T19:20:16.869Z'
+validThrough: '2025-01-21T19:20:16.869Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

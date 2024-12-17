@@ -86,8 +86,8 @@ description: >-
   status, or any other characteristic protected by law.
 location: 'Anaheim, CA'
 team: Residential
-datePosted: '2024-12-08T07:33:46.468Z'
-validThrough: '2025-02-06T07:33:46.468Z'
+datePosted: '2024-12-17T14:37:28.770Z'
+validThrough: '2025-01-26T14:37:28.770Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -24,8 +24,8 @@ description: >-
   2. Read and interpret blueprints, schematics, and wiring diagrams....
 location: 'San Diego, CA'
 team: Residential
-datePosted: '2024-12-08T07:50:54.138Z'
-validThrough: '2025-02-06T07:50:54.138Z'
+datePosted: '2024-12-15T23:50:46.740Z'
+validThrough: '2025-01-26T23:50:46.740Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -17,8 +17,8 @@ description: >-
   for installing and maintaining electrical devices and systems, inspecting...
 location: 'Raleigh, NC'
 team: Industrial
-datePosted: '2024-12-08T23:32:27.477Z'
-validThrough: '2025-02-06T23:32:27.477Z'
+datePosted: '2024-12-17T14:33:54.750Z'
+validThrough: '2025-01-31T14:33:54.750Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

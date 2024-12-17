@@ -18,8 +18,8 @@ description: >-
   electrica...
 location: 'Atlanta, GA'
 team: Industrial
-datePosted: '2024-12-08T23:23:25.314Z'
-validThrough: '2025-02-06T23:23:25.314Z'
+datePosted: '2024-12-17T18:52:29.436Z'
+validThrough: '2025-01-22T18:52:29.436Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

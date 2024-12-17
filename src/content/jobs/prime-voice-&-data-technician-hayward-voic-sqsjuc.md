@@ -26,8 +26,8 @@ description: >-
   2. Manage cabling, routers, and adapters for commun...
 location: 'Hayward, CA'
 team: Commercial
-datePosted: '2024-12-08T15:37:36.540Z'
-validThrough: '2025-02-06T15:37:36.540Z'
+datePosted: '2024-12-17T18:26:54.224Z'
+validThrough: '2025-01-17T18:26:54.224Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

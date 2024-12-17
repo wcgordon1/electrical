@@ -18,8 +18,8 @@ description: >-
   and repair of various voice and data systems in our commercia...
 location: 'Fresno, CA'
 team: Commercial
-datePosted: '2024-12-08T15:30:41.939Z'
-validThrough: '2025-02-06T15:30:41.939Z'
+datePosted: '2024-12-17T01:57:52.441Z'
+validThrough: '2025-01-26T01:57:52.441Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

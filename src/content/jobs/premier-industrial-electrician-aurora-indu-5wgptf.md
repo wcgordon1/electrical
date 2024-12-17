@@ -17,8 +17,8 @@ description: >-
   theory, industrial automation, and the ability to work safel...
 location: 'Aurora, CO'
 team: Industrial
-datePosted: '2024-12-08T23:29:33.834Z'
-validThrough: '2025-02-06T23:29:33.834Z'
+datePosted: '2024-12-17T11:17:20.276Z'
+validThrough: '2025-01-27T11:17:20.276Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

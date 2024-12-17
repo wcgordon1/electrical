@@ -18,8 +18,8 @@ description: >-
   dedicated, reliable, and able to ensure that our electrical pro...
 location: 'Asheville, NC'
 team: Data Center
-datePosted: '2024-12-08T23:06:23.975Z'
-validThrough: '2025-02-06T23:06:23.975Z'
+datePosted: '2024-12-16T00:44:44.361Z'
+validThrough: '2025-01-29T00:44:44.361Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

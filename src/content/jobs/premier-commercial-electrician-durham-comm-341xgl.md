@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair electrical wiring, equipme...
 location: 'Durham, NC'
 team: Commercial
-datePosted: '2024-12-08T23:06:38.653Z'
-validThrough: '2025-02-06T23:06:38.653Z'
+datePosted: '2024-12-16T16:44:35.627Z'
+validThrough: '2025-01-22T16:44:35.627Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -21,8 +21,8 @@ description: >-
   adhering to s...
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-08T08:12:18.824Z'
-validThrough: '2025-02-06T08:12:18.824Z'
+datePosted: '2024-12-16T11:07:56.221Z'
+validThrough: '2025-01-18T11:07:56.221Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

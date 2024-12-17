@@ -20,8 +20,8 @@ description: >-
   Key Responsibilities:...
 location: 'Johns Creek, GA'
 team: Data Center
-datePosted: '2024-12-08T23:01:43.990Z'
-validThrough: '2025-02-06T23:01:43.990Z'
+datePosted: '2024-12-17T16:02:07.998Z'
+validThrough: '2025-01-26T16:02:07.998Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

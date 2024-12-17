@@ -18,8 +18,8 @@ description: >-
   mai...
 location: 'Rancho Cucamonga, CA'
 team: Data Center
-datePosted: '2024-12-08T15:34:56.775Z'
-validThrough: '2025-02-06T15:34:56.775Z'
+datePosted: '2024-12-16T02:44:01.542Z'
+validThrough: '2025-01-16T02:44:01.542Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

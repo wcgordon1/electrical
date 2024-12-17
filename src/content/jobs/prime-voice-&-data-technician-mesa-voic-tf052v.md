@@ -26,8 +26,8 @@ description: >-
   1. Installation and maintenance...
 location: 'Mesa, AZ'
 team: Data Center
-datePosted: '2024-12-08T15:41:19.920Z'
-validThrough: '2025-02-06T15:41:19.920Z'
+datePosted: '2024-12-16T07:05:02.963Z'
+validThrough: '2025-01-24T07:05:02.963Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   strong commitment to safety, excellent...
 location: 'Anaheim, CA'
 team: Residential
-datePosted: '2024-12-08T08:07:07.043Z'
-validThrough: '2025-02-06T08:07:07.043Z'
+datePosted: '2024-12-16T11:30:55.645Z'
+validThrough: '2025-01-16T11:30:55.645Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

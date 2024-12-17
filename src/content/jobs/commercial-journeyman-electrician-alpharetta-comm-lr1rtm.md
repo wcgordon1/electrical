@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and ...
 location: 'Alpharetta, GA'
 team: Residential
-datePosted: '2024-12-08T07:56:20.573Z'
-validThrough: '2025-02-06T07:56:20.573Z'
+datePosted: '2024-12-17T00:57:27.545Z'
+validThrough: '2025-01-22T00:57:27.545Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

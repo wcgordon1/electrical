@@ -21,8 +21,8 @@ description: >-
   responsible for installing, maintainin...
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-08T15:35:44.060Z'
-validThrough: '2025-02-06T15:35:44.060Z'
+datePosted: '2024-12-16T05:30:24.428Z'
+validThrough: '2025-01-19T05:30:24.428Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

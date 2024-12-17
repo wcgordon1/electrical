@@ -23,8 +23,8 @@ description: >-
   1. Install and maintain a wide variety of fire alarm systems an...
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-08T08:05:55.049Z'
-validThrough: '2025-02-06T08:05:55.049Z'
+datePosted: '2024-12-17T14:47:57.146Z'
+validThrough: '2025-01-20T14:47:57.146Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

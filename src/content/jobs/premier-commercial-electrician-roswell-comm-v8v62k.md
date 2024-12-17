@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and repair electrical wiring, equipment, an...
 location: 'Roswell, GA'
 team: Data Center
-datePosted: '2024-12-08T22:59:29.389Z'
-validThrough: '2025-02-06T22:59:29.389Z'
+datePosted: '2024-12-16T21:02:04.579Z'
+validThrough: '2025-01-18T21:02:04.579Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric
