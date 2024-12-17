@@ -39,9 +39,9 @@ jobLocation:
   addressCountry: USA
 baseSalary:
   currency: USD
-  value: 29
-  minValue: 23
-  maxValue: 35
+  value: 36
+  minValue: 34
+  maxValue: 41
   unitText: HOUR
 experienceRequirements: midLevel
 occupationalCategory: Voice & Data
