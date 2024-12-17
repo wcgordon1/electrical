@@ -1,9 +1,8 @@
 const OpenAI = require('openai');
-const path = require('path');
-const fs = require('fs');
+const path = require('node:path');
+const fs = require('node:fs');
 const matter = require('gray-matter');
 
-// Load environment variables
 require('dotenv').config({ 
   path: path.resolve(__dirname, 'config/.env.local')
 });
@@ -13,93 +12,259 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
-  { city: 'Lancaster', state: 'CA', zipCode: '93534' },
-  { city: 'Desert Center', state: 'CA', zipCode: '92239' },
-  { city: 'Boulder City', state: 'NV', zipCode: '89005' },
-  { city: 'Blythe', state: 'CA', zipCode: '92225' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85004' },
-  { city: 'Deming', state: 'NM', zipCode: '88030' },
-  { city: 'San Antonio', state: 'TX', zipCode: '78201' },
-  { city: 'Pueblo', state: 'CO', zipCode: '81001' },
-  { city: 'Rosamond', state: 'CA', zipCode: '93560' },
-  { city: 'Tonopah', state: 'NV', zipCode: '89049' },
-  { city: 'Gila Bend', state: 'AZ', zipCode: '85337' },
-  { city: 'Palm Springs', state: 'CA', zipCode: '92262' },
-  { city: 'Bakersfield', state: 'CA', zipCode: '93301' },
-  { city: 'Las Vegas', state: 'NV', zipCode: '89101' },
-  { city: 'El Centro', state: 'CA', zipCode: '92243' },
-  { city: 'Casa Grande', state: 'AZ', zipCode: '85122' },
-  { city: 'Hatch', state: 'NM', zipCode: '87937' }
+  { city: 'Beaverton', state: 'OR', zipCode: '97005' },    // Near Portland
+  { city: 'Renton', state: 'WA', zipCode: '98055' },       // Near Seattle
+  { city: 'Tempe', state: 'AZ', zipCode: '85281' },        // Near Phoenix
+  { city: 'Boulder', state: 'CO', zipCode: '80301' },      // Near Denver
+  { city: 'Santa Monica', state: 'CA', zipCode: '90401' }, // Near Los Angeles
+  { city: 'Coronado', state: 'CA', zipCode: '92118' },     // Near San Diego
+  { city: 'Sausalito', state: 'CA', zipCode: '94965' },    // Near San Francisco
+  { city: 'Kirkland', state: 'WA', zipCode: '98033' },     // Near Seattle
+  { city: 'Mesa', state: 'AZ', zipCode: '85201' },         // Near Phoenix
+  { city: 'Arvada', state: 'CO', zipCode: '80001' },       // Near Denver
+  { city: 'Millbrae', state: 'CA', zipCode: '94030' },     // Near San Francisco
+  { city: 'Del Mar', state: 'CA', zipCode: '92014' },      // Near San Diego
+  { city: 'Pasadena', state: 'CA', zipCode: '91101' },     // Near Los Angeles
+  { city: 'Lake Oswego', state: 'OR', zipCode: '97034' },  // Near Portland
+  { city: 'Edmonds', state: 'WA', zipCode: '98020' },      // Near Seattle
+  { city: 'Chandler', state: 'AZ', zipCode: '85224' },     // Near Phoenix
+  { city: 'Broomfield', state: 'CO', zipCode: '80020' },   // Near Denver
+  { city: 'Burlingame', state: 'CA', zipCode: '94010' },   // Near San Francisco
+  { city: 'Manhattan Beach', state: 'CA', zipCode: '90266' } // Near Los Angeles
 ];
 
-const TEAMS = ['Solar'];
+const TEAMS = ['Commercial'];
 
 const JOB_TYPES = {
-  'Solar Panel Installer': {
-    minValue: 22,
-    maxValue: 30,
+  'Cable Tech Lead': {
+    minValue: 34,
+    maxValue: 42,
     experienceLevel: 'seniorLevel',
-    category: 'Apprentice',
-    prompt: 'Create a detailed job description for a solar panel installer. Focus on general solar panel installation for new construction and solar farms.'
+    category: 'Voice Data',
+    yearsExperience: '5-8',
+    prompt: 'Create a detailed job description for a cable technician team leader. Focus on managing crews, quality control, and project oversight for the installation of commercial voice and data cabling.'
+  },
+  'Low Voltage Security Installer': {
+    minValue: 25,
+    maxValue: 35,
+    experienceLevel: 'midLevel',
+    category: 'Security',
+    yearsExperience: '2-4',
+    prompt: 'Create a job description for a low voltage security installer. Focus on installing and maintaining commercial security systems, including cameras, access control, and intrusion detection.'
+  },
+  'Fire Alarm Installer Low Voltage': {
+    minValue: 32,
+    maxValue: 45,
+    experienceLevel: 'seniorLevel',
+    category: 'Fire Alarm',
+    yearsExperience: '4-7',
+    prompt: 'Write a job description for a fire alarm installer low voltage. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
+  },
+  'AV Technician': {
+    minValue: 34,
+    maxValue: 44,
+    experienceLevel: 'midLevel',
+    category: 'Audio Visual',
+    yearsExperience: '3-5',
+    prompt: 'Create a description for an AV technician specializing in commercial audio visual systems, including conference rooms, video conferencing, and digital signage.'
   }
 };
 
-async function generateJobDescription(jobType, location) {
-  const prompt = `${JOB_TYPES[jobType].prompt}
+const BENEFITS = [
+  {
+    tier: 'Advanced',
+    items: ['Premium Health Insurance', '4 Weeks PTO', '401k Match', 'Quarterly Bonuses', 'Vehicle Allowance'],
+    description: 'Comprehensive benefits package'
+  },
+  {
+    tier: 'Standard Plus',
+    items: ['Full Health Insurance', '3 Weeks PTO', '401k Match', 'Performance Bonuses', 'Tool Allowance'],
+    description: 'Competitive benefits package'
+  }
+];
 
-Position: ${jobType}
-Location: ${location.city}, ${location.state}
-Company: Greenskies Solar
+const CERTIFICATIONS = {
+  'Voice Data': ['BICSI Technician', 'RCDD', 'Network+', 'Cisco CCNA'],
+  'Security': ['ESA Level 2', 'NICET Level II', 'Security+', 'ASIS PSP'],
+  'Fire Alarm': ['NICET Level III', 'NFPA Certified', 'OSHA 30', 'Factory Certifications'],
+  'Audio Visual': ['CTS-I', 'Extron Certified', 'Crestron Certified', 'Biamp Certified'],
+  'Project Management': ['PMP', 'RCDD', 'NICET Level IV', 'Six Sigma Green Belt']
+};
 
-Create a detailed job description for major solar farm work for solar panel installers of all levels ${jobType}s
-- Required qualifications and nice to have certifications
-- Service area including ${location.city} and surrounding areas
-- Specific tools and equipment knowledge needed
-- Important Safety requirements and protocols
-- Benefits and growth opportunities
+const TOOLS_AND_TECH = {
+  'Voice Data': ['Fluke Networks', 'OTDR Testing', 'Cable Certification', 'Network Analysis'],
+  'Security': ['Access Control Systems', 'CCTV', 'Intrusion Detection', 'IP Camera Systems'],
+  'Fire Alarm': ['Fire Alarm Panels', 'Smoke Detection', 'Mass Notification', 'Emergency Communication'],
+  'Audio Visual': ['Digital Signal Processors', 'Video Walls', 'Control Systems', 'Sound Reinforcement'],
+  'Project Management': ['AutoCAD', 'Bluebeam', 'MS Project', 'Procore']
+};
 
-The description should be detailed and focus on solar farm work in ${location.city}, ${location.state}.`;
+const WORK_ENVIRONMENTS = [
+  { type: 'Corporate', clients: ['Fortune 500 Companies', 'Tech Startups', 'Financial Institutions'] },
+  { type: 'Healthcare', clients: ['Hospitals', 'Medical Centers', 'Clinics'] },
+  { type: 'Education', clients: ['Universities', 'K-12 Schools', 'Training Centers'] },
+  { type: 'Government', clients: ['Federal Agencies', 'State Offices', 'Military Facilities'] },
+  { type: 'Entertainment', clients: ['Hotels', 'Convention Centers', 'Sports Venues'] }
+];
+
+const TEAM_STRUCTURES = [
+  { size: 'Small', structure: 'Part of a 3-5 person specialized team' },
+  { size: 'Medium', structure: 'Leading a team of 4-6 technicians' },
+  { size: 'Large', structure: 'Member of a 10+ person regional team' },
+  { size: 'Matrix', structure: 'Working across multiple project teams' }
+];
+
+const TRAVEL_REQUIREMENTS = [
+  { range: 'Local', description: 'Within 30 miles of home base' },
+  { range: 'Regional', description: 'Up to 100 mile radius' },
+  { range: 'Multi-City', description: 'Regular travel to nearby major cities' }
+];
+
+const TRAINING_PROGRAMS = [
+  { type: 'Manufacturer', programs: ['Factory Training', 'Product Certification', 'Hands-on Labs'] },
+  { type: 'Technical', programs: ['Online Courses', 'Industry Certifications', 'Skills Workshops'] },
+  { type: 'Safety', programs: ['OSHA Training', 'First Aid/CPR', 'Safety Protocols'] },
+  { type: 'Leadership', programs: ['Project Management', 'Team Leading', 'Communication Skills'] }
+];
+
+async function generateJobDescription(jobType, location, jobInfo) {
+  const workEnv = WORK_ENVIRONMENTS[Math.floor(Math.random() * WORK_ENVIRONMENTS.length)];
+  const teamStructure = TEAM_STRUCTURES[Math.floor(Math.random() * TEAM_STRUCTURES.length)];
+  const travel = TRAVEL_REQUIREMENTS[Math.floor(Math.random() * TRAVEL_REQUIREMENTS.length)];
+  const training = TRAINING_PROGRAMS[Math.floor(Math.random() * TRAINING_PROGRAMS.length)];
+  
+  const benefits = BENEFITS[Math.floor(Math.random() * BENEFITS.length)];
+  const requiredCerts = CERTIFICATIONS[jobInfo.category]
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 2);
+  const preferredCerts = CERTIFICATIONS[jobInfo.category]
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 2);
+  const tools = TOOLS_AND_TECH[jobInfo.category]
+    .sort(() => 0.5 - Math.random());
+
+  const scheduleTypes = [
+    'First Shift (6:00 AM - 2:30 PM)',
+    'Second Shift (2:00 PM - 10:30 PM)',
+    'Flexible Hours',
+    'Standard Business Hours'
+  ];
+  const schedule = scheduleTypes[Math.floor(Math.random() * scheduleTypes.length)];
+
+  const prompt = `Create a unique job description for a ${jobType} position at AVI SPL in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
+
+Key Details:
+- Experience Required: ${jobInfo.yearsExperience} years
+- Schedule: ${schedule}
+- Work Environment: ${workEnv.type} (${workEnv.clients.join(', ')})
+- Team Structure: ${teamStructure.structure}
+- Travel: ${travel.description}
+- Training: ${training.type} focused
+
+Required Skills & Certifications:
+- Required Certifications: ${requiredCerts.join(', ')}
+- Preferred Certifications: ${preferredCerts.join(', ')}
+- Tools & Technology: ${tools.join(', ')}
+- Benefits Tier: ${benefits.tier}
+
+Please structure the response in markdown format like this:
+
+## Position Overview
+[Overview paragraph]
+
+## Key Responsibilities
+- [Bullet points]
+
+## Required Qualifications
+- [Bullet points]
+
+## Preferred Qualifications
+- [Bullet points]
+
+## Local Market Details
+- [Specific details about ${location.city} market]
+- [Local client types]
+- [Regional considerations]
+
+## Benefits Package
+- ${benefits.items.join('\n- ')}
+
+## Training & Development
+- [Training opportunities]
+- [Career growth]
+
+Make every aspect location-specific and unique to this role. Include market-specific challenges and opportunities. Use markdown formatting for clear, professional presentation.`;
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4",
     messages: [{ role: "user", content: prompt }],
-    temperature: 0.7,
+    temperature: 0.9,
   });
 
-  return completion.choices[0].message.content;
+  return {
+    fullDescription: completion.choices[0].message.content,
+    benefits,
+    schedule,
+    requiredCerts,
+    preferredCerts,
+    workEnvironment: workEnv,
+    teamStructure: teamStructure.structure,
+    travelRequirement: travel.description,
+    trainingProgram: {
+      focus: training.type,
+      programs: training.programs
+    }
+  };
 }
 
-async function createJob(jobType, location) {
+async function createJob(location, jobType) {
   const today = new Date();
   const validThrough = new Date(today);
-  validThrough.setDate(validThrough.getDate() + 60);
+  validThrough.setDate(validThrough.getDate() + Math.floor(Math.random() * (45 - 30 + 1) + 30));
 
   const jobInfo = JOB_TYPES[jobType];
-  const team = TEAMS[Math.floor(Math.random() * TEAMS.length)];
-  const jobId = `${jobType
-    .substring(0, 4)
-    .toUpperCase()
-    .replace(/\s+/g, '-')}-${Math.random().toString(36).substring(2, 8)}`.replace(/\s+/g, '-');
+  const jobId = `${jobType.substring(0, 4).toUpperCase()}-${Math.random().toString(36).substring(2, 8)}`;
 
-  // Generate full description
-  const fullDescription = await generateJobDescription(jobType, location);
+  // Generate unique description with variations
+  const { 
+    fullDescription, 
+    benefits, 
+    schedule, 
+    requiredCerts, 
+    preferredCerts,
+    workEnvironment,
+    teamStructure,
+    travelRequirement,
+    trainingProgram
+  } = await generateJobDescription(jobType, location, jobInfo);
   
-  // Create frontmatter data
+  // Add salary variation based on location and experience
+  const locationMultiplier = Math.random() * (1.15 - 0.85) + 0.85;
+  const experienceMultiplier = 1 + (parseInt(jobInfo.yearsExperience.split('-')[0]) * 0.02);
+  
+  const adjustedMinValue = Math.round(jobInfo.minValue * locationMultiplier * experienceMultiplier);
+  const adjustedMaxValue = Math.round(jobInfo.maxValue * locationMultiplier * experienceMultiplier);
+
+  // Create frontmatter data with variations - ensure all properties are defined
   const jobData = {
-    position: jobType,
-    description: `${fullDescription.substring(0, 500)}...`,
+    position: jobType || 'Untitled Position',
+    description: fullDescription ? `${fullDescription.substring(0, 500)}...` : 'No description available',
     location: `${location.city}, ${location.state}`,
-    team,
+    team: 'Commercial',
+    schedule: schedule || 'Full Time',
+    requiredCertifications: requiredCerts || [],
+    preferredCertifications: preferredCerts || [],
+    benefits: benefits?.items || [],
     datePosted: today.toISOString(),
     validThrough: validThrough.toISOString(),
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'Greenskies',
-      sameAs: 'https://www.greenskies.com/',
-      logo: 'https://res.cloudinary.com/energysage/image/fetch/s--EpTorQai--/b_auto,c_pad,f_auto,h_200,q_auto,w_200/https://es-media-prod.s3.amazonaws.com/media/supplier/logo/source/Greenskies_Clean_Focus_Company.jpg'
+      name: 'AVI SPL',
+      sameAs: 'https://avispl.com/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyraGCdDcBhUVCLjb9MI2McsVysMD7wjYlIQ&s'
     },
     jobLocation: {
-      streetAddress: '32000 S. Main St.',
+      streetAddress: '10000 S. Main St.',
       addressLocality: location.city,
       addressRegion: location.state,
       postalCode: location.zipCode,
@@ -107,40 +272,46 @@ async function createJob(jobType, location) {
     },
     baseSalary: {
       currency: 'USD',
-      value: Math.floor((jobInfo.minValue + jobInfo.maxValue) / 2),
-      minValue: jobInfo.minValue,
-      maxValue: jobInfo.maxValue,
+      value: Math.floor((adjustedMinValue + adjustedMaxValue) / 2),
+      minValue: adjustedMinValue,
+      maxValue: adjustedMaxValue,
       unitText: 'HOUR'
     },
-    experienceRequirements: jobInfo.experienceLevel,
-    occupationalCategory: jobInfo.category,
+    experienceRequirements: jobInfo.experienceLevel || 'midLevel',
+    occupationalCategory: jobInfo.category || 'General',
     identifier: {
-      name: 'Greenskies Solar',
+      name: 'AVI SPL',
       value: jobId
     },
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
       'support@primepartners.info',
-      'resumes@bestelectricianjobs.zohorecruitmail.com',
-      'prime.partners+candidate+jl6y59w7r@mail.manatal.com'
-    ]
+      'resumes@bestelectricianjobs.zohorecruitmail.com'
+    ],
+    workEnvironment: workEnvironment ? {
+      type: workEnvironment.type || 'Commercial',
+      clients: workEnvironment.clients || []
+    } : {
+      type: 'Commercial',
+      clients: []
+    },
+    teamStructure: teamStructure || 'Standard Team',
+    travelRequirements: travelRequirement || 'Local Area',
+    trainingProgram: trainingProgram ? {
+      focus: trainingProgram.focus || 'General',
+      programs: trainingProgram.programs || []
+    } : {
+      focus: 'General',
+      programs: []
+    }
   };
 
   // Create the markdown content
   const frontmatter = matter.stringify('', jobData);
-  const finalContent = `${frontmatter}\n\n${fullDescription}`;
+  const finalContent = `${frontmatter}\n\n${fullDescription || 'No description available'}`;
 
-  // Write to file
-  const filename = `greenskies-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city
-    .toLowerCase()
-    .replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}`.replace(/\s+/g, '-') + '.md';
-
-  if (filename.includes(' ')) {
-    console.error('Error: Filename contains spaces:', filename);
-    process.exit(1);
-  }
-
+  const filename = `avispl-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   fs.writeFileSync(filePath, finalContent);
 
@@ -148,16 +319,19 @@ async function createJob(jobType, location) {
 }
 
 async function createAllJobs() {
-  console.log('Job Types to create:', Object.keys(JOB_TYPES));
+  // Create a pool of job types
+  const jobTypes = Object.keys(JOB_TYPES);
   
-  for (const jobType of Object.keys(JOB_TYPES)) {
-    console.log(`Starting jobs for: ${jobType}`);
-    for (const location of LOCATIONS) {
-      console.log(`Creating in ${location.city}...`);
-      await createJob(jobType, location);
-      await new Promise(resolve => setTimeout(resolve, 1000));
-    }
-    console.log(`Completed all locations for: ${jobType}`);
+  // Process each location with a random job type
+  for (const location of LOCATIONS) {
+    // Select a random job type for this location
+    const randomJobType = jobTypes[Math.floor(Math.random() * jobTypes.length)];
+    
+    console.log(`Creating ${randomJobType} in ${location.city}...`);
+    await createJob(location, randomJobType);
+    
+    // Add delay between API calls
+    await new Promise(resolve => setTimeout(resolve, 2000));
   }
   
   console.log('Done! Run npm run index-recent-jobs -- -days=0 to index new jobs');
