@@ -24,7 +24,7 @@ We're giving away a hundred dollar Amazon Gift Card every month to someone who f
 
 Extra points if you tag a friend. Help us grow this job board into the best Electrical Job Board in America! 
 
-https://www.facebook.com/people/Electrician-Jobs/61569887313150/
+https://www.facebook.com/bestelectricianjobs
 - Follow us on Facebook for up to date job postings and giveaways.
 
 OR
