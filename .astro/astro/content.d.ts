@@ -4711,6 +4711,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"telco-data-av-tech-gary-av-t-o81i6a.md": {
+	id: "telco-data-av-tech-gary-av-t-o81i6a.md";
+  slug: "telco-data-av-tech-gary-av-t-o81i6a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "telco-data-av-tech-newton-av-t-xfpifg.md": {
 	id: "telco-data-av-tech-newton-av-t-xfpifg.md";
   slug: "telco-data-av-tech-newton-av-t-xfpifg";
@@ -4882,6 +4889,13 @@ declare module 'astro:content' {
 "telco-data-security-tech-hollywood-secu-eymuuh.md": {
 	id: "telco-data-security-tech-hollywood-secu-eymuuh.md";
   slug: "telco-data-security-tech-hollywood-secu-eymuuh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"telco-data-security-tech-indianapolis-secu-zz3ge1.md": {
+	id: "telco-data-security-tech-indianapolis-secu-zz3ge1.md";
+  slug: "telco-data-security-tech-indianapolis-secu-zz3ge1";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
