@@ -1,8 +1,6 @@
 ---
 position: Data Center Cable Technician
 description: >-
-  ## Position Overview
-
   Staley Technologies is seeking a skilled Data Center Cable Technician to join
   our regional team in Newark, NJ. This role is crucial to maintaining and
   optimizing our edge data center operations, supporting telecom providers,

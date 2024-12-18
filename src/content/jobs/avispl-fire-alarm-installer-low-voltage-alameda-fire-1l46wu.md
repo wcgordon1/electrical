@@ -10,8 +10,6 @@ description: >-
   startups, and financial institutions. The ideal candidate will have extensive
   hands-on experience, technical knowledge, and possess a strong work ethic.
 
-
-  ## Key Responsibilities...
 location: 'Alameda, CA'
 team: Commercial
 schedule: 'Second Shift (2:00 PM - 10:30 PM)'

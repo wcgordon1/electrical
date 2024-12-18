@@ -4788,6 +4788,321 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"staley-data-center-cable-technician-allen-data-gdfntk.md": {
+	id: "staley-data-center-cable-technician-allen-data-gdfntk.md";
+  slug: "staley-data-center-cable-technician-allen-data-gdfntk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-ashburn-data-9pg7w9.md": {
+	id: "staley-data-center-cable-technician-ashburn-data-9pg7w9.md";
+  slug: "staley-data-center-cable-technician-ashburn-data-9pg7w9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-chicago-data-nlbs01.md": {
+	id: "staley-data-center-cable-technician-chicago-data-nlbs01.md";
+  slug: "staley-data-center-cable-technician-chicago-data-nlbs01";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-elk-grove-village-data-jx5fjy.md": {
+	id: "staley-data-center-cable-technician-elk-grove-village-data-jx5fjy.md";
+  slug: "staley-data-center-cable-technician-elk-grove-village-data-jx5fjy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-hillsboro-data-ottwhx.md": {
+	id: "staley-data-center-cable-technician-hillsboro-data-ottwhx.md";
+  slug: "staley-data-center-cable-technician-hillsboro-data-ottwhx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-leesburg-data-xysr35.md": {
+	id: "staley-data-center-cable-technician-leesburg-data-xysr35.md";
+  slug: "staley-data-center-cable-technician-leesburg-data-xysr35";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-loudoun-county-data-6icyh7.md": {
+	id: "staley-data-center-cable-technician-loudoun-county-data-6icyh7.md";
+  slug: "staley-data-center-cable-technician-loudoun-county-data-6icyh7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-manassas-data-lqjf48.md": {
+	id: "staley-data-center-cable-technician-manassas-data-lqjf48.md";
+  slug: "staley-data-center-cable-technician-manassas-data-lqjf48";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-mesa-data-v8gd2x.md": {
+	id: "staley-data-center-cable-technician-mesa-data-v8gd2x.md";
+  slug: "staley-data-center-cable-technician-mesa-data-v8gd2x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-newark-data-stzeuv.md": {
+	id: "staley-data-center-cable-technician-newark-data-stzeuv.md";
+  slug: "staley-data-center-cable-technician-newark-data-stzeuv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-plano-data-u75f4p.md": {
+	id: "staley-data-center-cable-technician-plano-data-u75f4p.md";
+  slug: "staley-data-center-cable-technician-plano-data-u75f4p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-reno-data-e9hx6c.md": {
+	id: "staley-data-center-cable-technician-reno-data-e9hx6c.md";
+  slug: "staley-data-center-cable-technician-reno-data-e9hx6c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-richardson-data-o9rnan.md": {
+	id: "staley-data-center-cable-technician-richardson-data-o9rnan.md";
+  slug: "staley-data-center-cable-technician-richardson-data-o9rnan";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-salt-lake-city-data-48dfb0.md": {
+	id: "staley-data-center-cable-technician-salt-lake-city-data-48dfb0.md";
+  slug: "staley-data-center-cable-technician-salt-lake-city-data-48dfb0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-cable-technician-sterling-data-pbhi8a.md": {
+	id: "staley-data-center-cable-technician-sterling-data-pbhi8a.md";
+  slug: "staley-data-center-cable-technician-sterling-data-pbhi8a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-austin-data-p9me4v.md": {
+	id: "staley-data-center-network-engineer-austin-data-p9me4v.md";
+  slug: "staley-data-center-network-engineer-austin-data-p9me4v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-cheyenne-data-7b36bv.md": {
+	id: "staley-data-center-network-engineer-cheyenne-data-7b36bv.md";
+  slug: "staley-data-center-network-engineer-cheyenne-data-7b36bv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-columbus-data-uwpq1l.md": {
+	id: "staley-data-center-network-engineer-columbus-data-uwpq1l.md";
+  slug: "staley-data-center-network-engineer-columbus-data-uwpq1l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-council-bluffs-data-8s5hin.md": {
+	id: "staley-data-center-network-engineer-council-bluffs-data-8s5hin.md";
+  slug: "staley-data-center-network-engineer-council-bluffs-data-8s5hin";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-des-moines-data-7t38kk.md": {
+	id: "staley-data-center-network-engineer-des-moines-data-7t38kk.md";
+  slug: "staley-data-center-network-engineer-des-moines-data-7t38kk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-network-engineer-maiden-data-p2lq9h.md": {
+	id: "staley-data-center-network-engineer-maiden-data-p2lq9h.md";
+  slug: "staley-data-center-network-engineer-maiden-data-p2lq9h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-altoona-data-6tvo42.md": {
+	id: "staley-data-center-rack-&-stack-technician-altoona-data-6tvo42.md";
+  slug: "staley-data-center-rack--stack-technician-altoona-data-6tvo42";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-chandler-data-8nqnl4.md": {
+	id: "staley-data-center-rack-&-stack-technician-chandler-data-8nqnl4.md";
+  slug: "staley-data-center-rack--stack-technician-chandler-data-8nqnl4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-forest-city-data-wom9xf.md": {
+	id: "staley-data-center-rack-&-stack-technician-forest-city-data-wom9xf.md";
+  slug: "staley-data-center-rack--stack-technician-forest-city-data-wom9xf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-los-angeles-data-72mfl3.md": {
+	id: "staley-data-center-rack-&-stack-technician-los-angeles-data-72mfl3.md";
+  slug: "staley-data-center-rack--stack-technician-los-angeles-data-72mfl3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-new-albany-data-894fj4.md": {
+	id: "staley-data-center-rack-&-stack-technician-new-albany-data-894fj4.md";
+  slug: "staley-data-center-rack--stack-technician-new-albany-data-894fj4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-new-york-data-i2gjte.md": {
+	id: "staley-data-center-rack-&-stack-technician-new-york-data-i2gjte.md";
+  slug: "staley-data-center-rack--stack-technician-new-york-data-i2gjte";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-phoenix-data-3c1i76.md": {
+	id: "staley-data-center-rack-&-stack-technician-phoenix-data-3c1i76.md";
+  slug: "staley-data-center-rack--stack-technician-phoenix-data-3c1i76";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-prineville-data-tec9hv.md": {
+	id: "staley-data-center-rack-&-stack-technician-prineville-data-tec9hv.md";
+  slug: "staley-data-center-rack--stack-technician-prineville-data-tec9hv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-richmond-data-d9lv9y.md": {
+	id: "staley-data-center-rack-&-stack-technician-richmond-data-d9lv9y.md";
+  slug: "staley-data-center-rack--stack-technician-richmond-data-d9lv9y";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-sacramento-data-znolix.md": {
+	id: "staley-data-center-rack-&-stack-technician-sacramento-data-znolix.md";
+  slug: "staley-data-center-rack--stack-technician-sacramento-data-znolix";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-santa-clara-data-uxrdyx.md": {
+	id: "staley-data-center-rack-&-stack-technician-santa-clara-data-uxrdyx.md";
+  slug: "staley-data-center-rack--stack-technician-santa-clara-data-uxrdyx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-data-center-rack-&-stack-technician-seattle-data-7s5nyx.md": {
+	id: "staley-data-center-rack-&-stack-technician-seattle-data-7s5nyx.md";
+  slug: "staley-data-center-rack--stack-technician-seattle-data-7s5nyx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-atlanta-fibe-1kqrpt.md": {
+	id: "staley-fiber-optic-splicing-technician-atlanta-fibe-1kqrpt.md";
+  slug: "staley-fiber-optic-splicing-technician-atlanta-fibe-1kqrpt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-dallas-fibe-3f6d13.md": {
+	id: "staley-fiber-optic-splicing-technician-dallas-fibe-3f6d13.md";
+  slug: "staley-fiber-optic-splicing-technician-dallas-fibe-3f6d13";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-denver-fibe-9qu44o.md": {
+	id: "staley-fiber-optic-splicing-technician-denver-fibe-9qu44o.md";
+  slug: "staley-fiber-optic-splicing-technician-denver-fibe-9qu44o";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-fort-worth-fibe-w4tovb.md": {
+	id: "staley-fiber-optic-splicing-technician-fort-worth-fibe-w4tovb.md";
+  slug: "staley-fiber-optic-splicing-technician-fort-worth-fibe-w4tovb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-houston-fibe-lr5pq3.md": {
+	id: "staley-fiber-optic-splicing-technician-houston-fibe-lr5pq3.md";
+  slug: "staley-fiber-optic-splicing-technician-houston-fibe-lr5pq3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-kansas-city-fibe-y7r8c8.md": {
+	id: "staley-fiber-optic-splicing-technician-kansas-city-fibe-y7r8c8.md";
+  slug: "staley-fiber-optic-splicing-technician-kansas-city-fibe-y7r8c8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-las-vegas-fibe-p9r2bh.md": {
+	id: "staley-fiber-optic-splicing-technician-las-vegas-fibe-p9r2bh.md";
+  slug: "staley-fiber-optic-splicing-technician-las-vegas-fibe-p9r2bh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-miami-fibe-hfon3n.md": {
+	id: "staley-fiber-optic-splicing-technician-miami-fibe-hfon3n.md";
+  slug: "staley-fiber-optic-splicing-technician-miami-fibe-hfon3n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-quincy-fibe-psbq0f.md": {
+	id: "staley-fiber-optic-splicing-technician-quincy-fibe-psbq0f.md";
+  slug: "staley-fiber-optic-splicing-technician-quincy-fibe-psbq0f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-reston-fibe-r22uo3.md": {
+	id: "staley-fiber-optic-splicing-technician-reston-fibe-r22uo3.md";
+  slug: "staley-fiber-optic-splicing-technician-reston-fibe-r22uo3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-san-antonio-fibe-bg9com.md": {
+	id: "staley-fiber-optic-splicing-technician-san-antonio-fibe-bg9com.md";
+  slug: "staley-fiber-optic-splicing-technician-san-antonio-fibe-bg9com";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8.md": {
+	id: "staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8.md";
+  slug: "staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "telco-data-av-tech-brookline-av-t-vq2kt3.md": {
 	id: "telco-data-av-tech-brookline-av-t-vq2kt3.md";
   slug: "telco-data-av-tech-brookline-av-t-vq2kt3";

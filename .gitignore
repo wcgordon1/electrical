@@ -23,5 +23,12 @@ pnpm-debug.log*
 scripts/config/credentials.json
 scripts/config/.env
 
+# Scripts and Config
+/scripts/config/.env.local
+/scripts/config/.env
+.env
+.env.*
+
+
 # Logs
 scripts/logs/*
