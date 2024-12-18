@@ -22,8 +22,8 @@ description: >-
   1. Perform installations and maintenance tasks for cable sy...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-09T21:13:17.898Z'
-validThrough: '2025-02-07T21:13:17.898Z'
+datePosted: '2024-12-17T04:31:52.494Z'
+validThrough: '2025-01-24T04:31:52.494Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -21,8 +21,8 @@ description: >-
   equipmen...
 location: 'Smyrna, GA'
 team: Commercial
-datePosted: '2024-12-09T22:31:56.302Z'
-validThrough: '2025-02-07T22:31:56.302Z'
+datePosted: '2024-12-16T16:38:22.454Z'
+validThrough: '2025-01-28T16:38:22.454Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

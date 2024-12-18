@@ -18,8 +18,8 @@ description: >-
   1. Install, maintain, and service ...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:05:44.939Z'
-validThrough: '2025-02-08T02:05:44.939Z'
+datePosted: '2024-12-17T01:39:35.683Z'
+validThrough: '2025-01-28T01:39:35.683Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -24,8 +24,8 @@ description: >-
   1. Install fire...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-10T01:58:50.500Z'
-validThrough: '2025-02-08T01:58:50.500Z'
+datePosted: '2024-12-18T00:58:01.556Z'
+validThrough: '2025-01-31T00:58:01.556Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

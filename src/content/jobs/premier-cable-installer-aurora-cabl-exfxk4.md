@@ -22,8 +22,8 @@ description: >-
   - In...
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-09T21:56:15.188Z'
-validThrough: '2025-02-07T21:56:15.188Z'
+datePosted: '2024-12-18T11:49:49.477Z'
+validThrough: '2025-01-22T11:49:49.477Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

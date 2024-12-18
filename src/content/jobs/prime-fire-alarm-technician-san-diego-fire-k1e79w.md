@@ -17,8 +17,8 @@ description: >-
   1. Install and program new fire alarm systems in accordance wit...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-10T01:49:28.321Z'
-validThrough: '2025-02-08T01:49:28.321Z'
+datePosted: '2024-12-16T20:02:04.501Z'
+validThrough: '2025-01-30T20:02:04.501Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

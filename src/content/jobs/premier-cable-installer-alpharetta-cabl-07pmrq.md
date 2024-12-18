@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair cable systems, including th...
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-09T21:16:00.472Z'
-validThrough: '2025-02-07T21:16:00.472Z'
+datePosted: '2024-12-17T01:28:36.320Z'
+validThrough: '2025-01-18T01:28:36.320Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -23,8 +23,8 @@ description: >-
   1. Install, repair, and maintain electrical systems while ...
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-09T22:27:40.910Z'
-validThrough: '2025-02-07T22:27:40.910Z'
+datePosted: '2024-12-17T02:46:22.227Z'
+validThrough: '2025-01-31T02:46:22.227Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

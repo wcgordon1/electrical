@@ -22,8 +22,8 @@ description: >-
   - Install electrical systems in new constructi...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:11:39.920Z'
-validThrough: '2025-02-08T02:11:39.920Z'
+datePosted: '2024-12-18T09:18:18.963Z'
+validThrough: '2025-01-24T09:18:18.963Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -26,8 +26,8 @@ description: >-
   Premier Electric is seeking a dedicated Apprentice Electri...
 location: 'Lakewood, CO'
 team: Commercial
-datePosted: '2024-12-09T22:34:37.239Z'
-validThrough: '2025-02-07T22:34:37.239Z'
+datePosted: '2024-12-17T03:12:47.354Z'
+validThrough: '2025-01-27T03:12:47.354Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

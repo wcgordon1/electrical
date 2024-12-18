@@ -21,8 +21,8 @@ description: >-
   electrical experienc...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:11:25.302Z'
-validThrough: '2025-02-08T02:11:25.302Z'
+datePosted: '2024-12-18T10:43:28.418Z'
+validThrough: '2025-01-23T10:43:28.418Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -24,8 +24,8 @@ description: >-
   - Installation, ma...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-10T02:10:06.185Z'
-validThrough: '2025-02-08T02:10:06.185Z'
+datePosted: '2024-12-17T00:09:02.136Z'
+validThrough: '2025-01-30T00:09:02.136Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

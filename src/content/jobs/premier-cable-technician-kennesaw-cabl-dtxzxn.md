@@ -23,8 +23,8 @@ description: >-
   1. Installation, maintenance, and repair of cabl...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-09T21:43:06.729Z'
-validThrough: '2025-02-07T21:43:06.729Z'
+datePosted: '2024-12-17T20:31:06.698Z'
+validThrough: '2025-01-30T20:31:06.698Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

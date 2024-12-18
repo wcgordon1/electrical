@@ -29,8 +29,8 @@ description: >-
   Journey...
 location: 'Duluth, GA'
 team: Commercial
-datePosted: '2024-12-09T22:31:15.925Z'
-validThrough: '2025-02-07T22:31:15.925Z'
+datePosted: '2024-12-17T02:56:34.130Z'
+validThrough: '2025-01-21T02:56:34.130Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

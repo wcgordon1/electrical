@@ -22,8 +22,8 @@ description: >-
   Key Responsibiliti...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-10T01:59:29.044Z'
-validThrough: '2025-02-08T01:59:29.044Z'
+datePosted: '2024-12-18T12:40:57.718Z'
+validThrough: '2025-01-22T12:40:57.718Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and...
 location: 'Thornton, CO'
 team: Commercial
-datePosted: '2024-12-09T22:29:13.479Z'
-validThrough: '2025-02-07T22:29:13.479Z'
+datePosted: '2024-12-17T21:45:43.478Z'
+validThrough: '2025-01-23T21:45:43.478Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

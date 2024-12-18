@@ -18,8 +18,8 @@ description: >-
   Colorado Springs area as well as surroundi...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-09T22:27:23.209Z'
-validThrough: '2025-02-07T22:27:23.209Z'
+datePosted: '2024-12-16T14:19:27.602Z'
+validThrough: '2025-01-25T14:19:27.602Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

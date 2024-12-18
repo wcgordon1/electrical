@@ -24,8 +24,8 @@ description: >-
   2. Perform general...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-10T01:43:58.701Z'
-validThrough: '2025-02-08T01:43:58.701Z'
+datePosted: '2024-12-17T03:00:00.519Z'
+validThrough: '2025-01-19T03:00:00.519Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

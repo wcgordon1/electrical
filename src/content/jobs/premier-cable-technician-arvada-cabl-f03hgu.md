@@ -17,8 +17,8 @@ description: >-
   are working optimally and providing high-quality services to our customers...
 location: 'Arvada, CO'
 team: Commercial
-datePosted: '2024-12-09T21:47:13.925Z'
-validThrough: '2025-02-07T21:47:13.925Z'
+datePosted: '2024-12-18T01:38:49.591Z'
+validThrough: '2025-01-20T01:38:49.591Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

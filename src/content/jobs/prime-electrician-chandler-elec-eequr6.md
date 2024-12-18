@@ -18,8 +18,8 @@ description: >-
   1. Install, maintain, and repair electrical co...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-10T01:48:08.858Z'
-validThrough: '2025-02-08T01:48:08.858Z'
+datePosted: '2024-12-18T00:04:24.528Z'
+validThrough: '2025-01-25T00:04:24.528Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -19,8 +19,8 @@ description: >-
   - Perform routine inspections and maintenanc...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-10T01:52:51.575Z'
-validThrough: '2025-02-08T01:52:51.575Z'
+datePosted: '2024-12-18T07:23:33.337Z'
+validThrough: '2025-01-26T07:23:33.337Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

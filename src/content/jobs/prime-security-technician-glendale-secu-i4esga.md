@@ -21,8 +21,8 @@ description: >-
   electrical work and will be respon...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-10T02:05:10.894Z'
-validThrough: '2025-02-08T02:05:10.894Z'
+datePosted: '2024-12-18T04:47:57.399Z'
+validThrough: '2025-01-24T04:47:57.399Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

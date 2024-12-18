@@ -18,8 +18,8 @@ description: >-
   troubleshooting, and commercial electrical applications. The Electrici...
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-10T01:44:54.396Z'
-validThrough: '2025-02-08T01:44:54.396Z'
+datePosted: '2024-12-16T16:43:37.705Z'
+validThrough: '2025-01-16T16:43:37.705Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

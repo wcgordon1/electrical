@@ -18,8 +18,8 @@ description: >-
   accura...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-09T21:50:47.528Z'
-validThrough: '2025-02-07T21:50:47.528Z'
+datePosted: '2024-12-17T18:07:50.931Z'
+validThrough: '2025-01-26T18:07:50.931Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

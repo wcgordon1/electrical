@@ -20,8 +20,8 @@ description: >-
   qualified Cable Technician to join our team and help us maintai...
 location: 'Lakewood, CO'
 team: Commercial
-datePosted: '2024-12-09T21:46:18.377Z'
-validThrough: '2025-02-07T21:46:18.377Z'
+datePosted: '2024-12-18T11:46:07.087Z'
+validThrough: '2025-01-21T11:46:07.087Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

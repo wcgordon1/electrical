@@ -18,8 +18,8 @@ description: >-
   but not limited to access control sy...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-10T02:04:52.677Z'
-validThrough: '2025-02-08T02:04:52.677Z'
+datePosted: '2024-12-17T18:23:04.354Z'
+validThrough: '2025-01-24T18:23:04.354Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

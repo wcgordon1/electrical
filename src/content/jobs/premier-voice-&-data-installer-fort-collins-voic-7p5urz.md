@@ -18,8 +18,8 @@ description: >-
   installing, maintaining, and repairing voice and data cabling systems ...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-09T21:51:42.066Z'
-validThrough: '2025-02-07T21:51:42.066Z'
+datePosted: '2024-12-18T03:04:34.624Z'
+validThrough: '2025-01-29T03:04:34.624Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

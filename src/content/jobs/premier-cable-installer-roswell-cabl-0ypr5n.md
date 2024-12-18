@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair cable systems, including the i...
 location: 'Roswell, GA'
 team: Commercial
-datePosted: '2024-12-09T21:16:15.512Z'
-validThrough: '2025-02-07T21:16:15.512Z'
+datePosted: '2024-12-17T11:16:03.125Z'
+validThrough: '2025-01-27T11:16:03.125Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

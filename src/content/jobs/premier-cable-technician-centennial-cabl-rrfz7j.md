@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and troubl...
 location: 'Centennial, CO'
 team: Commercial
-datePosted: '2024-12-09T21:48:10.557Z'
-validThrough: '2025-02-07T21:48:10.557Z'
+datePosted: '2024-12-17T18:04:32.088Z'
+validThrough: '2025-01-28T18:04:32.088Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

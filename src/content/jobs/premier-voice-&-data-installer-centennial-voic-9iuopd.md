@@ -20,8 +20,8 @@ description: >-
   provide top-tier service to all our clients across Centennial an...
 location: 'Centennial, CO'
 team: Commercial
-datePosted: '2024-12-09T21:53:36.184Z'
-validThrough: '2025-02-07T21:53:36.184Z'
+datePosted: '2024-12-16T20:37:56.281Z'
+validThrough: '2025-01-21T20:37:56.281Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -20,8 +20,8 @@ description: >-
   systems for ou...
 location: 'Dunwoody, GA'
 team: Commercial
-datePosted: '2024-12-09T21:43:44.596Z'
-validThrough: '2025-02-07T21:43:44.596Z'
+datePosted: '2024-12-17T05:36:01.740Z'
+validThrough: '2025-01-16T05:36:01.740Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

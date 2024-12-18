@@ -21,8 +21,8 @@ description: >-
   properties in Los Angeles and s...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-10T01:53:57.644Z'
-validThrough: '2025-02-08T01:53:57.644Z'
+datePosted: '2024-12-17T10:56:07.066Z'
+validThrough: '2025-01-20T10:56:07.066Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

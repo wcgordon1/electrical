@@ -18,8 +18,8 @@ description: >-
   according to build...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-10T01:57:48.779Z'
-validThrough: '2025-02-08T01:57:48.779Z'
+datePosted: '2024-12-17T01:04:32.142Z'
+validThrough: '2025-01-16T01:04:32.142Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

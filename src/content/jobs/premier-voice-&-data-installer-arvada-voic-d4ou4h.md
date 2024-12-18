@@ -17,8 +17,8 @@ description: >-
   in Voice & Data Installer work and possess a strong understanding of in...
 location: 'Arvada, CO'
 team: Commercial
-datePosted: '2024-12-09T21:52:29.899Z'
-validThrough: '2025-02-07T21:52:29.899Z'
+datePosted: '2024-12-18T04:29:12.364Z'
+validThrough: '2025-01-25T04:29:12.364Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -27,8 +27,8 @@ description: >-
   experience in the cable i...
 location: 'Dunwoody, GA'
 team: Commercial
-datePosted: '2024-12-09T21:54:42.766Z'
-validThrough: '2025-02-07T21:54:42.766Z'
+datePosted: '2024-12-17T17:20:28.614Z'
+validThrough: '2025-01-16T17:20:28.614Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -24,8 +24,8 @@ description: >-
   1. Installation of cable suppo...
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-09T21:13:41.355Z'
-validThrough: '2025-02-07T21:13:41.355Z'
+datePosted: '2024-12-16T19:46:30.949Z'
+validThrough: '2025-01-25T19:46:30.949Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

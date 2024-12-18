@@ -24,8 +24,8 @@ description: >-
   equipment an...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-09T21:36:08.749Z'
-validThrough: '2025-02-07T21:36:08.749Z'
+datePosted: '2024-12-18T09:42:05.874Z'
+validThrough: '2025-01-21T09:42:05.874Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -18,8 +18,8 @@ description: >-
   - Install, maintain, inspect and repair fire alarm systems in accorda...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:01:13.641Z'
-validThrough: '2025-02-08T02:01:13.641Z'
+datePosted: '2024-12-17T00:06:54.307Z'
+validThrough: '2025-01-31T00:06:54.307Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

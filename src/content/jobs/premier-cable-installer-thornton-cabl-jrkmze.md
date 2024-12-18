@@ -25,8 +25,8 @@ description: >-
   As a Cable Installer at Premier Electric, you will be responsible for insta...
 location: 'Thornton, CO'
 team: Commercial
-datePosted: '2024-12-09T21:57:14.738Z'
-validThrough: '2025-02-07T21:57:14.738Z'
+datePosted: '2024-12-18T12:43:50.642Z'
+validThrough: '2025-01-18T12:43:50.642Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

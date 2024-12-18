@@ -214,10 +214,25 @@ function generateStreetAddress() {
   return `${number} ${streetType}`;
 }
 
+// Helper function to generate random date within last 2 days
+function generateRecentDate() {
+  const now = new Date();
+  const twoDaysAgo = new Date(now - (2 * 24 * 60 * 60 * 1000));
+  const randomTime = twoDaysAgo.getTime() + Math.random() * (now.getTime() - twoDaysAgo.getTime());
+  return new Date(randomTime).toISOString();
+}
+
+// Helper function to generate validThrough date
+function generateValidThrough(datePosted) {
+  const postedDate = new Date(datePosted);
+  const daysToAdd = Math.floor(Math.random() * (45 - 31 + 1) + 31); // Random between 31-45 days
+  const validThrough = new Date(postedDate.getTime() + (daysToAdd * 24 * 60 * 60 * 1000));
+  return validThrough.toISOString();
+}
+
 async function createJob(location, jobType) {
-  const today = new Date();
-  const validThrough = new Date(today);
-  validThrough.setDate(validThrough.getDate() + Math.floor(Math.random() * (45 - 30 + 1) + 30));
+  const datePosted = generateRecentDate();
+  const validThrough = generateValidThrough(datePosted);
 
   const jobInfo = JOB_TYPES[jobType];
   const jobId = `${jobType.substring(0, 4).toUpperCase()}-${Math.random().toString(36).substring(2, 8)}`;
@@ -256,8 +271,8 @@ async function createJob(location, jobType) {
     requiredCertifications: requiredCerts || [],
     preferredCertifications: preferredCerts || [],
     benefits: benefits?.items || [],
-    datePosted: today.toISOString(),
-    validThrough: validThrough.toISOString(),
+    datePosted: datePosted,
+    validThrough: validThrough,
     employmentType: 'FULL_TIME',
     hiringOrganization: {
       name: 'Telco Data',

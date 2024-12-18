@@ -24,8 +24,8 @@ description: >-
   1. Installa...
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-09T21:26:11.733Z'
-validThrough: '2025-02-07T21:26:11.733Z'
+datePosted: '2024-12-18T02:45:25.126Z'
+validThrough: '2025-01-30T02:45:25.126Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

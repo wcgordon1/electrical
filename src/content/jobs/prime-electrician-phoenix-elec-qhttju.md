@@ -18,8 +18,8 @@ description: >-
   Journeyman level electrici...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-10T01:46:35.670Z'
-validThrough: '2025-02-08T01:46:35.670Z'
+datePosted: '2024-12-17T00:19:04.441Z'
+validThrough: '2025-01-29T00:19:04.441Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

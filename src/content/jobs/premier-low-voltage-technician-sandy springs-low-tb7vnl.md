@@ -19,8 +19,8 @@ description: >-
   voltage systems and...
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-09T21:26:43.149Z'
-validThrough: '2025-02-07T21:26:43.149Z'
+datePosted: '2024-12-18T02:09:43.696Z'
+validThrough: '2025-02-01T02:09:43.696Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

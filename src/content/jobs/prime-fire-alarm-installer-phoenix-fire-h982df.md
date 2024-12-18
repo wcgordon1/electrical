@@ -24,8 +24,8 @@ description: >-
   Key...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:00:26.485Z'
-validThrough: '2025-02-08T02:00:26.485Z'
+datePosted: '2024-12-17T03:04:27.436Z'
+validThrough: '2025-01-30T03:04:27.436Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

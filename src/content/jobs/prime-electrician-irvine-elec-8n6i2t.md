@@ -19,8 +19,8 @@ description: >-
   functionality of electrical s...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-10T01:44:26.958Z'
-validThrough: '2025-02-08T01:44:26.958Z'
+datePosted: '2024-12-18T09:30:08.038Z'
+validThrough: '2025-01-24T09:30:08.038Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

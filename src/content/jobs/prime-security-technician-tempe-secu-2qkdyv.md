@@ -18,8 +18,8 @@ description: >-
   intrusion detection, and fire alar...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:06:24.447Z'
-validThrough: '2025-02-08T02:06:24.447Z'
+datePosted: '2024-12-17T13:32:31.418Z'
+validThrough: '2025-01-19T13:32:31.418Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

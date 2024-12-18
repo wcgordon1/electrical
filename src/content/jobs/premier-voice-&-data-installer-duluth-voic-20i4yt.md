@@ -21,8 +21,8 @@ description: >-
   1. Installation, troubleshooting, and maintenance of voice and da...
 location: 'Duluth, GA'
 team: Commercial
-datePosted: '2024-12-09T21:48:35.658Z'
-validThrough: '2025-02-07T21:48:35.658Z'
+datePosted: '2024-12-18T02:56:44.725Z'
+validThrough: '2025-01-29T02:56:44.725Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

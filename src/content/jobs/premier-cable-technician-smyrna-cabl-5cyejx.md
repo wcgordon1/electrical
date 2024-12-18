@@ -18,8 +18,8 @@ description: >-
   surrounding cities like Mariet...
 location: 'Smyrna, GA'
 team: Commercial
-datePosted: '2024-12-09T21:43:24.007Z'
-validThrough: '2025-02-07T21:43:24.007Z'
+datePosted: '2024-12-18T12:53:20.494Z'
+validThrough: '2025-01-30T12:53:20.494Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

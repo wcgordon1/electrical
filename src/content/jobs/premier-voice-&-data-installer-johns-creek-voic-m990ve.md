@@ -24,8 +24,8 @@ description: >-
   networks....
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-09T21:50:01.344Z'
-validThrough: '2025-02-07T21:50:01.344Z'
+datePosted: '2024-12-17T02:25:49.271Z'
+validThrough: '2025-01-28T02:25:49.271Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

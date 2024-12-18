@@ -26,8 +26,8 @@ description: >-
   ...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:07:08.527Z'
-validThrough: '2025-02-08T02:07:08.527Z'
+datePosted: '2024-12-17T13:50:35.977Z'
+validThrough: '2025-01-25T13:50:35.977Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

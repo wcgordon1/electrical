@@ -26,8 +26,8 @@ description: >-
   We are seeking a knowledgeable and experienc...
 location: 'Westminster, CO'
 team: Commercial
-datePosted: '2024-12-09T21:52:49.553Z'
-validThrough: '2025-02-07T21:52:49.553Z'
+datePosted: '2024-12-17T03:20:24.900Z'
+validThrough: '2025-01-19T03:20:24.900Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

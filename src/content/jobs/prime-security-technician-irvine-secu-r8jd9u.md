@@ -22,8 +22,8 @@ description: >-
   - Install, program, and service security systems including ...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-10T02:03:24.858Z'
-validThrough: '2025-02-08T02:03:24.858Z'
+datePosted: '2024-12-18T10:03:51.023Z'
+validThrough: '2025-01-30T10:03:51.023Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

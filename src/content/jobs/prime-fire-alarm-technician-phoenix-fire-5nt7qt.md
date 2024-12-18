@@ -18,8 +18,8 @@ description: >-
   the safety and co...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-10T01:52:32.463Z'
-validThrough: '2025-02-08T01:52:32.463Z'
+datePosted: '2024-12-17T17:37:30.949Z'
+validThrough: '2025-01-22T17:37:30.949Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

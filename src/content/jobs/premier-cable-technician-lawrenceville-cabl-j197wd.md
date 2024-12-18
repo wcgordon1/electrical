@@ -19,8 +19,8 @@ description: >-
   including Duluth, Suwanee, Lil...
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-09T21:35:45.423Z'
-validThrough: '2025-02-07T21:35:45.423Z'
+datePosted: '2024-12-17T05:41:54.481Z'
+validThrough: '2025-01-31T05:41:54.481Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

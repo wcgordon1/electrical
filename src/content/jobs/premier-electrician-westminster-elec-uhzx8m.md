@@ -18,8 +18,8 @@ description: >-
   strong under...
 location: 'Westminster, CO'
 team: Commercial
-datePosted: '2024-12-09T22:29:59.409Z'
-validThrough: '2025-02-07T22:29:59.409Z'
+datePosted: '2024-12-17T19:42:41.573Z'
+validThrough: '2025-01-21T19:42:41.573Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

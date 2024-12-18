@@ -18,8 +18,8 @@ description: >-
   control systems, and fire alarm syst...
 location: 'Mesa, AZ'
 team: Commercial
-datePosted: '2024-12-10T02:06:45.119Z'
-validThrough: '2025-02-08T02:06:45.119Z'
+datePosted: '2024-12-16T16:41:17.341Z'
+validThrough: '2025-01-20T16:41:17.341Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

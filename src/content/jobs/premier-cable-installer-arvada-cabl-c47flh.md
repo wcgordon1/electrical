@@ -19,8 +19,8 @@ description: >-
   top-quality customer service. This is a full-time po...
 location: 'Arvada, CO'
 team: Commercial
-datePosted: '2024-12-09T21:57:47.409Z'
-validThrough: '2025-02-07T21:57:47.409Z'
+datePosted: '2024-12-18T08:25:51.012Z'
+validThrough: '2025-01-18T08:25:51.012Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

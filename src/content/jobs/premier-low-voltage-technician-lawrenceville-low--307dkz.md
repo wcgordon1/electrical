@@ -20,8 +20,8 @@ description: >-
   security, access control, CCTV, and ...
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-09T21:36:39.532Z'
-validThrough: '2025-02-07T21:36:39.532Z'
+datePosted: '2024-12-17T04:21:23.453Z'
+validThrough: '2025-01-26T04:21:23.453Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

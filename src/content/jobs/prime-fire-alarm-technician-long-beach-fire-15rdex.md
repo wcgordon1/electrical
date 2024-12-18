@@ -21,8 +21,8 @@ description: >-
   fire alarm sy...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-10T01:51:21.296Z'
-validThrough: '2025-02-08T01:51:21.296Z'
+datePosted: '2024-12-16T16:15:55.923Z'
+validThrough: '2025-01-22T16:15:55.923Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

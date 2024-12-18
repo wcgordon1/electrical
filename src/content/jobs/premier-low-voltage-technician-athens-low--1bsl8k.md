@@ -19,8 +19,8 @@ description: >-
   for installing, maintaining, and repairing low voltage systems...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-09T21:37:01.060Z'
-validThrough: '2025-02-07T21:37:01.060Z'
+datePosted: '2024-12-17T22:23:45.583Z'
+validThrough: '2025-01-31T22:23:45.583Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

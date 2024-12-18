@@ -29,8 +29,8 @@ description: >-
   ideal candidate will ...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-09T22:25:35.313Z'
-validThrough: '2025-02-07T22:25:35.313Z'
+datePosted: '2024-12-18T08:14:12.265Z'
+validThrough: '2025-01-22T08:14:12.265Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

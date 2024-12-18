@@ -17,8 +17,8 @@ description: >-
   up and maintaining electrical infrastructure. Your job will involve i...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-09T22:34:13.982Z'
-validThrough: '2025-02-07T22:34:13.982Z'
+datePosted: '2024-12-17T22:05:20.814Z'
+validThrough: '2025-01-23T22:05:20.814Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

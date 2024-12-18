@@ -18,8 +18,8 @@ description: >-
   ethic and be willing to w...
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-09T22:26:34.306Z'
-validThrough: '2025-02-07T22:26:34.306Z'
+datePosted: '2024-12-17T15:09:37.646Z'
+validThrough: '2025-01-16T15:09:37.646Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

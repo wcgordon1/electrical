@@ -20,8 +20,8 @@ description: >-
   The successful candidate should have a minimum of 1 year of Cable Technici...
 location: 'Thornton, CO'
 team: Commercial
-datePosted: '2024-12-09T21:46:51.932Z'
-validThrough: '2025-02-07T21:46:51.932Z'
+datePosted: '2024-12-17T09:15:04.497Z'
+validThrough: '2025-01-17T09:15:04.497Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

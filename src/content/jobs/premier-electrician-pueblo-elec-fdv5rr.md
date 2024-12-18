@@ -25,8 +25,8 @@ description: >-
   2. Perfor...
 location: 'Pueblo, CO'
 team: Commercial
-datePosted: '2024-12-09T22:30:28.341Z'
-validThrough: '2025-02-07T22:30:28.341Z'
+datePosted: '2024-12-18T07:40:31.499Z'
+validThrough: '2025-01-18T07:40:31.499Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

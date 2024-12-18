@@ -21,8 +21,8 @@ description: >-
   Key R...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-10T01:45:10.914Z'
-validThrough: '2025-02-08T01:45:10.914Z'
+datePosted: '2024-12-17T08:39:54.253Z'
+validThrough: '2025-01-25T08:39:54.253Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

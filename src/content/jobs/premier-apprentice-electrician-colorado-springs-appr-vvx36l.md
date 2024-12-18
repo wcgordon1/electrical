@@ -21,8 +21,8 @@ description: >-
   The Apprentice Electrician will wor...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-09T22:33:18.527Z'
-validThrough: '2025-02-07T22:33:18.527Z'
+datePosted: '2024-12-17T20:51:45.808Z'
+validThrough: '2025-01-26T20:51:45.808Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

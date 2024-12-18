@@ -20,8 +20,8 @@ description: >-
   role involves installing, maintaining, and repairing cable systems f...
 location: 'Smyrna, GA'
 team: Commercial
-datePosted: '2024-12-09T21:54:26.377Z'
-validThrough: '2025-02-07T21:54:26.377Z'
+datePosted: '2024-12-16T15:01:55.535Z'
+validThrough: '2025-01-26T15:01:55.535Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

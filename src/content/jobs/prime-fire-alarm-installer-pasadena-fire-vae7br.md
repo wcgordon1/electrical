@@ -19,8 +19,8 @@ description: >-
   2. Testing an...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-10T01:59:08.166Z'
-validThrough: '2025-02-08T01:59:08.166Z'
+datePosted: '2024-12-17T00:27:15.466Z'
+validThrough: '2025-01-21T00:27:15.466Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

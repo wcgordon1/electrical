@@ -22,8 +22,8 @@ description: >-
   1. Installi...
 location: 'Centennial, CO'
 team: Commercial
-datePosted: '2024-12-09T21:59:09.670Z'
-validThrough: '2025-02-07T21:59:09.670Z'
+datePosted: '2024-12-17T09:41:00.130Z'
+validThrough: '2025-01-30T09:41:00.130Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

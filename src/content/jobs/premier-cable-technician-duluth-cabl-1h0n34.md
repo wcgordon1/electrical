@@ -18,8 +18,8 @@ description: >-
   understanding o...
 location: 'Duluth, GA'
 team: Commercial
-datePosted: '2024-12-09T21:42:42.075Z'
-validThrough: '2025-02-07T21:42:42.075Z'
+datePosted: '2024-12-17T03:49:50.384Z'
+validThrough: '2025-01-19T03:49:50.384Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

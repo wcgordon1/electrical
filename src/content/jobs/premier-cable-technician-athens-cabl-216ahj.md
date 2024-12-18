@@ -18,8 +18,8 @@ description: >-
   in cable installatio...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-09T21:26:26.990Z'
-validThrough: '2025-02-07T21:26:26.990Z'
+datePosted: '2024-12-17T06:46:37.597Z'
+validThrough: '2025-01-20T06:46:37.597Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

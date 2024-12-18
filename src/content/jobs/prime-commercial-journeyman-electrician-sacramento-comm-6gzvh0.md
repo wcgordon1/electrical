@@ -21,8 +21,8 @@ description: >-
   Sacramento and surrounding cities. The successful candidate will receive a ...
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-10T02:09:41.607Z'
-validThrough: '2025-02-08T02:09:41.607Z'
+datePosted: '2024-12-18T10:26:37.293Z'
+validThrough: '2025-01-30T10:26:37.293Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

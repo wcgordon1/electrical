@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and repair electrical systems in residential and co...
 location: 'Arvada, CO'
 team: Commercial
-datePosted: '2024-12-09T22:29:32.205Z'
-validThrough: '2025-02-07T22:29:32.205Z'
+datePosted: '2024-12-18T13:04:42.208Z'
+validThrough: '2025-01-25T13:04:42.208Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

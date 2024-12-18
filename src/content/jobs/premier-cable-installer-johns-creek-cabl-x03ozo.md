@@ -24,8 +24,8 @@ description: >-
   As a Cable Installer, you will be responsible for i...
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-09T21:55:00.861Z'
-validThrough: '2025-02-07T21:55:00.861Z'
+datePosted: '2024-12-17T00:09:08.834Z'
+validThrough: '2025-01-19T00:09:08.834Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

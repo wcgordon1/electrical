@@ -17,8 +17,8 @@ description: >-
   understanding of voice and data technology, along with strong tro...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-09T21:48:51.349Z'
-validThrough: '2025-02-07T21:48:51.349Z'
+datePosted: '2024-12-18T10:13:41.698Z'
+validThrough: '2025-01-25T10:13:41.698Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

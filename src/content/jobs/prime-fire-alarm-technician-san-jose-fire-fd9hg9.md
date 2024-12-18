@@ -18,8 +18,8 @@ description: >-
   maintaining exist...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-10T01:49:59.330Z'
-validThrough: '2025-02-08T01:49:59.330Z'
+datePosted: '2024-12-18T06:27:49.662Z'
+validThrough: '2025-01-17T06:27:49.662Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

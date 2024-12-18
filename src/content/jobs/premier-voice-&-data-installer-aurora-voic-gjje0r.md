@@ -17,8 +17,8 @@ description: >-
   installing, maintaining, and repairing voice and data cabling sys...
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-09T21:51:15.279Z'
-validThrough: '2025-02-07T21:51:15.279Z'
+datePosted: '2024-12-18T09:46:26.872Z'
+validThrough: '2025-01-25T09:46:26.872Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

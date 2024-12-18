@@ -19,8 +19,8 @@ description: >-
   repair electrical issues, ...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-10T01:45:30.141Z'
-validThrough: '2025-02-08T01:45:30.141Z'
+datePosted: '2024-12-17T22:42:45.465Z'
+validThrough: '2025-01-26T22:42:45.465Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

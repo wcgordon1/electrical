@@ -25,8 +25,8 @@ description: >-
   1. Installation, maintenance, and repair of various type...
 location: 'Westminster, CO'
 team: Commercial
-datePosted: '2024-12-09T21:47:34.334Z'
-validThrough: '2025-02-07T21:47:34.334Z'
+datePosted: '2024-12-18T04:32:39.758Z'
+validThrough: '2025-02-01T04:32:39.758Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

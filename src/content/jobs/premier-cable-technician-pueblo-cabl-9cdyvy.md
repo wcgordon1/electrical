@@ -21,8 +21,8 @@ description: >-
   1. Provide installation, disconnection, and changes to...
 location: 'Pueblo, CO'
 team: Commercial
-datePosted: '2024-12-09T21:47:54.718Z'
-validThrough: '2025-02-07T21:47:54.718Z'
+datePosted: '2024-12-18T05:26:36.197Z'
+validThrough: '2025-02-01T05:26:36.197Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric
