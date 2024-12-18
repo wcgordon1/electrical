@@ -1,12 +1,7 @@
 ---
 position: Fire Alarm Installer
 description: >-
-  ```markdown
-
-  # Fire Alarm Installer Position at Black Box Voice & Data
-
-
-  ## Position Overview
+  Fire Alarm Installer Position at Black Box Voice & Data
 
   Join Black Box Voice & Data's dynamic team as a Fire Alarm Installer in the
   vibrant city of Orlando, FL. Our ideal candidate will possess 4-7 years of
@@ -17,8 +12,6 @@ description: >-
   offers a unique blend of technical expertise and leadership development, set
   within a 100-mile travel radius from our Orlando hub.
 
-
-  ## Key Responsibilities
 
   - Install, configure, and maintain fire alarm systems, including fire alarm
   panels and emergency co...
@@ -83,10 +76,8 @@ trainingProgram:
 
 
 
-```markdown
-# Fire Alarm Installer Position at Black Box Voice & Data
+**Fire Alarm Installer Position at Black Box Voice & Data**
 
-## Position Overview
 Join Black Box Voice & Data's dynamic team as a Fire Alarm Installer in the vibrant city of Orlando, FL. Our ideal candidate will possess 4-7 years of experience in the field and be adept at installing, maintaining, and troubleshooting fire alarm systems. Focused on delivering excellence, you will work across multiple project teams within prestigious environments, including Fortune 500 companies, tech startups, and financial institutions. This role offers a unique blend of technical expertise and leadership development, set within a 100-mile travel radius from our Orlando hub.
 
 ## Key Responsibilities
@@ -126,4 +117,3 @@ Join Black Box Voice & Data's dynamic team as a Fire Alarm Installer in the vibr
 - Access to continuous learning and certification programs, enhancing technical and leadership acumen.
 
 Embark on a rewarding career with Black Box Voice & Data, where your expertise will help shape safe and secure business environments across Orlando's prestigious corporate landscape.
-```

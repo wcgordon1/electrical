@@ -1,13 +1,6 @@
 ---
 position: Audio Visual Technician
 description: >-
-  ```markdown
-
-  # Audio Visual Technician
-
-
-  ## Position Overview
-
   Black Box Voice & Data is seeking a dedicated and detail-oriented Audio Visual
   Technician to join our team in Columbus, OH. In this critical role, you will
   be responsible for delivering advanced AV solutions across various government
@@ -17,9 +10,6 @@ description: >-
   major cities to support our diverse clientele. Your expertise in AV systems
   and technology will be instrumental in maintaining and enhancing our clients'
   communication infrastructures.
-
-
-  ## Key Responsibilities
 
   - Install, configure, and service control systems, video walls, sound r...
 location: 'Columbus, OH'
@@ -81,11 +71,6 @@ trainingProgram:
     - Hands-on Labs
 ---
 
-
-
-```markdown
-# Audio Visual Technician
-
 ## Position Overview
 Black Box Voice & Data is seeking a dedicated and detail-oriented Audio Visual Technician to join our team in Columbus, OH. In this critical role, you will be responsible for delivering advanced AV solutions across various government environments, including federal agencies, state offices, and military facilities. You will work on a second shift schedule from 2:00 PM to 10:30 PM, collaborating with multiple project teams and traveling regularly to nearby major cities to support our diverse clientele. Your expertise in AV systems and technology will be instrumental in maintaining and enhancing our clients' communication infrastructures.
 
@@ -128,4 +113,3 @@ Black Box Voice & Data is seeking a dedicated and detail-oriented Audio Visual T
 - Support in obtaining further certifications to advance your technical expertise.
 
 Join Black Box Voice & Data and contribute to our mission of providing top-tier AV solutions to government clients in Columbus, OH, and beyond. Apply today to become a part of our innovative and driven team.
-```

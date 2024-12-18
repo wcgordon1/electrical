@@ -1,10 +1,7 @@
 ---
 position: Audio Visual Technician
 description: >-
-  # Audio Visual Technician Position at Black Box Voice & Data
-
-
-  ## Position Overview
+  Audio Visual Technician Position at Black Box Voice & Data
 
   Join Black Box Voice & Data as an Audio Visual Technician based in Nashville,
   TN. Our company partners with top Fortune 500 companies, innovative tech
@@ -83,7 +80,7 @@ trainingProgram:
 
 
 
-# Audio Visual Technician Position at Black Box Voice & Data
+**Audio Visual Technician Position at Black Box Voice & Data**
 
 ## Position Overview
 Join Black Box Voice & Data as an Audio Visual Technician based in Nashville, TN. Our company partners with top Fortune 500 companies, innovative tech startups, and prominent financial institutions to deliver state-of-the-art AV solutions. We seek a passionate, detail-oriented technician with leadership skills to head a dynamic team of 4-6 professionals. This role offers flexible hours and requires short-distance travel (within 30 miles of home base) to suit the varied needs of our elite clientele.

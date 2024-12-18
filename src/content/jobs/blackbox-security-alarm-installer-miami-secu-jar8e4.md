@@ -1,11 +1,6 @@
 ---
 position: Security Alarm Installer
 description: >-
-  # Security Alarm Installer
-
-
-  ## Position Overview
-
   Black Box Voice & Data is seeking a skilled and experienced Security Alarm
   Installer to join our Miami, FL team. The successful candidate will lead a
   team of 4-6 technicians in installing and maintaining security systems across
@@ -70,12 +65,9 @@ trainingProgram:
     - First Aid/CPR
     - Safety Protocols
 ---
+ 
+**Security Alarm Installer**
 
-
-
-# Security Alarm Installer
-
-## Position Overview
 Black Box Voice & Data is seeking a skilled and experienced Security Alarm Installer to join our Miami, FL team. The successful candidate will lead a team of 4-6 technicians in installing and maintaining security systems across a variety of government settings, including federal agencies, state offices, and military facilities within a 100-mile radius. This position offers flexible hours and requires a safety-focused individual ready to contribute to secure and high-stakes environments.
 
 ## Key Responsibilities

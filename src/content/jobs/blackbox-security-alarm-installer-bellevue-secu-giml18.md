@@ -1,12 +1,7 @@
 ---
 position: Security Alarm Installer
 description: >-
-  ```markdown
-
-  # Security Alarm Installer
-
-
-  ## Position Overview
+  Security Alarm Installer
 
   Black Box Voice & Data, a leading integrator of advanced security systems, is
   seeking a skilled Security Alarm Installer to join our specialized team in
@@ -73,12 +68,8 @@ trainingProgram:
     - Hands-on Labs
 ---
 
+**Security Alarm Installer**
 
-
-```markdown
-# Security Alarm Installer
-
-## Position Overview
 Black Box Voice & Data, a leading integrator of advanced security systems, is seeking a skilled Security Alarm Installer to join our specialized team in Bellevue, WA. You will be responsible for installing and maintaining security systems for a diverse range of clients, including Fortune 500 companies, innovative tech startups, and leading financial institutions. This role offers flexible hours and involves travel within a 30-mile radius of our Bellevue headquarters, allowing you to work close to home while engaging with various high-profile clients.
 
 ## Key Responsibilities
@@ -116,6 +107,3 @@ Black Box Voice & Data, a leading integrator of advanced security systems, is se
 ## Training & Development
 - Extensive manufacturer-focused training programs to keep you at the cutting edge of security technology.
 - Opportunities for career advancement and skill development through ongoing education and certification support.
-```
-
-This job description is tailored for the Bellevue, WA market and highlights the unique opportunities and challenges in the region. The role leverages local industry dynamics and emphasizes professional growth and benefits, making it an attractive opportunity for skilled security professionals.

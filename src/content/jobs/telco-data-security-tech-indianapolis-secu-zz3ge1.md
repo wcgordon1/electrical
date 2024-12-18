@@ -1,10 +1,6 @@
 ---
 position: Security Tech
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Telco Data is seeking a dedicated Security Tech to join our Indianapolis, IN
   team, providing top-notch security solutions to a dynamic range of clients,
   including Fortune 500 companies, innovative tech startups, and leading
@@ -70,10 +66,8 @@ trainingProgram:
     - Communication Skills
 ---
 
+**Security Tech**
 
-
-```markdown
-## Position Overview
 Telco Data is seeking a dedicated Security Tech to join our Indianapolis, IN team, providing top-notch security solutions to a dynamic range of clients, including Fortune 500 companies, innovative tech startups, and leading financial institutions. In this role, you will leverage your expertise to implement and maintain cutting-edge security systems that safeguard our clients' assets and data. Join a thriving regional team of over ten security professionals and make a significant impact in the Indianapolis area.
 
 ## Key Responsibilities
@@ -113,4 +107,3 @@ Telco Data is seeking a dedicated Security Tech to join our Indianapolis, IN tea
 - Continuous professional development through workshops, seminars, and certification renewals.
 
 Join Telco Data in Indianapolis and be part of a team that shapes the future of security technology in a dynamic and evolving market.
-```

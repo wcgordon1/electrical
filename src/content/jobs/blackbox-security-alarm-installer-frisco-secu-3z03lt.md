@@ -1,10 +1,6 @@
 ---
 position: Security Alarm Installer
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Black Box Voice & Data is seeking a skilled Security Alarm Installer to join
   our team in Frisco, TX. This role is focused on delivering top-tier security
   solutions to educational institutions, including universities, K-12 schools,
@@ -72,8 +68,6 @@ trainingProgram:
 ---
 
 
-
-```markdown
 ## Position Overview
 Black Box Voice & Data is seeking a skilled Security Alarm Installer to join our team in Frisco, TX. This role is focused on delivering top-tier security solutions to educational institutions, including universities, K-12 schools, and training centers. As a leader of a team of 4-6 technicians, you will travel regularly to nearby major cities, ensuring the installation and maintenance of cutting-edge security systems. You will leverage your technical expertise and leadership skills to support the safety and security of our valued clients.
 
@@ -114,4 +108,3 @@ Black Box Voice & Data is seeking a skilled Security Alarm Installer to join our
 ## Training & Development
 - Technical-focused training sessions to enhance your skills within the latest security technologies.
 - Opportunities for career growth within Black Box Voice & Data through continuous development programs and leadership pathways.
-```

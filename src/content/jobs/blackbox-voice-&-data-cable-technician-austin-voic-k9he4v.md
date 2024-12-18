@@ -1,14 +1,11 @@
 ---
 position: Voice & Data Cable Technician
 description: >-
-  # Voice & Data Cable Technician  
+  Voice & Data Cable Technician  
 
   **Location:** Austin, TX  
 
   **Shift:** Second Shift (2:00 PM - 10:30 PM)  
-
-
-  ## Position Overview  
 
   Join the dynamic team at Black Box Voice & Data as a Voice & Data Cable
   Technician. Based in vibrant Austin, TX, you will play a critical role in
@@ -74,11 +71,11 @@ trainingProgram:
 
 
 
-# Voice & Data Cable Technician  
+**Voice & Data Cable Technician**
+
 **Location:** Austin, TX  
 **Shift:** Second Shift (2:00 PM - 10:30 PM)  
 
-## Position Overview  
 Join the dynamic team at Black Box Voice & Data as a Voice & Data Cable Technician. Based in vibrant Austin, TX, you will play a critical role in enhancing communication infrastructure across various healthcare facilities. As a part of a specialized team, you will be responsible for ensuring top-tier network performance in hospitals, medical centers, and clinics. This position requires regular travel to nearby major cities and provides the opportunity for technical training and professional growth.
 
 ## Key Responsibilities  

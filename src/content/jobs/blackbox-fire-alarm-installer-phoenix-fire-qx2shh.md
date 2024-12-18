@@ -1,11 +1,6 @@
 ---
 position: Fire Alarm Installer
 description: >-
-  ```markdown
-
-  ## Position Overview
-
-
   Black Box Voice & Data is seeking an experienced Fire Alarm Installer for our
   Phoenix, AZ location. This pivotal role will involve the installation and
   maintenance of advanced fire alarm systems in diverse corporate environments,
@@ -13,10 +8,6 @@ description: >-
   financial institutions. With flexible working hours and a focus on safety,
   this position offers the opportunity to work within a dynamic 10+ person
   regional team catering to a variety of prestigious clients.
-
-
-  ## Key Responsibilities
-
 
   - Install, configure, and test fire alarm and detection systems in compliance
   with local, state, and federal regulations.
@@ -84,9 +75,8 @@ trainingProgram:
     - Safety Protocols
 ---
 
+**Fire Alarm Installer Position at Black Box Voice & Data**
 
-
-```markdown
 ## Position Overview
 
 Black Box Voice & Data is seeking an experienced Fire Alarm Installer for our Phoenix, AZ location. This pivotal role will involve the installation and maintenance of advanced fire alarm systems in diverse corporate environments, ranging from Fortune 500 companies to innovative tech startups and secure financial institutions. With flexible working hours and a focus on safety, this position offers the opportunity to work within a dynamic 10+ person regional team catering to a variety of prestigious clients.
@@ -133,4 +123,4 @@ Black Box Voice & Data is seeking an experienced Fire Alarm Installer for our Ph
 - Comprehensive safety-focused training programs to ensure your installations meet the highest standards.
 - Opportunities for career growth within a company committed to your ongoing development.
 - Access to advanced training on the latest fire alarm technologies and systems, keeping you at the forefront of industry advancements.
-```
+

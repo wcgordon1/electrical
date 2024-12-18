@@ -1,10 +1,6 @@
 ---
 position: Voice & Data Cable Technician
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Black Box Voice & Data is seeking a highly skilled Voice & Data Cable
   Technician to join our team in Raleigh, NC. This role revolves around
   installing, terminating, and testing a variety of network cables to support
@@ -68,10 +64,8 @@ trainingProgram:
     - Skills Workshops
 ---
 
+**Voice & Data Cable Technician**
 
-
-```markdown
-## Position Overview
 Black Box Voice & Data is seeking a highly skilled Voice & Data Cable Technician to join our team in Raleigh, NC. This role revolves around installing, terminating, and testing a variety of network cables to support our government clients, including federal agencies, state offices, and military facilities. Our ideal candidate possesses 5-8 years of hands-on experience and thrives in a collaborative environment as part of a specialized 3-5 person team. This position operates on the first shift, from 6:00 AM to 2:30 PM, with local travel within a 30-mile radius of Raleigh.
 
 ## Key Responsibilities
@@ -112,4 +106,4 @@ Black Box Voice & Data is seeking a highly skilled Voice & Data Cable Technician
 - Support for obtaining additional industry certifications such as BICSI and RCDD.
 
 Join us in Raleigh, where your expertise will be crucial in developing and maintaining robust communication networks for our esteemed government clients. At Black Box Voice & Data, your career progression and skill development are our priorities.
-```
+

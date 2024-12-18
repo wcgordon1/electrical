@@ -1,14 +1,11 @@
 ---
 position: Voice & Data Cable Technician
 description: >-
-  # Voice & Data Cable Technician  
+  Voice & Data Cable Technician  
 
   **Location:** Boise, ID  
 
   **Company:** Black Box Voice & Data  
-
-
-  ## Position Overview
 
   Join Black Box Voice & Data as a Voice & Data Cable Technician in Boise, ID—a
   vibrant city known for its thriving tech industry and robust corporate
@@ -74,7 +71,8 @@ trainingProgram:
 
 
 
-# Voice & Data Cable Technician  
+**Voice & Data Cable Technician**
+
 **Location:** Boise, ID  
 **Company:** Black Box Voice & Data  
 

@@ -1,10 +1,6 @@
 ---
 position: Security Alarm Installer
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Black Box Voice & Data, a leader in cutting-edge communication solutions, is
   seeking a skilled Security Alarm Installer for our Nashville, TN location.
   This role is perfect for a seasoned professional with 2-4 years of experience
@@ -71,9 +67,8 @@ trainingProgram:
     - Hands-on Labs
 ---
 
+**Security Alarm Installer**
 
-
-```markdown
 ## Position Overview
 Black Box Voice & Data, a leader in cutting-edge communication solutions, is seeking a skilled Security Alarm Installer for our Nashville, TN location. This role is perfect for a seasoned professional with 2-4 years of experience looking to make an impact by safeguarding some of the most dynamic businesses in the region, from Fortune 500 companies and tech startups to financial institutions. As part of a specialized team, you'll work primarily on a second shift, maximizing efficiency and customer interaction during off-peak hours.
 
@@ -113,4 +108,4 @@ Black Box Voice & Data, a leader in cutting-edge communication solutions, is see
 - Manufacturer-focused training programs to keep you at the forefront of security technology.
 - Opportunities for career growth within a dynamic and expanding company.
 - Support for additional certifications and professional development through structured mentoring and periodic workshops.
-```
+

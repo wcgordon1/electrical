@@ -1,10 +1,6 @@
 ---
 position: Voice & Data Cable Technician
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Join Black Box Voice & Data as a Voice & Data Cable Technician in Denver, CO,
   where you will leverage your 5-8 years of experience to support complex
   communication systems in high-security environments. You will play a critical
@@ -69,9 +65,8 @@ trainingProgram:
 ---
 
 
+**Voice & Data Cable Technician**
 
-```markdown
-## Position Overview
 Join Black Box Voice & Data as a Voice & Data Cable Technician in Denver, CO, where you will leverage your 5-8 years of experience to support complex communication systems in high-security environments. You will play a critical role in a specialized team, optimizing infrastructure for government facilities, including federal agencies and military installations. Work on the first shift and enjoy a blend of hands-on technical challenges and regular travel to nearby major cities, all while being part of a dynamic team committed to excellence.
 
 ## Key Responsibilities
@@ -110,4 +105,4 @@ Join Black Box Voice & Data as a Voice & Data Cable Technician in Denver, CO, wh
 - Access to cutting-edge technology and tools to refine and expand your skillset.
 
 Embark on a rewarding career with Black Box Voice & Data, where you can make a significant impact on communication networks critical to governmental operations in Denver and beyond. 
-```
+

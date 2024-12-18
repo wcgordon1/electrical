@@ -1,10 +1,6 @@
 ---
 position: Audio Visual Technician
 description: >-
-  ```markdown
-
-  ## Position Overview
-
   Join the dynamic team at Black Box Voice & Data as an Audio Visual Technician
   based in Salt Lake City, UT. In this role, you will utilize your technical
   expertise to support learning environments across universities, K-12 schools,
@@ -13,8 +9,7 @@ description: >-
   This position offers the perfect balance of technical challenge and
   professional growth in a vibrant educational setting.
 
-
-  ## Key Responsibilities
+  Key Responsibilities
 
   - Install and configure sound reinforcement systems and video walls for
   educational institutions.
@@ -82,8 +77,6 @@ trainingProgram:
 ---
 
 
-
-```markdown
 ## Position Overview
 Join the dynamic team at Black Box Voice & Data as an Audio Visual Technician based in Salt Lake City, UT. In this role, you will utilize your technical expertise to support learning environments across universities, K-12 schools, and training centers. Collaborate with a tight-knit team of specialists to deliver high-quality AV solutions within a 30-mile radius of your home base. This position offers the perfect balance of technical challenge and professional growth in a vibrant educational setting.
 
@@ -124,4 +117,4 @@ Join the dynamic team at Black Box Voice & Data as an Audio Visual Technician ba
 - Access to cutting-edge technology training and certifications.
 
 Explore the chance to innovate and excel in Salt Lake City's thriving educational scene with Black Box Voice & Data, where your technical skills make a difference in shaping future generations.
-```
+

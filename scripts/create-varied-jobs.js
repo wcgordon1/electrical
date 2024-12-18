@@ -12,57 +12,87 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
-  { city: 'Austin', state: 'TX', zipCode: '78701' },
-  { city: 'Nashville', state: 'TN', zipCode: '37203' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85004' },
-  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
-  { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
-  { city: 'Bellevue', state: 'WA', zipCode: '98004' },
-  { city: 'Miami', state: 'FL', zipCode: '33131' },
-  { city: 'Charlotte', state: 'NC', zipCode: '28202' },
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'Frisco', state: 'TX', zipCode: '75034' },
-  { city: 'Boise', state: 'ID', zipCode: '83702' },
-  { city: 'Orlando', state: 'FL', zipCode: '32801' },
-  { city: 'Las Vegas', state: 'NV', zipCode: '89101' },
-  { city: 'Columbus', state: 'OH', zipCode: '43215' },
-  { city: 'Nashville', state: 'TN', zipCode: '37201' }
+{ city: 'Ashburn', state: 'VA', zipCode: '20147' },
+{ city: 'Phoenix', state: 'AZ', zipCode: '85034' },
+{ city: 'Las Vegas', state: 'NV', zipCode: '89101' },
+{ city: 'Dallas', state: 'TX', zipCode: '75201' },
+{ city: 'Chicago', state: 'IL', zipCode: '60601' },
+{ city: 'Atlanta', state: 'GA', zipCode: '30303' },
+{ city: 'Santa Clara', state: 'CA', zipCode: '95054' },
+{ city: 'Hillsboro', state: 'OR', zipCode: '97124' },
+{ city: 'Columbus', state: 'OH', zipCode: '43215' },
+{ city: 'Reston', state: 'VA', zipCode: '22102' },
+{ city: 'Mesa', state: 'AZ', zipCode: '85201' },
+{ city: 'Prineville', state: 'OR', zipCode: '97754' },
+{ city: 'Council Bluffs', state: 'IA', zipCode: '51501' },
+{ city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
+{ city: 'Richmond', state: 'VA', zipCode: '23219' },
+{ city: 'Manassas', state: 'VA', zipCode: '20110' },
+{ city: 'Reno', state: 'NV', zipCode: '89501' },
+{ city: 'New Albany', state: 'OH', zipCode: '43054' },
+{ city: 'Houston', state: 'TX', zipCode: '77002' },
+{ city: 'Kansas City', state: 'MO', zipCode: '64101' },
+{ city: 'Miami', state: 'FL', zipCode: '33131' },
+{ city: 'Denver', state: 'CO', zipCode: '80202' },
+{ city: 'Seattle', state: 'WA', zipCode: '98101' },
+{ city: 'San Antonio', state: 'TX', zipCode: '78201' },
+{ city: 'Austin', state: 'TX', zipCode: '78701' },
+{ city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+{ city: 'New York', state: 'NY', zipCode: '10001' },
+{ city: 'Newark', state: 'NJ', zipCode: '07102' },
+{ city: 'Quincy', state: 'WA', zipCode: '98848' },
+{ city: 'Des Moines', state: 'IA', zipCode: '50309' },
+{ city: 'Altoona', state: 'IA', zipCode: '50009' },
+{ city: 'Maiden', state: 'NC', zipCode: '28650' },
+{ city: 'Forest City', state: 'NC', zipCode: '28043' },
+{ city: 'Richardson', state: 'TX', zipCode: '75080' },
+{ city: 'Sacramento', state: 'CA', zipCode: '95814' },
+{ city: 'Sterling', state: 'VA', zipCode: '20166' },
+{ city: 'Leesburg', state: 'VA', zipCode: '20175' },
+{ city: 'Chandler', state: 'AZ', zipCode: '85225' },
+{ city: 'Elk Grove Village', state: 'IL', zipCode: '60007' },
+{ city: 'Plano', state: 'TX', zipCode: '75023' },
+{ city: 'San Jose', state: 'CA', zipCode: '95110' },
+{ city: 'Loudoun County', state: 'VA', zipCode: '20176' },
+{ city: 'Allen', state: 'TX', zipCode: '75013' },
+{ city: 'Cheyenne', state: 'WY', zipCode: '82001' },
+{ city: 'Fort Worth', state: 'TX', zipCode: '76177' }
 ];
 
-const TEAMS = ['Commercial'];
+const TEAMS = ['Data Center'];
 
 const JOB_TYPES = {
-  'Voice & Data Cable Technician': {
-    minValue: 32,
-    maxValue: 40,
-    experienceLevel: 'seniorLevel',
-    category: 'Voice Data',
-    yearsExperience: '5-8',
-    prompt: 'Create a detailed job description for a voice and data cable technician team leader. Focus on managing crews, quality control, and project oversight for the installation of commercial voice and data cabling.'
-  },
-  'Security Alarm Installer': {
-    minValue: 24,
-    maxValue: 34,
-    experienceLevel: 'midLevel',
-    category: 'Security',
-    yearsExperience: '2-4',
-    prompt: 'Create a job description for a low voltage security alarm installer. Focus on installing and maintaining commercial security systems, including cameras, access control, and intrusion detection.'
-  },
-  'Fire Alarm Installer': {
+  'Data Center Rack & Stack Technician': {
     minValue: 28,
-    maxValue: 36,
-    experienceLevel: 'seniorLevel',
-    category: 'Fire Alarm',
-    yearsExperience: '4-7',
-    prompt: 'Write a job description for a fire alarm installer for low voltage commercial properties. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
-  },
-  'Audio Visual Technician': {
-    minValue: 33,
-    maxValue: 41,
+    maxValue: 38,
     experienceLevel: 'midLevel',
-    category: 'Audio Visual',
+    category: 'Data Center',
+    yearsExperience: '2-4',
+    prompt: 'Create a detailed job description for a Data Center Rack & Stack Technician. Focus on installing server racks, cable management systems, and power distribution units (PDUs) in enterprise data centers.'
+  },
+  'Data Center Cable Technician': {
+    minValue: 30,
+    maxValue: 42,
+    experienceLevel: 'midLevel',
+    category: 'Data Center',
     yearsExperience: '3-5',
-    prompt: 'Create a description for an AV technician specializing in commercial audio visual systems, including conference rooms, video conferencing, and digital signage.'
+    prompt: 'Create a job description for a Data Center Cable Technician focusing on dressing and terminating cables. Include experience with Cat6A, fiber optic cabling, and structured cabling standards in data center environments.'
+  },
+  'Fiber Optic Splicing Technician': {
+    minValue: 34,
+    maxValue: 45,
+    experienceLevel: 'seniorLevel',
+    category: 'Fiber Optics',
+    yearsExperience: '4-7',
+    prompt: 'Write a job description for a Fiber Optic Splicing Technician specializing in data center environments. Focus on fusion splicing, testing, and troubleshooting fiber optic cables.'
+  },
+  'Data Center Network Engineer': {
+    minValue: 45,
+    maxValue: 65,
+    experienceLevel: 'seniorLevel',
+    category: 'Network Engineering',
+    yearsExperience: '5-8',
+    prompt: 'Create a description for an onsite Data Center Network Engineer. Focus on network infrastructure support, troubleshooting, and maintenance in enterprise data center environments.'
   }
 };
 
@@ -80,27 +110,22 @@ const BENEFITS = [
 ];
 
 const CERTIFICATIONS = {
-  'Voice Data': ['BICSI Technician', 'RCDD', 'Network+', 'Cisco CCNA'],
-  'Security': ['ESA Level 2', 'NICET Level II', 'Security+', 'ASIS PSP'],
-  'Fire Alarm': ['NICET Level III', 'NFPA Certified', 'OSHA 30', 'Factory Certifications'],
-  'Audio Visual': ['CTS-I', 'Extron Certified', 'Crestron Certified', 'Biamp Certified'],
-  'Project Management': ['PMP', 'RCDD', 'NICET Level IV', 'Six Sigma Green Belt']
+  'Data Center': ['CDCDP', 'CDCP', 'DCCA', 'CompTIA Server+'],
+  'Fiber Optics': ['FOA CFOT', 'ETA Fiber Optics', 'BICSI Technician', 'OFC Specialist'],
+  'Network Engineering': ['CCNA', 'CCNP', 'CompTIA Network+', 'DCDC']
 };
 
 const TOOLS_AND_TECH = {
-  'Voice Data': ['Fluke Networks', 'OTDR Testing', 'Cable Certification', 'Network Analysis'],
-  'Security': ['Access Control Systems', 'CCTV', 'Intrusion Detection', 'IP Camera Systems'],
-  'Fire Alarm': ['Fire Alarm Panels', 'Smoke Detection', 'Mass Notification', 'Emergency Communication'],
-  'Audio Visual': ['Digital Signal Processors', 'Video Walls', 'Control Systems', 'Sound Reinforcement'],
-  'Project Management': ['AutoCAD', 'Bluebeam', 'MS Project', 'Procore']
+  'Data Center': ['Cable Management Systems', 'PDUs', 'Environmental Monitoring', 'DCIM Software'],
+  'Fiber Optics': ['Fusion Splicers', 'OTDR', 'Power Meters', 'Visual Fault Locators'],
+  'Network Engineering': ['Cisco IOS', 'Network Analyzers', 'Monitoring Tools', 'Configuration Management'],
+  'Project Management': ['DCIM', 'BMS Systems', 'Project Planning Software', 'Documentation Tools']
 };
 
 const WORK_ENVIRONMENTS = [
-  { type: 'Corporate', clients: ['Fortune 500 Companies', 'Tech Startups', 'Financial Institutions'] },
-  { type: 'Healthcare', clients: ['Hospitals', 'Medical Centers', 'Clinics'] },
-  { type: 'Education', clients: ['Universities', 'K-12 Schools', 'Training Centers'] },
-  { type: 'Government', clients: ['Federal Agencies', 'State Offices', 'Military Facilities'] },
-  { type: 'Entertainment', clients: ['Hotels', 'Convention Centers', 'Sports Venues'] }
+  { type: 'Enterprise Data Center', clients: ['Cloud Providers', 'Financial Institutions', 'Technology Companies'] },
+  { type: 'Colocation Facility', clients: ['Managed Service Providers', 'Enterprise Clients', 'Cloud Services'] },
+  { type: 'Edge Data Center', clients: ['Telecom Providers', 'Content Delivery Networks', 'IoT Services'] }
 ];
 
 const TEAM_STRUCTURES = [
@@ -112,15 +137,14 @@ const TEAM_STRUCTURES = [
 
 const TRAVEL_REQUIREMENTS = [
   { range: 'Local', description: 'Within 30 miles of home base' },
-  { range: 'Regional', description: 'Up to 100 mile radius' },
+  { range: 'Regional', description: 'Up to 50 mile radius' },
   { range: 'Multi-City', description: 'Regular travel to nearby major cities' }
 ];
 
 const TRAINING_PROGRAMS = [
   { type: 'Manufacturer', programs: ['Factory Training', 'Product Certification', 'Hands-on Labs'] },
   { type: 'Technical', programs: ['Online Courses', 'Industry Certifications', 'Skills Workshops'] },
-  { type: 'Safety', programs: ['OSHA Training', 'First Aid/CPR', 'Safety Protocols'] },
-  { type: 'Leadership', programs: ['Project Management', 'Team Leading', 'Communication Skills'] }
+  { type: 'Safety', programs: ['OSHA Training', 'First Aid/CPR', 'Safety Protocols'] }
 ];
 
 const DESCRIPTION_LENGTHS = {
@@ -155,7 +179,7 @@ async function generateJobDescription(jobType, location, jobInfo) {
   ];
   const schedule = scheduleTypes[Math.floor(Math.random() * scheduleTypes.length)];
 
-  const prompt = `Create a unique job description for a ${jobType} position at Black Box Voice & Datain ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
+  const prompt = `Create a unique job description for a ${jobType} position at Staley Technologies in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points. Only use h2, h3, and h4 tags for headings, do not use h1. Do not repeat any of these instructions in the prompt or say you are using markdown, I just need it formatted in markdown to go on my job board website please.
 
 Key Details:
 - Experience Required: ${jobInfo.yearsExperience} years
@@ -288,9 +312,9 @@ async function createJob(location, jobType) {
     validThrough: validThrough,
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'Black Box',
-      sameAs: 'https://www.blackbox.com/',
-      logo: 'https://bbnscdn.azureedge.net/cms/images/default-images/logo_dark.png'
+      name: 'Staley Technologies',
+      sameAs: 'https://staleytechnologies.com/',
+      logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
     },
     jobLocation: {
       streetAddress: generateStreetAddress(),
@@ -309,7 +333,7 @@ async function createJob(location, jobType) {
     experienceRequirements: jobInfo.experienceLevel || 'midLevel',
     occupationalCategory: jobInfo.category || 'General',
     identifier: {
-      name: 'Black Box',
+      name: 'Staley Technologies',
       value: jobId
     },
     featured: Math.random() < 0.2,
@@ -321,7 +345,7 @@ async function createJob(location, jobType) {
       type: workEnvironment.type || 'Commercial',
       clients: workEnvironment.clients || []
     } : {
-      type: 'Commercial',
+      type: 'Data Center',
       clients: []
     },
     teamStructure: teamStructure || 'Standard Team',
@@ -339,7 +363,7 @@ async function createJob(location, jobType) {
   const frontmatter = matter.stringify('', jobData);
   const finalContent = `${frontmatter}\n\n${fullDescription || 'No description available'}`;
 
-  const filename = `blackbox-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
+  const filename = `staley-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   fs.writeFileSync(filePath, finalContent);
 
