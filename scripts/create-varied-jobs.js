@@ -12,57 +12,58 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
-  { city: 'Beaverton', state: 'OR', zipCode: '97005' },    // Near Portland
-  { city: 'Renton', state: 'WA', zipCode: '98055' },       // Near Seattle
-  { city: 'Tempe', state: 'AZ', zipCode: '85281' },        // Near Phoenix
-  { city: 'Boulder', state: 'CO', zipCode: '80301' },      // Near Denver
-  { city: 'Santa Monica', state: 'CA', zipCode: '90401' }, // Near Los Angeles
-  { city: 'Coronado', state: 'CA', zipCode: '92118' },     // Near San Diego
-  { city: 'Sausalito', state: 'CA', zipCode: '94965' },    // Near San Francisco
-  { city: 'Kirkland', state: 'WA', zipCode: '98033' },     // Near Seattle
-  { city: 'Mesa', state: 'AZ', zipCode: '85201' },         // Near Phoenix
-  { city: 'Arvada', state: 'CO', zipCode: '80001' },       // Near Denver
-  { city: 'Millbrae', state: 'CA', zipCode: '94030' },     // Near San Francisco
-  { city: 'Del Mar', state: 'CA', zipCode: '92014' },      // Near San Diego
-  { city: 'Pasadena', state: 'CA', zipCode: '91101' },     // Near Los Angeles
-  { city: 'Lake Oswego', state: 'OR', zipCode: '97034' },  // Near Portland
-  { city: 'Edmonds', state: 'WA', zipCode: '98020' },      // Near Seattle
-  { city: 'Chandler', state: 'AZ', zipCode: '85224' },     // Near Phoenix
-  { city: 'Broomfield', state: 'CO', zipCode: '80020' },   // Near Denver
-  { city: 'Burlingame', state: 'CA', zipCode: '94010' },   // Near San Francisco
-  { city: 'Manhattan Beach', state: 'CA', zipCode: '90266' } // Near Los Angeles
+  { city: 'Cambridge', state: 'MA', zipCode: '02138' },    // Near Boston
+  { city: 'Hoboken', state: 'NJ', zipCode: '07030' },      // Near NYC
+  { city: 'Bethesda', state: 'MD', zipCode: '20814' },     // Near DC
+  { city: 'Hollywood', state: 'FL', zipCode: '33020' },    // Near Miami
+  { city: 'Brookline', state: 'MA', zipCode: '02445' },    // Near Boston
+  { city: 'Yonkers', state: 'NY', zipCode: '10701' },      // Near NYC
+  { city: 'Alexandria', state: 'VA', zipCode: '22301' },    // Near DC
+  { city: 'Coral Gables', state: 'FL', zipCode: '33134' }, // Near Miami
+  { city: 'Newton', state: 'MA', zipCode: '02458' },       // Near Boston
+  { city: 'Jersey City', state: 'NJ', zipCode: '07302' },  // Near NYC
+  { city: 'Arlington', state: 'VA', zipCode: '22201' },    // Near DC
+  { city: 'Boca Raton', state: 'FL', zipCode: '33432' },   // Near Miami
+  { city: 'Somerville', state: 'MA', zipCode: '02143' },   // Near Boston
+  { city: 'White Plains', state: 'NY', zipCode: '10601' }, // Near NYC
+  { city: 'McLean', state: 'VA', zipCode: '22101' },       // Near DC
+  { city: 'Delray Beach', state: 'FL', zipCode: '33444' }, // Near Miami
+  { city: 'Quincy', state: 'MA', zipCode: '02169' },       // Near Boston
+  { city: 'Fort Lee', state: 'NJ', zipCode: '07024' },     // Near NYC
+  { city: 'Silver Spring', state: 'MD', zipCode: '20910' }, // Near DC
+  { city: 'Pompano Beach', state: 'FL', zipCode: '33060' } 
 ];
 
 const TEAMS = ['Commercial'];
 
 const JOB_TYPES = {
-  'Cable Tech Lead': {
-    minValue: 34,
-    maxValue: 42,
+  'Cable Tech Team Lead': {
+    minValue: 32,
+    maxValue: 40,
     experienceLevel: 'seniorLevel',
     category: 'Voice Data',
     yearsExperience: '5-8',
     prompt: 'Create a detailed job description for a cable technician team leader. Focus on managing crews, quality control, and project oversight for the installation of commercial voice and data cabling.'
   },
-  'Low Voltage Security Installer': {
-    minValue: 25,
-    maxValue: 35,
+  'Security Tech': {
+    minValue: 24,
+    maxValue: 34,
     experienceLevel: 'midLevel',
     category: 'Security',
     yearsExperience: '2-4',
     prompt: 'Create a job description for a low voltage security installer. Focus on installing and maintaining commercial security systems, including cameras, access control, and intrusion detection.'
   },
-  'Fire Alarm Installer Low Voltage': {
-    minValue: 32,
-    maxValue: 45,
+  'Fire Alarm Tech': {
+    minValue: 28,
+    maxValue: 36,
     experienceLevel: 'seniorLevel',
     category: 'Fire Alarm',
     yearsExperience: '4-7',
-    prompt: 'Write a job description for a fire alarm installer low voltage. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
+    prompt: 'Write a job description for a fire alarm tech for low voltage. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
   },
-  'AV Technician': {
-    minValue: 34,
-    maxValue: 44,
+  'AV Tech': {
+    minValue: 33,
+    maxValue: 41,
     experienceLevel: 'midLevel',
     category: 'Audio Visual',
     yearsExperience: '3-5',
@@ -127,6 +128,14 @@ const TRAINING_PROGRAMS = [
   { type: 'Leadership', programs: ['Project Management', 'Team Leading', 'Communication Skills'] }
 ];
 
+const DESCRIPTION_LENGTHS = {
+  short: 300,
+  medium: 500,
+  long: 800
+};
+
+const STREET_TYPES = ['Main St.', 'Maple Ave.', 'Sierra Pkwy.'];
+
 async function generateJobDescription(jobType, location, jobInfo) {
   const workEnv = WORK_ENVIRONMENTS[Math.floor(Math.random() * WORK_ENVIRONMENTS.length)];
   const teamStructure = TEAM_STRUCTURES[Math.floor(Math.random() * TEAM_STRUCTURES.length)];
@@ -151,7 +160,7 @@ async function generateJobDescription(jobType, location, jobInfo) {
   ];
   const schedule = scheduleTypes[Math.floor(Math.random() * scheduleTypes.length)];
 
-  const prompt = `Create a unique job description for a ${jobType} position at AVI SPL in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
+  const prompt = `Create a unique job description for a ${jobType} position at Telco Data in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
 
 Key Details:
 - Experience Required: ${jobInfo.yearsExperience} years
@@ -217,6 +226,12 @@ Make every aspect location-specific and unique to this role. Include market-spec
   };
 }
 
+function generateStreetAddress() {
+  const number = Math.floor(Math.random() * (12000 - 1000) + 1000);
+  const streetType = STREET_TYPES[Math.floor(Math.random() * STREET_TYPES.length)];
+  return `${number} ${streetType}`;
+}
+
 async function createJob(location, jobType) {
   const today = new Date();
   const validThrough = new Date(today);
@@ -248,7 +263,11 @@ async function createJob(location, jobType) {
   // Create frontmatter data with variations - ensure all properties are defined
   const jobData = {
     position: jobType || 'Untitled Position',
-    description: fullDescription ? `${fullDescription.substring(0, 500)}...` : 'No description available',
+    description: fullDescription ? 
+      `${fullDescription.substring(0, DESCRIPTION_LENGTHS[
+        Object.keys(DESCRIPTION_LENGTHS)[Math.floor(Math.random() * Object.keys(DESCRIPTION_LENGTHS).length)]
+      ])}...` : 
+      'No description available',
     location: `${location.city}, ${location.state}`,
     team: 'Commercial',
     schedule: schedule || 'Full Time',
@@ -259,12 +278,12 @@ async function createJob(location, jobType) {
     validThrough: validThrough.toISOString(),
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'AVI SPL',
-      sameAs: 'https://avispl.com/',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyraGCdDcBhUVCLjb9MI2McsVysMD7wjYlIQ&s'
+      name: 'Telco Data',
+      sameAs: 'https://www.telco-data.com/',
+      logo: 'https://www.telco-data.com/wp-content/uploads/2022/11/TD-Logo_Horizontal_Color.webp'
     },
     jobLocation: {
-      streetAddress: '10000 S. Main St.',
+      streetAddress: generateStreetAddress(),
       addressLocality: location.city,
       addressRegion: location.state,
       postalCode: location.zipCode,
@@ -280,14 +299,13 @@ async function createJob(location, jobType) {
     experienceRequirements: jobInfo.experienceLevel || 'midLevel',
     occupationalCategory: jobInfo.category || 'General',
     identifier: {
-      name: 'AVI SPL',
+      name: 'Telco Data',
       value: jobId
     },
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'support@primepartners.info',
-      'resumes@bestelectricianjobs.zohorecruitmail.com'
+      'Michael.Mckeaige@pes123.com'
     ],
     workEnvironment: workEnvironment ? {
       type: workEnvironment.type || 'Commercial',
@@ -311,7 +329,7 @@ async function createJob(location, jobType) {
   const frontmatter = matter.stringify('', jobData);
   const finalContent = `${frontmatter}\n\n${fullDescription || 'No description available'}`;
 
-  const filename = `avispl-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
+  const filename = `telco-data-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   fs.writeFileSync(filePath, finalContent);
 

@@ -14,6 +14,7 @@ const jobSchema = {
   "@context": "https://schema.org/",
   "@type": "JobPosting",
   "title": frontmatter.position,
+  "directApply": true,
   "description": frontmatter.description,
   "identifier": {
     "@type": "PropertyValue",
@@ -43,6 +44,19 @@ const jobSchema = {
       //"value": frontmatter.baseSalary.value,
       "unitText": frontmatter.baseSalary.unitText
     }
+  },
+  "workHours": "Monday through Friday, 7:00 AM - 3:30 PM",
+  "industry": "Construction",
+  "physicalRequirements": [
+    "Able to lift 50 pounds",
+    "Climb ladders",
+    "Stand for extended periods"
+  ],
+  "securityClearanceRequirement": "Background Check Required",
+  "applicationContact": {
+    "@type": "ContactPoint",
+    "telephone": "+1-415-877-8810",
+    "email": "hello@bestelectricianjobs.com"
   }
 };
 ---
