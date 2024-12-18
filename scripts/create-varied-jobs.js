@@ -12,26 +12,8 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
-  { city: 'Cambridge', state: 'MA', zipCode: '02138' },    // Near Boston
-  { city: 'Hoboken', state: 'NJ', zipCode: '07030' },      // Near NYC
-  { city: 'Bethesda', state: 'MD', zipCode: '20814' },     // Near DC
-  { city: 'Hollywood', state: 'FL', zipCode: '33020' },    // Near Miami
-  { city: 'Brookline', state: 'MA', zipCode: '02445' },    // Near Boston
-  { city: 'Yonkers', state: 'NY', zipCode: '10701' },      // Near NYC
-  { city: 'Alexandria', state: 'VA', zipCode: '22301' },    // Near DC
-  { city: 'Coral Gables', state: 'FL', zipCode: '33134' }, // Near Miami
-  { city: 'Newton', state: 'MA', zipCode: '02458' },       // Near Boston
-  { city: 'Jersey City', state: 'NJ', zipCode: '07302' },  // Near NYC
-  { city: 'Arlington', state: 'VA', zipCode: '22201' },    // Near DC
-  { city: 'Boca Raton', state: 'FL', zipCode: '33432' },   // Near Miami
-  { city: 'Somerville', state: 'MA', zipCode: '02143' },   // Near Boston
-  { city: 'White Plains', state: 'NY', zipCode: '10601' }, // Near NYC
-  { city: 'McLean', state: 'VA', zipCode: '22101' },       // Near DC
-  { city: 'Delray Beach', state: 'FL', zipCode: '33444' }, // Near Miami
-  { city: 'Quincy', state: 'MA', zipCode: '02169' },       // Near Boston
-  { city: 'Fort Lee', state: 'NJ', zipCode: '07024' },     // Near NYC
-  { city: 'Silver Spring', state: 'MD', zipCode: '20910' }, // Near DC
-  { city: 'Pompano Beach', state: 'FL', zipCode: '33060' } 
+  { city: 'Indianapolis', state: 'IN', zipCode: '46204' },
+  { city: 'Gary', state: 'IN', zipCode: '46402' }
 ];
 
 const TEAMS = ['Commercial'];
@@ -205,7 +187,7 @@ Please structure the response in markdown format like this:
 Make every aspect location-specific and unique to this role. Include market-specific challenges and opportunities. Use markdown formatting for clear, professional presentation.`;
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ role: "user", content: prompt }],
     temperature: 0.9,
   });
