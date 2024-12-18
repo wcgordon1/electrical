@@ -12,38 +12,51 @@ const openai = new OpenAI({
 });
 
 const LOCATIONS = [
-  { city: 'Indianapolis', state: 'IN', zipCode: '46204' },
-  { city: 'Gary', state: 'IN', zipCode: '46402' }
+  { city: 'Austin', state: 'TX', zipCode: '78701' },
+  { city: 'Nashville', state: 'TN', zipCode: '37203' },
+  { city: 'Phoenix', state: 'AZ', zipCode: '85004' },
+  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
+  { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
+  { city: 'Bellevue', state: 'WA', zipCode: '98004' },
+  { city: 'Miami', state: 'FL', zipCode: '33131' },
+  { city: 'Charlotte', state: 'NC', zipCode: '28202' },
+  { city: 'Denver', state: 'CO', zipCode: '80202' },
+  { city: 'Frisco', state: 'TX', zipCode: '75034' },
+  { city: 'Boise', state: 'ID', zipCode: '83702' },
+  { city: 'Orlando', state: 'FL', zipCode: '32801' },
+  { city: 'Las Vegas', state: 'NV', zipCode: '89101' },
+  { city: 'Columbus', state: 'OH', zipCode: '43215' },
+  { city: 'Nashville', state: 'TN', zipCode: '37201' }
 ];
 
 const TEAMS = ['Commercial'];
 
 const JOB_TYPES = {
-  'Cable Tech Team Lead': {
+  'Voice & Data Cable Technician': {
     minValue: 32,
     maxValue: 40,
     experienceLevel: 'seniorLevel',
     category: 'Voice Data',
     yearsExperience: '5-8',
-    prompt: 'Create a detailed job description for a cable technician team leader. Focus on managing crews, quality control, and project oversight for the installation of commercial voice and data cabling.'
+    prompt: 'Create a detailed job description for a voice and data cable technician team leader. Focus on managing crews, quality control, and project oversight for the installation of commercial voice and data cabling.'
   },
-  'Security Tech': {
+  'Security Alarm Installer': {
     minValue: 24,
     maxValue: 34,
     experienceLevel: 'midLevel',
     category: 'Security',
     yearsExperience: '2-4',
-    prompt: 'Create a job description for a low voltage security installer. Focus on installing and maintaining commercial security systems, including cameras, access control, and intrusion detection.'
+    prompt: 'Create a job description for a low voltage security alarm installer. Focus on installing and maintaining commercial security systems, including cameras, access control, and intrusion detection.'
   },
-  'Fire Alarm Tech': {
+  'Fire Alarm Installer': {
     minValue: 28,
     maxValue: 36,
     experienceLevel: 'seniorLevel',
     category: 'Fire Alarm',
     yearsExperience: '4-7',
-    prompt: 'Write a job description for a fire alarm tech for low voltage. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
+    prompt: 'Write a job description for a fire alarm installer for low voltage commercial properties. Focus on installing and maintaining commercial fire alarm systems, including smoke detectors, sprinklers, and alarm systems in new construction and retrofits.'
   },
-  'AV Tech': {
+  'Audio Visual Technician': {
     minValue: 33,
     maxValue: 41,
     experienceLevel: 'midLevel',
@@ -142,7 +155,7 @@ async function generateJobDescription(jobType, location, jobInfo) {
   ];
   const schedule = scheduleTypes[Math.floor(Math.random() * scheduleTypes.length)];
 
-  const prompt = `Create a unique job description for a ${jobType} position at Telco Data in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
+  const prompt = `Create a unique job description for a ${jobType} position at Black Box Voice & Datain ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points.
 
 Key Details:
 - Experience Required: ${jobInfo.yearsExperience} years
@@ -275,9 +288,9 @@ async function createJob(location, jobType) {
     validThrough: validThrough,
     employmentType: 'FULL_TIME',
     hiringOrganization: {
-      name: 'Telco Data',
-      sameAs: 'https://www.telco-data.com/',
-      logo: 'https://www.telco-data.com/wp-content/uploads/2022/11/TD-Logo_Horizontal_Color.webp'
+      name: 'Black Box',
+      sameAs: 'https://www.blackbox.com/',
+      logo: 'https://bbnscdn.azureedge.net/cms/images/default-images/logo_dark.png'
     },
     jobLocation: {
       streetAddress: generateStreetAddress(),
@@ -296,7 +309,7 @@ async function createJob(location, jobType) {
     experienceRequirements: jobInfo.experienceLevel || 'midLevel',
     occupationalCategory: jobInfo.category || 'General',
     identifier: {
-      name: 'Telco Data',
+      name: 'Black Box',
       value: jobId
     },
     featured: Math.random() < 0.2,
@@ -326,7 +339,7 @@ async function createJob(location, jobType) {
   const frontmatter = matter.stringify('', jobData);
   const finalContent = `${frontmatter}\n\n${fullDescription || 'No description available'}`;
 
-  const filename = `telco-data-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
+  const filename = `blackbox-${jobType.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase().replace(/\s+/g, '-')}.md`;
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   fs.writeFileSync(filePath, finalContent);
 

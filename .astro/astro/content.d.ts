@@ -973,6 +973,111 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"blackbox-audio-visual-technician-columbus-audi-6ibaj5.md": {
+	id: "blackbox-audio-visual-technician-columbus-audi-6ibaj5.md";
+  slug: "blackbox-audio-visual-technician-columbus-audi-6ibaj5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-audio-visual-technician-las-vegas-audi-33ml4e.md": {
+	id: "blackbox-audio-visual-technician-las-vegas-audi-33ml4e.md";
+  slug: "blackbox-audio-visual-technician-las-vegas-audi-33ml4e";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-audio-visual-technician-nashville-audi-y8df46.md": {
+	id: "blackbox-audio-visual-technician-nashville-audi-y8df46.md";
+  slug: "blackbox-audio-visual-technician-nashville-audi-y8df46";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-audio-visual-technician-salt-lake-city-audi-39xoe7.md": {
+	id: "blackbox-audio-visual-technician-salt-lake-city-audi-39xoe7.md";
+  slug: "blackbox-audio-visual-technician-salt-lake-city-audi-39xoe7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-fire-alarm-installer-charlotte-fire-x8aymx.md": {
+	id: "blackbox-fire-alarm-installer-charlotte-fire-x8aymx.md";
+  slug: "blackbox-fire-alarm-installer-charlotte-fire-x8aymx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-fire-alarm-installer-orlando-fire-jmyakz.md": {
+	id: "blackbox-fire-alarm-installer-orlando-fire-jmyakz.md";
+  slug: "blackbox-fire-alarm-installer-orlando-fire-jmyakz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-fire-alarm-installer-phoenix-fire-qx2shh.md": {
+	id: "blackbox-fire-alarm-installer-phoenix-fire-qx2shh.md";
+  slug: "blackbox-fire-alarm-installer-phoenix-fire-qx2shh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-security-alarm-installer-bellevue-secu-giml18.md": {
+	id: "blackbox-security-alarm-installer-bellevue-secu-giml18.md";
+  slug: "blackbox-security-alarm-installer-bellevue-secu-giml18";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-security-alarm-installer-frisco-secu-3z03lt.md": {
+	id: "blackbox-security-alarm-installer-frisco-secu-3z03lt.md";
+  slug: "blackbox-security-alarm-installer-frisco-secu-3z03lt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-security-alarm-installer-miami-secu-jar8e4.md": {
+	id: "blackbox-security-alarm-installer-miami-secu-jar8e4.md";
+  slug: "blackbox-security-alarm-installer-miami-secu-jar8e4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-security-alarm-installer-nashville-secu-it36sm.md": {
+	id: "blackbox-security-alarm-installer-nashville-secu-it36sm.md";
+  slug: "blackbox-security-alarm-installer-nashville-secu-it36sm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-voice-&-data-cable-technician-austin-voic-k9he4v.md": {
+	id: "blackbox-voice-&-data-cable-technician-austin-voic-k9he4v.md";
+  slug: "blackbox-voice--data-cable-technician-austin-voic-k9he4v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-voice-&-data-cable-technician-boise-voic-g5pqeq.md": {
+	id: "blackbox-voice-&-data-cable-technician-boise-voic-g5pqeq.md";
+  slug: "blackbox-voice--data-cable-technician-boise-voic-g5pqeq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-voice-&-data-cable-technician-denver-voic-g2cjy1.md": {
+	id: "blackbox-voice-&-data-cable-technician-denver-voic-g2cjy1.md";
+  slug: "blackbox-voice--data-cable-technician-denver-voic-g2cjy1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blackbox-voice-&-data-cable-technician-raleigh-voic-f7nfqj.md": {
+	id: "blackbox-voice-&-data-cable-technician-raleigh-voic-f7nfqj.md";
+  slug: "blackbox-voice--data-cable-technician-raleigh-voic-f7nfqj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "cable-tech-encore-aurora-id-bz1188.md": {
 	id: "cable-tech-encore-aurora-id-bz1188.md";
   slug: "cable-tech-encore-aurora-id-bz1188";
