@@ -1,11 +1,21 @@
 ---
 position: Voice & Data Technician
 description: >-
-  Rogers Electric is a leader in electrical and data solutions, providing top-tier services for commercial and industrial clients across the country. With a commitment to innovation, quality, and customer satisfaction, we specialize in electrical installations, voice and data infrastructure, and maintenance services. Join our Seattle team and contribute to the seamless delivery of critical infrastructure projects. We are looking for a Voice & Data Technician to join our team and grow their skills in the field of structured cabling. This position offers hands-on experience in commercial and industrial electrical work under the guidance of experienced Journeyman and Master Electricians. Ideal candidates will have a strong work ethic, a desire to learn, and a commitment to safety.
+  Rogers Electric is a leader in electrical and data solutions, providing
+  top-tier services for commercial and industrial clients across the country.
+  With a commitment to innovation, quality, and customer satisfaction, we
+  specialize in electrical installations, voice and data infrastructure, and
+  maintenance services. Join our Seattle team and contribute to the seamless
+  delivery of critical infrastructure projects. We are looking for a Voice &
+  Data Technician to join our team and grow their skills in the field of
+  structured cabling. This position offers hands-on experience in commercial and
+  industrial electrical work under the guidance of experienced Journeyman and
+  Master Electricians. Ideal candidates will have a strong work ethic, a desire
+  to learn, and a commitment to safety.
 location: 'Seattle, WA'
 team: Commercial
-datePosted: '2024-12-12T06:10:16Z'
-validThrough: '2025-02-12T06:10:16Z'
+datePosted: '2024-12-19T12:34:51.482Z'
+validThrough: '2025-01-24T12:34:51.482Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

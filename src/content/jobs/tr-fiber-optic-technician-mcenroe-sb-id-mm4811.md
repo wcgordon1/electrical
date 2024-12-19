@@ -1,13 +1,21 @@
 ---
 position: Cable Splicer Prevailing Wage
 description: >-
-  Welcome to McEnroe Voice & Data, your local partner in technology integration and services. As a third-generation family business we’ve maintained a steadfast commitment to excellence and service since 1972.  We specialize in delivering top-tier solutions in Voice over Internet Protocol (VoIP), video surveillance, video conferencing and collaboration, networks, and infrastructure cabling.
-  
-  We are seeking a skilled Fiber Optic Technician to join our team in Santa Barbara, CA. The ideal candidate will be responsible for the installation, maintenance, and repair of fiber optic cables and systems, ensuring high-speed data transmission and optimal network performance.
+  Welcome to McEnroe Voice & Data, your local partner in technology integration
+  and services. As a third-generation family business we’ve maintained a
+  steadfast commitment to excellence and service since 1972.  We specialize in
+  delivering top-tier solutions in Voice over Internet Protocol (VoIP), video
+  surveillance, video conferencing and collaboration, networks, and
+  infrastructure cabling.
+
+  We are seeking a skilled Fiber Optic Technician to join our team in Santa
+  Barbara, CA. The ideal candidate will be responsible for the installation,
+  maintenance, and repair of fiber optic cables and systems, ensuring high-speed
+  data transmission and optimal network performance.
 location: 'Santa Barbara, CA'
 team: Commercial
-datePosted: '2024-12-12T22:25:22.129Z'
-validThrough: '2025-02-12T22:25:22.129Z'
+datePosted: '2024-12-19T17:10:29.775Z'
+validThrough: '2025-01-25T17:10:29.775Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data
@@ -23,7 +31,7 @@ jobLocation:
 baseSalary:
   currency: USD
   value: 42
-  minValue: 50.14  
+  minValue: 50.14
   maxValue: 50.14
   unitText: HOUR
 experienceRequirements: seniorLevel

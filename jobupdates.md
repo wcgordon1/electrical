@@ -47,6 +47,12 @@ npm run create-varied-jobs
 
 
 
+npm run create-electrician-jobs
+
+
+
+
+
 # Update jobs from last 7 days
 npm run update-dates -- --days=7
 

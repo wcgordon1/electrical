@@ -1,12 +1,20 @@
 ---
 position: Voice & Data Technician
 description: >-
-  Rogers Electric is a premier provider of electrical and data solutions, serving commercial and industrial clients with a focus on quality, innovation, and customer satisfaction. Our Portland team specializes in delivering reliable voice and data cabling solutions to clients in Portland proper and surrounding cities, including Beaverton, Gresham, Lake Oswego, Tigard, and Milwaukie. If you’re a skilled professional looking to grow in a dynamic environment, we’d love to hear from you!   
-  We are looking for a skilled Voice & Data Technician to join our team and grow their skills in the field of structured cabling. This position offers hands-on experience in commercial and industrial electrical work...
+  Rogers Electric is a premier provider of electrical and data solutions,
+  serving commercial and industrial clients with a focus on quality, innovation,
+  and customer satisfaction. Our Portland team specializes in delivering
+  reliable voice and data cabling solutions to clients in Portland proper and
+  surrounding cities, including Beaverton, Gresham, Lake Oswego, Tigard, and
+  Milwaukie. If you’re a skilled professional looking to grow in a dynamic
+  environment, we’d love to hear from you!    We are looking for a skilled Voice
+  & Data Technician to join our team and grow their skills in the field of
+  structured cabling. This position offers hands-on experience in commercial and
+  industrial electrical work...
 location: 'Portland, OR'
 team: Commercial
-datePosted: '2024-12-12T06:10:16Z'
-validThrough: '2025-02-12T06:10:16Z'
+datePosted: '2024-12-19T14:35:47.197Z'
+validThrough: '2025-01-20T14:35:47.197Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

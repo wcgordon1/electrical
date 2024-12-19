@@ -1,13 +1,22 @@
 ---
 position: Structured Cable Technician
 description: >-
-  Prime Partners is a premier staffing agency specializing in low voltage and electrical work. We are dedicated to connecting skilled technicians with top-tier employers, ensuring steady and reliable work opportunities. Join our team and never worry about downtime again—our clients offer consistent, challenging, and rewarding projects that keep you busy and growing professionally.  
-  
-  We are currently hiring **Structured Cable Technicians** to work on commercial voice and data installation projects, including work in data centers and low-voltage security systems. If you are experienced in structured cabling, cable dressing, and security installations, and are looking for a career that values your expertise, we want to hear from you.  
+  Prime Partners is a premier staffing agency specializing in low voltage and
+  electrical work. We are dedicated to connecting skilled technicians with
+  top-tier employers, ensuring steady and reliable work opportunities. Join our
+  team and never worry about downtime again—our clients offer consistent,
+  challenging, and rewarding projects that keep you busy and growing
+  professionally.  
+
+  We are currently hiring **Structured Cable Technicians** to work on commercial
+  voice and data installation projects, including work in data centers and
+  low-voltage security systems. If you are experienced in structured cabling,
+  cable dressing, and security installations, and are looking for a career that
+  values your expertise, we want to hear from you.  
 location: 'Suffolk, VA'
 team: Commercial
-datePosted: '2024-12-12T04:03:26.540Z'
-validThrough: '2025-02-12T04:03:26.540Z'
+datePosted: '2024-12-18T18:10:44.081Z'
+validThrough: '2025-01-25T18:10:44.081Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

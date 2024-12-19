@@ -1,14 +1,23 @@
 ---
 position: Voice & Data Cable Installer
 description: >-
-  Welcome to McEnroe Voice & Data, your local partner in technology integration and services. As a third-generation family business we’ve maintained a steadfast commitment to excellence and service since 1972.  We specialize in delivering top-tier solutions in Voice over Internet Protocol (VoIP), video surveillance, video conferencing and collaboration, networks, and infrastructure cabling. We are seeking a Voice & Data Cable Installer to join our Fremont, CA team. This position focuses on data center projectss and commercial office building installations. If you are detail-oriented, reliable, and experienced in the field of structured cabling, we want to hear from you.
+  Welcome to McEnroe Voice & Data, your local partner in technology integration
+  and services. As a third-generation family business we’ve maintained a
+  steadfast commitment to excellence and service since 1972.  We specialize in
+  delivering top-tier solutions in Voice over Internet Protocol (VoIP), video
+  surveillance, video conferencing and collaboration, networks, and
+  infrastructure cabling. We are seeking a Voice & Data Cable Installer to join
+  our Fremont, CA team. This position focuses on data center projectss and
+  commercial office building installations. If you are detail-oriented,
+  reliable, and experienced in the field of structured cabling, we want to hear
+  from you.
 
   1. Install, maintain, and repair cable systems, including the removal of old
   equipment an...
 location: 'Fremont, CA'
 team: Commercial
-datePosted: '2024-12-12T01:27:18.129Z'
-validThrough: '2025-02-12T01:27:18.129Z'
+datePosted: '2024-12-18T23:28:59.193Z'
+validThrough: '2025-01-30T23:28:59.193Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

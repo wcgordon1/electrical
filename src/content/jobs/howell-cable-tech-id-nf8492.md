@@ -1,12 +1,17 @@
 ---
 position: Cable Technician
-description: >- 
-    Howell Electric is a leading provider of electrical and low voltage solutions for commercial environments. We are seeking a skilled Cable Technician to join our team and contribute to our mission of delivering high-quality voice and data installations. We are looking for an experienced Cable Technician specializing in low voltage voice and data installations for commercial environments. The ideal candidate will have a strong background in structured cabling systems and be able to work independently as well as part of a team.
-
+description: >-
+  Howell Electric is a leading provider of electrical and low voltage solutions
+  for commercial environments. We are seeking a skilled Cable Technician to join
+  our team and contribute to our mission of delivering high-quality voice and
+  data installations. We are looking for an experienced Cable Technician
+  specializing in low voltage voice and data installations for commercial
+  environments. The ideal candidate will have a strong background in structured
+  cabling systems and be able to work independently as well as part of a team.
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-11T01:20:26Z'
-validThrough: '2025-02-11T01:20:26Z'
+datePosted: '2024-12-18T07:59:48.271Z'
+validThrough: '2025-01-28T07:59:48.271Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

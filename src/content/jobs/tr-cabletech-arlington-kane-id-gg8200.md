@@ -1,15 +1,26 @@
 ---
 position: Security Technician
 description: >-
-  Kane Communications is a leading technology infrastructure company and a proud member of UTCA, ACCNJ, 24X7 Exchange, and BICSI. Our team includes BICSI-certified RCDDs, RTPM estimators/project managers, and highly skilled technicians. With a vast internal resource network, we deliver unparalleled service and support for virtually any infrastructure project.  
-  
-  Our focus is on maximizing the return on your infrastructure investment, whether it's a new installation from the ground up or a retrofit of an existing facility. Our commitment to quality, efficiency, and safety ensures an infrastructure that meets current needs and scales to future technology demands.  
-  
-  We are seeking a **Voice Data Technician** to join our Arlington, VA team to perform various commercial projects, primarily in data centers and commercial facilities in Arlington and nearby areas, including Washington, D.C., Alexandria, and Fairfax.  
+  Kane Communications is a leading technology infrastructure company and a proud
+  member of UTCA, ACCNJ, 24X7 Exchange, and BICSI. Our team includes
+  BICSI-certified RCDDs, RTPM estimators/project managers, and highly skilled
+  technicians. With a vast internal resource network, we deliver unparalleled
+  service and support for virtually any infrastructure project.  
+
+  Our focus is on maximizing the return on your infrastructure investment,
+  whether it's a new installation from the ground up or a retrofit of an
+  existing facility. Our commitment to quality, efficiency, and safety ensures
+  an infrastructure that meets current needs and scales to future technology
+  demands.  
+
+  We are seeking a **Voice Data Technician** to join our Arlington, VA team to
+  perform various commercial projects, primarily in data centers and commercial
+  facilities in Arlington and nearby areas, including Washington, D.C.,
+  Alexandria, and Fairfax.  
 location: 'Arlington, VA'
 team: Commercial
-datePosted: '2024-12-12T04:03:26Z'
-validThrough: '2025-02-12T04:03:26Z'
+datePosted: '2024-12-18T09:40:05.618Z'
+validThrough: '2025-01-31T09:40:05.618Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications
