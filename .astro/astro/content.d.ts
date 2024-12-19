@@ -1323,6 +1323,97 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"faith-technologies-commercial-master-electrician-newark-faitd0wshz.md": {
+	id: "faith-technologies-commercial-master-electrician-newark-faitd0wshz.md";
+  slug: "faith-technologies-commercial-master-electrician-newark-faitd0wshz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-healthcare-master-electrician-springfield-faitlufg7y.md": {
+	id: "faith-technologies-healthcare-master-electrician-springfield-faitlufg7y.md";
+  slug: "faith-technologies-healthcare-master-electrician-springfield-faitlufg7y";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-maintenance-apprentice-electrician-flint-faitq2nr8e.md": {
+	id: "faith-technologies-maintenance-apprentice-electrician-flint-faitq2nr8e.md";
+  slug: "faith-technologies-maintenance-apprentice-electrician-flint-faitq2nr8e";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-maintenance-apprentice-electrician-huntsville-fait20l4um.md": {
+	id: "faith-technologies-maintenance-apprentice-electrician-huntsville-fait20l4um.md";
+  slug: "faith-technologies-maintenance-apprentice-electrician-huntsville-fait20l4um";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-maintenance-apprentice-electrician-mobile-fait6mye0g.md": {
+	id: "faith-technologies-maintenance-apprentice-electrician-mobile-fait6mye0g.md";
+  slug: "faith-technologies-maintenance-apprentice-electrician-mobile-fait6mye0g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-manufacturing-apprentice-electrician-wilmington-faiteg6yuk.md": {
+	id: "faith-technologies-manufacturing-apprentice-electrician-wilmington-faiteg6yuk.md";
+  slug: "faith-technologies-manufacturing-apprentice-electrician-wilmington-faiteg6yuk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-multi-family-controls-electrician-rochester-faito8lgf6.md": {
+	id: "faith-technologies-multi-family-controls-electrician-rochester-faito8lgf6.md";
+  slug: "faith-technologies-multi-family-controls-electrician-rochester-faito8lgf6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-multi-family-master-electrician-chattanooga-faitlwhitv.md": {
+	id: "faith-technologies-multi-family-master-electrician-chattanooga-faitlwhitv.md";
+  slug: "faith-technologies-multi-family-master-electrician-chattanooga-faitlwhitv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-pv-system-master-electrician-buffalo-faitff7hem.md": {
+	id: "faith-technologies-pv-system-master-electrician-buffalo-faitff7hem.md";
+  slug: "faith-technologies-pv-system-master-electrician-buffalo-faitff7hem";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-renewable-energy-journeyman-electrician-bridgeport-faitbbavn0.md": {
+	id: "faith-technologies-renewable-energy-journeyman-electrician-bridgeport-faitbbavn0.md";
+  slug: "faith-technologies-renewable-energy-journeyman-electrician-bridgeport-faitbbavn0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-residential-controls-electrician-binghamton-faitimjecn.md": {
+	id: "faith-technologies-residential-controls-electrician-binghamton-faitimjecn.md";
+  slug: "faith-technologies-residential-controls-electrician-binghamton-faitimjecn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-service-apprentice-electrician-gary-faitdz6nfh.md": {
+	id: "faith-technologies-service-apprentice-electrician-gary-faitdz6nfh.md";
+  slug: "faith-technologies-service-apprentice-electrician-gary-faitdz6nfh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"faith-technologies-service-apprentice-electrician-roanoke-faithqfjcs.md": {
+	id: "faith-technologies-service-apprentice-electrician-roanoke-faithqfjcs.md";
+  slug: "faith-technologies-service-apprentice-electrician-roanoke-faithqfjcs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "fire-alarm-designer-scottsdale-id-dfs321.md": {
 	id: "fire-alarm-designer-scottsdale-id-dfs321.md";
   slug: "fire-alarm-designer-scottsdale-id-dfs321";
@@ -1690,6 +1781,118 @@ declare module 'astro:content' {
 "mcenroe-voice-&-data-installer-omaha-voic-ygxet5.md": {
 	id: "mcenroe-voice-&-data-installer-omaha-voic-ygxet5.md";
   slug: "mcenroe-voice--data-installer-omaha-voic-ygxet5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk.md": {
+	id: "mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk.md";
+  slug: "mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-custom-home-apprentice-electrician-cleveland-mmrbn8e5r.md": {
+	id: "mmr-group-custom-home-apprentice-electrician-cleveland-mmrbn8e5r.md";
+  slug: "mmr-group-custom-home-apprentice-electrician-cleveland-mmrbn8e5r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-custom-home-master-electrician-utica-mmrnowd9m.md": {
+	id: "mmr-group-custom-home-master-electrician-utica-mmrnowd9m.md";
+  slug: "mmr-group-custom-home-master-electrician-utica-mmrnowd9m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-healthcare-journeyman-electrician-macon-mmrp1v7jk.md": {
+	id: "mmr-group-healthcare-journeyman-electrician-macon-mmrp1v7jk.md";
+  slug: "mmr-group-healthcare-journeyman-electrician-macon-mmrp1v7jk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-industrial-master-electrician-camden-mmrwpt14x.md": {
+	id: "mmr-group-industrial-master-electrician-camden-mmrwpt14x.md";
+  slug: "mmr-group-industrial-master-electrician-camden-mmrwpt14x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-multi-family-journeyman-electrician-detroit-mmrmr0b2g.md": {
+	id: "mmr-group-multi-family-journeyman-electrician-detroit-mmrmr0b2g.md";
+  slug: "mmr-group-multi-family-journeyman-electrician-detroit-mmrmr0b2g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-multi-family-master-electrician-wheeling-mmr2j62az.md": {
+	id: "mmr-group-multi-family-master-electrician-wheeling-mmr2j62az.md";
+  slug: "mmr-group-multi-family-master-electrician-wheeling-mmr2j62az";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-plant-master-electrician-syracuse-mmrhj7yna.md": {
+	id: "mmr-group-plant-master-electrician-syracuse-mmrhj7yna.md";
+  slug: "mmr-group-plant-master-electrician-syracuse-mmrhj7yna";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-repair-controls-electrician-allentown-mmr8npw9b.md": {
+	id: "mmr-group-repair-controls-electrician-allentown-mmr8npw9b.md";
+  slug: "mmr-group-repair-controls-electrician-allentown-mmr8npw9b";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-residential-master-electrician-augusta-mmr0f5huf.md": {
+	id: "mmr-group-residential-master-electrician-augusta-mmr0f5huf.md";
+  slug: "mmr-group-residential-master-electrician-augusta-mmr0f5huf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-residential-master-electrician-harrisburg-mmrnny2pv.md": {
+	id: "mmr-group-residential-master-electrician-harrisburg-mmrnny2pv.md";
+  slug: "mmr-group-residential-master-electrician-harrisburg-mmrnny2pv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-residential-master-electrician-reading-mmr2px39p.md": {
+	id: "mmr-group-residential-master-electrician-reading-mmr2px39p.md";
+  slug: "mmr-group-residential-master-electrician-reading-mmr2px39p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-retail-apprentice-electrician-birmingham-mmr0ct2mw.md": {
+	id: "mmr-group-retail-apprentice-electrician-birmingham-mmr0ct2mw.md";
+  slug: "mmr-group-retail-apprentice-electrician-birmingham-mmr0ct2mw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-service-apprentice-electrician-scranton-mmrk0zdk6.md": {
+	id: "mmr-group-service-apprentice-electrician-scranton-mmrk0zdk6.md";
+  slug: "mmr-group-service-apprentice-electrician-scranton-mmrk0zdk6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-solar-journeyman-electrician-canton-mmrtrq7lq.md": {
+	id: "mmr-group-solar-journeyman-electrician-canton-mmrtrq7lq.md";
+  slug: "mmr-group-solar-journeyman-electrician-canton-mmrtrq7lq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-solar-master-electrician-akron-mmri284h8.md": {
+	id: "mmr-group-solar-master-electrician-akron-mmri284h8.md";
+  slug: "mmr-group-solar-master-electrician-akron-mmri284h8";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5099,6 +5302,83 @@ declare module 'astro:content' {
 "staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8.md": {
 	id: "staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8.md";
   slug: "staley-fiber-optic-splicing-technician-san-jose-fibe-dddwj8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-heavy-industrial-journeyman-electrician-erie-tecrqh2xz.md": {
+	id: "tec-electric-heavy-industrial-journeyman-electrician-erie-tecrqh2xz.md";
+  slug: "tec-electric-heavy-industrial-journeyman-electrician-erie-tecrqh2xz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-industrial-controls-electrician-albany-tec3zym42.md": {
+	id: "tec-electric-industrial-controls-electrician-albany-tec3zym42.md";
+  slug: "tec-electric-industrial-controls-electrician-albany-tec3zym42";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-industrial-controls-electrician-columbus-tecpm9mw0.md": {
+	id: "tec-electric-industrial-controls-electrician-columbus-tecpm9mw0.md";
+  slug: "tec-electric-industrial-controls-electrician-columbus-tecpm9mw0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-manufacturing-journeyman-electrician-toledo-tecmqvt5t.md": {
+	id: "tec-electric-manufacturing-journeyman-electrician-toledo-tecmqvt5t.md";
+  slug: "tec-electric-manufacturing-journeyman-electrician-toledo-tecmqvt5t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-multi-family-master-electrician-montgomery-tec4or1b6.md": {
+	id: "tec-electric-multi-family-master-electrician-montgomery-tec4or1b6.md";
+  slug: "tec-electric-multi-family-master-electrician-montgomery-tec4or1b6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-renewable-energy-master-electrician-baltimore-tecdzzb4x.md": {
+	id: "tec-electric-renewable-energy-master-electrician-baltimore-tecdzzb4x.md";
+  slug: "tec-electric-renewable-energy-master-electrician-baltimore-tecdzzb4x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-repair-apprentice-electrician-memphis-teczcccf1.md": {
+	id: "tec-electric-repair-apprentice-electrician-memphis-teczcccf1.md";
+  slug: "tec-electric-repair-apprentice-electrician-memphis-teczcccf1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-repair-master-electrician-youngstown-tecvvc0nk.md": {
+	id: "tec-electric-repair-master-electrician-youngstown-tecvvc0nk.md";
+  slug: "tec-electric-repair-master-electrician-youngstown-tecvvc0nk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-service-controls-electrician-dayton-tec3f802j.md": {
+	id: "tec-electric-service-controls-electrician-dayton-tec3f802j.md";
+  slug: "tec-electric-service-controls-electrician-dayton-tec3f802j";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-service-controls-electrician-saginaw-techzmgkk.md": {
+	id: "tec-electric-service-controls-electrician-saginaw-techzmgkk.md";
+  slug: "tec-electric-service-controls-electrician-saginaw-techzmgkk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-solar-apprentice-electrician-jackson-tecglxa6i.md": {
+	id: "tec-electric-solar-apprentice-electrician-jackson-tecglxa6i.md";
+  slug: "tec-electric-solar-apprentice-electrician-jackson-tecglxa6i";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">

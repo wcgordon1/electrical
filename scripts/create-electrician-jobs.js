@@ -1,54 +1,49 @@
 const COMPANIES = {
-  'Prime Electric': {
-    name: 'Prime Electric',
-    sameAs: 'https://www.primeelectricinc.com/',
-    logo: 'https://www.primeelectricinc.com/wp-content/uploads/2022/08/Prime-Electric-Logo.png'
+  'TEC Electric': {
+    name: 'TEC Electric',
+    sameAs: 'https://tec-electric.com/',
+    logo: 'https://tec-electric.com/wp-content/themes/tec-electric/imgs/tec-logo.png'
   },
-  'AVISPL': {
-    name: 'AVISPL',
-    sameAs: 'https://www.avispl.com/',
-    logo: 'https://www.avispl.com/wp-content/themes/avi/images/logo.png'
+  'Faith Technologies': {
+    name: 'Faith Technologies',
+    sameAs: 'https://www.faithtechinc.com/',
+    logo: 'https://www.faithtechinc.com/wp-content/themes/fti-merger/assets/images/logos/logo-fti.svg'
   },
   'MMR Group': {
     name: 'MMR Group',
     sameAs: 'https://www.mmrgrp.com/',
-    logo: 'https://www.mmrgrp.com/wp-content/uploads/2023/01/MMR-Logo.png'
-  },
-  'Rex Moore': {
-    name: 'Rex Moore',
-    sameAs: 'https://www.rexmoore.com/',
-    logo: 'https://www.rexmoore.com/wp-content/uploads/2022/03/rex-moore-logo.png'
+    logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
   }
 };
 
 const JOB_TYPES = {
   'Apprentice Electrician': {
-    minValue: 22,
-    maxValue: 28,
+    minValue: 18,
+    maxValue: 25,
     experienceLevel: 'entryLevel',
     category: 'Apprentice',
     yearsExperience: '0-2',
     prompt: 'Create a detailed job description for an Apprentice Electrician position. Focus on learning opportunities, safety training, and basic electrical skills.'
   },
   'Journeyman Electrician': {
-    minValue: 35,
-    maxValue: 48,
+    minValue: 34,
+    maxValue: 49,
     experienceLevel: 'midLevel',
     category: 'Journeyman',
     yearsExperience: '4-8',
     prompt: 'Create a job description for an experienced Journeyman Electrician. Include commercial/industrial experience, code knowledge, and leadership responsibilities.'
   },
   'Master Electrician': {
-    minValue: 45,
-    maxValue: 65,
+    minValue: 36,
+    maxValue: 41,
     experienceLevel: 'seniorLevel',
     category: 'Master',
     yearsExperience: '8+',
     prompt: 'Write a job description for a Master Electrician position focusing on project leadership, code compliance, and mentoring responsibilities.'
   },
   'Controls Electrician': {
-    minValue: 38,
-    maxValue: 52,
+    minValue: 34,
+    maxValue: 43,
     experienceLevel: 'midLevel',
     category: 'Controls',
     yearsExperience: '5-10',
@@ -78,8 +73,46 @@ const WORK_ENVIRONMENTS = [
 ];
 
 const LOCATIONS = [
-  { city: 'Austin', state: 'TX', zipCode: '78701' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85004' }
+    { city: 'Detroit', state: 'MI', zipCode: '48201' },     // Traditionally industrial
+    { city: 'Cleveland', state: 'OH', zipCode: '44113' },   // Rust belt city
+    { city: 'Buffalo', state: 'NY', zipCode: '14201' },     // Post-industrial
+    { city: 'Baltimore', state: 'MD', zipCode: '21202' },   // Urban challenges
+    { city: 'Memphis', state: 'TN', zipCode: '38103' },     // Lower cost of living
+    { city: 'Birmingham', state: 'AL', zipCode: '35203' },  // Industrial heritage
+    { city: 'Jackson', state: 'MS', zipCode: '39201' },     // Lower median income
+    { city: 'Augusta', state: 'GA', zipCode: '30901' },     // Lower wage region
+    { city: 'Flint', state: 'MI', zipCode: '48502' },       // Economic challenges
+    { city: 'Toledo', state: 'OH', zipCode: '43604' },      // Industrial decline
+    { city: 'Youngstown', state: 'OH', zipCode: '44503' },  // Post-steel industry
+    { city: 'Syracuse', state: 'NY', zipCode: '13202' },    // Upstate economy
+    { city: 'Newark', state: 'NJ', zipCode: '07102' },      // Urban challenges
+    { city: 'Rochester', state: 'NY', zipCode: '14604' },   // Post-Kodak decline
+    { city: 'Akron', state: 'OH', zipCode: '44308' },       // Post-rubber industry
+    { city: 'Dayton', state: 'OH', zipCode: '45402' },      // Manufacturing decline
+    { city: 'Gary', state: 'IN', zipCode: '46402' },        // Steel city decline
+    { city: 'Camden', state: 'NJ', zipCode: '08102' },      // Urban poverty
+    { city: 'Bridgeport', state: 'CT', zipCode: '06604' },  // Industrial past
+    { city: 'Albany', state: 'GA', zipCode: '31701' },      // Rural economy
+    { city: 'Macon', state: 'GA', zipCode: '31201' },       // Lower wage market
+    { city: 'Chattanooga', state: 'TN', zipCode: '37402' }, // Industrial heritage
+    { city: 'Montgomery', state: 'AL', zipCode: '36104' },   // Lower cost market
+    { city: 'Columbus', state: 'GA', zipCode: '31901' },    // Military economy
+    { city: 'Huntsville', state: 'AL', zipCode: '35801' },  // Government dependent
+    { city: 'Mobile', state: 'AL', zipCode: '36602' },      // Port city challenges
+    { city: 'Knoxville', state: 'TN', zipCode: '37902' },   // Lower wage region
+    { city: 'Erie', state: 'PA', zipCode: '16501' },        // Industrial decline
+    { city: 'Utica', state: 'NY', zipCode: '13501' },       // Manufacturing loss
+    { city: 'Springfield', state: 'MA', zipCode: '01103' }, // Post-industrial
+    { city: 'Allentown', state: 'PA', zipCode: '18101' },   // Manufacturing past
+    { city: 'Wilmington', state: 'DE', zipCode: '19801' },  // Urban challenges
+    { city: 'Scranton', state: 'PA', zipCode: '18503' },    // Coal region decline
+    { city: 'Reading', state: 'PA', zipCode: '19601' },     // Manufacturing loss
+    { city: 'Harrisburg', state: 'PA', zipCode: '17101' },  // Government town
+    { city: 'Roanoke', state: 'VA', zipCode: '24011' },     // Railroad decline
+    { city: 'Binghamton', state: 'NY', zipCode: '13901' },  // Industrial past
+    { city: 'Saginaw', state: 'MI', zipCode: '48602' },     // Auto industry decline
+    { city: 'Canton', state: 'OH', zipCode: '44702' },      // Manufacturing loss
+    { city: 'Wheeling', state: 'WV', zipCode: '26003' } 
 ];
 
 const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
@@ -153,34 +186,49 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
+// Update job ID generation to remove spaces
+function generateJobId(company, type) {
+  return `${company.name.substring(0, 4).toUpperCase().replace(/\s+/g, '')}${Math.random().toString(36).substring(2, 8)}`;
+}
+
+// Update filename generation
+function generateFilename(company, title, location, jobId) {
+  return `${company.name.toLowerCase().replace(/\s+/g, '-')}-${title.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase()}.md`;
+}
+
+// Update createJob function to include neighboring cities
 async function createJob(location, jobType, company) {
   const datePosted = generateRecentDate();
   const validThrough = generateValidThrough(datePosted);
   const team = TEAMS[Math.floor(Math.random() * TEAMS.length)];
   const jobInfo = JOB_TYPES[jobType];
   const dynamicTitle = generateJobTitle(jobType, team, location);
-  const jobId = `${company.name.substring(0, 4).toUpperCase()}-${Math.random().toString(36).substring(2, 8)}`;
-
+  const jobId = generateJobId(company, jobType);
+  const locationDetail = getLocationSpecifics(location);
+  
   const { minValue, maxValue } = generateSalaryWithCents(jobInfo.minValue, jobInfo.maxValue);
 
   // Generate unique description with variations
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ 
       role: "user", 
-      content: `Create a unique job description for a ${dynamicTitle} position at ${company.name} in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points. Only use h2, h3, and h4 tags for headings, do not use h1.
+      content: `Create a unique job description for a ${dynamicTitle} position at ${company.name} in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points. Only use h2, h3, and h4 tags for headings, do not use h1. Do not use ticks to dispaly the markdown, just write the job description as is since this is going directly to the websites file which displays markdown. thank you!
+
+      Start off the description with paragraph text introducing the company, then use h2 - h4 tags after. I have an h1 on the page already. thank you!
 
 Key Details:
 - Experience Required: ${jobInfo.yearsExperience} years
 - Team: ${team}
 - Location: ${location.city}, ${location.state}
-- Local Requirements: State license requirements for ${location.state}
 
 Include specific details about:
-- Local market conditions
-- Regional industry focus
-- State-specific requirements
-- Company-specific benefits and culture`
+- Local market conditions and growth in ${location.city}
+- Major neighboring cities and service area
+- Regional industry focus and development
+- State-specific license requirements for ${location.state}
+- Company-specific benefits and culture
+- Local commercial and industrial projects`
     }],
     temperature: 0.8,
   });
@@ -224,7 +272,7 @@ Include specific details about:
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'support@primepartners.info'
+      'Michael.Mckeaige@pes123.com'
     ]
   };
 
@@ -233,7 +281,7 @@ Include specific details about:
   const finalContent = `${frontmatter}\n\n${fullDescription}`;
 
   // Create filename using company name
-  const filename = `${company.name.toLowerCase().replace(/\s+/g, '-')}-${dynamicTitle.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase()}.md`;
+  const filename = generateFilename(company, dynamicTitle, location, jobId);
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   
   fs.writeFileSync(filePath, finalContent);
