@@ -17,7 +17,7 @@ hiringOrganization:
   name: Howell Electric
   sameAs: 'https://howellelectric.com/'
   logo: >-
-    https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg
+    https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png
 jobLocation:
   streetAddress: 1000 S 1st St
   addressLocality: San Jose

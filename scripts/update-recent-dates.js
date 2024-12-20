@@ -104,7 +104,31 @@ jobFiles.forEach((file, index) => {
   console.log(`   Valid Through: ${validThrough.toLocaleString()}\n`);
 });
 
+// After processing the files, get the next job's date
 console.log('📝 Summary:');
 console.log(`✨ Updated ${updatedCount} job files`);
 console.log(`🕒 Last updated time: ${lastUpdatedDate.toLocaleString()}`);
-console.log(`\n✅ Update complete!\n`); 
+
+// Get the next job's date (the 76th job)
+const nextJobs = fs.readdirSync(jobsDir)
+  .filter(file => file.endsWith('.md'))
+  .map(file => {
+    const content = fs.readFileSync(path.join(jobsDir, file), 'utf8');
+    const { data } = matter(content);
+    return {
+      file,
+      datePosted: new Date(data.datePosted)
+    };
+  })
+  .sort((a, b) => a.datePosted - b.datePosted)
+  .filter(job => job.datePosted >= fromDate)
+  .slice(limit, limit + 1);
+
+if (nextJobs.length > 0) {
+  console.log('\n📍 Next job to update:');
+  console.log(`   File: ${nextJobs[0].file}`);
+  console.log(`   Date: ${nextJobs[0].datePosted.toLocaleString()}`);
+  console.log(`\n💡 Use this date for your next update:\n   --from="${nextJobs[0].datePosted.toISOString()}"`);
+}
+
+console.log('\n✅ Update complete!\n'); 
