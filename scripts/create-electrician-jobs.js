@@ -72,47 +72,17 @@ const WORK_ENVIRONMENTS = [
   { type: 'Residential', clients: ['Custom Homes', 'Multi-Family', 'Remodels'] }
 ];
 
-const LOCATIONS = [
-    { city: 'Detroit', state: 'MI', zipCode: '48201' },     // Traditionally industrial
-    { city: 'Cleveland', state: 'OH', zipCode: '44113' },   // Rust belt city
-    { city: 'Buffalo', state: 'NY', zipCode: '14201' },     // Post-industrial
-    { city: 'Baltimore', state: 'MD', zipCode: '21202' },   // Urban challenges
-    { city: 'Memphis', state: 'TN', zipCode: '38103' },     // Lower cost of living
-    { city: 'Birmingham', state: 'AL', zipCode: '35203' },  // Industrial heritage
-    { city: 'Jackson', state: 'MS', zipCode: '39201' },     // Lower median income
-    { city: 'Augusta', state: 'GA', zipCode: '30901' },     // Lower wage region
-    { city: 'Flint', state: 'MI', zipCode: '48502' },       // Economic challenges
-    { city: 'Toledo', state: 'OH', zipCode: '43604' },      // Industrial decline
-    { city: 'Youngstown', state: 'OH', zipCode: '44503' },  // Post-steel industry
-    { city: 'Syracuse', state: 'NY', zipCode: '13202' },    // Upstate economy
-    { city: 'Newark', state: 'NJ', zipCode: '07102' },      // Urban challenges
-    { city: 'Rochester', state: 'NY', zipCode: '14604' },   // Post-Kodak decline
-    { city: 'Akron', state: 'OH', zipCode: '44308' },       // Post-rubber industry
-    { city: 'Dayton', state: 'OH', zipCode: '45402' },      // Manufacturing decline
-    { city: 'Gary', state: 'IN', zipCode: '46402' },        // Steel city decline
-    { city: 'Camden', state: 'NJ', zipCode: '08102' },      // Urban poverty
-    { city: 'Bridgeport', state: 'CT', zipCode: '06604' },  // Industrial past
-    { city: 'Albany', state: 'GA', zipCode: '31701' },      // Rural economy
-    { city: 'Macon', state: 'GA', zipCode: '31201' },       // Lower wage market
-    { city: 'Chattanooga', state: 'TN', zipCode: '37402' }, // Industrial heritage
-    { city: 'Montgomery', state: 'AL', zipCode: '36104' },   // Lower cost market
-    { city: 'Columbus', state: 'GA', zipCode: '31901' },    // Military economy
-    { city: 'Huntsville', state: 'AL', zipCode: '35801' },  // Government dependent
-    { city: 'Mobile', state: 'AL', zipCode: '36602' },      // Port city challenges
-    { city: 'Knoxville', state: 'TN', zipCode: '37902' },   // Lower wage region
-    { city: 'Erie', state: 'PA', zipCode: '16501' },        // Industrial decline
-    { city: 'Utica', state: 'NY', zipCode: '13501' },       // Manufacturing loss
-    { city: 'Springfield', state: 'MA', zipCode: '01103' }, // Post-industrial
-    { city: 'Allentown', state: 'PA', zipCode: '18101' },   // Manufacturing past
-    { city: 'Wilmington', state: 'DE', zipCode: '19801' },  // Urban challenges
-    { city: 'Scranton', state: 'PA', zipCode: '18503' },    // Coal region decline
-    { city: 'Reading', state: 'PA', zipCode: '19601' },     // Manufacturing loss
-    { city: 'Harrisburg', state: 'PA', zipCode: '17101' },  // Government town
-    { city: 'Roanoke', state: 'VA', zipCode: '24011' },     // Railroad decline
-    { city: 'Binghamton', state: 'NY', zipCode: '13901' },  // Industrial past
-    { city: 'Saginaw', state: 'MI', zipCode: '48602' },     // Auto industry decline
-    { city: 'Canton', state: 'OH', zipCode: '44702' },      // Manufacturing loss
-    { city: 'Wheeling', state: 'WV', zipCode: '26003' } 
+const LOCATIONS = [      // Research triangle
+ { city: 'Greensboro', state: 'NC', zipCode: '27401' },    // Manufacturing hub
+ { city: 'Winston-Salem', state: 'NC', zipCode: '27101' }, // Banking center
+ { city: 'Augusta', state: 'GA', zipCode: '30901' },       // Golf tourism
+ { city: 'Gainesville', state: 'FL', zipCode: '32601' },   // College town
+ { city: 'Wilmington', state: 'NC', zipCode: '28401' },    // Coastal hub
+ { city: 'Pensacola', state: 'FL', zipCode: '32502' },     // Military base city
+ { city: 'Charleston', state: 'WV', zipCode: '25301' },    // State capital
+ { city: 'Lynchburg', state: 'VA', zipCode: '24504' },     // College town
+ { city: 'Myrtle Beach', state: 'SC', zipCode: '29577' },  // Tourist destination
+ { city: 'Fayetteville', state: 'NC', zipCode: '28301' } 
 ];
 
 const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
@@ -213,24 +183,47 @@ async function createJob(location, jobType, company) {
     model: "gpt-4o",
     messages: [{ 
       role: "user", 
-      content: `Create a unique job description for a ${dynamicTitle} position at ${company.name} in ${location.city}, ${location.state}. Format the response in markdown with clear sections and bullet points. Only use h2, h3, and h4 tags for headings, do not use h1. Do not use ticks to dispaly the markdown, just write the job description as is since this is going directly to the websites file which displays markdown. thank you!
+      content: `Create a traditional job description for a ${dynamicTitle} position at ${company.name} in ${location.city}, ${location.state}. Format in markdown without h1 tags.
 
-      Start off the description with paragraph text introducing the company, then use h2 - h4 tags after. I have an h1 on the page already. thank you!
+## About ${company.name}
+[Brief company introduction]
 
-Key Details:
-- Experience Required: ${jobInfo.yearsExperience} years
-- Team: ${team}
-- Location: ${location.city}, ${location.state}
+## Position Overview
+[Brief overview of the ${dynamicTitle} role in ]
 
-Include specific details about:
-- Local market conditions and growth in ${location.city}
-- Major neighboring cities and service area
-- Regional industry focus and development
-- State-specific license requirements for ${location.state}
-- Company-specific benefits and culture
-- Local commercial and industrial projects`
+## Essential Functions
+- [Key responsibilities in this specific trade, be specific]
+- [Daily tasks]
+- [Project involvement]
+
+## Required Qualifications
+- ${jobInfo.yearsExperience} years of electrical experience
+- Valid electrical license for ${location.state}
+- Required certifications and training
+- Physical requirements
+- Safety knowledge
+
+## Preferred Qualifications
+- Additional certifications for ${dynamicTitle} role
+- Specialized experience
+- Tool proficiency for ${dynamicTitle} trade
+
+## Location & Schedule
+- Primary location: ${location.city}, ${location.state}
+- List cities neighboring ${location.city}, ${location.state}
+- Schedule: Full-time (make up shifts)
+
+## Compensation & Benefits
+- Pay range: $${minValue}-$${maxValue} per hour
+- Medical, dental, vision insurance
+- 401(k) with company match
+
+## Additional Information
+- ${location.state} State license requirements (if applicable)
+- Safety requirements
+- Growth opportunities`
     }],
-    temperature: 0.8,
+    temperature: 0.7,
   });
 
   const fullDescription = completion.choices[0].message.content;
