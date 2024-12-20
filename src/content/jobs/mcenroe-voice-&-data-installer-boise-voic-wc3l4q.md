@@ -24,8 +24,8 @@ description: >-
   1. Install, troubleshoot, and maintain voice and data communication syst...
 location: 'Boise, ID'
 team: Commercial
-datePosted: '2024-12-15T16:56:27.187Z'
-validThrough: '2025-02-13T16:56:27.187Z'
+datePosted: '2024-12-20T16:39:08.971Z'
+validThrough: '2025-02-02T16:39:08.971Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

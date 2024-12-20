@@ -47,8 +47,8 @@ description: >-
   commercial electrical systems, tools, and techniques.
 location: 'Chula Vista, CA'
 team: Commercial
-datePosted: '2024-12-14T14:54:15.030Z'
-validThrough: '2025-01-16T14:54:15.030Z'
+datePosted: '2024-12-20T16:11:31.293Z'
+validThrough: '2025-01-27T16:11:31.293Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Royal Electric

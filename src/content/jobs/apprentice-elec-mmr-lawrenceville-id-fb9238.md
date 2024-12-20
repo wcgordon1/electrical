@@ -26,8 +26,8 @@ description: >-
   environments.
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-14T10:36:05.137Z'
-validThrough: '2025-01-28T10:36:05.137Z'
+datePosted: '2024-12-20T16:07:37.435Z'
+validThrough: '2025-02-01T16:07:37.435Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -24,8 +24,8 @@ description: >-
   1. Install, test, and troublesh...
 location: 'Columbus, OH'
 team: Commercial
-datePosted: '2024-12-15T16:57:33.650Z'
-validThrough: '2025-02-13T16:57:33.650Z'
+datePosted: '2024-12-20T13:41:18.370Z'
+validThrough: '2025-01-27T13:41:18.370Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

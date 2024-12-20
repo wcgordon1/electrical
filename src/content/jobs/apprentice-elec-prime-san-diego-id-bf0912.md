@@ -42,8 +42,8 @@ description: >-
   AM – 3:30 PM, with potential overtime and occasional weekend projects.
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-14T22:10:38.004Z'
-validThrough: '2025-01-24T22:10:38.004Z'
+datePosted: '2024-12-20T09:15:14.676Z'
+validThrough: '2025-02-02T09:15:14.676Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

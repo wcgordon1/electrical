@@ -64,8 +64,8 @@ description: >-
   emergency needs. Participation in the on-call rotation is required.
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-14T12:15:42.897Z'
-validThrough: '2025-01-20T12:15:42.897Z'
+datePosted: '2024-12-20T09:02:59.691Z'
+validThrough: '2025-01-21T09:02:59.691Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -8,8 +8,8 @@ description: >-
   single-mode and multi-mode fiber optic cables.
 location: 'Chantilly, VA'
 team: Commercial
-datePosted: '2024-12-15T13:23:22.078Z'
-validThrough: '2025-01-28T13:23:22.078Z'
+datePosted: '2024-12-20T16:20:09.975Z'
+validThrough: '2025-01-19T16:20:09.975Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications

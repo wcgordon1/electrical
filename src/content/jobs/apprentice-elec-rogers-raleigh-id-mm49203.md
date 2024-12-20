@@ -22,8 +22,8 @@ description: >-
   company.
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-15T12:42:48.216Z'
-validThrough: '2025-01-28T12:42:48.216Z'
+datePosted: '2024-12-20T10:57:50.744Z'
+validThrough: '2025-01-31T10:57:50.744Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

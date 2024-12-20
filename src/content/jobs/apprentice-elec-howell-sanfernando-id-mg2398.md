@@ -65,8 +65,8 @@ description: >-
   high-demand environments like big-box retail sites.
 location: 'San Fernando, CA'
 team: Commercial
-datePosted: '2024-12-15T09:05:58.507Z'
-validThrough: '2025-01-15T09:05:58.507Z'
+datePosted: '2024-12-20T10:48:54.226Z'
+validThrough: '2025-01-19T10:48:54.226Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

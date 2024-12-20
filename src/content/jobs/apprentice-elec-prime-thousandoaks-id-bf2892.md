@@ -46,8 +46,8 @@ description: >-
   projects.
 location: 'Thousand Oaks, CA'
 team: Commercial
-datePosted: '2024-12-14T16:10:43.942Z'
-validThrough: '2025-01-27T16:10:43.942Z'
+datePosted: '2024-12-20T12:01:27.627Z'
+validThrough: '2025-02-03T12:01:27.627Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

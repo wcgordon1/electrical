@@ -26,8 +26,8 @@ description: >-
   2. Per...
 location: 'Blythe, CA'
 team: Solar
-datePosted: '2024-12-15T17:33:12.103Z'
-validThrough: '2025-02-13T17:33:12.103Z'
+datePosted: '2024-12-20T15:14:49.024Z'
+validThrough: '2025-01-23T15:14:49.024Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

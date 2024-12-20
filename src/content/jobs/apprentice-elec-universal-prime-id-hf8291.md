@@ -32,8 +32,8 @@ description: >-
   development. Paid time off and holidays
 location: 'Silver Lake, CA'
 team: Commercial
-datePosted: '2024-12-14T17:41:04.130Z'
-validThrough: '2025-01-28T17:41:04.130Z'
+datePosted: '2024-12-20T15:02:23.204Z'
+validThrough: '2025-02-01T15:02:23.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

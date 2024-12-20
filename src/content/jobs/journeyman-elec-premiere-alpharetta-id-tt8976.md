@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-14T21:48:41.737Z'
-validThrough: '2025-01-13T21:48:41.737Z'
+datePosted: '2024-12-20T08:07:05.910Z'
+validThrough: '2025-01-29T08:07:05.910Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

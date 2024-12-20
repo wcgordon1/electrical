@@ -27,8 +27,8 @@ description: >-
   Knowledge of medical gas systems ICRA certification BAS experience
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-14T17:22:56.190Z'
-validThrough: '2025-01-24T17:22:56.190Z'
+datePosted: '2024-12-20T13:57:46.508Z'
+validThrough: '2025-01-26T13:57:46.508Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

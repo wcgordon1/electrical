@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Charleston, SC'
 team: Commercial
-datePosted: '2024-12-15T06:36:33.370Z'
-validThrough: '2025-01-18T06:36:33.370Z'
+datePosted: '2024-12-20T17:31:37.449Z'
+validThrough: '2025-01-25T17:31:37.449Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

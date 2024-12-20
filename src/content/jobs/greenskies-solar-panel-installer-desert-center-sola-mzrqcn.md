@@ -26,8 +26,8 @@ description: >-
   1. Install, inspect, maintain, ...
 location: 'Desert Center, CA'
 team: Solar
-datePosted: '2024-12-15T17:32:26.782Z'
-validThrough: '2025-02-13T17:32:26.782Z'
+datePosted: '2024-12-20T15:07:26.467Z'
+validThrough: '2025-01-22T15:07:26.467Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

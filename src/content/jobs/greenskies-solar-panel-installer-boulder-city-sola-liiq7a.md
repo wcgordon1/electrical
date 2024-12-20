@@ -24,8 +24,8 @@ description: >-
   1. Inst...
 location: 'Boulder City, NV'
 team: Solar
-datePosted: '2024-12-15T17:32:56.206Z'
-validThrough: '2025-02-13T17:32:56.206Z'
+datePosted: '2024-12-20T14:13:20.982Z'
+validThrough: '2025-01-28T14:13:20.982Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

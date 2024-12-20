@@ -50,8 +50,8 @@ description: >-
   Take the first step toward an electrifying career—apply now!
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-15T08:03:20.796Z'
-validThrough: '2025-01-25T08:03:20.796Z'
+datePosted: '2024-12-20T11:28:00.900Z'
+validThrough: '2025-02-02T11:28:00.900Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

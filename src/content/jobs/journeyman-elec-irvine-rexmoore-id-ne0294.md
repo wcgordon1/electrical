@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-14T09:15:46.148Z'
-validThrough: '2025-01-28T09:15:46.148Z'
+datePosted: '2024-12-20T13:30:54.110Z'
+validThrough: '2025-01-26T13:30:54.110Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-15T04:24:22.843Z'
-validThrough: '2025-01-15T04:24:22.843Z'
+datePosted: '2024-12-20T09:40:57.519Z'
+validThrough: '2025-01-22T09:40:57.519Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

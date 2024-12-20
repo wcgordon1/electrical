@@ -26,8 +26,8 @@ description: >-
   - Install and troubleshoot voice an...
 location: 'Jacksonville, FL'
 team: Commercial
-datePosted: '2024-12-15T16:57:57.789Z'
-validThrough: '2025-02-13T16:57:57.789Z'
+datePosted: '2024-12-20T12:26:45.563Z'
+validThrough: '2025-01-29T12:26:45.563Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

@@ -25,8 +25,8 @@ description: >-
   exciting commercial projects in Roswell and surrounding areas.
 location: 'Roswell, GA'
 team: Commercial
-datePosted: '2024-12-15T01:42:40.052Z'
-validThrough: '2025-01-17T01:42:40.052Z'
+datePosted: '2024-12-20T16:05:15.621Z'
+validThrough: '2025-02-02T16:05:15.621Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

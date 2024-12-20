@@ -26,8 +26,8 @@ description: >-
   system...
 location: 'Indianapolis, IN'
 team: Commercial
-datePosted: '2024-12-15T16:57:10.550Z'
-validThrough: '2025-02-13T16:57:10.550Z'
+datePosted: '2024-12-20T17:17:41.962Z'
+validThrough: '2025-01-19T17:17:41.962Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

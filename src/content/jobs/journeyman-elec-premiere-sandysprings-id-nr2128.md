@@ -29,8 +29,8 @@ description: >-
   certification
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-14T17:49:13.698Z'
-validThrough: '2025-01-16T17:49:13.698Z'
+datePosted: '2024-12-20T08:11:02.699Z'
+validThrough: '2025-01-29T08:11:02.699Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

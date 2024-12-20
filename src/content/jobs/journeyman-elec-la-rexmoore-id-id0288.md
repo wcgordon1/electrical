@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-15T16:40:03.340Z'
-validThrough: '2025-01-15T16:40:03.340Z'
+datePosted: '2024-12-20T09:09:07.227Z'
+validThrough: '2025-01-30T09:09:07.227Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

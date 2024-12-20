@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-14T21:55:35.590Z'
-validThrough: '2025-01-23T21:55:35.590Z'
+datePosted: '2024-12-20T10:14:25.203Z'
+validThrough: '2025-01-25T10:14:25.203Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berg Electric

@@ -14,7 +14,8 @@
     "create-jobs": "node scripts/create-jobs.js",
     "create-varied-jobs": "node scripts/create-varied-jobs.js",
     "create-electrician-jobs": "node scripts/create-electrician-jobs.js",
-    "create-cable-jobs": "node scripts/create-cable-jobs.js"
+    "create-cable-jobs": "node scripts/create-cable-jobs.js",
+    "update-recent-dates": "node scripts/update-recent-dates.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
