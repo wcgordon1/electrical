@@ -1,8 +1,6 @@
 ---
-position: Security Tech
+position: Security Technician
 description: >-
-  ## Position Overview
-
   Telco Data, a leader in security technologies, is seeking an experienced
   Security Tech professional to join our Alexandria, VA team. This role will
   primarily focus on supporting security technologies in healthcare environments
@@ -35,7 +33,7 @@ benefits:
   - 401k Match
   - Performance Bonuses
   - Tool Allowance
-datePosted: '2024-12-17T23:37:43.725Z'
+datePosted: '2024-12-20T23:37:43.725Z'
 validThrough: '2025-01-21T23:37:43.725Z'
 employmentType: FULL_TIME
 hiringOrganization:
@@ -52,15 +50,15 @@ jobLocation:
 baseSalary:
   currency: USD
   value: 30
-  minValue: 25
-  maxValue: 35
+  minValue: 32
+  maxValue: 38
   unitText: HOUR
 experienceRequirements: midLevel
 occupationalCategory: Security
 identifier:
   name: Telco Data
   value: SECU-xh3jaj
-featured: false
+featured: true
 email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
