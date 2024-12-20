@@ -1,9 +1,4 @@
 const COMPANIES = {
-  'Mirapath': {
-    name: 'Mirapath',
-    sameAs: 'https://www.mirapath.com/',
-    logo: 'https://mirapath.com/wp-content/uploads/2016/12/s5_logo-cropped.png'
-  },
   'T&D Communications': {
     name: 'T&D Communications',
     sameAs: 'https://www.tanddcomm.com/',
@@ -62,37 +57,21 @@ const COMPANIES = {
 };
   
   const JOB_TYPES = {
-    'Fire Alarm Tech': {
+    'Low Voltage Cable Technician': {
       minValue: 25,
       maxValue: 31,
       experienceLevel: 'midLevel',
-      category: 'Fire Alarm',
+      category: 'Voice Data',
       yearsExperience: '2-4',
-      prompt: 'Write a job description for a Fire Alarm Technician responsible for installing and servicing fire alarm systems, including programming and testing of control panels, smoke detectors, and notification devices.'
+      prompt: 'Write a job description for a Low Voltage Cable Technician responsible for installing and servicing low voltage voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment, mainly hospitals and office buildings.'
     },
-    'Security Systems Tech': {
-      minValue: 28,
-      maxValue: 33,
+    'Cable Technician': {
+      minValue: 25,
+      maxValue: 30,
       experienceLevel: 'midLevel',
-      category: 'Security',
+      category: 'Voice Data',
       yearsExperience: '2-5',
-      prompt: 'Craft a job description for a Security Systems Technician specializing in the installation, configuration, and maintenance of security systems, including access control, CCTV, and intrusion detection systems in a commercial construction environment, mainly hospitals and office buildings.'
-    },
-    'Data Center Cable Tech': {
-      minValue: 27,
-      maxValue: 33,
-      experienceLevel: 'midLevel',
-      category: 'Data Center',
-      yearsExperience: '3-6',
-      prompt: 'Create a job description for a Data Center Cable Technician responsible for planning, installing, and managing high-density cable infrastructures, including rack and stack work and dressing and terminating cabling, in data center environments.'
-    },
-    'AV Systems Tech': {
-      minValue: 28,
-      maxValue: 34,
-      experienceLevel: 'midLevel',
-      category: 'Audio Visual',
-      yearsExperience: '3-5',
-      prompt: 'Develop a job description for an AV Systems Technician specializing in the design, installation, and integration of audio/visual systems, including sound reinforcement, video conferencing, and control systems.'
+      prompt: 'Craft a job description for a cable technician specializing in the installation, configuration, and maintenance of voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment. terminating patch panels and running cable to the patch panel. terminating 110 and 66 blocks. '
     }
   };
   
@@ -101,78 +80,23 @@ const COMPANIES = {
   ];
   
   const CERTIFICATIONS = {
-    'Fire Alarm': [
-      'NICET Level II Fire Alarm Systems',
-      'Edwards EST Certification',
-      'Notifier Certification',
-      'Simplex 4100 Certification',
-      'OSHA 10'
-    ],
-    'Security': [
+    'Voice Data': [
       'BICSI Technician',
-      'Axis Certification',
-      'Genetec Certification',
-      'Lenel Certification',
-      'AMAG Certification'
-    ],
-    'Data Center': [
-      'BICSI Data Center Design',
-      'CDCDP/CDCP',
-      'Fiber Optic Certification',
-      'Corning Certification',
-      'Panduit Certification'
-    ],
-    'Network': [
       'BICSI Installer 2',
-      'CommScope Certification',
-      'Siemon Certified Installer',
-      'Belden Certification',
-      'Systimax Certification'
-    ],
-    'Audio Visual': [
-      'CTS Installation',
-      'Crestron Certification',
-      'Extron Certification',
-      'Biamp Certification',
-      'QSC Certification'
+      'Fiber Optic Certification',
+      'Network+ Certification',
+      'OSHA 10'
     ]
   };
   
   const TOOLS_AND_TECH = {
-    'Fire Alarm': [
-      'Edwards EST Systems',
-      'Notifier Systems',
-      'Simplex Systems',
-      'Fire-Lite Systems',
-      'Silent Knight Systems'
-    ],
-    'Security': [
-      'Genetec Security Center',
-      'Lenel OnGuard',
-      'AMAG Symmetry',
-      'Milestone XProtect',
-      'Axis Camera Station'
-    ],
-    'Data Center': [
-      'Panduit Cable Management',
-      'Corning Fiber Systems',
-      'CommScope Infrastructure',
-      'Chatsworth Products',
-      'Fluke Testing Equipment'
-    ],
-    'Network': [
-      'CommScope/Systimax',
-      'Panduit Systems',
-      'Belden/CDT',
-      'Siemon Systems',
-      'Leviton Systems'
-    ],
-    'Audio Visual': [
-      'Crestron Control Systems',
-      'Extron Electronics',
-      'Biamp Audio Systems',
-      'QSC Q-SYS',
-      'AMX Control Systems'
+    'Voice Data': [
+      'Cable Testers',
+      'Fiber Optic Tools',
+      'Punch Down Tools',
+      'Wire Mapping Tools',
+      'Termination Equipment',
+      'Cable Management Systems'
     ]
   };
   
@@ -188,68 +112,62 @@ const COMPANIES = {
   ];
   
   const LOCATIONS = [      
-    { city: 'Culver City', state: 'CA', zipCode: '90232' },      // LA tech hub
-    { city: 'Torrance', state: 'CA', zipCode: '90501' },         // LA South Bay
-    { city: 'Rancho Santa Margarita', state: 'CA', zipCode: '92688' }, // OC
-    { city: 'Aliso Viejo', state: 'CA', zipCode: '92656' },      // South OC
-    { city: 'Foothill Ranch', state: 'CA', zipCode: '92610' },    // OC commercial
-    { city: 'Lake Forest', state: 'CA', zipCode: '92630' },       // OC business
-    { city: 'Ladera Ranch', state: 'CA', zipCode: '92694' },      // South OC
-    { city: 'Mission Viejo', state: 'CA', zipCode: '92691' },     // OC planned
-    { city: 'Laguna Hills', state: 'CA', zipCode: '92653' },      // OC business
-    { city: 'Costa Mesa', state: 'CA', zipCode: '92626' },        // OC commercial
-    { city: 'Tustin', state: 'CA', zipCode: '92780' },            // OC tech
-    { city: 'Fountain Valley', state: 'CA', zipCode: '92708' },    // OC business
-    { city: 'Placentia', state: 'CA', zipCode: '92870' },         // North OC
-    { city: 'Yorba Linda', state: 'CA', zipCode: '92886' },       // OC planned
-    { city: 'Cypress', state: 'CA', zipCode: '90630' },           // OC business
-    { city: 'Los Alamitos', state: 'CA', zipCode: '90720' },      // OC commercial
-    { city: 'La Palma', state: 'CA', zipCode: '90623' },          // OC business
-    { city: 'Foster City', state: 'CA', zipCode: '94404' },       // SF Peninsula
-    { city: 'San Carlos', state: 'CA', zipCode: '94070' },        // SF tech
-    { city: 'Menlo Park', state: 'CA', zipCode: '94025' },        // Silicon Valley
-    { city: 'Mountain View', state: 'CA', zipCode: '94043' },     // Silicon Valley
-    { city: 'Cupertino', state: 'CA', zipCode: '95014' },         // Silicon Valley
-    { city: 'Campbell', state: 'CA', zipCode: '95008' },          // San Jose area
-    { city: 'Sunnyvale', state: 'CA', zipCode: '94089' },         // Silicon Valley
-    { city: 'Santa Clara', state: 'CA', zipCode: '95054' },       // Silicon Valley
-    { city: 'Milpitas', state: 'CA', zipCode: '95035' },          // San Jose area
-    { city: 'Union City', state: 'CA', zipCode: '94587' },        // East Bay
-    { city: 'San Ramon', state: 'CA', zipCode: '94583' },         // East Bay
-    { city: 'Pleasant Hill', state: 'CA', zipCode: '94523' },     // East Bay
-    { city: 'Walnut Creek', state: 'CA', zipCode: '94598' },      // East Bay
-    { city: 'Emeryville', state: 'CA', zipCode: '94608' },        // East Bay tech
-    { city: 'San Rafael', state: 'CA', zipCode: '94901' },        // North Bay
-    { city: 'Larkspur', state: 'CA', zipCode: '94939' },          // North Bay
-    { city: 'Corte Madera', state: 'CA', zipCode: '94925' },      // North Bay
-    { city: 'Mill Valley', state: 'CA', zipCode: '94941' },       // North Bay
-    { city: 'Sausalito', state: 'CA', zipCode: '94965' },         // North Bay
-    { city: 'Tiburon', state: 'CA', zipCode: '94920' },
-    { city: 'Los Angeles', state: 'CA', zipCode: '90012' },    // ~3.9 million
-    { city: 'Houston', state: 'TX', zipCode: '77002' },        // ~2.3 million
-    { city: 'Phoenix', state: 'AZ', zipCode: '85004' },        // ~1.6 million
-    { city: 'San Antonio', state: 'TX', zipCode: '78205' },    // ~1.5 million
-    { city: 'San Diego', state: 'CA', zipCode: '92101' },      // ~1.4 million
-    { city: 'Dallas', state: 'TX', zipCode: '75201' },         // ~1.3 million
-    { city: 'San Jose', state: 'CA', zipCode: '95113' },       // ~1 million
-    { city: 'Austin', state: 'TX', zipCode: '78701' },         // ~960,000
-    { city: 'Fort Worth', state: 'TX', zipCode: '76102' },     // ~920,000
-    { city: 'Denver', state: 'CO', zipCode: '80202' },         // ~730,000
-    { city: 'El Paso', state: 'TX', zipCode: '79901' },        // ~680,000
-    { city: 'Seattle', state: 'WA', zipCode: '98104' },        // ~730,000
-    { city: 'Portland', state: 'OR', zipCode: '97204' },       // ~650,000
-    { city: 'Las Vegas', state: 'NV', zipCode: '89101' },      // ~640,000
-    { city: 'Oklahoma City', state: 'OK', zipCode: '73102' },
-    { city: 'Indianapolis', state: 'IN', zipCode: '46204' },  // State capital, logistics
-    { city: 'Columbus', state: 'OH', zipCode: '43215' },      // State capital, tech growth
-    { city: 'Detroit', state: 'MI', zipCode: '48226' },       // Auto industry hub
-    { city: 'Milwaukee', state: 'WI', zipCode: '53202' },     // Manufacturing center
-    { city: 'Kansas City', state: 'MO', zipCode: '64106' },   // Transportation hub
-    { city: 'Omaha', state: 'NE', zipCode: '68102' },         // Insurance/finance center
-    { city: 'Minneapolis', state: 'MN', zipCode: '55401' },   // Corporate headquarters
-    { city: 'St. Louis', state: 'MO', zipCode: '63101' },     // Major river port
-    { city: 'Cincinnati', state: 'OH', zipCode: '45202' },    // Manufacturing/retail
-    { city: 'Cleveland', state: 'OH', zipCode: '44113' }     
+    { city: 'Pinedale', state: 'WY', zipCode: '82941' },
+  { city: 'Jackson', state: 'WY', zipCode: '83001' },          // Near Pinedale
+  { city: 'Rock Springs', state: 'WY', zipCode: '82901' },     // Near Pinedale
+  
+  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
+  { city: 'Durham', state: 'NC', zipCode: '27701' },           // Near Raleigh
+  { city: 'Cary', state: 'NC', zipCode: '27511' },            // Near Raleigh
+  
+  { city: 'Athens', state: 'GA', zipCode: '30601' },
+  { city: 'Watkinsville', state: 'GA', zipCode: '30677' },     // Near Athens
+  { city: 'Commerce', state: 'GA', zipCode: '30529' },         // Near Athens
+  
+  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
+  { city: 'Sandy Springs', state: 'GA', zipCode: '30328' },    // Near Atlanta
+  { city: 'Smyrna', state: 'GA', zipCode: '30080' },          // Near Atlanta
+  
+  { city: 'Marietta', state: 'GA', zipCode: '30060' },
+  { city: 'Kennesaw', state: 'GA', zipCode: '30144' },        // Near Marietta
+  { city: 'Woodstock', state: 'GA', zipCode: '30188' },       // Near Marietta
+  
+  { city: 'Gainesville', state: 'GA', zipCode: '30501' },
+  { city: 'Flowery Branch', state: 'GA', zipCode: '30542' },   // Near Gainesville
+  { city: 'Oakwood', state: 'GA', zipCode: '30566' },
+  { city: 'Denver', state: 'CO', zipCode: '80202' },
+  { city: 'Lakewood', state: 'CO', zipCode: '80226' },        // Near Denver
+  { city: 'Aurora', state: 'CO', zipCode: '80012' },          // Near Denver
+ 
+  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
+  { city: 'Fountain', state: 'CO', zipCode: '80817' },        // Near CO Springs
+  { city: 'Monument', state: 'CO', zipCode: '80132' },        // Near CO Springs
+ 
+  { city: 'Fort Collins', state: 'CO', zipCode: '80524' },
+  { city: 'Loveland', state: 'CO', zipCode: '80538' },        // Near Fort Collins
+  { city: 'Greeley', state: 'CO', zipCode: '80631' },         // Near Fort Collins
+ 
+  { city: 'Boulder', state: 'CO', zipCode: '80302' },
+  { city: 'Louisville', state: 'CO', zipCode: '80027' },      // Near Boulder
+  { city: 'Longmont', state: 'CO', zipCode: '80501' },        // Near Boulder
+ 
+  // Virginia Groupings
+  { city: 'Richmond', state: 'VA', zipCode: '23219' },
+  { city: 'Glen Allen', state: 'VA', zipCode: '23060' },      // Near Richmond
+  { city: 'Midlothian', state: 'VA', zipCode: '23113' },      // Near Richmond
+ 
+  { city: 'Virginia Beach', state: 'VA', zipCode: '23452' },
+  { city: 'Norfolk', state: 'VA', zipCode: '23510' },         // Near VA Beach
+  { city: 'Chesapeake', state: 'VA', zipCode: '23320' },      // Near VA Beach
+ 
+  { city: 'Arlington', state: 'VA', zipCode: '22201' },
+  { city: 'Alexandria', state: 'VA', zipCode: '22314' },      // Near Arlington
+  { city: 'Falls Church', state: 'VA', zipCode: '22046' },    // Near Arlington
+ 
+  { city: 'Roanoke', state: 'VA', zipCode: '24011' },
+  { city: 'Salem', state: 'VA', zipCode: '24153' },           // Near Roanoke
+  { city: 'Vinton', state: 'VA', zipCode: '24179' }  
+
   ];
   
   const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
