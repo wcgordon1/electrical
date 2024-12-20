@@ -56,9 +56,11 @@ npm run create-electrician-jobs
 # Update jobs from last 7 days
 npm run update-dates -- --days=7
 
-# Or specify a date range
-npm run update-dates -- --from="2024-01-01" --to="2024-01-15"
-
 
 git reset --hard
 git clean -fd
+npm run update-dates -- --from="2024-12-10" --to="2024-12-14"
+
+npm run create-electrician-jobs
+
+npm run create-cable-jobs
