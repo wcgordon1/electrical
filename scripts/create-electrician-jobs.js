@@ -1,47 +1,81 @@
 const COMPANIES = {
-  'TEC Electric': {
-    name: 'TEC Electric',
-    sameAs: 'https://tec-electric.com/',
-    logo: 'https://tec-electric.com/wp-content/themes/tec-electric/imgs/tec-logo.png'
+  'Convergint': {
+    name: 'Convergint',
+    sameAs: 'https://www.convergint.com/',
+    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
   },
-  'Howell Electric': {
-    name: 'Howell Electric',
-    sameAs: 'https://www.howellelectric.com/',
-    logo: 'https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png'
+  'West Coast Fire': {
+    name: 'West Coast Fire',
+    sameAs: 'https://westcoastfireinc.com/',
+    logo: 'https://westcoastfireinc.com/wp-content/uploads/2024/04/WCFI_logo_V1_Transparent-1-800x294.png'
   },
-  'Rex Moore Electric': {
-    name: 'Rex Moore Electric',
-    sameAs: 'https://www.rexmoore.com/',
-    logo: 'https://www.rexmoore.com/wp-content/uploads/2022/03/100-years.png'
+  'Staley Technologies': {
+    name: 'Staley Technologies',
+    sameAs: 'https://staleytechnologies.com/',
+    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
   },
-  'Helix Electric': {
-    name: 'Helix Electric',
-    sameAs: 'https://www.helixelectric.com/',
-    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
+  'Prime Partners': {
+    name: 'Prime Partners',
+    sameAs: 'https://www.primepartners.com/',
+    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png'
   },
-  'IES Electric': {
-    name: 'IES Electric',
-    sameAs: 'https://iesci.net/',
-    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
+  'Valley Alarm': {
+    name: 'Valley Alarm',
+    sameAs: 'https://valleyalarm.com/',
+    logo: 'https://www.valleyalarm.com/wp-content/uploads/2024/07/Valley-Alarm-Logo-web.png'
+  },
+  'Alert 360': {
+    name: 'Alert 360',
+    sameAs: 'https://alert360.com/',
+    logo: 'https://www.alert360.com/sites/default/files/Alert%20360%20Santa-01%202.png'
+  },
+  'Safe and Sound': {
+    name: 'Safe and Sound',
+    sameAs: 'https://getsafeandsound.com/',
+    logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
   }
 };
 
 const JOB_TYPES = {
-  'Apprentice Electrician': {
-    minValue: 22,
-    maxValue: 28,
+  'Security Project Manager': {
+    minValue: 45,
+    maxValue: 55,
     experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    yearsExperience: '0-2',
-    prompt: 'Create a detailed job description for an Apprentice Electrician position. Focus on learning opportunities, safety training, and basic electrical skills.'
+    category: 'Project Management',
+    yearsExperience: '3-5',
+    prompt: 'Create a detailed job description for an experienced Security Project Manager position. Focus on project management, client interaction, and team leadership overseeing commercial constructuion projects involving cctv, access control, and alarm systems.'
   },
-  'Journeyman Electrician': {
-    minValue: 37,
-    maxValue: 44,
+  'Security Alarm Project Manager': {
+    minValue: 38,
+    maxValue: 45,
     experienceLevel: 'midLevel',
-    category: 'Journeyman',
-    yearsExperience: '4-8',
-    prompt: 'Create a job description for an experienced Journeyman Electrician. Include commercial/industrial experience, code knowledge, and leadership responsibilities.'
+    category: 'Project Management',
+    yearsExperience: '3-5',
+    prompt: 'Create a job description for an experienced commercial project manager. Include commercial experience, code knowledge, and leadership responsibilities for low voltage security alarm systems including access control.'
+  },
+  'Junior Project Manager': {
+    minValue: 22,
+    maxValue: 30,
+    experienceLevel: 'entryLevel',
+    category: 'Project Management',
+    yearsExperience: '0-2',
+    prompt: 'Create a job description for an entry level project manager. Include commercial/industrial experience, code knowledge, and leadership responsibilities.'
+  },
+  'Fire Alarm Designer': {
+    minValue: 38,
+    maxValue: 45,
+    experienceLevel: 'midLevel',
+    category: 'Fire Alarm',
+    yearsExperience: '3-5',
+    prompt: 'Create a job description for an experienced fire alarm designer. Include commercial experience, code knowledge, and leadership responsibilities for low voltage fire alarm systems and design systems for fire alarm, sprinkler, and smoke detection.'
+  },
+  'Fire Alarm Project Manager': {
+    minValue: 45,
+    maxValue: 55,
+    experienceLevel: 'midLevel',
+    category: 'Fire Alarm',
+    yearsExperience: '3-5',
+    prompt: 'Create a job description for an experienced fire alarm project manager. Include commercial experience, code knowledge, and leadership responsibilities for low voltage fire alarm systems and design systems for fire alarm, sprinkler, and smoke detection.'
   }
 };
 
@@ -56,53 +90,31 @@ const DESCRIPTION_LENGTHS = {
 const CERTIFICATIONS = {
   'Apprentice': ['OSHA 10', 'First Aid/CPR', 'California ET Card', 'Basic Electrical Safety'],
   'Journeyman': ['CA State Journeyman License', 'OSHA 30', 'Arc Flash Safety', 'Confined Space'],
+  'Project Management': ['PMP', 'CAPM', 'PRINCE2', 'IPMA'],
+  'Fire Alarm': ['NFPA 70', 'NFPA 25', 'NFPA 1041', 'NFPA 1042'],
   // 'Controls': ['PLC Programming', 'HVAC Controls', 'BMS Certification', 'Industrial Automation']
 };
 
 const TOOLS_AND_TECH = {
   'Apprentice': ['Hand Tools', 'Power Tools', 'Basic Test Equipment', 'Conduit Bending'],
   'Journeyman': ['Advanced Test Equipment', 'Conduit Bending', 'Blueprint Reading', 'Code Books'],
-  // 'Master': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
+  'Project Management': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
+  'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools']
   // 'Controls': ['PLC Software', 'SCADA Systems', 'Building Automation', 'Network Tools']
 };
 
 const WORK_ENVIRONMENTS = [
   { type: 'Commercial', clients: ['Office Buildings', 'Retail Centers', 'Hospitals', 'Schools'] },
-  { type: 'Industrial', clients: ['Manufacturing Plants', 'Data Centers', 'Processing Facilities'] },
+  // { type: 'Industrial', clients: ['Manufacturing Plants', 'Data Centers', 'Processing Facilities'] },
   { type: 'Residential', clients: ['Custom Homes', 'Multi-Family', 'Remodels'] }
 ];
 
 const LOCATIONS = [      // Research triangle
-    { city: 'Los Angeles', state: 'CA', zipCode: '90012' },      // ~3.9 million
-    { city: 'San Diego', state: 'CA', zipCode: '92101' },        // ~1.4 million
-    { city: 'San Jose', state: 'CA', zipCode: '95113' },         // ~1 million
-    { city: 'San Francisco', state: 'CA', zipCode: '94102' },    // ~875,000
-    { city: 'Fresno', state: 'CA', zipCode: '93721' },           // ~540,000
-    { city: 'Sacramento', state: 'CA', zipCode: '95814' },       // ~525,000
-    { city: 'Long Beach', state: 'CA', zipCode: '90802' },       // ~466,000
-    { city: 'Oakland', state: 'CA', zipCode: '94612' },          // ~440,000
-    { city: 'Bakersfield', state: 'CA', zipCode: '93301' },      // ~407,000
-    { city: 'Anaheim', state: 'CA', zipCode: '92805' },          // ~350,000
-    { city: 'Santa Ana', state: 'CA', zipCode: '92701' },        // ~332,000
-    { city: 'Riverside', state: 'CA', zipCode: '92501' },        // ~330,000
-    { city: 'Stockton', state: 'CA', zipCode: '95202' },         // ~320,000
-    { city: 'Irvine', state: 'CA', zipCode: '92618' },          // ~310,000
-    { city: 'Chula Vista', state: 'CA', zipCode: '91910' },     // ~275,000
-    { city: 'Fremont', state: 'CA', zipCode: '94538' },         // ~240,000
-    { city: 'San Bernardino', state: 'CA', zipCode: '92401' },  // ~222,000
-    { city: 'Modesto', state: 'CA', zipCode: '95354' },         // ~218,000
-    { city: 'Fontana', state: 'CA', zipCode: '92335' },         // ~215,000
-    { city: 'Oxnard', state: 'CA', zipCode: '93030' },          // ~208,000
-    { city: 'Moreno Valley', state: 'CA', zipCode: '92553' },   // ~208,000
-    { city: 'Glendale', state: 'CA', zipCode: '91206' },        // ~200,000
-    { city: 'Huntington Beach', state: 'CA', zipCode: '92648' }, // ~198,000
-    { city: 'Santa Clarita', state: 'CA', zipCode: '91355' },   // ~195,000
-    { city: 'Garden Grove', state: 'CA', zipCode: '92840' },    // ~172,000
-    { city: 'Santa Rosa', state: 'CA', zipCode: '95401' },      // ~178,000
-    { city: 'Oceanside', state: 'CA', zipCode: '92054' },       // ~175,000
-    { city: 'Rancho Cucamonga', state: 'CA', zipCode: '91730' }, // ~175,000
-    { city: 'Ontario', state: 'CA', zipCode: '91764' },         // ~175,000
-    { city: 'Lancaster', state: 'CA', zipCode: '93534' }  
+    { city: 'Tempe', state: 'AZ', zipCode: '85281' },
+    { city: 'Phoenix', state: 'AZ', zipCode: '85001' },
+    { city: 'Tucson', state: 'AZ', zipCode: '85701' },
+    { city: 'Mesa', state: 'AZ', zipCode: '85201' },
+    { city: 'Chandler', state: 'AZ', zipCode: '85225' }
 ];
 
 const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
@@ -119,6 +131,7 @@ function generateJobTitle(baseTitle, team, location) {
     'Commercial': ['Commercial', 'Office', 'Retail', 'Healthcare'],
     'Industrial': ['Industrial', 'Manufacturing', 'Heavy Industrial', 'Plant'],
     'Residential': ['Residential', 'Multi-Family', 'Custom Home'],
+    'Project Management': ['Project Management', 'Estimating', 'Code Analysis', 'Design Software'],
     'Solar': ['Solar', 'Renewable Energy', 'PV System'],
     'Service': ['Service', 'Maintenance', 'Repair']
   };
@@ -308,7 +321,7 @@ Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com'
+      'support@primepartners.info'
     ]
   };
 

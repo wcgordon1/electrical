@@ -32,3 +32,6 @@ scripts/config/.env
 
 # Logs
 scripts/logs/*
+
+jobupdates.md
+instructions.md

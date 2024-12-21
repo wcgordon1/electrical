@@ -840,6 +840,27 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"avispl-av-estimator-los-angeles-id-bf849320nd.md": {
+	id: "avispl-av-estimator-los-angeles-id-bf849320nd.md";
+  slug: "avispl-av-estimator-los-angeles-id-bf849320nd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-av-project-manager-burbank-bf32903f.md": {
+	id: "avispl-av-project-manager-burbank-bf32903f.md";
+  slug: "avispl-av-project-manager-burbank-bf32903f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"avispl-av-project-manager-los-angles-id-bf84920nf.md": {
+	id: "avispl-av-project-manager-los-angles-id-bf84920nf.md";
+  slug: "avispl-av-project-manager-los-angles-id-bf84920nf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "avispl-av-technician-broomfield-av-t-46s0pf.md": {
 	id: "avispl-av-technician-broomfield-av-t-46s0pf.md";
   slug: "avispl-av-technician-broomfield-av-t-46s0pf";
@@ -2033,6 +2054,27 @@ declare module 'astro:content' {
 "ies-electric-apprentice-electrician-lancaster-iesxyigr8.md": {
 	id: "ies-electric-apprentice-electrician-lancaster-iesxyigr8.md";
   slug: "ies-electric-apprentice-electrician-lancaster-iesxyigr8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-commercial-project-manager-hialeah-ies2yzuyl.md": {
+	id: "ies-electric-commercial-project-manager-hialeah-ies2yzuyl.md";
+  slug: "ies-electric-commercial-project-manager-hialeah-ies2yzuyl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-commercial-project-manager-savannah-iesuajpqp.md": {
+	id: "ies-electric-commercial-project-manager-savannah-iesuajpqp.md";
+  slug: "ies-electric-commercial-project-manager-savannah-iesuajpqp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-commercial-project-manager-tallahassee-iess3hyyx.md": {
+	id: "ies-electric-commercial-project-manager-tallahassee-iess3hyyx.md";
+  slug: "ies-electric-commercial-project-manager-tallahassee-iess3hyyx";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5635,6 +5677,34 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"rogers-electric-commercial-project-manager-jacksonville-roge9z9gkw.md": {
+	id: "rogers-electric-commercial-project-manager-jacksonville-roge9z9gkw.md";
+  slug: "rogers-electric-commercial-project-manager-jacksonville-roge9z9gkw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"rogers-electric-commercial-project-manager-macon-roge2wrx15.md": {
+	id: "rogers-electric-commercial-project-manager-macon-roge2wrx15.md";
+  slug: "rogers-electric-commercial-project-manager-macon-roge2wrx15";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"rogers-electric-junior-project-manager-tampa-rogecmwojk.md": {
+	id: "rogers-electric-junior-project-manager-tampa-rogecmwojk.md";
+  slug: "rogers-electric-junior-project-manager-tampa-rogecmwojk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"rogers-electric-project-manager-colorado-springs-rogek0ha67.md": {
+	id: "rogers-electric-project-manager-colorado-springs-rogek0ha67.md";
+  slug: "rogers-electric-project-manager-colorado-springs-rogek0ha67";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "security-tech-dc-blackbox-id-bf9823.md": {
 	id: "security-tech-dc-blackbox-id-bf9823.md";
   slug: "security-tech-dc-blackbox-id-bf9823";
@@ -6118,6 +6188,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"tec-electric-commercial-project-manager-augusta-tec9fwhjd.md": {
+	id: "tec-electric-commercial-project-manager-augusta-tec9fwhjd.md";
+  slug: "tec-electric-commercial-project-manager-augusta-tec9fwhjd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-commercial-project-manager-orlando-tec61fz6p.md": {
+	id: "tec-electric-commercial-project-manager-orlando-tec61fz6p.md";
+  slug: "tec-electric-commercial-project-manager-orlando-tec61fz6p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "tec-electric-custom-home-master-electrician-greensboro-teca8vmb5.md": {
 	id: "tec-electric-custom-home-master-electrician-greensboro-teca8vmb5.md";
   slug: "tec-electric-custom-home-master-electrician-greensboro-teca8vmb5";
@@ -6153,6 +6237,41 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-atlanta-tecz5hu62.md": {
+	id: "tec-electric-junior-project-manager-atlanta-tecz5hu62.md";
+  slug: "tec-electric-junior-project-manager-atlanta-tecz5hu62";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-aurora-tec46ce8g.md": {
+	id: "tec-electric-junior-project-manager-aurora-tec46ce8g.md";
+  slug: "tec-electric-junior-project-manager-aurora-tec46ce8g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-columbus-tecglb3ug.md": {
+	id: "tec-electric-junior-project-manager-columbus-tecglb3ug.md";
+  slug: "tec-electric-junior-project-manager-columbus-tecglb3ug";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-miami-tecx7l0jn.md": {
+	id: "tec-electric-junior-project-manager-miami-tecx7l0jn.md";
+  slug: "tec-electric-junior-project-manager-miami-tecx7l0jn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-st.-petersburg-tecly4a0h.md": {
+	id: "tec-electric-junior-project-manager-st.-petersburg-tecly4a0h.md";
+  slug: "tec-electric-junior-project-manager-st-petersburg-tecly4a0h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "tec-electric-maintenance-controls-electrician-savannah-tec7emt91.md": {
 	id: "tec-electric-maintenance-controls-electrician-savannah-tec7emt91.md";
   slug: "tec-electric-maintenance-controls-electrician-savannah-tec7emt91";
@@ -6170,6 +6289,13 @@ declare module 'astro:content' {
 "tec-electric-multi-family-master-electrician-montgomery-tec4or1b6.md": {
 	id: "tec-electric-multi-family-master-electrician-montgomery-tec4or1b6.md";
   slug: "tec-electric-multi-family-master-electrician-montgomery-tec4or1b6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-project-manager-denver-tec5cpi4n.md": {
+	id: "tec-electric-project-manager-denver-tec5cpi4n.md";
+  slug: "tec-electric-project-manager-denver-tec5cpi4n";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
