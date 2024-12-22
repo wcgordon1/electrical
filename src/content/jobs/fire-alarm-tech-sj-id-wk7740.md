@@ -6,8 +6,8 @@ description: >-
   maintaining, and programming advanced fire alarm systems.
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-14T07:38:23.835Z'
-validThrough: '2025-01-14T07:38:23.835Z'
+datePosted: '2024-12-21T17:54:07.981Z'
+validThrough: '2025-02-01T17:54:07.981Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nexus Alarm & Suppression

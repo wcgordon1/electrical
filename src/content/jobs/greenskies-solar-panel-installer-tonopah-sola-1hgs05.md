@@ -22,8 +22,8 @@ description: >-
   - Install, inspect, maintain, and re...
 location: 'Tonopah, NV'
 team: Solar
-datePosted: '2024-12-15T17:35:01.697Z'
-validThrough: '2025-02-13T17:35:01.697Z'
+datePosted: '2024-12-22T14:59:38.098Z'
+validThrough: '2025-01-26T14:59:38.098Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

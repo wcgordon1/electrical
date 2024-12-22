@@ -57,8 +57,8 @@ description: >-
   advancing your skills with industry-leading professionals.
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-14T07:15:12.529Z'
-validThrough: '2025-01-17T07:15:12.529Z'
+datePosted: '2024-12-21T17:34:02.864Z'
+validThrough: '2025-02-02T17:34:02.864Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Encore Electric

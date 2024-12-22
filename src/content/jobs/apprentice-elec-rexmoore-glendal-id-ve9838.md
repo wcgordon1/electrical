@@ -47,8 +47,8 @@ description: >-
   commercial electrical systems, tools, and techniques.
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-15T17:59:44.111Z'
-validThrough: '2025-01-27T17:59:44.111Z'
+datePosted: '2024-12-22T13:18:38.908Z'
+validThrough: '2025-01-24T13:18:38.908Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

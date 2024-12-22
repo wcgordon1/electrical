@@ -14,16 +14,6 @@ const COMPANIES = {
     sameAs: 'https://www.wiline.com/',
     logo: 'https://www.wiline.com/img/logo_blue.png'
   },
-  'Teleco': {
-    name: 'Teleco',
-    sameAs: 'https://www.teleco.com/',
-    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
-  },
-  'Wisetel': {
-    name: 'Wisetel',
-    sameAs: 'https://www.wisetel.net/',
-    logo: 'https://wisetel.net/wp-content/uploads/2020/02/home-logo.png'
-  },
   'HCI Systems': {
     name: 'HCI Systems',
     sameAs: 'https://www.hcisystems.net/',
@@ -43,35 +33,33 @@ const COMPANIES = {
     name: 'Vision Technologies',
     sameAs: 'https://www.visiontechnologies.com/',
     logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
-  },
-  'Tech Electronics': {
-    name: 'Tech Electronics',
-    sameAs: 'https://www.techelectronics.com/',
-    logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
-  },
-  'High Point Networks': {
-    name: 'High Point Networks',
-    sameAs: 'https://www.highpointnetworks.com/',
-    logo: 'https://highpointnetworks.com/wp-content/uploads/2023/11/HPN-logo-fullColor-rgb.svg'
   }
 };
   
   const JOB_TYPES = {
-    'Low Voltage Cable Technician': {
-      minValue: 25,
-      maxValue: 31,
+    'Cable Tech': {
+      minValue: 21,
+      maxValue: 26,
       experienceLevel: 'midLevel',
       category: 'Voice Data',
       yearsExperience: '2-4',
-      prompt: 'Write a job description for a Low Voltage Cable Technician responsible for installing and servicing low voltage voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment, mainly hospitals and office buildings.'
+      prompt: 'Write a job description for a junior Low Voltage Cable Technician responsible for installing and servicing low voltage voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment, mainly hospitals and office buildings.'
     },
     'Cable Technician': {
-      minValue: 25,
-      maxValue: 30,
+      minValue: 28,
+      maxValue: 34,
       experienceLevel: 'midLevel',
       category: 'Voice Data',
       yearsExperience: '2-5',
-      prompt: 'Craft a job description for a cable technician specializing in the installation, configuration, and maintenance of voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment. terminating patch panels and running cable to the patch panel. terminating 110 and 66 blocks. '
+      prompt: 'Craft a job description for an experienced cable technician specializing in the installation, configuration, and maintenance of voice and data cabling, including fiber optic and copper cabling, in a commercial construction environment. terminating patch panels and running cable to the patch panel. terminating 110 and 66 blocks, and network infrastructure. '
+    },
+    'Security Technician': {
+      minValue: 28,
+      maxValue: 35,
+      experienceLevel: 'midLevel',
+      category: 'Security',
+      yearsExperience: '2-4',
+      prompt: 'Write a job description for a Security Technician responsible for installing and servicing security systems, including cameras, alarms, and access control, in a commercial construction environment, mainly hospitals and office buildings.'
     }
   };
   
@@ -112,65 +100,59 @@ const COMPANIES = {
   ];
   
   const LOCATIONS = [      
-    { city: 'Pinedale', state: 'WY', zipCode: '82941' },
-  { city: 'Jackson', state: 'WY', zipCode: '83001' },          // Near Pinedale
-  { city: 'Rock Springs', state: 'WY', zipCode: '82901' },     // Near Pinedale
+  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+  { city: 'San Diego', state: 'CA', zipCode: '92101' },
+  { city: 'Anaheim', state: 'CA', zipCode: '92805' },
+  { city: 'Long Beach', state: 'CA', zipCode: '90802' },
+  { city: 'Riverside', state: 'CA', zipCode: '92501' },
+  { city: 'Santa Ana', state: 'CA', zipCode: '92701' },
+  { city: 'Irvine', state: 'CA', zipCode: '92612' },
+  { city: 'San Bernardino', state: 'CA', zipCode: '92401' },
+  { city: 'Oceanside', state: 'CA', zipCode: '92054' },
+  { city: 'Palm Springs', state: 'CA', zipCode: '92262' },
+  { city: 'Beverly Hills', state: 'CA', zipCode: '90210' },
+  { city: 'Santa Monica', state: 'CA', zipCode: '90401' },
+  { city: 'Culver City', state: 'CA', zipCode: '90232' },
+  { city: 'West Hollywood', state: 'CA', zipCode: '90069' },
+  { city: 'Manhattan Beach', state: 'CA', zipCode: '90266' },
+  { city: 'Calabasas', state: 'CA', zipCode: '91302' },
+  { city: 'Malibu', state: 'CA', zipCode: '90265' },
+  { city: 'Pasadena', state: 'CA', zipCode: '91101' },
+  { city: 'Burbank', state: 'CA', zipCode: '91502' },
+  { city: 'Marina del Rey', state: 'CA', zipCode: '90292' },
+
   
-  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
-  { city: 'Durham', state: 'NC', zipCode: '27701' },           // Near Raleigh
-  { city: 'Cary', state: 'NC', zipCode: '27511' },            // Near Raleigh
+  // Central California
+  { city: 'Fresno', state: 'CA', zipCode: '93721' },
+  { city: 'Bakersfield', state: 'CA', zipCode: '93301' },
+  { city: 'Modesto', state: 'CA', zipCode: '95354' },
+  { city: 'Visalia', state: 'CA', zipCode: '93291' },
+  { city: 'San Luis Obispo', state: 'CA', zipCode: '93401' },
   
-  { city: 'Athens', state: 'GA', zipCode: '30601' },
-  { city: 'Watkinsville', state: 'GA', zipCode: '30677' },     // Near Athens
-  { city: 'Commerce', state: 'GA', zipCode: '30529' },         // Near Athens
+  // Bay Area
+  { city: 'San Francisco', state: 'CA', zipCode: '94102' },
+  { city: 'San Jose', state: 'CA', zipCode: '95113' },
+  { city: 'Oakland', state: 'CA', zipCode: '94612' },
+  { city: 'Berkeley', state: 'CA', zipCode: '94704' },
+  { city: 'Santa Rosa', state: 'CA', zipCode: '95404' },
   
-  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-  { city: 'Sandy Springs', state: 'GA', zipCode: '30328' },    // Near Atlanta
-  { city: 'Smyrna', state: 'GA', zipCode: '30080' },          // Near Atlanta
+  // Northern California
+  { city: 'Sacramento', state: 'CA', zipCode: '95814' },
+  { city: 'Redding', state: 'CA', zipCode: '96001' },
+  { city: 'Eureka', state: 'CA', zipCode: '95501' },
+  { city: 'Chico', state: 'CA', zipCode: '95926' },
+  { city: 'South Lake Tahoe', state: 'CA', zipCode: '96150' },
   
-  { city: 'Marietta', state: 'GA', zipCode: '30060' },
-  { city: 'Kennesaw', state: 'GA', zipCode: '30144' },        // Near Marietta
-  { city: 'Woodstock', state: 'GA', zipCode: '30188' },       // Near Marietta
-  
-  { city: 'Gainesville', state: 'GA', zipCode: '30501' },
-  { city: 'Flowery Branch', state: 'GA', zipCode: '30542' },   // Near Gainesville
-  { city: 'Oakwood', state: 'GA', zipCode: '30566' },
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'Lakewood', state: 'CO', zipCode: '80226' },        // Near Denver
-  { city: 'Aurora', state: 'CO', zipCode: '80012' },          // Near Denver
- 
-  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-  { city: 'Fountain', state: 'CO', zipCode: '80817' },        // Near CO Springs
-  { city: 'Monument', state: 'CO', zipCode: '80132' },        // Near CO Springs
- 
-  { city: 'Fort Collins', state: 'CO', zipCode: '80524' },
-  { city: 'Loveland', state: 'CO', zipCode: '80538' },        // Near Fort Collins
-  { city: 'Greeley', state: 'CO', zipCode: '80631' },         // Near Fort Collins
- 
-  { city: 'Boulder', state: 'CO', zipCode: '80302' },
-  { city: 'Louisville', state: 'CO', zipCode: '80027' },      // Near Boulder
-  { city: 'Longmont', state: 'CO', zipCode: '80501' },        // Near Boulder
- 
-  // Virginia Groupings
-  { city: 'Richmond', state: 'VA', zipCode: '23219' },
-  { city: 'Glen Allen', state: 'VA', zipCode: '23060' },      // Near Richmond
-  { city: 'Midlothian', state: 'VA', zipCode: '23113' },      // Near Richmond
- 
-  { city: 'Virginia Beach', state: 'VA', zipCode: '23452' },
-  { city: 'Norfolk', state: 'VA', zipCode: '23510' },         // Near VA Beach
-  { city: 'Chesapeake', state: 'VA', zipCode: '23320' },      // Near VA Beach
- 
-  { city: 'Arlington', state: 'VA', zipCode: '22201' },
-  { city: 'Alexandria', state: 'VA', zipCode: '22314' },      // Near Arlington
-  { city: 'Falls Church', state: 'VA', zipCode: '22046' },    // Near Arlington
- 
-  { city: 'Roanoke', state: 'VA', zipCode: '24011' },
-  { city: 'Salem', state: 'VA', zipCode: '24153' },           // Near Roanoke
-  { city: 'Vinton', state: 'VA', zipCode: '24179' }  
+  // Inland/Desert
+  { city: 'Victorville', state: 'CA', zipCode: '92392' },
+  { city: 'El Centro', state: 'CA', zipCode: '92243' },
+  { city: 'Barstow', state: 'CA', zipCode: '92311' },
+  { city: 'Mammoth Lakes', state: 'CA', zipCode: '93546' },
+  { city: 'Ridgecrest', state: 'CA', zipCode: '93555' }  
 
   ];
   
-  const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
+  const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'First St.', 'Third St.', 'Second St.', 'Commerce Dr.', 'Tech Blvd.'];
   
   function generateStreetAddress() {
     const number = Math.floor(Math.random() * (12000 - 1000) + 1000);
@@ -241,7 +223,7 @@ const COMPANIES = {
   // Update the specialties to be used in the description instead
   const WORK_TYPES = {
     'Commercial': ['Office Buildings', 'Healthcare Facilities', 'Educational Institutions'],
-    'Industrial': ['Manufacturing Plants', 'Distribution Centers', 'Processing Facilities'],
+    // 'Industrial': ['Manufacturing Plants', 'Distribution Centers', 'Processing Facilities'],
     'Healthcare': ['Hospitals', 'Medical Centers', 'Outpatient Facilities'],
     'Education': ['Universities', 'K-12 Schools', 'Training Centers'],
     'Technology': ['Data Centers', 'Tech Campuses', 'Research Facilities']
@@ -278,17 +260,19 @@ const COMPANIES = {
     // Update the prompt to include both certifications and tools
     const prompt = `Create a traditional job description for a ${jobTitle} position at ${company.name} in ${location.city}, ${location.state}, focusing on ${workType} projects. Format in markdown without h1 tags and do not include instructions, only show the job description. 
 
-Brief paragraph on company introduction for ${company.name} 
+Brief paragraph on company introduction for ${company.name}. Do not include headings yet.
+
+After this, proceed with h2, h3, and h4 headings. Do not include h1 headings.
 
 ## Position Overview at ${company.name}
 Brief overview of the role and responsibilities in ${location.city}, ${location.state} and the neighboring cities.
 
-## Essential Functions for ${jobTitle}
+## Requirements for ${jobTitle}
 - [Key responsibilities]
 - [Daily tasks]
 - [Project involvement]
 
-## Required Qualifications for ${jobTitle} at ${company.name}
+## Qualifications for ${jobTitle} at ${company.name}
 - ${jobInfo.yearsExperience} years of experience
 - Required certification: ${certifications[0]}
 - Experience with: ${tools.slice(0, 2).join(', ')}

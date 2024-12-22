@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Charlotte, NC'
 team: Industrial
-datePosted: '2024-12-15T23:02:22.277Z'
-validThrough: '2025-01-26T23:02:22.277Z'
+datePosted: '2024-12-22T12:53:54.274Z'
+validThrough: '2025-01-23T12:53:54.274Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premiere Electrical

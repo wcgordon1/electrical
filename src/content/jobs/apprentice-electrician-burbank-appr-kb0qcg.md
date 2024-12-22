@@ -90,8 +90,8 @@ description: >-
   orientation, gender identity, disability, or veteran status.
 location: 'Burbank, CA'
 team: Data Center
-datePosted: '2024-12-15T22:48:33.647Z'
-validThrough: '2025-01-22T22:48:33.647Z'
+datePosted: '2024-12-22T12:05:35.913Z'
+validThrough: '2025-01-22T12:05:35.913Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -1,17 +1,12 @@
 ---
 position: Data Center Rack & Stack Technician
 description: >-
-  ## Position Overview
-
   Join Staley Technologies as a Data Center Rack & Stack Technician in
   Sacramento, CA, where you'll play a crucial role in maintaining the backbone
   of our clients' enterprise data centers. Our dynamic environment encompasses
   cloud providers, financial institutions, and leading technology companies.
   This role offers flexible hours and requires collaboration across multiple
   project teams to support cutting-edge data operations within a 50-mile radius.
-
-
-  ## Key Responsibilities
 
   - ...
 location: 'Sacramento, CA'

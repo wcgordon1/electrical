@@ -24,8 +24,8 @@ description: >-
   1. Installi...
 location: 'Rosamond, CA'
 team: Solar
-datePosted: '2024-12-15T17:34:39.698Z'
-validThrough: '2025-02-13T17:34:39.698Z'
+datePosted: '2024-12-22T09:30:43.946Z'
+validThrough: '2025-01-24T09:30:43.946Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

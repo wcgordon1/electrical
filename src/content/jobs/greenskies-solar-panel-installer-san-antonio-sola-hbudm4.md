@@ -27,8 +27,8 @@ description: >-
   2. Connect solar panels and inverters, and ensure that they func...
 location: 'San Antonio, TX'
 team: Solar
-datePosted: '2024-12-15T17:34:09.782Z'
-validThrough: '2025-02-13T17:34:09.782Z'
+datePosted: '2024-12-22T13:27:24.342Z'
+validThrough: '2025-02-02T13:27:24.342Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

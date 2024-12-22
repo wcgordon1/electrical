@@ -18,7 +18,8 @@
     "create-glossary": "node scripts/create-glossary-entries.js",
     "update-recent-dates": "node scripts/update-recent-dates.js",
     "update-team-values": "node scripts/update-team-values.js",
-    "update-category-values": "node scripts/update-category-values.js"
+    "update-category-values": "node scripts/update-category-values.js",
+    "notify-content-updates": "node scripts/notify-content-updates.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

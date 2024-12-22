@@ -33,11 +33,14 @@ args.forEach(arg => {
   }
 });
 
-// Get random date within last 2 days
+// Get random time on current date before current time
 function getRandomDateInRange() {
   const now = new Date();
-  const twoDaysAgo = new Date(now - 2 * 24 * 60 * 60 * 1000);
-  const randomTime = twoDaysAgo.getTime() + Math.random() * (now.getTime() - twoDaysAgo.getTime());
+  const today = new Date(now);
+  today.setHours(0, 0, 0, 0); // Start of today
+
+  // Get random time between start of today and now
+  const randomTime = today.getTime() + Math.random() * (now.getTime() - today.getTime());
   return new Date(randomTime);
 }
 
@@ -59,12 +62,12 @@ const jobFiles = fs.readdirSync(jobsDir)
 console.log(`Found ${jobFiles.length} jobs between ${fromDate.toISOString()} and ${toDate.toISOString()}`);
 
 // Process each job file
-jobFiles.forEach((file) => {
+for (const file of jobFiles) {
   const filePath = path.join(jobsDir, file);
   const content = fs.readFileSync(filePath, 'utf8');
   const doc = matter(content);
   
-  // Generate random datePosted in last 2 days
+  // Generate random time on current date
   const datePosted = getRandomDateInRange();
   
   // Calculate validThrough (random 30-45 days after datePosted)
@@ -82,6 +85,6 @@ jobFiles.forEach((file) => {
   console.log(`Updated ${file}:`);
   console.log(`  datePosted: ${doc.data.datePosted}`);
   console.log(`  validThrough: ${doc.data.validThrough}`);
-});
+}
 
 console.log(`\nUpdated ${jobFiles.length} job files`);

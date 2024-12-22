@@ -23,8 +23,8 @@ description: >-
   1. Installation and maintenance of voice and data syste...
 location: 'Garden Grove, CA'
 team: Data Center
-datePosted: '2024-12-15T20:18:25.187Z'
-validThrough: '2025-01-18T20:18:25.187Z'
+datePosted: '2024-12-22T08:25:58.280Z'
+validThrough: '2025-02-02T08:25:58.280Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

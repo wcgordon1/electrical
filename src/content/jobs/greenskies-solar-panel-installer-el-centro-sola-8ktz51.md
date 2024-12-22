@@ -23,8 +23,8 @@ description: >-
   1. Assemble, install or maintain solar photovoltaic (PV) systems on roofs...
 location: 'El Centro, CA'
 team: Solar
-datePosted: '2024-12-15T17:36:44.927Z'
-validThrough: '2025-02-13T17:36:44.927Z'
+datePosted: '2024-12-22T08:49:41.376Z'
+validThrough: '2025-01-28T08:49:41.376Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

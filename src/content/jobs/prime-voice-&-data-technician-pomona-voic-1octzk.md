@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain, and repair voice, data, and...
 location: 'Pomona, CA'
 team: Data Center
-datePosted: '2024-12-15T22:15:09.991Z'
-validThrough: '2025-01-25T22:15:09.991Z'
+datePosted: '2024-12-22T13:33:02.595Z'
+validThrough: '2025-01-28T13:33:02.595Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

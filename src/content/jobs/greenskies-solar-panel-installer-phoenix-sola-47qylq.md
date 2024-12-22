@@ -26,8 +26,8 @@ description: >-
   - Installation and maintenance of solar panels...
 location: 'Phoenix, AZ'
 team: Solar
-datePosted: '2024-12-15T17:33:28.378Z'
-validThrough: '2025-02-13T17:33:28.378Z'
+datePosted: '2024-12-22T14:57:31.526Z'
+validThrough: '2025-01-27T14:57:31.526Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

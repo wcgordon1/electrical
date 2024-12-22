@@ -20,8 +20,8 @@ description: >-
   cities including Durham, Carrboro, and Hillsborough. We pride ours...
 location: 'Chapel Hill, NC'
 team: Data Center
-datePosted: '2024-12-15T21:16:07.782Z'
-validThrough: '2025-01-17T21:16:07.782Z'
+datePosted: '2024-12-22T08:40:53.536Z'
+validThrough: '2025-01-31T08:40:53.536Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

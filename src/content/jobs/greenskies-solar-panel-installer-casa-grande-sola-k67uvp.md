@@ -24,8 +24,8 @@ description: >-
   1. Install solar modules, panels, or support structures in...
 location: 'Casa Grande, AZ'
 team: Solar
-datePosted: '2024-12-15T17:37:13.386Z'
-validThrough: '2025-02-13T17:37:13.386Z'
+datePosted: '2024-12-22T09:20:08.402Z'
+validThrough: '2025-02-05T09:20:08.402Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

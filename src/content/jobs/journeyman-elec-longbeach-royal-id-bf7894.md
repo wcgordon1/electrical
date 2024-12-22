@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-15T19:07:14.662Z'
-validThrough: '2025-01-27T19:07:14.662Z'
+datePosted: '2024-12-22T11:33:15.245Z'
+validThrough: '2025-01-25T11:33:15.245Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Royal Electric

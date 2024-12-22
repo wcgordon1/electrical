@@ -17,8 +17,8 @@ description: >-
   technical expertise, as well as a commitment to safety and efficienc...
 location: 'Smyrna, GA'
 team: Industrial
-datePosted: '2024-12-15T23:39:44.346Z'
-validThrough: '2025-01-28T23:39:44.346Z'
+datePosted: '2024-12-22T13:06:08.941Z'
+validThrough: '2025-02-01T13:06:08.941Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

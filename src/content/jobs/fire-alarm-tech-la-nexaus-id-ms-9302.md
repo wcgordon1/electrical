@@ -6,8 +6,8 @@ description: >-
   maintaining, and programming advanced fire alarm systems.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-15T23:21:38.196Z'
-validThrough: '2025-01-15T23:21:38.196Z'
+datePosted: '2024-12-22T08:41:05.640Z'
+validThrough: '2025-02-03T08:41:05.640Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nexus Alarm & Suppression

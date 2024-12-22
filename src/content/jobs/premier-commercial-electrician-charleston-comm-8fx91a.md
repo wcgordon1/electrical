@@ -18,8 +18,8 @@ description: >-
   systems while adherin...
 location: 'Charleston, SC'
 team: Data Center
-datePosted: '2024-12-15T21:08:00.124Z'
-validThrough: '2025-01-18T21:08:00.124Z'
+datePosted: '2024-12-22T09:13:07.396Z'
+validThrough: '2025-01-25T09:13:07.396Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

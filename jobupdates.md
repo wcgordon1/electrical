@@ -150,7 +150,7 @@ git clean -fd
 
 npm run update-recent-dates -- --from="2024-12-13T00:00:00"
 
-npm run update-dates -- --from="2024-12-10" --to="2024-12-14"
+npm run update-dates -- --from="2024-12-13" --to="2024-12-15"
 
 npm run create-electrician-jobs
 
@@ -169,3 +169,6 @@ npm run update-team-values
 npm run update-category-values
 
 npm run create-glossary
+
+
+npm run notify-content-updates -- --from="2024-12-18" --to="2024-12-19"
