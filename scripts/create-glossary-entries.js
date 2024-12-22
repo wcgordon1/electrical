@@ -16,211 +16,195 @@ const openai = new OpenAI({
 });
 
 const GLOSSARY_TERMS = [
-    {
-        term: 'Ladder Logic',
-        icon: 'mdi:gate-xnor',
-        category: 'Programming',
-        vertical: 'PLC',
-        description: 'Graphical programming language for PLCs that resembles electrical relay logic diagrams, using contacts, coils, and function blocks to create control logic.'
-      },
-      {
-        term: 'Input Module',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Hardware component that receives signals from field devices like sensors, switches, and transmitters, converting them to digital signals for the PLC processor.'
-      },
-      {
-        term: 'Output Module',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Hardware component that sends control signals from the PLC to field devices like motors, valves, and indicators based on program logic.'
-      },
-      {
-        term: 'HMI',
-        icon: 'mdi:gate-xnor',
-        category: 'Interface',
-        vertical: 'PLC',
-        description: 'Human Machine Interface - touchscreen or display panel providing operator control and monitoring of PLC-controlled processes.'
-      },
-      {
-        term: 'CPU Module',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Central Processing Unit of the PLC system that executes the control program and manages communication between modules.'
-      },
-      {
-        term: 'Function Block',
-        icon: 'mdi:gate-xnor',
-        category: 'Programming',
-        vertical: 'PLC',
-        description: 'Pre-programmed routine performing specific control functions like timers, counters, or PID control, used in PLC programming.'
-      },
-      {
-        term: 'Analog Input',
-        icon: 'mdi:gate-xnor',
-        category: 'Signals',
-        vertical: 'PLC',
-        description: 'Continuous variable signal (typically 4-20mA or 0-10V) from field devices measuring parameters like temperature, pressure, or flow.'
-      },
-      {
-        term: 'Digital Input',
-        icon: 'mdi:gate-xnor',
-        category: 'Signals',
-        vertical: 'PLC',
-        description: 'Binary (on/off) signal from field devices like limit switches, pushbuttons, or proximity sensors.'
-      },
-      {
-        term: 'PID Control',
-        icon: 'mdi:gate-xnor',
-        category: 'Control',
-        vertical: 'PLC',
-        description: 'Proportional-Integral-Derivative control algorithm used for precise process control of variables like temperature, pressure, or flow.'
-      },
-      {
-        term: 'Motor Starter',
-        icon: 'mdi:gate-xnor',
-        category: 'Field Devices',
-        vertical: 'PLC',
-        description: 'Electromechanical device controlled by PLC outputs to start/stop motors, including overload protection and control circuits.'
-      },
-      {
-        term: 'VFD',
-        icon: 'mdi:gate-xnor',
-        category: 'Field Devices',
-        vertical: 'PLC',
-        description: 'Variable Frequency Drive - electronic device controlled by PLC to adjust motor speed and torque by varying frequency and voltage.'
-      },
-      {
-        term: 'Ethernet/IP',
-        icon: 'mdi:gate-xnor',
-        category: 'Communication',
-        vertical: 'PLC',
-        description: 'Industrial network protocol using standard Ethernet hardware for communication between PLCs, HMIs, and other industrial devices.'
-      },
-      {
-        term: 'Data Table',
-        icon: 'mdi:gate-xnor',
-        category: 'Programming',
-        vertical: 'PLC',
-        description: 'Memory organization structure in PLCs storing I/O states, timer/counter values, and program variables.'
-      },
-      {
-        term: 'Remote I/O',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Input/Output modules located away from the main PLC, connected via network communication to reduce wiring costs.'
-      },
-      {
-        term: 'Modbus',
-        icon: 'mdi:gate-xnor',
-        category: 'Communication',
-        vertical: 'PLC',
-        description: 'Standard industrial communication protocol allowing PLCs to communicate with various devices and systems.'
-      },
-      {
-        term: 'Structured Text',
-        icon: 'mdi:gate-xnor',
-        category: 'Programming',
-        vertical: 'PLC',
-        description: 'High-level text-based programming language for PLCs, similar to Pascal, used for complex mathematical operations.'
-      },
-      {
-        term: 'Backplane',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Physical rack providing power and communication pathways between PLC modules through a built-in circuit board.'
-      },
-      {
-        term: 'Safety PLC',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Specialized PLC designed for safety-critical applications, featuring redundant processing and fail-safe operations.'
-      },
-      {
-        term: 'SCADA',
-        icon: 'mdi:gate-xnor',
-        category: 'Software',
-        vertical: 'PLC',
-        description: 'Supervisory Control and Data Acquisition - system for monitoring and controlling multiple PLCs and processes from a central location.'
-      },
-      {
-        term: 'Power Supply',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Module providing regulated DC power to the PLC system, often including battery backup for memory retention.'
-      },
-      {
-        term: 'OPC Server',
-        icon: 'mdi:gate-xnor',
-        category: 'Software',
-        vertical: 'PLC',
-        description: 'Software interface providing standardized data exchange between PLCs and other industrial software applications.'
-      },
-      {
-        term: 'Rung',
-        icon: 'mdi:gate-xnor',
-        category: 'Programming',
-        vertical: 'PLC',
-        description: 'Single line of ladder logic programming containing input conditions and output instructions, similar to a circuit in relay logic.'
-      },
-      {
-        term: 'Sensor Input',
-        icon: 'mdi:gate-xnor',
-        category: 'Field Devices',
-        vertical: 'PLC',
-        description: 'Devices providing process feedback to PLC inputs, including temperature sensors, pressure transmitters, and proximity switches.'
-      },
-      {
-        term: 'Profibus',
-        icon: 'mdi:gate-xnor',
-        category: 'Communication',
-        vertical: 'PLC',
-        description: 'Fieldbus communication protocol for high-speed data exchange between PLCs and field devices in industrial automation.'
-      },
-      {
-        term: 'Memory Module',
-        icon: 'mdi:gate-xnor',
-        category: 'Hardware',
-        vertical: 'PLC',
-        description: 'Removable storage device for PLC programs and data, allowing program backup and transfer between systems.'
-      }
+  {
+    term: 'Server Rack',
+    icon: 'mdi:lan-pending',
+    category: 'Infrastructure',
+    vertical: 'Network Infrastructure',
+    description: 'Standardized 19-inch frame for mounting servers, network equipment, and accessories. Typically 42U in height with proper airflow management and power distribution.'
+  },
+  {
+    term: 'PDU',
+    icon: 'mdi:lan-pending',
+    category: 'Power',
+    vertical: 'Network Infrastructure',
+    description: 'Power Distribution Unit providing managed power distribution to rack equipment, including monitoring, remote control, and surge protection capabilities.'
+  },
+  {
+    term: 'Hot Aisle',
+    icon: 'mdi:lan-pending',
+    category: 'Cooling',
+    vertical: 'Network Infrastructure',
+    description: 'Contained aisle in data center where equipment exhaust heat is collected and removed, part of efficient cooling design strategy.'
+  },
+  {
+    term: 'Cold Aisle',
+    icon: 'mdi:lan-pending',
+    category: 'Cooling',
+    vertical: 'Network Infrastructure',
+    description: 'Contained aisle where cooled air is supplied to server rack intakes, maintaining optimal operating temperatures for equipment.'
+  },
+  {
+    term: 'CRAH Unit',
+    icon: 'mdi:lan-pending',
+    category: 'Cooling',
+    vertical: 'Network Infrastructure',
+    description: 'Computer Room Air Handler providing precise temperature and humidity control for data center environments.'
+  },
+  {
+    term: 'Raised Floor',
+    icon: 'mdi:lan-pending',
+    category: 'Infrastructure',
+    vertical: 'Network Infrastructure',
+    description: 'Elevated floor system providing space for power distribution, cooling, and cable management in data centers.'
+  },
+  {
+    term: 'Cable Tray',
+    icon: 'mdi:lan-pending',
+    category: 'Infrastructure',
+    vertical: 'Network Infrastructure',
+    description: 'Overhead or under-floor support system for organizing and routing network and power cables throughout the facility.'
+  },
+  {
+    term: 'Fiber Backbone',
+    icon: 'mdi:lan-pending',
+    category: 'Cabling',
+    vertical: 'Network Infrastructure',
+    description: 'High-capacity fiber optic cabling connecting different areas of the facility, providing primary data transmission paths.'
+  },
+  {
+    term: 'UPS System',
+    icon: 'mdi:lan-pending',
+    category: 'Power',
+    vertical: 'Network Infrastructure',
+    description: 'Uninterruptible Power Supply providing battery backup and power conditioning for critical network equipment.'
+  },
+  {
+    term: 'DCIM',
+    icon: 'mdi:lan-pending',
+    category: 'Management',
+    vertical: 'Network Infrastructure',
+    description: 'Data Center Infrastructure Management software monitoring power, cooling, and equipment status in real-time.'
+  },
+  {
+    term: 'Core Switch',
+    icon: 'mdi:lan-pending',
+    category: 'Network',
+    vertical: 'Network Infrastructure',
+    description: 'Central network switch handling high-speed traffic between different areas of the network, requiring redundant power and cooling.'
+  },
+  {
+    term: 'MDA',
+    icon: 'mdi:lan-pending',
+    category: 'Distribution',
+    vertical: 'Network Infrastructure',
+    description: 'Main Distribution Area housing core networking equipment and primary connections to service provider equipment.'
+  },
+  {
+    term: 'HDA',
+    icon: 'mdi:lan-pending',
+    category: 'Distribution',
+    vertical: 'Network Infrastructure',
+    description: 'Horizontal Distribution Area serving as connection point between backbone and horizontal cabling to equipment.'
+  },
+  {
+    term: 'Environmental Monitoring',
+    icon: 'mdi:lan-pending',
+    category: 'Monitoring',
+    vertical: 'Network Infrastructure',
+    description: 'System tracking temperature, humidity, and other environmental conditions affecting equipment operation.'
+  },
+  {
+    term: 'Generator Backup',
+    icon: 'mdi:lan-pending',
+    category: 'Power',
+    vertical: 'Network Infrastructure',
+    description: 'Emergency power system providing long-term backup power during utility outages, including fuel systems and controls.'
+  },
+  {
+    term: 'Static Transfer Switch',
+    icon: 'mdi:lan-pending',
+    category: 'Power',
+    vertical: 'Network Infrastructure',
+    description: 'High-speed switch automatically transferring critical loads between power sources without interruption.'
+  },
+  {
+    term: 'Patch Panel',
+    icon: 'mdi:lan-pending',
+    category: 'Connectivity',
+    vertical: 'Network Infrastructure',
+    description: 'Organized termination point for network cables, facilitating connections and changes between network equipment.'
+  },
+  {
+    term: 'Cable Management',
+    icon: 'mdi:lan-pending',
+    category: 'Infrastructure',
+    vertical: 'Network Infrastructure',
+    description: 'System of guides, troughs, and accessories organizing cables within racks and pathways for proper airflow and access.'
+  },
+  {
+    term: 'Grounding System',
+    icon: 'mdi:lan-pending',
+    category: 'Power',
+    vertical: 'Network Infrastructure',
+    description: 'Common ground reference system for equipment and racks, including mesh bonding network and ground bars.'
+  },
+  {
+    term: 'Power Monitoring',
+    icon: 'mdi:lan-pending',
+    category: 'Management',
+    vertical: 'Network Infrastructure',
+    description: 'System tracking power usage, quality, and efficiency throughout the facility, including branch circuit monitoring.'
+  },
+  {
+    term: 'Fiber Enclosure',
+    icon: 'mdi:lan-pending',
+    category: 'Connectivity',
+    vertical: 'Network Infrastructure',
+    description: 'Rack-mounted housing protecting fiber optic splices and connections, including splice trays and cable management.'
+  },
+  {
+    term: 'VESDA',
+    icon: 'mdi:lan-pending',
+    category: 'Safety',
+    vertical: 'Network Infrastructure',
+    description: 'Very Early Smoke Detection Apparatus providing early warning of potential fire conditions in critical facilities.'
+  },
+  {
+    term: 'EPO System',
+    icon: 'mdi:lan-pending',
+    category: 'Safety',
+    vertical: 'Network Infrastructure',
+    description: 'Emergency Power Off system providing rapid shutdown of power systems in emergency situations, required by code.'
+  }
   // ... more terms
 ];
 
 // Add related terms mapping
 const RELATED_TERMS = {
-  'Ladder Logic': ['Function Block', 'Structured Text', 'Rung', 'Data Table', 'CPU Module'],
-  'Input Module': ['Digital Input', 'Analog Input', 'Remote I/O', 'Sensor Input', 'Backplane'],
-  'Output Module': ['Motor Starter', 'VFD', 'Remote I/O', 'Backplane', 'Digital Input'],
-  'HMI': ['SCADA', 'OPC Server', 'Ethernet/IP', 'CPU Module', 'Data Table'],
-  'CPU Module': ['Power Supply', 'Memory Module', 'Backplane', 'Data Table', 'Ethernet/IP'],
-  'Function Block': ['Ladder Logic', 'Structured Text', 'PID Control', 'Data Table', 'Rung'],
-  'Analog Input': ['Input Module', 'Sensor Input', 'PID Control', 'Data Table', 'Remote I/O'],
-  'Digital Input': ['Input Module', 'Sensor Input', 'Remote I/O', 'Data Table', 'Motor Starter'],
-  'PID Control': ['Function Block', 'Analog Input', 'VFD', 'HMI', 'SCADA'],
-  'Motor Starter': ['Output Module', 'VFD', 'Digital Input', 'Safety PLC', 'Remote I/O'],
-  'VFD': ['Motor Starter', 'PID Control', 'Output Module', 'Analog Input', 'Profibus'],
-  'Ethernet/IP': ['Modbus', 'Profibus', 'Remote I/O', 'SCADA', 'OPC Server'],
-  'Data Table': ['CPU Module', 'Memory Module', 'Ladder Logic', 'Function Block', 'HMI'],
-  'Remote I/O': ['Input Module', 'Output Module', 'Ethernet/IP', 'Profibus', 'Backplane'],
-  'Modbus': ['Ethernet/IP', 'Profibus', 'Remote I/O', 'SCADA', 'OPC Server'],
-  'Structured Text': ['Ladder Logic', 'Function Block', 'Rung', 'Data Table', 'CPU Module'],
-  'Backplane': ['CPU Module', 'Power Supply', 'Input Module', 'Output Module', 'Memory Module'],
-  'Safety PLC': ['CPU Module', 'Input Module', 'Output Module', 'Motor Starter', 'Emergency Stop'],
-  'SCADA': ['HMI', 'OPC Server', 'Ethernet/IP', 'Data Table', 'PID Control'],
-  'Power Supply': ['CPU Module', 'Backplane', 'Memory Module', 'Safety PLC', 'Remote I/O'],
-  'OPC Server': ['SCADA', 'HMI', 'Ethernet/IP', 'Modbus', 'Data Table'],
-  'Rung': ['Ladder Logic', 'Function Block', 'Structured Text', 'Data Table', 'CPU Module'],
-  'Sensor Input': ['Input Module', 'Analog Input', 'Digital Input', 'Remote I/O', 'PID Control'],
-  'Profibus': ['Ethernet/IP', 'Modbus', 'Remote I/O', 'VFD', 'Sensor Input'],
-  'Memory Module': ['CPU Module', 'Data Table', 'Power Supply', 'Backplane', 'Ladder Logic']
+  'Server Rack': ['PDU', 'Cable Management', 'Hot Aisle', 'Cold Aisle', 'Grounding System'],
+  'PDU': ['UPS System', 'Power Monitoring', 'Server Rack', 'Static Transfer Switch', 'Generator Backup'],
+  'Hot Aisle': ['Cold Aisle', 'CRAH Unit', 'Environmental Monitoring', 'Server Rack', 'Cable Management'],
+  'Cold Aisle': ['Hot Aisle', 'CRAH Unit', 'Environmental Monitoring', 'Server Rack', 'Raised Floor'],
+  'CRAH Unit': ['Hot Aisle', 'Cold Aisle', 'Environmental Monitoring', 'Raised Floor', 'DCIM'],
+  'Raised Floor': ['Cable Tray', 'CRAH Unit', 'Power Distribution', 'Grounding System', 'Fire Suppression'],
+  'Cable Tray': ['Fiber Backbone', 'Cable Management', 'Raised Floor', 'Patch Panel', 'Grounding System'],
+  'Fiber Backbone': ['Fiber Enclosure', 'MDA', 'HDA', 'Core Switch', 'Cable Tray'],
+  'UPS System': ['Generator Backup', 'Static Transfer Switch', 'PDU', 'Power Monitoring', 'EPO System'],
+  'DCIM': ['Environmental Monitoring', 'Power Monitoring', 'Access Control', 'Core Switch', 'VESDA'],
+  'Core Switch': ['MDA', 'HDA', 'Fiber Backbone', 'Patch Panel', 'DCIM'],
+  'MDA': ['HDA', 'Core Switch', 'Fiber Backbone', 'Patch Panel', 'Cable Management'],
+  'HDA': ['MDA', 'Patch Panel', 'Fiber Backbone', 'Cable Management', 'Core Switch'],
+  'Environmental Monitoring': ['CRAH Unit', 'DCIM', 'VESDA', 'Hot Aisle', 'Cold Aisle'],
+  'Generator Backup': ['UPS System', 'Static Transfer Switch', 'PDU', 'Power Monitoring', 'EPO System'],
+  'Static Transfer Switch': ['UPS System', 'Generator Backup', 'PDU', 'Power Monitoring', 'EPO System'],
+  'Patch Panel': ['Cable Management', 'Fiber Enclosure', 'MDA', 'HDA', 'Core Switch'],
+  'Cable Management': ['Server Rack', 'Cable Tray', 'Patch Panel', 'PDU', 'Fiber Enclosure'],
+  'Grounding System': ['Server Rack', 'PDU', 'Cable Tray', 'Raised Floor', 'UPS System'],
+  'Power Monitoring': ['PDU', 'UPS System', 'Generator Backup', 'DCIM', 'Static Transfer Switch'],
+  'Fiber Enclosure': ['Fiber Backbone', 'Patch Panel', 'Cable Management', 'MDA', 'HDA'],
+  'VESDA': ['Fire Suppression', 'Environmental Monitoring', 'DCIM', 'Access Control', 'EPO System'],
+  'EPO System': ['Fire Suppression', 'UPS System', 'Generator Backup', 'Static Transfer Switch', 'Access Control']
 };
 
 async function createGlossaryEntry(term, icon, category, vertical, description) {

@@ -1,48 +1,38 @@
 ---
 term: Junction Box
-icon: 'mdi:connection'
-category: Installation Materials
-vertical: Electrical
+icon: 'mdi:solar-power-variant-outline'
+category: Equipment
+vertical: Solar
 description: >-
-  An enclosure housing electrical connections, protecting wire splices and
-  connections. Must remain accessible and cannot be permanently covered.
+  Weatherproof enclosure protecting electrical connections between solar
+  components, containing terminals and conductors.
 details:
   - title: Category
-    value: Installation Materials
+    value: Equipment
   - title: Industry
-    value: Electrical
+    value: Solar
   - title: Related Terms
-    value: 'Conduit, Wire Connections, EMT, Installation, Wiring'
+    value: 'Combiner Box, MC4 Connector, DC Disconnect, AC Disconnect, Solar Panel'
 ---
-A Junction Box is an essential component in electrical systems, serving as an enclosure for housing electrical connections. It is primarily used to protect wire splices and other connections from external elements, ensuring the integrity and safety of electrical systems. Junction Boxes are designed to prevent the exposure of live wires and eliminate the risk of electrical shocks or fires. They must remain accessible for maintenance and inspection purposes and, as such, cannot be permanently covered or sealed within walls or other structures. This accessibility ensures that electricians can easily access and work on the connections within the box when necessary.
+A Junction Box in the solar industry is a critical component that serves as a weatherproof enclosure designed to protect electrical connections between various solar components. It is integral to the functionality and reliability of solar power systems, ensuring that the electrical connections are secure and shielded from environmental factors such as moisture, dust, and temperature variations. Typically installed on the backside of solar panels, the junction box contains terminals and conductors that facilitate the transfer of electrical current from the photovoltaic cells to external cables, eventually connecting to an inverter or charge controller. This enclosure is made from robust, durable materials to withstand harsh outdoor conditions and maintain optimal performance of the solar panel system.
 
 ## Common Applications
 
-### Residential Use
-- **Lighting Installations**: Junction Boxes are often used in homes to manage and distribute wiring for lighting fixtures.
-- **Outlet Connections**: They serve as points where wires from different circuits can be safely connected before reaching outlets.
-- **Home Renovations**: During renovations, Junction Boxes facilitate the addition of new circuits or outlets without overhauling existing wiring systems.
-
-### Commercial and Industrial Use
-- **Complex Wiring Systems**: In commercial buildings, Junction Boxes manage complex networks of wiring, often involving multiple circuits and high power loads.
-- **Machinery and Equipment**: Industrial settings use Junction Boxes to protect connections between machinery and power supplies, ensuring operational safety and continuity.
+- **Solar Photovoltaic Systems**: Junction boxes are primarily used in solar PV systems to house connections between solar panels and other system components, such as inverters and batteries.
+- **Solar Street Lighting**: In solar street lighting, junction boxes are utilized to protect connections from external environmental influences, ensuring reliable performance.
+- **Off-Grid Solar Systems**: In off-grid applications, junction boxes play a crucial role in managing connections between solar panels and storage systems, ensuring efficient energy use and storage.
 
 ## Safety Considerations
 
-- **Accessibility**: Junction Boxes must be easily accessible for inspections and repairs. Covering them with paint, wallpaper, or drywall is a violation of electrical codes.
-- **Secure Covering**: The cover of a Junction Box should be securely fastened to prevent accidental exposure of wires.
-- **Proper Sizing**: It's crucial to use the appropriately sized Junction Box to accommodate the number of wires and connections, preventing overheating or overcrowded conditions.
+- **IP Rating**: Ensure the junction box has a suitable Ingress Protection (IP) rating to guarantee it is adequately sealed against dust and water ingress.
+- **Proper Installation**: Improper installation could lead to poor electrical connections, increasing the risk of short circuits or system failure.
+- **Regular Maintenance**: Regular inspection and maintenance of junction boxes are necessary to ensure that connections remain secure and the enclosure is intact.
+- **Fire Safety**: High-quality materials should be used to prevent potential fire hazards due to overheating or electrical faults.
 
 ## Related Terms or Concepts
 
-### Electrical Conduit
-- **Description**: A tube used to protect and route electrical wiring in a building or structure. It often connects to Junction Boxes to provide a continuous path for wiring.
-
-### Circuit Breaker
-- **Description**: A safety device designed to protect an electrical circuit from damage caused by overload or short circuit. Circuit breakers are often found in the same systems as Junction Boxes.
-
-### Wire Nut
-- **Description**: A type of connector used to join two or more wires together within a Junction Box, ensuring a secure and insulated connection.
-
-### Knockout
-- **Description**: Pre-punched holes in Junction Boxes that can be removed to allow the entry of electrical conduits or cables.
+- **Photovoltaic (PV) Cells**: The technology within solar panels that converts sunlight into electricity.
+- **Inverter**: A device that converts the direct current (DC) generated by solar panels into alternating current (AC) for use in homes and businesses.
+- **Charge Controller**: A device that regulates the voltage and current coming from the solar panels to the battery to prevent overcharging.
+- **Solar Panel Array**: A collection of multiple solar panels that work together to capture and convert solar energy into electrical power.
+- **Ingress Protection (IP) Rating**: A standard rating that classifies the degree of protection provided by enclosures against intrusion from foreign bodies and moisture.

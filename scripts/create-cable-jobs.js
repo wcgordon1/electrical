@@ -74,6 +74,12 @@ const COMPANIES = {
       'Fiber Optic Certification',
       'Network+ Certification',
       'OSHA 10'
+    ],
+    'Security': [
+      'Security+ Certification',
+      'ASIS PSP Certification',
+      'ESA Level 1 Certification',
+      'OSHA 10'
     ]
   };
   
@@ -85,6 +91,14 @@ const COMPANIES = {
       'Wire Mapping Tools',
       'Termination Equipment',
       'Cable Management Systems'
+    ],
+    'Security': [
+      'CCTV Systems',
+      'Access Control Systems',
+      'Intrusion Detection Systems',
+      'Network Security Tools',
+      'Security Management Software',
+      'Video Surveillance Equipment'
     ]
   };
   
@@ -100,20 +114,7 @@ const COMPANIES = {
   ];
   
   const LOCATIONS = [      
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'San Diego', state: 'CA', zipCode: '92101' },
-  { city: 'Anaheim', state: 'CA', zipCode: '92805' },
-  { city: 'Long Beach', state: 'CA', zipCode: '90802' },
-  { city: 'Riverside', state: 'CA', zipCode: '92501' },
-  { city: 'Santa Ana', state: 'CA', zipCode: '92701' },
-  { city: 'Irvine', state: 'CA', zipCode: '92612' },
-  { city: 'San Bernardino', state: 'CA', zipCode: '92401' },
-  { city: 'Oceanside', state: 'CA', zipCode: '92054' },
-  { city: 'Palm Springs', state: 'CA', zipCode: '92262' },
-  { city: 'Beverly Hills', state: 'CA', zipCode: '90210' },
-  { city: 'Santa Monica', state: 'CA', zipCode: '90401' },
-  { city: 'Culver City', state: 'CA', zipCode: '90232' },
-  { city: 'West Hollywood', state: 'CA', zipCode: '90069' },
+
   { city: 'Manhattan Beach', state: 'CA', zipCode: '90266' },
   { city: 'Calabasas', state: 'CA', zipCode: '91302' },
   { city: 'Malibu', state: 'CA', zipCode: '90265' },
@@ -268,7 +269,9 @@ After this, proceed with h2, h3, and h4 headings. Do not include h1 headings.
 Brief overview of the role and responsibilities in ${location.city}, ${location.state} and the neighboring cities.
 
 ## Requirements for ${jobTitle}
-- [Key responsibilities]
+- [Key responsibilities for ${jobTitle} at ${company.name}]
+- 3 bullet points on low voltage cabling installation for ${jobTitle}
+- Tool proficiency for daily tasks for ${jobTitle} 
 - [Daily tasks]
 - [Project involvement]
 
@@ -281,8 +284,6 @@ Brief overview of the role and responsibilities in ${location.city}, ${location.
 ## Preferred Qualifications
 - Additional certification: ${certifications[1]}
 - Experience with: ${tools[2] || tools[0]}
-- Specialized experience
-- Tool proficiency
 
 ## Location & Schedule
 - Primary location: ${location.city}, ${location.state}

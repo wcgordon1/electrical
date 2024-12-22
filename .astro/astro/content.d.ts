@@ -225,6 +225,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"ac-disconnect.md": {
+	id: "ac-disconnect.md";
+  slug: "ac-disconnect";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "access-control-interface.md": {
 	id: "access-control-interface.md";
   slug: "access-control-interface";
@@ -256,6 +263,13 @@ declare module 'astro:content' {
 "amperage.md": {
 	id: "amperage.md";
   slug: "amperage";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"amplifier.md": {
+	id: "amplifier.md";
+  slug: "amplifier";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -302,6 +316,27 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"audio-dsp.md": {
+	id: "audio-dsp.md";
+  slug: "audio-dsp";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"av-bridge.md": {
+	id: "av-bridge.md";
+  slug: "av-bridge";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"av-rack.md": {
+	id: "av-rack.md";
+  slug: "av-rack";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "backbone-cabling.md": {
 	id: "backbone-cabling.md";
   slug: "backbone-cabling";
@@ -326,6 +361,13 @@ declare module 'astro:content' {
 "battery-backup.md": {
 	id: "battery-backup.md";
   slug: "battery-backup";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"battery-bank.md": {
+	id: "battery-bank.md";
+  slug: "battery-bank";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -358,6 +400,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"bypass-diode.md": {
+	id: "bypass-diode.md";
+  slug: "bypass-diode";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "cable-certification.md": {
 	id: "cable-certification.md";
   slug: "cable-certification";
@@ -375,6 +424,13 @@ declare module 'astro:content' {
 "cable-pulling.md": {
 	id: "cable-pulling.md";
   slug: "cable-pulling";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-shield.md": {
+	id: "cable-shield.md";
+  slug: "cable-shield";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -428,6 +484,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"charge-controller.md": {
+	id: "charge-controller.md";
+  slug: "charge-controller";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "circuit-breaker.md": {
 	id: "circuit-breaker.md";
   slug: "circuit-breaker";
@@ -456,6 +519,20 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"cold-aisle.md": {
+	id: "cold-aisle.md";
+  slug: "cold-aisle";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"combiner-box.md": {
+	id: "combiner-box.md";
+  slug: "combiner-box";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "conductor.md": {
 	id: "conductor.md";
   slug: "conductor";
@@ -477,9 +554,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"control-interface.md": {
+	id: "control-interface.md";
+  slug: "control-interface";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "control-module.md": {
 	id: "control-module.md";
   slug: "control-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"control-processor.md": {
+	id: "control-processor.md";
+  slug: "control-processor";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -491,9 +582,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"core-switch.md": {
+	id: "core-switch.md";
+  slug: "core-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "cpu-module.md": {
 	id: "cpu-module.md";
   slug: "cpu-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"crah-unit.md": {
+	id: "crah-unit.md";
+  slug: "crah-unit";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -512,6 +617,20 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"dc-disconnect.md": {
+	id: "dc-disconnect.md";
+  slug: "dc-disconnect";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"dcim.md": {
+	id: "dcim.md";
+  slug: "dcim";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "digital-input.md": {
 	id: "digital-input.md";
   slug: "digital-input";
@@ -519,9 +638,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"digital-mixer.md": {
+	id: "digital-mixer.md";
+  slug: "digital-mixer";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "disconnect-switch.md": {
 	id: "disconnect-switch.md";
   slug: "disconnect-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"display-mount.md": {
+	id: "display-mount.md";
+  slug: "display-mount";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -575,9 +708,37 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"energy-storage.md": {
+	id: "energy-storage.md";
+  slug: "energy-storage";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"environmental-monitoring.md": {
+	id: "environmental-monitoring.md";
+  slug: "environmental-monitoring";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "eol-resistor.md": {
 	id: "eol-resistor.md";
   slug: "eol-resistor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"epo-system.md": {
+	id: "epo-system.md";
+  slug: "epo-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"equipment-shelf.md": {
+	id: "equipment-shelf.md";
+  slug: "equipment-shelf";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -592,6 +753,20 @@ declare module 'astro:content' {
 "facp.md": {
 	id: "facp.md";
   slug: "facp";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fiber-backbone.md": {
+	id: "fiber-backbone.md";
+  slug: "fiber-backbone";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fiber-enclosure.md": {
+	id: "fiber-enclosure.md";
+  slug: "fiber-enclosure";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -673,6 +848,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"generator-backup.md": {
+	id: "generator-backup.md";
+  slug: "generator-backup";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "gfci.md": {
 	id: "gfci.md";
   slug: "gfci";
@@ -701,6 +883,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"ground-mount.md": {
+	id: "ground-mount.md";
+  slug: "ground-mount";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "ground-wire.md": {
 	id: "ground-wire.md";
   slug: "ground-wire";
@@ -715,9 +904,30 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"grounding-system.md": {
+	id: "grounding-system.md";
+  slug: "grounding-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "harmonics.md": {
 	id: "harmonics.md";
   slug: "harmonics";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"hda.md": {
+	id: "hda.md";
+  slug: "hda";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"hdbaset.md": {
+	id: "hdbaset.md";
+  slug: "hdbaset";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -743,6 +953,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"hot-aisle.md": {
+	id: "hot-aisle.md";
+  slug: "hot-aisle";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "idf.md": {
 	id: "idf.md";
   slug: "idf";
@@ -764,9 +981,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"inverter.md": {
+	id: "inverter.md";
+  slug: "inverter";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "ip-camera.md": {
 	id: "ip-camera.md";
   slug: "ip-camera";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ir-sensor.md": {
+	id: "ir-sensor.md";
+  slug: "ir-sensor";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -855,6 +1086,20 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"mc4-connector.md": {
+	id: "mc4-connector.md";
+  slug: "mc4-connector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"mda.md": {
+	id: "mda.md";
+  slug: "mda";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "mdf.md": {
 	id: "mdf.md";
   slug: "mdf";
@@ -876,6 +1121,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"microinverter.md": {
+	id: "microinverter.md";
+  slug: "microinverter";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "mini-horn.md": {
 	id: "mini-horn.md";
   slug: "mini-horn";
@@ -893,6 +1145,13 @@ declare module 'astro:content' {
 "monitor-module.md": {
 	id: "monitor-module.md";
   slug: "monitor-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"monitoring-system.md": {
+	id: "monitoring-system.md";
+  slug: "monitoring-system";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -928,6 +1187,13 @@ declare module 'astro:content' {
 "nac.md": {
 	id: "nac.md";
   slug: "nac";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"net-meter.md": {
+	id: "net-meter.md";
+  slug: "net-meter";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -995,9 +1261,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"patch-bay.md": {
+	id: "patch-bay.md";
+  slug: "patch-bay";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "patch-panel.md": {
 	id: "patch-panel.md";
   slug: "patch-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"pdu.md": {
+	id: "pdu.md";
+  slug: "pdu";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1037,6 +1317,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"power-conditioner.md": {
+	id: "power-conditioner.md";
+  slug: "power-conditioner";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "power-factor.md": {
 	id: "power-factor.md";
   slug: "power-factor";
@@ -1044,9 +1331,30 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"power-monitoring.md": {
+	id: "power-monitoring.md";
+  slug: "power-monitoring";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"power-optimizer.md": {
+	id: "power-optimizer.md";
+  slug: "power-optimizer";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "power-supply.md": {
 	id: "power-supply.md";
   slug: "power-supply";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"production-meter.md": {
+	id: "production-meter.md";
+  slug: "production-meter";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1061,6 +1369,13 @@ declare module 'astro:content' {
 "programming-tool.md": {
 	id: "programming-tool.md";
   slug: "programming-tool";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"projection-screen.md": {
+	id: "projection-screen.md";
+  slug: "projection-screen";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1103,6 +1418,27 @@ declare module 'astro:content' {
 "raceway.md": {
 	id: "raceway.md";
   slug: "raceway";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"racking-system.md": {
+	id: "racking-system.md";
+  slug: "racking-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"raised-floor.md": {
+	id: "raised-floor.md";
+  slug: "raised-floor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"rapid-shutdown.md": {
+	id: "rapid-shutdown.md";
+  slug: "rapid-shutdown";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1212,6 +1548,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"server-rack.md": {
+	id: "server-rack.md";
+  slug: "server-rack";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "service-entrance.md": {
 	id: "service-entrance.md";
   slug: "service-entrance";
@@ -1222,6 +1565,13 @@ declare module 'astro:content' {
 "short-circuit.md": {
 	id: "short-circuit.md";
   slug: "short-circuit";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"signal-extender.md": {
+	id: "signal-extender.md";
+  slug: "signal-extender";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1250,6 +1600,55 @@ declare module 'astro:content' {
 "smoke-detector.md": {
 	id: "smoke-detector.md";
   slug: "smoke-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"solar-controller.md": {
+	id: "solar-controller.md";
+  slug: "solar-controller";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"solar-optimizer.md": {
+	id: "solar-optimizer.md";
+  slug: "solar-optimizer";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"solar-panel.md": {
+	id: "solar-panel.md";
+  slug: "solar-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"speaker-system.md": {
+	id: "speaker-system.md";
+  slug: "speaker-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"speaker-wire.md": {
+	id: "speaker-wire.md";
+  slug: "speaker-wire";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"static-transfer-switch.md": {
+	id: "static-transfer-switch.md";
+  slug: "static-transfer-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"string-inverter.md": {
+	id: "string-inverter.md";
+  slug: "string-inverter";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1296,6 +1695,20 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"touch-panel.md": {
+	id: "touch-panel.md";
+  slug: "touch-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"transfer-switch.md": {
+	id: "transfer-switch.md";
+  slug: "transfer-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "transformer.md": {
 	id: "transformer.md";
   slug: "transformer";
@@ -1303,9 +1716,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"ups-system.md": {
+	id: "ups-system.md";
+  slug: "ups-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "valve-tamper.md": {
 	id: "valve-tamper.md";
   slug: "valve-tamper";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"vesda.md": {
+	id: "vesda.md";
+  slug: "vesda";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1327,6 +1754,27 @@ declare module 'astro:content' {
 "video-management.md": {
 	id: "video-management.md";
   slug: "video-management";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"video-matrix.md": {
+	id: "video-matrix.md";
+  slug: "video-matrix";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"video-projector.md": {
+	id: "video-projector.md";
+  slug: "video-projector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"video-scaler.md": {
+	id: "video-scaler.md";
+  slug: "video-scaler";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1373,6 +1821,13 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"weather-station.md": {
+	id: "weather-station.md";
+  slug: "weather-station";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "wire-connector.md": {
 	id: "wire-connector.md";
   slug: "wire-connector";
@@ -1387,9 +1842,23 @@ declare module 'astro:content' {
   collection: "glossary";
   data: InferEntrySchema<"glossary">
 } & { render(): Render[".md"] };
+"wire-loom.md": {
+	id: "wire-loom.md";
+  slug: "wire-loom";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
 "wire-stripper.md": {
 	id: "wire-stripper.md";
   slug: "wire-stripper";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"wireless-mic.md": {
+	id: "wireless-mic.md";
+  slug: "wireless-mic";
   body: string;
   collection: "glossary";
   data: InferEntrySchema<"glossary">
@@ -1492,6 +1961,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"3d-communications-cable-tech-west-hollywood-3dcrcrv76.md": {
+	id: "3d-communications-cable-tech-west-hollywood-3dcrcrv76.md";
+  slug: "3d-communications-cable-tech-west-hollywood-3dcrcrv76";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"3d-communications-cable-technician-culver-city-3dcq1m7j5.md": {
+	id: "3d-communications-cable-technician-culver-city-3dcq1m7j5.md";
+  slug: "3d-communications-cable-technician-culver-city-3dcq1m7j5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "3d-communications-cable-technician-fort-collins-3dcaollqp.md": {
 	id: "3d-communications-cable-technician-fort-collins-3dcaollqp.md";
   slug: "3d-communications-cable-technician-fort-collins-3dcaollqp";
@@ -1499,9 +1982,23 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"3d-communications-cable-technician-los-angeles-3dcb0bz3t.md": {
+	id: "3d-communications-cable-technician-los-angeles-3dcb0bz3t.md";
+  slug: "3d-communications-cable-technician-los-angeles-3dcb0bz3t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "3d-communications-cable-technician-norfolk-3dcdoetn2.md": {
 	id: "3d-communications-cable-technician-norfolk-3dcdoetn2.md";
   slug: "3d-communications-cable-technician-norfolk-3dcdoetn2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"3d-communications-cable-technician-redding-3dc2zg6sf.md": {
+	id: "3d-communications-cable-technician-redding-3dc2zg6sf.md";
+  slug: "3d-communications-cable-technician-redding-3dc2zg6sf";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -1537,6 +2034,13 @@ declare module 'astro:content' {
 "3d-communications-fire-alarm-tech-foothill-ranch-3dchamt6q.md": {
 	id: "3d-communications-fire-alarm-tech-foothill-ranch-3dchamt6q.md";
   slug: "3d-communications-fire-alarm-tech-foothill-ranch-3dchamt6q";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"3d-communications-security-technician-santa-monica-3dc9lj757.md": {
+	id: "3d-communications-security-technician-santa-monica-3dc9lj757.md";
+  slug: "3d-communications-security-technician-santa-monica-3dc9lj757";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -2633,6 +3137,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"convergint-cable-technician-chico-conv4c3rmt.md": {
+	id: "convergint-cable-technician-chico-conv4c3rmt.md";
+  slug: "convergint-cable-technician-chico-conv4c3rmt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-cable-technician-eureka-convp5ci7v.md": {
+	id: "convergint-cable-technician-eureka-convp5ci7v.md";
+  slug: "convergint-cable-technician-eureka-convp5ci7v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "convergint-cable-technician-falls-church-convjkjkxw.md": {
 	id: "convergint-cable-technician-falls-church-convjkjkxw.md";
   slug: "convergint-cable-technician-falls-church-convjkjkxw";
@@ -2650,6 +3168,13 @@ declare module 'astro:content' {
 "convergint-cable-technician-raleigh-conv0owjw7.md": {
 	id: "convergint-cable-technician-raleigh-conv0owjw7.md";
   slug: "convergint-cable-technician-raleigh-conv0owjw7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-cable-technician-san-bernardino-convuxgzd6.md": {
+	id: "convergint-cable-technician-san-bernardino-convuxgzd6.md";
+  slug: "convergint-cable-technician-san-bernardino-convuxgzd6";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -2769,6 +3294,20 @@ declare module 'astro:content' {
 "convergint-security-systems-tech-milwaukee-convcipwqw.md": {
 	id: "convergint-security-systems-tech-milwaukee-convcipwqw.md";
   slug: "convergint-security-systems-tech-milwaukee-convcipwqw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-technician-berkeley-conv00dmcl.md": {
+	id: "convergint-security-technician-berkeley-conv00dmcl.md";
+  slug: "convergint-security-technician-berkeley-conv00dmcl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-technician-palm-springs-convey6q50.md": {
+	id: "convergint-security-technician-palm-springs-convey6q50.md";
+  slug: "convergint-security-technician-palm-springs-convey6q50";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -3109,6 +3648,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"hci-systems-cable-tech-anaheim-hciix6rnn.md": {
+	id: "hci-systems-cable-tech-anaheim-hciix6rnn.md";
+  slug: "hci-systems-cable-tech-anaheim-hciix6rnn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "hci-systems-cable-technician-kennesaw-hcik6cewt.md": {
 	id: "hci-systems-cable-technician-kennesaw-hcik6cewt.md";
   slug: "hci-systems-cable-technician-kennesaw-hcik6cewt";
@@ -3119,6 +3665,13 @@ declare module 'astro:content' {
 "hci-systems-cable-technician-richmond-hcia3kr1u.md": {
 	id: "hci-systems-cable-technician-richmond-hcia3kr1u.md";
   slug: "hci-systems-cable-technician-richmond-hcia3kr1u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"hci-systems-cable-technician-riverside-hcizzwtbq.md": {
+	id: "hci-systems-cable-technician-riverside-hcizzwtbq.md";
+  slug: "hci-systems-cable-technician-riverside-hcizzwtbq";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -3147,6 +3700,34 @@ declare module 'astro:content' {
 "hci-systems-security-systems-tech-mill-valley-hcimeu8nb.md": {
 	id: "hci-systems-security-systems-tech-mill-valley-hcimeu8nb.md";
   slug: "hci-systems-security-systems-tech-mill-valley-hcimeu8nb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"hci-systems-security-technician-calabasas-hcifg6z5h.md": {
+	id: "hci-systems-security-technician-calabasas-hcifg6z5h.md";
+  slug: "hci-systems-security-technician-calabasas-hcifg6z5h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"hci-systems-security-technician-malibu-hciifinvq.md": {
+	id: "hci-systems-security-technician-malibu-hciifinvq.md";
+  slug: "hci-systems-security-technician-malibu-hciifinvq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"hci-systems-security-technician-manhattan-beach-hcijz18uj.md": {
+	id: "hci-systems-security-technician-manhattan-beach-hcijz18uj.md";
+  slug: "hci-systems-security-technician-manhattan-beach-hcijz18uj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"hci-systems-security-technician-san-francisco-hcim8t1fd.md": {
+	id: "hci-systems-security-technician-san-francisco-hcim8t1fd.md";
+  slug: "hci-systems-security-technician-san-francisco-hcim8t1fd";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -3683,6 +4264,48 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"mmr-group-cable-tech-burbank-mmr1a8vlh.md": {
+	id: "mmr-group-cable-tech-burbank-mmr1a8vlh.md";
+  slug: "mmr-group-cable-tech-burbank-mmr1a8vlh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-cable-tech-ridgecrest-mmr06y2gv.md": {
+	id: "mmr-group-cable-tech-ridgecrest-mmr06y2gv.md";
+  slug: "mmr-group-cable-tech-ridgecrest-mmr06y2gv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-cable-tech-san-luis-obispo-mmre0w94v.md": {
+	id: "mmr-group-cable-tech-san-luis-obispo-mmre0w94v.md";
+  slug: "mmr-group-cable-tech-san-luis-obispo-mmre0w94v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-cable-technician-el-centro-mmr8qgzoo.md": {
+	id: "mmr-group-cable-technician-el-centro-mmr8qgzoo.md";
+  slug: "mmr-group-cable-technician-el-centro-mmr8qgzoo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-cable-technician-oceanside-mmrt7hx7l.md": {
+	id: "mmr-group-cable-technician-oceanside-mmrt7hx7l.md";
+  slug: "mmr-group-cable-technician-oceanside-mmrt7hx7l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-cable-technician-santa-ana-mmre1jn2t.md": {
+	id: "mmr-group-cable-technician-santa-ana-mmre1jn2t.md";
+  slug: "mmr-group-cable-technician-santa-ana-mmre1jn2t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk.md": {
 	id: "mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk.md";
   slug: "mmr-group-commercial-controls-electrician-knoxville-mmr2dc0rk";
@@ -3931,6 +4554,20 @@ declare module 'astro:content' {
 "mmr-group-security-systems-tech-placentia-mmr1bgn6r.md": {
 	id: "mmr-group-security-systems-tech-placentia-mmr1bgn6r.md";
   slug: "mmr-group-security-systems-tech-placentia-mmr1bgn6r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-security-technician-oakland-mmr9hzgqh.md": {
+	id: "mmr-group-security-technician-oakland-mmr9hzgqh.md";
+  slug: "mmr-group-security-technician-oakland-mmr9hzgqh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-security-technician-santa-rosa-mmrhzd76u.md": {
+	id: "mmr-group-security-technician-santa-rosa-mmrhzd76u.md";
+  slug: "mmr-group-security-technician-santa-rosa-mmrhzd76u";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -7610,9 +8247,51 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"t&d-communications-cable-tech-beverly-hills-t&dv5bdcm.md": {
+	id: "t&d-communications-cable-tech-beverly-hills-t&dv5bdcm.md";
+  slug: "td-communications-cable-tech-beverly-hills-tdv5bdcm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-tech-irvine-t&df9xmv7.md": {
+	id: "t&d-communications-cable-tech-irvine-t&df9xmv7.md";
+  slug: "td-communications-cable-tech-irvine-tdf9xmv7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-technician-barstow-t&dp5xtu0.md": {
+	id: "t&d-communications-cable-technician-barstow-t&dp5xtu0.md";
+  slug: "td-communications-cable-technician-barstow-tdp5xtu0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-technician-marina-del-rey-t&dknxgpk.md": {
+	id: "t&d-communications-cable-technician-marina-del-rey-t&dknxgpk.md";
+  slug: "td-communications-cable-technician-marina-del-rey-tdknxgpk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-technician-modesto-t&d092y10.md": {
+	id: "t&d-communications-cable-technician-modesto-t&d092y10.md";
+  slug: "td-communications-cable-technician-modesto-td092y10";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "t&d-communications-cable-technician-salem-t&dzphrzv.md": {
 	id: "t&d-communications-cable-technician-salem-t&dzphrzv.md";
   slug: "td-communications-cable-technician-salem-tdzphrzv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-technician-visalia-t&d4pew65.md": {
+	id: "t&d-communications-cable-technician-visalia-t&d4pew65.md";
+  slug: "td-communications-cable-technician-visalia-td4pew65";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -7648,6 +8327,13 @@ declare module 'astro:content' {
 "t&d-communications-low-voltage-cable-technician-boulder-t&dl4fl5z.md": {
 	id: "t&d-communications-low-voltage-cable-technician-boulder-t&dl4fl5z.md";
   slug: "td-communications-low-voltage-cable-technician-boulder-tdl4fl5z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-security-technician-mammoth-lakes-t&dv5zs7m.md": {
+	id: "t&d-communications-security-technician-mammoth-lakes-t&dv5zs7m.md";
+  slug: "td-communications-security-technician-mammoth-lakes-tdv5zs7m";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -8303,6 +8989,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"vision-technologies-cable-tech-south-lake-tahoe-visigcu2vm.md": {
+	id: "vision-technologies-cable-tech-south-lake-tahoe-visigcu2vm.md";
+  slug: "vision-technologies-cable-tech-south-lake-tahoe-visigcu2vm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"vision-technologies-cable-technician-pasadena-visiepelxy.md": {
+	id: "vision-technologies-cable-technician-pasadena-visiepelxy.md";
+  slug: "vision-technologies-cable-technician-pasadena-visiepelxy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "vision-technologies-cable-technician-virginia-beach-visiq9o906.md": {
 	id: "vision-technologies-cable-technician-virginia-beach-visiq9o906.md";
   slug: "vision-technologies-cable-technician-virginia-beach-visiq9o906";
@@ -8341,6 +9041,13 @@ declare module 'astro:content' {
 "vision-technologies-security-systems-tech-westlake-village-visimqjzgl.md": {
 	id: "vision-technologies-security-systems-tech-westlake-village-visimqjzgl.md";
   slug: "vision-technologies-security-systems-tech-westlake-village-visimqjzgl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"vision-technologies-security-technician-san-diego-visi7autt0.md": {
+	id: "vision-technologies-security-technician-san-diego-visi7autt0.md";
+  slug: "vision-technologies-security-technician-san-diego-visi7autt0";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -8401,9 +9108,44 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"wiline-cable-tech-bakersfield-wili7nmajx.md": {
+	id: "wiline-cable-tech-bakersfield-wili7nmajx.md";
+  slug: "wiline-cable-tech-bakersfield-wili7nmajx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-cable-tech-sacramento-wiligzix5z.md": {
+	id: "wiline-cable-tech-sacramento-wiligzix5z.md";
+  slug: "wiline-cable-tech-sacramento-wiligzix5z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-cable-tech-san-jose-wiliqlta1h.md": {
+	id: "wiline-cable-tech-san-jose-wiliqlta1h.md";
+  slug: "wiline-cable-tech-san-jose-wiliqlta1h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-cable-tech-victorville-wilih0aowo.md": {
+	id: "wiline-cable-tech-victorville-wilih0aowo.md";
+  slug: "wiline-cable-tech-victorville-wilih0aowo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "wiline-cable-technician-arlington-wiliiamcwp.md": {
 	id: "wiline-cable-technician-arlington-wiliiamcwp.md";
   slug: "wiline-cable-technician-arlington-wiliiamcwp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-cable-technician-fresno-wili3vjktr.md": {
+	id: "wiline-cable-technician-fresno-wili3vjktr.md";
+  slug: "wiline-cable-technician-fresno-wili3vjktr";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -8432,6 +9174,13 @@ declare module 'astro:content' {
 "wiline-security-systems-tech-union-city-wili8ah37a.md": {
 	id: "wiline-security-systems-tech-union-city-wili8ah37a.md";
   slug: "wiline-security-systems-tech-union-city-wili8ah37a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-security-technician-long-beach-wiliopkjk9.md": {
+	id: "wiline-security-technician-long-beach-wiliopkjk9.md";
+  slug: "wiline-security-technician-long-beach-wiliopkjk9";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
