@@ -1,7 +1,7 @@
 ---
-import { getCollection } from "astro:content";
+import { getRecentJobs } from "@/utils/jobs";
 
-const allJobs = await getCollection("jobs");
+const allJobs = await getRecentJobs(500);
 
 // Get unique teams and categories
 const teams = [...new Set(allJobs.map(job => job.data.team))].sort();

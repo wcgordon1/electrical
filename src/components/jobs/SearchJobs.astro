@@ -1,13 +1,13 @@
 ---
 // Get total number of jobs
-import { getCollection } from "astro:content";
+import { getRecentJobs } from "@/utils/jobs";
 
 // Get all jobs and count them
-const jobs = await getCollection("jobs");
+const jobs = await getRecentJobs(500);
 const totalJobs = jobs.length;
 
 // Make totalJobs available to the template
-const placeholder = `${totalJobs} jobs - Search all fields here!`;
+const placeholder = `3,000 + jobs - Search all fields here!`;
 
 // Get current search value from URL if it exists
 const searchValue = Astro.url.searchParams.get('search') || '';

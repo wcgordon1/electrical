@@ -1,19 +1,17 @@
 ---
-import { getCollection } from "astro:content";
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import Entries from "@/components/jobs/Entries.astro";
-import SearchJobs from "@/components/jobs/SearchJobs.astro";
+import { getRecentJobs } from "@/utils/jobs";
+import JobsListLayout from "@/layouts/JobsListLayout.astro";
 import JobFilters from "@/components/jobs/JobFilters.astro";
+import SearchJobs from "@/components/jobs/SearchJobs.astro";
+import Entries from "@/components/jobs/Entries.astro";
 import CtaWack from "@/components/cta/CtaWack.astro";
 
-const allPosts = await getCollection("jobs");
-// Sort posts by featured status first, then by date
-const sortedPosts = allPosts.sort((a, b) => {
-  // First sort by featured status
+const jobs = await getRecentJobs(500);
+
+// Sort jobs: featured first, then by date
+const sortedJobs = jobs.sort((a, b) => {
   if (a.data.featured && !b.data.featured) return -1;
   if (!a.data.featured && b.data.featured) return 1;
-  
-  // If featured status is the same, sort by date (most recent first)
   return new Date(b.data.datePosted).getTime() - new Date(a.data.datePosted).getTime();
 });
 
@@ -25,7 +23,7 @@ const pageTitle = "Companies Hiring Electricians";
 const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Controls, Voice/Data, Audio/Visual, Solar, and Security Installer, Technician, Project Manager, and more jobs.";
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<JobsListLayout title={pageTitle} description={pageDescription}>
   <Fragment slot="head">
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
   </Fragment>
@@ -64,7 +62,7 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
         <div class="lg:w-3/4 mt-8 lg:mt-0 mb-24">
           <ul role="list" class="job-list divide-y divide-slate-100">
             {
-              sortedPosts.map((post) => (
+              sortedJobs.map((post) => (
                 <Entries
                   url={"/jobs/" + post.slug}
                   position={post.data.position}
@@ -88,4 +86,5 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
     </div>
   </section>
   <CtaWack />
-</BaseLayout>
+
+</JobsListLayout>
