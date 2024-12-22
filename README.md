@@ -8,6 +8,11 @@
 - If i mess this up copy the repo from here
 
 
+
+safe at this commit: e7558b5fee2e76fd8be582ce6592dcb2d3e731a8
+- before glossary and reduce jobs show on @open-positions
+
+
 ### Original Meta/SEO Stuff
 
 Basehead.astro
