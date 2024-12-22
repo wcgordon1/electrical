@@ -15,7 +15,7 @@ description: >-
 
   As a Fire...
 location: 'Gresham, OR'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-20T16:51:37.974Z'
 validThrough: '2025-01-28T16:51:37.974Z'
 employmentType: FULL_TIME

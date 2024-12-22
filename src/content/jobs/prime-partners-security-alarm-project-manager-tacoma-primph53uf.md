@@ -9,7 +9,7 @@ description: >-
   highest standards of quality and safety. We are currently seeking a dedicated
   and experienced Field Operations Security A...
 location: 'Tacoma, WA'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T08:13:44.860Z'
 validThrough: '2025-02-02T08:13:44.860Z'
 employmentType: FULL_TIME

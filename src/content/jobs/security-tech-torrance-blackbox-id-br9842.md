@@ -55,7 +55,7 @@ baseSalary:
   maxValue: 43
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 3
+occupationalCategory: Low Voltage
 identifier:
   name: Black Box
   value: br9842

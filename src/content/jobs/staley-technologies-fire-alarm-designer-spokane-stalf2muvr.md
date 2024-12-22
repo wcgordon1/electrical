@@ -9,7 +9,7 @@ description: >-
   efficiency of our clients' operations. Join us in Spokane, WA, as a Project
   Management Fire Alarm Designer and bec...
 location: 'Spokane, WA'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T23:45:48.977Z'
 validThrough: '2025-01-25T23:45:48.977Z'
 employmentType: FULL_TIME

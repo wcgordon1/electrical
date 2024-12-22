@@ -17,7 +17,7 @@ description: >-
   As a Fire Alarm Project Manager at Koorsen, you will oversee the planning,
   execution, and completion of Fire Alarm projects. You...
 location: 'Los Angeles, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T04:42:18.875Z'
 validThrough: '2025-02-03T04:42:18.875Z'
 employmentType: FULL_TIME

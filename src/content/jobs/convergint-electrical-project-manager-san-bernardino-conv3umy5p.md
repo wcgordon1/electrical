@@ -11,7 +11,7 @@ description: >-
   ensure the safety and security of commercial buildings, healthcare facilities,
   and educational institutions. We pride ourselv...
 location: 'San Bernardino, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T07:47:59.931Z'
 validThrough: '2025-01-29T07:47:59.931Z'
 employmentType: FULL_TIME

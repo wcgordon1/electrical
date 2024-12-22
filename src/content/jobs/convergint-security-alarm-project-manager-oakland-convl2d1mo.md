@@ -12,7 +12,7 @@ description: >-
   security solutions that meet the specific needs of our diverse clientele. With
   a strong presenc...
 location: 'Oakland, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-21T06:17:38.218Z'
 validThrough: '2025-01-23T06:17:38.218Z'
 employmentType: FULL_TIME

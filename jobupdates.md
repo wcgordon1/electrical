@@ -165,6 +165,7 @@ Certs in job description prompt:
 
 
 
-
+npm run update-team-values
+npm run update-category-values
 
 npm run create-glossary

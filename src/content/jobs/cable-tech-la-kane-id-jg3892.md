@@ -28,7 +28,7 @@ baseSalary:
   maxValue: 35
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 3
+occupationalCategory: Low Voltage
 identifier:
   name: Kane Communications
   value: CABLE-TECHNICIAN-jg3892

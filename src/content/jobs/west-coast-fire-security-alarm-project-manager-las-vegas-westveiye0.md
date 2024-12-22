@@ -12,7 +12,7 @@ description: >-
 
   As a Field...
 location: 'Las Vegas, NV'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T05:27:48.339Z'
 validThrough: '2025-01-27T05:27:48.339Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   ourselves on our collaborative approach, ensuring that every project we
   undertake meets the unique n...
 location: 'Salem, OR'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T03:37:54.100Z'
 validThrough: '2025-01-22T03:37:54.100Z'
 employmentType: FULL_TIME

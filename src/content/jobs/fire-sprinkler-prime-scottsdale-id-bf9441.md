@@ -80,7 +80,7 @@ baseSalary:
   maxValue: 100000
   unitText: YEAR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 3
+occupationalCategory: Low Voltage
 identifier:
   name: Prime Partners
   value: FIRE-bf9441

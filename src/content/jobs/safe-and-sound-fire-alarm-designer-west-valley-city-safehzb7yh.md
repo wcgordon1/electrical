@@ -16,7 +16,7 @@ description: >-
 
   The Field Operations Fire Alarm Designer at S...
 location: 'West Valley City, UT'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T06:32:54.168Z'
 validThrough: '2025-01-28T06:32:54.168Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   us to continuously improve our processes and services, making Safe and Sound a
   trusted partner in se...
 location: 'Fremont, CA'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T11:50:07.020Z'
 validThrough: '2025-01-23T11:50:07.020Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   projects are at the forefront of innovation and safety, ensuring that
   buildings and facilities are prote...
 location: 'Phoenix, AZ'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T13:32:54.739Z'
 validThrough: '2025-02-01T13:32:54.739Z'
 employmentType: FULL_TIME

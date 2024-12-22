@@ -12,7 +12,7 @@ description: >-
   facilities, and educational institutions, where we deliver innovative and
   reliable fire...
 location: 'Fresno, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-20T23:07:12.009Z'
 validThrough: '2025-01-26T23:07:12.009Z'
 employmentType: FULL_TIME

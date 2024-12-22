@@ -14,7 +14,7 @@ description: >-
 
   **Overview of Life Safety Fire Alarm ...
 location: 'Riverside, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T08:30:59.181Z'
 validThrough: '2025-01-25T08:30:59.181Z'
 employmentType: FULL_TIME

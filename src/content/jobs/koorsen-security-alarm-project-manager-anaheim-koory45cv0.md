@@ -9,7 +9,7 @@ description: >-
   looking for a dedicated Life Safety Security Alarm Project Manager to join our
   team in Anaheim, CA, and contribute to our mission ...
 location: 'Anaheim, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T10:16:35.514Z'
 validThrough: '2025-01-27T10:16:35.514Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
 
   ## Overview o...
 location: 'Orem, UT'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T15:16:50.631Z'
 validThrough: '2025-01-26T15:16:50.631Z'
 employmentType: FULL_TIME

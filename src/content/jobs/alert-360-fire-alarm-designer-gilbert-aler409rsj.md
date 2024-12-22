@@ -15,7 +15,7 @@ description: >-
 
   **Overview ...
 location: 'Gilbert, AZ'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T13:40:19.409Z'
 validThrough: '2025-02-03T13:40:19.409Z'
 employmentType: FULL_TIME

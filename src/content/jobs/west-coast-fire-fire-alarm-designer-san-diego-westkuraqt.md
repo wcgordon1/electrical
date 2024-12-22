@@ -12,7 +12,7 @@ description: >-
   the industry, particularly in the design and implementation of
   state-of-the-art secu...
 location: 'San Diego, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T08:21:50.421Z'
 validThrough: '2025-01-26T08:21:50.421Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   alarm systems, ensuring that each project is completed on time and within
   budget. Our team of highly s...
 location: 'Glendale, AZ'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T16:23:40.360Z'
 validThrough: '2025-01-28T16:23:40.360Z'
 employmentType: FULL_TIME

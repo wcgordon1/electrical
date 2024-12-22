@@ -14,7 +14,7 @@ description: >-
   and healthcare. Our commitment to excellence and innovation drives us to
   create secure environments where people can thriv...
 location: 'Hillsboro, OR'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T02:44:24.162Z'
 validThrough: '2025-02-03T02:44:24.162Z'
 employmentType: FULL_TIME

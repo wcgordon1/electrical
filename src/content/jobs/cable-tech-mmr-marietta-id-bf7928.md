@@ -63,7 +63,7 @@ baseSalary:
   maxValue: 35
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 2
+occupationalCategory: Low Voltage
 identifier:
   name: MMR Group
   value: bf8923

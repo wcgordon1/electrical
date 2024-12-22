@@ -11,7 +11,7 @@ description: >-
 
   ## Overview of Construction Management Security Alarm Project Manager...
 location: 'Fontana, CA'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T07:09:34.043Z'
 validThrough: '2025-02-01T07:09:34.043Z'
 employmentType: FULL_TIME

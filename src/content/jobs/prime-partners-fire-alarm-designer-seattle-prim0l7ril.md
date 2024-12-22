@@ -14,7 +14,7 @@ description: >-
   security. As a leader in the security industry, Prime Partners prides itself
   on innovation, quality, and exceptional service...
 location: 'Seattle, WA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T07:14:39.467Z'
 validThrough: '2025-01-25T07:14:39.467Z'
 employmentType: FULL_TIME

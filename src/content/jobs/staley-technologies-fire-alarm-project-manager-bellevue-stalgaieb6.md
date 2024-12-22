@@ -12,7 +12,7 @@ description: >-
   leveraging the latest technology and industry best practices to meet and
   exceed our clien...
 location: 'Bellevue, WA'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T15:11:31.487Z'
 validThrough: '2025-01-24T15:11:31.487Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
 
   As we continue to expand our operat...
 location: 'Scottsdale, AZ'
-team: Security
+team: Commercial
 datePosted: '2024-12-21T11:19:11.865Z'
 validThrough: '2025-01-21T11:19:11.865Z'
 employmentType: FULL_TIME

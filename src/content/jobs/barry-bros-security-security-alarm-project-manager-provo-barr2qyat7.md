@@ -11,7 +11,7 @@ description: >-
   reliable access control systems. With a commitment to excellence and a focus
   on quality, Barry Bros Security has established a reputation f...
 location: 'Provo, UT'
-team: Security
+team: Commercial
 datePosted: '2024-12-21T18:21:16.423Z'
 validThrough: '2025-02-01T18:21:16.423Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   facilities, and healthcare centers, ensuring that our clients receive tailored
   security sol...
 location: 'Modesto, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T01:28:32.746Z'
 validThrough: '2025-01-25T01:28:32.746Z'
 employmentType: FULL_TIME

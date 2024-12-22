@@ -9,7 +9,7 @@ description: >-
   fire protection systems. Our team is dedicated to delivering exceptional
   service and innovative solutions tailored to meet th...
 location: 'Santa Ana, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T20:34:49.731Z'
 validThrough: '2025-01-31T20:34:49.731Z'
 employmentType: FULL_TIME

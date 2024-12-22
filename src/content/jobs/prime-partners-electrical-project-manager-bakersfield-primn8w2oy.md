@@ -14,7 +14,7 @@ description: >-
 
   As a Fire Protection Elect...
 location: 'Bakersfield, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T18:08:45.092Z'
 validThrough: '2025-02-01T18:08:45.092Z'
 employmentType: FULL_TIME

@@ -12,7 +12,7 @@ description: >-
   satisfaction has positioned us as a trusted partner in the security industry.
   Based...
 location: 'Moreno Valley, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T01:14:31.450Z'
 validThrough: '2025-01-31T01:14:31.450Z'
 employmentType: FULL_TIME

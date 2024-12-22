@@ -27,10 +27,10 @@ baseSalary:
   maxValue: 100000
   unitText: YEAR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 3
+occupationalCategory: Low Voltage
 identifier:
   name: Nexus Alarm & Suppression
-  value: FIRE-ALARM-DESIGNER-fdsae42
+  value: FIRE-ALARM-DESIGNER-fds23
 featured: false
 email:
   - will@bestelectricianjobs.com

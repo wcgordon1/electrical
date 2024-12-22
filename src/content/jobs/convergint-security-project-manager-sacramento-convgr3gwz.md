@@ -12,7 +12,7 @@ description: >-
   the fire alarm industry, serving a diverse clientele that includes commercial
   buildings, healthcare f...
 location: 'Sacramento, CA'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T06:50:54.221Z'
 validThrough: '2025-02-02T06:50:54.221Z'
 employmentType: FULL_TIME

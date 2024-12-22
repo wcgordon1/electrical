@@ -9,7 +9,7 @@ description: >-
   Peoria, AZ, Valley Alarm is dedicated to ensuring the safety and security of
   our clients through cutting-edge technology and...
 location: 'Peoria, AZ'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T04:37:04.481Z'
 validThrough: '2025-01-25T04:37:04.481Z'
 employmentType: FULL_TIME

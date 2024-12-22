@@ -11,7 +11,7 @@ description: >-
   a variety of projects from new constructions to intricate renovations,
   ensuring that all fire safety systems are designed and imple...
 location: 'North Las Vegas, NV'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T06:24:50.835Z'
 validThrough: '2025-01-26T06:24:50.835Z'
 employmentType: FULL_TIME

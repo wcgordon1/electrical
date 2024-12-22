@@ -12,7 +12,7 @@ description: >-
   pride ourselves on our ability to manage projects of all sizes and
   complexities, from inception to co...
 location: 'Sparks, NV'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-20T09:12:54.184Z'
 validThrough: '2025-01-25T09:12:54.184Z'
 employmentType: FULL_TIME

@@ -27,7 +27,7 @@ baseSalary:
   maxValue: 42
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 2
+occupationalCategory: Low Voltage
 identifier:
   name: Nexus Alarm & Suppression
   value: FIRE-ALARM-TECHNICIAN-mf0921

@@ -63,7 +63,7 @@ baseSalary:
   maxValue: 41
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 2
+occupationalCategory: Low Voltage
 identifier:
   name: Encore Electric
   value: bz1188

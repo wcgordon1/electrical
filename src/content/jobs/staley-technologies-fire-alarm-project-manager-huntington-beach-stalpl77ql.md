@@ -12,7 +12,7 @@ description: >-
   reputation as a trusted partner in safeguarding properties and ensuring peace
   o...
 location: 'Huntington Beach, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T02:21:07.203Z'
 validThrough: '2025-01-20T02:21:07.203Z'
 employmentType: FULL_TIME

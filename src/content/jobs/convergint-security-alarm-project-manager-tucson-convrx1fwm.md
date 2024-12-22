@@ -12,7 +12,7 @@ description: >-
 
   We are seeki...
 location: 'Tucson, AZ'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-21T19:18:23.440Z'
 validThrough: '2025-01-27T19:18:23.440Z'
 employmentType: FULL_TIME

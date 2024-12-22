@@ -9,7 +9,7 @@ description: >-
   of choice in the industry. Our team in Eugene, OR, is expanding, and we are
   seeking a dedicated Construction Management Elect...
 location: 'Eugene, OR'
-team: Project Management
+team: Commercial
 datePosted: '2024-12-21T03:40:54.198Z'
 validThrough: '2025-01-27T03:40:54.198Z'
 employmentType: FULL_TIME

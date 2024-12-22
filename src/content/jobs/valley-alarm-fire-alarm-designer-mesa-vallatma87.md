@@ -12,7 +12,7 @@ description: >-
   alarm systems for a diverse range of clients, including commercial buildings,
   healthcare faciliti...
 location: 'Mesa, AZ'
-team: Fire Alarm
+team: Commercial
 datePosted: '2024-12-20T23:14:24.492Z'
 validThrough: '2025-01-20T23:14:24.492Z'
 employmentType: FULL_TIME

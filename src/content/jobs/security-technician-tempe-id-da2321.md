@@ -27,7 +27,7 @@ baseSalary:
   maxValue: 42
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 3
+occupationalCategory: Low Voltage
 identifier:
   name: Convergint Technologies
   value: SECURITY-TECH-fdsae42

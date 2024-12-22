@@ -12,7 +12,7 @@ description: >-
   to the unique needs of each client, ensuring the highest level of protection
   for their assets and person...
 location: 'Reno, NV'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T16:29:19.089Z'
 validThrough: '2025-01-29T16:29:19.089Z'
 employmentType: FULL_TIME

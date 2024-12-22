@@ -12,7 +12,7 @@ description: >-
   to safeguarding our clients' assets and ensuring their safety through
   cutting-edge security ...
 location: 'Chandler, AZ'
-team: Security
+team: Commercial
 datePosted: '2024-12-21T07:31:26.761Z'
 validThrough: '2025-01-23T07:31:26.761Z'
 employmentType: FULL_TIME

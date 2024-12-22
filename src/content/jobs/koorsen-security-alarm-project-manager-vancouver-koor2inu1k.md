@@ -9,7 +9,7 @@ description: >-
   across various sectors, including corporate offices, government facilities,
   and healthcare centers, where we have built a r...
 location: 'Vancouver, WA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T22:54:57.693Z'
 validThrough: '2025-01-22T22:54:57.693Z'
 employmentType: FULL_TIME

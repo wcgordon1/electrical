@@ -85,7 +85,7 @@ baseSalary:
   maxValue: 42
   unitText: HOUR
 experienceRequirements: seniorLevel
-occupationalCategory: Level 2
+occupationalCategory: Low Voltage
 identifier:
   name: Prime Partners
   value: FIRE-ALARM-TECHNICIAN-bf9832

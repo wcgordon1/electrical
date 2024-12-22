@@ -12,7 +12,7 @@ description: >-
   systems. Our projects span corporate offices, government facilities, and
   healthcare ce...
 location: 'Irvine, CA'
-team: Security
+team: Commercial
 datePosted: '2024-12-20T14:57:14.753Z'
 validThrough: '2025-01-31T14:57:14.753Z'
 employmentType: FULL_TIME
