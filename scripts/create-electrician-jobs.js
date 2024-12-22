@@ -17,7 +17,7 @@ const COMPANIES = {
   'Prime Partners': {
     name: 'Prime Partners',
     sameAs: 'https://www.primepartners.com/',
-    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png'
+    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
   },
   'Valley Alarm': {
     name: 'Valley Alarm',
@@ -33,6 +33,16 @@ const COMPANIES = {
     name: 'Safe and Sound',
     sameAs: 'https://getsafeandsound.com/',
     logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
+  },
+  'Barry Bros Security': {
+    name: 'Barry Bros Security',
+    sameAs: 'https://barrybros.com/',
+    logo: 'https://www.barrybros.com/wp-content/themes/barrybros/img/logo.svg'
+  },
+  'Koorsen': {
+    name: 'Koorsen',
+    sameAs: 'https://koorsen.com/',
+    logo: 'https://www.koorsen.com/wp-content/uploads/2022/02/Koorsen-Logo.svg'
   }
 };
 
@@ -59,7 +69,7 @@ const JOB_TYPES = {
     experienceLevel: 'entryLevel',
     category: 'Project Management',
     yearsExperience: '0-2',
-    prompt: 'Create a job description for an entry level project manager. Include commercial/industrial experience, code knowledge, and leadership responsibilities.'
+    prompt: 'Create a job description for an entry level project manager. Include commercial experience, code knowledge, and leadership responsibilities.'
   },
   'Fire Alarm Designer': {
     minValue: 38,
@@ -76,10 +86,24 @@ const JOB_TYPES = {
     category: 'Fire Alarm',
     yearsExperience: '3-5',
     prompt: 'Create a job description for an experienced fire alarm project manager. Include commercial experience, code knowledge, and leadership responsibilities for low voltage fire alarm systems and design systems for fire alarm, sprinkler, and smoke detection.'
+  },
+  'Electrical Project Manager': {
+    minValue: 55,
+    maxValue: 62,
+    experienceLevel: 'midLevel',
+    category: 'Project Management',
+    yearsExperience: '3-5',
+    prompt: 'Create a job description for an experienced electrical project manager. Include commercial experience, code knowledge, and leadership responsibilities for commercial new construction electrical systems and design systems for electrical, lighting, and power.'
   }
 };
 
-const TEAMS = ['Commercial', 'Industrial', 'Residential'];
+const TEAMS = [
+  'Commercial',
+  //'Industrial', 
+  'Project Management',
+  'Fire Alarm',
+  'Security'
+];
 
 const DESCRIPTION_LENGTHS = {
   short: 400,
@@ -92,6 +116,7 @@ const CERTIFICATIONS = {
   'Journeyman': ['CA State Journeyman License', 'OSHA 30', 'Arc Flash Safety', 'Confined Space'],
   'Project Management': ['PMP', 'CAPM', 'PRINCE2', 'IPMA'],
   'Fire Alarm': ['NFPA 70', 'NFPA 25', 'NFPA 1041', 'NFPA 1042'],
+  'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More'],
   // 'Controls': ['PLC Programming', 'HVAC Controls', 'BMS Certification', 'Industrial Automation']
 };
 
@@ -99,25 +124,100 @@ const TOOLS_AND_TECH = {
   'Apprentice': ['Hand Tools', 'Power Tools', 'Basic Test Equipment', 'Conduit Bending'],
   'Journeyman': ['Advanced Test Equipment', 'Conduit Bending', 'Blueprint Reading', 'Code Books'],
   'Project Management': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
-  'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools']
+  'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools'],
+  'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
   // 'Controls': ['PLC Software', 'SCADA Systems', 'Building Automation', 'Network Tools']
 };
 
 const WORK_ENVIRONMENTS = [
-  { type: 'Commercial', clients: ['Office Buildings', 'Retail Centers', 'Hospitals', 'Schools'] },
-  // { type: 'Industrial', clients: ['Manufacturing Plants', 'Data Centers', 'Processing Facilities'] },
-  { type: 'Residential', clients: ['Custom Homes', 'Multi-Family', 'Remodels'] }
+  { 
+    type: 'Commercial', 
+    clients: ['Office Buildings', 'Retail Centers', 'Hospitals', 'Schools'] 
+  },
+  { 
+    type: 'Project Management', 
+    clients: ['New Construction', 'Tenant Improvements', 'Renovations'] 
+  },
+  { 
+    type: 'Fire Alarm', 
+    clients: ['Commercial Buildings', 'Healthcare Facilities', 'Educational Institutions'] 
+  },
+  { 
+    type: 'Security', 
+    clients: ['Corporate Offices', 'Government Facilities', 'Healthcare Centers'] 
+  }
 ];
 
 const LOCATIONS = [      // Research triangle
-    { city: 'Tempe', state: 'AZ', zipCode: '85281' },
-    { city: 'Phoenix', state: 'AZ', zipCode: '85001' },
-    { city: 'Tucson', state: 'AZ', zipCode: '85701' },
-    { city: 'Mesa', state: 'AZ', zipCode: '85201' },
-    { city: 'Chandler', state: 'AZ', zipCode: '85225' }
+ { city: 'Los Angeles', state: 'CA', zipCode: '90012' },    // ~3.9M
+ { city: 'San Diego', state: 'CA', zipCode: '92101' },      // ~1.4M
+ { city: 'San Jose', state: 'CA', zipCode: '95113' },       // ~1M
+ { city: 'San Francisco', state: 'CA', zipCode: '94102' },  // ~875K
+ { city: 'Fresno', state: 'CA', zipCode: '93721' },         // ~540K
+ { city: 'Sacramento', state: 'CA', zipCode: '95814' },     // ~525K
+ { city: 'Long Beach', state: 'CA', zipCode: '90802' },     // ~466K
+ { city: 'Oakland', state: 'CA', zipCode: '94612' },        // ~440K
+ { city: 'Bakersfield', state: 'CA', zipCode: '93301' },    // ~407K
+ { city: 'Anaheim', state: 'CA', zipCode: '92805' },        // ~350K
+
+ // Washington
+ { city: 'Seattle', state: 'WA', zipCode: '98104' },        // ~737K
+ { city: 'Spokane', state: 'WA', zipCode: '99201' },        // ~228K
+ { city: 'Tacoma', state: 'WA', zipCode: '98402' },         // ~217K
+ { city: 'Vancouver', state: 'WA', zipCode: '98660' },      // ~190K
+ { city: 'Bellevue', state: 'WA', zipCode: '98004' },       // ~150K
+
+ // Arizona
+ { city: 'Phoenix', state: 'AZ', zipCode: '85004' },        // ~1.6M
+ { city: 'Tucson', state: 'AZ', zipCode: '85701' },         // ~545K
+ { city: 'Mesa', state: 'AZ', zipCode: '85201' },           // ~504K
+ { city: 'Chandler', state: 'AZ', zipCode: '85225' },       // ~275K
+ { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },     // ~241K
+ { city: 'Gilbert', state: 'AZ', zipCode: '85234' },        // ~267K
+ { city: 'Glendale', state: 'AZ', zipCode: '85301' },       // ~248K
+ { city: 'Tempe', state: 'AZ', zipCode: '85281' },          // ~195K
+ { city: 'Peoria', state: 'AZ', zipCode: '85345' },         // ~190K
+
+ // Oregon
+ { city: 'Portland', state: 'OR', zipCode: '97204' },       // ~653K
+ { city: 'Salem', state: 'OR', zipCode: '97301' },          // ~175K
+ { city: 'Eugene', state: 'OR', zipCode: '97401' },         // ~170K
+ { city: 'Gresham', state: 'OR', zipCode: '97030' },        // ~114K
+ { city: 'Hillsboro', state: 'OR', zipCode: '97123' },      // ~106K
+
+ // Nevada
+ { city: 'Las Vegas', state: 'NV', zipCode: '89101' },      // ~640K
+ { city: 'Henderson', state: 'NV', zipCode: '89002' },      // ~320K
+ { city: 'Reno', state: 'NV', zipCode: '89501' },           // ~264K
+ { city: 'North Las Vegas', state: 'NV', zipCode: '89030' }, // ~251K
+ { city: 'Sparks', state: 'NV', zipCode: '89431' },         // ~105K
+
+ // Utah
+ { city: 'Salt Lake City', state: 'UT', zipCode: '84101' }, // ~200K
+ { city: 'West Valley City', state: 'UT', zipCode: '84119' }, // ~140K
+ { city: 'Provo', state: 'UT', zipCode: '84601' },          // ~117K
+ { city: 'West Jordan', state: 'UT', zipCode: '84084' },    // ~116K
+ { city: 'Orem', state: 'UT', zipCode: '84057' },           // ~98K
+
+ // More California (completing largest cities)
+ { city: 'Santa Ana', state: 'CA', zipCode: '92701' },      // ~332K
+ { city: 'Riverside', state: 'CA', zipCode: '92501' },      // ~330K
+ { city: 'Stockton', state: 'CA', zipCode: '95202' },       // ~320K
+ { city: 'Irvine', state: 'CA', zipCode: '92618' },         // ~310K
+ { city: 'Chula Vista', state: 'CA', zipCode: '91910' },    // ~275K
+ { city: 'Fremont', state: 'CA', zipCode: '94538' },        // ~240K
+ { city: 'San Bernardino', state: 'CA', zipCode: '92401' }, // ~222K
+ { city: 'Modesto', state: 'CA', zipCode: '95354' },        // ~218K
+ { city: 'Fontana', state: 'CA', zipCode: '92335' },        // ~215K
+ { city: 'Oxnard', state: 'CA', zipCode: '93030' },         // ~208K
+ { city: 'Moreno Valley', state: 'CA', zipCode: '92553' },  // ~208K
+ { city: 'Glendale', state: 'CA', zipCode: '91206' },       // ~200K
+ { city: 'Huntington Beach', state: 'CA', zipCode: '92648' }, // ~198K
+ { city: 'Santa Clarita', state: 'CA', zipCode: '91355' },  // ~195K
+ { city: 'Garden Grove', state: 'CA', zipCode: '92840' }
 ];
 
-const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.'];
+const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.', 'Olive St.', 'Pine St.', 'Broadway', 'Market St.', 'Mission St.', '1st St.', '2nd St.', '3rd St.', '4th St.', '5th St.', '6th St.', '7th St.', '8th St.', '9th St.', '10th St.'];
 
 function generateStreetAddress() {
   const number = Math.floor(Math.random() * (12000 - 1000) + 1000);
@@ -131,12 +231,15 @@ function generateJobTitle(baseTitle, team, location) {
     'Commercial': ['Commercial', 'Office', 'Retail', 'Healthcare'],
     'Industrial': ['Industrial', 'Manufacturing', 'Heavy Industrial', 'Plant'],
     'Residential': ['Residential', 'Multi-Family', 'Custom Home'],
-    'Project Management': ['Project Management', 'Estimating', 'Code Analysis', 'Design Software'],
-    'Solar': ['Solar', 'Renewable Energy', 'PV System'],
-    'Service': ['Service', 'Maintenance', 'Repair']
+    'Project Management': ['Project Management', 'Construction Management', 'Field Operations'],
+    'Fire Alarm': ['Fire Alarm', 'Life Safety', 'Fire Protection'],
+    'Security': ['Security', 'Access Control', 'CCTV']
   };
 
-  const specialty = specialties[team][Math.floor(Math.random() * specialties[team].length)];
+  // If team doesn't exist in specialties, use Commercial as default
+  const teamSpecialties = specialties[team] || specialties['Commercial'];
+  const specialty = teamSpecialties[Math.floor(Math.random() * teamSpecialties.length)];
+  
   return `${specialty} ${baseTitle}`;
 }
 
@@ -231,7 +334,7 @@ async function createJob(location, jobType, company) {
     .slice(0, 3);
 
   // Get random work environment
-  const workEnv = WORK_ENVIRONMENTS.find(env => env.type === team);
+  const workEnv = WORK_ENVIRONMENTS.find(env => env.type === team) || WORK_ENVIRONMENTS[0];
 
   // Get random description length
   const descLength = DESCRIPTION_LENGTHS[
@@ -258,7 +361,6 @@ Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
 - Safety knowledge
 
 ## Preferred Qualifications
-- ${requiredCerts[1]} certification
 - Experience with ${tools[2] || tools[0]}
 - ${team} project experience
 

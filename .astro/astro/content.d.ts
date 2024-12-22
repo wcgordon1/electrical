@@ -385,6 +385,34 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"alert-360-fire-alarm-designer-gilbert-aler409rsj.md": {
+	id: "alert-360-fire-alarm-designer-gilbert-aler409rsj.md";
+  slug: "alert-360-fire-alarm-designer-gilbert-aler409rsj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"alert-360-fire-alarm-project-manager-garden-grove-aler2fm21c.md": {
+	id: "alert-360-fire-alarm-project-manager-garden-grove-aler2fm21c.md";
+  slug: "alert-360-fire-alarm-project-manager-garden-grove-aler2fm21c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"alert-360-junior-project-manager-chandler-aler7g6hoc.md": {
+	id: "alert-360-junior-project-manager-chandler-aler7g6hoc.md";
+  slug: "alert-360-junior-project-manager-chandler-aler7g6hoc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"alert-360-security-project-manager-hillsboro-aler7vv3i5.md": {
+	id: "alert-360-security-project-manager-hillsboro-aler7vv3i5.md";
+  slug: "alert-360-security-project-manager-hillsboro-aler7vv3i5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "all-work-elec-premiere-id-re8291.md": {
 	id: "all-work-elec-premiere-id-re8291.md";
   slug: "all-work-elec-premiere-id-re8291";
@@ -1057,6 +1085,41 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"barry-bros-security-fire-alarm-project-manager-oxnard-barrk7dhi2.md": {
+	id: "barry-bros-security-fire-alarm-project-manager-oxnard-barrk7dhi2.md";
+  slug: "barry-bros-security-fire-alarm-project-manager-oxnard-barrk7dhi2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"barry-bros-security-junior-project-manager-portland-barr54u8qe.md": {
+	id: "barry-bros-security-junior-project-manager-portland-barr54u8qe.md";
+  slug: "barry-bros-security-junior-project-manager-portland-barr54u8qe";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"barry-bros-security-security-alarm-project-manager-moreno-valley-barrro6ch2.md": {
+	id: "barry-bros-security-security-alarm-project-manager-moreno-valley-barrro6ch2.md";
+  slug: "barry-bros-security-security-alarm-project-manager-moreno-valley-barrro6ch2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"barry-bros-security-security-alarm-project-manager-provo-barr2qyat7.md": {
+	id: "barry-bros-security-security-alarm-project-manager-provo-barr2qyat7.md";
+  slug: "barry-bros-security-security-alarm-project-manager-provo-barr2qyat7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"barry-bros-security-security-project-manager-chula-vista-barrshzf6g.md": {
+	id: "barry-bros-security-security-project-manager-chula-vista-barrshzf6g.md";
+  slug: "barry-bros-security-security-project-manager-chula-vista-barrshzf6g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "blackbox-audio-visual-technician-columbus-audi-6ibaj5.md": {
 	id: "blackbox-audio-visual-technician-columbus-audi-6ibaj5.md";
   slug: "blackbox-audio-visual-technician-columbus-audi-6ibaj5";
@@ -1449,6 +1512,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"convergint-electrical-project-manager-san-bernardino-conv3umy5p.md": {
+	id: "convergint-electrical-project-manager-san-bernardino-conv3umy5p.md";
+  slug: "convergint-electrical-project-manager-san-bernardino-conv3umy5p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-fire-alarm-designer-west-jordan-convjm5udi.md": {
+	id: "convergint-fire-alarm-designer-west-jordan-convjm5udi.md";
+  slug: "convergint-fire-alarm-designer-west-jordan-convjm5udi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "convergint-fire-alarm-tech-larkspur-conv39fsbk.md": {
 	id: "convergint-fire-alarm-tech-larkspur-conv39fsbk.md";
   slug: "convergint-fire-alarm-tech-larkspur-conv39fsbk";
@@ -1477,9 +1554,58 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"convergint-junior-project-manager-los-angeles-convdvrh97.md": {
+	id: "convergint-junior-project-manager-los-angeles-convdvrh97.md";
+  slug: "convergint-junior-project-manager-los-angeles-convdvrh97";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-junior-project-manager-phoenix-convx3uvcw.md": {
+	id: "convergint-junior-project-manager-phoenix-convx3uvcw.md";
+  slug: "convergint-junior-project-manager-phoenix-convx3uvcw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "convergint-low-voltage-cable-technician-midlothian-convb0f0u9.md": {
 	id: "convergint-low-voltage-cable-technician-midlothian-convb0f0u9.md";
   slug: "convergint-low-voltage-cable-technician-midlothian-convb0f0u9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-alarm-project-manager-fontana-conv59o49i.md": {
+	id: "convergint-security-alarm-project-manager-fontana-conv59o49i.md";
+  slug: "convergint-security-alarm-project-manager-fontana-conv59o49i";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-alarm-project-manager-oakland-convl2d1mo.md": {
+	id: "convergint-security-alarm-project-manager-oakland-convl2d1mo.md";
+  slug: "convergint-security-alarm-project-manager-oakland-convl2d1mo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-alarm-project-manager-tucson-convrx1fwm.md": {
+	id: "convergint-security-alarm-project-manager-tucson-convrx1fwm.md";
+  slug: "convergint-security-alarm-project-manager-tucson-convrx1fwm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-project-manager-glendale-convr45orl.md": {
+	id: "convergint-security-project-manager-glendale-convr45orl.md";
+  slug: "convergint-security-project-manager-glendale-convr45orl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"convergint-security-project-manager-sacramento-convgr3gwz.md": {
+	id: "convergint-security-project-manager-sacramento-convgr3gwz.md";
+  slug: "convergint-security-project-manager-sacramento-convgr3gwz";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -2058,6 +2184,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"ies-electric-commercial-project-manager-chandler-iesjx2edx.md": {
+	id: "ies-electric-commercial-project-manager-chandler-iesjx2edx.md";
+  slug: "ies-electric-commercial-project-manager-chandler-iesjx2edx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "ies-electric-commercial-project-manager-hialeah-ies2yzuyl.md": {
 	id: "ies-electric-commercial-project-manager-hialeah-ies2yzuyl.md";
   slug: "ies-electric-commercial-project-manager-hialeah-ies2yzuyl";
@@ -2096,6 +2229,20 @@ declare module 'astro:content' {
 "ies-electric-journeyman-electrician-san-diego-ies5t6acn.md": {
 	id: "ies-electric-journeyman-electrician-san-diego-ies5t6acn.md";
   slug: "ies-electric-journeyman-electrician-san-diego-ies5t6acn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-junior-project-manager-tucson-ieslxbsb5.md": {
+	id: "ies-electric-junior-project-manager-tucson-ieslxbsb5.md";
+  slug: "ies-electric-junior-project-manager-tucson-ieslxbsb5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-project-manager-mesa-ies18fcpz.md": {
+	id: "ies-electric-project-manager-mesa-ies18fcpz.md";
+  slug: "ies-electric-project-manager-mesa-ies18fcpz";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -2222,6 +2369,48 @@ declare module 'astro:content' {
 "journeyman-electrician-resi-fsaf.md": {
 	id: "journeyman-electrician-resi-fsaf.md";
   slug: "journeyman-electrician-resi-fsaf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-electrical-project-manager-eugene-koor592adz.md": {
+	id: "koorsen-electrical-project-manager-eugene-koor592adz.md";
+  slug: "koorsen-electrical-project-manager-eugene-koor592adz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-fire-alarm-designer-tempe-koorikm591.md": {
+	id: "koorsen-fire-alarm-designer-tempe-koorikm591.md";
+  slug: "koorsen-fire-alarm-designer-tempe-koorikm591";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-fire-alarm-project-manager-los-angeles-koorqoemw6.md": {
+	id: "koorsen-fire-alarm-project-manager-los-angeles-koorqoemw6.md";
+  slug: "koorsen-fire-alarm-project-manager-los-angeles-koorqoemw6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-junior-project-manager-scottsdale-kooroak38a.md": {
+	id: "koorsen-junior-project-manager-scottsdale-kooroak38a.md";
+  slug: "koorsen-junior-project-manager-scottsdale-kooroak38a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-security-alarm-project-manager-anaheim-koory45cv0.md": {
+	id: "koorsen-security-alarm-project-manager-anaheim-koory45cv0.md";
+  slug: "koorsen-security-alarm-project-manager-anaheim-koory45cv0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"koorsen-security-alarm-project-manager-vancouver-koor2inu1k.md": {
+	id: "koorsen-security-alarm-project-manager-vancouver-koor2inu1k.md";
+  slug: "koorsen-security-alarm-project-manager-vancouver-koor2inu1k";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -4956,6 +5145,55 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-bakersfield-primn8w2oy.md": {
+	id: "prime-partners-electrical-project-manager-bakersfield-primn8w2oy.md";
+  slug: "prime-partners-electrical-project-manager-bakersfield-primn8w2oy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-designer-salem-prim89ujw0.md": {
+	id: "prime-partners-fire-alarm-designer-salem-prim89ujw0.md";
+  slug: "prime-partners-fire-alarm-designer-salem-prim89ujw0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-designer-seattle-prim0l7ril.md": {
+	id: "prime-partners-fire-alarm-designer-seattle-prim0l7ril.md";
+  slug: "prime-partners-fire-alarm-designer-seattle-prim0l7ril";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-junior-project-manager-santa-clarita-primu1n8e3.md": {
+	id: "prime-partners-junior-project-manager-santa-clarita-primu1n8e3.md";
+  slug: "prime-partners-junior-project-manager-santa-clarita-primu1n8e3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-project-manager-san-jose-primxjl8c6.md": {
+	id: "prime-partners-security-alarm-project-manager-san-jose-primxjl8c6.md";
+  slug: "prime-partners-security-alarm-project-manager-san-jose-primxjl8c6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-project-manager-sparks-prim6ps72m.md": {
+	id: "prime-partners-security-alarm-project-manager-sparks-prim6ps72m.md";
+  slug: "prime-partners-security-alarm-project-manager-sparks-prim6ps72m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-project-manager-tacoma-primph53uf.md": {
+	id: "prime-partners-security-alarm-project-manager-tacoma-primph53uf.md";
+  slug: "prime-partners-security-alarm-project-manager-tacoma-primph53uf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "prime-security-technician-anaheim-secu-ikfp2q.md": {
 	id: "prime-security-technician-anaheim-secu-ikfp2q.md";
   slug: "prime-security-technician-anaheim-secu-ikfp2q";
@@ -5698,9 +5936,58 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"rogers-electric-junior-project-manager-tempe-rogeely7qh.md": {
+	id: "rogers-electric-junior-project-manager-tempe-rogeely7qh.md";
+  slug: "rogers-electric-junior-project-manager-tempe-rogeely7qh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "rogers-electric-project-manager-colorado-springs-rogek0ha67.md": {
 	id: "rogers-electric-project-manager-colorado-springs-rogek0ha67.md";
   slug: "rogers-electric-project-manager-colorado-springs-rogek0ha67";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-electrical-project-manager-orem-safegk0q19.md": {
+	id: "safe-and-sound-electrical-project-manager-orem-safegk0q19.md";
+  slug: "safe-and-sound-electrical-project-manager-orem-safegk0q19";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-fire-alarm-designer-reno-safe9lrlj4.md": {
+	id: "safe-and-sound-fire-alarm-designer-reno-safe9lrlj4.md";
+  slug: "safe-and-sound-fire-alarm-designer-reno-safe9lrlj4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-fire-alarm-designer-west-valley-city-safehzb7yh.md": {
+	id: "safe-and-sound-fire-alarm-designer-west-valley-city-safehzb7yh.md";
+  slug: "safe-and-sound-fire-alarm-designer-west-valley-city-safehzb7yh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-junior-project-manager-stockton-safe9zboef.md": {
+	id: "safe-and-sound-junior-project-manager-stockton-safe9zboef.md";
+  slug: "safe-and-sound-junior-project-manager-stockton-safe9zboef";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-security-alarm-project-manager-fremont-safels05kj.md": {
+	id: "safe-and-sound-security-alarm-project-manager-fremont-safels05kj.md";
+  slug: "safe-and-sound-security-alarm-project-manager-fremont-safels05kj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"safe-and-sound-security-project-manager-modesto-safexs193s.md": {
+	id: "safe-and-sound-security-project-manager-modesto-safexs193s.md";
+  slug: "safe-and-sound-security-project-manager-modesto-safexs193s";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -6104,6 +6391,48 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md": {
+	id: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md";
+  slug: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fire-alarm-designer-irvine-stal977llc.md": {
+	id: "staley-technologies-fire-alarm-designer-irvine-stal977llc.md";
+  slug: "staley-technologies-fire-alarm-designer-irvine-stal977llc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fire-alarm-designer-spokane-stalf2muvr.md": {
+	id: "staley-technologies-fire-alarm-designer-spokane-stalf2muvr.md";
+  slug: "staley-technologies-fire-alarm-designer-spokane-stalf2muvr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fire-alarm-project-manager-bellevue-stalgaieb6.md": {
+	id: "staley-technologies-fire-alarm-project-manager-bellevue-stalgaieb6.md";
+  slug: "staley-technologies-fire-alarm-project-manager-bellevue-stalgaieb6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fire-alarm-project-manager-huntington-beach-stalpl77ql.md": {
+	id: "staley-technologies-fire-alarm-project-manager-huntington-beach-stalpl77ql.md";
+  slug: "staley-technologies-fire-alarm-project-manager-huntington-beach-stalpl77ql";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fire-alarm-project-manager-san-francisco-stalro7pm6.md": {
+	id: "staley-technologies-fire-alarm-project-manager-san-francisco-stalro7pm6.md";
+  slug: "staley-technologies-fire-alarm-project-manager-san-francisco-stalro7pm6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "t&d-communications-av-systems-tech-oklahoma-city-t&d1k6uzf.md": {
 	id: "t&d-communications-av-systems-tech-oklahoma-city-t&d1k6uzf.md";
   slug: "td-communications-av-systems-tech-oklahoma-city-td1k6uzf";
@@ -6261,6 +6590,13 @@ declare module 'astro:content' {
 "tec-electric-junior-project-manager-miami-tecx7l0jn.md": {
 	id: "tec-electric-junior-project-manager-miami-tecx7l0jn.md";
   slug: "tec-electric-junior-project-manager-miami-tecx7l0jn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tec-electric-junior-project-manager-phoenix-tecu076rk.md": {
+	id: "tec-electric-junior-project-manager-phoenix-tecu076rk.md";
+  slug: "tec-electric-junior-project-manager-phoenix-tecu076rk";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -6762,6 +7098,41 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"valley-alarm-fire-alarm-designer-mesa-vallatma87.md": {
+	id: "valley-alarm-fire-alarm-designer-mesa-vallatma87.md";
+  slug: "valley-alarm-fire-alarm-designer-mesa-vallatma87";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"valley-alarm-fire-alarm-designer-north-las-vegas-vall4vg1ah.md": {
+	id: "valley-alarm-fire-alarm-designer-north-las-vegas-vall4vg1ah.md";
+  slug: "valley-alarm-fire-alarm-designer-north-las-vegas-vall4vg1ah";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"valley-alarm-fire-alarm-project-manager-long-beach-vallo2nemc.md": {
+	id: "valley-alarm-fire-alarm-project-manager-long-beach-vallo2nemc.md";
+  slug: "valley-alarm-fire-alarm-project-manager-long-beach-vallo2nemc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"valley-alarm-junior-project-manager-peoria-vallzpet0y.md": {
+	id: "valley-alarm-junior-project-manager-peoria-vallzpet0y.md";
+  slug: "valley-alarm-junior-project-manager-peoria-vallzpet0y";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"valley-alarm-security-alarm-project-manager-santa-ana-vall659ub3.md": {
+	id: "valley-alarm-security-alarm-project-manager-santa-ana-vall659ub3.md";
+  slug: "valley-alarm-security-alarm-project-manager-santa-ana-vall659ub3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "vision-technologies-av-systems-tech-detroit-visi6bj5zg.md": {
 	id: "vision-technologies-av-systems-tech-detroit-visi6bj5zg.md";
   slug: "vision-technologies-av-systems-tech-detroit-visi6bj5zg";
@@ -6821,6 +7192,55 @@ declare module 'astro:content' {
 "voice-data-installer-fairfax-id-ds23.md": {
 	id: "voice-data-installer-fairfax-id-ds23.md";
   slug: "voice-data-installer-fairfax-id-ds23";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-fire-alarm-designer-glendale-westcap11k.md": {
+	id: "west-coast-fire-fire-alarm-designer-glendale-westcap11k.md";
+  slug: "west-coast-fire-fire-alarm-designer-glendale-westcap11k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-fire-alarm-designer-henderson-westfsnipc.md": {
+	id: "west-coast-fire-fire-alarm-designer-henderson-westfsnipc.md";
+  slug: "west-coast-fire-fire-alarm-designer-henderson-westfsnipc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-fire-alarm-designer-riverside-westacszhm.md": {
+	id: "west-coast-fire-fire-alarm-designer-riverside-westacszhm.md";
+  slug: "west-coast-fire-fire-alarm-designer-riverside-westacszhm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-fire-alarm-designer-san-diego-westkuraqt.md": {
+	id: "west-coast-fire-fire-alarm-designer-san-diego-westkuraqt.md";
+  slug: "west-coast-fire-fire-alarm-designer-san-diego-westkuraqt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-security-alarm-project-manager-gresham-westbnv218.md": {
+	id: "west-coast-fire-security-alarm-project-manager-gresham-westbnv218.md";
+  slug: "west-coast-fire-security-alarm-project-manager-gresham-westbnv218";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-security-alarm-project-manager-las-vegas-westveiye0.md": {
+	id: "west-coast-fire-security-alarm-project-manager-las-vegas-westveiye0.md";
+  slug: "west-coast-fire-security-alarm-project-manager-las-vegas-westveiye0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"west-coast-fire-security-project-manager-fresno-west52bfm6.md": {
+	id: "west-coast-fire-security-project-manager-fresno-west52bfm6.md";
+  slug: "west-coast-fire-security-project-manager-fresno-west52bfm6";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
