@@ -1,0 +1,131 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { Icon } from 'astro-icon/components';
+import type { Fragment } from 'astro';
+
+const { frontmatter } = Astro.props;
+console.log('GlossaryLayout frontmatter:', frontmatter); // Debug log
+
+// Add type checking and debug
+type Frontmatter = {
+  term: string;
+  vertical: string;
+  description: string;
+  // ... other properties
+};
+
+// Debug log to verify data
+console.log('Frontmatter:', frontmatter);
+
+// SEO
+const seoTitle = `${frontmatter.term} - Electrical Industry Glossary`;
+const seoDescription = frontmatter.description.slice(0, 160) + (frontmatter.description.length > 160 ? '...' : '');
+
+// Enhanced JSON-LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["Article", "TechArticle"],
+  "headline": `What is ${frontmatter.term} in ${frontmatter.vertical} Work?`,
+  "name": `${frontmatter.term} - Electrical Industry Term Definition`,
+  "articleBody": frontmatter.description,
+  "description": frontmatter.description,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": new URL(Astro.url.pathname, Astro.site).toString()
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Best Electrician Jobs",
+    "url": "https://www.bestelectricianjobs.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Best Electrician Jobs",
+    "url": "https://www.bestelectricianjobs.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bestelectricianjobs.com/images/eleclog.png"
+    }
+  }
+};
+
+// Canonical URL
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<BaseLayout title={seoTitle} description={seoDescription}>
+  <Fragment slot="head">
+    <link rel="canonical" href={canonicalURL} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd, null, 2)} />
+  </Fragment>
+
+  <main>
+    <section class="bg-white">
+      <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div class="lg:col-span-2">
+            <h1 class="text-4xl font-bold tracking-tight text-purple-900 sm:text-5xl">
+              {frontmatter.term}
+            </h1>
+            <p class="mt-6 text-xl leading-8 text-slate-500">
+              {frontmatter.description}
+            </p>
+            
+            <h2 class="text-2xl font-bold tracking-tight text-purple-900 sm:text-3xl mt-12">
+              What is {frontmatter.term} in {frontmatter.vertical || 'Electrical'} Work?
+            </h2>
+            <div class="prose prose-lg prose-purple max-w-none mt-12">
+              <slot />
+            </div>
+          </div>
+
+          <div>
+            <div class="sticky top-8">
+              <div class="bg-slate-50 rounded-lg p-8">
+                {frontmatter?.icon && (
+                  <Icon 
+                    name={frontmatter.icon} 
+                    class="w-16 h-16 text-purple-900" 
+                    aria-hidden="true"
+                  />
+                )}
+
+                <h3 class="text-2xl font-bold tracking-tight text-purple-900 sm:text-3xl mt-8">
+                  {frontmatter.term} 
+                </h3>
+                
+                <div class="mt-8 space-y-6">
+                  {frontmatter.details.map(detail => (
+                    <div>
+                      <h3 class="text-sm font-medium text-purple-900">
+                        {detail.title}
+                      </h3>
+                      <p class="mt-2 text-sm text-slate-500">
+                        {detail.url ? (
+                          <a href={detail.url} class="text-blue-600 hover:text-blue-800">
+                            {detail.value}
+                          </a>
+                        ) : (
+                          detail.value
+                        )}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
+                <div class="mt-12 space-y-4">
+                  <a href="/open-positions" class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full">
+                    View Open Positions
+                  </a>
+                  <a href="/articles" class="text-blue-500 items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-current focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full hover:text-blue-600 w-full">
+                    Read Articles
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout> 

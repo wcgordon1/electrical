@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import GlossaryEntries from "@/components/glossary/Entries.astro";
+
+const allEntries = await getCollection("glossary");
+
+// Debug what we're getting
+console.log('First entry:', allEntries[0]?.data);
+const pageTitle = "Electrical Glossary | Best Electrician Jobs";
+const pageDescription = "Comprehensive glossary of electrical industry terms, definitions, and concepts for electricians and industry professionals.";
+
+// Canonical URL
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <head slot="head">
+    <link rel="canonical" href={canonicalURL} />
+  </head>
+
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
+      <h2 class="text-purple-900 font-semibold tracking-tight text-3xl">
+        Best Electrician Jobs - Glossary
+      </h2>
+      <p class="mt-6 mb-4 text-lg text-gray-600">
+        A glossary of terms related to the best electrician jobs.
+      </p>
+      <div class="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-8">
+        {allEntries.map(entry => (
+          <div class="border rounded-lg p-6">
+            <h3 class="font-semibold text-lg">{entry.data.term}</h3>
+            <p class="mt-2 mb-4 text-sm text-gray-600">
+              {entry.data.description.slice(0, 100)}
+              {entry.data.description.length > 100 ? "..." : ""}
+            </p>
+            <a href={`/glossary/${entry.slug}`} class="mt-6 text-blue-500">Learn more →</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout> 

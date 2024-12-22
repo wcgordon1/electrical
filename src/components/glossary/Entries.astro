@@ -1,0 +1,35 @@
+---
+import { Icon } from 'astro-icon';
+const { term, description, url, icon } = Astro.props;
+
+// Debug log
+console.log('Entries props:', { term, icon });
+---
+<li class="flex flex-col h-full justify-between">
+  <div>
+    <div>
+      {icon && (
+        <Icon 
+          name={icon} 
+          class="w-12 h-12 text-purple-900" 
+        />
+      )}
+      <p class="mt-5 font-semibold text-purple-900">{term}</p>
+    </div>
+    <div class="mt-2 mb-6 text-slate-500 text-sm">
+      {description}
+    </div>
+  </div>
+  <div class="mt-5">
+    <a
+      aria-label={term}
+      href={url}
+      title={term}
+      class="text-blue-500 mt-6 hover:text-blue-600 inline-flex items-center group">
+      Learn more
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4 ml-3 group-hover:translate-x-2 transition duration-500 ease-in-out transform">
+        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"></path>
+      </svg>
+    </a>
+  </div>
+</li> 

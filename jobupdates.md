@@ -155,3 +155,16 @@ npm run update-dates -- --from="2024-12-10" --to="2024-12-14"
 npm run create-electrician-jobs
 
 npm run create-cable-jobs
+
+# Most recent 100
+npm run index-recent-jobs -- -limit=100
+
+
+Certs in job description prompt:
+- ${requiredCerts[1]} certification
+
+
+
+
+
+npm run create-glossary

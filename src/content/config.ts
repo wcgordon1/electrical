@@ -115,6 +115,21 @@ const companyCollection = defineCollection({
     featured: z.boolean().default(false)
   })
 });
+const glossaryCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    term: z.string(),
+    icon: z.string(),
+    category: z.string(),
+    vertical: z.string(),
+    description: z.string(),
+    details: z.array(z.object({
+      title: z.string(),
+      value: z.string(),
+      url: z.string().optional()
+    }))
+  })
+});
 
 export const collections = {
   integrations: integrations,
@@ -124,4 +139,5 @@ export const collections = {
   jobs: jobsCollection,
   posts: postsCollection,
   company: companyCollection,
+  glossary: glossaryCollection
 };

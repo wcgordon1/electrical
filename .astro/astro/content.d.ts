@@ -210,6 +210,1198 @@ declare module 'astro:content' {
   data: InferEntrySchema<"customers">
 } & { render(): Render[".md"] };
 };
+"glossary": {
+"110-block.md": {
+	id: "110-block.md";
+  slug: "110-block";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"66-block.md": {
+	id: "66-block.md";
+  slug: "66-block";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"access-control-interface.md": {
+	id: "access-control-interface.md";
+  slug: "access-control-interface";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"access-credentials.md": {
+	id: "access-credentials.md";
+  slug: "access-credentials";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"addressable-system.md": {
+	id: "addressable-system.md";
+  slug: "addressable-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"alarm-keypad.md": {
+	id: "alarm-keypad.md";
+  slug: "alarm-keypad";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"amperage.md": {
+	id: "amperage.md";
+  slug: "amperage";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"analog-input.md": {
+	id: "analog-input.md";
+  slug: "analog-input";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"annunciator.md": {
+	id: "annunciator.md";
+  slug: "annunciator";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"arc-flash.md": {
+	id: "arc-flash.md";
+  slug: "arc-flash";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"area-of-refuge.md": {
+	id: "area-of-refuge.md";
+  slug: "area-of-refuge";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"armored-cable.md": {
+	id: "armored-cable.md";
+  slug: "armored-cable";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"audio-amplifier.md": {
+	id: "audio-amplifier.md";
+  slug: "audio-amplifier";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"backbone-cabling.md": {
+	id: "backbone-cabling.md";
+  slug: "backbone-cabling";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"backplane.md": {
+	id: "backplane.md";
+  slug: "backplane";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"badge-printer.md": {
+	id: "badge-printer.md";
+  slug: "badge-printer";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"battery-backup.md": {
+	id: "battery-backup.md";
+  slug: "battery-backup";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"bda-system.md": {
+	id: "bda-system.md";
+  slug: "bda-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"beam-detector.md": {
+	id: "beam-detector.md";
+  slug: "beam-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"bonding.md": {
+	id: "bonding.md";
+  slug: "bonding";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"busbar.md": {
+	id: "busbar.md";
+  slug: "busbar";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-certification.md": {
+	id: "cable-certification.md";
+  slug: "cable-certification";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-management.md": {
+	id: "cable-management.md";
+  slug: "cable-management";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-pulling.md": {
+	id: "cable-pulling.md";
+  slug: "cable-pulling";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-tester.md": {
+	id: "cable-tester.md";
+  slug: "cable-tester";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cable-tray.md": {
+	id: "cable-tray.md";
+  slug: "cable-tray";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"candela-rating.md": {
+	id: "candela-rating.md";
+  slug: "candela-rating";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"capacitor.md": {
+	id: "capacitor.md";
+  slug: "capacitor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"card-reader.md": {
+	id: "card-reader.md";
+  slug: "card-reader";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cat6a-cable.md": {
+	id: "cat6a-cable.md";
+  slug: "cat6a-cable";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cellular-communicator.md": {
+	id: "cellular-communicator.md";
+  slug: "cellular-communicator";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"circuit-breaker.md": {
+	id: "circuit-breaker.md";
+  slug: "circuit-breaker";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"class-a-wiring.md": {
+	id: "class-a-wiring.md";
+  slug: "class-a-wiring";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"class-b-wiring.md": {
+	id: "class-b-wiring.md";
+  slug: "class-b-wiring";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"co-detector.md": {
+	id: "co-detector.md";
+  slug: "co-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"conductor.md": {
+	id: "conductor.md";
+  slug: "conductor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"conduit.md": {
+	id: "conduit.md";
+  slug: "conduit";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"contactor.md": {
+	id: "contactor.md";
+  slug: "contactor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"control-module.md": {
+	id: "control-module.md";
+  slug: "control-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"conventional-system.md": {
+	id: "conventional-system.md";
+  slug: "conventional-system";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"cpu-module.md": {
+	id: "cpu-module.md";
+  slug: "cpu-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"dact.md": {
+	id: "dact.md";
+  slug: "dact";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"data-table.md": {
+	id: "data-table.md";
+  slug: "data-table";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"digital-input.md": {
+	id: "digital-input.md";
+  slug: "digital-input";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"disconnect-switch.md": {
+	id: "disconnect-switch.md";
+  slug: "disconnect-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"door-contact.md": {
+	id: "door-contact.md";
+  slug: "door-contact";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"door-controller.md": {
+	id: "door-controller.md";
+  slug: "door-controller";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"duct-detector.md": {
+	id: "duct-detector.md";
+  slug: "duct-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"duress-button.md": {
+	id: "duress-button.md";
+  slug: "duress-button";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"electric-strike.md": {
+	id: "electric-strike.md";
+  slug: "electric-strike";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"elevator-recall.md": {
+	id: "elevator-recall.md";
+  slug: "elevator-recall";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"emt.md": {
+	id: "emt.md";
+  slug: "emt";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"eol-resistor.md": {
+	id: "eol-resistor.md";
+  slug: "eol-resistor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ethernet-ip.md": {
+	id: "ethernet-ip.md";
+  slug: "ethernet-ip";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"facp.md": {
+	id: "facp.md";
+  slug: "facp";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fiber-optic-cable.md": {
+	id: "fiber-optic-cable.md";
+  slug: "fiber-optic-cable";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fiber-splice.md": {
+	id: "fiber-splice.md";
+  slug: "fiber-splice";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fiber-tray.md": {
+	id: "fiber-tray.md";
+  slug: "fiber-tray";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"finger-safe.md": {
+	id: "finger-safe.md";
+  slug: "finger-safe";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fire-alarm-log.md": {
+	id: "fire-alarm-log.md";
+  slug: "fire-alarm-log";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fire-alarm-runner.md": {
+	id: "fire-alarm-runner.md";
+  slug: "fire-alarm-runner";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fire-command-center.md": {
+	id: "fire-command-center.md";
+  slug: "fire-command-center";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fire-phone.md": {
+	id: "fire-phone.md";
+  slug: "fire-phone";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fire-sprinkler-monitor.md": {
+	id: "fire-sprinkler-monitor.md";
+  slug: "fire-sprinkler-monitor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"fish-tape.md": {
+	id: "fish-tape.md";
+  slug: "fish-tape";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"function-block.md": {
+	id: "function-block.md";
+  slug: "function-block";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"gfci.md": {
+	id: "gfci.md";
+  slug: "gfci";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"glass-break-detector.md": {
+	id: "glass-break-detector.md";
+  slug: "glass-break-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"graphic-annunciator.md": {
+	id: "graphic-annunciator.md";
+  slug: "graphic-annunciator";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ground-bar.md": {
+	id: "ground-bar.md";
+  slug: "ground-bar";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ground-wire.md": {
+	id: "ground-wire.md";
+  slug: "ground-wire";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"grounding-electrode.md": {
+	id: "grounding-electrode.md";
+  slug: "grounding-electrode";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"harmonics.md": {
+	id: "harmonics.md";
+  slug: "harmonics";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"heat-detector.md": {
+	id: "heat-detector.md";
+  slug: "heat-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"hmi.md": {
+	id: "hmi.md";
+  slug: "hmi";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"horn-strobe.md": {
+	id: "horn-strobe.md";
+  slug: "horn-strobe";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"idf.md": {
+	id: "idf.md";
+  slug: "idf";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"input-module.md": {
+	id: "input-module.md";
+  slug: "input-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"intercom.md": {
+	id: "intercom.md";
+  slug: "intercom";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ip-camera.md": {
+	id: "ip-camera.md";
+  slug: "ip-camera";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"isolation-module.md": {
+	id: "isolation-module.md";
+  slug: "isolation-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"j-hook.md": {
+	id: "j-hook.md";
+  slug: "j-hook";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"junction-box.md": {
+	id: "junction-box.md";
+  slug: "junction-box";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"key-fob.md": {
+	id: "key-fob.md";
+  slug: "key-fob";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"knockout.md": {
+	id: "knockout.md";
+  slug: "knockout";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ladder-logic.md": {
+	id: "ladder-logic.md";
+  slug: "ladder-logic";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"lc-connector.md": {
+	id: "lc-connector.md";
+  slug: "lc-connector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"load-center.md": {
+	id: "load-center.md";
+  slug: "load-center";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"lockout-tagout.md": {
+	id: "lockout-tagout.md";
+  slug: "lockout-tagout";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"loop-card.md": {
+	id: "loop-card.md";
+  slug: "loop-card";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"mag-door-holder.md": {
+	id: "mag-door-holder.md";
+  slug: "mag-door-holder";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"magnetic-lock.md": {
+	id: "magnetic-lock.md";
+  slug: "magnetic-lock";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"mdf.md": {
+	id: "mdf.md";
+  slug: "mdf";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"mega-meter.md": {
+	id: "mega-meter.md";
+  slug: "mega-meter";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"memory-module.md": {
+	id: "memory-module.md";
+  slug: "memory-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"mini-horn.md": {
+	id: "mini-horn.md";
+  slug: "mini-horn";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"modbus.md": {
+	id: "modbus.md";
+  slug: "modbus";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"monitor-module.md": {
+	id: "monitor-module.md";
+  slug: "monitor-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"motion-detector.md": {
+	id: "motion-detector.md";
+  slug: "motion-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"motor-starter.md": {
+	id: "motor-starter.md";
+  slug: "motor-starter";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"multimeter.md": {
+	id: "multimeter.md";
+  slug: "multimeter";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"nac-extender.md": {
+	id: "nac-extender.md";
+  slug: "nac-extender";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"nac.md": {
+	id: "nac.md";
+  slug: "nac";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"network-camera.md": {
+	id: "network-camera.md";
+  slug: "network-camera";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"network-card.md": {
+	id: "network-card.md";
+  slug: "network-card";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"network-rack.md": {
+	id: "network-rack.md";
+  slug: "network-rack";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"neutral-wire.md": {
+	id: "neutral-wire.md";
+  slug: "neutral-wire";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"nvr.md": {
+	id: "nvr.md";
+  slug: "nvr";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"opc-server.md": {
+	id: "opc-server.md";
+  slug: "opc-server";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"otdr.md": {
+	id: "otdr.md";
+  slug: "otdr";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"output-module.md": {
+	id: "output-module.md";
+  slug: "output-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"panel-board.md": {
+	id: "panel-board.md";
+  slug: "panel-board";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"patch-panel.md": {
+	id: "patch-panel.md";
+  slug: "patch-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"phase.md": {
+	id: "phase.md";
+  slug: "phase";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"pid-control.md": {
+	id: "pid-control.md";
+  slug: "pid-control";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"plenum-cable.md": {
+	id: "plenum-cable.md";
+  slug: "plenum-cable";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"poe-switch.md": {
+	id: "poe-switch.md";
+  slug: "poe-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"poe.md": {
+	id: "poe.md";
+  slug: "poe";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"power-factor.md": {
+	id: "power-factor.md";
+  slug: "power-factor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"power-supply.md": {
+	id: "power-supply.md";
+  slug: "power-supply";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"profibus.md": {
+	id: "profibus.md";
+  slug: "profibus";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"programming-tool.md": {
+	id: "programming-tool.md";
+  slug: "programming-tool";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"proximity-reader.md": {
+	id: "proximity-reader.md";
+  slug: "proximity-reader";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"ptz-camera.md": {
+	id: "ptz-camera.md";
+  slug: "ptz-camera";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"pull-box.md": {
+	id: "pull-box.md";
+  slug: "pull-box";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"pull-station.md": {
+	id: "pull-station.md";
+  slug: "pull-station";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"punch-down-tool.md": {
+	id: "punch-down-tool.md";
+  slug: "punch-down-tool";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"raceway.md": {
+	id: "raceway.md";
+  slug: "raceway";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"record-of-completion.md": {
+	id: "record-of-completion.md";
+  slug: "record-of-completion";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"relay-module.md": {
+	id: "relay-module.md";
+  slug: "relay-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"relay.md": {
+	id: "relay.md";
+  slug: "relay";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"remote-i-o.md": {
+	id: "remote-i-o.md";
+  slug: "remote-i-o";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"remote-power-supply.md": {
+	id: "remote-power-supply.md";
+  slug: "remote-power-supply";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"remote-test-station.md": {
+	id: "remote-test-station.md";
+  slug: "remote-test-station";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"request-to-exit.md": {
+	id: "request-to-exit.md";
+  slug: "request-to-exit";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"resistance.md": {
+	id: "resistance.md";
+  slug: "resistance";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"rj45-connector.md": {
+	id: "rj45-connector.md";
+  slug: "rj45-connector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"rung.md": {
+	id: "rung.md";
+  slug: "rung";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"safety-plc.md": {
+	id: "safety-plc.md";
+  slug: "safety-plc";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"scada.md": {
+	id: "scada.md";
+  slug: "scada";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"security-panel.md": {
+	id: "security-panel.md";
+  slug: "security-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"sensor-input.md": {
+	id: "sensor-input.md";
+  slug: "sensor-input";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"sequence-of-operations.md": {
+	id: "sequence-of-operations.md";
+  slug: "sequence-of-operations";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"service-entrance.md": {
+	id: "service-entrance.md";
+  slug: "service-entrance";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"short-circuit.md": {
+	id: "short-circuit.md";
+  slug: "short-circuit";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"slc.md": {
+	id: "slc.md";
+  slug: "slc";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"smoke-control-panel.md": {
+	id: "smoke-control-panel.md";
+  slug: "smoke-control-panel";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"smoke-control.md": {
+	id: "smoke-control.md";
+  slug: "smoke-control";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"smoke-detector.md": {
+	id: "smoke-detector.md";
+  slug: "smoke-detector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"structured-text.md": {
+	id: "structured-text.md";
+  slug: "structured-text";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"surge-protector.md": {
+	id: "surge-protector.md";
+  slug: "surge-protector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"surge-suppressor.md": {
+	id: "surge-suppressor.md";
+  slug: "surge-suppressor";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"synchronization.md": {
+	id: "synchronization.md";
+  slug: "synchronization";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"thermography.md": {
+	id: "thermography.md";
+  slug: "thermography";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"tone-generator.md": {
+	id: "tone-generator.md";
+  slug: "tone-generator";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"transformer.md": {
+	id: "transformer.md";
+  slug: "transformer";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"valve-tamper.md": {
+	id: "valve-tamper.md";
+  slug: "valve-tamper";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"vfd.md": {
+	id: "vfd.md";
+  slug: "vfd";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"video-analytics.md": {
+	id: "video-analytics.md";
+  slug: "video-analytics";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"video-management.md": {
+	id: "video-management.md";
+  slug: "video-management";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"voice-evacuation.md": {
+	id: "voice-evacuation.md";
+  slug: "voice-evacuation";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"voip-phone.md": {
+	id: "voip-phone.md";
+  slug: "voip-phone";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"voltage-drop.md": {
+	id: "voltage-drop.md";
+  slug: "voltage-drop";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"voltage.md": {
+	id: "voltage.md";
+  slug: "voltage";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"wap.md": {
+	id: "wap.md";
+  slug: "wap";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"water-flow-switch.md": {
+	id: "water-flow-switch.md";
+  slug: "water-flow-switch";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"wire-connector.md": {
+	id: "wire-connector.md";
+  slug: "wire-connector";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"wire-gauge.md": {
+	id: "wire-gauge.md";
+  slug: "wire-gauge";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"wire-stripper.md": {
+	id: "wire-stripper.md";
+  slug: "wire-stripper";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+"zone-module.md": {
+	id: "zone-module.md";
+  slug: "zone-module";
+  body: string;
+  collection: "glossary";
+  data: InferEntrySchema<"glossary">
+} & { render(): Render[".md"] };
+};
 "helpcenter": {
 "1.md": {
 	id: "1.md";
@@ -277,50 +1469,14 @@ declare module 'astro:content' {
   data: InferEntrySchema<"infopages">
 } & { render(): Render[".md"] };
 };
-"integrations": {
-"1.md": {
-	id: "1.md";
-  slug: "1";
+"integrations": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-"2.md": {
-	id: "2.md";
-  slug: "2";
-  body: string;
-  collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-"3.md": {
-	id: "3.md";
-  slug: "3";
-  body: string;
-  collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-"4.md": {
-	id: "4.md";
-  slug: "4";
-  body: string;
-  collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-"5.md": {
-	id: "5.md";
-  slug: "5";
-  body: string;
-  collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-"6.md": {
-	id: "6.md";
-  slug: "6";
-  body: string;
-  collection: "integrations";
-  data: InferEntrySchema<"integrations">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"integrations">;
+  render(): Render[".md"];
+}>;
 "jobs": {
 "3d-communications-av-systems-tech-cypress-3dcfn02rr.md": {
 	id: "3d-communications-av-systems-tech-cypress-3dcfn02rr.md";
