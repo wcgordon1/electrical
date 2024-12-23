@@ -84,6 +84,53 @@ const COMPANIES = {
   }
 };
 
+{
+  'Convergint': {
+    name: 'Convergint',
+    sameAs: 'https://www.convergint.com/',
+    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
+  },
+  'West Coast Fire': {
+    name: 'West Coast Fire',
+    sameAs: 'https://westcoastfireinc.com/',
+    logo: 'https://westcoastfireinc.com/wp-content/uploads/2024/04/WCFI_logo_V1_Transparent-1-800x294.png'
+  },
+  'Staley Technologies': {
+    name: 'Staley Technologies',
+    sameAs: 'https://staleytechnologies.com/',
+    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
+  },
+  'Prime Partners': {
+    name: 'Prime Partners',
+    sameAs: 'https://www.primepartners.com/',
+    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
+  },
+  'Valley Alarm': {
+    name: 'Valley Alarm',
+    sameAs: 'https://valleyalarm.com/',
+    logo: 'https://www.valleyalarm.com/wp-content/uploads/2024/07/Valley-Alarm-Logo-web.png'
+  },
+  'Alert 360': {
+    name: 'Alert 360',
+    sameAs: 'https://alert360.com/',
+    logo: 'https://www.alert360.com/sites/default/files/Alert%20360%20Santa-01%202.png'
+  },
+  'Safe and Sound': {
+    name: 'Safe and Sound',
+    sameAs: 'https://getsafeandsound.com/',
+    logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
+  },
+  'Barry Bros Security': {
+    name: 'Barry Bros Security',
+    sameAs: 'https://barrybros.com/',
+    logo: 'https://www.barrybros.com/wp-content/themes/barrybros/img/logo.svg'
+  },
+  'Koorsen': {
+    name: 'Koorsen',
+    sameAs: 'https://koorsen.com/',
+    logo: 'https://www.koorsen.com/wp-content/uploads/2022/02/Koorsen-Logo.svg'
+  }
+
 
 
 npm run index-jobs
@@ -171,4 +218,4 @@ npm run update-category-values
 npm run create-glossary
 
 
-npm run notify-content-updates -- --from="2024-12-22" --to="2024-12-22"
+npm run notify-content-updates -- --from="2024-12-21" --to="2024-12-22"

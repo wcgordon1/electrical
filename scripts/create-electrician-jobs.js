@@ -1,108 +1,76 @@
 const COMPANIES = {
-  'Convergint': {
-    name: 'Convergint',
-    sameAs: 'https://www.convergint.com/',
-    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
+  'Helix Electric': {
+    name: 'Helix Electric',
+    sameAs: 'https://www.helixelectric.com/',
+    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
   },
-  'West Coast Fire': {
-    name: 'West Coast Fire',
-    sameAs: 'https://westcoastfireinc.com/',
-    logo: 'https://westcoastfireinc.com/wp-content/uploads/2024/04/WCFI_logo_V1_Transparent-1-800x294.png'
+  'Rogers Electric': {
+    name: 'Rogers Electric',
+    sameAs: 'https://www.rogerselectric.com/',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbvt0RMRvj6bZdL81Q6HJeRVl_qflQIGgp9w&s'
   },
-  'Staley Technologies': {
-    name: 'Staley Technologies',
-    sameAs: 'https://staleytechnologies.com/',
-    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
+  'Tri City Electric': {
+    name: 'Tri City Electric',
+    sameAs: 'https://www.tcelectric.com/',
+    logo: 'https://www.tcelectric.com/wp-content/themes/TriCity/images/logo.png'
   },
-  'Prime Partners': {
-    name: 'Prime Partners',
-    sameAs: 'https://www.primepartners.com/',
-    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
+  'Nipper Electric': {
+    name: 'Nipper Electric',
+    sameAs: 'https://nipperelectric.com/',
+    logo: 'https://nipperelectric.com/wp-content/uploads/2019/12/Logo-Nipper-horizontal-primary.png'
   },
-  'Valley Alarm': {
-    name: 'Valley Alarm',
-    sameAs: 'https://valleyalarm.com/',
-    logo: 'https://www.valleyalarm.com/wp-content/uploads/2024/07/Valley-Alarm-Logo-web.png'
+  'Jackson Electric': {
+    name: 'Jackson Electric',
+    sameAs: 'https://www.jacksonelect.com/',
+    logo: 'https://www.jacksonelect.com/images/logo.png'
   },
-  'Alert 360': {
-    name: 'Alert 360',
-    sameAs: 'https://alert360.com/',
-    logo: 'https://www.alert360.com/sites/default/files/Alert%20360%20Santa-01%202.png'
+  'HCS Electrical': {
+    name: 'HCS Electrical',
+    sameAs: 'https://www.hcselectricaltn.com/',
+    logo: 'https://static.wixstatic.com/media/29136b_5c8b0c907ae14017a0e0ab8046606ac9~mv2.png/v1/crop/x_63,y_193,w_388,h_118/fill/w_398,h_120,al_c,lg_1,q_85,enc_avif,quality_auto/Android%20Playstore%20Logo.png'
   },
-  'Safe and Sound': {
-    name: 'Safe and Sound',
-    sameAs: 'https://getsafeandsound.com/',
-    logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
+  'McCall Electric': {
+    name: 'McCall Electric',
+    sameAs: 'https://mccallent.com/',
+    logo: 'https://mccallent.com/wp-content/uploads/2018/02/McCall-t-edge-1.png'
   },
-  'Barry Bros Security': {
-    name: 'Barry Bros Security',
-    sameAs: 'https://barrybros.com/',
-    logo: 'https://www.barrybros.com/wp-content/themes/barrybros/img/logo.svg'
-  },
-  'Koorsen': {
-    name: 'Koorsen',
-    sameAs: 'https://koorsen.com/',
-    logo: 'https://www.koorsen.com/wp-content/uploads/2022/02/Koorsen-Logo.svg'
+  'IES Electric': {
+    name: 'IES Electric',
+    sameAs: 'https://iesci.net/',
+    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
   }
 };
 
 const JOB_TYPES = {
-  'Security Project Manager': {
-    minValue: 45,
-    maxValue: 55,
+  'Electrician': {
+    minValue: 32,
+    maxValue: 36,
+    experienceLevel: 'seniorLevel',
+    category: 'Journeyman',
+    yearsExperience: '3-5',
+    prompt: 'Create a detailed job description for an experienced Electrician familiar with commercial new construction environments, mainly big box retail, office buildings, and hospital work. '
+  },
+  'Cable Technician': {
+    minValue: 21,
+    maxValue: 24,
+    experienceLevel: 'seniorLevel',
+    category: 'Voice Data',
+    yearsExperience: '3-5',
+    prompt: 'Create a detailed job description for an experienced voice and data cable technician familiar with commercial new construction environments, pulling and terminating cables, installing patch panels, and testing networks. '
+  },
+  'Apprentice Electrician': {
+    minValue: 18,
+    maxValue: 25,
     experienceLevel: 'entryLevel',
-    category: 'Project Management',
-    yearsExperience: '3-5',
-    prompt: 'Create a detailed job description for an experienced Security Project Manager position. Focus on project management, client interaction, and team leadership overseeing commercial constructuion projects involving cctv, access control, and alarm systems.'
-  },
-  'Security Alarm Project Manager': {
-    minValue: 38,
-    maxValue: 45,
-    experienceLevel: 'midLevel',
-    category: 'Project Management',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for an experienced commercial project manager. Include commercial experience, code knowledge, and leadership responsibilities for low voltage security alarm systems including access control.'
-  },
-  'Junior Project Manager': {
-    minValue: 22,
-    maxValue: 30,
-    experienceLevel: 'entryLevel',
-    category: 'Project Management',
-    yearsExperience: '0-2',
-    prompt: 'Create a job description for an entry level project manager. Include commercial experience, code knowledge, and leadership responsibilities.'
-  },
-  'Fire Alarm Designer': {
-    minValue: 38,
-    maxValue: 45,
-    experienceLevel: 'midLevel',
-    category: 'Fire Alarm',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for an experienced fire alarm designer. Include commercial experience, code knowledge, and leadership responsibilities for low voltage fire alarm systems and design systems for fire alarm, sprinkler, and smoke detection.'
-  },
-  'Fire Alarm Project Manager': {
-    minValue: 45,
-    maxValue: 55,
-    experienceLevel: 'midLevel',
-    category: 'Fire Alarm',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for an experienced fire alarm project manager. Include commercial experience, code knowledge, and leadership responsibilities for low voltage fire alarm systems and design systems for fire alarm, sprinkler, and smoke detection.'
-  },
-  'Electrical Project Manager': {
-    minValue: 55,
-    maxValue: 62,
-    experienceLevel: 'midLevel',
-    category: 'Project Management',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for an experienced electrical project manager. Include commercial experience, code knowledge, and leadership responsibilities for commercial new construction electrical systems and design systems for electrical, lighting, and power.'
+    category: 'Apprentice',
+    yearsExperience: '1-2',
+    prompt: 'Create a detailed job description for an apprentice electrician familiar with commercial new construction environments, learning to install and wire electrical systems, and understanding safety protocols. '
   }
 };
 
 const TEAMS = [
   'Commercial',
   //'Industrial', 
-  'Project Management',
-  'Fire Alarm',
-  'Security'
 ];
 
 const DESCRIPTION_LENGTHS = {
@@ -114,18 +82,20 @@ const DESCRIPTION_LENGTHS = {
 const CERTIFICATIONS = {
   'Apprentice': ['OSHA 10', 'First Aid/CPR', 'California ET Card', 'Basic Electrical Safety'],
   'Journeyman': ['CA State Journeyman License', 'OSHA 30', 'Arc Flash Safety', 'Confined Space'],
-  'Project Management': ['PMP', 'CAPM', 'PRINCE2', 'IPMA'],
-  'Fire Alarm': ['NFPA 70', 'NFPA 25', 'NFPA 1041', 'NFPA 1042'],
-  'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More'],
+  'Voice Data': ['BICSI', 'OSHA 10', 'First Aid/CPR', 'Basic Electrical Safety'],
+  //'Project Management': ['PMP', 'CAPM', 'PRINCE2', 'IPMA'],
+  // 'Fire Alarm': ['NFPA 70', 'NFPA 25', 'NFPA 1041', 'NFPA 1042'],
+  // 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More'],
   // 'Controls': ['PLC Programming', 'HVAC Controls', 'BMS Certification', 'Industrial Automation']
 };
 
 const TOOLS_AND_TECH = {
   'Apprentice': ['Hand Tools', 'Power Tools', 'Basic Test Equipment', 'Conduit Bending'],
   'Journeyman': ['Advanced Test Equipment', 'Conduit Bending', 'Blueprint Reading', 'Code Books'],
-  'Project Management': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
-  'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools'],
-  'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
+  'Voice Data': ['BICSI', 'OSHA 10', 'First Aid/CPR', 'Basic Electrical Safety'],
+  // 'Project Management': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
+  // 'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools'],
+  // 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
   // 'Controls': ['PLC Software', 'SCADA Systems', 'Building Automation', 'Network Tools']
 };
 
@@ -133,10 +103,6 @@ const WORK_ENVIRONMENTS = [
   { 
     type: 'Commercial', 
     clients: ['Office Buildings', 'Retail Centers', 'Hospitals', 'Schools'] 
-  },
-  { 
-    type: 'Project Management', 
-    clients: ['New Construction', 'Tenant Improvements', 'Renovations'] 
   },
   { 
     type: 'Fire Alarm', 
@@ -149,72 +115,55 @@ const WORK_ENVIRONMENTS = [
 ];
 
 const LOCATIONS = [      // Research triangle
- { city: 'Los Angeles', state: 'CA', zipCode: '90012' },    // ~3.9M
- { city: 'San Diego', state: 'CA', zipCode: '92101' },      // ~1.4M
- { city: 'San Jose', state: 'CA', zipCode: '95113' },       // ~1M
- { city: 'San Francisco', state: 'CA', zipCode: '94102' },  // ~875K
- { city: 'Fresno', state: 'CA', zipCode: '93721' },         // ~540K
- { city: 'Sacramento', state: 'CA', zipCode: '95814' },     // ~525K
- { city: 'Long Beach', state: 'CA', zipCode: '90802' },     // ~466K
- { city: 'Oakland', state: 'CA', zipCode: '94612' },        // ~440K
- { city: 'Bakersfield', state: 'CA', zipCode: '93301' },    // ~407K
- { city: 'Anaheim', state: 'CA', zipCode: '92805' },        // ~350K
-
- // Washington
- { city: 'Seattle', state: 'WA', zipCode: '98104' },        // ~737K
- { city: 'Spokane', state: 'WA', zipCode: '99201' },        // ~228K
- { city: 'Tacoma', state: 'WA', zipCode: '98402' },         // ~217K
- { city: 'Vancouver', state: 'WA', zipCode: '98660' },      // ~190K
- { city: 'Bellevue', state: 'WA', zipCode: '98004' },       // ~150K
-
- // Arizona
- { city: 'Phoenix', state: 'AZ', zipCode: '85004' },        // ~1.6M
- { city: 'Tucson', state: 'AZ', zipCode: '85701' },         // ~545K
- { city: 'Mesa', state: 'AZ', zipCode: '85201' },           // ~504K
- { city: 'Chandler', state: 'AZ', zipCode: '85225' },       // ~275K
- { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },     // ~241K
- { city: 'Gilbert', state: 'AZ', zipCode: '85234' },        // ~267K
- { city: 'Glendale', state: 'AZ', zipCode: '85301' },       // ~248K
- { city: 'Tempe', state: 'AZ', zipCode: '85281' },          // ~195K
- { city: 'Peoria', state: 'AZ', zipCode: '85345' },         // ~190K
-
- // Oregon
- { city: 'Portland', state: 'OR', zipCode: '97204' },       // ~653K
- { city: 'Salem', state: 'OR', zipCode: '97301' },          // ~175K
- { city: 'Eugene', state: 'OR', zipCode: '97401' },         // ~170K
- { city: 'Gresham', state: 'OR', zipCode: '97030' },        // ~114K
- { city: 'Hillsboro', state: 'OR', zipCode: '97123' },      // ~106K
-
- // Nevada
- { city: 'Las Vegas', state: 'NV', zipCode: '89101' },      // ~640K
- { city: 'Henderson', state: 'NV', zipCode: '89002' },      // ~320K
- { city: 'Reno', state: 'NV', zipCode: '89501' },           // ~264K
- { city: 'North Las Vegas', state: 'NV', zipCode: '89030' }, // ~251K
- { city: 'Sparks', state: 'NV', zipCode: '89431' },         // ~105K
-
- // Utah
- { city: 'Salt Lake City', state: 'UT', zipCode: '84101' }, // ~200K
- { city: 'West Valley City', state: 'UT', zipCode: '84119' }, // ~140K
- { city: 'Provo', state: 'UT', zipCode: '84601' },          // ~117K
- { city: 'West Jordan', state: 'UT', zipCode: '84084' },    // ~116K
- { city: 'Orem', state: 'UT', zipCode: '84057' },           // ~98K
-
- // More California (completing largest cities)
- { city: 'Santa Ana', state: 'CA', zipCode: '92701' },      // ~332K
- { city: 'Riverside', state: 'CA', zipCode: '92501' },      // ~330K
- { city: 'Stockton', state: 'CA', zipCode: '95202' },       // ~320K
- { city: 'Irvine', state: 'CA', zipCode: '92618' },         // ~310K
- { city: 'Chula Vista', state: 'CA', zipCode: '91910' },    // ~275K
- { city: 'Fremont', state: 'CA', zipCode: '94538' },        // ~240K
- { city: 'San Bernardino', state: 'CA', zipCode: '92401' }, // ~222K
- { city: 'Modesto', state: 'CA', zipCode: '95354' },        // ~218K
- { city: 'Fontana', state: 'CA', zipCode: '92335' },        // ~215K
- { city: 'Oxnard', state: 'CA', zipCode: '93030' },         // ~208K
- { city: 'Moreno Valley', state: 'CA', zipCode: '92553' },  // ~208K
- { city: 'Glendale', state: 'CA', zipCode: '91206' },       // ~200K
- { city: 'Huntington Beach', state: 'CA', zipCode: '92648' }, // ~198K
- { city: 'Santa Clarita', state: 'CA', zipCode: '91355' },  // ~195K
- { city: 'Garden Grove', state: 'CA', zipCode: '92840' }
+    { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
+    { city: 'Greensboro', state: 'NC', zipCode: '27401' },
+    { city: 'Hampton', state: 'VA', zipCode: '23669' },
+    { city: 'Sherman', state: 'TX', zipCode: '75090' },
+    { city: 'Savannah', state: 'GA', zipCode: '31401' },
+    { city: 'Orangeburg', state: 'SC', zipCode: '29115' },
+    { city: 'Charlotte', state: 'NC', zipCode: '28202' },
+    { city: 'Concord', state: 'NC', zipCode: '28025' },
+    { city: 'Mooresville', state: 'NC', zipCode: '28115' },
+    { city: 'Gastonia', state: 'NC', zipCode: '28052' },
+    { city: 'Salisbury', state: 'NC', zipCode: '28144' },
+    { city: 'Hickory', state: 'NC', zipCode: '28601' },
+    { city: 'Oakboro', state: 'NC', zipCode: '28129' },
+    { city: 'Morganton', state: 'NC', zipCode: '28655' },
+    { city: 'Mooresboro', state: 'NC', zipCode: '28114' },
+    { city: 'Spartanburg', state: 'SC', zipCode: '29301' },
+    { city: 'Indian Trail', state: 'NC', zipCode: '28079' },
+    { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
+    { city: 'Lancaster', state: 'SC', zipCode: '29720' },
+    { city: 'Columbia', state: 'SC', zipCode: '29201' },
+    { city: 'Union', state: 'SC', zipCode: '29379' },
+    { city: 'Roanoke', state: 'VA', zipCode: '24011' },
+    { city: 'Blacksburg', state: 'VA', zipCode: '24060' },
+    { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
+    { city: 'Greeley', state: 'CO', zipCode: '80631' },
+    { city: 'Richmond', state: 'VA', zipCode: '23219' },
+    { city: 'Miami', state: 'FL', zipCode: '33131' },
+    { city: 'Snyder', state: 'TX', zipCode: '79549' },
+    { city: 'Pinedale', state: 'WY', zipCode: '82941' },
+    { city: 'North Charleston', state: 'SC', zipCode: '29405' },
+    { city: 'Smyrna', state: 'TN', zipCode: '37167' },
+    { city: 'Grand Junction', state: 'CO', zipCode: '81501' },
+    { city: 'Raleigh', state: 'NC', zipCode: '27601' },
+    { city: 'Athens', state: 'GA', zipCode: '30601' },
+    { city: 'Atlanta', state: 'GA', zipCode: '30303' },
+    { city: 'Marietta', state: 'GA', zipCode: '30060' },
+    { city: 'Gainesville', state: 'GA', zipCode: '30501' },
+    { city: 'Rome', state: 'GA', zipCode: '30161' },
+    { city: 'Dalton', state: 'GA', zipCode: '30720' },
+    { city: 'Dallas', state: 'GA', zipCode: '30132' },
+    { city: 'Lawrenceville', state: 'GA', zipCode: '30046' },
+    { city: 'Greensboro', state: 'GA', zipCode: '30642' },
+    { city: 'Fayetteville', state: 'GA', zipCode: '30214' },
+    { city: 'Alpharetta', state: 'GA', zipCode: '30009' },
+    { city: 'Warner Robins', state: 'GA', zipCode: '31088' },
+    { city: 'Hermitage', state: 'TN', zipCode: '37076' },
+    { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
+    { city: 'Myrtle Beach', state: 'SC', zipCode: '29577' },
+    { city: 'Hampstead', state: 'NC', zipCode: '28443' }
 ];
 
 const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.', 'Olive St.', 'Pine St.', 'Broadway', 'Market St.', 'Mission St.', '1st St.', '2nd St.', '3rd St.', '4th St.', '5th St.', '6th St.', '7th St.', '8th St.', '9th St.', '10th St.'];
@@ -423,7 +372,7 @@ Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'support@primepartners.info'
+      'Michael.Mckeaige@pes123.com'
     ]
   };
 
