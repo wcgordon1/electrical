@@ -78,6 +78,7 @@ const COMPANIES = {
     'Security': [
       'Security+ Certification',
       'ASIS PSP Certification',
+      'NICET Level II',
       'ESA Level 1 Certification',
       'OSHA 10'
     ]
@@ -114,7 +115,7 @@ const COMPANIES = {
   ];
   
   const LOCATIONS = [      
-
+    
   { city: 'Manhattan Beach', state: 'CA', zipCode: '90266' },
   { city: 'Calabasas', state: 'CA', zipCode: '91302' },
   { city: 'Malibu', state: 'CA', zipCode: '90265' },

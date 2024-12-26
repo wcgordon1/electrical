@@ -14,6 +14,26 @@ const COMPANIES = {
     sameAs: 'https://www.tcelectric.com/',
     logo: 'https://www.tcelectric.com/wp-content/themes/TriCity/images/logo.png'
   },
+  'Lyons Electrical': {
+    name: 'Lyons Electrical',
+    sameAs: 'https://lyonselectricalcontractorsinc.com/',
+    logo: 'https://lyonselectrica.wpenginepowered.com/wp-content/uploads/2022/10/cropped-IMG_1061.jpg'
+  },
+  'Priority Electrical Services': {
+    name: 'Priority Electrical Services',
+    sameAs: 'https://upstateelectric.com/',
+    logo: 'https://upstateelectric.com/wp-content/uploads/2024/01/priority-electrical-logo-dark-300x161.png'
+  },
+  'Expert Wire': {
+    name: 'Expert Wire',
+    sameAs: 'https://www.expertwire247.com/',
+    logo: 'https://www.expertwire247.com/uplift-data/images/logo.webp'
+  },
+  'H & A Electric': {
+    name: 'H & A Electric',
+    sameAs: 'https://www.bestnycelectricianmanhattan.com/',
+    logo: 'https://www.bestnycelectricianmanhattan.com/wp-content/uploads/2018/11/HA-NYC-Electrician-copy11.png'
+  },
   'Nipper Electric': {
     name: 'Nipper Electric',
     sameAs: 'https://nipperelectric.com/',
@@ -42,30 +62,46 @@ const COMPANIES = {
 };
 
 const JOB_TYPES = {
-  'Electrician': {
-    minValue: 32,
-    maxValue: 36,
-    experienceLevel: 'seniorLevel',
-    category: 'Journeyman',
-    yearsExperience: '3-5',
-    prompt: 'Create a detailed job description for an experienced Electrician familiar with commercial new construction environments, mainly big box retail, office buildings, and hospital work. '
-  },
-  'Cable Technician': {
-    minValue: 21,
-    maxValue: 24,
-    experienceLevel: 'seniorLevel',
-    category: 'Voice Data',
-    yearsExperience: '3-5',
-    prompt: 'Create a detailed job description for an experienced voice and data cable technician familiar with commercial new construction environments, pulling and terminating cables, installing patch panels, and testing networks. '
-  },
-  'Apprentice Electrician': {
-    minValue: 18,
-    maxValue: 25,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    yearsExperience: '1-2',
-    prompt: 'Create a detailed job description for an apprentice electrician familiar with commercial new construction environments, learning to install and wire electrical systems, and understanding safety protocols. '
-  }
+  'Commercial Electrician': {
+minValue: 32,
+maxValue: 36,
+experienceLevel: 'seniorLevel',
+category: 'Journeyman',
+yearsExperience: '3-5',
+prompt: 'Create a detailed job description for a Journeyman Electrician with experience in commercial and industrial installations. Must have experience with conduit bending, pipe threading, motor controls, transformers, panel building, and blueprint reading. Knowledge of NEC codes, ability to troubleshoot complex electrical systems, and experience mentoring apprentices required. Focus on healthcare, data centers, and manufacturing environments.'
+},
+'Cable Tech': {
+minValue: 21,
+maxValue: 24,
+experienceLevel: 'seniorLevel',
+category: 'Voice Data',
+yearsExperience: '3-5',
+prompt: 'Create a detailed job description for a Voice/Data technician proficient in Cat5e/6/6A installation, fiber optic cabling, and wireless systems. Must have experience with structured cabling design, network certification testing, cable management, and maintaining documentation. Knowledge of TIA/EIA standards and ability to work in active office environments required.'
+},
+'Data Center Technician': {
+minValue: 24,
+maxValue: 29,
+experienceLevel: 'seniorLevel',
+category: 'Data Center',
+yearsExperience: '3-5',
+prompt: 'Create a detailed job description for a Data Center Technician experienced in high-density environments. Must have experience with power distribution, cooling systems, structured cabling, network infrastructure, and monitoring systems. Knowledge of redundancy requirements, preventive maintenance, and emergency procedures required. Focus on 24/7 uptime and mission-critical operations.'
+},
+'Apprentice Electrician': {
+minValue: 19,
+maxValue: 24,
+experienceLevel: 'entryLevel',
+category: 'Apprentice',
+yearsExperience: '1-2',
+prompt: 'Create a detailed job description for an Electrical Apprentice with basic knowledge of hand tools, electrical theory, and safety practices. Must be enrolled in or eligible for apprenticeship program, able to read basic blueprints, and assist journeymen with installations. Focus on eagerness to learn, physical capabilities, and communication skills.'
+},
+'Security Technician': {
+minValue: 24,
+maxValue: 29,
+experienceLevel: 'seniorLevel',
+category: 'Security',
+yearsExperience: '3-5',
+prompt: 'Create a detailed job description for a Low Voltage Security Systems Technician experienced in access control, video surveillance, and intrusion detection systems. Must have experience installing and configuring security platforms (Genetec, Lenel, CCURE), IP cameras, card readers, and door hardware. Knowledge of structured cabling, networking fundamentals, and system integration required. Focus on commercial and enterprise security projects.'
+}
 };
 
 const TEAMS = [
@@ -80,22 +116,96 @@ const DESCRIPTION_LENGTHS = {
 };
 
 const CERTIFICATIONS = {
-  'Apprentice': ['OSHA 10', 'First Aid/CPR', 'California ET Card', 'Basic Electrical Safety'],
-  'Journeyman': ['CA State Journeyman License', 'OSHA 30', 'Arc Flash Safety', 'Confined Space'],
-  'Voice Data': ['BICSI', 'OSHA 10', 'First Aid/CPR', 'Basic Electrical Safety'],
+  'Apprentice': [
+'OSHA 10',
+'First Aid/CPR',
+'State Trainee Card',
+'Basic Electrical Safety',
+'Lift Certification',
+'Valid Drivers License'
+],
+'Journeyman': [
+'State Electrical License',
+'OSHA 30',
+'Arc Flash Safety',
+'Confined Space',
+'Lift Certification',
+'First Aid/CPR',
+'Valid Drivers License',
+'Master Electrician (preferred)'
+],
+'Voice Data': [
+'BICSI Installer 2',
+'OSHA 10',
+'First Aid/CPR',
+'Network+ Certification',
+'Lift Certification',
+'Valid Drivers License',
+'Manufacturer Certifications (Commscope/Panduit)'
+],
+'Data Center': [
+'BICSI DCDC',
+'OSHA 30',
+'First Aid/CPR',
+'Arc Flash Safety',
+'Lift Certification',
+'CompTIA Server+',
+'CDCDP (preferred)'
+],
   //'Project Management': ['PMP', 'CAPM', 'PRINCE2', 'IPMA'],
   // 'Fire Alarm': ['NFPA 70', 'NFPA 25', 'NFPA 1041', 'NFPA 1042'],
-  // 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More'],
+ 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
   // 'Controls': ['PLC Programming', 'HVAC Controls', 'BMS Certification', 'Industrial Automation']
 };
 
 const TOOLS_AND_TECH = {
-  'Apprentice': ['Hand Tools', 'Power Tools', 'Basic Test Equipment', 'Conduit Bending'],
-  'Journeyman': ['Advanced Test Equipment', 'Conduit Bending', 'Blueprint Reading', 'Code Books'],
-  'Voice Data': ['BICSI', 'OSHA 10', 'First Aid/CPR', 'Basic Electrical Safety'],
+  'Apprentice': [
+'Digital Multimeters (Fluke)',
+'Power Tools (Milwaukee, DeWalt)',
+'Hand Tools (Klein, Knipex)',
+'Conduit Benders (Manual/Electric)',
+'Basic First Aid/CPR',
+'OSHA 10',
+'Basic AutoCAD',
+'MS Office'
+],
+'Journeyman': [
+'Advanced Meters (Fluke 87V)',
+'Power Tools (Milwaukee, DeWalt)',
+'Specialty Tools (Hydraulic Benders, Threaders)',
+'Thermal Imaging Cameras',
+'Power Quality Analyzers',
+'First Aid/CPR',
+'OSHA 30',
+'Arc Flash Training',
+'Lift Certification'
+],
+'Voice Data': [
+'Cable Certifiers (Fluke DSX)',
+'Fiber Splicers (Fujikura)',
+'OTDR Testing Equipment',
+'Cable Management Tools',
+'Network Testing Tools',
+'BICSI Certifications',
+'OSHA 10',
+'First Aid/CPR',
+'Lift Certification'
+],
+'Data Center': [
+'Power Monitoring Systems',
+'Environmental Monitoring Tools',
+'Network Testing Equipment',
+'Cable Management Systems',
+'DCIM Software',
+'BICSI DC Certification',
+'OSHA 30',
+'First Aid/CPR',
+'Arc Flash Training',
+'lift Certification'
+],
   // 'Project Management': ['Project Management Software', 'Estimating Tools', 'Code Analysis', 'Design Software'],
   // 'Fire Alarm': ['Fire Alarm Software', 'Fire Alarm Design Software', 'Fire Alarm Testing Equipment', 'Fire Alarm Installation Tools'],
-  // 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
+ 'Security': ['Lenel', 'Crestron', 'C-Cure', 'C-More']
   // 'Controls': ['PLC Software', 'SCADA Systems', 'Building Automation', 'Network Tools']
 };
 
@@ -114,56 +224,44 @@ const WORK_ENVIRONMENTS = [
   }
 ];
 
-const LOCATIONS = [      // Research triangle
-    { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
-    { city: 'Greensboro', state: 'NC', zipCode: '27401' },
-    { city: 'Hampton', state: 'VA', zipCode: '23669' },
-    { city: 'Sherman', state: 'TX', zipCode: '75090' },
-    { city: 'Savannah', state: 'GA', zipCode: '31401' },
-    { city: 'Orangeburg', state: 'SC', zipCode: '29115' },
-    { city: 'Charlotte', state: 'NC', zipCode: '28202' },
-    { city: 'Concord', state: 'NC', zipCode: '28025' },
-    { city: 'Mooresville', state: 'NC', zipCode: '28115' },
-    { city: 'Gastonia', state: 'NC', zipCode: '28052' },
-    { city: 'Salisbury', state: 'NC', zipCode: '28144' },
-    { city: 'Hickory', state: 'NC', zipCode: '28601' },
-    { city: 'Oakboro', state: 'NC', zipCode: '28129' },
-    { city: 'Morganton', state: 'NC', zipCode: '28655' },
-    { city: 'Mooresboro', state: 'NC', zipCode: '28114' },
-    { city: 'Spartanburg', state: 'SC', zipCode: '29301' },
-    { city: 'Indian Trail', state: 'NC', zipCode: '28079' },
-    { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
-    { city: 'Lancaster', state: 'SC', zipCode: '29720' },
-    { city: 'Columbia', state: 'SC', zipCode: '29201' },
-    { city: 'Union', state: 'SC', zipCode: '29379' },
-    { city: 'Roanoke', state: 'VA', zipCode: '24011' },
-    { city: 'Blacksburg', state: 'VA', zipCode: '24060' },
-    { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
-    { city: 'Greeley', state: 'CO', zipCode: '80631' },
-    { city: 'Richmond', state: 'VA', zipCode: '23219' },
-    { city: 'Miami', state: 'FL', zipCode: '33131' },
-    { city: 'Snyder', state: 'TX', zipCode: '79549' },
-    { city: 'Pinedale', state: 'WY', zipCode: '82941' },
-    { city: 'North Charleston', state: 'SC', zipCode: '29405' },
-    { city: 'Smyrna', state: 'TN', zipCode: '37167' },
-    { city: 'Grand Junction', state: 'CO', zipCode: '81501' },
-    { city: 'Raleigh', state: 'NC', zipCode: '27601' },
-    { city: 'Athens', state: 'GA', zipCode: '30601' },
-    { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-    { city: 'Marietta', state: 'GA', zipCode: '30060' },
-    { city: 'Gainesville', state: 'GA', zipCode: '30501' },
-    { city: 'Rome', state: 'GA', zipCode: '30161' },
-    { city: 'Dalton', state: 'GA', zipCode: '30720' },
-    { city: 'Dallas', state: 'GA', zipCode: '30132' },
-    { city: 'Lawrenceville', state: 'GA', zipCode: '30046' },
-    { city: 'Greensboro', state: 'GA', zipCode: '30642' },
-    { city: 'Fayetteville', state: 'GA', zipCode: '30214' },
-    { city: 'Alpharetta', state: 'GA', zipCode: '30009' },
-    { city: 'Warner Robins', state: 'GA', zipCode: '31088' },
-    { city: 'Hermitage', state: 'TN', zipCode: '37076' },
-    { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-    { city: 'Myrtle Beach', state: 'SC', zipCode: '29577' },
-    { city: 'Hampstead', state: 'NC', zipCode: '28443' }
+const LOCATIONS = [ 
+  // Colorado - Data Center & Tech Hub
+{ city: 'Denver', state: 'CO', zipCode: '80202' },
+{ city: 'Aurora', state: 'CO', zipCode: '80012' },
+{ city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
+{ city: 'Broomfield', state: 'CO', zipCode: '80020' },
+// Texas - Growth Areas
+{ city: 'Dallas', state: 'TX', zipCode: '75201' },
+{ city: 'Fort Worth', state: 'TX', zipCode: '76102' },
+{ city: 'San Antonio', state: 'TX', zipCode: '78205' },
+{ city: 'Houston', state: 'TX', zipCode: '77002' },
+{ city: 'Plano', state: 'TX', zipCode: '75024' },
+{ city: 'Irving', state: 'TX', zipCode: '75038' },
+// Florida - Development Hubs
+{ city: 'Orlando', state: 'FL', zipCode: '32801' },
+{ city: 'Tampa', state: 'FL', zipCode: '33602' },
+{ city: 'Jacksonville', state: 'FL', zipCode: '32202' },
+{ city: 'Miami', state: 'FL', zipCode: '33131' },
+// North Carolina - Tech Corridor
+{ city: 'Charlotte', state: 'NC', zipCode: '28202' },
+{ city: 'Raleigh', state: 'NC', zipCode: '27601' },
+{ city: 'Durham', state: 'NC', zipCode: '27701' },
+// Illinois/Midwest
+{ city: 'Chicago', state: 'IL', zipCode: '60601' },
+{ city: 'Naperville', state: 'IL', zipCode: '60540' },
+{ city: 'Indianapolis', state: 'IN', zipCode: '46204' },
+{ city: 'Columbus', state: 'OH', zipCode: '43215' },
+// Southeast Growth
+{ city: 'Birmingham', state: 'AL', zipCode: '35203' },
+{ city: 'Huntsville', state: 'AL', zipCode: '35801' },
+{ city: 'Louisville', state: 'KY', zipCode: '40202' },
+{ city: 'Memphis', state: 'TN', zipCode: '38103' },
+{ city: 'Knoxville', state: 'TN', zipCode: '37902' },
+{ city: 'Chattanooga', state: 'TN', zipCode: '37402' },
+// Mid-Atlantic
+{ city: 'Richmond', state: 'VA', zipCode: '23219' },
+{ city: 'Charlotte', state: 'NC', zipCode: '28202' },
+{ city: 'Atlanta', state: 'GA', zipCode: '30303' }
 ];
 
 const STREET_TYPES = ['Main St.', 'Industrial Pkwy.', 'Commerce Dr.', 'Tech Blvd.', 'Olive St.', 'Pine St.', 'Broadway', 'Market St.', 'Mission St.', '1st St.', '2nd St.', '3rd St.', '4th St.', '5th St.', '6th St.', '7th St.', '8th St.', '9th St.', '10th St.'];
@@ -296,20 +394,18 @@ Brief company introduction focusing on ${team} projects at ${company.name}
 
 Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
 
-## Essential Functions
+## Requirements for ${descriptionTitle}
 - Key responsibilities for ${team} projects
 - Required certifications: ${requiredCerts.join(', ')}
 - Experience with: ${tools.join(', ')}
 - Typical projects: ${workEnv.clients.join(', ')}
-
-## Required Qualifications
 - ${jobInfo.yearsExperience} years of electrical experience
 - Valid electrical license for ${location.state}
 - Experience with ${tools[0]} and ${tools[1]}
 - Physical requirements
 - Safety knowledge
 
-## Preferred Qualifications
+### Preferred Experience
 - Experience with ${tools[2] || tools[0]}
 - ${team} project experience
 
@@ -319,7 +415,7 @@ Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
 - Schedule: Full-time
 
 ## Compensation & Benefits
-- Pay range: $${minValue}-$${maxValue} per hour
+- Pay range: $${minValue}-$${maxValue} per hour depending on experience
 - Medical, dental, vision insurance
 - 401(k) with company match`;
 
