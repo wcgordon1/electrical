@@ -21,8 +21,8 @@ description: >-
   Creek, Milton,...
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-16T05:19:01.059Z'
-validThrough: '2025-01-27T05:19:01.059Z'
+datePosted: '2024-12-26T13:44:37.814Z'
+validThrough: '2025-02-07T13:44:37.814Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

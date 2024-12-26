@@ -24,8 +24,8 @@ description: >-
   1. Install, maintain, modify, and repair all electrical distr...
 location: 'Surprise, AZ'
 team: Data Center
-datePosted: '2024-12-16T04:26:24.268Z'
-validThrough: '2025-01-26T04:26:24.268Z'
+datePosted: '2024-12-26T11:07:55.988Z'
+validThrough: '2025-02-01T11:07:55.988Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

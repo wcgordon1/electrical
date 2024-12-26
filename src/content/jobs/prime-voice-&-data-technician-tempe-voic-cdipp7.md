@@ -26,8 +26,8 @@ description: >-
   1. Install, ma...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-16T02:53:21.851Z'
-validThrough: '2025-01-26T02:53:21.851Z'
+datePosted: '2024-12-26T12:38:05.325Z'
+validThrough: '2025-02-02T12:38:05.325Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

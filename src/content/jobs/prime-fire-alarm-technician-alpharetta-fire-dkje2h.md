@@ -21,8 +21,8 @@ description: >-
   and have a deep u...
 location: 'Alpharetta, GA'
 team: Residential
-datePosted: '2024-12-16T10:18:55.269Z'
-validThrough: '2025-01-22T10:18:55.269Z'
+datePosted: '2024-12-26T08:39:39.692Z'
+validThrough: '2025-02-06T08:39:39.692Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

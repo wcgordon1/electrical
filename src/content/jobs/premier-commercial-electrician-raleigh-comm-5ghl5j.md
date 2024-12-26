@@ -19,8 +19,8 @@ description: >-
   experience in the electrical i...
 location: 'Raleigh, NC'
 team: Data Center
-datePosted: '2024-12-16T07:25:06.285Z'
-validThrough: '2025-01-22T07:25:06.285Z'
+datePosted: '2024-12-26T15:21:27.725Z'
+validThrough: '2025-02-01T15:21:27.725Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -18,8 +18,8 @@ description: >-
   This is a full-time position,...
 location: 'Gilbert, AZ'
 team: Data Center
-datePosted: '2024-12-16T10:14:43.464Z'
-validThrough: '2025-01-28T10:14:43.464Z'
+datePosted: '2024-12-26T13:53:39.498Z'
+validThrough: '2025-02-09T13:53:39.498Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

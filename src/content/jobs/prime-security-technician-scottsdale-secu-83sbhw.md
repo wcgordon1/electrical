@@ -21,8 +21,8 @@ description: >-
   would also have a thoroug...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-16T14:10:29.278Z'
-validThrough: '2025-01-18T14:10:29.278Z'
+datePosted: '2024-12-26T12:59:55.916Z'
+validThrough: '2025-01-27T12:59:55.916Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

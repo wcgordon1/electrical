@@ -86,8 +86,8 @@ description: >-
   experience and potential advancement within the electrical industry.
 location: 'San Jose, CA'
 team: Data Center
-datePosted: '2024-12-16T02:41:15.780Z'
-validThrough: '2025-01-21T02:41:15.780Z'
+datePosted: '2024-12-26T11:04:45.090Z'
+validThrough: '2025-01-30T11:04:45.090Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

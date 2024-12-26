@@ -21,8 +21,8 @@ description: >-
   Ke...
 location: 'Columbia, SC'
 team: Commercial
-datePosted: '2024-12-16T05:52:35.786Z'
-validThrough: '2025-01-23T05:52:35.786Z'
+datePosted: '2024-12-26T14:02:00.176Z'
+validThrough: '2025-02-09T14:02:00.176Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

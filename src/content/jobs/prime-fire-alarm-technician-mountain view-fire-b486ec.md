@@ -21,8 +21,8 @@ description: >-
   requires ...
 location: 'Mountain View, CA'
 team: Commercial
-datePosted: '2024-12-16T13:26:06.347Z'
-validThrough: '2025-01-17T13:26:06.347Z'
+datePosted: '2024-12-26T09:35:55.517Z'
+validThrough: '2025-01-29T09:35:55.517Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

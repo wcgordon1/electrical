@@ -20,8 +20,8 @@ description: >-
   join our team and help us maintain our reputation for quali...
 location: 'Colorado Springs, CO'
 team: Data Center
-datePosted: '2024-12-16T01:46:06.334Z'
-validThrough: '2025-01-27T01:46:06.334Z'
+datePosted: '2024-12-26T08:53:43.494Z'
+validThrough: '2025-02-01T08:53:43.494Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

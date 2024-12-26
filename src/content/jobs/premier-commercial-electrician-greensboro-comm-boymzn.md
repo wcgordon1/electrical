@@ -23,8 +23,8 @@ description: >-
   1. Read blueprints and d...
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-16T04:33:59.655Z'
-validThrough: '2025-01-23T04:33:59.655Z'
+datePosted: '2024-12-26T14:21:49.112Z'
+validThrough: '2025-01-29T14:21:49.112Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

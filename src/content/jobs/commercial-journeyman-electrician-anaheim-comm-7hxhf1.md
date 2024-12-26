@@ -20,8 +20,8 @@ description: >-
   Key Responsibilitie...
 location: 'Anaheim, CA'
 team: Residential
-datePosted: '2024-12-16T03:20:47.905Z'
-validThrough: '2025-01-18T03:20:47.905Z'
+datePosted: '2024-12-26T11:29:09.986Z'
+validThrough: '2025-01-28T11:29:09.986Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

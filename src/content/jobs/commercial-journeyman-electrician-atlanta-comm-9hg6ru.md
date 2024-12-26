@@ -23,8 +23,8 @@ description: >-
   Key Responsi...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-16T06:25:21.288Z'
-validThrough: '2025-01-28T06:25:21.288Z'
+datePosted: '2024-12-26T08:07:00.231Z'
+validThrough: '2025-02-07T08:07:00.231Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -16,8 +16,8 @@ description: >-
   and demonstrate a strong com...
 location: 'Santa Clara, CA'
 team: Data Center
-datePosted: '2024-12-16T00:38:54.590Z'
-validThrough: '2025-01-25T00:38:54.590Z'
+datePosted: '2024-12-26T10:36:02.520Z'
+validThrough: '2025-02-08T10:36:02.520Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

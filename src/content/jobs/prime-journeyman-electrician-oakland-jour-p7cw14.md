@@ -26,8 +26,8 @@ description: >-
   1. Install, maintai...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-16T00:03:41.533Z'
-validThrough: '2025-01-27T00:03:41.533Z'
+datePosted: '2024-12-26T14:29:33.027Z'
+validThrough: '2025-01-29T14:29:33.027Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

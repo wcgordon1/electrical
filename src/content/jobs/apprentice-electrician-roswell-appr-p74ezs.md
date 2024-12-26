@@ -92,8 +92,8 @@ description: >-
   stability and training for growth and advancement.
 location: 'Roswell, GA'
 team: Data Center
-datePosted: '2024-12-16T02:23:10.507Z'
-validThrough: '2025-01-21T02:23:10.507Z'
+datePosted: '2024-12-26T14:50:25.095Z'
+validThrough: '2025-01-30T14:50:25.095Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

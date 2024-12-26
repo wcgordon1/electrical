@@ -23,8 +23,8 @@ description: >-
   1. Install, mainta...
 location: 'Marietta, GA'
 team: Industrial
-datePosted: '2024-12-16T06:32:09.332Z'
-validThrough: '2025-01-25T06:32:09.332Z'
+datePosted: '2024-12-26T15:56:33.327Z'
+validThrough: '2025-02-09T15:56:33.327Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

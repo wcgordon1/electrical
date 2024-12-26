@@ -21,8 +21,8 @@ description: >-
   on new construction and big b...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-16T07:40:27.054Z'
-validThrough: '2025-01-17T07:40:27.054Z'
+datePosted: '2024-12-26T15:37:52.849Z'
+validThrough: '2025-01-31T15:37:52.849Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

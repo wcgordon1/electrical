@@ -90,8 +90,8 @@ description: >-
   other characteristic protected by law.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-16T03:31:40.631Z'
-validThrough: '2025-01-18T03:31:40.631Z'
+datePosted: '2024-12-26T10:20:10.300Z'
+validThrough: '2025-01-27T10:20:10.300Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

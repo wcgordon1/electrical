@@ -23,8 +23,8 @@ description: >-
   pr...
 location: 'Columbia, SC'
 team: Industrial
-datePosted: '2024-12-16T13:19:53.048Z'
-validThrough: '2025-01-28T13:19:53.048Z'
+datePosted: '2024-12-26T10:42:12.507Z'
+validThrough: '2025-01-30T10:42:12.507Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

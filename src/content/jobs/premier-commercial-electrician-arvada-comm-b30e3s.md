@@ -22,8 +22,8 @@ description: >-
   Key Responsi...
 location: 'Arvada, CO'
 team: Commercial
-datePosted: '2024-12-16T10:58:20.783Z'
-validThrough: '2025-01-27T10:58:20.783Z'
+datePosted: '2024-12-26T12:34:56.952Z'
+validThrough: '2025-02-06T12:34:56.952Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

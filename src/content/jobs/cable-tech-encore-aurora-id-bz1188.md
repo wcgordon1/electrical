@@ -42,8 +42,8 @@ description: >-
   Indoor and outdoor work settings Commercial and industrial installation sites
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-16T02:17:20.918Z'
-validThrough: '2025-01-15T02:17:20.918Z'
+datePosted: '2024-12-26T12:43:06.502Z'
+validThrough: '2025-01-25T12:43:06.502Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Encore Electric

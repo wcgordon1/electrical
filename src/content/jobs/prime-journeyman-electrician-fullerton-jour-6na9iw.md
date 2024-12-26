@@ -23,8 +23,8 @@ description: >-
   and around Fullerton, CA, including neighboring cities such as...
 location: 'Fullerton, CA'
 team: Commercial
-datePosted: '2024-12-16T09:26:37.462Z'
-validThrough: '2025-01-27T09:26:37.462Z'
+datePosted: '2024-12-26T10:31:56.996Z'
+validThrough: '2025-02-03T10:31:56.996Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

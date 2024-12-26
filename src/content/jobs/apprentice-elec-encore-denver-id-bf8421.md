@@ -51,8 +51,8 @@ description: >-
   to resources that will prepare you for journeyman licensing and beyond.
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-16T01:17:56.171Z'
-validThrough: '2025-01-25T01:17:56.171Z'
+datePosted: '2024-12-26T09:10:48.581Z'
+validThrough: '2025-01-29T09:10:48.581Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Encore Electric

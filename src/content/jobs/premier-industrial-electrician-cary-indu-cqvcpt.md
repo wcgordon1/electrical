@@ -17,8 +17,8 @@ description: >-
   industrial electrical systems, a dedication to excellence, and a d...
 location: 'Cary, NC'
 team: Industrial
-datePosted: '2024-12-16T05:34:42.499Z'
-validThrough: '2025-01-22T05:34:42.499Z'
+datePosted: '2024-12-26T11:52:31.919Z'
+validThrough: '2025-02-07T11:52:31.919Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

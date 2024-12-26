@@ -43,8 +43,8 @@ description: >-
   sites
 location: 'Marietta, GA'
 team: Commercial
-datePosted: '2024-12-16T05:06:07.794Z'
-validThrough: '2025-01-27T05:06:07.794Z'
+datePosted: '2024-12-26T08:15:59.596Z'
+validThrough: '2025-02-02T08:15:59.596Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

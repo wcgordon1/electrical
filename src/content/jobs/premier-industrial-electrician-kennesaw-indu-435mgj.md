@@ -24,8 +24,8 @@ description: >-
   1. Install, maintain, and repair electrica...
 location: 'Kennesaw, GA'
 team: Industrial
-datePosted: '2024-12-16T03:14:53.375Z'
-validThrough: '2025-01-17T03:14:53.375Z'
+datePosted: '2024-12-26T09:48:53.142Z'
+validThrough: '2025-02-03T09:48:53.142Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

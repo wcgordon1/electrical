@@ -33,8 +33,8 @@ description: >-
   retirement savings options Paid holidays and time off
 location: 'Augusta, GA'
 team: Commercial
-datePosted: '2024-12-16T06:32:46.928Z'
-validThrough: '2025-01-16T06:32:46.928Z'
+datePosted: '2024-12-26T15:43:16.700Z'
+validThrough: '2025-02-01T15:43:16.700Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

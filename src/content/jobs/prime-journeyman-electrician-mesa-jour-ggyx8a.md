@@ -16,8 +16,8 @@ description: >-
   settings,...
 location: 'Mesa, AZ'
 team: Data Center
-datePosted: '2024-12-16T06:58:19.489Z'
-validThrough: '2025-01-28T06:58:19.489Z'
+datePosted: '2024-12-26T15:54:14.906Z'
+validThrough: '2025-02-04T15:54:14.906Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

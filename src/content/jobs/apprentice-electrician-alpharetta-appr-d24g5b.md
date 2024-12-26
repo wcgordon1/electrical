@@ -76,8 +76,8 @@ description: >-
   grow and develop your skills, we look forward to receiving your application.
 location: 'Alpharetta, GA'
 team: Residential
-datePosted: '2024-12-16T01:13:07.887Z'
-validThrough: '2025-01-30T01:13:07.887Z'
+datePosted: '2024-12-26T08:18:37.562Z'
+validThrough: '2025-01-28T08:18:37.562Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

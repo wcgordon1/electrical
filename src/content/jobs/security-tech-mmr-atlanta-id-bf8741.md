@@ -37,8 +37,8 @@ description: >-
   tablet for programming and documentation.
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-16T04:32:24.825Z'
-validThrough: '2025-01-30T04:32:24.825Z'
+datePosted: '2024-12-26T12:19:46.878Z'
+validThrough: '2025-01-29T12:19:46.878Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group
