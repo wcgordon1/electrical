@@ -18,8 +18,8 @@ description: >-
   such as Manitou Spring...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-16T22:38:27.808Z'
-validThrough: '2025-01-29T22:38:27.808Z'
+datePosted: '2024-12-27T17:42:25.667Z'
+validThrough: '2025-02-08T17:42:25.667Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

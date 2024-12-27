@@ -21,8 +21,8 @@ description: >-
   Key Responsi...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-16T21:28:47.759Z'
-validThrough: '2025-01-25T21:28:47.759Z'
+datePosted: '2024-12-27T11:30:17.985Z'
+validThrough: '2025-02-08T11:30:17.985Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

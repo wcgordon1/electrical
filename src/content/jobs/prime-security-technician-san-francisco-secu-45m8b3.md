@@ -26,8 +26,8 @@ description: >-
   1. Instal...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-16T17:23:53.969Z'
-validThrough: '2025-01-22T17:23:53.969Z'
+datePosted: '2024-12-27T12:52:59.102Z'
+validThrough: '2025-02-06T12:52:59.102Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

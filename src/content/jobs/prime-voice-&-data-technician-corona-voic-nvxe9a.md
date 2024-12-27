@@ -24,8 +24,8 @@ description: >-
   1. Insta...
 location: 'Corona, CA'
 team: Commercial
-datePosted: '2024-12-16T20:04:19.934Z'
-validThrough: '2025-01-19T20:04:19.934Z'
+datePosted: '2024-12-27T08:29:31.756Z'
+validThrough: '2025-01-27T08:29:31.756Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   Greenwood Village, Littleton,...
 location: 'Centennial, CO'
 team: Data Center
-datePosted: '2024-12-16T16:25:39.327Z'
-validThrough: '2025-01-28T16:25:39.327Z'
+datePosted: '2024-12-27T18:44:09.244Z'
+validThrough: '2025-02-01T18:44:09.244Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

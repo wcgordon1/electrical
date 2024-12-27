@@ -17,8 +17,8 @@ description: >-
   learn and grow within the industry. As an Apprentice Electrician, you wil...
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-16T19:53:12.699Z'
-validThrough: '2025-01-22T19:53:12.699Z'
+datePosted: '2024-12-27T10:46:16.423Z'
+validThrough: '2025-02-05T10:46:16.423Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

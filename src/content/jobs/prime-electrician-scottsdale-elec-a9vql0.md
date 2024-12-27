@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, a...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-16T19:36:32.037Z'
-validThrough: '2025-01-15T19:36:32.037Z'
+datePosted: '2024-12-27T17:45:13.873Z'
+validThrough: '2025-02-02T17:45:13.873Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

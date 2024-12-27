@@ -23,8 +23,8 @@ description: >-
   1. ...
 location: 'Greenville, SC'
 team: Industrial
-datePosted: '2024-12-16T18:22:24.664Z'
-validThrough: '2025-01-24T18:22:24.664Z'
+datePosted: '2024-12-27T19:22:28.500Z'
+validThrough: '2025-02-03T19:22:28.500Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

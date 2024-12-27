@@ -23,8 +23,8 @@ description: >-
   1. Inst...
 location: 'Glendale, AZ'
 team: Commercial
-datePosted: '2024-12-16T16:12:15.384Z'
-validThrough: '2025-01-25T16:12:15.384Z'
+datePosted: '2024-12-27T14:23:01.804Z'
+validThrough: '2025-02-04T14:23:01.804Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

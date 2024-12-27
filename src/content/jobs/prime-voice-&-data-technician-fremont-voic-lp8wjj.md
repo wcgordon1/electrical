@@ -25,8 +25,8 @@ description: >-
   We are currently seeking a skilled and motivated Voice & Data Technician to...
 location: 'Fremont, CA'
 team: Data Center
-datePosted: '2024-12-16T21:45:42.542Z'
-validThrough: '2025-01-18T21:45:42.542Z'
+datePosted: '2024-12-27T12:12:12.089Z'
+validThrough: '2025-01-30T12:12:12.089Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

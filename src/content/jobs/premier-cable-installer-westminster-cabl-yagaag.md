@@ -26,8 +26,8 @@ description: >-
   We are seeking a skilled Cable Installer to join our team. The successf...
 location: 'Westminster, CO'
 team: Commercial
-datePosted: '2024-12-16T18:05:50.105Z'
-validThrough: '2025-01-27T18:05:50.105Z'
+datePosted: '2024-12-27T20:41:03.267Z'
+validThrough: '2025-02-08T20:41:03.267Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -19,8 +19,8 @@ description: >-
   regulations and codes. The ideal candidate will be reliable and...
 location: 'Roseville, CA'
 team: Data Center
-datePosted: '2024-12-16T15:46:14.509Z'
-validThrough: '2025-01-27T15:46:14.509Z'
+datePosted: '2024-12-27T19:18:29.888Z'
+validThrough: '2025-01-30T19:18:29.888Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair...
 location: 'Roswell, GA'
 team: Commercial
-datePosted: '2024-12-16T18:02:23.278Z'
-validThrough: '2025-01-25T18:02:23.278Z'
+datePosted: '2024-12-27T16:25:27.636Z'
+validThrough: '2025-01-26T16:25:27.636Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

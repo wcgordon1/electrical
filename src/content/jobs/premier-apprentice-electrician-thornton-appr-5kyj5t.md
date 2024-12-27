@@ -24,8 +24,8 @@ description: >-
   system...
 location: 'Thornton, CO'
 team: Commercial
-datePosted: '2024-12-16T16:02:38.545Z'
-validThrough: '2025-01-21T16:02:38.545Z'
+datePosted: '2024-12-27T10:26:05.360Z'
+validThrough: '2025-02-07T10:26:05.360Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

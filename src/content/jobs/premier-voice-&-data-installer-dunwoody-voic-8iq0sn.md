@@ -18,8 +18,8 @@ description: >-
   exceptional service....
 location: 'Dunwoody, GA'
 team: Commercial
-datePosted: '2024-12-16T15:39:18.868Z'
-validThrough: '2025-01-18T15:39:18.868Z'
+datePosted: '2024-12-27T14:23:07.066Z'
+validThrough: '2025-02-08T14:23:07.066Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

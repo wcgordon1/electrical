@@ -23,8 +23,8 @@ description: >-
   We are seeking a dedicated and skilled Voice & Data Technicia...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-16T22:22:59.278Z'
-validThrough: '2025-01-24T22:22:59.278Z'
+datePosted: '2024-12-27T18:47:15.971Z'
+validThrough: '2025-02-07T18:47:15.971Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

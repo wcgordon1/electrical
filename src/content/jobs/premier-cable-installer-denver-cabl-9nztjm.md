@@ -23,8 +23,8 @@ description: >-
   - Install, m...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-16T18:27:56.766Z'
-validThrough: '2025-01-16T18:27:56.766Z'
+datePosted: '2024-12-27T10:59:46.437Z'
+validThrough: '2025-01-26T10:59:46.437Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

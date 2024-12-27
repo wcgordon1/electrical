@@ -23,8 +23,8 @@ description: >-
   1. Install, maintai...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-16T16:39:49.396Z'
-validThrough: '2025-01-19T16:39:49.396Z'
+datePosted: '2024-12-27T11:05:56.975Z'
+validThrough: '2025-02-02T11:05:56.975Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -26,8 +26,8 @@ description: >-
   Key Resp...
 location: 'Athens, GA'
 team: Data Center
-datePosted: '2024-12-16T20:21:52.600Z'
-validThrough: '2025-01-15T20:21:52.600Z'
+datePosted: '2024-12-27T15:33:40.285Z'
+validThrough: '2025-01-26T15:33:40.285Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

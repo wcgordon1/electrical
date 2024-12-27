@@ -17,8 +17,8 @@ description: >-
   variety of functions related to electrical installations, troublesh...
 location: 'Fort Collins, CO'
 team: Data Center
-datePosted: '2024-12-16T17:40:33.522Z'
-validThrough: '2025-01-27T17:40:33.522Z'
+datePosted: '2024-12-27T08:45:09.942Z'
+validThrough: '2025-02-08T08:45:09.942Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

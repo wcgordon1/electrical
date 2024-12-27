@@ -16,8 +16,8 @@ description: >-
   Ke...
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-16T16:52:10.101Z'
-validThrough: '2025-01-17T16:52:10.101Z'
+datePosted: '2024-12-27T11:31:28.415Z'
+validThrough: '2025-02-06T11:31:28.415Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

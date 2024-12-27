@@ -19,8 +19,8 @@ description: >-
   commercial work, specifically within new construction and big box retail...
 location: 'Fontana, CA'
 team: Data Center
-datePosted: '2024-12-16T20:10:31.772Z'
-validThrough: '2025-01-20T20:10:31.772Z'
+datePosted: '2024-12-27T18:52:27.971Z'
+validThrough: '2025-01-28T18:52:27.971Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

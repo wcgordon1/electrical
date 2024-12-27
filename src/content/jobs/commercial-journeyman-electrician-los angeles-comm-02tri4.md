@@ -20,8 +20,8 @@ description: >-
   Key ...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-16T16:56:27.473Z'
-validThrough: '2025-01-30T16:56:27.473Z'
+datePosted: '2024-12-27T19:40:55.999Z'
+validThrough: '2025-02-09T19:40:55.999Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

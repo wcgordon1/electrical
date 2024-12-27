@@ -25,8 +25,8 @@ description: >-
   dedicated Indus...
 location: 'Dunwoody, GA'
 team: Industrial
-datePosted: '2024-12-16T23:04:42.799Z'
-validThrough: '2025-01-15T23:04:42.799Z'
+datePosted: '2024-12-27T10:01:27.275Z'
+validThrough: '2025-01-27T10:01:27.275Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

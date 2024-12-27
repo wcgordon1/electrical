@@ -18,8 +18,8 @@ description: >-
   systems....
 location: 'Scottsdale, AZ'
 team: Data Center
-datePosted: '2024-12-16T22:54:23.407Z'
-validThrough: '2025-01-21T22:54:23.407Z'
+datePosted: '2024-12-27T14:22:39.037Z'
+validThrough: '2025-02-05T14:22:39.037Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -23,8 +23,8 @@ description: >-
   of low voltage systems...
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-16T14:46:43.756Z'
-validThrough: '2025-01-27T14:46:43.756Z'
+datePosted: '2024-12-27T08:46:00.181Z'
+validThrough: '2025-02-09T08:46:00.181Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -23,8 +23,8 @@ description: >-
   ethernet in both re...
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-16T19:41:25.833Z'
-validThrough: '2025-01-24T19:41:25.833Z'
+datePosted: '2024-12-27T10:16:38.995Z'
+validThrough: '2025-01-30T10:16:38.995Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

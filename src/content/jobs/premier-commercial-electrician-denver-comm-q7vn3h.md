@@ -21,8 +21,8 @@ description: >-
   ...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-16T20:02:30.839Z'
-validThrough: '2025-01-17T20:02:30.839Z'
+datePosted: '2024-12-27T19:44:52.901Z'
+validThrough: '2025-02-04T19:44:52.901Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

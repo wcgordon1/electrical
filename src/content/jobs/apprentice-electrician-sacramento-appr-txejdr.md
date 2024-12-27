@@ -83,8 +83,8 @@ description: >-
   disability, or veteran status.
 location: 'Sacramento, CA'
 team: Industrial
-datePosted: '2024-12-16T22:51:41.674Z'
-validThrough: '2025-01-18T22:51:41.674Z'
+datePosted: '2024-12-27T17:13:02.437Z'
+validThrough: '2025-01-28T17:13:02.437Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

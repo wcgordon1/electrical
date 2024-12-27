@@ -19,8 +19,8 @@ description: >-
   Springs, Fountain, Falcon, Secur...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-16T15:35:46.148Z'
-validThrough: '2025-01-17T15:35:46.148Z'
+datePosted: '2024-12-27T08:06:37.576Z'
+validThrough: '2025-01-26T08:06:37.576Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric
