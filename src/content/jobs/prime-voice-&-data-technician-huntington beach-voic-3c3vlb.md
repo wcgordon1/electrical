@@ -44,7 +44,7 @@ baseSalary:
   maxValue: 35
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Voice & Data
+occupationalCategory: Voice Data
 identifier:
   name: Prime Partners
   value: VOIC-3c3vlb
