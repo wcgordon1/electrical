@@ -18,15 +18,6 @@ const openai = new OpenAI({
 });
 
 const JOB_TYPES = {
-  'Residential Electrician': {
-    minValue: 20,
-    maxValue: 28,
-    experienceLevel: 'seniorLevel',
-    category: 'Apprentice',
-    team: 'Residential',
-    yearsExperience: '1-5',
-    prompt: 'Create a job description for a Residential Apprentice Electrician. Must have knowledge of basic electrical theory, residential wiring methods (NM cable/Romex), load calculations, and panel installations. Experience with hand tools (Klein, Knipex), power tools (Milwaukee, DeWalt), digital multimeters (Fluke), and basic test equipment required. Must possess valid Electrical Apprentice License/Trainee Card, OSHA-10, First Aid/CPR certification, and valid drivers license. Experience with residential rough-in, service upgrades, fixture/device installation, and basic troubleshooting preferred. Must be enrolled in or eligible for state-approved apprenticeship program.'
-  },
   'Industrial Electrician': {
     minValue: 22,
     maxValue: 30,
@@ -45,87 +36,55 @@ const JOB_TYPES = {
     yearsExperience: '5+',
     prompt: 'Create a job description for an Industrial Journeyman Electrician. Expert in 3-phase power, VFDs, PLCs, instrumentation, and industrial control systems. Proficient in conduit bending, cable tray, hazardous location wiring. Must have State Electrical License, OSHA-30, Arc Flash, Confined Space certifications. Experience with industrial maintenance, automation systems, and mentoring apprentices required.'
   },
-  'Commercial Electrician': {
-    minValue: 36,
-    maxValue: 43,
-    experienceLevel: 'seniorLevel',
-    category: 'Journeyman',
-    team: 'Commercial',
-    yearsExperience: '5+',
-    prompt: 'Create a job description for a Commercial Journeyman Electrician. Expert in commercial electrical systems, lighting controls, fire alarm, and power distribution. Proficient in conduit bending, wire pulling, panel building. Must have State Electrical License, OSHA-30, Arc Flash certifications. Experience with blueprint reading, crew leadership, and project coordination required.'
-  },
-  'Cable Technician': {
-    minValue: 24,
-    maxValue: 32,
-    experienceLevel: 'seniorLevel',
-    category: 'Voice Data',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for a Commercial Cable Technician. Expert in Cat5e/6/6A installation, fiber optics, cable certification testing. Experience with Fluke testing equipment, cable management systems required. Must have BICSI Installer 2, OSHA-10, Network+ certifications. Knowledge of structured cabling standards, blueprint reading, and documentation practices essential.'
-  },
-  'Controls Technician': {
-    minValue: 28,
-    maxValue: 38,
-    experienceLevel: 'seniorLevel',
-    category: 'Controls',
-    team: 'Industrial',
-    yearsExperience: '5+',
-    prompt: 'Create a job description for a Controls Technician. Expert in PLC programming (Allen Bradley, Siemens), HMI development, industrial networking protocols. Experience with VFDs, instrumentation, SCADA systems required. Must have Associates/Technical degree, vendor certifications (Rockwell, Siemens), OSHA-30. Knowledge of AutoCAD, troubleshooting control systems, and documentation essential.'
-  },
-  'Data Center Technician': {
-    minValue: 26,
-    maxValue: 34,
-    experienceLevel: 'seniorLevel',
-    category: 'Data Center',
-    team: 'Data Center',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for a Data Center Technician. Expert in power distribution, cooling systems, network infrastructure. Experience with UPS systems, generators, CRAC units required. Must have BICSI DCDC, OSHA-30, CompTIA Server+. Knowledge of monitoring systems, preventive maintenance, emergency procedures essential.'
-  },
-  'Security Technician': {
-    minValue: 24,
-    maxValue: 32,
-    experienceLevel: 'seniorLevel',
-    category: 'Security',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for a Security Systems Technician. Expert in access control systems, video surveillance, and intrusion detection. Experience with Genetec, Lenel, AMAG platforms required. Must have ESA/NTS certification, OSHA-10, and low voltage license. Knowledge of IP networking, system programming, and client training essential.'
-  },
-  'Commercial Apprentice': {
-    minValue: 20,
-    maxValue: 28,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Commercial',
-    yearsExperience: '1-3',
-    prompt: 'Create a job description for a Commercial Apprentice Electrician. Must understand commercial wiring methods, conduit installation, and power distribution basics. Experience with conduit bending, wire pulling, and tool operation required. Must have Electrical Apprentice License, OSHA-10, First Aid/CPR certifications. Knowledge of blueprint reading and basic troubleshooting essential.'
-  },
-  'Fire Alarm Technician': {
-    minValue: 26,
-    maxValue: 34,
-    experienceLevel: 'seniorLevel',
-    category: 'Fire Alarm',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for a Fire Alarm Technician. Expert in fire alarm system installation, programming, and testing. Experience with Notifier, Simplex, Edwards systems required. Must have NICET Level II, low voltage license, and OSHA-30. Knowledge of NFPA 72, inspection procedures, and documentation essential.'
-  },
-  'Service Electrician': {
-    minValue: 32,
-    maxValue: 40,
-    experienceLevel: 'seniorLevel',
-    category: 'Journeyman',
-    team: 'Commercial',
-    yearsExperience: '5+',
-    prompt: 'Create a job description for a Commercial Service Electrician. Expert in troubleshooting electrical systems, emergency repairs, and preventive maintenance. Experience with testing equipment, power quality analysis required. Must have State Electrical License, OSHA-30. Strong customer service and problem-solving skills essential.'
-  },
-  'AV Technician': {
-    minValue: 24,
-    maxValue: 32,
-    experienceLevel: 'seniorLevel',
-    category: 'Audio Visual',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    prompt: 'Create a job description for an Audio Visual Technician. Expert in audiovisual system installation, configuration, and programming. Experience with Crestron, Extron, QSC platforms required. Must have CTS certification, low voltage license. Knowledge of digital audio/video, control systems, and user training essential.'
-  }
+  'Senior Controls Technician': {
+   minValue: 55,
+   maxValue: 65, 
+   experienceLevel: 'seniorLevel',
+   category: 'Controls',
+   team: 'Industrial',
+   yearsExperience: '7+',
+   prompt: 'Create a job description for a Senior Controls Technician specializing in manufacturing automation. Expert in Allen-Bradley PLCs, HMI programming, SCADA systems, and industrial networking protocols (EtherNet/IP, Modbus TCP/IP). Must have ISA Certified Control Systems Technician (CCST) Level III, OSHA-30, Arc Flash certification, and CompTIA Network+. Experience with Rockwell RSLogix 5000/Studio 5000, FactoryTalk View, Wonderware InTouch, and Siemens TIA Portal required. Strong background in process control loops, VFD configuration, and troubleshooting complex automation systems. Position requires 50-75% travel for commissioning and emergency support.'
+},
+
+'Process Controls Technician': {
+   minValue: 48,
+   maxValue: 58,
+   experienceLevel: 'midLevel', 
+   category: 'Controls',
+   team: 'Industrial',
+   yearsExperience: '5+',
+   prompt: 'Create a job description for a Process Controls Technician. Expert in DCS systems (Honeywell, DeltaV), instrumentation calibration, and process control loops. Must have ISA Certified Control Systems Technician (CCST) Level II, OSHA-30, confined space certification, and ISA Certified Automation Professional (CAP). Experience with analog/digital instrumentation, control valve maintenance, and PID loop tuning. Proficient in HART protocol, Foundation Fieldbus, and industrial networking. Position requires 40-60% travel for plant startups and system upgrades.'
+},
+
+'Automation Controls Specialist': {
+   minValue: 47,
+   maxValue: 57,
+   experienceLevel: 'seniorLevel',
+   category: 'Controls', 
+   team: 'Industrial',
+   yearsExperience: '8+',
+   prompt: 'Create a job description for an Automation Controls Specialist. Expert in multiple PLC platforms (Allen-Bradley, Siemens, Omron), robotics integration, and motion control systems. Must have Universal Robotics certification, FANUC robotics certification, OSHA-30, and PMMI Mechatronics certification. Experience with servo systems, vision systems, and industrial safety systems (Safety PLC). Proficient in AutoCAD Electrical, EPLAN, and panel design. Position requires 60-80% travel for robot cell commissioning and automation system deployments.'
+},
+
+'Controls Technician': {
+   minValue: 46,
+   maxValue: 58,
+   experienceLevel: 'midLevel',
+   category: 'Controls',
+   team: 'Industrial', 
+   yearsExperience: '4+',
+   prompt: 'Create a job description for a Building Controls Technician. Expert in BAS/BMS systems (Johnson Controls, Honeywell, Siemens), HVAC controls, and energy management systems. Must have NEBB Building Systems Technical Certification, OSHA-30, and EPA Universal certification. Experience with Niagara Framework, Tridium, and LON/BACnet protocols. Proficient in DDC programming, VFD configuration, and mechanical systems integration. Position requires 30-50% travel for multiple site maintenance and system commissioning.'
+},
+
+'Controls Engineer': {
+   minValue: 58,
+   maxValue: 68,
+   experienceLevel: 'seniorLevel',
+   category: 'Controls',
+   team: 'Industrial',
+   yearsExperience: '10+', 
+   prompt: 'Create a job description for a Safety Controls Engineer. Expert in machine safety systems, safety PLCs (Allen-Bradley GuardLogix, Siemens F-CPU), and risk assessment. Must have TÜV Functional Safety Engineer certification, OSHA-30, and Certified Machinery Safety Expert (CMSE) credentials. Experience with ISO 13849/IEC 62061 standards, safety system design, and safety network protocols (CIP Safety, PROFIsafe). Proficient in Sistema calculations, safety circuit design, and robot safety systems. Position requires 40-70% travel for safety system validation and compliance assessments.'
+}
 };
 
 const PROMPT_STYLES = {
@@ -216,88 +175,42 @@ const COMPANIES = {
 };
 
 const LOCATIONS = [
-  // West Coast
-  { city: 'San Francisco', state: 'CA', zipCode: '94105' },
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'Seattle', state: 'WA', zipCode: '98101' },
-  // East Coast
-  { city: 'New York', state: 'NY', zipCode: '10007' },
-  { city: 'Boston', state: 'MA', zipCode: '02110' },
-  { city: 'Miami', state: 'FL', zipCode: '33131' },
-  // Central
-  { city: 'Chicago', state: 'IL', zipCode: '60601' },
-  { city: 'Houston', state: 'TX', zipCode: '77002' },
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'New York City', state: 'NY', zipCode: '10001' },
-  { city: 'Buffalo', state: 'NY', zipCode: '14201' },
-  { city: 'Boston', state: 'MA', zipCode: '02108' },
-  { city: 'Worcester', state: 'MA', zipCode: '01608' },
-  { city: 'Philadelphia', state: 'PA', zipCode: '19103' },
-  { city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
-  // South/Southeast
-  { city: 'Miami', state: 'FL', zipCode: '33131' },
-  { city: 'Jacksonville', state: 'FL', zipCode: '32202' },
+  { city: 'Kansas City', state: 'MO', zipCode: '64101' },
+  { city: 'Glendale', state: 'AZ', zipCode: '85301' },
+  { city: 'Richmond', state: 'VA', zipCode: '23219' },
+  { city: 'Nashville', state: 'TN', zipCode: '37201' },
+  { city: 'Cincinnati', state: 'OH', zipCode: '45202' },
   { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-  { city: 'Augusta', state: 'GA', zipCode: '30901' },
+  { city: 'Fullerton', state: 'CA', zipCode: '92832' },
   { city: 'Charlotte', state: 'NC', zipCode: '28202' },
-  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
-  // Midwest
-  { city: 'Chicago', state: 'IL', zipCode: '60601' },
-  { city: 'Aurora', state: 'IL', zipCode: '60505' },
-  { city: 'Detroit', state: 'MI', zipCode: '48201' },
-  { city: 'Grand Rapids', state: 'MI', zipCode: '49503' },
-  { city: 'Columbus', state: 'OH', zipCode: '43215' },
-  { city: 'Cleveland', state: 'OH', zipCode: '44113' },
-  // Texas
+  { city: 'Irving', state: 'TX', zipCode: '75061' },
+  { city: 'Glendale', state: 'CA', zipCode: '91205' },
+  { city: 'Sacramento', state: 'CA', zipCode: '95814' },
   { city: 'Houston', state: 'TX', zipCode: '77002' },
-  { city: 'Dallas', state: 'TX', zipCode: '75201' },
-  // Mountain Region
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
+  { city: 'San Diego', state: 'CA', zipCode: '92101' },
+  { city: 'Anaheim', state: 'CA', zipCode: '92805' },
+  { city: 'Seattle', state: 'WA', zipCode: '98101' },
+  { city: 'Columbus', state: 'OH', zipCode: '43215' },
+  { city: 'Portland', state: 'OR', zipCode: '97201' },
   { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-  { city: 'Tucson', state: 'AZ', zipCode: '85701' },
-  // Other Regions
-  { city: 'Nashville', state: 'TN', zipCode: '37203' },
-  { city: 'Memphis', state: 'TN', zipCode: '38103' },
-  { city: 'Baltimore', state: 'MD', zipCode: '21202' },
-  { city: 'Annapolis', state: 'MD', zipCode: '21401' },
-  { city: 'Kansas City', state: 'MO', zipCode: '64105' },
   { city: 'St. Louis', state: 'MO', zipCode: '63101' },
-  { city: 'New York City', state: 'NY', zipCode: '10001' },
-{ city: 'Buffalo', state: 'NY', zipCode: '14201' },
-{ city: 'Boston', state: 'MA', zipCode: '02108' },
-{ city: 'Worcester', state: 'MA', zipCode: '01608' },
-{ city: 'Philadelphia', state: 'PA', zipCode: '19103' },
-{ city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
-// South/Southeast
-{ city: 'Miami', state: 'FL', zipCode: '33131' },
-{ city: 'Jacksonville', state: 'FL', zipCode: '32202' },
-{ city: 'Atlanta', state: 'GA', zipCode: '30303' },
-{ city: 'Augusta', state: 'GA', zipCode: '30901' },
-{ city: 'Charlotte', state: 'NC', zipCode: '28202' },
-{ city: 'Raleigh', state: 'NC', zipCode: '27601' },
-// Midwest
-{ city: 'Chicago', state: 'IL', zipCode: '60601' },
-{ city: 'Aurora', state: 'IL', zipCode: '60505' },
-{ city: 'Detroit', state: 'MI', zipCode: '48201' },
-{ city: 'Grand Rapids', state: 'MI', zipCode: '49503' },
-{ city: 'Columbus', state: 'OH', zipCode: '43215' },
-{ city: 'Cleveland', state: 'OH', zipCode: '44113' },
-// Texas
-{ city: 'Houston', state: 'TX', zipCode: '77002' },
-{ city: 'Dallas', state: 'TX', zipCode: '75201' },
-// Mountain Region
-{ city: 'Denver', state: 'CO', zipCode: '80202' },
-{ city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-{ city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-{ city: 'Tucson', state: 'AZ', zipCode: '85701' },
-// Other Regions
-{ city: 'Nashville', state: 'TN', zipCode: '37203' },
-{ city: 'Memphis', state: 'TN', zipCode: '38103' },
-{ city: 'Baltimore', state: 'MD', zipCode: '21202' },
-{ city: 'Annapolis', state: 'MD', zipCode: '21401' },
-{ city: 'Kansas City', state: 'MO', zipCode: '64105' },
-{ city: 'St. Louis', state: 'MO', zipCode: '63101' }
+  { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
+  { city: 'Washington', state: 'DC', zipCode: '20001' },
+  { city: 'Louisville', state: 'KY', zipCode: '40202' },
+  { city: 'Cleveland', state: 'OH', zipCode: '44113' },
+  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
+  { city: 'Dallas', state: 'TX', zipCode: '75201' },
+  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+  { city: 'San Francisco', state: 'CA', zipCode: '94102' },
+  { city: 'San Antonio', state: 'TX', zipCode: '78205' },
+  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
+  { city: 'Portland', state: 'OR', zipCode: '97201' },
+  { city: 'Cleveland', state: 'OH', zipCode: '44113' },
+  { city: 'Seattle', state: 'WA', zipCode: '98101' },
+  { city: 'Las Vegas', state: 'NV', zipCode: '89101' },
+  { city: 'San Jose', state: 'CA', zipCode: '95113' }
 ];
 
 const STREET_TYPES = [
@@ -419,7 +332,7 @@ Format in markdown without h1 tags. Do not include ticks or markdown formatting 
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com'
+      'support@primepartners.info'
     ]
   };
 
