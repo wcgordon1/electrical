@@ -25,65 +25,110 @@ const JOB_TYPES = {
     category: 'Apprentice',
     team: 'Industrial',
     yearsExperience: '1-3',
+    responsibilities: 'Install and maintain industrial electrical systems, assist with motor control installations, perform conduit bending and installation, help troubleshoot electrical issues, follow safety protocols',
+    qualifications: 'Electrical Apprentice License, OSHA-30 certification, ability to read blueprints, knowledge of basic electrical theory, experience with hand and power tools',
     prompt: 'Create a job description for an Industrial Apprentice Electrician. Must understand 3-phase power, motor controls, PLC basics, and conduit installation. Experience with hand/power tools, digital multimeters, meggars required. Must have Electrical Apprentice License, OSHA-30, Arc Flash, First Aid/CPR certifications. Knowledge of industrial safety protocols, blueprint reading, and basic troubleshooting essential.'
   },
-  'Industrial Journeyman Electrician': {
-    minValue: 34,
-    maxValue: 42,
-    experienceLevel: 'seniorLevel',
-    category: 'Journeyman',
-    team: 'Industrial',
-    yearsExperience: '5+',
-    prompt: 'Create a job description for an Industrial Journeyman Electrician. Expert in 3-phase power, VFDs, PLCs, instrumentation, and industrial control systems. Proficient in conduit bending, cable tray, hazardous location wiring. Must have State Electrical License, OSHA-30, Arc Flash, Confined Space certifications. Experience with industrial maintenance, automation systems, and mentoring apprentices required.'
-  },
-  'Senior Controls Technician': {
-   minValue: 55,
-   maxValue: 65, 
-   experienceLevel: 'seniorLevel',
-   category: 'Controls',
-   team: 'Industrial',
-   yearsExperience: '7+',
-   prompt: 'Create a job description for a Senior Controls Technician specializing in manufacturing automation. Expert in Allen-Bradley PLCs, HMI programming, SCADA systems, and industrial networking protocols (EtherNet/IP, Modbus TCP/IP). Must have ISA Certified Control Systems Technician (CCST) Level III, OSHA-30, Arc Flash certification, and CompTIA Network+. Experience with Rockwell RSLogix 5000/Studio 5000, FactoryTalk View, Wonderware InTouch, and Siemens TIA Portal required. Strong background in process control loops, VFD configuration, and troubleshooting complex automation systems. Position requires 50-75% travel for commissioning and emergency support.'
+  'Cable Installer': {
+   minValue: 20,
+   maxValue: 28,
+   experienceLevel: 'entryLevel',
+   category: 'Low Voltage',
+   team: 'Commercial',
+   yearsExperience: '0-2',
+   responsibilities: 'Install and terminate CAT5e/CAT6/CAT6A cabling, maintain cable management systems, perform cable testing and certification, pull cable through various pathways, document cable installations',
+   qualifications: 'BICSI Installer 1 certification, experience with cable testing equipment, knowledge of TIA/EIA standards, physical ability to lift 50+ lbs, valid drivers license',
+   prompt: 'Create a job description for a Cable Installation Technician. Must understand structured cabling standards, cable testing/certification procedures, and pathway requirements. Experience with Fluke testing equipment, cable termination tools, and cable management required. Must have BICSI Installer 1, OSHA-10, scissor lift certifications. Knowledge of TIA/EIA standards, telecommunications room requirements, and proper labeling essential. Some travel between job sites required.'
+},
+'Security Technician': {
+   minValue: 24,
+   maxValue: 32,
+   experienceLevel: 'entryLevel',
+   category: 'Security',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install security cameras, access control systems, and intrusion detection devices, configure basic system programming, maintain security equipment, troubleshoot system issues',
+   qualifications: 'ESA Level 1 certification, experience with IP cameras, knowledge of access control systems, clean background check, valid drivers license',
+   prompt: 'Create a job description for a Security Systems Installer for low voltage commercial projects. Must understand IP camera systems, access control platforms, and intrusion detection devices. Experience with Milestone, Genetec, or similar VMS platforms required. Must have ESA Level 1, OSHA-10, low voltage license where required. Knowledge of network basics, PoE, basic programming, and system commissioning essential. Local travel between customer sites required. Clean background check and drug screening mandatory.'
 },
 
-'Process Controls Technician': {
-   minValue: 48,
-   maxValue: 58,
-   experienceLevel: 'midLevel', 
-   category: 'Controls',
-   team: 'Industrial',
-   yearsExperience: '5+',
-   prompt: 'Create a job description for a Process Controls Technician. Expert in DCS systems (Honeywell, DeltaV), instrumentation calibration, and process control loops. Must have ISA Certified Control Systems Technician (CCST) Level II, OSHA-30, confined space certification, and ISA Certified Automation Professional (CAP). Experience with analog/digital instrumentation, control valve maintenance, and PID loop tuning. Proficient in HART protocol, Foundation Fieldbus, and industrial networking. Position requires 40-60% travel for plant startups and system upgrades.'
+'Data Center Technician': {
+   minValue: 25,
+   maxValue: 35,
+   experienceLevel: 'entryLevel', 
+   category: 'Data Center',
+   team: 'Data Center',
+   yearsExperience: '1-3',
+   responsibilities: 'Install and maintain data center infrastructure, rack and stack equipment, run structured cabling, assist with cooling systems maintenance, monitor power distribution',
+   qualifications: 'CDCTP certification preferred, understanding of data center operations, knowledge of cooling systems, ability to lift 50+ lbs, willing to work rotating shifts',
+   prompt: 'Create a job description for a Data Center Infrastructure Technician. Must understand power distribution, cooling systems, and rack infrastructure. Experience with structured cabling, environmental monitoring, and basic networking required. Must have CDCTP or equivalent certification, OSHA-10, and ESD certification. Knowledge of raised floor systems, hot/cold aisle containment, and critical facility operations essential. Must be willing to work rotating shifts including nights/weekends. Emergency on-call rotation required.'
 },
 
-'Automation Controls Specialist': {
-   minValue: 47,
-   maxValue: 57,
-   experienceLevel: 'seniorLevel',
-   category: 'Controls', 
-   team: 'Industrial',
-   yearsExperience: '8+',
-   prompt: 'Create a job description for an Automation Controls Specialist. Expert in multiple PLC platforms (Allen-Bradley, Siemens, Omron), robotics integration, and motion control systems. Must have Universal Robotics certification, FANUC robotics certification, OSHA-30, and PMMI Mechatronics certification. Experience with servo systems, vision systems, and industrial safety systems (Safety PLC). Proficient in AutoCAD Electrical, EPLAN, and panel design. Position requires 60-80% travel for robot cell commissioning and automation system deployments.'
+'Fiber Optics Installer': {
+   minValue: 23,
+   maxValue: 31,
+   experienceLevel: 'entryLevel',
+   category: 'Fiber Optics',
+   team: 'Commercial',
+   yearsExperience: '1-5',
+   responsibilities: 'Install and terminate fiber optic cables, perform OTDR testing, maintain fiber documentation, splice fiber cables, troubleshoot fiber issues',
+   qualifications: 'FOA CFOT certification, experience with fusion splicing, knowledge of fiber testing equipment, valid drivers license, ability to work at heights',
+   prompt: 'Create a job description for a Fiber Optics Installer. Must understand single-mode and multi-mode fiber installation, fusion splicing techniques, and OTDR testing procedures. Experience with Fujikura fusion splicers, EXFO test equipment, and fiber termination methods required. Must have FOA CFOT certification, OSHA-10, aerial lift certification. Knowledge of fiber loss budgets, proper cable handling, and industry standards essential. Travel to various job sites required. Must be comfortable working at heights and in various weather conditions.'
 },
-
-'Controls Technician': {
-   minValue: 46,
-   maxValue: 58,
-   experienceLevel: 'midLevel',
-   category: 'Controls',
-   team: 'Industrial', 
-   yearsExperience: '4+',
-   prompt: 'Create a job description for a Building Controls Technician. Expert in BAS/BMS systems (Johnson Controls, Honeywell, Siemens), HVAC controls, and energy management systems. Must have NEBB Building Systems Technical Certification, OSHA-30, and EPA Universal certification. Experience with Niagara Framework, Tridium, and LON/BACnet protocols. Proficient in DDC programming, VFD configuration, and mechanical systems integration. Position requires 30-50% travel for multiple site maintenance and system commissioning.'
+'Audio Visual Technician': {
+   minValue: 22,
+   maxValue: 30,
+   experienceLevel: 'entryLevel',
+   category: 'Audio Visual',
+   team: 'Commercial',
+   yearsExperience: '1-4',
+   responsibilities: 'Install AV equipment, terminate AV cables, configure basic systems, maintain documentation, assist with system testing',
+   qualifications: 'AVIXA CTS certification preferred, understanding of audio and video systems, knowledge of control systems, good customer service skills',
+   prompt: 'Create a job description for an Audio Visual Technician. Must understand audio/video systems, control interfaces, and digital signal processing. Experience with Crestron/Extron systems, video distribution, and audio reinforcement required. AVIXA CTS certification preferred, OSHA-10, lift certification required. Knowledge of display technologies, conferencing systems, and rack building essential. Customer-facing position requires excellent communication skills and professional appearance. Some evening/weekend work for system commissioning.'
 },
-
-'Controls Engineer': {
-   minValue: 58,
-   maxValue: 68,
-   experienceLevel: 'seniorLevel',
-   category: 'Controls',
-   team: 'Industrial',
-   yearsExperience: '10+', 
-   prompt: 'Create a job description for a Safety Controls Engineer. Expert in machine safety systems, safety PLCs (Allen-Bradley GuardLogix, Siemens F-CPU), and risk assessment. Must have TÜV Functional Safety Engineer certification, OSHA-30, and Certified Machinery Safety Expert (CMSE) credentials. Experience with ISO 13849/IEC 62061 standards, safety system design, and safety network protocols (CIP Safety, PROFIsafe). Proficient in Sistema calculations, safety circuit design, and robot safety systems. Position requires 40-70% travel for safety system validation and compliance assessments.'
+'Fire Alarm Installer': {
+   minValue: 21,
+   maxValue: 29,
+   experienceLevel: 'entryLevel',
+   category: 'Fire Alarm',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install fire alarm devices, pull wire, assist with system testing, maintain documentation, help with troubleshooting',
+   qualifications: 'NICET Level I preferred, knowledge of NFPA 72, understanding of fire alarm systems, valid drivers license, clean background check',
+   prompt: 'Create a job description for a Fire Alarm Installer. Must understand fire alarm systems, initiating devices, and notification appliances. Experience with Notifier, Simplex, or Edwards systems preferred. NICET Level I preferred, OSHA-10, and First Aid/CPR required. Knowledge of NFPA 72, blueprint reading, and basic electricity essential. Position requires clean driving record and ability to pass background check. Must be willing to participate in on-call rotation after training period.'
+},
+'Residential Solar Installer': {
+   minValue: 17,
+   maxValue: 23,
+   experienceLevel: 'entryLevel',
+   category: 'Apprentice',
+   team: 'Solar',
+   yearsExperience: '1-4',
+   responsibilities: 'Install residential solar systems, mount solar panels, install racking systems, run conduit, pull wire, assist with system commissioning',
+   qualifications: 'NABCEP Associate certification preferred, roofing experience helpful, comfortable working at heights, valid drivers license',
+   prompt: 'Create a job description for a Residential Solar Installer. Must understand solar PV systems, mounting techniques, and basic electrical. Experience with roof work, power tools, and conduit installation required. NABCEP Associate certification preferred, OSHA-10, fall protection certification required. Knowledge of NEC Article 690, basic electrical theory, and safety protocols essential. Position requires comfort working at heights and ability to lift 50+ lbs regularly. Must be willing to work outdoors in various weather conditions.'
+},
+'Voice Data Installer': {
+   minValue: 20,
+   maxValue: 28,
+   experienceLevel: 'entryLevel',
+   category: 'Voice Data',
+   team: 'Commercial',
+   yearsExperience: '1-5',
+   responsibilities: 'Install voice/data cabling, terminate jacks and panels, test connections, maintain cable management, document installations',
+   qualifications: 'BICSI Installer 1 certification preferred, experience with cable testing, knowledge of industry standards, valid drivers license',
+   prompt: 'Create a job description for a Voice/Data Installation Technician. Must understand structured cabling standards, termination techniques, and testing procedures. Experience with cable installation, Fluke testing equipment, and proper documentation required. BICSI Installer 1 certification preferred, OSHA-10 required. Knowledge of TIA/EIA standards, cable management, and labeling conventions essential. Position involves working in commercial environments and coordination with other trades. Some local travel between job sites required.'
+},
+'Electrical Apprentice': {
+   minValue: 22,
+   maxValue: 32,
+   experienceLevel: 'entryLevel',
+   category: 'Apprentice',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install commercial electrical systems, assist with lighting installations, run EMT conduit, pull wire, wire devices, help troubleshoot electrical issues, maintain documentation',
+   qualifications: 'Electrical Apprentice License, OSHA-10 certification, basic electrical knowledge, ability to read blueprints, experience with power tools',
+   prompt: 'Create a job description for a Commercial Electrical Apprentice. Must understand basic electrical theory, lighting systems, and commercial power distribution. Experience with EMT conduit bending, wire pulling, and device termination required. Must have Electrical Apprentice License, OSHA-10, First Aid/CPR, and scissor lift certifications. Knowledge of NEC code requirements, commercial construction practices, and basic lighting controls essential. Position involves working in commercial/retail environments and coordinating with other trades. Some work from heights and ladder usage required. Must be able to lift 50+ lbs regularly and be willing to work overtime when needed. Local travel between job sites expected.'
 }
 };
 
@@ -102,11 +147,6 @@ const DESCRIPTION_LENGTHS = {
 };
 
 const COMPANIES = {
-  'Prime Partners': {
-    name: 'Prime Partners',
-    sameAs: 'https://www.primepartners.com/',
-    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
-  },
   'Staley Technologies': {
     name: 'Staley Technologies',
     sameAs: 'https://staleytechnologies.com/',
@@ -171,46 +211,109 @@ const COMPANIES = {
     name: 'Granite State Electric',
     sameAs: 'https://granitestateelectricians.com/',
     logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
+  },
+  'T&D Communications': {
+    name: 'T&D Communications',
+    sameAs: 'https://www.tanddcomm.com/',
+    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
+  },
+  '3D Communications': {
+    name: '3D Communications',
+    sameAs: 'https://www.3dtsi.com/',
+    logo: 'https://threedtsistage.wpenginepowered.com/wp-content/uploads/2021/01/logo-default.png'
+  },
+  'WiLine': {
+    name: 'WiLine',
+    sameAs: 'https://www.wiline.com/',
+    logo: 'https://www.wiline.com/img/logo_blue.png'
+  },
+  'HCI Systems': {
+    name: 'HCI Systems',
+    sameAs: 'https://www.hcisystems.net/',
+    logo: 'https://www.hcisystems.net/wp-content/uploads/2019/04/logo.png'
+  },
+  'Convergint': {
+    name: 'Convergint',
+    sameAs: 'https://www.convergint.com/',
+    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
   }
 };
 
 const LOCATIONS = [
-  { city: 'Kansas City', state: 'MO', zipCode: '64101' },
-  { city: 'Glendale', state: 'AZ', zipCode: '85301' },
-  { city: 'Richmond', state: 'VA', zipCode: '23219' },
-  { city: 'Nashville', state: 'TN', zipCode: '37201' },
-  { city: 'Cincinnati', state: 'OH', zipCode: '45202' },
-  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-  { city: 'Fullerton', state: 'CA', zipCode: '92832' },
-  { city: 'Charlotte', state: 'NC', zipCode: '28202' },
-  { city: 'Irving', state: 'TX', zipCode: '75061' },
-  { city: 'Glendale', state: 'CA', zipCode: '91205' },
-  { city: 'Sacramento', state: 'CA', zipCode: '95814' },
-  { city: 'Houston', state: 'TX', zipCode: '77002' },
-  { city: 'San Diego', state: 'CA', zipCode: '92101' },
-  { city: 'Anaheim', state: 'CA', zipCode: '92805' },
-  { city: 'Seattle', state: 'WA', zipCode: '98101' },
-  { city: 'Columbus', state: 'OH', zipCode: '43215' },
-  { city: 'Portland', state: 'OR', zipCode: '97201' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-  { city: 'St. Louis', state: 'MO', zipCode: '63101' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-  { city: 'Washington', state: 'DC', zipCode: '20001' },
-  { city: 'Louisville', state: 'KY', zipCode: '40202' },
-  { city: 'Cleveland', state: 'OH', zipCode: '44113' },
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-  { city: 'Dallas', state: 'TX', zipCode: '75201' },
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'San Francisco', state: 'CA', zipCode: '94102' },
-  { city: 'San Antonio', state: 'TX', zipCode: '78205' },
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'Los Angeles', state: 'CA', zipCode: '90012' },
-  { city: 'Portland', state: 'OR', zipCode: '97201' },
-  { city: 'Cleveland', state: 'OH', zipCode: '44113' },
-  { city: 'Seattle', state: 'WA', zipCode: '98101' },
-  { city: 'Las Vegas', state: 'NV', zipCode: '89101' },
-  { city: 'San Jose', state: 'CA', zipCode: '95113' }
+  { city: 'New Orleans', state: 'LA', zipCode: '70112' },
+  { city: 'Tampa', state: 'FL', zipCode: '33602' },
+  { city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
+  { city: 'Albuquerque', state: 'NM', zipCode: '87102' },
+  { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
+  { city: 'Boise', state: 'ID', zipCode: '83702' },
+  { city: 'Oklahoma City', state: 'OK', zipCode: '73102' },
+  { city: 'Wichita', state: 'KS', zipCode: '67202' },
+  { city: 'Hartford', state: 'CT', zipCode: '06103' },
+  { city: 'Providence', state: 'RI', zipCode: '02903' },
+  { city: 'Lubbock', state: 'TX', zipCode: '79401' },
+  { city: 'McAllen', state: 'TX', zipCode: '78501' },
+  { city: 'Waco', state: 'TX', zipCode: '76701' },
+  { city: 'Huntsville', state: 'AL', zipCode: '35801' },
+  { city: 'Greenville', state: 'SC', zipCode: '29601' },
+  { city: 'Spokane', state: 'WA', zipCode: '99201' },
+  { city: 'Fayetteville', state: 'AR', zipCode: '72701' },
+  { city: 'Des Moines', state: 'IA', zipCode: '50309' },
+  // Nearby cities added:
+  { city: 'Baton Rouge', state: 'LA', zipCode: '70802' },
+  { city: 'Lafayette', state: 'LA', zipCode: '70501' },
+  { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
+  { city: 'Clearwater', state: 'FL', zipCode: '33755' },
+  { city: 'State College', state: 'PA', zipCode: '16801' },
+  { city: 'Youngstown', state: 'OH', zipCode: '44503' },
+  { city: 'Provo', state: 'UT', zipCode: '84601' },
+  { city: 'Ogden', state: 'UT', zipCode: '84401' },
+  { city: 'Twin Falls', state: 'ID', zipCode: '83301' },
+  { city: 'Nampa', state: 'ID', zipCode: '83651' },
+  { city: 'Tulsa', state: 'OK', zipCode: '74103' },
+  { city: 'Norman', state: 'OK', zipCode: '73069' },
+  { city: 'Topeka', state: 'KS', zipCode: '66603' },
+  { city: 'Springfield', state: 'MA', zipCode: '01103' },
+  { city: 'New Haven', state: 'CT', zipCode: '06510' },
+  { city: 'Savannah', state: 'GA', zipCode: '31401' },
+  { city: 'Macon', state: 'GA', zipCode: '31201' },
+  { city: 'Athens', state: 'GA', zipCode: '30601' },
+  { city: 'Columbus', state: 'GA', zipCode: '31901' },
+  { city: 'Marietta', state: 'GA', zipCode: '30060' },
+
+  // North Carolina
+  { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
+  { city: 'Durham', state: 'NC', zipCode: '27701' },
+  { city: 'Asheville', state: 'NC', zipCode: '28801' },
+  { city: 'Wilmington', state: 'NC', zipCode: '28401' },
+  { city: 'Greensboro', state: 'NC', zipCode: '27401' },
+
+  // South Carolina
+  { city: 'Columbia', state: 'SC', zipCode: '29201' },
+  { city: 'Charleston', state: 'SC', zipCode: '29401' },
+  { city: 'Myrtle Beach', state: 'SC', zipCode: '29577' },
+  { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
+  { city: 'Anderson', state: 'SC', zipCode: '29621' },
+
+  // Tennessee
+  { city: 'Knoxville', state: 'TN', zipCode: '37902' },
+  { city: 'Chattanooga', state: 'TN', zipCode: '37402' },
+  { city: 'Murfreesboro', state: 'TN', zipCode: '37130' },
+  { city: 'Clarksville', state: 'TN', zipCode: '37040' },
+  { city: 'Franklin', state: 'TN', zipCode: '37064' },
+
+  // Virginia
+  { city: 'Norfolk', state: 'VA', zipCode: '23510' },
+  { city: 'Virginia Beach', state: 'VA', zipCode: '23451' },
+  { city: 'Roanoke', state: 'VA', zipCode: '24011' },
+  { city: 'Alexandria', state: 'VA', zipCode: '22314' },
+  { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
+
+  // Colorado
+  { city: 'Fort Collins', state: 'CO', zipCode: '80524' },
+  { city: 'Boulder', state: 'CO', zipCode: '80302' },
+  { city: 'Aurora', state: 'CO', zipCode: '80012' },
+  { city: 'Pueblo', state: 'CO', zipCode: '81003' },
+  { city: 'Grand Junction', state: 'CO', zipCode: '81501' }
 ];
 
 const STREET_TYPES = [
@@ -276,17 +379,25 @@ async function createJob(location, jobType, company) {
 
 ${jobInfo.prompt}
 
-Start with a paragraph about the role. Never use h1 tags or headings before this paragraph. After the paragraph intro, go into h2 tags for required experience and pay/benefits, Use the following information to format the job:
+Start with a paragraph about the role in ${location.city}, ${location.state} at ${company.name}. Name surrounding neighboring cities to ${location.city}. Never use h1 tags or headings before this paragraph. After the paragraph intro, go into h2 tags for Qualifications, Responsibilities, and Pay/Benefits, Use the following information to format the job:
 
-- Location: ${location.city}, ${location.state}. Name surrounding neighboring cities to ${location.city}.
-- Company: ${company.name}
-- Required Experience: ${jobInfo.yearsExperience} years plus 3 more experience nice to have bullet points for ${jobType} of role, certifications, and licenses
-- Salary Range: $${minValue}-$${maxValue} per hour and benefits
+## Key Responsibilities
+${jobInfo.responsibilities} (add and subtract qualifications as needed)
+
+## Required Qualifications
+${jobInfo.qualifications} (add and subtract qualifications as needed)
+${jobInfo.yearsExperience} years of experience required for ${jobInfo.category} work in ${jobInfo.team} setting.
+
+## Compensation & Benefits
+- Salary Range: $${minValue}-$${maxValue} per hour
+- Comprehensive benefits package
+- Career advancement opportunities
+- Ongoing training and certifications
 
 Format in markdown without h1 tags. Do not include ticks or markdown formatting instructions. just show me the markdown.`;
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ 
       role: "user", 
       content: prompt
@@ -332,7 +443,7 @@ Format in markdown without h1 tags. Do not include ticks or markdown formatting 
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'support@primepartners.info'
+      'Michael.Mckeaige@pes123.com'
     ]
   };
 
