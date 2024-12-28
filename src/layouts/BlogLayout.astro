@@ -10,57 +10,72 @@ const seoDescription = frontmatter.description.length > 160
   : frontmatter.description;
 // Get the current URL for mainEntityOfPage
 const currentUrl = Astro.url;
-// Convert the content to plain text for articleBody and truncate
+// Convert the content to plain text for articleBody
 const articleBody = await Astro.slots.render('default');
 const plainTextContent = articleBody
   .replace(/<[^>]*>/g, '')
   .replace(/\n/g, ' ')
   .replace(/\s+/g, ' ')
   .trim();
-const truncatedArticleBody = plainTextContent.length > 160 
-  ? `${plainTextContent.substring(0, 157)}...` 
-  : plainTextContent;
+
 // Create the JSON-LD data
 const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": currentUrl
-  },
-  "headline": frontmatter.title,
-  "datePublished": new Date(frontmatter.pubDate).toISOString(),
-  "dateModified": new Date(frontmatter.modDate).toISOString(),
-  "author": {
-    "@type": "Person",
-    "name": frontmatter.author,
-    "url": "https://www.bestelectricianjobs.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "No Code Jobs",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.bestelectricianjobs.com/images/eleclog.png",
-      "width": 600,
-      "height": 60
-    }
-  },
-  "description": frontmatter.description.length > 160 
-    ? `${frontmatter.description.substring(0, 157)}...` 
-    : frontmatter.description,
-  "articleBody": truncatedArticleBody,
-  "keywords": frontmatter.tags,
-  "inLanguage": "en-US",
-  "isAccessibleForFree": true,
-  "image": {
-    "@type": "ImageObject",
-    "url": frontmatter.image.url,
-    "height": "800",
-    "width": "1200",
-    "caption": frontmatter.title
-  }
+ "@context": "https://schema.org",
+ "@type": "BlogPosting",
+ "mainEntityOfPage": {
+   "@type": "WebPage",
+   "@id": currentUrl
+ },
+ "headline": frontmatter.title.length > 110 
+   ? `${frontmatter.title.substring(0, 107)}...` 
+   : frontmatter.title,
+ "datePublished": new Date(frontmatter.pubDate).toISOString(),
+ "dateModified": new Date(frontmatter.modDate).toISOString(),
+ "author": {
+   "@type": "Person",
+   "name": frontmatter.author,
+   "url": "https://www.linkedin.com/in/will-gordon1/",
+   "jobTitle": "Founder & Job Board Expert"
+ },
+ "publisher": {
+   "@type": "Organization",
+   "name": "Best Electrician Jobs",
+   "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.bestelectricianjobs.com/images/eleclog.png",
+     "width": 112,
+     "height": 112
+   }
+ },
+ "description": frontmatter.description.length > 160 
+   ? `${frontmatter.description.substring(0, 157)}...` 
+   : frontmatter.description,
+ "articleBody": plainTextContent,
+ "articleSection": frontmatter.tags[0],
+ "inLanguage": "en-US",
+ "isAccessibleForFree": true,
+ "image": [
+   {
+     "@type": "ImageObject",
+     "url": frontmatter.image.url,
+     "height": 800,
+     "width": 1200,
+     "caption": frontmatter.title
+   }
+ ],
+ "speakable": {
+   "@type": "SpeakableSpecification",
+   "cssSelector": ["#article-title", "#post-summary", "#main-content"]
+ }
 };
+
+if (frontmatter.readingTime && !isNaN(frontmatter.readingTime)) {
+ jsonLd.timeRequired = `PT${Math.round(frontmatter.readingTime)}M`;
+}
+
+if (frontmatter.category) {
+ jsonLd.articleSection = frontmatter.category;
+}
 
 ---
 
@@ -110,10 +125,10 @@ const jsonLd = {
         </div>
         <!-- Title and Description -->
         <div class="text-center">
-          <h1 class="text-purple-900 font-semibold tracking-tight lg:text-5xl mt-6 text-3xl lg:text-balance">
+          <h1 id="article-title" class="text-purple-900 font-semibold tracking-tight lg:text-5xl mt-6 text-3xl lg:text-balance">
             {frontmatter.title}
           </h1>
-          <p class="text-slate-500 mt-5 lg:text-pretty max-w-2xl mx-auto">
+          <p id="post-summary" class="text-slate-500 mt-5 lg:text-pretty max-w-2xl mx-auto">
             {frontmatter.description}
           </p>
         </div>
@@ -144,7 +159,7 @@ const jsonLd = {
   <!-- Content -->
   <section>
     <div class="mx-auto max-w-4xl lg:px-16 md:px-12 px-8 xl:px-24 py-12">
-      <div class="prose prose-lg prose-slate max-w-none">
+      <div id="main-content" class="prose prose-lg prose-slate max-w-none">
         <slot />
       </div>
     </div>
