@@ -21,7 +21,8 @@
     "update-category-values": "node scripts/update-category-values.js",
     "notify-content-updates": "node scripts/notify-content-updates.js",
     "update-oldest": "node scripts/update-oldest-jobs.js",
-    "notify-updated": "node scripts/notify-updated-jobs.js"
+    "notify-updated": "node scripts/notify-updated-jobs.js",
+    "update-llms": "node scripts/update-llms-jobs.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

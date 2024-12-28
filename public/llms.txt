@@ -1,0 +1,74 @@
+# Best Electrician Jobs
+
+> Best Electrician Jobs is the premier job board connecting electrical professionals with top employers across the United States. We specialize in electrical, low voltage, controls, and automation positions, offering opportunities from apprentice to master level roles.
+
+Our platform serves both employers seeking qualified electrical professionals and job seekers looking for career advancement in the electrical industry. We focus on quality listings from established electrical contractors, integrators, and industrial facilities.
+
+## For Job Seekers
+
+### Filter by Setting:
+- [Browse All Jobs](https://bestelectricianjobs.com/jobs): Search all current electrical positions
+- [Commercial Jobs](https://www.bestelectricianjobs.com/jobs/setting/commercial-jobs): View jobs in commercial settings
+- [Industrial Jobs](https://www.bestelectricianjobs.com/jobs/setting/industrial-jobs): View jobs in industrial settings
+- [Residential Jobs](https://www.bestelectricianjobs.com/jobs/setting/residential-jobs): View jobs in residential settings
+- [Data Center Jobs](https://www.bestelectricianjobs.com/jobs/setting/data-center-jobs): View jobs in data center settings
+- [Low Voltage Jobs](https://www.bestelectricianjobs.com/jobs/setting/low-voltage-jobs): View jobs in low voltage and security settings
+
+### Filter by Skill:
+- [Apprentice Electrician](https://www.bestelectricianjobs.com/jobs/skill/apprentice-jobs): View apprentice electrician jobs
+- [Journeyman Electrician](https://www.bestelectricianjobs.com/jobs/skill/journeyman-jobs): View journeyman electrician jobs
+- [Audio Visual](https://www.bestelectricianjobs.com/jobs/skill/audio-visual-jobs): View audio visual jobs
+- [Controls](https://www.bestelectricianjobs.com/jobs/skill/controls-jobs): View controls jobs
+- [Data Center](https://www.bestelectricianjobs.com/jobs/skill/data-center-jobs): View data center jobs
+- [Low Voltage](https://www.bestelectricianjobs.com/jobs/skill/low-voltage-jobs): View low voltage jobs
+
+## Job Categories
+
+1. Residential Electrical:
+   - Apprentice Electricians ($20-28/hr)
+   - Residential Service Technicians ($25-35/hr)
+   - Lead Residential Electricians ($30-45/hr)
+
+2. Commercial Electrical:
+   - Commercial Apprentices ($22-30/hr)
+   - Commercial Journeymen ($35-45/hr)
+   - Commercial Service Technicians ($32-42/hr)
+
+3. Industrial Electrical:
+   - Industrial Apprentices ($24-32/hr)
+   - Industrial Journeymen ($38-48/hr)
+   - Industrial Service Technicians ($35-45/hr)
+
+4. Controls & Automation:
+   - Controls Technicians ($28-38/hr)
+   - PLC Programmers ($35-55/hr)
+   - Automation Engineers ($45-65/hr)
+
+5. Low Voltage & Security:
+   - Cable Technicians ($22-32/hr)
+   - Security Systems Technicians ($25-35/hr)
+   - Fire Alarm Technicians ($28-38/hr)
+
+6. Data Center:
+   - Data Center Technicians ($30-50/hr)
+
+7. Controls:
+   - Controls Technicians ($38-48/hr)
+   - PLC Programmers ($45-65/hr)
+   - Automation Engineers ($55-65/hr)
+
+## Location Coverage
+
+We feature jobs across major US markets including:
+- West Coast: CA, WA, OR
+- Southwest: AZ, NV, TX
+- Midwest: IL, OH, MI
+- Northeast: NY, MA, PA
+- Southeast: FL, GA, NC
+
+## Contact
+
+For assistance:
+- Employers: hello@bestelectricianjobs.com
+- Job Seekers: hello@bestelectricianjobs.com
+- Hours: Monday-Friday, 8am-5pm PST
