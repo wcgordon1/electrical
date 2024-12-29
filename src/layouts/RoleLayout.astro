@@ -1,0 +1,143 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
+import ContactForm from '../components/recruiting/ContactForm.astro';
+import SalaryChart from '../components/recruiting/SalaryChart.astro';
+import RecruitingStats from '../components/recruiting/RecruitingStats.astro';
+import RelatedRoles from '../components/recruiting/RelatedRoles.astro';
+import CtaThree from '@/components/cta/CtaThree.astro';
+
+interface Props {
+  role: CollectionEntry<'recruiting'>;
+}
+
+const { role } = Astro.props;
+const { Content } = await role.render();
+const { 
+  title, 
+  position,
+  city,
+  state,
+  description, 
+  benefits,
+  salaryRange,
+  metaTitle,
+  metaDescription
+} = role.data;
+
+const breadcrumbs = [
+  { text: 'Home', href: '/' },
+  { text: 'Recruiting', href: '/recruiting' },
+  { text: state, href: `/recruiting/${state.toLowerCase()}` },
+  { text: city, href: `/recruiting/${state.toLowerCase()}/${city.toLowerCase().replace(/\s+/g, '-')}` },
+  { text: title, href: `/recruiting/${state.toLowerCase()}/${city.toLowerCase().replace(/\s+/g, '-')}/${title.toLowerCase().replace(/\s+/g, '-')}`, current: true }
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": title,
+  "description": description,
+  "datePosted": new Date().toISOString(),
+  "validThrough": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(),
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": city,
+      "addressRegion": state,
+      "addressCountry": "US"
+    }
+  },
+  "employmentType": "FULL_TIME",
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": salaryRange?.min,
+      "maxValue": salaryRange?.max,
+      "unitText": "YEAR"
+    }
+  },
+  "experienceRequirements": salaryRange?.experience
+};
+---
+
+<BaseLayout 
+  title={metaTitle || `${title} in ${city}, ${state}`}
+  description={metaDescription || description}
+  schema={schema}
+>
+  <div class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
+      <Breadcrumbs paths={breadcrumbs} />
+    </div>
+  </div>
+  
+  <main class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24 py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2">
+          <h1 class="text-purple-900 font-semibold tracking-tight lg:text-4xl mb-8 text-3xl">{title} in {city}, {state}</h1>
+          <p class="text-lg mb-12">{description}</p>
+
+          {salaryRange && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-6">Compensation Range in {city}</h2>
+              <SalaryChart 
+                min={salaryRange.min}
+                max={salaryRange.max}
+                experience={salaryRange.experience}
+                city={city}
+                position={position || title.replace(" Recruiting Agency", "").replace(" Recruiting", "")}
+              />
+            </section>
+          )}
+
+          {benefits && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Common Benefits in {city}</h2>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {benefits.map(benefit => (
+                  <li class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-shadow">
+                    {benefit}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-6">Why Choose Best Electrician Jobs?</h2>
+            <RecruitingStats />
+        </section>
+
+          <div class="prose max-w-none">
+            <Content />
+          </div>
+
+          <RelatedRoles 
+            currentPath={role.slug}
+            city={city}
+            state={state}
+          />
+
+          <slot />
+        </div>
+
+        <div class="lg:col-span-1">
+          <div class="sticky top-8">
+            <ContactForm 
+              role={title}
+              city={city}
+              state={state}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <CtaThree />
+</BaseLayout> 

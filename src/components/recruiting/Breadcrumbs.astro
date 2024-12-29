@@ -1,0 +1,55 @@
+---
+interface BreadcrumbItem {
+  text: string;
+  href: string;
+  current?: boolean;
+}
+
+interface Props {
+  paths: BreadcrumbItem[];
+}
+
+const { paths } = Astro.props;
+
+// Get current URL path segments
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+
+// Generate schema.org breadcrumb data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": paths.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@id": `https://www.bestelectricianjobs.com${item.href}`,
+      "name": item.text
+    }
+  }))
+};
+---
+
+<nav class="py-4 mt-4" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center text-sm text-gray-600">
+    {paths.map((item, index) => (
+      <li class="flex items-center whitespace-nowrap">
+        {index > 0 && <span class="mx-2 text-gray-400">/</span>}
+        {item.current ? (
+          <span class="text-blue-600 font-medium truncate" aria-current="page">
+            {item.text}
+          </span>
+        ) : (
+          <a
+            href={item.href}
+            class="text-gray-600 hover:text-blue-600 hover:underline transition-colors truncate"
+          >
+            {item.text}
+          </a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<!-- Inject schema.org JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} /> 

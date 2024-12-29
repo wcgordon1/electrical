@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import CityLayout from '../../../../layouts/CityLayout.astro';
+
+export async function getStaticPaths() {
+  const cities = await getCollection('recruiting');
+  
+  // Filter to only get city index pages
+  const cityPages = cities.filter(entry => {
+    const pathParts = entry.slug.split('/');
+    return pathParts.length === 2 && entry.slug.endsWith('index');
+  });
+
+  return cityPages.map(city => ({
+    params: { 
+      state: city.data.state.toLowerCase(),
+      city: city.data.name.toLowerCase().replace(/\s+/g, '-')
+    },
+    props: { city }
+  }));
+}
+
+const { city } = Astro.props;
+
+console.log('City Page Debug:', {
+  cityProps: city.data,
+  citySlug: city.slug
+});
+---
+
+<CityLayout city={city} /> 

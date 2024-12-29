@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import RoleLayout from '../../../../layouts/RoleLayout.astro';
+
+export async function getStaticPaths() {
+  const roles = await getCollection('recruitingRoles');
+  return roles.map(role => ({
+    params: { 
+      state: role.data.state.toLowerCase(),
+      city: role.data.city.toLowerCase(),
+      role: role.data.title.toLowerCase().replace(/\s+/g, '-')
+    },
+    props: { role }
+  }));
+}
+
+const { role } = Astro.props;
+---
+
+<RoleLayout role={role} /> 

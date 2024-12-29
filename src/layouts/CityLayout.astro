@@ -1,0 +1,139 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
+import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
+import ContactForm from '../components/recruiting/ContactForm.astro';
+import CityRoles from '../components/recruiting/CityRoles.astro';
+import CtaThree from '@/components/cta/CtaThree.astro';
+
+interface Props {
+  city: CollectionEntry<'recruiting'>;
+}
+
+const { city } = Astro.props;
+const { Content } = await city.render();
+const { 
+  name, 
+  state, 
+  marketData, 
+  description, 
+  metropolitanArea, 
+  majorProjects, 
+  topEmployers 
+} = city.data;
+
+console.log('CityLayout Debug:', {
+  cityName: name,
+  cityState: state,
+  citySlug: city.slug
+});
+
+const breadcrumbs = [
+  { text: 'Home', href: '/' },
+  { text: 'Recruiting', href: '/recruiting' },
+  { text: state, href: `/recruiting/${state.toLowerCase()}` },
+  { text: name, href: `/recruiting/${state.toLowerCase()}/${name.toLowerCase().replace(/\s+/g, '-')}`, current: true }
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": `Electrical Recruiting Services in ${name}, ${state}`,
+  "description": description,
+  "areaServed": {
+    "@type": "City",
+    "name": name,
+    "containedInPlace": {
+      "@type": "State",
+      "name": state
+    }
+  },
+  "knowsAbout": [
+    "Electrical Contracting",
+    "Electrical Engineering",
+    "Construction Industry",
+    ...(majorProjects || [])
+  ]
+};
+---
+
+<BaseLayout 
+  title={`Electrical Recruiting Services in ${name}, ${state}`}
+  description={description}
+  schema={schema}
+>
+  <div class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
+      <Breadcrumbs paths={breadcrumbs} />
+    </div>
+  </div>
+  
+  <main class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24 py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2">
+          <h1 class="text-purple-900 font-semibold tracking-tight lg:text-4xl mb-8 text-3xl">Electrical Recruiting Services in {name}, {state}</h1>
+          <p class="text-lg mb-8">{description}</p>
+          
+          <MarketDataVisual data={marketData} location={name} />
+
+          {metropolitanArea && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Metropolitan Area</h2>
+              <p class="text-lg">{metropolitanArea}</p>
+            </section>
+          )}
+
+          {majorProjects && majorProjects.length > 0 && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Major Projects</h2>
+              <ul class="space-y-2">
+                {majorProjects.map(project => (
+                  <li class="flex items-start">
+                    <span class="text-blue-600 mr-2">•</span>
+                    {project}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {topEmployers && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Top Employers</h2>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {topEmployers.map(employer => (
+                  <li class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-shadow">
+                    {employer}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <div class="prose max-w-none">
+            <Content />
+          </div>
+
+          <CityRoles 
+            city={name}
+            state={state}
+          />
+
+          <slot />
+        </div>
+
+        <div class="lg:col-span-1">
+          <div class="sticky top-8">
+            <ContactForm 
+              city={name}
+              state={state}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <CtaThree />
+</BaseLayout> 

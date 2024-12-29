@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import StateLayout from '../../../layouts/StateLayout.astro';
+
+export async function getStaticPaths() {
+  const states = await getCollection('recruiting');
+  // Filter to only get state-level pages (those without a city in the path)
+  const statePages = states.filter(entry => {
+    const pathParts = entry.slug.split('/');
+    return pathParts.length === 1 || (pathParts.length === 2 && pathParts[1] === 'index');
+  });
+  
+  return statePages.map(state => ({
+    params: { state: state.slug.replace('/index', '') },
+    props: { state }
+  }));
+}
+
+const { state } = Astro.props;
+---
+
+<StateLayout state={state} /> 

@@ -31,8 +31,8 @@ prompt: 'Create a job description for an Industrial Apprentice Electrician focus
 },
 'Industrial Electrician': {
 minValue: 38,
-maxValue: 42,
-experienceLevel: 'midLevel',
+    maxValue: 42,
+    experienceLevel: 'midLevel',
 category: 'Journeyman',
 team: 'Industrial',
 yearsExperience: '5+',
@@ -46,7 +46,7 @@ maxValue: 38,
 experienceLevel: 'midLevel',
 category: 'Journeyman',
 team: 'Commercial',
-yearsExperience: '3-5',
+    yearsExperience: '3-5',
 responsibilities: 'Design and install complete electrical systems for commercial construction, calculate voltage drop and load requirements, coordinate with BIM modeling teams for conflict resolution, supervise prefabrication of electrical assemblies, implement complex lighting control systems, install and program fire alarm systems, manage material logistics for large projects, coordinate overhead rough-in with mechanical trades, perform startup and commissioning of building systems, mentor apprentices in commercial installation techniques',
 qualifications: 'Journeyman License, extensive experience with lighting control systems (DALI, DMX), proven expertise in fire alarm installation and programming, demonstrated ability with BIM software for coordination, advanced knowledge of emergency power systems, certification in multiple lift equipment types, strong project management and leadership skills, experience with green building requirements and energy codes',
 prompt: 'Create a job description for a Commercial Construction Electrician specializing in large-scale new construction. Must understand complete building electrical systems including emergency power, lighting controls, and building automation integration. Experience with BIM coordination, prefabrication techniques, and project management required. Must have Journeyman License, OSHA-30, multiple equipment certifications including boom lift, scissor lift, and powder-actuated tools. Knowledge of current energy codes, DALI/DMX lighting controls, and fire alarm programming essential. Position involves managing complex installations, coordinating with multiple trades, and mentoring apprentices. Must understand green building requirements, power monitoring systems, and emergency power design. Role includes material management, crew leadership, and quality control. Some travel between project sites required. Physical requirements include working at heights, coordinating overhead installation, and operating material handling equipment.'
@@ -54,7 +54,7 @@ prompt: 'Create a job description for a Commercial Construction Electrician spec
 'Service Electrician': {
 minValue: 35,
 maxValue: 40,
-experienceLevel: 'seniorLevel',
+    experienceLevel: 'seniorLevel',
 category: 'Journeyman',
 team: 'Commercial',
 yearsExperience: '7+',
@@ -446,16 +446,16 @@ Create a ${selectedLength[0]} word job description for a ${jobType} position at 
 Base content:
 ${jobInfo.prompt}
 
-Start with a paragraph about the role in ${location.city}, ${location.state} at ${company.name}. Name surrounding neighboring cities to ${location.city}. Never use h1 tags or headings before this paragraph. 
+Start with a paragraph about the role in ${location.city}, ${location.state} at ${company.name}. Name surrounding neighboring cities to ${location.city} for work to be performed. Never use h1 tags or headings before this paragraph. 
 
 After the paragraph intro, use these sections with h2 tags:
 
 ## Key Responsibilities
-${jobInfo.responsibilities}
+${jobInfo.responsibilities} (choose at random which ones to emphasize)
 - Add 3-4 more responsibilities specific to ${location.city} area
 - Include any regional requirements for ${location.state}
 
-## Required Qualifications
+## Required Qualifications (choose at random which ones to emphasize)
 ${jobInfo.qualifications}
 - ${jobInfo.yearsExperience} years of experience required for ${jobInfo.category} work in ${jobInfo.team} setting
 - Add 2-3 location-specific qualifications for ${location.city}
@@ -543,4 +543,4 @@ async function createAllJobs() {
   }
 }
 
-createAllJobs().catch(console.error);
+createAllJobs().catch(console.error); 

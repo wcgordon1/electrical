@@ -130,14 +130,53 @@ const glossaryCollection = defineCollection({
     }))
   })
 });
+const recruiting = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string().optional(),
+    position: z.string().optional(),
+    name: z.string().optional(),
+    city: z.string().optional(),
+    state: z.string().optional(),
+    abbrev: z.string().optional(),
+    description: z.string(),
+    marketData: z.object({
+      averageSalary: z.number(),
+      salaryRange: z.object({
+        min: z.number(),
+        max: z.number()
+      }),
+      growthRate: z.string(),
+      demandLevel: z.enum(['High', 'Medium', 'Low']),
+      employmentStats: z.object({
+        totalJobs: z.number(),
+        projectedGrowth: z.string()
+      })
+    }).optional(),
+    metropolitanArea: z.string().optional(),
+    majorProjects: z.array(z.string()).optional(),
+    topEmployers: z.array(z.string()).optional(),
+    keyIndustries: z.array(z.string()).optional(),
+    benefits: z.array(z.string()).optional(),
+    salaryRange: z.object({
+      min: z.number(),
+      max: z.number(),
+      experience: z.string()
+    }).optional(),
+    metaTitle: z.string().optional(),
+    metaDescription: z.string().optional(),
+    featured: z.boolean().optional()
+  })
+});
 
 export const collections = {
-  integrations: integrations,
-  helpcenter: helpcenter,
-  customers: customers,
-  infopages: infopages,
+  integrations,
+  helpcenter,
+  customers,
+  infopages,
   jobs: jobsCollection,
   posts: postsCollection,
   company: companyCollection,
-  glossary: glossaryCollection
+  glossary: glossaryCollection,
+  recruiting
 };

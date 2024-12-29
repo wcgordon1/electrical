@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  city: string;
+  state: string;
+}
+
+const { city, state } = Astro.props;
+
+// Get all recruiting entries
+const allRoles = await getCollection('recruiting');
+
+// Filter to get only role pages from this city
+const cityRoles = allRoles.filter(role => {
+  const pathParts = role.slug.split('/');
+  const isRolePage = pathParts.length === 3 && !role.slug.endsWith('index');
+  const matchesState = pathParts[0]?.toLowerCase() === state.toLowerCase();
+  const matchesCity = pathParts[1]?.toLowerCase() === city.toLowerCase().replace(/\s+/g, '-');
+  return isRolePage && matchesState && matchesCity;
+});
+
+console.log('Debug CityRoles:', {
+  state,
+  city,
+  foundRoles: cityRoles.map(r => r.slug)
+});
+---
+
+{cityRoles.length > 0 && (
+  <div class="bg-white p-8 rounded-3xl shadow-2xl shadow-slate-200/20 ring-1 ring-slate-200 mt-12">
+    <h2 class="text-2xl font-semibold mb-4">Recruiting Services in {city}</h2>
+    <p class="text-gray-600 mb-6">
+      Explore our specialized recruiting services for electrical and low voltage roles in {city}, {state}.
+    </p>
+
+    <div class="grid gap-4">
+      {cityRoles.map(role => (
+        <a 
+          href={`/recruiting/${role.slug}`}
+          class="block bg-gray-50 p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+                {role.data.name || role.data.title}
+              </h3>
+              {role.data.position && (
+                <p class="text-sm text-gray-600 mt-1">
+                  Specialized recruiting for {role.data.position} positions
+                </p>
+              )}
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path d="M4 12h16m-7-7 7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+)} 

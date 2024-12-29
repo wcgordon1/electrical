@@ -12681,6 +12681,134 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
+"recruiting": {
+"california/index.md": {
+	id: "california/index.md";
+  slug: "california";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/irvine/cable-technician-recruiting-agency-in-irvine.md": {
+	id: "california/irvine/cable-technician-recruiting-agency-in-irvine.md";
+  slug: "california/irvine/cable-technician-recruiting-agency-in-irvine";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/irvine/electrician-recruiting-agency-in-irvine.md": {
+	id: "california/irvine/electrician-recruiting-agency-in-irvine.md";
+  slug: "california/irvine/electrician-recruiting-agency-in-irvine";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/irvine/index.md": {
+	id: "california/irvine/index.md";
+  slug: "california/irvine";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/irvine/security-technician-recruiting-agency-in-irvine.md": {
+	id: "california/irvine/security-technician-recruiting-agency-in-irvine.md";
+  slug: "california/irvine/security-technician-recruiting-agency-in-irvine";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/los-angeles/electrician-recruiting-agency-in-los-angeles.md": {
+	id: "california/los-angeles/electrician-recruiting-agency-in-los-angeles.md";
+  slug: "california/los-angeles/electrician-recruiting-agency-in-los-angeles";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/los-angeles/index.md": {
+	id: "california/los-angeles/index.md";
+  slug: "california/los-angeles";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/audio-visual-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/audio-visual-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/audio-visual-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/cable-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/cable-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/cable-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/controls-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/controls-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/controls-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/data-center-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/data-center-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/data-center-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/electrician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/electrician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/electrician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/fire-alarm-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/fire-alarm-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/fire-alarm-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/index.md": {
+	id: "california/san-diego/index.md";
+  slug: "california/san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/security-technician-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/security-technician-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/security-technician-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"california/san-diego/solar-installer-recruiting-agency-in-san-diego.md": {
+	id: "california/san-diego/solar-installer-recruiting-agency-in-san-diego.md";
+  slug: "california/san-diego/solar-installer-recruiting-agency-in-san-diego";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"washington/index.md": {
+	id: "washington/index.md";
+  slug: "washington";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"washington/seattle/index.md": {
+	id: "washington/seattle/index.md";
+  slug: "washington/seattle";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+};
 
 	};
 

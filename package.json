@@ -24,7 +24,8 @@
     "notify-updated": "node scripts/notify-updated-jobs.js",
     "update-llms": "node scripts/update-llms-jobs.js",
     "list-jobs": "node scripts/list-jobs.js",
-    "count-new": "node scripts/count-new-files.js"
+    "count-new": "node scripts/count-new-files.js",
+    "create:recruiting": "node scripts/create-recruiting-content.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

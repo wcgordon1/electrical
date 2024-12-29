@@ -1,0 +1,175 @@
+---
+interface Props {
+  state?: string;
+  city?: string;
+  role?: string;
+}
+
+const { state, city, role } = Astro.props;
+
+// Build the form subject based on provided props
+const getSubject = () => {
+  if (role && city && state) return `${role} Position in ${city}, ${state}`;
+  if (city && state) return `Electrical Positions in ${city}, ${state}`;
+  if (state) return `Electrical Positions in ${state}`;
+  return "Electrical Position Inquiry";
+};
+---
+
+<div class="bg-white p-8 rounded-3xl shadow-2xl shadow-slate-200/20 ring-1 ring-slate-200">
+  <h2 class="text-2xl font-semibold mb-4">Start Hiring</h2>
+  <p class="text-gray-600 mb-6">
+    Let's talk and discuss how we can help you hire.
+  </p>
+
+  <form
+    id="contactForm"
+    class="flex-col flex gap-4"
+  >
+    <input type="hidden" name="subject" value={getSubject()} />
+    
+    <div>
+      <label for="name" class="sr-only">Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        required
+        placeholder="Your name *"
+        class="block w-full rounded-full border-0 px-4 py-3.5 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-purple-500 sm:text-sm sm:leading-6 duration-200 outline-none"
+      />
+    </div>
+
+    <div>
+      <label for="email" class="sr-only">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        required
+        placeholder="Email address *"
+        class="block w-full rounded-full border-0 px-4 py-3.5 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-purple-500 sm:text-sm sm:leading-6 duration-200 outline-none"
+      />
+    </div>
+
+    <div>
+      <label for="phone" class="sr-only">Phone number</label>
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        required
+        placeholder="Your phone number *"
+        class="block w-full rounded-full border-0 px-4 py-3.5 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-purple-500 sm:text-sm sm:leading-6 duration-200 outline-none"
+      />
+    </div>
+
+    <div>
+      <label for="message" class="sr-only">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        required
+        rows="4"
+        placeholder="Message"
+        class="block w-full rounded-2xl border-0 px-4 py-3.5 text-slate-500 ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-purple-500 sm:text-sm sm:leading-6 duration-200 outline-none"
+      ></textarea>
+    </div>
+
+    <div class="mb-4">
+      <label for="file" class="sr-only">Attachment</label>
+      <input
+        type="file"
+        id="file"
+        name="file"
+        class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-blue-600 hover:file:bg-blue-100"
+      />
+    </div>
+
+    <div class="space-y-4">
+      <button
+        type="submit"
+        id="submitButton"
+        class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full"
+      >
+        Send Message
+      </button>
+
+      <div 
+        id="statusMessage" 
+        class="hidden rounded-lg p-4 text-sm"
+      >
+        <!-- Status message will be inserted here -->
+      </div>
+    </div>
+  </form>
+
+  <p class="mt-4 text-sm text-gray-500">
+    We'll get back to you within 24 hours to discuss your hiring needs.
+  </p>
+</div>
+
+<script>
+  const form = document.getElementById('contactForm') as HTMLFormElement;
+  const submitButton = document.getElementById('submitButton') as HTMLButtonElement;
+  const statusMessage = document.getElementById('statusMessage');
+  
+  form?.addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(this);
+
+    try {
+      // Update button state
+      submitButton.innerHTML = 'Sending...';
+      submitButton.disabled = true;
+      statusMessage.classList.add('hidden');
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        statusMessage.classList.remove('hidden');
+        statusMessage.classList.add('bg-green-50', 'text-green-800');
+        statusMessage.innerHTML = `
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 12l5 5l10 -10" />
+            </svg>
+            <span>Thank you for reaching out! We'll get back to you within 24-48 hours.</span>
+          </div>
+        `;
+        
+        // Reset form after 3 seconds
+        setTimeout(() => {
+          form.reset();
+          statusMessage.classList.add('hidden');
+        }, 3000);
+      } else {
+        throw new Error(result.error);
+      }
+    } catch (error) {
+      statusMessage.classList.remove('hidden');
+      statusMessage.classList.add('bg-red-50', 'text-red-800');
+      statusMessage.innerHTML = `
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+            <path d="M12 9v4" />
+            <path d="M12 16v.01" />
+          </svg>
+          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@bestelectricianjobs.com'}</span>
+        </div>
+      `;
+    } finally {
+      // Reset button state
+      submitButton.disabled = false;
+      submitButton.innerHTML = 'Send Message';
+    }
+  });
+</script> 

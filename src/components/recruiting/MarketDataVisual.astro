@@ -1,0 +1,86 @@
+---
+interface Props {
+  data: {
+    averageSalary: number;
+    salaryRange: {
+      min: number;
+      max: number;
+    };
+    growthRate: string;
+    demandLevel: 'High' | 'Medium' | 'Low';
+    employmentStats: {
+      totalJobs: number;
+      projectedGrowth: string;
+    };
+  };
+  location?: string;
+}
+
+const { data, location } = Astro.props;
+
+// Format currency
+const formatCurrency = (amount: number) => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    maximumFractionDigits: 0
+  }).format(amount);
+};
+
+// Get demand level color
+const getDemandColor = (level: 'High' | 'Medium' | 'Low') => {
+  switch (level) {
+    case 'High': return 'bg-green-100 text-green-800';
+    case 'Medium': return 'bg-yellow-100 text-yellow-800';
+    case 'Low': return 'bg-red-100 text-red-800';
+    default: return 'bg-gray-100 text-gray-800';
+  }
+};
+---
+
+<div class="bg-white p-8 rounded-3xl shadow-2xl shadow-slate-200/20 ring-1 ring-slate-200 mb-8">
+  <h2 class="text-2xl font-semibold mb-4">Market Data {location && `for ${location}`}</h2>
+  <p class="text-gray-600 mb-6">Current market statistics and employment data for electrical professionals in this area.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <!-- Average Salary -->
+    <div class="bg-gray-50 p-4 rounded-lg">
+      <h3 class="text-sm font-medium text-gray-500 mb-1">Average Salary</h3>
+      <p class="text-2xl font-bold text-gray-900">
+        {formatCurrency(data.averageSalary)}
+      </p>
+      <p class="text-sm text-gray-600">
+        Range: {formatCurrency(data.salaryRange.min)} - {formatCurrency(data.salaryRange.max)}
+      </p>
+    </div>
+
+    <!-- Growth Rate -->
+    <div class="bg-gray-50 p-4 rounded-lg">
+      <h3 class="text-sm font-medium text-gray-500 mb-1">Annual Growth</h3>
+      <p class="text-2xl font-bold text-green-600">
+        {data.growthRate}
+      </p>
+      <p class="text-sm text-gray-600">Year over year</p>
+    </div>
+
+    <!-- Demand Level -->
+    <div class="bg-gray-50 p-4 rounded-lg">
+      <h3 class="text-sm font-medium text-gray-500 mb-1">Market Demand</h3>
+      <p class={`inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium mt-1 ${getDemandColor(data.demandLevel)}`}>
+        {data.demandLevel}
+      </p>
+      <p class="text-sm text-gray-600 mt-2">Current market status</p>
+    </div>
+
+    <!-- Employment Stats -->
+    <div class="bg-gray-50 p-4 rounded-lg">
+      <h3 class="text-sm font-medium text-gray-500 mb-1">Total Jobs</h3>
+      <p class="text-2xl font-bold text-gray-900">
+        {data.employmentStats.totalJobs.toLocaleString()}
+      </p>
+      <p class="text-sm text-gray-600">
+        {data.employmentStats.projectedGrowth}
+      </p>
+    </div>
+  </div>
+</div> 

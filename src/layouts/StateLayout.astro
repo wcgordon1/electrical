@@ -1,0 +1,119 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
+import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
+import ContactForm from '../components/recruiting/ContactForm.astro';
+import StateCities from '../components/recruiting/StateCities.astro';
+import CtaThree from '../components/cta/CtaThree.astro';
+interface Props {
+  state: CollectionEntry<'recruiting'>;
+}
+
+const { state } = Astro.props;
+const { Content } = await state.render();
+const { 
+  name, 
+  abbrev,
+  marketData, 
+  description, 
+  keyIndustries, 
+  majorEmployers 
+} = state.data;
+
+console.log('StateLayout Debug:', {
+  stateName: name,
+  stateSlug: state.slug,
+  hasName: Boolean(name)
+});
+
+const breadcrumbs = [
+  { text: 'Home', href: '/' },
+  { text: 'Recruiting', href: '/recruiting' },
+  { text: name, href: `/recruiting/${name.toLowerCase()}`, current: true }
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": `Electrical Recruiting Services in ${name}`,
+  "description": description,
+  "areaServed": {
+    "@type": "State",
+    "name": name,
+    "alternateName": abbrev
+  },
+  "knowsAbout": [
+    "Electrical Contracting",
+    "Electrical Engineering",
+    "Construction Industry",
+    ...(keyIndustries || [])
+  ]
+};
+---
+
+<BaseLayout 
+  title={`Electrical Recruiting Services in ${name}`}
+  description={description}
+  schema={schema}
+>
+  <div class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
+      <Breadcrumbs paths={breadcrumbs} />
+    </div>
+  </div>
+  
+  <main class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24 py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2">
+          <h1 class="text-purple-900 font-semibold tracking-tight lg:text-4xl mb-8 text-3xl">Electrical Recruiting Services in {name}</h1>
+          <p class="text-lg mb-8">{description}</p>
+          
+          <MarketDataVisual data={marketData} location={name} />
+
+          {keyIndustries && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Key Industries in {name}</h2>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {keyIndustries.map(industry => (
+                  <li class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-shadow">
+                    {industry}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {majorEmployers && (
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold mb-4">Major Employers in {name}</h2>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {majorEmployers.map(employer => (
+                  <li class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-shadow">
+                    {employer}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <div class="prose max-w-none">
+            <Content />
+          </div>
+
+          <StateCities state={name} />
+
+          <slot />
+        </div>
+
+        <div class="lg:col-span-1">
+          <div class="sticky top-8">
+            <ContactForm state={name} />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <CtaThree />
+</BaseLayout> 

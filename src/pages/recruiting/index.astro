@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const states = await getCollection('recruitingStates');
+---
+
+<BaseLayout 
+  title="Electrical Recruiting Services | Best Electrician Jobs"
+  description="Find specialized electrical recruiting services across the United States. Connect with top employers and opportunities in the electrical industry."
+>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-4xl font-bold mb-8">Electrical Recruiting Services</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {states.map(state => (
+        <a 
+          href={`/recruiting/${state.data.name.toLowerCase()}`}
+          class="block p-6 bg-white rounded-lg shadow hover:shadow-md transition-shadow"
+        >
+          <h2 class="text-2xl font-semibold mb-2">{state.data.name}</h2>
+          <p class="text-gray-600 mb-4">{state.data.description}</p>
+          <div class="flex justify-between items-center text-sm">
+            <span class="text-blue-600">
+              {state.data.marketData.employmentStats.totalJobs.toLocaleString()} Jobs
+            </span>
+            <span class="text-green-600">
+              {state.data.marketData.growthRate} Growth
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout> 

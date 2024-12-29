@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import StateLayout from '../../layouts/StateLayout.astro';
+import CityLayout from '../../layouts/CityLayout.astro';
+import RoleLayout from '../../layouts/RoleLayout.astro';
+
+export async function getStaticPaths() {
+  const recruitingEntries = await getCollection('recruiting');
+  
+  return recruitingEntries.map(entry => {
+    const [state, city, role] = entry.slug.split('/');
+    
+    // If it's a state page
+    if (!city) {
+      return {
+        params: { slug: entry.slug },
+        props: { entry, type: 'state' }
+      };
+    }
+    
+    // If it's a city page (including index.md)
+    if (!role || role === 'index') {
+      return {
+        params: { slug: entry.slug.replace('/index', '') },
+        props: { entry, type: 'city' }
+      };
+    }
+    
+    // If it's a role page
+    return {
+      params: { slug: entry.slug },
+      props: { entry, type: 'role' }
+    };
+  });
+}
+
+const { entry, type } = Astro.props;
+---
+
+{type === 'state' && <StateLayout state={entry} />}
+{type === 'city' && <CityLayout city={entry} />}
+{type === 'role' && <RoleLayout role={entry} />} 
