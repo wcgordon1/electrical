@@ -18,7 +18,7 @@ const openai = new OpenAI({
 });
 
 const JOB_TYPES = {
-  'Industrial Electrician': {
+  'Electrician': {
     minValue: 22,
     maxValue: 30,
     experienceLevel: 'entryLevel',
@@ -26,19 +26,43 @@ const JOB_TYPES = {
     team: 'Industrial',
     yearsExperience: '1-3',
     responsibilities: 'Install and maintain industrial electrical systems, assist with motor control installations, perform conduit bending and installation, help troubleshoot electrical issues, follow safety protocols',
-    qualifications: 'Electrical Apprentice License, OSHA-30 certification, ability to read blueprints, knowledge of basic electrical theory, experience with hand and power tools',
+    qualifications: 'OSHA-30 certification, ability to read blueprints, knowledge of basic electrical theory, experience with hand and power tools',
     prompt: 'Create a job description for an Industrial Apprentice Electrician. Must understand 3-phase power, motor controls, PLC basics, and conduit installation. Experience with hand/power tools, digital multimeters, meggars required. Must have Electrical Apprentice License, OSHA-30, Arc Flash, First Aid/CPR certifications. Knowledge of industrial safety protocols, blueprint reading, and basic troubleshooting essential.'
   },
-  'Cable Installer': {
-   minValue: 20,
-   maxValue: 28,
-   experienceLevel: 'entryLevel',
-   category: 'Low Voltage',
+  'Industrial Electrician': {
+   minValue: 40,
+   maxValue: 48,
+   experienceLevel: 'midLevel',
+   category: 'Journeyman',
+   team: 'Industrial',
+   yearsExperience: '5+',
+   responsibilities: 'Maintain automated manufacturing equipment, troubleshoot PLC systems, perform preventive maintenance, repair industrial machinery, implement equipment upgrades',
+   qualifications: 'Experience with Allen Bradley PLCs, knowledge of manufacturing processes, ability to read ladder logic, proven technical troubleshooting skills',
+   prompt: 'Create a job description for an Industrial Manufacturing Electrician. Must be expert in automated manufacturing systems, industrial controls, and predictive maintenance. Experience with Allen Bradley PLCs, Siemens drives, and robotic systems required. Must have Journeyman License, OSHA-30, Arc Flash, and forklift certifications. Strong background in 480V 3-phase power, motor controls, and equipment repair essential. Position involves rotating shifts to support 24/7 manufacturing operation. Must be able to respond to emergency calls and perform autonomous troubleshooting of complex systems. Knowledge of NFPA 70E and lockout/tagout procedures required.'
+},
+
+'Commercial Electrician': {
+   minValue: 38,
+   maxValue: 48,
+   experienceLevel: 'midLevel',
+   category: 'Journeyman', 
    team: 'Commercial',
-   yearsExperience: '0-2',
-   responsibilities: 'Install and terminate CAT5e/CAT6/CAT6A cabling, maintain cable management systems, perform cable testing and certification, pull cable through various pathways, document cable installations',
-   qualifications: 'BICSI Installer 1 certification, experience with cable testing equipment, knowledge of TIA/EIA standards, physical ability to lift 50+ lbs, valid drivers license',
-   prompt: 'Create a job description for a Cable Installation Technician. Must understand structured cabling standards, cable testing/certification procedures, and pathway requirements. Experience with Fluke testing equipment, cable termination tools, and cable management required. Must have BICSI Installer 1, OSHA-10, scissor lift certifications. Knowledge of TIA/EIA standards, telecommunications room requirements, and proper labeling essential. Some travel between job sites required.'
+   yearsExperience: '3-5',
+   responsibilities: 'Install electrical systems in new construction, coordinate with other trades, read and interpret blueprints, bend conduit, pull wire, install lighting systems',
+   qualifications: 'CA Journeyman License, commercial construction experience, strong blueprint reading skills, proficiency in conduit bending, knowledge of current NEC code',
+   prompt: 'Create a job description for a Commercial Construction Electrician. Must understand commercial power distribution, lighting control systems, and fire alarm integration. Experience with EMT/rigid conduit installation, wire pulling techniques, and panel terminations required. Must have Journeyman License, OSHA-30, scissor lift, and powder-actuated tool certifications. Knowledge of current NEC codes, blueprint reading, and construction sequencing essential. Position involves working on active construction sites coordinating with multiple trades. Physical requirements include working from heights, lifting 50+ lbs, and standing for extended periods. Some overtime may be required to meet project deadlines.'
+},
+
+'Service Electrician': {
+   minValue: 40,
+   maxValue: 45,
+   experienceLevel: 'seniorLevel',
+   category: 'Journeyman',
+   team: 'Commercial',
+   yearsExperience: '7+',
+   responsibilities: 'Diagnose electrical issues, respond to service calls, perform repairs and upgrades, maintain client relationships, document service history',
+   qualifications: 'CA Journeyman License, extensive troubleshooting experience, strong customer service skills, clean driving record, ability to work independently',
+   prompt: 'Create a job description for a Service & Maintenance Electrician specializing in emergency response and repairs. Expert in troubleshooting both commercial and residential systems, lighting repairs, and power quality issues. Must have Journeyman License, OSHA-30, and clean driving record. Experience with service work, customer relations, and proper documentation required. Position involves being on-call, responding to emergency situations, and managing service routes efficiently. Must maintain company vehicle and professional appearance. Strong diagnostic skills and ability to explain technical issues to clients essential. Knowledge of various brands and legacy systems required to support diverse client base. Territory covers metropolitan area with potential for overtime during emergency calls.'
 },
 'Security Technician': {
    minValue: 24,
@@ -51,64 +75,7 @@ const JOB_TYPES = {
    qualifications: 'ESA Level 1 certification, experience with IP cameras, knowledge of access control systems, clean background check, valid drivers license',
    prompt: 'Create a job description for a Security Systems Installer for low voltage commercial projects. Must understand IP camera systems, access control platforms, and intrusion detection devices. Experience with Milestone, Genetec, or similar VMS platforms required. Must have ESA Level 1, OSHA-10, low voltage license where required. Knowledge of network basics, PoE, basic programming, and system commissioning essential. Local travel between customer sites required. Clean background check and drug screening mandatory.'
 },
-
-'Data Center Technician': {
-   minValue: 25,
-   maxValue: 35,
-   experienceLevel: 'entryLevel', 
-   category: 'Data Center',
-   team: 'Data Center',
-   yearsExperience: '1-3',
-   responsibilities: 'Install and maintain data center infrastructure, rack and stack equipment, run structured cabling, assist with cooling systems maintenance, monitor power distribution',
-   qualifications: 'CDCTP certification preferred, understanding of data center operations, knowledge of cooling systems, ability to lift 50+ lbs, willing to work rotating shifts',
-   prompt: 'Create a job description for a Data Center Infrastructure Technician. Must understand power distribution, cooling systems, and rack infrastructure. Experience with structured cabling, environmental monitoring, and basic networking required. Must have CDCTP or equivalent certification, OSHA-10, and ESD certification. Knowledge of raised floor systems, hot/cold aisle containment, and critical facility operations essential. Must be willing to work rotating shifts including nights/weekends. Emergency on-call rotation required.'
-},
-
-'Fiber Optics Installer': {
-   minValue: 23,
-   maxValue: 31,
-   experienceLevel: 'entryLevel',
-   category: 'Fiber Optics',
-   team: 'Commercial',
-   yearsExperience: '1-5',
-   responsibilities: 'Install and terminate fiber optic cables, perform OTDR testing, maintain fiber documentation, splice fiber cables, troubleshoot fiber issues',
-   qualifications: 'FOA CFOT certification, experience with fusion splicing, knowledge of fiber testing equipment, valid drivers license, ability to work at heights',
-   prompt: 'Create a job description for a Fiber Optics Installer. Must understand single-mode and multi-mode fiber installation, fusion splicing techniques, and OTDR testing procedures. Experience with Fujikura fusion splicers, EXFO test equipment, and fiber termination methods required. Must have FOA CFOT certification, OSHA-10, aerial lift certification. Knowledge of fiber loss budgets, proper cable handling, and industry standards essential. Travel to various job sites required. Must be comfortable working at heights and in various weather conditions.'
-},
-'Audio Visual Technician': {
-   minValue: 22,
-   maxValue: 30,
-   experienceLevel: 'entryLevel',
-   category: 'Audio Visual',
-   team: 'Commercial',
-   yearsExperience: '1-4',
-   responsibilities: 'Install AV equipment, terminate AV cables, configure basic systems, maintain documentation, assist with system testing',
-   qualifications: 'AVIXA CTS certification preferred, understanding of audio and video systems, knowledge of control systems, good customer service skills',
-   prompt: 'Create a job description for an Audio Visual Technician. Must understand audio/video systems, control interfaces, and digital signal processing. Experience with Crestron/Extron systems, video distribution, and audio reinforcement required. AVIXA CTS certification preferred, OSHA-10, lift certification required. Knowledge of display technologies, conferencing systems, and rack building essential. Customer-facing position requires excellent communication skills and professional appearance. Some evening/weekend work for system commissioning.'
-},
-'Fire Alarm Installer': {
-   minValue: 21,
-   maxValue: 29,
-   experienceLevel: 'entryLevel',
-   category: 'Fire Alarm',
-   team: 'Commercial',
-   yearsExperience: '1-3',
-   responsibilities: 'Install fire alarm devices, pull wire, assist with system testing, maintain documentation, help with troubleshooting',
-   qualifications: 'NICET Level I preferred, knowledge of NFPA 72, understanding of fire alarm systems, valid drivers license, clean background check',
-   prompt: 'Create a job description for a Fire Alarm Installer. Must understand fire alarm systems, initiating devices, and notification appliances. Experience with Notifier, Simplex, or Edwards systems preferred. NICET Level I preferred, OSHA-10, and First Aid/CPR required. Knowledge of NFPA 72, blueprint reading, and basic electricity essential. Position requires clean driving record and ability to pass background check. Must be willing to participate in on-call rotation after training period.'
-},
-'Residential Solar Installer': {
-   minValue: 17,
-   maxValue: 23,
-   experienceLevel: 'entryLevel',
-   category: 'Apprentice',
-   team: 'Solar',
-   yearsExperience: '1-4',
-   responsibilities: 'Install residential solar systems, mount solar panels, install racking systems, run conduit, pull wire, assist with system commissioning',
-   qualifications: 'NABCEP Associate certification preferred, roofing experience helpful, comfortable working at heights, valid drivers license',
-   prompt: 'Create a job description for a Residential Solar Installer. Must understand solar PV systems, mounting techniques, and basic electrical. Experience with roof work, power tools, and conduit installation required. NABCEP Associate certification preferred, OSHA-10, fall protection certification required. Knowledge of NEC Article 690, basic electrical theory, and safety protocols essential. Position requires comfort working at heights and ability to lift 50+ lbs regularly. Must be willing to work outdoors in various weather conditions.'
-},
-'Voice Data Installer': {
+'Cable Installer': {
    minValue: 20,
    maxValue: 28,
    experienceLevel: 'entryLevel',
@@ -117,18 +84,30 @@ const JOB_TYPES = {
    yearsExperience: '1-5',
    responsibilities: 'Install voice/data cabling, terminate jacks and panels, test connections, maintain cable management, document installations',
    qualifications: 'BICSI Installer 1 certification preferred, experience with cable testing, knowledge of industry standards, valid drivers license',
-   prompt: 'Create a job description for a Voice/Data Installation Technician. Must understand structured cabling standards, termination techniques, and testing procedures. Experience with cable installation, Fluke testing equipment, and proper documentation required. BICSI Installer 1 certification preferred, OSHA-10 required. Knowledge of TIA/EIA standards, cable management, and labeling conventions essential. Position involves working in commercial environments and coordination with other trades. Some local travel between job sites required.'
+   prompt: 'Create a job description for a Voice/Data Cable Installation Technician. Must understand structured cabling standards, termination techniques, and testing procedures. Experience with cable installation, Fluke testing equipment, and proper documentation required. BICSI Installer 1 certification preferred, OSHA-10 required. Knowledge of TIA/EIA standards, cable management, and labeling conventions essential. Position involves working in commercial environments and coordination with other trades. Pulling cable, terminating jacks, and testing connections required. Should have basic hand tools and knowledge of cable management systems. Some local travel between job sites required.'
 },
-'Electrical Apprentice': {
-   minValue: 22,
-   maxValue: 32,
+'Residential Apprentice': {
+   minValue: 20,
+   maxValue: 24,
    experienceLevel: 'entryLevel',
    category: 'Apprentice',
-   team: 'Commercial',
-   yearsExperience: '1-3',
-   responsibilities: 'Install commercial electrical systems, assist with lighting installations, run EMT conduit, pull wire, wire devices, help troubleshoot electrical issues, maintain documentation',
-   qualifications: 'Electrical Apprentice License, OSHA-10 certification, basic electrical knowledge, ability to read blueprints, experience with power tools',
-   prompt: 'Create a job description for a Commercial Electrical Apprentice. Must understand basic electrical theory, lighting systems, and commercial power distribution. Experience with EMT conduit bending, wire pulling, and device termination required. Must have Electrical Apprentice License, OSHA-10, First Aid/CPR, and scissor lift certifications. Knowledge of NEC code requirements, commercial construction practices, and basic lighting controls essential. Position involves working in commercial/retail environments and coordinating with other trades. Some work from heights and ladder usage required. Must be able to lift 50+ lbs regularly and be willing to work overtime when needed. Local travel between job sites expected.'
+   team: 'Residential',
+   yearsExperience: '0-1',
+   responsibilities: 'Assist with rough-in wiring, install boxes and panels, pull wire through new construction, drill holes and mount devices, learn proper wiring techniques',
+   qualifications: 'High school diploma/GED, valid drivers license, Valid CA ET Card, basic math skills, ability to lift 50+ lbs, willingness to learn',
+   prompt: 'Create a job description for a New Construction Residential Apprentice Electrician. Entry-level position learning residential electrical installation in new home construction. Must be enrolled in or eligible for state-approved apprenticeship program. No experience required but basic math and mechanical aptitude essential. Must have reliable transportation and basic hand tools. Position involves learning rough-in techniques, device installation, and basic electrical theory. Will work directly with journeyman electrician learning proper installation methods, tool usage, and safety procedures. Physical requirements include climbing ladders, working in attics/crawl spaces, and lifting heavy materials. Must be able to work full-time while attending required apprenticeship classes. Weekend work may be required during busy construction periods.'
+},
+
+'Residential Electrician': {
+   minValue: 20,
+   maxValue: 26,
+   experienceLevel: 'entryLevel',
+   category: 'Apprentice',
+   team: 'Residential',
+   yearsExperience: '1-2',
+   responsibilities: 'Support service calls in luxury homes, assist with smart home installations, learn troubleshooting techniques, help with lighting control systems, maintain client properties',
+   qualifications: 'Valid CA Electrical Trainee License, clean professional appearance, excellent communication skills, basic electrical knowledge, technology-oriented mindset',
+   prompt: 'Create a job description for a Custom Home Service Apprentice Electrician focusing on high-end residential service and automation. Must have 1+ years electrical experience and strong technology aptitude. Position involves learning home automation systems, lighting controls, and advanced troubleshooting while working with experienced technicians. Must maintain professional appearance and communication skills for working in luxury homes. Experience with basic hand tools and electrical meters required. Will learn Lutron lighting, Crestron systems, and whole-house integration. Position requires attention to detail, clean background check, and drug screening. Must be comfortable working around expensive furnishings and maintaining client confidentiality. Some evening work required for system programming and testing. Career path leads to home automation specialist.'
 }
 };
 
@@ -141,76 +120,16 @@ const PROMPT_STYLES = {
 };
 
 const DESCRIPTION_LENGTHS = {
-  'short': 400,
-  'medium': 600,
+  'short': 500,
+  'medium': 700,
   'long': 900
 };
 
 const COMPANIES = {
-  'Staley Technologies': {
-    name: 'Staley Technologies',
-    sameAs: 'https://staleytechnologies.com/',
-    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
-  },
-  'TR Group': {
-    name: 'TR Group',
-    sameAs: 'https://www.trgroup.com/',
-    logo: 'https://www.trgroup.com/wp-content/uploads/2022/04/TR-Group-Logo.png'
-  },
-  'Integra Electrical': {
-    name: 'Integra Electrical',
-    sameAs: 'https://www.integraelectrical.co/',
-    logo: 'https://www.integraelectrical.co/images/logos/Logo2.2403050635216.png'
-  },
-  'Swan Electrical Systems': {
-    name: 'Swan Electrical Systems',
-    sameAs: 'https://www.swanquality.com/',
-    logo: 'https://images.squarespace-cdn.com/content/v1/54fbb084e4b0a61cf90b2a6b/1511915437509-KMEEKDHKFLZ8J2AD7Y8M/SWAN_logo_horz_black.jpg?format=1500w'
-  },
-  'Helix Electric': {
-    name: 'Helix Electric',
-    sameAs: 'https://www.helixelectric.com/',
-    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
-  },
-  'IES Electric': {
-    name: 'IES Electric',
-    sameAs: 'https://iesci.net/',
-    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
-  },
-  'MMR Group': {
-    name: 'MMR Group',
-    sameAs: 'https://www.mmrgrp.com/',
-    logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
-  },
-  'Vision Technologies': {
-    name: 'Vision Technologies',
-    sameAs: 'https://www.visiontechnologies.com/',
-    logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
-  },
-  'Tech Electronics': {
-    name: 'Tech Electronics',
-    sameAs: 'https://www.techelectronics.com/',
-    logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
-  },
-  'Oak Electrical': {
-    name: 'Oak Electrical',
-    sameAs: 'https://oakelectriccompany.com/',
-    logo: 'https://oakelectriccompany.com/wp-content/uploads/2017/04/logoNav-for-web.png'
-  },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
-  },
-  'Reliable Electric': {
-    name: 'Reliable Electric',
-    sameAs: 'https://reliable-contractors.com/',
-    logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
-  },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
+  'Kirby Electric': {
+    name: 'Kirby Electric',
+    sameAs: 'https://kirbyelectric.com/',
+    logo: 'https://kirbyelectric.com/wp-content/uploads/2023/03/kirby_logo.png'
   },
   'T&D Communications': {
     name: 'T&D Communications',
@@ -222,98 +141,101 @@ const COMPANIES = {
     sameAs: 'https://www.3dtsi.com/',
     logo: 'https://threedtsistage.wpenginepowered.com/wp-content/uploads/2021/01/logo-default.png'
   },
-  'WiLine': {
-    name: 'WiLine',
-    sameAs: 'https://www.wiline.com/',
-    logo: 'https://www.wiline.com/img/logo_blue.png'
-  },
   'HCI Systems': {
     name: 'HCI Systems',
     sameAs: 'https://www.hcisystems.net/',
     logo: 'https://www.hcisystems.net/wp-content/uploads/2019/04/logo.png'
   },
-  'Convergint': {
-    name: 'Convergint',
-    sameAs: 'https://www.convergint.com/',
-    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
+  'Howell Electric': {
+    name: 'Howell Electric',
+    sameAs: 'https://www.howellelectric.com/',
+    logo: 'https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png'
+  },
+  'ASL Electric': {
+    name: 'ASL Electric',
+    sameAs: 'https://www.aslelectric.com/',
+    logo: 'https://aslelectric.com/wp-content/uploads/2022/02/ASL-vector-logo-1.png.webp'
+  },
+  'Myro Electrical': {
+    name: 'Myro Electrical',
+    sameAs: 'https://myroelectrical.com/',
+    logo: 'https://images.squarespace-cdn.com/content/v1/6441d6a8c943293c268b4359/7b2478ca-3514-499f-80c1-3a92bb142f0c/curve__1_-removebg-preview.png?format=1500w'
+  },
+  'Access Cabling': {
+    name: 'Access Cabling',
+    sameAs: 'https://accesscabling.com/',
+    logo: 'https://lirp.cdn-website.com/9add30a7/dms3rep/multi/opt/access-fresh-logo-removebg-preview-1920w.png'
+  },
+  'Advanced Alarm & Fire': {
+    name: 'Advanced Alarm & Fire',
+    sameAs: 'https://advancedalarmandfireinc.com/',
+    logo: 'https://advancedalarmandfireinc.com/wp-content/uploads/2021/07/Fire-Safety-System-Orange-County-Los-Angeles-CA.png'
+  },
+  'Data Net Communications': {
+    name: 'Data Net Communications',
+    sameAs: 'https://dncommunications.com/',
+    logo: 'https://img1.wsimg.com/isteam/ip/fb1fb3df-dff6-4c25-87cf-d86cb49834bd/logo/6a33dad7-451e-4204-ae39-ec25122c905e.jpg/:/rs=h:125'
+  },
+  'Berks Electrical': {
+    name: 'Berks Electrical',
+    sameAs: 'https://berkselectrical.com/',
+    logo: 'https://berkselectrical.com/wp-content/uploads/2022/03/berk-logo.jpg'
   }
 };
 
 const LOCATIONS = [
-  { city: 'New Orleans', state: 'LA', zipCode: '70112' },
-  { city: 'Tampa', state: 'FL', zipCode: '33602' },
-  { city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
-  { city: 'Albuquerque', state: 'NM', zipCode: '87102' },
-  { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
-  { city: 'Boise', state: 'ID', zipCode: '83702' },
-  { city: 'Oklahoma City', state: 'OK', zipCode: '73102' },
-  { city: 'Wichita', state: 'KS', zipCode: '67202' },
-  { city: 'Hartford', state: 'CT', zipCode: '06103' },
-  { city: 'Providence', state: 'RI', zipCode: '02903' },
-  { city: 'Lubbock', state: 'TX', zipCode: '79401' },
-  { city: 'McAllen', state: 'TX', zipCode: '78501' },
-  { city: 'Waco', state: 'TX', zipCode: '76701' },
-  { city: 'Huntsville', state: 'AL', zipCode: '35801' },
-  { city: 'Greenville', state: 'SC', zipCode: '29601' },
-  { city: 'Spokane', state: 'WA', zipCode: '99201' },
-  { city: 'Fayetteville', state: 'AR', zipCode: '72701' },
-  { city: 'Des Moines', state: 'IA', zipCode: '50309' },
-  // Nearby cities added:
-  { city: 'Baton Rouge', state: 'LA', zipCode: '70802' },
-  { city: 'Lafayette', state: 'LA', zipCode: '70501' },
-  { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
-  { city: 'Clearwater', state: 'FL', zipCode: '33755' },
-  { city: 'State College', state: 'PA', zipCode: '16801' },
-  { city: 'Youngstown', state: 'OH', zipCode: '44503' },
-  { city: 'Provo', state: 'UT', zipCode: '84601' },
-  { city: 'Ogden', state: 'UT', zipCode: '84401' },
-  { city: 'Twin Falls', state: 'ID', zipCode: '83301' },
-  { city: 'Nampa', state: 'ID', zipCode: '83651' },
-  { city: 'Tulsa', state: 'OK', zipCode: '74103' },
-  { city: 'Norman', state: 'OK', zipCode: '73069' },
-  { city: 'Topeka', state: 'KS', zipCode: '66603' },
-  { city: 'Springfield', state: 'MA', zipCode: '01103' },
-  { city: 'New Haven', state: 'CT', zipCode: '06510' },
-  { city: 'Savannah', state: 'GA', zipCode: '31401' },
-  { city: 'Macon', state: 'GA', zipCode: '31201' },
-  { city: 'Athens', state: 'GA', zipCode: '30601' },
-  { city: 'Columbus', state: 'GA', zipCode: '31901' },
-  { city: 'Marietta', state: 'GA', zipCode: '30060' },
+  { city: 'Palm Springs', state: 'CA', zipCode: '92262' },
+ { city: 'Temecula', state: 'CA', zipCode: '92590' },
+ { city: 'Murrieta', state: 'CA', zipCode: '92562' },
+ { city: 'San Luis Obispo', state: 'CA', zipCode: '93401' },
+ { city: 'Santa Cruz', state: 'CA', zipCode: '95060' },
+ { city: 'Redding', state: 'CA', zipCode: '96001' },
+ { city: 'Chico', state: 'CA', zipCode: '95928' },
+ { city: 'Modesto', state: 'CA', zipCode: '95354' },
+ { city: 'Folsom', state: 'CA', zipCode: '95630' },
+ { city: 'Davis', state: 'CA', zipCode: '95616' },
+ { city: 'Fairfield', state: 'CA', zipCode: '94533' },
+ { city: 'Vallejo', state: 'CA', zipCode: '94590' },
+ { city: 'Santa Barbara', state: 'CA', zipCode: '93101' },
+ { city: 'Anaheim', state: 'CA', zipCode: '92805' },
+ { city: 'Burbank', state: 'CA', zipCode: '91502' },
+ { city: 'Ontario', state: 'CA', zipCode: '91761' },
+ { city: 'Oceanside', state: 'CA', zipCode: '92054' },
+ { city: 'Oxnard', state: 'CA', zipCode: '93030' },
+ { city: 'San Diego', state: 'CA', zipCode: '92101' },
+ { city: 'Stockton', state: 'CA', zipCode: '95202' },
 
-  // North Carolina
-  { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
-  { city: 'Durham', state: 'NC', zipCode: '27701' },
-  { city: 'Asheville', state: 'NC', zipCode: '28801' },
-  { city: 'Wilmington', state: 'NC', zipCode: '28401' },
-  { city: 'Greensboro', state: 'NC', zipCode: '27401' },
-
-  // South Carolina
-  { city: 'Columbia', state: 'SC', zipCode: '29201' },
-  { city: 'Charleston', state: 'SC', zipCode: '29401' },
-  { city: 'Myrtle Beach', state: 'SC', zipCode: '29577' },
-  { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
-  { city: 'Anderson', state: 'SC', zipCode: '29621' },
-
-  // Tennessee
-  { city: 'Knoxville', state: 'TN', zipCode: '37902' },
-  { city: 'Chattanooga', state: 'TN', zipCode: '37402' },
-  { city: 'Murfreesboro', state: 'TN', zipCode: '37130' },
-  { city: 'Clarksville', state: 'TN', zipCode: '37040' },
-  { city: 'Franklin', state: 'TN', zipCode: '37064' },
-
-  // Virginia
-  { city: 'Norfolk', state: 'VA', zipCode: '23510' },
-  { city: 'Virginia Beach', state: 'VA', zipCode: '23451' },
-  { city: 'Roanoke', state: 'VA', zipCode: '24011' },
-  { city: 'Alexandria', state: 'VA', zipCode: '22314' },
-  { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
-
-  // Colorado
-  { city: 'Fort Collins', state: 'CO', zipCode: '80524' },
-  { city: 'Boulder', state: 'CO', zipCode: '80302' },
-  { city: 'Aurora', state: 'CO', zipCode: '80012' },
-  { city: 'Pueblo', state: 'CO', zipCode: '81003' },
-  { city: 'Grand Junction', state: 'CO', zipCode: '81501' }
+ // Additional 30 larger CA cities
+ { city: 'Bakersfield', state: 'CA', zipCode: '93301' },
+ { city: 'Fresno', state: 'CA', zipCode: '93721' },
+ { city: 'Riverside', state: 'CA', zipCode: '92501' },
+ { city: 'Santa Rosa', state: 'CA', zipCode: '95401' },
+ { city: 'Elk Grove', state: 'CA', zipCode: '95624' },
+ { city: 'Roseville', state: 'CA', zipCode: '95678' },
+ { city: 'Thousand Oaks', state: 'CA', zipCode: '91360' },
+ { city: 'Visalia', state: 'CA', zipCode: '93291' },
+ { city: 'Concord', state: 'CA', zipCode: '94520' },
+ { city: 'Santa Clara', state: 'CA', zipCode: '95050' },
+ { city: 'Victorville', state: 'CA', zipCode: '92392' },
+ { city: 'Berkeley', state: 'CA', zipCode: '94704' },
+ { city: 'Antioch', state: 'CA', zipCode: '94509' },
+ { city: 'Richmond', state: 'CA', zipCode: '94804' },
+ { city: 'Vacaville', state: 'CA', zipCode: '95688' },
+ { city: 'Merced', state: 'CA', zipCode: '95340' },
+ { city: 'Carlsbad', state: 'CA', zipCode: '92008' },
+ { city: 'Pleasanton', state: 'CA', zipCode: '94566' },
+ { city: 'Tustin', state: 'CA', zipCode: '92780' },
+ { city: 'Livermore', state: 'CA', zipCode: '94550' },
+ { city: 'Mountain View', state: 'CA', zipCode: '94041' },
+ { city: 'Napa', state: 'CA', zipCode: '94559' },
+ { city: 'Redwood City', state: 'CA', zipCode: '94063' },
+ { city: 'Newport Beach', state: 'CA', zipCode: '92660' },
+ { city: 'San Rafael', state: 'CA', zipCode: '94901' },
+ { city: 'San Marcos', state: 'CA', zipCode: '92069' },
+ { city: 'Palo Alto', state: 'CA', zipCode: '94301' },
+ { city: 'Walnut Creek', state: 'CA', zipCode: '94596' },
+ { city: 'Camarillo', state: 'CA', zipCode: '93010' },
+ { city: 'Mission Viejo', state: 'CA', zipCode: '92691' }
 ];
 
 const STREET_TYPES = [
@@ -443,7 +365,7 @@ Format in markdown without h1 tags. Do not include ticks or markdown formatting 
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com'
+      'support@primepartners.info'
     ]
   };
 
