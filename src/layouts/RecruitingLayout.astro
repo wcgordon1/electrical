@@ -2,6 +2,7 @@
 import BaseLayout from "./BaseLayout.astro";
 import ContactForm from "../components/recruiting/ContactForm.astro";
 import Breadcrumbs from "../components/recruiting/Breadcrumbs.astro";
+import CtaThree from "../components/cta/CtaThree.astro";
 
 interface Props {
   title: string;
@@ -17,27 +18,28 @@ const paths = [
 ---
 
 <BaseLayout title={title} description={description}>
-  <div class="max-w-[1440px] mx-auto">
-    <div class="px-4 md:px-6">
+  <div class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
       <Breadcrumbs paths={paths} />
     </div>
-    
-    <div class="px-4 md:px-6">
-      <div class="lg:flex lg:gap-8">
-        <!-- Main Content -->
-        <div class="flex-1">
+  </div>
+  
+  <main class="w-full mx-auto">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2">
           <slot />
         </div>
 
-        <!-- Sidebar -->
-        <div class="w-full lg:w-[400px]">
-          <div class="lg:sticky lg:top-8">
-            <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-2xl shadow-slate-200/20">
+        <div class="lg:col-span-1">
+          <div class="sticky top-8">
+            <div class="bg-white rounded-3xl shadow-2xl shadow-slate-200/20">
               <ContactForm />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </main>
+  <CtaThree />
 </BaseLayout> 
