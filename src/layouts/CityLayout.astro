@@ -5,13 +5,14 @@ import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
 import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
 import ContactForm from '../components/recruiting/ContactForm.astro';
 import CityRoles from '../components/recruiting/CityRoles.astro';
-import CtaThree from '@/components/cta/CtaThree.astro';
+import CtaThree from '../components/cta/CtaThree.astro';
 
 interface Props {
   city: CollectionEntry<'recruiting'>;
+  metaDescription?: string;
 }
 
-const { city } = Astro.props;
+const { city, metaDescription } = Astro.props;
 const { Content } = await city.render();
 const { 
   name, 
@@ -22,6 +23,9 @@ const {
   majorProjects, 
   topEmployers 
 } = city.data;
+
+// Default meta description if none provided
+const defaultMetaDescription = `Electricial, Fire Alarm, Controls, Security, Solar, Voice/Data, and Audio/Visual Staffing in ${name}, ${state}.`;
 
 console.log('CityLayout Debug:', {
   cityName: name,
@@ -60,9 +64,12 @@ const schema = {
 
 <BaseLayout 
   title={`Electrical Recruiting Services in ${name}, ${state}`}
-  description={description}
+  description={metaDescription || defaultMetaDescription}
   schema={schema}
 >
+<Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <div class="w-full mx-auto">
     <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
       <Breadcrumbs paths={breadcrumbs} />

@@ -6,11 +6,13 @@ import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
 import ContactForm from '../components/recruiting/ContactForm.astro';
 import StateCities from '../components/recruiting/StateCities.astro';
 import CtaThree from '../components/cta/CtaThree.astro';
+
 interface Props {
   state: CollectionEntry<'recruiting'>;
+  metaDescription?: string;
 }
 
-const { state } = Astro.props;
+const { state, metaDescription } = Astro.props;
 const { Content } = await state.render();
 const { 
   name, 
@@ -20,6 +22,9 @@ const {
   keyIndustries, 
   topEmployers 
 } = state.data;
+
+// Default meta description if none provided
+const defaultMetaDescription = `Find top electrical and low voltage talent in ${name}. Expert recruiting services for commercial, residential, and industrial electrical contractors. Fire alarm, controls, security, solar, and AV staffing.`;
 
 console.log('StateLayout Debug:', {
   stateName: name,
@@ -54,9 +59,12 @@ const schema = {
 
 <BaseLayout 
   title={`Electrical Recruiting Services in ${name}`}
-  description={description}
+  description={metaDescription || defaultMetaDescription}
   schema={schema}
 >
+<Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <div class="w-full mx-auto">
     <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
       <Breadcrumbs paths={breadcrumbs} />

@@ -77,6 +77,9 @@ const schema = {
   description={metaDescription || description}
   schema={schema}
 >
+<Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <div class="w-full mx-auto">
     <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
       <Breadcrumbs paths={breadcrumbs} />
