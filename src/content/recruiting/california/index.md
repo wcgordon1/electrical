@@ -60,11 +60,11 @@ The California electrical job market remains robust, with particularly strong de
 
 * With nonfarm job growth projected at 1.1% in 2025, the construction sector plays a crucial role in maintaining economic stability despite broader market challenges. 
 
-### Construction Cost Growth
+### Construction Cost Growth in California
 
 * Cost growth in the construction industry is expected to be between 5% and 7% in 2025, with variations depending on materials and demand shocks from natural disasters.
 
-## Major Growth Areas
+## Major Growth Areas in California
 
 ### Renewable Energy
 California leads in solar and wind energy implementation, creating high demand for:
@@ -84,7 +84,7 @@ Major urban development requires:
 - Project Managers
 - Estimators
 
-## Our Recruiting Services
+## Our Recruiting Services in California
 
 We provide comprehensive recruiting solutions:
 - Candidate screening and verification

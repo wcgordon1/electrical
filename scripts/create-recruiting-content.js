@@ -123,16 +123,16 @@ async function generateCityData(city, state) {
           majorProjects: {
             type: "array",
             items: { type: "string" },
-            description: "Current or planned major projects",
+            description: `Current or planned major projects in ${city}, ${state}`,
             minItems: 4,
-            maxItems: 4
+            maxItems: 6
           },
           topEmployers: {
             type: "array",
             items: { type: "string" },
-            description: "Major employers in the area",
+            description: "Major Construction, Electrical, low voltagge, and data center employers in the area",
             minItems: 4,
-            maxItems: 4
+            maxItems: 6
           }
         },
         required: [
@@ -242,23 +242,23 @@ async function generateMarkdown(position, city, state) {
         properties: {
           marketOverview: {
             type: "string",
-            description: "2-3 sentences about local market conditions"
+            description: `2-3 sentences about local market conditions for ${position} in ${city}, ${state}`
           },
           criticalRole: {
             type: "string",
-            description: "2-3 sentences about why this position is vital"
+            description: `2-3 sentences about why this position is vital to ${city}`
           },
           hiringChallenges: {
             type: "string",
-            description: "2-3 sentences about specific challenges"
+            description: `2-3 sentences about specific challenges recruiting ${position}s in ${city}, ${state}`
           },
           ourProcess: {
             type: "string",
-            description: "2-3 sentences about the recruiting process"
+            description: `2-3 sentences about the recruiting process for ${position}s in ${city}, ${state}`
           },
           successMetrics: {
             type: "string",
-            description: "2-3 sentences about success metrics"
+            description: `2-3 sentences about success metrics for ${position} in ${city}, ${state}`
           }
         },
         required: [
@@ -280,13 +280,13 @@ ${content.marketOverview}
 ### Critical Role for ${position}s
 ${content.criticalRole}
 
-### Hiring Challenges for ${position} in ${city}
+### Hiring Challenges for ${position}s in ${city}
 ${content.hiringChallenges}
 
 ### Our Process
 ${content.ourProcess}
 
-### Success Metrics for ${position} in ${city}
+### Success Metrics for ${position}s in ${city}
 ${content.successMetrics}`;
 }
 
