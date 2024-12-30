@@ -3,12 +3,21 @@ import { getCollection } from 'astro:content';
 import RoleLayout from '../../../../layouts/RoleLayout.astro';
 
 export async function getStaticPaths() {
-  const roles = await getCollection('recruitingRoles');
-  return roles.map(role => ({
+  const roles = await getCollection('recruiting');
+  
+  // Filter to get only role pages (not index.md files)
+  const rolePages = roles.filter(entry => {
+    const pathParts = entry.slug.split('/');
+    return pathParts.length === 3 && !entry.slug.endsWith('index');
+  });
+
+  console.log('Role pages found:', rolePages.map(r => r.slug));
+
+  return rolePages.map(role => ({
     params: { 
       state: role.data.state.toLowerCase(),
-      city: role.data.city.toLowerCase(),
-      role: role.data.title.toLowerCase().replace(/\s+/g, '-')
+      city: role.data.city.toLowerCase().replace(/\s+/g, '-'),
+      role: role.slug.split('/')[2].replace(/\.md$/, '')
     },
     props: { role }
   }));

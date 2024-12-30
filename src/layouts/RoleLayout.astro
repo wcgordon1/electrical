@@ -26,6 +26,13 @@ const {
   metaDescription
 } = role.data;
 
+console.log('RoleLayout Debug:', {
+  slug: role.slug,
+  city,
+  state,
+  title
+});
+
 const breadcrumbs = [
   { text: 'Home', href: '/' },
   { text: 'Recruiting', href: '/recruiting' },

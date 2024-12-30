@@ -1,35 +1,37 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import RecruitingLayout from "../../layouts/RecruitingLayout.astro";
+import RecruitingStats from "../../components/recruiting/RecruitingStats.astro";
+import { getCollection } from "astro:content";
 
-const states = await getCollection('recruitingStates');
+const title = "Electrical & Low Voltage Recruiting Services | Best Electrician Jobs";
+const description = "Partner with Best Electrician Jobs for specialized recruiting services in the electrical and low voltage industry. Find top talent for your organization.";
 ---
 
-<BaseLayout 
-  title="Electrical Recruiting Services | Best Electrician Jobs"
-  description="Find specialized electrical recruiting services across the United States. Connect with top employers and opportunities in the electrical industry."
+<RecruitingLayout 
+  title={title} 
+  description={description}
+  currentPath="recruiting"
 >
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <h1 class="text-4xl font-bold mb-8">Electrical Recruiting Services</h1>
+  <div class="py-12">
+    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-8">
+      Expert Recruiting Services for Electrical & Low Voltage Companies
+    </h1>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {states.map(state => (
-        <a 
-          href={`/recruiting/${state.data.name.toLowerCase()}`}
-          class="block p-6 bg-white rounded-lg shadow hover:shadow-md transition-shadow"
-        >
-          <h2 class="text-2xl font-semibold mb-2">{state.data.name}</h2>
-          <p class="text-gray-600 mb-4">{state.data.description}</p>
-          <div class="flex justify-between items-center text-sm">
-            <span class="text-blue-600">
-              {state.data.marketData.employmentStats.totalJobs.toLocaleString()} Jobs
-            </span>
-            <span class="text-green-600">
-              {state.data.marketData.growthRate} Growth
-            </span>
-          </div>
-        </a>
-      ))}
+    <div class="prose max-w-none">
+      <p class="text-xl text-gray-600 mb-8">
+        Best Electrician Jobs specializes in connecting top electrical and low voltage companies with skilled professionals. Our deep industry expertise and vast network enable us to find the perfect candidates for your organization.
+      </p>
+
+      <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">
+        Why Partner with Best Electrician Jobs?
+      </h2>
+      <p class="text-lg text-gray-600 mb-8">
+        Our specialized focus on the electrical and low voltage industry sets us apart. We understand the unique challenges and requirements of your field, allowing us to identify and attract candidates who not only have the right technical skills but also align with your company culture and values.
+      </p>
+
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl mb-8">
+        <RecruitingStats />
+      </div>
     </div>
-  </main>
-</BaseLayout> 
+  </div>
+</RecruitingLayout>
