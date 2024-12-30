@@ -234,3 +234,9 @@ After pushing to production and waiting for the site to rebuild, run:
 
 
 npm run create-varied-jobs
+
+npm run index-recent-jobs -- -limit=100
+
+
+npm run list-jobs
+npm run update-llms

@@ -53,6 +53,3 @@ One main challenge we face is finding electricians who possess both the necessar
 
 ### Our Process
 Our targeted outreach and careful selection process combine to identify candidates who have the right skills and fit for our clients' projects. Prospective employees undergo thorough technical evaluations and personal interviews.
-
-### Success Metrics
-Success in this role is measured by both productivity and adherence to safety standards. Good customer feedback and consistent workmanship without causing delays or budget overruns also signify a successful recruitment.

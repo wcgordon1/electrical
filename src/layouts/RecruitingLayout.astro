@@ -11,7 +11,7 @@ interface Props {
 
 const { 
   title = "Electrical & Low Voltage Staffing Nationwide",
-  description = "Commercial, Residential, and Industrial Electricians. Fire Alarm, Controls, Security, Solar, Voice/Data, and Audio/Visual Staffing."
+  description = "Find top electrical and low voltage talent nationwide. Specialized staffing for Fire Alarm, Controls, Security, Solar, Voice/Data, and Audio/Visual positions."
 } = Astro.props;
 
 const paths = [
@@ -21,9 +21,9 @@ const paths = [
 ---
 
 <BaseLayout title={title} description={description}>
-    <Fragment slot="head">
-        <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
-      </Fragment>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+  </Fragment>
   <div class="w-full mx-auto">
     <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
       <Breadcrumbs paths={paths} />
@@ -31,7 +31,7 @@ const paths = [
   </div>
   
   <main class="w-full mx-auto">
-    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24">
+    <div class="max-w-7xl mx-auto lg:px-16 md:px-12 px-8 xl:px-24 py-12">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div class="lg:col-span-2">
           <slot />
@@ -39,9 +39,7 @@ const paths = [
 
         <div class="lg:col-span-1">
           <div class="sticky top-8">
-            <div class="bg-white rounded-3xl shadow-2xl shadow-slate-200/20">
-              <ContactForm />
-            </div>
+            <ContactForm />
           </div>
         </div>
       </div>

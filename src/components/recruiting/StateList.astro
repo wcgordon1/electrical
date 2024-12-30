@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+
+// Get all recruiting entries
+const allEntries = await getCollection('recruiting');
+
+// Find all state folders by looking for entries with just state pattern
+const states = allEntries.filter(entry => {
+  const pathParts = entry.slug.split('/');
+  // Just check if it's a state-level entry (index.md in state folder)
+  return pathParts.length === 1;
+});
+
+// Get unique states with their data
+const uniqueStates = [...new Set(states.map(entry => ({
+  slug: entry.slug,
+  name: entry.data.name || entry.slug.replace(/-/g, ' '),
+  description: entry.data.description
+})))];
+
+console.log('Debug States:', {
+  foundStates: uniqueStates.map(s => s.slug)
+});
+---
+
+<div class="bg-white p-8 rounded-3xl shadow-2xl shadow-slate-200/20 ring-1 ring-slate-200 mt-12">
+  <h2 class="text-2xl font-semibold mb-4">Recruiting Services by State</h2>
+  <p class="text-gray-600 mb-6">
+    Find specialized Electrical, Fire Alarm, Controls, Security, Solar, Voice/Data, and Audio/Visual Staffing Services across the United States.
+  </p>
+
+  <div class="grid gap-4">
+    {uniqueStates.map(state => (
+      <a 
+        href={`/recruiting/${state.slug}`}
+        class="block bg-gray-50 p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+      >
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+              {state.name.charAt(0).toUpperCase() + state.name.slice(1)} Electrical Staffing
+            </h3>
+            {state.description && (
+              <p class="text-sm text-gray-600 mt-1">
+                {state.description}
+              </p>
+            )}
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+            <path d="M4 12h16m-7-7 7 7-7 7" />
+          </svg>
+        </div>
+      </a>
+    ))}
+  </div>
+</div> 
