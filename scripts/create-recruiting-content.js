@@ -229,7 +229,7 @@ async function generatePositionData(position, city, state) {
 
 async function generateMarkdown(position, city, state) {
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ 
       role: "user", 
       content: `Create content for a ${position} recruiting agency page in ${city}, ${state}. Format using only h3, h4, and bold text (no h1 or h2).` 
@@ -246,19 +246,19 @@ async function generateMarkdown(position, city, state) {
           },
           criticalRole: {
             type: "string",
-            description: `2-3 sentences about why this position is vital to ${city}`
+            description: `2-3 sentences about why this position is vital to ${city}, discuss and specifically name large construction projects in or near ${city}`
           },
           hiringChallenges: {
             type: "string",
-            description: `2-3 sentences about specific challenges recruiting ${position}s in ${city}, ${state}`
+            description: `2-3 sentences about specific challenges recruiting ${position}s in ${city}, ${state}, content that is unique to ${city}, ${state}`
           },
           ourProcess: {
             type: "string",
-            description: `2-3 sentences about the recruiting process for ${position}s in ${city}, ${state}`
+            description: `2-3 sentences about the recruiting process for ${position}s in ${city}, ${state}, content that is unique to ${city}, ${state}`
           },
           successMetrics: {
             type: "string",
-            description: `2-3 sentences about success metrics for ${position} in ${city}, ${state}`
+            description: `2-3 sentences about success metrics for hiring ${position} in ${city}, ${state}, content that is unique to ${city}, ${state}`
           }
         },
         required: [
