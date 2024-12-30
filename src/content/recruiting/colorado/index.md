@@ -21,11 +21,13 @@ certificationRequirements:
   - "Colorado Electrical License"
   - "Low Voltage Technician Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Xcel Energy"
-  - "Lockheed Martin"
-  - "Tech Companies in Denver"
-  - "Large Construction Firms"
+topEmployers:
+  - "Hensel Phelps"
+  - "Sturgeon Electric"
+  - "Intermountain Electric"
+  - "Cologix"
+  - "Lunavi"
+  - "Shaw Construction"
 ---
 
 Colorado's electrical industry is thriving, supported by investments in renewable energy, urban growth, and advanced manufacturing. Our recruiting services connect skilled professionals with leading employers across the state.

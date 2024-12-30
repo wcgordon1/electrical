@@ -21,11 +21,13 @@ certificationRequirements:
   - "Arizona Electrical License"
   - "Low Voltage Technician Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Salt River Project (SRP)"
-  - "Arizona Public Service (APS)"
-  - "Intel"
-  - "Large Construction Firms"
+topEmployers:
+  - "Wilson Electric"
+  - "Rosendin"
+  - "Corbins"
+  - "Cannon & Wendt"
+  - "Helix Electric"
+  - "Holder Construction"
 ---
 
 Arizona's electrical industry is growing steadily, fueled by major renewable energy initiatives, data center expansions, and urban development projects. Our recruiting services connect skilled professionals with top employers across the state.

@@ -18,7 +18,7 @@ const {
   marketData, 
   description, 
   keyIndustries, 
-  majorEmployers 
+  topEmployers 
 } = state.data;
 
 console.log('StateLayout Debug:', {
@@ -36,7 +36,7 @@ const breadcrumbs = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": `Electrical Recruiting Services in ${name}`,
+  "name": `Electrical Staffing Services in ${name}`,
   "description": description,
   "areaServed": {
     "@type": "State",
@@ -85,11 +85,11 @@ const schema = {
             </section>
           )}
 
-          {majorEmployers && (
+          {topEmployers && (
             <section class="mb-12">
-              <h2 class="text-2xl font-semibold mb-4">Major Employers in {name}</h2>
+              <h2 class="text-2xl font-semibold mb-4">Top Employers in {name}</h2>
               <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {majorEmployers.map(employer => (
+                {topEmployers.map(employer => (
                   <li class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-md transition-shadow">
                     {employer}
                   </li>
@@ -98,11 +98,11 @@ const schema = {
             </section>
           )}
 
-          <div class="prose max-w-none">
+          <StateCities state={name} />
+
+          <div class="prose max-w-none mt-12">
             <Content />
           </div>
-
-          <StateCities state={name} />
 
           <slot />
         </div>

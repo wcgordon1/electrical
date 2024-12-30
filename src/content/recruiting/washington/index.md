@@ -21,11 +21,13 @@ certificationRequirements:
   - "Washington State Electrical License"
   - "Low Voltage Technician Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Puget Sound Energy"
-  - "Amazon Data Centers"
-  - "Microsoft"
-  - "Large Construction Firms"
+topEmployers:
+  - "Skanska USA"
+  - "Balfour Beatty US"
+  - "Lease Crutcher Lewis"
+  - "GLY Construction"
+  - "Sabey Data Centers"
+  - "Amazon Web Services (AWS)"
 ---
 
 Washington's electrical industry continues to thrive, supported by significant investments in renewable energy, technology infrastructure, and urban development. Our recruiting services connect skilled electrical professionals with leading employers across the state.

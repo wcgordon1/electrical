@@ -21,11 +21,13 @@ certificationRequirements:
   - "Texas Electrical License"
   - "Low Voltage Technician Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Oncor Electric Delivery"
-  - "Tesla Gigafactory"
-  - "Major Tech Companies"
-  - "Large Construction Firms"
+topEmployers:
+  - "Zachry Group"
+  - "Austin Industries"
+  - "Fluor Corporation"
+  - "Balfour Beatty US"
+  - "D.R. Horton"
+  - "Quanta Services"
 ---
 
 Texas continues to be a powerhouse in the electrical industry, with significant growth fueled by renewable energy initiatives, expansive infrastructure projects, and a thriving technology sector. Our recruiting services connect skilled professionals with top employers across the state.

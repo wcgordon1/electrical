@@ -21,11 +21,13 @@ certificationRequirements:
   - "California Electrical Certification (CEC)"
   - "California Fire Life Safety Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Pacific Gas & Electric"
-  - "Southern California Edison"
-  - "Major Tech Companies"
-  - "Large Construction Firms"
+topEmployers:
+  - "Rosendin Electric"
+  - "Cupertino Electric"
+  - "DPR Construction"
+  - "Swinterton"
+  - "Webcor"
+  - "Hathaway Dinwiddie"
 ---
 
 

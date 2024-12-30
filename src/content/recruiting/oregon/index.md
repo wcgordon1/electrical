@@ -21,11 +21,13 @@ certificationRequirements:
   - "Oregon General Journeyman License"
   - "Low Voltage Technician Certification"
   - "OSHA 30-Hour Construction"
-majorEmployers:
-  - "Portland General Electric"
-  - "Intel"
-  - "Large Construction Firms"
-  - "Renewable Energy Developers"
+topEmployers:
+  - "Hoffman Construction"
+  - "Skanska USA"
+  - "JE Dunn Construction"
+  - "Fortis Construction"
+  - "Andersen Construction"
+  - "Howard S. Wright"
 ---
 
 Oregon's electrical industry is growing steadily, driven by significant investments in renewable energy and advanced manufacturing, along with ongoing urban development projects. Our recruiting services connect skilled professionals with top employers across the state.
