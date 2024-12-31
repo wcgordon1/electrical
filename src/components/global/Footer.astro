@@ -2,21 +2,23 @@
 import { getCollection } from "astro:content";
 
 const allJobs = await getCollection("jobs");
-const allRecruiting = await getCollection("recruiting");
 
 // Get unique values
 const teams = [...new Set(allJobs.map(job => job.data.team))].sort();
 const categories = [...new Set(allJobs.map(job => job.data.occupationalCategory))].sort();
 const locations = [...new Set(allJobs.map(job => job.data.location))].sort();
 
-// Get unique states from recruiting content
-const states = allRecruiting
-  .filter(entry => entry.slug.split('/').length === 1) // Only get state-level entries
-  .map(entry => ({
-    name: entry.data.name || entry.slug.replace(/-/g, ' '),
-    slug: entry.slug
-  }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+// Hardcoded states for recruiting
+const recruitingStates = [
+  { name: 'California', slug: 'california' },
+  { name: 'Texas', slug: 'texas' },
+  { name: 'Florida', slug: 'florida' },
+  { name: 'New York', slug: 'new-york' },
+  { name: 'Arizona', slug: 'arizona' },
+  { name: 'Georgia', slug: 'georgia' },
+  { name: 'Nevada', slug: 'nevada' },
+  { name: 'Washington', slug: 'washington' }
+];
 
 // Format URLs
 const formatUrl = (value: string, type: string) => {
@@ -202,7 +204,7 @@ const footerSections = [
       <div class="mt-8 w-full">
         <!-- Settings -->
         <div class="mb-4">
-          <h4 class="text-white text-lg mb-2">Environment:</h4>
+          <h4 class="text-white text-lg mb-2">Settings:</h4>
           <div class="flex flex-wrap gap-4">
             {teams.map(team => (
               <a 
@@ -217,7 +219,7 @@ const footerSections = [
 
         <!-- Skills -->
         <div class="mb-4">
-          <h4 class="text-white text-lg mb-2">Roles:</h4>
+          <h4 class="text-white text-lg mb-2">Trades & Skills:</h4>
           <div class="flex flex-wrap gap-4">
             {categories.map(category => (
               <a 
@@ -231,13 +233,13 @@ const footerSections = [
         </div>
 
         <!-- Recruiting by State -->
-        <div class="mt-12 mb-4">
+        <div class="mt-4 mb-4">
           <h4 class="text-white text-lg mb-2">Electrical Staffing Locations:</h4>
           <div class="flex flex-wrap gap-4">
-            {states.map(state => (
+            {recruitingStates.map(state => (
               <a 
                 href={`/recruiting/${state.slug}`}
-                class="text-white/40 hover:text-white font-normal text-xs whitespace-nowrap"
+                class="text-white/60 hover:text-white font-normal text-sm whitespace-nowrap"
               >
                 Electrical Staffing in {state.name}
               </a>

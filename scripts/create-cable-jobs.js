@@ -1,9 +1,4 @@
 const COMPANIES = {
-  'T&D Communications': {
-    name: 'T&D Communications',
-    sameAs: 'https://www.tanddcomm.com/',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
-  },
   '3D Communications': {
     name: '3D Communications',
     sameAs: 'https://www.3dtsi.com/',
@@ -19,6 +14,11 @@ const COMPANIES = {
     sameAs: 'https://www.hcisystems.net/',
     logo: 'https://www.hcisystems.net/wp-content/uploads/2019/04/logo.png'
   },
+  'Black Box': {
+    name: 'Black Box',
+    sameAs: 'https://www.blackbox.com/',
+    logo: 'https://bbnscdn.azureedge.net/cms/images/default-images/logo_dark.png'
+  },
   'MMR Group': {
     name: 'MMR Group',
     sameAs: 'https://www.mmrgrp.com/',
@@ -33,7 +33,27 @@ const COMPANIES = {
     name: 'Vision Technologies',
     sameAs: 'https://www.visiontechnologies.com/',
     logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
-  }
+  },
+  'T&D Communications': {
+    name: 'T&D Communications',
+    sameAs: 'https://www.tanddcomm.com/',
+    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
+  },
+  'Direct Line': {
+    name: 'Direct Connect',
+    sameAs: 'https://www.dlci.net/',
+    logo: 'https://cdn.freebiesupply.com/logos/thumbs/2x/direct-line-2-logo.png'
+  },
+  'Atek Communications': {
+    name: 'Atek Communications',
+    sameAs: 'https://www.atekcommunications.com/',
+    logo: 'https://www.atekcommunications.com/images/gif/icclogo2000.gif'
+  },
+  'Shelby Communications': {
+    name: 'Shelby Communications',
+    sameAs: 'https://www.shelbycommunications.com/',
+    logo: 'https://shelbycommunications.com/wp-content/uploads/2022/02/eQkSUiEUF9h03zP_TRYxMq9BEwyVxvd6tiQOkA.png'
+  },
 };
   
   const JOB_TYPES = {
