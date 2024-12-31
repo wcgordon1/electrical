@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import ApplicationModal from "../components/jobs/ApplicationModal.astro";
+import RelatedJobs from "../components/jobs/RelatedJobs.astro";
+import JobOverview from "../components/jobs/JobOverview.astro";
 const { frontmatter } = Astro.props;
 
 // Create dynamic SEO title and description
@@ -217,6 +219,20 @@ const jobSchema = {
           <div class="prose-styles">
             <slot />
           </div>
+
+          <JobOverview 
+            position={frontmatter.position}
+            city={frontmatter.jobLocation.addressLocality}
+            state={frontmatter.jobLocation.addressRegion}
+            salary={frontmatter.baseSalary}
+          />
+
+          <RelatedJobs 
+            currentPath={frontmatter.identifier.value}
+            location={frontmatter.location}
+            category={frontmatter.occupationalCategory}
+          />
+
         </div>
       </div>
     </div>

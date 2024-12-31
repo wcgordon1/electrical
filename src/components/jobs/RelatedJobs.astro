@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentPath: string;
+  location: string;
+  category: string;
+}
+
+const { currentPath, location, category } = Astro.props;
+
+// Get all jobs
+const allJobs = await getCollection('jobs');
+
+// Create location and category slugs for URLs
+const locationSlug = `${location.toLowerCase().replace(/,?\s+/g, '-')}-jobs`;
+const categorySlug = `${category.toLowerCase().replace(/,?\s+/g, '-')}-jobs`;
+
+// Filter to get only jobs from the same location, excluding current job
+const relatedJobs = allJobs
+  .filter(job => {
+    const isInSameLocation = job.data.location === location;
+    const isNotCurrentJob = job.data.identifier?.value !== currentPath;
+    return isInSameLocation && isNotCurrentJob;
+  })
+  .sort((a, b) => {
+    const dateA = new Date(b.data.datePosted || '');
+    const dateB = new Date(a.data.datePosted || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5); // Limit to 5 related jobs
+
+console.log('Debug RelatedJobs:', {
+  location,
+  category,
+  currentPath,
+  foundJobs: relatedJobs.length,
+  currentJobId: currentPath,
+  locationSlug,
+  categorySlug
+});
+---
+
+{relatedJobs.length > 0 && (
+  <div class="mt-12 bg-slate-50 rounded-3xl p-8">
+    <h2 class="text-2xl font-semibold mb-6">More Jobs in {location}</h2>
+    <div class="grid gap-4">
+      {relatedJobs.map(job => (
+        <a 
+          href={`/jobs/${job.slug}`}
+          class="block bg-white p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+                {job.data.position}
+              </h3>
+              <p class="text-sm text-gray-600 mt-1">
+                {job.data.hiringOrganization?.name}
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path d="M4 12h16m-7-7 7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+    
+    <div class="mt-6 flex flex-col items-center gap-3">
+      <a 
+        href={`/jobs/location/${locationSlug}`}
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all jobs in {location}
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+      <a 
+        href={`/jobs/skill/${categorySlug}`}
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all {category} jobs
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+      <a 
+        href="/open-positions"
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all open positions
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+)} 
