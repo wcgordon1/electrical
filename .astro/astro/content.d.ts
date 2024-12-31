@@ -2696,6 +2696,34 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"atek-communications-commercial-apprentice-sandy-atek1uxo6n.md": {
+	id: "atek-communications-commercial-apprentice-sandy-atek1uxo6n.md";
+  slug: "atek-communications-commercial-apprentice-sandy-atek1uxo6n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"atek-communications-commercial-electrician-herndon-ateki88usr.md": {
+	id: "atek-communications-commercial-electrician-herndon-ateki88usr.md";
+  slug: "atek-communications-commercial-electrician-herndon-ateki88usr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"atek-communications-fire-alarm-installer-durham-ateklc89d7.md": {
+	id: "atek-communications-fire-alarm-installer-durham-ateklc89d7.md";
+  slug: "atek-communications-fire-alarm-installer-durham-ateklc89d7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"atek-communications-fire-alarm-installer-tempe-atek1bijmp.md": {
+	id: "atek-communications-fire-alarm-installer-tempe-atek1bijmp.md";
+  slug: "atek-communications-fire-alarm-installer-tempe-atek1bijmp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "avispl-av-estimator-los-angeles-id-bf849320nd.md": {
 	id: "avispl-av-estimator-los-angeles-id-bf849320nd.md";
   slug: "avispl-av-estimator-los-angeles-id-bf849320nd";
@@ -3907,6 +3935,48 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"direct-connect-commercial-electrician-wyoming-dire785g0p.md": {
+	id: "direct-connect-commercial-electrician-wyoming-dire785g0p.md";
+  slug: "direct-connect-commercial-electrician-wyoming-dire785g0p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"direct-connect-data-center-cable-tech-mishawaka-direfw4t13.md": {
+	id: "direct-connect-data-center-cable-tech-mishawaka-direfw4t13.md";
+  slug: "direct-connect-data-center-cable-tech-mishawaka-direfw4t13";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"direct-connect-data-center-technician-college-station-direypkqyj.md": {
+	id: "direct-connect-data-center-technician-college-station-direypkqyj.md";
+  slug: "direct-connect-data-center-technician-college-station-direypkqyj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"direct-connect-data-center-technician-edison-dirervr2t7.md": {
+	id: "direct-connect-data-center-technician-edison-dirervr2t7.md";
+  slug: "direct-connect-data-center-technician-edison-dirervr2t7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"direct-connect-data-center-technician-orange-park-direpdbusn.md": {
+	id: "direct-connect-data-center-technician-orange-park-direpdbusn.md";
+  slug: "direct-connect-data-center-technician-orange-park-direpdbusn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"direct-connect-fiber-optic-technician-bloomington-dire63fndk.md": {
+	id: "direct-connect-fiber-optic-technician-bloomington-dire63fndk.md";
+  slug: "direct-connect-fiber-optic-technician-bloomington-dire63fndk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "dodge-electric-cable-installer-wilmington-dodgao0ib1.md": {
 	id: "dodge-electric-cable-installer-wilmington-dodgao0ib1.md";
   slug: "dodge-electric-cable-installer-wilmington-dodgao0ib1";
@@ -3952,6 +4022,55 @@ declare module 'astro:content' {
 "electrician-premiere-roswell-id-be8942.md": {
 	id: "electrician-premiere-roswell-id-be8942.md";
   slug: "electrician-premiere-roswell-id-be8942";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-cable-installer-plano-enha2umj38.md": {
+	id: "enhanced-voice-&-data-cable-installer-plano-enha2umj38.md";
+  slug: "enhanced-voice--data-cable-installer-plano-enha2umj38";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-commercial-apprentice-grove-city-enha5zj5k2.md": {
+	id: "enhanced-voice-&-data-commercial-apprentice-grove-city-enha5zj5k2.md";
+  slug: "enhanced-voice--data-commercial-apprentice-grove-city-enha5zj5k2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-commercial-electrician-amarillo-enhafgt9vn.md": {
+	id: "enhanced-voice-&-data-commercial-electrician-amarillo-enhafgt9vn.md";
+  slug: "enhanced-voice--data-commercial-electrician-amarillo-enhafgt9vn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-data-center-technician-miami-springs-enhafxlhpt.md": {
+	id: "enhanced-voice-&-data-data-center-technician-miami-springs-enhafxlhpt.md";
+  slug: "enhanced-voice--data-data-center-technician-miami-springs-enhafxlhpt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-fiber-optic-technician-pearland-enhalx9ley.md": {
+	id: "enhanced-voice-&-data-fiber-optic-technician-pearland-enhalx9ley.md";
+  slug: "enhanced-voice--data-fiber-optic-technician-pearland-enhalx9ley";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-fire-alarm-installer-apex-enha9s1ffm.md": {
+	id: "enhanced-voice-&-data-fire-alarm-installer-apex-enha9s1ffm.md";
+  slug: "enhanced-voice--data-fire-alarm-installer-apex-enha9s1ffm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"enhanced-voice-&-data-security-technician-sparks-enhacta3zd.md": {
+	id: "enhanced-voice-&-data-security-technician-sparks-enhacta3zd.md";
+  slug: "enhanced-voice--data-security-technician-sparks-enhacta3zd";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5531,9 +5650,156 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"inc-installs-commercial-electrician-henderson-inc5rf5s7.md": {
+	id: "inc-installs-commercial-electrician-henderson-inc5rf5s7.md";
+  slug: "inc-installs-commercial-electrician-henderson-inc5rf5s7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inc-installs-fiber-optic-technician-naperville-incvi01yx.md": {
+	id: "inc-installs-fiber-optic-technician-naperville-incvi01yx.md";
+  slug: "inc-installs-fiber-optic-technician-naperville-incvi01yx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inc-installs-rack-stack-installer-fort-worth-inc6an3ax.md": {
+	id: "inc-installs-rack-stack-installer-fort-worth-inc6an3ax.md";
+  slug: "inc-installs-rack-stack-installer-fort-worth-inc6an3ax";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inc-installs-rack-stack-installer-newton-inca70mq8.md": {
+	id: "inc-installs-rack-stack-installer-newton-inca70mq8.md";
+  slug: "inc-installs-rack-stack-installer-newton-inca70mq8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-commercial-electrician-kissimmee-insceamodp.md": {
+	id: "inscope-commercial-electrician-kissimmee-insceamodp.md";
+  slug: "inscope-commercial-electrician-kissimmee-insceamodp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-data-center-cable-tech-union-city-inscotax8d.md": {
+	id: "inscope-data-center-cable-tech-union-city-inscotax8d.md";
+  slug: "inscope-data-center-cable-tech-union-city-inscotax8d";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fiber-optic-technician-roswell-inscujkrpq.md": {
+	id: "inscope-fiber-optic-technician-roswell-inscujkrpq.md";
+  slug: "inscope-fiber-optic-technician-roswell-inscujkrpq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fiber-optic-technician-smyrna-insch1258j.md": {
+	id: "inscope-fiber-optic-technician-smyrna-insch1258j.md";
+  slug: "inscope-fiber-optic-technician-smyrna-insch1258j";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fire-alarm-installer-beaumont-inscltg23g.md": {
+	id: "inscope-fire-alarm-installer-beaumont-inscltg23g.md";
+  slug: "inscope-fire-alarm-installer-beaumont-inscltg23g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fire-alarm-installer-el-paso-insctyzhmd.md": {
+	id: "inscope-fire-alarm-installer-el-paso-insctyzhmd.md";
+  slug: "inscope-fire-alarm-installer-el-paso-insctyzhmd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fire-alarm-installer-schaumburg-inscq2pkdq.md": {
+	id: "inscope-fire-alarm-installer-schaumburg-inscq2pkdq.md";
+  slug: "inscope-fire-alarm-installer-schaumburg-inscq2pkdq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-fire-alarm-installer-st.-paul-insch0cpzm.md": {
+	id: "inscope-fire-alarm-installer-st.-paul-insch0cpzm.md";
+  slug: "inscope-fire-alarm-installer-st-paul-insch0cpzm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"inscope-security-technician-la-vista-inschtj7v9.md": {
+	id: "inscope-security-technician-la-vista-inschtj7v9.md";
+  slug: "inscope-security-technician-la-vista-inschtj7v9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-cable-installer-council-bluffs-inte6arb5t.md": {
+	id: "integra-electrical-cable-installer-council-bluffs-inte6arb5t.md";
+  slug: "integra-electrical-cable-installer-council-bluffs-inte6arb5t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-cable-installer-dearborn-inteh4qn5q.md": {
+	id: "integra-electrical-cable-installer-dearborn-inteh4qn5q.md";
+  slug: "integra-electrical-cable-installer-dearborn-inteh4qn5q";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-cable-installer-round-rock-intexs9zv5.md": {
+	id: "integra-electrical-cable-installer-round-rock-intexs9zv5.md";
+  slug: "integra-electrical-cable-installer-round-rock-intexs9zv5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "integra-electrical-cable-installer-wilmington-intebedw6b.md": {
 	id: "integra-electrical-cable-installer-wilmington-intebedw6b.md";
   slug: "integra-electrical-cable-installer-wilmington-intebedw6b";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-commercial-apprentice-aurora-inte4jgg2v.md": {
+	id: "integra-electrical-commercial-apprentice-aurora-inte4jgg2v.md";
+  slug: "integra-electrical-commercial-apprentice-aurora-inte4jgg2v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-commercial-apprentice-hialeah-intecfa77z.md": {
+	id: "integra-electrical-commercial-apprentice-hialeah-intecfa77z.md";
+  slug: "integra-electrical-commercial-apprentice-hialeah-intecfa77z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-commercial-apprentice-independence-inteajucog.md": {
+	id: "integra-electrical-commercial-apprentice-independence-inteajucog.md";
+  slug: "integra-electrical-commercial-apprentice-independence-inteajucog";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-commercial-electrician-redmond-intenpxp03.md": {
+	id: "integra-electrical-commercial-electrician-redmond-intenpxp03.md";
+  slug: "integra-electrical-commercial-electrician-redmond-intenpxp03";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-commercial-electrician-sterling-inteu5myxh.md": {
+	id: "integra-electrical-commercial-electrician-sterling-inteu5myxh.md";
+  slug: "integra-electrical-commercial-electrician-sterling-inteu5myxh";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5548,6 +5814,20 @@ declare module 'astro:content' {
 "integra-electrical-electrical-apprentice-clearwater-intejd9t96.md": {
 	id: "integra-electrical-electrical-apprentice-clearwater-intejd9t96.md";
   slug: "integra-electrical-electrical-apprentice-clearwater-intejd9t96";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-fire-alarm-installer-beaverton-intet13cv4.md": {
+	id: "integra-electrical-fire-alarm-installer-beaverton-intet13cv4.md";
+  slug: "integra-electrical-fire-alarm-installer-beaverton-intet13cv4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-fire-alarm-installer-layton-inteokgx53.md": {
+	id: "integra-electrical-fire-alarm-installer-layton-inteokgx53.md";
+  slug: "integra-electrical-fire-alarm-installer-layton-inteokgx53";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5583,6 +5863,27 @@ declare module 'astro:content' {
 "integra-electrical-industrial-journeyman-electrician-miami-intebljg43.md": {
 	id: "integra-electrical-industrial-journeyman-electrician-miami-intebljg43.md";
   slug: "integra-electrical-industrial-journeyman-electrician-miami-intebljg43";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-rack-stack-installer-gainesville-intecstbgi.md": {
+	id: "integra-electrical-rack-stack-installer-gainesville-intecstbgi.md";
+  slug: "integra-electrical-rack-stack-installer-gainesville-intecstbgi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-rack-stack-installer-the-woodlands-inte8v1jzz.md": {
+	id: "integra-electrical-rack-stack-installer-the-woodlands-inte8v1jzz.md";
+  slug: "integra-electrical-rack-stack-installer-the-woodlands-inte8v1jzz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"integra-electrical-security-technician-gresham-intejy2uwk.md": {
+	id: "integra-electrical-security-technician-gresham-intejy2uwk.md";
+  slug: "integra-electrical-security-technician-gresham-intejy2uwk";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -6014,6 +6315,69 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"m3-technology-commercial-apprentice-decatur-m3t9cywdw.md": {
+	id: "m3-technology-commercial-apprentice-decatur-m3t9cywdw.md";
+  slug: "m3-technology-commercial-apprentice-decatur-m3t9cywdw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-commercial-apprentice-west-valley-city-m3tk6a1gv.md": {
+	id: "m3-technology-commercial-apprentice-west-valley-city-m3tk6a1gv.md";
+  slug: "m3-technology-commercial-apprentice-west-valley-city-m3tk6a1gv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-commercial-electrician-concord-m3txpe77u.md": {
+	id: "m3-technology-commercial-electrician-concord-m3txpe77u.md";
+  slug: "m3-technology-commercial-electrician-concord-m3txpe77u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-data-center-technician-corpus-christi-m3to70dka.md": {
+	id: "m3-technology-data-center-technician-corpus-christi-m3to70dka.md";
+  slug: "m3-technology-data-center-technician-corpus-christi-m3to70dka";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-data-center-technician-oak-park-m3t6abau7.md": {
+	id: "m3-technology-data-center-technician-oak-park-m3t6abau7.md";
+  slug: "m3-technology-data-center-technician-oak-park-m3t6abau7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-fire-alarm-installer-tyler-m3tr3lrgo.md": {
+	id: "m3-technology-fire-alarm-installer-tyler-m3tr3lrgo.md";
+  slug: "m3-technology-fire-alarm-installer-tyler-m3tr3lrgo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-rack-stack-installer-farmington-hills-m3tbzge9e.md": {
+	id: "m3-technology-rack-stack-installer-farmington-hills-m3tbzge9e.md";
+  slug: "m3-technology-rack-stack-installer-farmington-hills-m3tbzge9e";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-security-technician-carmel-m3tnu0oln.md": {
+	id: "m3-technology-security-technician-carmel-m3tnu0oln.md";
+  slug: "m3-technology-security-technician-carmel-m3tnu0oln";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"m3-technology-security-technician-johnston-m3tfiyj7n.md": {
+	id: "m3-technology-security-technician-johnston-m3tfiyj7n.md";
+  slug: "m3-technology-security-technician-johnston-m3tfiyj7n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "marathon-electrical-cable-installer-salt-lake-city-maraw59d6z.md": {
 	id: "marathon-electrical-cable-installer-salt-lake-city-maraw59d6z.md";
   slug: "marathon-electrical-cable-installer-salt-lake-city-maraw59d6z";
@@ -6175,6 +6539,27 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"mirapath-cable-installer-denton-mirag8i3ot.md": {
+	id: "mirapath-cable-installer-denton-mirag8i3ot.md";
+  slug: "mirapath-cable-installer-denton-mirag8i3ot";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-commercial-apprentice-overland-park-mira10ji8t.md": {
+	id: "mirapath-commercial-apprentice-overland-park-mira10ji8t.md";
+  slug: "mirapath-commercial-apprentice-overland-park-mira10ji8t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-commercial-apprentice-st.-charles-mirakbwsiv.md": {
+	id: "mirapath-commercial-apprentice-st.-charles-mirakbwsiv.md";
+  slug: "mirapath-commercial-apprentice-st-charles-mirakbwsiv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "mirapath-data-center-cable-tech-corte-madera-miratbnwvp.md": {
 	id: "mirapath-data-center-cable-tech-corte-madera-miratbnwvp.md";
   slug: "mirapath-data-center-cable-tech-corte-madera-miratbnwvp";
@@ -6185,6 +6570,41 @@ declare module 'astro:content' {
 "mirapath-data-center-cable-tech-culver-city-mirapkriai.md": {
 	id: "mirapath-data-center-cable-tech-culver-city-mirapkriai.md";
   slug: "mirapath-data-center-cable-tech-culver-city-mirapkriai";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-data-center-cable-tech-westerville-mira7dgby4.md": {
+	id: "mirapath-data-center-cable-tech-westerville-mira7dgby4.md";
+  slug: "mirapath-data-center-cable-tech-westerville-mira7dgby4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-data-center-technician-centreville-miraqrr77n.md": {
+	id: "mirapath-data-center-technician-centreville-miraqrr77n.md";
+  slug: "mirapath-data-center-technician-centreville-miraqrr77n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-fiber-optic-technician-arlington-mira0pub8g.md": {
+	id: "mirapath-fiber-optic-technician-arlington-mira0pub8g.md";
+  slug: "mirapath-fiber-optic-technician-arlington-mira0pub8g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-fire-alarm-installer-hollywood-mira5tpqsi.md": {
+	id: "mirapath-fire-alarm-installer-hollywood-mira5tpqsi.md";
+  slug: "mirapath-fire-alarm-installer-hollywood-mira5tpqsi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mirapath-fire-alarm-installer-kirkland-mira791w1a.md": {
+	id: "mirapath-fire-alarm-installer-kirkland-mira791w1a.md";
+  slug: "mirapath-fire-alarm-installer-kirkland-mira791w1a";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -10606,6 +11026,27 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"shelby-communications-cable-installer-burnsville-shelve7yzc.md": {
+	id: "shelby-communications-cable-installer-burnsville-shelve7yzc.md";
+  slug: "shelby-communications-cable-installer-burnsville-shelve7yzc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"shelby-communications-fiber-optic-technician-odessa-shel4ezuvx.md": {
+	id: "shelby-communications-fiber-optic-technician-odessa-shel4ezuvx.md";
+  slug: "shelby-communications-fiber-optic-technician-odessa-shel4ezuvx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"shelby-communications-fire-alarm-installer-midland-sheletccb8.md": {
+	id: "shelby-communications-fire-alarm-installer-midland-sheletccb8.md";
+  slug: "shelby-communications-fire-alarm-installer-midland-sheletccb8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "simple-electric-cable-installer-des-moines-simpk63zka.md": {
 	id: "simple-electric-cable-installer-des-moines-simpk63zka.md";
   slug: "simple-electric-cable-installer-des-moines-simpk63zka";
@@ -10949,6 +11390,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"staley-technologies-cable-installer-medford-stalz5aj0m.md": {
+	id: "staley-technologies-cable-installer-medford-stalz5aj0m.md";
+  slug: "staley-technologies-cable-installer-medford-stalz5aj0m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "staley-technologies-commercial-apprentice-san-francisco-stalqqcbtf.md": {
 	id: "staley-technologies-commercial-apprentice-san-francisco-stalqqcbtf.md";
   slug: "staley-technologies-commercial-apprentice-san-francisco-stalqqcbtf";
@@ -10980,6 +11428,13 @@ declare module 'astro:content' {
 "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md": {
 	id: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md";
   slug: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-fiber-optic-technician-katy-stalovtb3h.md": {
+	id: "staley-technologies-fiber-optic-technician-katy-stalovtb3h.md";
+  slug: "staley-technologies-fiber-optic-technician-katy-stalovtb3h";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -11029,6 +11484,13 @@ declare module 'astro:content' {
 "staley-technologies-industrial-electrician-phoenix-stalr1fra2.md": {
 	id: "staley-technologies-industrial-electrician-phoenix-stalr1fra2.md";
   slug: "staley-technologies-industrial-electrician-phoenix-stalr1fra2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-rack-stack-installer-irving-stall8n6qa.md": {
+	id: "staley-technologies-rack-stack-installer-irving-stall8n6qa.md";
+  slug: "staley-technologies-rack-stack-installer-irving-stall8n6qa";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -11180,6 +11642,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"t&d-communications-cable-installer-scottsdale-t&d59usal.md": {
+	id: "t&d-communications-cable-installer-scottsdale-t&d59usal.md";
+  slug: "td-communications-cable-installer-scottsdale-td59usal";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-cable-installer-westminster-t&dwt6y3r.md": {
+	id: "t&d-communications-cable-installer-westminster-t&dwt6y3r.md";
+  slug: "td-communications-cable-installer-westminster-tdwt6y3r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "t&d-communications-cable-tech-beverly-hills-t&dv5bdcm.md": {
 	id: "t&d-communications-cable-tech-beverly-hills-t&dv5bdcm.md";
   slug: "td-communications-cable-tech-beverly-hills-tdv5bdcm";
@@ -11229,9 +11705,23 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"t&d-communications-commercial-apprentice-abilene-t&deceyl0.md": {
+	id: "t&d-communications-commercial-apprentice-abilene-t&deceyl0.md";
+  slug: "td-communications-commercial-apprentice-abilene-tdeceyl0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "t&d-communications-commercial-electrician-folsom-t&d64y2pl.md": {
 	id: "t&d-communications-commercial-electrician-folsom-t&d64y2pl.md";
   slug: "td-communications-commercial-electrician-folsom-td64y2pl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-commercial-electrician-houston-t&d4izqx5.md": {
+	id: "t&d-communications-commercial-electrician-houston-t&d4izqx5.md";
+  slug: "td-communications-commercial-electrician-houston-td4izqx5";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -11267,6 +11757,13 @@ declare module 'astro:content' {
 "t&d-communications-low-voltage-cable-technician-boulder-t&dl4fl5z.md": {
 	id: "t&d-communications-low-voltage-cable-technician-boulder-t&dl4fl5z.md";
   slug: "td-communications-low-voltage-cable-technician-boulder-tdl4fl5z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"t&d-communications-rack-stack-installer-wenatchee-t&d8t86gj.md": {
+	id: "t&d-communications-rack-stack-installer-wenatchee-t&d8t86gj.md";
+  slug: "td-communications-rack-stack-installer-wenatchee-td8t86gj";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -11880,6 +12377,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"teleco-cable-installer-paradise-tele7fcllz.md": {
+	id: "teleco-cable-installer-paradise-tele7fcllz.md";
+  slug: "teleco-cable-installer-paradise-tele7fcllz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "teleco-cable-technician-aurora-televe7xv3.md": {
 	id: "teleco-cable-technician-aurora-televe7xv3.md";
   slug: "teleco-cable-technician-aurora-televe7xv3";
@@ -11887,9 +12391,37 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"teleco-commercial-apprentice-purcellville-tele13muqk.md": {
+	id: "teleco-commercial-apprentice-purcellville-tele13muqk.md";
+  slug: "teleco-commercial-apprentice-purcellville-tele13muqk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "teleco-data-center-cable-tech-laguna-hills-telerq726k.md": {
 	id: "teleco-data-center-cable-tech-laguna-hills-telerq726k.md";
   slug: "teleco-data-center-cable-tech-laguna-hills-telerq726k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"teleco-data-center-cable-tech-sugar-land-teleuysrp2.md": {
+	id: "teleco-data-center-cable-tech-sugar-land-teleuysrp2.md";
+  slug: "teleco-data-center-cable-tech-sugar-land-teleuysrp2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"teleco-fire-alarm-installer-austin-teles1kpzz.md": {
+	id: "teleco-fire-alarm-installer-austin-teles1kpzz.md";
+  slug: "teleco-fire-alarm-installer-austin-teles1kpzz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"teleco-fire-alarm-installer-st.-petersburg-telejnpwnc.md": {
+	id: "teleco-fire-alarm-installer-st.-petersburg-telejnpwnc.md";
+  slug: "teleco-fire-alarm-installer-st-petersburg-telejnpwnc";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -11922,6 +12454,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"teleco-rack-stack-installer-bellevue-telerxchzk.md": {
+	id: "teleco-rack-stack-installer-bellevue-telerxchzk.md";
+  slug: "teleco-rack-stack-installer-bellevue-telerxchzk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "teleco-security-systems-tech-cincinnati-tele1inm92.md": {
 	id: "teleco-security-systems-tech-cincinnati-tele1inm92.md";
   slug: "teleco-security-systems-tech-cincinnati-tele1inm92";
@@ -11939,6 +12478,34 @@ declare module 'astro:content' {
 "teleco-security-systems-tech-san-rafael-telerfvucl.md": {
 	id: "teleco-security-systems-tech-san-rafael-telerfvucl.md";
   slug: "teleco-security-systems-tech-san-rafael-telerfvucl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"teleco-security-technician-richardson-tele6zltht.md": {
+	id: "teleco-security-technician-richardson-tele6zltht.md";
+  slug: "teleco-security-technician-richardson-tele6zltht";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"texas-voice-&-data-cable-installer-carrollton-texa4qfb3k.md": {
+	id: "texas-voice-&-data-cable-installer-carrollton-texa4qfb3k.md";
+  slug: "texas-voice--data-cable-installer-carrollton-texa4qfb3k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"texas-voice-&-data-data-center-cable-tech-dublin-texa9mhqvd.md": {
+	id: "texas-voice-&-data-data-center-cable-tech-dublin-texa9mhqvd.md";
+  slug: "texas-voice--data-data-center-cable-tech-dublin-texa9mhqvd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"texas-voice-&-data-data-center-technician-cambridge-texacvog7v.md": {
+	id: "texas-voice-&-data-data-center-technician-cambridge-texacvog7v.md";
+  slug: "texas-voice--data-data-center-technician-cambridge-texacvog7v";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12020,6 +12587,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"tr-group-commercial-electrician-west-des-moines-trgujwwx3.md": {
+	id: "tr-group-commercial-electrician-west-des-moines-trgujwwx3.md";
+  slug: "tr-group-commercial-electrician-west-des-moines-trgujwwx3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "tr-group-controls-technician-grand-rapids-trgsrnovn.md": {
 	id: "tr-group-controls-technician-grand-rapids-trgsrnovn.md";
   slug: "tr-group-controls-technician-grand-rapids-trgsrnovn";
@@ -12027,9 +12601,44 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"tr-group-data-center-cable-tech-garland-trgjcd6km.md": {
+	id: "tr-group-data-center-cable-tech-garland-trgjcd6km.md";
+  slug: "tr-group-data-center-cable-tech-garland-trgjcd6km";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "tr-group-data-center-technician-chicago-trgs3ifre.md": {
 	id: "tr-group-data-center-technician-chicago-trgs3ifre.md";
   slug: "tr-group-data-center-technician-chicago-trgs3ifre";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-data-center-technician-frisco-trg9nharj.md": {
+	id: "tr-group-data-center-technician-frisco-trg9nharj.md";
+  slug: "tr-group-data-center-technician-frisco-trg9nharj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-fiber-optic-technician-mckinney-trg90se4t.md": {
+	id: "tr-group-fiber-optic-technician-mckinney-trg90se4t.md";
+  slug: "tr-group-fiber-optic-technician-mckinney-trg90se4t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-fire-alarm-installer-san-antonio-trgsnf4zd.md": {
+	id: "tr-group-fire-alarm-installer-san-antonio-trgsnf4zd.md";
+  slug: "tr-group-fire-alarm-installer-san-antonio-trgsnf4zd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-fire-alarm-installer-waco-trghgi4mr.md": {
+	id: "tr-group-fire-alarm-installer-waco-trghgi4mr.md";
+  slug: "tr-group-fire-alarm-installer-waco-trghgi4mr";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12419,6 +13028,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"wiline-data-center-cable-tech-ankeny-wili4c9m1m.md": {
+	id: "wiline-data-center-cable-tech-ankeny-wili4c9m1m.md";
+  slug: "wiline-data-center-cable-tech-ankeny-wili4c9m1m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "wiline-data-center-cable-tech-fort-worth-wiliqbgw0w.md": {
 	id: "wiline-data-center-cable-tech-fort-worth-wiliqbgw0w.md";
   slug: "wiline-data-center-cable-tech-fort-worth-wiliqbgw0w";
@@ -12426,9 +13042,58 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"wiline-data-center-technician-gilbert-wilialexlc.md": {
+	id: "wiline-data-center-technician-gilbert-wilialexlc.md";
+  slug: "wiline-data-center-technician-gilbert-wilialexlc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-data-center-technician-littleton-wilit5g4xo.md": {
+	id: "wiline-data-center-technician-littleton-wilit5g4xo.md";
+  slug: "wiline-data-center-technician-littleton-wilit5g4xo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-data-center-technician-new-haven-wili9jvvpq.md": {
+	id: "wiline-data-center-technician-new-haven-wili9jvvpq.md";
+  slug: "wiline-data-center-technician-new-haven-wili9jvvpq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-fiber-optic-technician-dallas-wili4qbxfp.md": {
+	id: "wiline-fiber-optic-technician-dallas-wili4qbxfp.md";
+  slug: "wiline-fiber-optic-technician-dallas-wili4qbxfp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-fire-alarm-installer-bellevue-wiliqxb70p.md": {
+	id: "wiline-fire-alarm-installer-bellevue-wiliqxb70p.md";
+  slug: "wiline-fire-alarm-installer-bellevue-wiliqxb70p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "wiline-fire-alarm-tech-rancho-santa-margarita-wilijq2q62.md": {
 	id: "wiline-fire-alarm-tech-rancho-santa-margarita-wilijq2q62.md";
   slug: "wiline-fire-alarm-tech-rancho-santa-margarita-wilijq2q62";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-rack-stack-installer-jersey-city-wilin2h5if.md": {
+	id: "wiline-rack-stack-installer-jersey-city-wilin2h5if.md";
+  slug: "wiline-rack-stack-installer-jersey-city-wilin2h5if";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"wiline-rack-stack-installer-lubbock-wililtpa1k.md": {
+	id: "wiline-rack-stack-installer-lubbock-wililtpa1k.md";
+  slug: "wiline-rack-stack-installer-lubbock-wililtpa1k";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -14159,6 +14824,398 @@ declare module 'astro:content' {
   collection: "recruiting";
   data: InferEntrySchema<"recruiting">
 } & { render(): Render[".md"] };
+"georgia/atlanta/audio-visual-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/audio-visual-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/audio-visual-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/cable-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/cable-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/cable-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/controls-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/controls-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/controls-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/data-center-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/data-center-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/data-center-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/electrician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/electrician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/electrician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/fire-alarm-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/fire-alarm-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/fire-alarm-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/index.md": {
+	id: "georgia/atlanta/index.md";
+  slug: "georgia/atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/security-technician-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/security-technician-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/security-technician-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/atlanta/solar-installer-recruiting-agency-in-atlanta.md": {
+	id: "georgia/atlanta/solar-installer-recruiting-agency-in-atlanta.md";
+  slug: "georgia/atlanta/solar-installer-recruiting-agency-in-atlanta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/audio-visual-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/audio-visual-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/audio-visual-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/cable-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/cable-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/cable-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/controls-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/controls-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/controls-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/data-center-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/data-center-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/data-center-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/electrician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/electrician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/electrician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/fire-alarm-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/fire-alarm-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/fire-alarm-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/index.md": {
+	id: "georgia/augusta/index.md";
+  slug: "georgia/augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/security-technician-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/security-technician-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/security-technician-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/augusta/solar-installer-recruiting-agency-in-augusta.md": {
+	id: "georgia/augusta/solar-installer-recruiting-agency-in-augusta.md";
+  slug: "georgia/augusta/solar-installer-recruiting-agency-in-augusta";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/index.md": {
+	id: "georgia/index.md";
+  slug: "georgia";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/audio-visual-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/audio-visual-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/audio-visual-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/cable-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/cable-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/cable-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/controls-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/controls-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/controls-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/data-center-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/data-center-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/data-center-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/electrician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/electrician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/electrician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/fire-alarm-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/fire-alarm-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/fire-alarm-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/index.md": {
+	id: "georgia/savannah/index.md";
+  slug: "georgia/savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/security-technician-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/security-technician-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/security-technician-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"georgia/savannah/solar-installer-recruiting-agency-in-savannah.md": {
+	id: "georgia/savannah/solar-installer-recruiting-agency-in-savannah.md";
+  slug: "georgia/savannah/solar-installer-recruiting-agency-in-savannah";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/audio-visual-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/audio-visual-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/audio-visual-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/cable-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/cable-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/cable-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/controls-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/controls-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/controls-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/data-center-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/data-center-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/data-center-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/electrician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/electrician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/electrician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/fire-alarm-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/fire-alarm-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/fire-alarm-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/index.md": {
+	id: "massachusetts/boston/index.md";
+  slug: "massachusetts/boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/security-technician-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/security-technician-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/security-technician-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/boston/solar-installer-recruiting-agency-in-boston.md": {
+	id: "massachusetts/boston/solar-installer-recruiting-agency-in-boston.md";
+  slug: "massachusetts/boston/solar-installer-recruiting-agency-in-boston";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/index.md": {
+	id: "massachusetts/index.md";
+  slug: "massachusetts";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/audio-visual-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/audio-visual-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/audio-visual-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/cable-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/cable-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/cable-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/controls-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/controls-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/controls-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/data-center-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/data-center-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/data-center-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/electrician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/electrician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/electrician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/fire-alarm-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/fire-alarm-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/fire-alarm-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/index.md": {
+	id: "massachusetts/springfield/index.md";
+  slug: "massachusetts/springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/security-technician-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/security-technician-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/security-technician-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/springfield/solar-installer-recruiting-agency-in-springfield.md": {
+	id: "massachusetts/springfield/solar-installer-recruiting-agency-in-springfield.md";
+  slug: "massachusetts/springfield/solar-installer-recruiting-agency-in-springfield";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/audio-visual-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/audio-visual-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/audio-visual-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/cable-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/cable-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/cable-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/controls-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/controls-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/controls-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/data-center-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/data-center-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/data-center-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/electrician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/electrician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/electrician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/fire-alarm-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/fire-alarm-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/fire-alarm-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/index.md": {
+	id: "massachusetts/worcester/index.md";
+  slug: "massachusetts/worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/security-technician-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/security-technician-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/security-technician-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"massachusetts/worcester/solar-installer-recruiting-agency-in-worcester.md": {
+	id: "massachusetts/worcester/solar-installer-recruiting-agency-in-worcester.md";
+  slug: "massachusetts/worcester/solar-installer-recruiting-agency-in-worcester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
 "nevada/index.md": {
 	id: "nevada/index.md";
   slug: "nevada";
@@ -14288,6 +15345,783 @@ declare module 'astro:content' {
 "nevada/reno/solar-installer-recruiting-agency-in-reno.md": {
 	id: "nevada/reno/solar-installer-recruiting-agency-in-reno.md";
   slug: "nevada/reno/solar-installer-recruiting-agency-in-reno";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/index.md": {
+	id: "new-jersey/index.md";
+  slug: "new-jersey";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/audio-visual-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/audio-visual-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/audio-visual-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/cable-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/cable-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/cable-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/controls-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/controls-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/controls-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/data-center-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/data-center-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/data-center-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/electrician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/electrician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/electrician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/fire-alarm-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/fire-alarm-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/fire-alarm-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/index.md": {
+	id: "new-jersey/jersey-city/index.md";
+  slug: "new-jersey/jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/security-technician-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/security-technician-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/security-technician-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/jersey-city/solar-installer-recruiting-agency-in-jersey-city.md": {
+	id: "new-jersey/jersey-city/solar-installer-recruiting-agency-in-jersey-city.md";
+  slug: "new-jersey/jersey-city/solar-installer-recruiting-agency-in-jersey-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/audio-visual-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/audio-visual-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/audio-visual-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/cable-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/cable-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/cable-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/controls-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/controls-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/controls-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/data-center-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/data-center-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/data-center-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/electrician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/electrician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/electrician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/fire-alarm-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/fire-alarm-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/fire-alarm-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/index.md": {
+	id: "new-jersey/newark/index.md";
+  slug: "new-jersey/newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/security-technician-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/security-technician-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/security-technician-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-jersey/newark/solar-installer-recruiting-agency-in-newark.md": {
+	id: "new-jersey/newark/solar-installer-recruiting-agency-in-newark.md";
+  slug: "new-jersey/newark/solar-installer-recruiting-agency-in-newark";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/audio-visual-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/audio-visual-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/audio-visual-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/cable-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/cable-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/cable-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/controls-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/controls-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/controls-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/data-center-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/data-center-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/data-center-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/electrician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/electrician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/electrician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/fire-alarm-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/fire-alarm-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/fire-alarm-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/index.md": {
+	id: "new-york/albany/index.md";
+  slug: "new-york/albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/security-technician-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/security-technician-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/security-technician-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/albany/solar-installer-recruiting-agency-in-albany.md": {
+	id: "new-york/albany/solar-installer-recruiting-agency-in-albany.md";
+  slug: "new-york/albany/solar-installer-recruiting-agency-in-albany";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/audio-visual-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/audio-visual-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/audio-visual-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/cable-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/cable-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/cable-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/controls-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/controls-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/controls-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/data-center-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/data-center-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/data-center-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/electrician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/electrician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/electrician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/fire-alarm-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/fire-alarm-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/fire-alarm-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/index.md": {
+	id: "new-york/buffalo/index.md";
+  slug: "new-york/buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/security-technician-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/security-technician-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/security-technician-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/buffalo/solar-installer-recruiting-agency-in-buffalo.md": {
+	id: "new-york/buffalo/solar-installer-recruiting-agency-in-buffalo.md";
+  slug: "new-york/buffalo/solar-installer-recruiting-agency-in-buffalo";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/index.md": {
+	id: "new-york/index.md";
+  slug: "new-york";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/audio-visual-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/audio-visual-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/audio-visual-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/cable-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/cable-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/cable-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/controls-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/controls-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/controls-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/data-center-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/data-center-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/data-center-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/electrician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/electrician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/electrician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/fire-alarm-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/fire-alarm-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/fire-alarm-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/index.md": {
+	id: "new-york/new-york-city/index.md";
+  slug: "new-york/new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/security-technician-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/security-technician-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/security-technician-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/new-york-city/solar-installer-recruiting-agency-in-new-york-city.md": {
+	id: "new-york/new-york-city/solar-installer-recruiting-agency-in-new-york-city.md";
+  slug: "new-york/new-york-city/solar-installer-recruiting-agency-in-new-york-city";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/audio-visual-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/audio-visual-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/audio-visual-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/cable-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/cable-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/cable-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/controls-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/controls-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/controls-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/data-center-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/data-center-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/data-center-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/electrician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/electrician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/electrician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/fire-alarm-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/fire-alarm-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/fire-alarm-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/index.md": {
+	id: "new-york/rochester/index.md";
+  slug: "new-york/rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/security-technician-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/security-technician-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/security-technician-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/rochester/solar-installer-recruiting-agency-in-rochester.md": {
+	id: "new-york/rochester/solar-installer-recruiting-agency-in-rochester.md";
+  slug: "new-york/rochester/solar-installer-recruiting-agency-in-rochester";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/audio-visual-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/audio-visual-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/audio-visual-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/cable-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/cable-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/cable-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/controls-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/controls-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/controls-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/data-center-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/data-center-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/data-center-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/electrician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/electrician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/electrician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/fire-alarm-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/fire-alarm-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/fire-alarm-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/index.md": {
+	id: "new-york/syracuse/index.md";
+  slug: "new-york/syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/security-technician-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/security-technician-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/security-technician-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"new-york/syracuse/solar-installer-recruiting-agency-in-syracuse.md": {
+	id: "new-york/syracuse/solar-installer-recruiting-agency-in-syracuse.md";
+  slug: "new-york/syracuse/solar-installer-recruiting-agency-in-syracuse";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/audio-visual-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/audio-visual-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/audio-visual-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/cable-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/cable-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/cable-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/controls-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/controls-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/controls-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/data-center-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/data-center-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/data-center-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/electrician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/electrician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/electrician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/fire-alarm-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/fire-alarm-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/fire-alarm-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/index.md": {
+	id: "north-carolina/charlotte/index.md";
+  slug: "north-carolina/charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/security-technician-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/security-technician-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/security-technician-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/charlotte/solar-installer-recruiting-agency-in-charlotte.md": {
+	id: "north-carolina/charlotte/solar-installer-recruiting-agency-in-charlotte.md";
+  slug: "north-carolina/charlotte/solar-installer-recruiting-agency-in-charlotte";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/audio-visual-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/audio-visual-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/audio-visual-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/cable-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/cable-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/cable-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/controls-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/controls-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/controls-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/data-center-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/data-center-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/data-center-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/electrician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/electrician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/electrician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/fire-alarm-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/fire-alarm-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/fire-alarm-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/index.md": {
+	id: "north-carolina/durham/index.md";
+  slug: "north-carolina/durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/security-technician-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/security-technician-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/security-technician-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/durham/solar-installer-recruiting-agency-in-durham.md": {
+	id: "north-carolina/durham/solar-installer-recruiting-agency-in-durham.md";
+  slug: "north-carolina/durham/solar-installer-recruiting-agency-in-durham";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/audio-visual-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/audio-visual-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/audio-visual-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/cable-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/cable-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/cable-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/controls-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/controls-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/controls-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/data-center-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/data-center-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/data-center-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/electrician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/electrician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/electrician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/fire-alarm-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/fire-alarm-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/fire-alarm-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/index.md": {
+	id: "north-carolina/greensboro/index.md";
+  slug: "north-carolina/greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/security-technician-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/security-technician-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/security-technician-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/greensboro/solar-installer-recruiting-agency-in-greensboro.md": {
+	id: "north-carolina/greensboro/solar-installer-recruiting-agency-in-greensboro.md";
+  slug: "north-carolina/greensboro/solar-installer-recruiting-agency-in-greensboro";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/index.md": {
+	id: "north-carolina/index.md";
+  slug: "north-carolina";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/audio-visual-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/audio-visual-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/audio-visual-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/cable-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/cable-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/cable-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/controls-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/controls-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/controls-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/data-center-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/data-center-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/data-center-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/electrician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/electrician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/electrician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/fire-alarm-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/fire-alarm-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/fire-alarm-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/index.md": {
+	id: "north-carolina/raleigh/index.md";
+  slug: "north-carolina/raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/security-technician-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/security-technician-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/security-technician-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/raleigh/solar-installer-recruiting-agency-in-raleigh.md": {
+	id: "north-carolina/raleigh/solar-installer-recruiting-agency-in-raleigh.md";
+  slug: "north-carolina/raleigh/solar-installer-recruiting-agency-in-raleigh";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/audio-visual-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/audio-visual-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/audio-visual-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/cable-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/cable-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/cable-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/controls-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/controls-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/controls-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/data-center-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/data-center-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/data-center-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/electrician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/electrician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/electrician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/fire-alarm-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/fire-alarm-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/fire-alarm-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/index.md": {
+	id: "north-carolina/winston-salem/index.md";
+  slug: "north-carolina/winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/security-technician-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/security-technician-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/security-technician-recruiting-agency-in-winston-salem";
+  body: string;
+  collection: "recruiting";
+  data: InferEntrySchema<"recruiting">
+} & { render(): Render[".md"] };
+"north-carolina/winston-salem/solar-installer-recruiting-agency-in-winston-salem.md": {
+	id: "north-carolina/winston-salem/solar-installer-recruiting-agency-in-winston-salem.md";
+  slug: "north-carolina/winston-salem/solar-installer-recruiting-agency-in-winston-salem";
   body: string;
   collection: "recruiting";
   data: InferEntrySchema<"recruiting">

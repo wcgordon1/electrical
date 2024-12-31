@@ -28,14 +28,14 @@ topEmployers:
 ### Market Overview
 The market for General Electrical's job role in Denver, Colorado is currently booming. With a growing economy, the need for skilled General Electricians is on the rise.
 
-### Critical Role for General Electricals
+### Critical Role for General Electricians
 This role is critical due to Denver's development projects that require robust electrical infrastructure. As such, competent General Electricians are a must-have for the continued growth of the city.
 
-### Hiring Challenges for General Electricals in Denver
+### Hiring Challenges for General Electricians in Denver
 Challenges in hiring General Electricians in Denver include the high demand for skilled trade workers and the relative shortage of many electricians. Besides, the varying laws and regulations related to electrical work across different city precincts can create some confusion.
 
 ### Our Process
 Our recruitment process involves a detailed assessment of a candidate's skills, experience, and certifications relevant to the role. This is to ensure we recruit the best talent who can uphold the high-quality service expected of General Electricians in Denver.
 
-### Success Metrics for General Electricals in Denver
+### Success Metrics for General Electricians in Denver
 Our success metrics are based on the timely placement of suitable candidates, the percentage of placements that become long-term hires, and the consistent satisfaction of employers with the quality of our candidates.

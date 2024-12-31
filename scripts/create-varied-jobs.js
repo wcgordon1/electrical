@@ -18,113 +18,113 @@ const openai = new OpenAI({
 });
 
 const JOB_TYPES = {
-  'Electrician': {
-minValue: 22,
-maxValue: 30,
-experienceLevel: 'entryLevel',
-category: 'Apprentice',
-team: 'Industrial',
-yearsExperience: '1-3',
-responsibilities: 'Install and terminate 480V 3-phase power distribution systems, perform precise conduit bending for complex industrial applications, assist with VFD and motor control installations, conduct preventive maintenance on manufacturing equipment, use digital multimeters and meggars for testing, maintain detailed maintenance logs, assist with PLC cabinet assembly, follow confined space and elevated work procedures, support production equipment installations',
-qualifications: 'OSHA-30 certification, ability to read and interpret industrial electrical blueprints and P&IDs, demonstrated knowledge of motor control circuits, experience with conduit bending machines up to 2", proficiency with digital testing equipment, strong mathematical skills for load calculations, ability to use hand and power tools safely, understanding of industrial network infrastructure',
-prompt: 'Create a job description for an Industrial Apprentice Electrician focused on automated manufacturing systems. Must understand 3-phase power distribution, VFD programming basics, and industrial control systems. Experience with Fluke meters, conduit bending equipment, and cable termination tools required. Must have Electrical Apprentice License, OSHA-30, Arc Flash awareness, confined space, and First Aid/CPR certifications. Knowledge of industrial safety protocols, P&ID interpretation, and control panel layout essential. Position involves working in active manufacturing environments, understanding automated systems, and maintaining detailed documentation. Physical requirements include lifting 75+ lbs, working from heights, and maneuvering in tight spaces. Must be able to work rotating shifts and respond to emergency maintenance calls.'
-},
-'Industrial Electrician': {
-minValue: 38,
-    maxValue: 42,
+  'Commercial Electrician': {
+    minValue: 35,
+    maxValue: 40,
     experienceLevel: 'midLevel',
-category: 'Journeyman',
-team: 'Industrial',
-yearsExperience: '5+',
-responsibilities: 'Program and troubleshoot Allen Bradley and Siemens PLCs, commission automated production lines, perform root cause analysis on system failures, implement predictive maintenance programs using vibration analysis and thermal imaging, design and install complex motor control circuits, manage electrical spare parts inventory, train apprentices on industrial systems, coordinate with equipment manufacturers for complex repairs, develop standard operating procedures for maintenance tasks, perform power quality analysis and harmonic mitigation',
-qualifications: 'Advanced certification in Allen Bradley and Siemens PLC programming, demonstrated experience with industrial networking protocols (EtherNet/IP, Profibus), expertise in VFD programming and troubleshooting, proficiency with thermal imaging and vibration analysis equipment, ability to read and create AutoCAD electrical drawings, experience with SCADA systems and HMI programming, proven leadership skills in maintenance environment, understanding of IEEE standards for industrial power quality',
-prompt: 'Create a job description for an Industrial Manufacturing Electrician specializing in automation and process control. Must be expert in PLC programming, SCADA systems, and predictive maintenance technologies. Experience with multiple industrial networking protocols, servo systems, and robotics required. Must have Journeyman License, OSHA-30, Arc Flash, forklift, and aerial lift certifications. Strong background in power quality analysis, harmonic mitigation, and industrial network architecture essential. Position involves leading maintenance teams, developing training programs, and implementing reliability improvements. Must understand FDA/OSHA/EPA compliance requirements for manufacturing facilities. Experience with predictive maintenance technologies including thermal imaging and vibration analysis required. Role includes managing critical spare parts inventory and vendor relationships. On-call rotation for 24/7 manufacturing support required.'
-},
-'Commercial Electrician': {
-minValue: 34,
-maxValue: 38,
-experienceLevel: 'midLevel',
-category: 'Journeyman',
-team: 'Commercial',
+    category: 'Journeyman',
+    team: 'Commercial',
     yearsExperience: '3-5',
-responsibilities: 'Design and install complete electrical systems for commercial construction, calculate voltage drop and load requirements, coordinate with BIM modeling teams for conflict resolution, supervise prefabrication of electrical assemblies, implement complex lighting control systems, install and program fire alarm systems, manage material logistics for large projects, coordinate overhead rough-in with mechanical trades, perform startup and commissioning of building systems, mentor apprentices in commercial installation techniques',
-qualifications: 'Journeyman License, extensive experience with lighting control systems (DALI, DMX), proven expertise in fire alarm installation and programming, demonstrated ability with BIM software for coordination, advanced knowledge of emergency power systems, certification in multiple lift equipment types, strong project management and leadership skills, experience with green building requirements and energy codes',
-prompt: 'Create a job description for a Commercial Construction Electrician specializing in large-scale new construction. Must understand complete building electrical systems including emergency power, lighting controls, and building automation integration. Experience with BIM coordination, prefabrication techniques, and project management required. Must have Journeyman License, OSHA-30, multiple equipment certifications including boom lift, scissor lift, and powder-actuated tools. Knowledge of current energy codes, DALI/DMX lighting controls, and fire alarm programming essential. Position involves managing complex installations, coordinating with multiple trades, and mentoring apprentices. Must understand green building requirements, power monitoring systems, and emergency power design. Role includes material management, crew leadership, and quality control. Some travel between project sites required. Physical requirements include working at heights, coordinating overhead installation, and operating material handling equipment.'
-},
-'Service Electrician': {
-minValue: 35,
-maxValue: 40,
-    experienceLevel: 'seniorLevel',
-category: 'Journeyman',
-team: 'Commercial',
-yearsExperience: '7+',
-responsibilities: 'Perform advanced electrical system diagnostics using power quality analyzers, thermal imaging, and oscilloscopes, troubleshoot building automation system integration issues, design and implement power factor correction solutions, diagnose and repair complex lighting control systems, manage emergency power system testing and maintenance, develop maintenance programs for critical facilities, provide detailed repair documentation and recommendations, train facility staff on proper electrical system operation, coordinate with utilities on service upgrades, perform arc flash assessments and labeling',
-qualifications: 'Journeyman License with master electrician preferred, advanced certifications in power quality analysis, extensive experience with thermal imaging and diagnostic equipment, proven expertise in critical power systems, demonstrated ability in customer relationship management, advanced troubleshooting skills across multiple systems and manufacturers, certification in building automation systems, experience with arc flash studies and safety program development',
-prompt: 'Create a job description for a Senior Service Electrician specializing in critical facilities and power quality. Expert in advanced diagnostics, power monitoring systems, and building automation integration. Must have Journeyman License, advanced power quality certification, and proven experience with diagnostic equipment including power analyzers, thermal cameras, and oscilloscopes. Experience managing critical facility maintenance, performing arc flash studies, and developing site-specific safety procedures required. Position involves being primary technical resource for complex electrical issues, developing maintenance programs, and training facility personnel. Must understand backup power systems, power factor correction, and harmonic mitigation. Role includes managing service contracts, performing power quality surveys, and documenting system improvements. Territory covers major metropolitan area with focus on critical facilities including data centers and healthcare. Emergency response required for critical systems.'
+    responsibilities: 'Install and maintain commercial security systems, program access control and surveillance equipment, configure IP camera networks and VLANs, implement cybersecurity measures for security networks, manage credential databases, coordinate with IT teams for network integration, supervise installation of biometric devices, perform system health monitoring, document system configurations, train end users on security platforms, maintain detailed testing records, integrate with building automation systems',
+    qualifications: 'Security+ certification preferred, extensive experience with VMS platforms, proven expertise in access control systems, demonstrated ability with IP networking, advanced knowledge of cybersecurity protocols, certification in security system programming, strong IT and database management skills, experience with enterprise security architecture, clean background check required',
+    prompt: 'Create a job description for a Commercial Security Systems Specialist focusing on enterprise-level integrated security solutions. Must understand complete security infrastructure including surveillance, access control, and intrusion detection. Experience with network architecture, cybersecurity, and system programming required. Must have Security+, ESA Level 1, and government clearance eligibility. Knowledge of IT security, cloud platforms, and database management essential. Position involves designing and implementing comprehensive security solutions, managing enterprise databases, and coordinating with IT teams. Must understand VLANs, QoS, and network protocols for security applications. Role includes system health monitoring, documentation maintenance, and end-user training. Some projects require after-hours support and maintenance windows. Physical requirements include ladder work, cable installation, and equipment mounting.'
 },
 'Security Technician': {
-minValue: 24,
-maxValue: 32,
-experienceLevel: 'entryLevel',
-category: 'Security',
-team: 'Commercial',
-yearsExperience: '1-3',
-responsibilities: 'Design and implement enterprise-level security systems, configure IP camera networks including VLANs and QoS settings, program access control databases and credential management systems, install biometric security devices, configure cloud-based security platforms, perform system health monitoring and maintenance, integrate security systems with building automation, implement cybersecurity best practices for security networks, maintain detailed system documentation and drawings, provide end-user training on system operation',
-qualifications: 'ESA Level 1 certification, CompTIA Security+ preferred, demonstrated experience with enterprise video management systems, strong understanding of IP networking and cybersecurity, proficiency in access control database management, experience with biometric security systems, knowledge of structured cabling standards, proven customer service skills, clean background check with ability to obtain government clearance',
-prompt: 'Create a job description for an Enterprise Security Systems Technician specializing in integrated security solutions. Must understand enterprise security architecture including video surveillance, access control, and intrusion detection systems. Experience with major VMS platforms, IP networking, and cybersecurity best practices required. Must have ESA Level 1, Security+, OSHA-10, and clean background check. Knowledge of IT security, cloud platforms, and system health monitoring essential. Position involves designing and implementing complete security solutions including cameras, access control, and visitor management systems. Must understand network architecture, VLANs, and QoS for security applications. Role includes maintaining enterprise security databases, performing system health checks, and providing detailed documentation. Some projects may require government security clearance. After-hours support for system maintenance required.'
+    minValue: 28,
+    maxValue: 36,
+    experienceLevel: 'entryLevel',
+    category: 'Security',
+    team: 'Commercial',
+    yearsExperience: '1-3',
+    responsibilities: 'Install and certify structured cabling systems, perform fiber optic terminations and testing, implement data center cable management, coordinate pathway installations, maintain clean room protocols, operate cable certification equipment, install overhead cable tray systems, document testing results and warranties, perform high-density rack cabling, maintain separation in hot aisle/cold aisle environments, ensure compliance with data center standards',
+    qualifications: 'BICSI Installer 1 certification required, demonstrated experience with structured cabling systems, proficiency in fiber optic installation, expertise with cable testing equipment, knowledge of data center infrastructure, experience with documentation systems, understanding of TIA standards, proven technical documentation skills, ability to read and create cable drawings',
+    prompt: 'Create a job description for a Data Center Infrastructure Technician specializing in critical facility cabling. Must understand structured cabling systems, fiber optics, and data center standards. Experience with high-density installations, testing procedures, and documentation required. BICSI Installer 1 certification, OSHA-10, and clean room experience required. Knowledge of cable testing, pathway requirements, and infrastructure design essential. Position involves installing and certifying enterprise cabling systems in mission-critical environments. Must understand fiber optic technologies, cable management best practices, and testing protocols. Role includes maintaining detailed documentation, warranty records, and test results. Some projects require off-hours work in active facilities. Physical requirements include working in confined spaces and managing hot/cold aisle environments.'
 },
 'Cable Installer': {
-minValue: 20,
-maxValue: 28,
-experienceLevel: 'entryLevel',
-category: 'Voice Data',
-team: 'Commercial',
-yearsExperience: '1-5',
-responsibilities: 'Design and install structured cabling systems for data centers and enterprise networks, perform high-density fiber optic cable installations, certify cabling systems using advanced test equipment, implement proper cable management in network rooms, terminate and test high-speed copper and fiber connections, maintain detailed testing documentation and warranties, coordinate pathway installation with other trades, perform data center hot aisle/cold aisle separation, install overhead cable tray and ladder rack systems, maintain clean room protocols for sensitive environments',
-qualifications: 'BICSI Installer 1 certification required, Installer 2 preferred, demonstrated experience with fiber optic installation and testing, proficiency with multiple certification testers, understanding of data center design principles, experience with cable management systems and pathways, knowledge of clean room procedures, ability to read and create cable installation drawings, understanding of network hardware requirements',
-prompt: 'Create a job description for a Data Center Cable Installation Technician specializing in mission-critical facilities. Must understand data center infrastructure including structured cabling, fiber optics, and cooling separation. Experience with high-density cable installation, advanced testing equipment, and documentation systems required. BICSI Installer 1 required, Installer 2 preferred, plus OSHA-10 certification. Knowledge of TIA-942 data center standards, cable testing procedures, and clean room protocols essential. Position involves installing and certifying high-performance cabling systems in critical environments. Must understand fiber optic installation, proper cable management, and pathway requirements. Role includes maintaining detailed test results, warranty documentation, and as-built drawings. Some projects require off-hours work in active data centers. Physical requirements include working in confined spaces and hot/cold aisle environments.'
-},
-'Residential Apprentice': {
-minValue: 20,
-maxValue: 24,
-experienceLevel: 'entryLevel',
-category: 'Apprentice',
-team: 'Residential',
-yearsExperience: '0-1',
-responsibilities: 'Learn residential electrical installation techniques including load calculations and circuit design, assist with smart home technology installation, install structured wiring systems for modern homes, learn energy efficient lighting design, assist with solar system installation and energy storage systems, install whole-house surge protection, learn proper crimping and termination techniques, assist with troubleshooting using digital meters, maintain material inventory and job site organization, document installation progress and changes',
-qualifications: 'High school diploma/GED with strong math skills, enrolled in approved apprenticeship program, basic understanding of construction methods, ability to read and interpret residential blueprints, basic computer skills for documentation, valid drivers license with clean record, physical ability to work in confined spaces, good color vision for wire identification, basic hand tools required',
-prompt: 'Create a job description for a Modern Residential Apprentice Electrician focusing on smart home technology and energy efficiency. Entry-level position learning advanced residential electrical systems including smart home integration, renewable energy, and structured wiring. Must be enrolled in or eligible for state-approved apprenticeship program. Basic understanding of technology and building construction preferred. Must have reliable transportation and basic hand tools. Position involves learning modern home electrical systems including smart devices, home networks, and energy management. Will work directly with experienced electricians learning proper installation methods, system programming, and energy efficient design. Physical requirements include working in confined spaces, attics, and crawl spaces. Must be able to work full-time while attending required apprenticeship classes. Weekend work may be required for system programming and testing.'
-},
-'Residential Electrician': {
-minValue: 18,
-maxValue: 24,
-experienceLevel: 'entryLevel',
-category: 'Apprentice',
-team: 'Residential',
-yearsExperience: '1-2',
-responsibilities: 'Install and program sophisticated home automation systems, integrate lighting control with voice activation and mobile apps, configure whole-house audio/video systems, implement automated shade control, program security and access control integration, install energy monitoring systems, configure home network infrastructure, install and maintain backup power systems, document system configurations and user settings, provide client training on system operation, maintain detailed service records for luxury properties',
-qualifications: 'Strong technology aptitude with home automation experience, certification in major control systems (Lutron, Control4, etc.), understanding of residential networking and Wi-Fi systems, proven experience with high-end finishes and materials, excellent customer service skills, professional appearance and communication ability, experience with energy management systems, clean background check and drug screening required, valid drivers license with clean record',
-prompt: 'Create a job description for a Luxury Home Technology Specialist focusing on complete home automation and energy management. Must have extensive knowledge of smart home systems including lighting control, automated shading, and whole-house integration. Experience with major automation platforms, energy monitoring, and backup power systems required. Position involves programming and maintaining sophisticated control systems in luxury residences. Must maintain highest level of professionalism when working in multi-million dollar homes. Knowledge of residential networks, Wi-Fi systems, and cybersecurity essential. Role includes system programming, client training, and maintaining detailed documentation. Must be comfortable working around expensive furnishings and maintaining client confidentiality. After-hours and weekend work required for system maintenance and updates. Career path leads to home automation system designer and project manager. Clean background check, drug screening, and professional appearance required.'
+    minValue: 20,
+    maxValue: 30,
+    experienceLevel: 'entryLevel',
+    category: 'Voice Data',
+    team: 'Commercial',
+    yearsExperience: '1-5',
+    responsibilities: 'Assist with electrical system installations, learn commercial wiring methods, support power distribution projects, help with lighting control programming, install conduit and cable pathways, maintain material inventory, operate lift equipment under supervision, assist with fire alarm installation, document daily work activities, support panel installation and testing, learn building automation basics, coordinate with other trades',
+    qualifications: 'High school diploma/GED required, enrollment in apprenticeship program, basic electrical knowledge, ability to read construction drawings, proficiency with hand tools, valid driver license, physical ability to lift heavy materials, good communication skills, basic computer proficiency, commitment to ongoing education',
+    prompt: 'Create a job description for an Electrical Construction Apprentice focusing on commercial projects. Entry-level position learning electrical installation including distribution systems, lighting controls, and life safety. Must be enrolled in state-approved apprenticeship program. Basic construction experience helpful but not required. Position involves learning commercial electrical methods including conduit installation, wire pulling, and equipment mounting. Will work under journeyman supervision learning proper techniques, blueprint reading, and safety procedures. Must have basic hand tools and reliable transportation. Role includes material handling, documentation, and coordination with other trades. Physical requirements include ladder work, lift operation, and material movement. Must balance full-time work with required apprenticeship classes. Position offers exposure to various commercial projects and advancement opportunities. Weekend work possible during critical phases. Clean background check and drug test required.'
 },
 'Commercial Apprentice': {
-minValue: 18,
-maxValue: 24,
-experienceLevel: 'entryLevel',
-category: 'Apprentice',
-team: 'Commercial',
-yearsExperience: '0-3',
-responsibilities: 'Assist with installation of commercial electrical systems including power distribution, lighting controls, and fire alarm systems, learn conduit bending and installation techniques for EMT and rigid conduit, help with wire pulling and termination in electrical rooms, support panel installation and circuit identification, assist with lighting fixture installation and controls programming, learn building automation system basics, help with emergency lighting installation and testing, maintain material inventory and job site organization, document daily work progress, operate aerial lifts and scaffolding under supervision, assist with blueprint reading and layout',
-qualifications: 'High school diploma/GED with strong math skills, enrolled in state-approved electrical apprenticeship program, basic understanding of electrical theory, ability to read basic blueprints and construction drawings, proficiency with hand tools and power tools, valid drivers license with clean record, ability to lift 50+ pounds regularly, good communication skills for job site coordination, basic computer skills for documentation, willingness to attend required training classes',
-prompt: 'Create a job description for a Commercial Construction Apprentice Electrician focusing on new construction and tenant improvement projects. Entry-level position learning commercial electrical installation including power distribution, lighting systems, and life safety. Must be enrolled in or eligible for state-approved apprenticeship program. Basic construction experience preferred but not required. Position involves learning commercial construction methods including conduit installation, wire pulling, and equipment mounting. Will work directly with journeyman electricians learning proper installation techniques, blueprint reading, and safety procedures. Must have basic hand tools and transportation. Role includes material handling, learning layout techniques, and maintaining documentation. Physical requirements include climbing ladders, working from lifts, and moving heavy materials. Must be able to work full-time while attending required apprenticeship classes. Position offers exposure to various aspects of commercial construction including office buildings, retail spaces, and industrial facilities. Opportunity for advancement to commercial journeyman role. Weekend work may be required during critical project phases. Clean background check and drug screening required.'
+    minValue: 18,
+    maxValue: 25,
+    experienceLevel: 'entryLevel',
+    category: 'Apprentice',
+    team: 'Commercial',
+    yearsExperience: '0-3',
+    responsibilities: 'Design and install complete electrical systems, calculate load requirements, coordinate with BIM teams, supervise installation crews, implement lighting control systems, manage project material logistics, perform system commissioning, install emergency power systems, coordinate with mechanical trades, program building automation interfaces, mentor junior technicians',
+    qualifications: 'Journeyman electrical license, experience with BIM coordination, expertise in lighting controls, proven project management skills, certification for multiple lift types, strong leadership abilities, knowledge of energy codes, proficiency with building automation systems, demonstrated safety management skills',
+    prompt: 'Create a job description for a Lead Commercial Electrician specializing in large-scale construction projects. Must understand complete building systems including power distribution, controls, and automation. Experience with project management, BIM coordination, and crew supervision required. Must have Journeyman License, OSHA-30, and equipment certifications. Knowledge of energy codes, control systems, and emergency power essential. Position involves managing complex installations, coordinating multiple trades, and mentoring team members. Must understand green building requirements, system integration, and commissioning procedures. Role includes material management, quality control, and project documentation. Travel between sites required. Physical requirements include working at heights, coordinating installations, and operating equipment.'
+},
+'Data Center Technician': {
+    minValue: 28,
+    maxValue: 36,
+    experienceLevel: 'midLevel',
+    category: 'DataCenter',
+    team: 'Commercial',
+    yearsExperience: '3-5',
+    responsibilities: 'Monitor and maintain critical data center infrastructure, perform server installations and decommissions, manage cable plant documentation, implement hot/cold aisle containment, coordinate maintenance windows, perform power circuit installations, maintain battery backup systems, monitor environmental controls, execute change management procedures, manage equipment lifecycle, perform network hardware installations, maintain security protocols',
+    qualifications: 'BICSI Data Center Technician certification preferred, experience with critical infrastructure management, experience dressing and terminating cables, demonstrated ability with DCIM systems, strong documentation skills, experience with change management procedures, clean background check required',
+    prompt: 'Create a job description for a Data Center Operations Technician specializing in critical facility management. Must understand complete data center infrastructure including power, cooling, and monitoring systems. Experience with server deployment, maintenance procedures, and documentation required. Must have CDCMP, OSHA-30, and ability to obtain security clearance. Knowledge of DCIM platforms, environmental monitoring, and maintenance procedures essential. Position involves managing critical systems, coordinating maintenance activities, and maintaining facility documentation. Must understand power distribution, cooling dynamics, and security protocols. Role includes equipment lifecycle management, change control, and procedure documentation. Position requires 24/7 on-call rotation. Physical requirements include lifting server equipment, working in confined spaces, and managing critical infrastructure.'
+},
+'Rack Stack Installer': {
+    minValue: 19,
+    maxValue: 25,
+    experienceLevel: 'entryLevel',
+    category: 'DataCenter',
+    team: 'Commercial',
+    yearsExperience: '1-3',
+    responsibilities: 'Install and configure server rack infrastructure, perform structured cabling installations, implement cable management systems, mount network equipment, install power distribution units, coordinate equipment deployments, maintain rack documentation, perform hardware inventory management, execute rack and stack procedures, implement labeling systems, maintain clean room protocols, coordinate with network teams',
+    qualifications: 'Experience with rack and stack procedures, proficiency in structured cabling, expertise with mounting systems, knowledge of power distribution, experience with inventory systems, understanding of network hardware, proven attention to detail, ability to read technical documentation',
+    prompt: 'Create a job description for a Data Center Rack Infrastructure Specialist focusing on equipment deployment. Must understand rack systems, power distribution, and cable management. Experience with hardware installation, structured cabling, and documentation required. BICSI certification and clean room experience preferred. Knowledge of mounting systems, inventory management, and deployment procedures essential. Position involves installing and configuring rack infrastructure in critical environments. Must understand power distribution, cable management best practices, and equipment specifications. Role includes maintaining detailed documentation, coordinating deliveries, and managing inventory. Work requires off-hours maintenance windows. Physical requirements include heavy lifting, detailed mechanical work, and extended periods in data center environments.'
+},
+'Fiber Optic Technician': {
+    minValue: 32,
+    maxValue: 46,
+    experienceLevel: 'midLevel',
+    category: 'Fiber',
+    team: 'Commercial',
+    yearsExperience: '2-5',
+    responsibilities: 'Design and implement fiber optic networks, perform fusion splicing operations, test and certify fiber installations, maintain splice documentation, install fiber distribution systems, configure DWDM systems, perform OTDR testing, implement fiber management systems, coordinate pathway installations, maintain clean work environment, perform emergency restoration, train junior technicians',
+    qualifications: 'FOA certification required, extensive experience with fusion splicing, proven expertise in OTDR testing, demonstrated ability with fiber management systems, advanced knowledge of fiber types, certification in multiple splice platforms, strong troubleshooting skills, experience with documentation systems, proven emergency response experience',
+    prompt: 'Create a job description for a Fiber Optic Network Specialist specializing in enterprise fiber systems. Must understand complete fiber infrastructure including single-mode, multi-mode, and DWDM systems. Experience with fusion splicing, OTDR testing, and emergency restoration required. Must have FOA certification, OSHA-10, and splice platform certifications. Knowledge of fiber types, testing procedures, and documentation essential. Position involves designing and implementing fiber networks, performing precision splicing, and maintaining detailed records. Must understand loss budgets, fiber management, and testing protocols. Role includes emergency response, system certification, and mentoring junior technicians. Some projects require after-hours emergency response. Physical requirements include performing precise hand work, climbing ladders, and working in confined spaces.'
+},
+'Data Center Cable Tech': {
+   minValue: 25,
+   maxValue: 33,
+   experienceLevel: 'entryLevel',
+   category: 'Voice Data',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install and dress Category 6/6A cabling systems, terminate copper and fiber connections, maintain proper cable management in server racks, install overhead cable tray and ladder rack, perform cable testing and certification, document test results and warranties, maintain clean room protocols, organize patch panel layouts, implement proper cable routing and separation, assist with fiber trunk installation, maintain detailed labeling systems',
+   qualifications: 'BICSI Installer 1 preferred, experience with structured cabling systems, proficiency in cable termination techniques, knowledge of testing procedures, understanding of cable management best practices, ability to read network drawings, experience with labeling systems, attention to detail, basic understanding of network hardware',
+   prompt: 'Create a job description for a Data Center Cable Technician focusing on structured cabling installation. Must understand cable management, termination standards, and testing procedures. Experience with Cat 6/6A installation, rack management, and documentation required. BICSI certification preferred but not required. Knowledge of cable testing, proper dressing techniques, and labeling standards essential. Position involves installing and certifying copper/fiber cabling in data center environments. Must understand proper routing, separation requirements, and rack management. Role includes maintaining test documentation, as-built records, and warranty information. Some projects require off-hours maintenance windows. Physical requirements include ladder work, extended periods of cable termination, and working in active data centers. Must follow clean room protocols and maintain organized work areas. Position offers exposure to enterprise data center environments and advancement opportunities. Weekend work possible during maintenance windows. Clean background check required.'
+},
+'Fire Alarm Installer': {
+   minValue: 22,
+   maxValue: 30,
+   experienceLevel: 'entryLevel',
+   category: 'Fire Alarm',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install fire alarm control panels and devices, pull and terminate fire alarm cable, mount notification appliances and initiation devices, assist with system programming and testing, maintain detailed point-to-point wiring documentation, coordinate with other trades for device placement, perform pre-wire and trim-out phases, install conduit and cable pathways, troubleshoot system wiring issues, maintain proper color coding and labeling, assist with final testing and inspections',
+   qualifications: 'Experience with commercial fire alarm systems, proficiency in blueprint reading, knowledge of NFPA 72 requirements, understanding of fire alarm circuit types, experience with basic programming, ability to use multimeter and testing equipment, attention to detail for documentation, understanding of voltage drop calculations, good communication skills for coordination',
+   prompt: 'Create a job description for a Fire Alarm Installation Technician focusing on commercial new construction projects. Must understand fire alarm system installation including control panels, initiating devices, and notification appliances. Experience with fire alarm cable installation, device mounting, and basic programming preferred. NICET certification helpful but not required. Knowledge of NFPA 72, circuit types, and testing procedures essential. Position involves installing complete fire alarm systems in commercial buildings. Must understand proper wiring methods, device placement, and documentation requirements. Role includes maintaining detailed wiring records, coordinating with inspectors, and performing system testing. Some projects require working around other trades in active construction sites. Physical requirements include ladder work, cable pulling, and device mounting. Must be able to read blueprints and understand sequence of operations. Position offers exposure to various system types and advancement opportunities. Weekend work possible during critical testing phases. Clean background check and drug screening required.'
 }
 };
 
 const PROMPT_STYLES = {
-  'conversational': 'Make this job description friendly and conversational, using casual language while maintaining professionalism. Use "you" and "we" to speak directly to the candidate. Randomly select which requirement and certs are necessary for the role.',
-  'formal': 'Write this job description in a formal, traditional corporate style with clear sections and bullet points. Randomly select which requirement and certs are necessary for the role.',
-  'detailed': 'Create a comprehensive and detailed job description with specific examples and clear expectations for each responsibility. Randomly select which requirement and certs are necessary for the role.',
-  'concise': 'Write a clear and concise job description focusing on key requirements and essential responsibilities. Randomly select which requirement and certs are necessary for the role.',
-  'engaging': 'Create an engaging and energetic job description that excites potential candidates while highlighting growth opportunities. Randomly select which requirement and certs are necessary for the role.'
+  'conversational': 'Make this job description friendly and conversational, using casual language while maintaining professionalism. Use "you" and "we" to speak directly to the candidate.',
+  'formal': 'Write this job description in a formal, traditional corporate style with clear sections and bullet points.',
+  'detailed': 'Create a comprehensive and detailed job description with specific examples and clear expectations for each responsibility. Make up more responsibilites than the job description already has.',
+  'concise': 'Write a clear and concise job description focusing on key requirements and essential responsibilities. Remove some of the qualifications from the job description.',
+  'engaging': 'Create an engaging and energetic job description that excites potential candidates while highlighting growth opportunities.'
 };
 
 const DESCRIPTION_LENGTHS = {
@@ -134,250 +134,179 @@ const DESCRIPTION_LENGTHS = {
 };
 
 const COMPANIES = {
-  'Kirby Electric': {
-    name: 'Kirby Electric',
-    sameAs: 'https://kirbyelectric.com/',
-    logo: 'https://kirbyelectric.com/wp-content/uploads/2023/03/kirby_logo.png'
+  'Staley Technologies': {
+    name: 'Staley Technologies',
+    sameAs: 'https://staleytechnologies.com/',
+    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
   },
-  'Myro Electrical': {
-    name: 'Myro Electrical',
-    sameAs: 'https://myroelectrical.com/',
-    logo: 'https://images.squarespace-cdn.com/content/v1/6441d6a8c943293c268b4359/7b2478ca-3514-499f-80c1-3a92bb142f0c/curve__1_-removebg-preview.png?format=1500w'
+  'M3 Technology': {
+    name: 'M3 Technology',
+    sameAs: 'https://m3tc.com/',
+    logo: 'https://m3tc.com/wp-content/uploads/2020/09/m3svg2.svg'
   },
-  'Berks Electrical': {
-    name: 'Berks Electrical',
-    sameAs: 'https://berkselectrical.com/',
-    logo: 'https://berkselectrical.com/wp-content/uploads/2022/03/berk-logo.jpg'
+  'TR Group': {
+    name: 'TR Group',
+    sameAs: 'https://www.trgroup.com/',
+    logo: 'https://www.trgroup.com/wp-content/uploads/2022/04/TR-Group-Logo.png'
   },
-  'Tech Electronics': {
-    name: 'Tech Electronics',
-    sameAs: 'https://www.techelectronics.com/',
-    logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
+  'Mirapath': {
+    name: 'Mirapath',
+    sameAs: 'https://www.mirapath.com/',
+    logo: 'https://mirapath.com/wp-content/uploads/2016/12/s5_logo-cropped.png'
   },
-  'Oak Electrical': {
-    name: 'Oak Electrical',
-    sameAs: 'https://oakelectriccompany.com/',
-    logo: 'https://oakelectriccompany.com/wp-content/uploads/2017/04/logoNav-for-web.png'
+  'InScope': {
+    name: 'InScope',
+    sameAs: 'https://www.inscopecom.com/',
+    logo: 'https://lirp.cdn-website.com/413e02695b2643da8d26d40ae7573b8d/dms3rep/multi/opt/Inscope+logo+for+website-a85d3781-1920w.png'
   },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
+  'Integra Electrical': {
+    name: 'Integra Electrical',
+    sameAs: 'https://www.integraelectrical.co/',
+    logo: 'https://www.integraelectrical.co/images/logos/Logo2.2403050635216.png'
   },
-  'Reliable Electric': {
-    name: 'Reliable Electric',
-    sameAs: 'https://reliable-contractors.com/',
-    logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
+  'Enhanced Voice & Data': {
+    name: 'Enhanced Voice & Data',
+    sameAs: 'https://www.evdnetworks.com/',
+    logo: 'https://le-cdn.hibuwebsites.com/96e0889d6ad24d76868742b04ea19ca4/dms3rep/multi/opt/enhanced-voice-and-data-networks-logo-530w.jpg'
   },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
+  'Inc Installs': {
+    name: 'Inc Installs',
+    sameAs: 'https://www.inc-installs.com/',
+    logo: 'https://www.inc-installs.com/wp-content/uploads/2019/12/INC-Installs-Web-Logo.png'
   },
-  'EZ Electric': {
-    name: 'EZ Electric',
-    sameAs: 'https://ezelectric.com/',
-    logo: 'https://cdn.prod.website-files.com/62858eb9f95b5ef6ab8256be/66195b93d011344d05b98867_ez-electric-logo.svg'
+  'T&D Communications': {
+    name: 'T&D Communications',
+    sameAs: 'https://www.tanddcomm.com/',
+    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
   },
-  'JP Electric': {
-    name: 'JP Electric',
-    sameAs: 'https://jpelectric.com/',
-    logo: 'https://jpelectric.com/wp-content/uploads/2021/05/logo.png'
+  'Direct Line': {
+    name: 'Direct Connect',
+    sameAs: 'https://www.dlci.net/',
+    logo: 'https://cdn.freebiesupply.com/logos/thumbs/2x/direct-line-2-logo.png'
   },
-  'Star Electric': {
-    name: 'Star Electric',
-    sameAs: 'https://www.starelectricmt.com/',
-    logo: 'https://www.starelectricmt.com/wp-content/uploads/2023/11/starelectric-favicon-black-and-white.svg'
+  'Atek Communications': {
+    name: 'Atek Communications',
+    sameAs: 'https://www.atekcommunications.com/',
+    logo: 'https://www.atekcommunications.com/images/gif/icclogo2000.gif'
   },
-  'JD Electric': {
-    name: 'JD Electric',
-    sameAs: 'https://jdproelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/243bff06-83b1-4928-b792-0338b6394a0b/logo/f2643ee5-278f-40f6-b108-dfc392a3d6fa.png/:/rs=w:662,h:160,cg:true,m/cr=w:662,h:160/qt=q:95'
+  'Shelby Communications': {
+    name: 'Shelby Communications',
+    sameAs: 'https://www.shelbycommunications.com/',
+    logo: 'https://shelbycommunications.com/wp-content/uploads/2022/02/eQkSUiEUF9h03zP_TRYxMq9BEwyVxvd6tiQOkA.png'
   },
-  'Tully Electric': {
-    name: 'Tully Electric',
-    sameAs: 'https://www.tully-electric.com/',
-    logo: 'https://static.wixstatic.com/media/3a1e46_522696ccd68b4e63b984a72af3fe2da3~mv2.jpg/v1/fill/w_310,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/tully_logo_name_(640x245).jpg'
+  'Texas Voice & Data': {
+    name: 'Texas Voice & Data',
+    sameAs: 'http://www.texasvoicedata.com/',
+    logo: 'https://nebula.wsimg.com/3d01291556c12048b98053e61436463c?AccessKeyId=1694F521AED933792FFF&disposition=0&alloworigin=1'
   },
-  'Marathon Electrical': {
-    name: 'Marathon Electrical',
-    sameAs: 'https://marathonelectric.com/',
-    logo: 'https://static.wixstatic.com/media/619c2c_813b990e8a82413597ed3f144ac0cb67~mv2.png/v1/crop/x_0,y_93,w_2420,h_815/fill/w_820,h_276,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/Marathon_Horizontal_Reversed_RGB.png'
+  'WiLine': {
+    name: 'WiLine',
+    sameAs: 'https://www.wiline.com/',
+    logo: 'https://www.wiline.com/img/logo_blue.png'
   },
-  'Eskew Electric': {
-    name: 'Eskew Electric',
-    sameAs: 'https://eskewelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/a06397fa-6f72-478f-ae05-6cf10229cbc5/blob-b5037f9.png/:/rs=w:501,h:400,cg:true,m/cr=w:501,h:400/qt=q:95'
+  'Teleco': {
+    name: 'Teleco',
+    sameAs: 'https://www.teleco.com/',
+    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
   },
-  'Colvin Electric': {
-    name: 'Colvin Electric',
-    sameAs: 'https://colvinelectric.com/',
-    logo: 'https://colvinelectric.com/wp-content/uploads/2018/10/colvin-electric_footer-logo-1.png'
-  },
-  'Passion Electric': {
-    name: 'Passion Electric',
-    sameAs: 'https://passionelectric.com/',
-    logo: 'https://passionelectric.com/wp-content/uploads/Passion-Electric-Logo-web-final-wide-full-color.png.webp'
-  },
-  'Braco Electrical': {
-    name: 'Braco Electrical',
-    sameAs: 'https://bracoelectrical.com/',
-    logo: 'https://www.bracoelectrical.com/images/logo.png'
-  },
-  'Safe Electric': {
-    name: 'Safe Electric',
-    sameAs: 'https://callsafe.com/',
-    logo: 'https://callsafe.com/wp-content/uploads/2024/05/Safe-Electric-Plumbing-Logo.png.webp'
-  },
-  'ESP Electrical': {
-    name: 'ESP Electrical',
-    sameAs: 'https://www.espelectrical.net/',
-    logo: 'https://www.espelectrical.net/images/logo.png'
-  },
-  'DP Electric': {
-    name: 'DP Electric',
-    sameAs: 'https://dpelectric.com/',
-    logo: 'https://dpelectric.com/wp-content/uploads/2022/03/DPA.png'
-  },
-  'Simple Electric': {
-    name: 'Simple Electric',
-    sameAs: 'https://simpleelectricaz.com/',
-    logo: 'https://simpleelectricaz.com/wp-content/uploads/2017/10/logo.png'
-  },
-  'Dodge Electric': {
-    name: 'Dodge Electric',
-    sameAs: 'https://dodgeelectric.com/',
-    logo: 'https://dodgeelectric.com/wp-content/uploads/2016/04/logo.jpg?quality=100.3022012111021'
-  },
-  'Miller Electric': {
-    name: 'Miller Electric',
-    sameAs: 'https://millerelect.com/',
-    logo: 'https://millerelect.com/wp-content/uploads/2022/04/logo.png'
-  },
-  'Arc Electric': {
-    name: 'Arc Electric',
-    sameAs: 'https://www.arcelectric.co/',
-    logo: 'https://static.wixstatic.com/media/6fbf59_32ce059a02c943c1a4ca0da76effedcc~mv2.png/v1/fill/w_116,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arc%20Electric%20Logo.png'
-  },
-  'Koehler Electric': {
-    name: 'Koehler Electric',
-    sameAs: 'https://jwkoehler.com/',
-    logo: 'https://jwkoehler.com/wp-content/uploads/2022/04/Koehler-Electric-Logo-2022-01.svg'
-  },
-  'Advantage Electric': {
-    name: 'Advantage Electric',
-    sameAs: 'https://advantageelectricmn.com/',
-    logo: 'https://advantageelectricmn.com/wp-content/uploads/Advantage-Electric-Logo-text.png'
-  }
 };
 
 const LOCATIONS = [
-  { city: 'Birmingham', state: 'AL', zipCode: '35203' },
-  { city: 'Mobile', state: 'AL', zipCode: '36602' },
-  { city: 'Huntsville', state: 'AL', zipCode: '35801' },
-  { city: 'Phoenix', state: 'AZ', zipCode: '85003' },
-  { city: 'Tucson', state: 'AZ', zipCode: '85701' },
-  { city: 'Flagstaff', state: 'AZ', zipCode: '86001' },
-  { city: 'Little Rock', state: 'AR', zipCode: '72201' },
-  { city: 'Fayetteville', state: 'AR', zipCode: '72701' },
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-  { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-  { city: 'Boulder', state: 'CO', zipCode: '80302' },
-  { city: 'Hartford', state: 'CT', zipCode: '06103' },
-  { city: 'New Haven', state: 'CT', zipCode: '06510' },
-  { city: 'Wilmington', state: 'DE', zipCode: '19801' },
-  { city: 'Dover', state: 'DE', zipCode: '19901' },
-  { city: 'Miami', state: 'FL', zipCode: '33131' },
-  { city: 'Orlando', state: 'FL', zipCode: '32801' },
-  { city: 'Tampa', state: 'FL', zipCode: '33602' },
-  { city: 'Jacksonville', state: 'FL', zipCode: '32202' },
-  { city: 'Atlanta', state: 'GA', zipCode: '30303' },
-  { city: 'Savannah', state: 'GA', zipCode: '31401' },
-  { city: 'Augusta', state: 'GA', zipCode: '30901' },
-  { city: 'Boise', state: 'ID', zipCode: '83702' },
-  { city: 'Idaho Falls', state: 'ID', zipCode: '83402' },
-  { city: 'Chicago', state: 'IL', zipCode: '60601' },
-  { city: 'Springfield', state: 'IL', zipCode: '62701' },
-  { city: 'Peoria', state: 'IL', zipCode: '61602' },
-  { city: 'Indianapolis', state: 'IN', zipCode: '46204' },
-  { city: 'Fort Wayne', state: 'IN', zipCode: '46802' },
-  { city: 'Des Moines', state: 'IA', zipCode: '50309' },
-  { city: 'Cedar Rapids', state: 'IA', zipCode: '52401' },
-  { city: 'Kansas City', state: 'KS', zipCode: '66101' },
-  { city: 'Wichita', state: 'KS', zipCode: '67202' },
-  { city: 'Louisville', state: 'KY', zipCode: '40202' },
-  { city: 'Lexington', state: 'KY', zipCode: '40507' },
-  { city: 'New Orleans', state: 'LA', zipCode: '70112' },
-  { city: 'Baton Rouge', state: 'LA', zipCode: '70801' },
-  { city: 'Portland', state: 'ME', zipCode: '04101' },
-  { city: 'Bangor', state: 'ME', zipCode: '04401' },
-  { city: 'Baltimore', state: 'MD', zipCode: '21202' },
-  { city: 'Annapolis', state: 'MD', zipCode: '21401' },
-  { city: 'Boston', state: 'MA', zipCode: '02108' },
-  { city: 'Worcester', state: 'MA', zipCode: '01608' },
-  { city: 'Detroit', state: 'MI', zipCode: '48226' },
-  { city: 'Grand Rapids', state: 'MI', zipCode: '49503' },
-  { city: 'Ann Arbor', state: 'MI', zipCode: '48104' },
-  { city: 'Minneapolis', state: 'MN', zipCode: '55401' },
-  { city: 'Saint Paul', state: 'MN', zipCode: '55102' },
-  { city: 'Duluth', state: 'MN', zipCode: '55802' },
-  { city: 'Jackson', state: 'MS', zipCode: '39201' },
-  { city: 'Biloxi', state: 'MS', zipCode: '39530' },
-  { city: 'Kansas City', state: 'MO', zipCode: '64106' },
-  { city: 'St. Louis', state: 'MO', zipCode: '63101' },
-  { city: 'Springfield', state: 'MO', zipCode: '65806' },
-  { city: 'Billings', state: 'MT', zipCode: '59101' },
-  { city: 'Missoula', state: 'MT', zipCode: '59801' },
-  { city: 'Omaha', state: 'NE', zipCode: '68102' },
-  { city: 'Lincoln', state: 'NE', zipCode: '68508' },
-  { city: 'Manchester', state: 'NH', zipCode: '03101' },
-  { city: 'Concord', state: 'NH', zipCode: '03301' },
-  { city: 'Newark', state: 'NJ', zipCode: '07102' },
-  { city: 'Atlantic City', state: 'NJ', zipCode: '08401' },
+  { city: 'Sterling', state: 'VA', zipCode: '20164' },
+  { city: 'Herndon', state: 'VA', zipCode: '20170' },
+  { city: 'Gainesville', state: 'VA', zipCode: '20155' },
+  { city: 'Centreville', state: 'VA', zipCode: '20120' },
+  { city: 'Purcellville', state: 'VA', zipCode: '20132' },
+  { city: 'Oak Park', state: 'IL', zipCode: '60302' },
+  { city: 'Schaumburg', state: 'IL', zipCode: '60193' },
+  { city: 'Naperville', state: 'IL', zipCode: '60540' },
+  { city: 'Decatur', state: 'GA', zipCode: '30030' },
+  { city: 'Roswell', state: 'GA', zipCode: '30075' },
+  { city: 'Smyrna', state: 'GA', zipCode: '30080' },
+  { city: 'Tempe', state: 'AZ', zipCode: '85281' },
+  { city: 'Gilbert', state: 'AZ', zipCode: '85234' },
+  { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
+  { city: 'Beaverton', state: 'OR', zipCode: '97005' },
+  { city: 'Gresham', state: 'OR', zipCode: '97030' },
+  { city: 'Redmond', state: 'OR', zipCode: '97756' },
+  { city: 'Henderson', state: 'NV', zipCode: '89002' },
+  { city: 'Sparks', state: 'NV', zipCode: '89431' },
+  { city: 'Paradise', state: 'NV', zipCode: '89109' },
+  { city: 'West Valley City', state: 'UT', zipCode: '84119' },
+  { city: 'Sandy', state: 'UT', zipCode: '84070' },
+  { city: 'Layton', state: 'UT', zipCode: '84041' },
+  { city: 'Dublin', state: 'OH', zipCode: '43016' },
+  { city: 'Westerville', state: 'OH', zipCode: '43081' },
+  { city: 'Grove City', state: 'OH', zipCode: '43123' },
+  { city: 'Council Bluffs', state: 'IA', zipCode: '51501' },
+  { city: 'La Vista', state: 'NE', zipCode: '68128' },
+  { city: 'Bellevue', state: 'NE', zipCode: '68005' },
+  { city: 'West Des Moines', state: 'IA', zipCode: '50265' },
+  { city: 'Ankeny', state: 'IA', zipCode: '50023' },
+  { city: 'Johnston', state: 'IA', zipCode: '50131' },
+  { city: 'Overland Park', state: 'KS', zipCode: '66210' },
+  { city: 'Independence', state: 'MO', zipCode: '64050' },
+  { city: 'St. Charles', state: 'MO', zipCode: '63301' },
+  { city: 'Aurora', state: 'CO', zipCode: '80012' },
+  { city: 'Littleton', state: 'CO', zipCode: '80120' },
+  { city: 'Westminster', state: 'CO', zipCode: '80031' },
+  { city: 'St. Paul', state: 'MN', zipCode: '55101' },
+  { city: 'Burnsville', state: 'MN', zipCode: '55337' },
+  { city: 'Bloomington', state: 'MN', zipCode: '55420' },
+  { city: 'Bellevue', state: 'WA', zipCode: '98004' },
+  { city: 'Kirkland', state: 'WA', zipCode: '98033' },
+  { city: 'Wenatchee', state: 'WA', zipCode: '98801' },
   { city: 'Jersey City', state: 'NJ', zipCode: '07302' },
-  { city: 'New York', state: 'NY', zipCode: '10007' },
-  { city: 'Buffalo', state: 'NY', zipCode: '14202' },
-  { city: 'Rochester', state: 'NY', zipCode: '14604' },
-  { city: 'Albany', state: 'NY', zipCode: '12207' },
-  { city: 'Charlotte', state: 'NC', zipCode: '28202' },
-  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
-  { city: 'Asheville', state: 'NC', zipCode: '28801' },
-  { city: 'Fargo', state: 'ND', zipCode: '58102' },
-  { city: 'Bismarck', state: 'ND', zipCode: '58501' },
-  { city: 'Columbus', state: 'OH', zipCode: '43215' },
-  { city: 'Cleveland', state: 'OH', zipCode: '44114' },
-  { city: 'Cincinnati', state: 'OH', zipCode: '45202' },
-  { city: 'Oklahoma City', state: 'OK', zipCode: '73102' },
-  { city: 'Tulsa', state: 'OK', zipCode: '74103' },
-  { city: 'Philadelphia', state: 'PA', zipCode: '19102' },
-  { city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
-  { city: 'Providence', state: 'RI', zipCode: '02903' },
-  { city: 'Newport', state: 'RI', zipCode: '02840' },
-  { city: 'Charleston', state: 'SC', zipCode: '29401' },
-  { city: 'Columbia', state: 'SC', zipCode: '29201' },
-  { city: 'Sioux Falls', state: 'SD', zipCode: '57104' },
-  { city: 'Rapid City', state: 'SD', zipCode: '57701' },
-  { city: 'Nashville', state: 'TN', zipCode: '37203' },
-  { city: 'Memphis', state: 'TN', zipCode: '38103' },
-  { city: 'Knoxville', state: 'TN', zipCode: '37902' },
-  { city: 'Houston', state: 'TX', zipCode: '77002' },
+  { city: 'Union City', state: 'NJ', zipCode: '07087' },
+  { city: 'Edison', state: 'NJ', zipCode: '08817' },
+  { city: 'Cambridge', state: 'MA', zipCode: '02138' },
+  { city: 'Newton', state: 'MA', zipCode: '02458' },
+  { city: 'Medford', state: 'MA', zipCode: '02155' },
+  { city: 'Hialeah', state: 'FL', zipCode: '33012' },
+  { city: 'Miami Springs', state: 'FL', zipCode: '33166' },
+  { city: 'Hollywood', state: 'FL', zipCode: '33020' },
+  { city: 'Concord', state: 'NC', zipCode: '28025' },
+  { city: 'Durham', state: 'NC', zipCode: '27701' },
+  { city: 'Apex', state: 'NC', zipCode: '27502' },
+  { city: 'Kissimmee', state: 'FL', zipCode: '34741' },
+  { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
+  { city: 'Orange Park', state: 'FL', zipCode: '32073' },
+  { city: 'Dearborn', state: 'MI', zipCode: '48124' },
+  { city: 'Farmington Hills', state: 'MI', zipCode: '48334' },
+  { city: 'Wyoming', state: 'MI', zipCode: '49509' },
+  { city: 'Carmel', state: 'IN', zipCode: '46032' },
+  { city: 'New Haven', state: 'IN', zipCode: '46774' },
+  { city: 'Mishawaka', state: 'IN', zipCode: '46544' },
   { city: 'Dallas', state: 'TX', zipCode: '75201' },
+  { city: 'Houston', state: 'TX', zipCode: '77002' },
   { city: 'Austin', state: 'TX', zipCode: '78701' },
   { city: 'San Antonio', state: 'TX', zipCode: '78205' },
-  { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
-  { city: 'Park City', state: 'UT', zipCode: '84060' },
-  { city: 'Burlington', state: 'VT', zipCode: '05401' },
-  { city: 'Montpelier', state: 'VT', zipCode: '05602' },
-  { city: 'Richmond', state: 'VA', zipCode: '23219' },
-  { city: 'Virginia Beach', state: 'VA', zipCode: '23451' },
-  { city: 'Norfolk', state: 'VA', zipCode: '23510' },
-  { city: 'Charleston', state: 'WV', zipCode: '25301' },
-  { city: 'Morgantown', state: 'WV', zipCode: '26501' },
-  { city: 'Milwaukee', state: 'WI', zipCode: '53202' },
-  { city: 'Madison', state: 'WI', zipCode: '53703' },
-  { city: 'Green Bay', state: 'WI', zipCode: '54301' },
-  { city: 'Cheyenne', state: 'WY', zipCode: '82001' },
-  { city: 'Jackson', state: 'WY', zipCode: '83001' }
+  { city: 'Fort Worth', state: 'TX', zipCode: '76102' },
+  { city: 'Plano', state: 'TX', zipCode: '75074' },
+  { city: 'Irving', state: 'TX', zipCode: '75061' },
+  { city: 'Richardson', state: 'TX', zipCode: '75080' },
+  { city: 'Carrollton', state: 'TX', zipCode: '75006' },
+  { city: 'Garland', state: 'TX', zipCode: '75040' },
+  { city: 'Frisco', state: 'TX', zipCode: '75034' },
+  { city: 'McKinney', state: 'TX', zipCode: '75069' },
+  { city: 'Arlington', state: 'TX', zipCode: '76010' },
+  { city: 'Sugar Land', state: 'TX', zipCode: '77478' },
+  { city: 'The Woodlands', state: 'TX', zipCode: '77380' },
+  { city: 'Round Rock', state: 'TX', zipCode: '78664' },
+  { city: 'Corpus Christi', state: 'TX', zipCode: '78401' },
+  { city: 'Lubbock', state: 'TX', zipCode: '79401' },
+  { city: 'El Paso', state: 'TX', zipCode: '79901' },
+  { city: 'Midland', state: 'TX', zipCode: '79701' },
+  { city: 'Odessa', state: 'TX', zipCode: '79761' },
+  { city: 'Katy', state: 'TX', zipCode: '77449' },
+  { city: 'Pearland', state: 'TX', zipCode: '77581' },
+  { city: 'College Station', state: 'TX', zipCode: '77840' },
+  { city: 'Denton', state: 'TX', zipCode: '76201' },
+  { city: 'Tyler', state: 'TX', zipCode: '75701' },
+  { city: 'Beaumont', state: 'TX', zipCode: '77701' },
+  { city: 'Waco', state: 'TX', zipCode: '76701' },
+  { city: 'Abilene', state: 'TX', zipCode: '79601' },
+  { city: 'Amarillo', state: 'TX', zipCode: '79101' }
 ];
 
 const STREET_TYPES = [
@@ -451,11 +380,12 @@ Start with a paragraph about the role in ${location.city}, ${location.state} at 
 After the paragraph intro, use these sections with h2 tags:
 
 ## Key Responsibilities
-${jobInfo.responsibilities} (choose at random which ones to emphasize)
+${jobInfo.responsibilities} 
 - Add 3-4 more responsibilities specific to ${location.city} area
 - Include any regional requirements for ${location.state}
+- Talk about and name a large upcoming project in ${location.city}, ${location.state} area
 
-## Required Qualifications (choose at random which ones to emphasize)
+## Required Qualifications 
 ${jobInfo.qualifications}
 - ${jobInfo.yearsExperience} years of experience required for ${jobInfo.category} work in ${jobInfo.team} setting
 - Add 2-3 location-specific qualifications for ${location.city}

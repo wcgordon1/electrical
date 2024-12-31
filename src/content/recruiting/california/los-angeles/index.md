@@ -26,7 +26,7 @@ topEmployers:
 ### Market Overview
 Los Angeles, California is experiencing unprecedented growth in the electrical industry. With expanding infrastructural projects and increasing demands for energy-efficient solutions, it's an ideal place for electrical professionals to grow and thrive.
 
-### Critical Role for General Electricals
+### Critical Role for General Electricians
 Electrical professionals play a pivotal role in the healthy functioning of our cities and homes. They ensure safe and efficient electricity flow, contributing to the development and maintenance of our societies.
 
 ### Hiring Challenges for General Electrical in Los Angeles
