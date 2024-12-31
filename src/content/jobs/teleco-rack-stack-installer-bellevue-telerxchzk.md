@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 27.33
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Teleco
   value: TELErxchzk

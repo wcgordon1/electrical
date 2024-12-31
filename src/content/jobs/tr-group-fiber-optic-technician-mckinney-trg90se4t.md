@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 48.43
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: TR Group
   value: TRG90se4t

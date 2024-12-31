@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 28.22
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Staley Technologies
   value: STALl8n6qa

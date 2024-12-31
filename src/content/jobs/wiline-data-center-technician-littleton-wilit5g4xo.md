@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 38.92
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: WiLine
   value: WILIt5g4xo

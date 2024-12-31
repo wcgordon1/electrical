@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 27.13
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Integra Electrical
   value: INTEcstbgi

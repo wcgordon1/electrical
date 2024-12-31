@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 39.08
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: TR Group
   value: TRG9nharj

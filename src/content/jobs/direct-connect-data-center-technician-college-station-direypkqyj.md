@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 39.33
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Direct Connect
   value: DIREypkqyj

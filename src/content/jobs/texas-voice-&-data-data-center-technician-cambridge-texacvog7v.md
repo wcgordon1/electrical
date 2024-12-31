@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 37.81
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Texas Voice & Data
   value: TEXAcvog7v

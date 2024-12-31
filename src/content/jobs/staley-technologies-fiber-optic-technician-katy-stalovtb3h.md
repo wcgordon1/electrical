@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 49.29
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Staley Technologies
   value: STALovtb3h

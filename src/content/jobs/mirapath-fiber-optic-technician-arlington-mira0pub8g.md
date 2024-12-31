@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 48.32
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Mirapath
   value: MIRA0pub8g

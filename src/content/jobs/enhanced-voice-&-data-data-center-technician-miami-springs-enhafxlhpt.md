@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 37.87
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Enhanced Voice & Data
   value: ENHAfxlhpt

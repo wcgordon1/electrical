@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 38.57
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: M3 Technology
   value: M3To70dka

@@ -10,11 +10,19 @@ const { state } = Astro.props;
 // Get all recruiting entries
 const allEntries = await getCollection('recruiting');
 
+// Function to create URL-safe slugs
+const createSlug = (text) => {
+  return text.toLowerCase().replace(/\s+/g, '-');
+};
+
+// Create the state slug once
+const stateSlug = createSlug(state);
+
 // Find all city folders in this state by looking for entries with state/city pattern
 const stateCities = allEntries.filter(entry => {
   const pathParts = entry.slug.split('/');
   // Just check if it's a direct subfolder under the state
-  return pathParts[0].toLowerCase() === state.toLowerCase() && 
+  return pathParts[0] === stateSlug && 
          pathParts.length === 2; // state/city pattern
 });
 
@@ -30,6 +38,7 @@ const uniqueCities = [...new Set(stateCities.map(entry => {
 
 console.log('Debug:', {
   state,
+  stateSlug,
   foundCities: uniqueCities.map(c => c.slug)
 });
 ---
@@ -43,7 +52,7 @@ console.log('Debug:', {
   <div class="grid gap-4">
     {uniqueCities.map(city => (
       <a 
-        href={`/recruiting/${state.toLowerCase()}/${city.slug}`}
+        href={`/recruiting/${stateSlug}/${city.slug}`}
         class="block bg-gray-50 p-4 rounded-xl hover:bg-blue-50 transition-colors group"
       >
         <div class="flex items-center justify-between">

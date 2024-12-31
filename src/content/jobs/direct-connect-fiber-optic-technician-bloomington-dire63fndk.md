@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 48.2
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Direct Connect
   value: DIRE63fndk

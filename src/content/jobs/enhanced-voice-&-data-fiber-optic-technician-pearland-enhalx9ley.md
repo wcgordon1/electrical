@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 48.63
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Enhanced Voice & Data
   value: ENHAlx9ley

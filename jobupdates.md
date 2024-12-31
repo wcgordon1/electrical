@@ -72,9 +72,6 @@ npm run create-cable-jobs
 npm run index-recent-jobs -- -limit=100
 
 
-Certs in job description prompt:
-- ${requiredCerts[1]} certification
-
 
 
 npm run update-team-values

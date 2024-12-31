@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 48.1
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Inc Installs
   value: INCvi01yx

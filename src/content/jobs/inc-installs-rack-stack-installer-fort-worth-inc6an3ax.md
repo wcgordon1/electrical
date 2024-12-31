@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 27.83
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Inc Installs
   value: INC6an3ax

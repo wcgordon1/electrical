@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 49.53
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: Shelby Communications
   value: SHEL4ezuvx

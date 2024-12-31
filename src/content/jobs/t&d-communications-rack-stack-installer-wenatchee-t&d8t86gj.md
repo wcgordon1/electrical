@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 28.47
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: T&D Communications
   value: T&D8t86gj

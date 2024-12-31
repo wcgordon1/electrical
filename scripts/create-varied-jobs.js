@@ -212,101 +212,51 @@ const COMPANIES = {
 };
 
 const LOCATIONS = [
-  { city: 'Sterling', state: 'VA', zipCode: '20164' },
-  { city: 'Herndon', state: 'VA', zipCode: '20170' },
-  { city: 'Gainesville', state: 'VA', zipCode: '20155' },
-  { city: 'Centreville', state: 'VA', zipCode: '20120' },
-  { city: 'Purcellville', state: 'VA', zipCode: '20132' },
-  { city: 'Oak Park', state: 'IL', zipCode: '60302' },
-  { city: 'Schaumburg', state: 'IL', zipCode: '60193' },
-  { city: 'Naperville', state: 'IL', zipCode: '60540' },
-  { city: 'Decatur', state: 'GA', zipCode: '30030' },
-  { city: 'Roswell', state: 'GA', zipCode: '30075' },
-  { city: 'Smyrna', state: 'GA', zipCode: '30080' },
-  { city: 'Tempe', state: 'AZ', zipCode: '85281' },
-  { city: 'Gilbert', state: 'AZ', zipCode: '85234' },
-  { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
-  { city: 'Beaverton', state: 'OR', zipCode: '97005' },
-  { city: 'Gresham', state: 'OR', zipCode: '97030' },
-  { city: 'Redmond', state: 'OR', zipCode: '97756' },
-  { city: 'Henderson', state: 'NV', zipCode: '89002' },
-  { city: 'Sparks', state: 'NV', zipCode: '89431' },
-  { city: 'Paradise', state: 'NV', zipCode: '89109' },
-  { city: 'West Valley City', state: 'UT', zipCode: '84119' },
-  { city: 'Sandy', state: 'UT', zipCode: '84070' },
-  { city: 'Layton', state: 'UT', zipCode: '84041' },
-  { city: 'Dublin', state: 'OH', zipCode: '43016' },
-  { city: 'Westerville', state: 'OH', zipCode: '43081' },
-  { city: 'Grove City', state: 'OH', zipCode: '43123' },
-  { city: 'Council Bluffs', state: 'IA', zipCode: '51501' },
-  { city: 'La Vista', state: 'NE', zipCode: '68128' },
-  { city: 'Bellevue', state: 'NE', zipCode: '68005' },
-  { city: 'West Des Moines', state: 'IA', zipCode: '50265' },
-  { city: 'Ankeny', state: 'IA', zipCode: '50023' },
-  { city: 'Johnston', state: 'IA', zipCode: '50131' },
-  { city: 'Overland Park', state: 'KS', zipCode: '66210' },
-  { city: 'Independence', state: 'MO', zipCode: '64050' },
-  { city: 'St. Charles', state: 'MO', zipCode: '63301' },
-  { city: 'Aurora', state: 'CO', zipCode: '80012' },
-  { city: 'Littleton', state: 'CO', zipCode: '80120' },
-  { city: 'Westminster', state: 'CO', zipCode: '80031' },
-  { city: 'St. Paul', state: 'MN', zipCode: '55101' },
-  { city: 'Burnsville', state: 'MN', zipCode: '55337' },
-  { city: 'Bloomington', state: 'MN', zipCode: '55420' },
-  { city: 'Bellevue', state: 'WA', zipCode: '98004' },
-  { city: 'Kirkland', state: 'WA', zipCode: '98033' },
-  { city: 'Wenatchee', state: 'WA', zipCode: '98801' },
-  { city: 'Jersey City', state: 'NJ', zipCode: '07302' },
-  { city: 'Union City', state: 'NJ', zipCode: '07087' },
-  { city: 'Edison', state: 'NJ', zipCode: '08817' },
-  { city: 'Cambridge', state: 'MA', zipCode: '02138' },
-  { city: 'Newton', state: 'MA', zipCode: '02458' },
-  { city: 'Medford', state: 'MA', zipCode: '02155' },
-  { city: 'Hialeah', state: 'FL', zipCode: '33012' },
-  { city: 'Miami Springs', state: 'FL', zipCode: '33166' },
-  { city: 'Hollywood', state: 'FL', zipCode: '33020' },
-  { city: 'Concord', state: 'NC', zipCode: '28025' },
-  { city: 'Durham', state: 'NC', zipCode: '27701' },
-  { city: 'Apex', state: 'NC', zipCode: '27502' },
-  { city: 'Kissimmee', state: 'FL', zipCode: '34741' },
-  { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
-  { city: 'Orange Park', state: 'FL', zipCode: '32073' },
-  { city: 'Dearborn', state: 'MI', zipCode: '48124' },
-  { city: 'Farmington Hills', state: 'MI', zipCode: '48334' },
-  { city: 'Wyoming', state: 'MI', zipCode: '49509' },
-  { city: 'Carmel', state: 'IN', zipCode: '46032' },
-  { city: 'New Haven', state: 'IN', zipCode: '46774' },
-  { city: 'Mishawaka', state: 'IN', zipCode: '46544' },
-  { city: 'Dallas', state: 'TX', zipCode: '75201' },
-  { city: 'Houston', state: 'TX', zipCode: '77002' },
-  { city: 'Austin', state: 'TX', zipCode: '78701' },
-  { city: 'San Antonio', state: 'TX', zipCode: '78205' },
-  { city: 'Fort Worth', state: 'TX', zipCode: '76102' },
-  { city: 'Plano', state: 'TX', zipCode: '75074' },
-  { city: 'Irving', state: 'TX', zipCode: '75061' },
-  { city: 'Richardson', state: 'TX', zipCode: '75080' },
-  { city: 'Carrollton', state: 'TX', zipCode: '75006' },
-  { city: 'Garland', state: 'TX', zipCode: '75040' },
-  { city: 'Frisco', state: 'TX', zipCode: '75034' },
-  { city: 'McKinney', state: 'TX', zipCode: '75069' },
-  { city: 'Arlington', state: 'TX', zipCode: '76010' },
-  { city: 'Sugar Land', state: 'TX', zipCode: '77478' },
-  { city: 'The Woodlands', state: 'TX', zipCode: '77380' },
-  { city: 'Round Rock', state: 'TX', zipCode: '78664' },
-  { city: 'Corpus Christi', state: 'TX', zipCode: '78401' },
-  { city: 'Lubbock', state: 'TX', zipCode: '79401' },
-  { city: 'El Paso', state: 'TX', zipCode: '79901' },
-  { city: 'Midland', state: 'TX', zipCode: '79701' },
-  { city: 'Odessa', state: 'TX', zipCode: '79761' },
-  { city: 'Katy', state: 'TX', zipCode: '77449' },
-  { city: 'Pearland', state: 'TX', zipCode: '77581' },
-  { city: 'College Station', state: 'TX', zipCode: '77840' },
-  { city: 'Denton', state: 'TX', zipCode: '76201' },
-  { city: 'Tyler', state: 'TX', zipCode: '75701' },
-  { city: 'Beaumont', state: 'TX', zipCode: '77701' },
-  { city: 'Waco', state: 'TX', zipCode: '76701' },
-  { city: 'Abilene', state: 'TX', zipCode: '79601' },
-  { city: 'Amarillo', state: 'TX', zipCode: '79101' }
+  { city: 'Boise', state: 'ID', zipCode: '83701' }, // population: 235,684
+{ city: 'Reno', state: 'NV', zipCode: '89501' }, // population: 264,165
+{ city: 'Milwaukee', state: 'WI', zipCode: '53202' }, // population: 577,222
+{ city: 'Madison', state: 'WI', zipCode: '53703' }, // population: 269,840
+{ city: 'Minneapolis', state: 'MN', zipCode: '55401' }, // population: 429,606
+{ city: 'St. Paul', state: 'MN', zipCode: '55101' }, // population: 311,527
+{ city: 'Birmingham', state: 'AL', zipCode: '35203' }, // population: 200,733
+{ city: 'Louisville', state: 'KY', zipCode: '40202' }, // population: 633,045
+{ city: 'Lexington', state: 'KY', zipCode: '40507' }, // population: 322,570
+{ city: 'Nashville', state: 'TN', zipCode: '37201' }, // population: 692,587
+{ city: 'Memphis', state: 'TN', zipCode: '38103' }, // population: 633,104
+{ city: 'Columbus', state: 'OH', zipCode: '43215' }, // population: 905,748
+{ city: 'Cleveland', state: 'OH', zipCode: '44114' }, // population: 372,624
+{ city: 'Cincinnati', state: 'OH', zipCode: '45202' }, // population: 309,317
+{ city: 'Detroit', state: 'MI', zipCode: '48226' }, // population: 670,031
+{ city: 'Grand Rapids', state: 'MI', zipCode: '49503' }, // population: 199,417
+{ city: 'Indianapolis', state: 'IN', zipCode: '46204' }, // population: 887,642
+{ city: 'Fort Wayne', state: 'IN', zipCode: '46802' }, // population: 263,886
+{ city: 'Springfield', state: 'MO', zipCode: '65806' }, // population: 169,176
+{ city: 'Kansas City', state: 'MO', zipCode: '64105' }, // population: 508,090
+{ city: 'St. Louis', state: 'MO', zipCode: '63101' }, // population: 301,578
+{ city: 'Little Rock', state: 'AR', zipCode: '72201' }, // population: 202,591
+{ city: 'Sioux Falls', state: 'SD', zipCode: '57104' }, // population: 200,243
+{ city: 'Omaha', state: 'NE', zipCode: '68102' }, // population: 486,051
+{ city: 'Lincoln', state: 'NE', zipCode: '68508' }, // population: 292,657
+{ city: 'Des Moines', state: 'IA', zipCode: '50309' }, // population: 214,237
+{ city: 'Albuquerque', state: 'NM', zipCode: '87102' }, // population: 564,559
+{ city: 'Las Cruces', state: 'NM', zipCode: '88001' }, // population: 103,432
+{ city: 'Billings', state: 'MT', zipCode: '59101' }, // population: 117,116
+{ city: 'Anchorage', state: 'AK', zipCode: '99501' }, // population: 291,247
+{ city: 'Honolulu', state: 'HI', zipCode: '96813' }, // population: 350,964
+{ city: 'Augusta', state: 'GA', zipCode: '30901' }, // population: 202,081
+{ city: 'Charleston', state: 'SC', zipCode: '29401' }, // population: 150,227
+{ city: 'Columbia', state: 'SC', zipCode: '29201' }, // population: 137,541
+{ city: 'Huntsville', state: 'AL', zipCode: '35801' },
+{ city: 'Charlotte', state: 'NC', zipCode: '28202' }, // population: 879,709
+{ city: 'Raleigh', state: 'NC', zipCode: '27601' }, // population: 469,124
+{ city: 'Durham', state: 'NC', zipCode: '27701' }, // population: 285,527
+{ city: 'Winston-Salem', state: 'NC', zipCode: '27101' }, // population: 250,765
+{ city: 'Greensboro', state: 'NC', zipCode: '27401' }, // population: 298,263
+{ city: 'Cary', state: 'NC', zipCode: '27511' }, // population: 174,721
+{ city: 'Concord', state: 'NC', zipCode: '28025' }, // population: 105,240
+{ city: 'High Point', state: 'NC', zipCode: '27260' }, // population: 114,227
+{ city: 'Chapel Hill', state: 'NC', zipCode: '27514' }, // population: 61,960 (metro area influence)
+{ city: 'Morrisville', state: 'NC', zipCode: '27560' } // population: 29,630 (emerging hub for tech/data centers)
 ];
 
 const STREET_TYPES = [

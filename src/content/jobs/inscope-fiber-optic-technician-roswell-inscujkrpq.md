@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 49.21
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fiber
+occupationalCategory: Fiber Optics
 identifier:
   name: InScope
   value: INSCujkrpq

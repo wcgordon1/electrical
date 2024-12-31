@@ -30,7 +30,7 @@ baseSalary:
   maxValue: 37.38
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Mirapath
   value: MIRAqrr77n

@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 28.32
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: DataCenter
+occupationalCategory: Data Center
 identifier:
   name: Inc Installs
   value: INCa70mq8
