@@ -5,6 +5,8 @@ import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
 import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
 import ContactForm from '../components/recruiting/ContactForm.astro';
 import StateCities from '../components/recruiting/StateCities.astro';
+import StateJobs from '../components/recruiting/StateJobs.astro';
+import CTA from '../components/recruiting/CTA.astro';
 import CtaThree from '../components/cta/CtaThree.astro';
 
 interface Props {
@@ -106,7 +108,14 @@ const schema = {
             </section>
           )}
 
+          <CTA />
+
           <StateCities state={name} />
+
+          <StateJobs 
+            stateAbbrev={abbrev}
+            stateName={name}
+          />
 
           <div class="prose max-w-none mt-12">
             <Content />

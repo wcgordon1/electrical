@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  stateAbbrev: string;
+  stateName: string;
+}
+
+const { stateAbbrev, stateName } = Astro.props;
+
+// Get all jobs
+const allJobs = await getCollection('jobs');
+
+// Filter to get only jobs from this state and sort by date
+const stateJobs = allJobs
+  .filter(job => {
+    // Match state abbreviation from job location (e.g., "Phoenix, AZ")
+    const jobStateAbbrev = job.data.location?.split(', ')[1];
+    return jobStateAbbrev === stateAbbrev;
+  })
+  .sort((a, b) => {
+    const dateA = new Date(b.data.datePosted || '');
+    const dateB = new Date(a.data.datePosted || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5); // Limit to 5 most recent jobs
+
+console.log(`Debug StateJobs: Found ${stateJobs.length} jobs in ${stateName} (${stateAbbrev})`);
+---
+
+{stateJobs.length > 0 && (
+  <div class="mt-12 bg-slate-50 rounded-3xl p-8">
+    <div class="flex items-center gap-4 mb-6">
+    <img src="/images/eleclog.png" alt="Hiring Image" class="w-6 h-6" />
+    <h2 class="text-2xl font-semibold">Latest Jobs in {stateName}</h2>
+  </div>
+    <div class="grid gap-4">
+      {stateJobs.map(job => (
+        <a 
+          href={`/jobs/${job.slug}`}
+          class="block bg-white p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+                {job.data.position}
+              </h3>
+              <p class="text-sm text-gray-600 mt-1">
+                {job.data.hiringOrganization?.name} • {job.data.location}
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path d="M4 12h16m-7-7 7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+    
+    <div class="mt-6 flex flex-col items-center gap-3">
+      {/* Link to all jobs in state which page doesn't exist yet
+      <a 
+        href={`/jobs/location/${stateName.toLowerCase().replace(/\s+/g, '-')}-jobs`}
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all jobs in {stateName}
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+     */}
+      <a 
+        href={`/open-positions`}
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all open positions
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+)} 

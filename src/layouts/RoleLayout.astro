@@ -7,7 +7,8 @@ import SalaryChart from '../components/recruiting/SalaryChart.astro';
 import RecruitingStats from '../components/recruiting/RecruitingStats.astro';
 import RelatedRoles from '../components/recruiting/RelatedRoles.astro';
 import CtaThree from '@/components/cta/CtaThree.astro';
-
+import RoleJobs from '../components/recruiting/RoleJobs.astro';
+import CTA from '@/components/recruiting/CTA.astro';
 interface Props {
   role: CollectionEntry<'recruiting'>;
 }
@@ -128,10 +129,16 @@ const schema = {
             <Content />
           </div>
 
+          <CTA />
+
           <RelatedRoles 
             currentPath={role.slug}
             city={city}
             state={state}
+          />
+
+          <RoleJobs 
+            position={title}
           />
 
           <slot />

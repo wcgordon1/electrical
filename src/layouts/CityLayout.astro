@@ -5,8 +5,9 @@ import Breadcrumbs from '../components/recruiting/Breadcrumbs.astro';
 import MarketDataVisual from '../components/recruiting/MarketDataVisual.astro';
 import ContactForm from '../components/recruiting/ContactForm.astro';
 import CityRoles from '../components/recruiting/CityRoles.astro';
+import CityJobs from '../components/recruiting/CityJobs.astro';
 import CtaThree from '../components/cta/CtaThree.astro';
-
+import CTA from '@/components/recruiting/CTA.astro';
 interface Props {
   city: CollectionEntry<'recruiting'>;
   metaDescription?: string;
@@ -123,7 +124,14 @@ const schema = {
             <Content />
           </div>
 
+          <CTA />
+
           <CityRoles 
+            city={name}
+            state={state}
+          />
+
+          <CityJobs 
             city={name}
             state={state}
           />

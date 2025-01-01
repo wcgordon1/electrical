@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  position: string;
+}
+
+const { position } = Astro.props;
+
+// Get all jobs
+const allJobs = await getCollection('jobs');
+
+// Extract the actual role from recruiting agency title
+// e.g., "Cable Technician Recruiting Agency in Irvine" -> "Cable Technician"
+const roleTitle = position
+  .replace(/ Recruiting Agency in .+$/, '')
+  .replace(/ Recruiting in .+$/, '')
+  .replace(/ Recruiting$/, '');
+
+console.log(`Debug RoleJobs: Looking for jobs matching "${roleTitle}" (from title: "${position}")`);
+
+// Filter to get only jobs matching this position and sort by date
+const roleJobs = allJobs
+  .filter(job => {
+    const jobPosition = job.data.position?.toLowerCase() || '';
+    const searchRole = roleTitle.toLowerCase();
+    return jobPosition.includes(searchRole) || searchRole.includes(jobPosition);
+  })
+  .sort((a, b) => {
+    const dateA = new Date(b.data.datePosted || '');
+    const dateB = new Date(a.data.datePosted || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5); // Limit to 5 most recent jobs
+
+console.log(`Debug RoleJobs: Found ${roleJobs.length} jobs matching role "${roleTitle}"`);
+---
+
+{roleJobs.length > 0 && (
+  <div class="mt-12 bg-slate-50 rounded-3xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+    <img src="/images/eleclog.png" alt="Hiring Image" class="w-6 h-6" />
+    <h2 class="text-2xl font-semibold">Latest {roleTitle} Jobs</h2>
+  </div>
+    <div class="grid gap-4">
+      {roleJobs.map(job => (
+        <a 
+          href={`/jobs/${job.slug}`}
+          class="block bg-white p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+                {job.data.position}
+              </h3>
+              <p class="text-sm text-gray-600 mt-1">
+                {job.data.hiringOrganization?.name} • {job.data.location}
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path d="M4 12h16m-7-7 7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+    
+    <div class="mt-6 flex flex-col items-center gap-3">
+      <a 
+        href="/open-positions"
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all jobs
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+)} 

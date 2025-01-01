@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  city: string;
+  state: string;
+}
+
+const { city, state } = Astro.props;
+
+// Get all jobs
+const allJobs = await getCollection('jobs');
+
+// Helper function to get state abbreviation
+function getStateAbbrev(state: string) {
+  const stateMap: { [key: string]: string } = {
+    'california': 'ca',
+    'arizona': 'az',
+    'texas': 'tx',
+    'georgia': 'ga',
+    'nevada': 'nv',
+    'florida': 'fl',
+    'new york': 'ny',
+    'washington': 'wa'
+  };
+  
+  return stateMap[state.toLowerCase()] || state;
+}
+
+// Helper function to normalize state names
+function normalizeState(state: string) {
+  const stateMap: { [key: string]: string[] } = {
+    'california': ['ca', 'california'],
+    'arizona': ['az', 'arizona'],
+    'texas': ['tx', 'texas'],
+    'georgia': ['ga', 'georgia'],
+    'nevada': ['nv', 'nevada'],
+    'florida': ['fl', 'florida'],
+    'new york': ['ny', 'new york'],
+    'washington': ['wa', 'washington']
+  };
+  
+  const normalizedInput = state.toLowerCase();
+  for (const [fullState, variations] of Object.entries(stateMap)) {
+    if (variations.includes(normalizedInput)) {
+      return variations;
+    }
+  }
+  return [normalizedInput];
+}
+
+// Filter to get only jobs from this city and sort by date
+const cityJobs = allJobs
+  .filter(job => {
+    // Match city and state from job location (e.g., "Phoenix, AZ")
+    const [jobCity, jobState] = job.data.location?.split(', ') || [];
+    const validStateFormats = normalizeState(state);
+    
+    return jobCity?.toLowerCase() === city.toLowerCase() && 
+           jobState && validStateFormats.includes(jobState.toLowerCase());
+  })
+  .sort((a, b) => {
+    const dateA = new Date(b.data.datePosted || '');
+    const dateB = new Date(a.data.datePosted || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5); // Limit to 5 most recent jobs
+
+console.log(`Debug CityJobs: Found ${cityJobs.length} jobs in ${city}, ${state}`);
+console.log('Debug CityJobs: First job location:', cityJobs[0]?.data.location);
+---
+
+{cityJobs.length > 0 && (
+  <div class="mt-12 bg-slate-50 rounded-3xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+    <img src="/images/eleclog.png" alt="Hiring Image" class="w-6 h-6" />
+    <h2 class="text-2xl font-semibold">Latest Electrical Jobs in {city}</h2>
+  </div>
+    <div class="grid gap-4">
+      {cityJobs.map(job => (
+        <a 
+          href={`/jobs/${job.slug}`}
+          class="block bg-white p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+                {job.data.position}
+              </h3>
+              <p class="text-sm text-gray-600 mt-1">
+                {job.data.hiringOrganization?.name} • {job.data.location}
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+              <path d="M4 12h16m-7-7 7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+    
+    <div class="mt-6 flex flex-col items-center gap-3">
+      <a 
+        href={`/jobs/location/${city.toLowerCase().replace(/\s+/g, '-')}-${getStateAbbrev(state)}-jobs`}
+        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+      >
+        View all jobs in {city}
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+          <path d="M4 12h16m-7-7 7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+)} 
