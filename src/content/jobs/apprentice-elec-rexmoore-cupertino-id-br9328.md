@@ -74,7 +74,6 @@ identifier:
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 featured: false
 ---
 

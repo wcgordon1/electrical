@@ -61,7 +61,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Position:** Journeyman Electrician - Commercial  

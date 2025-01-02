@@ -63,7 +63,6 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 We are seeking a skilled and detail-oriented Security Technician specializing in low voltage wiring to join our team. The ideal candidate will be responsible for installing, maintaining, and troubleshooting security systems, including surveillance cameras, access control systems, and alarm systems. This role requires technical expertise, strong problem-solving skills, and the ability to work independently or as part of a team.  

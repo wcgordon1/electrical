@@ -35,7 +35,6 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Company:** Salt n Light Electric  

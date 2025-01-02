@@ -30,7 +30,8 @@
     "update-all-states": "node scripts/update-state-content.js",
     "generate-links": "node scripts/generate-links-list.js",
     "update-company-names": "node scripts/update-company-names.js",
-    "update-premier-emails": "node scripts/update-premier-emails.js"
+    "update-premier-emails": "node scripts/update-premier-emails.js",
+    "update-state-emails": "node scripts/update-state-emails.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

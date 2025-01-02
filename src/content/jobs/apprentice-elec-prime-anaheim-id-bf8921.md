@@ -79,7 +79,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Location:** Anaheim, CA (Serving nearby cities: Fullerton, Garden Grove, Orange, Buena Park, and Yorba Linda)  

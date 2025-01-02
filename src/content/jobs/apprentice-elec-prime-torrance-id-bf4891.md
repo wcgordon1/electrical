@@ -75,7 +75,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 Prime Partners is seeking a dedicated and motivated **Apprentice Electrician** to join our team in Torrance, CA. The ideal candidate will have a valid ET (Electrical Trainee) card and a strong desire to grow within the commercial electrical field. You will work alongside experienced electricians on various commercial projects, gaining hands-on experience and sharpening your technical skills.  

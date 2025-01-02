@@ -47,8 +47,6 @@ identifier:
   value: bf7482
 email:
   - will@bestelectricianjobs.com
-  - prime.partners+candidate+jl6y59w7r@mail.manatal.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
   - support@primepartners.info
 featured: false
 ---

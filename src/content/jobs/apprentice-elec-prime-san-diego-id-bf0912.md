@@ -71,7 +71,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Location:** San Diego, CA (Serving nearby cities: Chula Vista, La Mesa, El Cajon, Carlsbad, and Escondido)  

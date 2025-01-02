@@ -9,7 +9,6 @@ description: >-
   systems in corporate environments, including Fortune 500 companies, tech
   startups, and financial institutions. The ideal candidate will have extensive
   hands-on experience, technical knowledge, and possess a strong work ethic.
-
 location: 'Alameda, CA'
 team: Commercial
 schedule: 'Second Shift (2:00 PM - 10:30 PM)'
@@ -54,7 +53,6 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 workEnvironment:
   type: Corporate
   clients:

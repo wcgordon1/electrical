@@ -1,7 +1,7 @@
 ---
 position: Journeyman Electrician
 description: >-
-  
+
   IES Electric is a leading electrical contractor specializing in commercial
   projects across San Diego, CA. Our team is dedicated to providing top-notch
   electrical solutions for a variety of commercial environments, including
@@ -42,7 +42,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 

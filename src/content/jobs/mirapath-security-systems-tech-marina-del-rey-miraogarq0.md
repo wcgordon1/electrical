@@ -6,7 +6,6 @@ description: >-
   security systems for educational institutions. The ideal candidate will have a
   strong technical background and experience in security system installation and
   management.
-
 location: 'Marina del Rey, CA'
 team: Commercial
 datePosted: '2024-12-18T13:53:29.890Z'

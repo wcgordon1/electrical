@@ -1,9 +1,19 @@
 ---
 position: AV Project Manager
 description: >-
-  AVI-SPL is a leading provider of cutting-edge audio-visual solutions for commercial clients in the Los Angeles and Orange County areas. We specialize in designing, installing, and maintaining AV systems that enhance communication and collaboration across corporate, educational, hospitality, and other commercial environments. Our commitment to innovation and excellence drives everything we do.
-  
-  We are seeking an experienced Audio-Visual Project Manager to join our team in Los Angeles, CA. In this role, you will oversee the entire project lifecycle for commercial AV integration projects in the Los Angeles area, ensuring seamless execution from initial consultation to project completion. Collaboration with clients, internal teams, and external partners will be key to your success.
+  AVI-SPL is a leading provider of cutting-edge audio-visual solutions for
+  commercial clients in the Los Angeles and Orange County areas. We specialize
+  in designing, installing, and maintaining AV systems that enhance
+  communication and collaboration across corporate, educational, hospitality,
+  and other commercial environments. Our commitment to innovation and excellence
+  drives everything we do.
+
+  We are seeking an experienced Audio-Visual Project Manager to join our team in
+  Los Angeles, CA. In this role, you will oversee the entire project lifecycle
+  for commercial AV integration projects in the Los Angeles area, ensuring
+  seamless execution from initial consultation to project completion.
+  Collaboration with clients, internal teams, and external partners will be key
+  to your success.
 location: 'Los Angeles, CA'
 team: Commercial
 datePosted: '2024-12-21T08:31:24.899Z'
@@ -35,7 +45,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 AVI-SPL is a leading provider of cutting-edge audio-visual solutions for commercial clients in the Los Angeles and Orange County areas. We specialize in designing, installing, and maintaining AV systems that enhance communication and collaboration across corporate, educational, hospitality, and other commercial environments. Our commitment to innovation and excellence drives everything we do.

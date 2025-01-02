@@ -36,7 +36,6 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 Apprentice Electrician Opportunity at Berg Electric - Irvine

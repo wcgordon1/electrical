@@ -75,7 +75,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Location:** Thousand Oaks, CA (Serving nearby cities: Westlake Village, Agoura Hills, Camarillo, Simi Valley, and Calabasas)  

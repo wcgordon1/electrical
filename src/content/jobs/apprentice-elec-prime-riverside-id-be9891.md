@@ -78,7 +78,6 @@ featured: true
 email:
   - will@bestelectricianjobs.com
   - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
 ---
 
 **Location:** Riverside, CA (Serving nearby cities: Corona, Moreno Valley, Perris, San Bernardino, and Redlands)  
