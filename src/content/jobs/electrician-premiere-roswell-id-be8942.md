@@ -29,7 +29,7 @@ datePosted: '2024-12-20T16:05:15.621Z'
 validThrough: '2025-02-02T16:05:15.621Z'
 employmentType: FULL_TIME
 hiringOrganization:
-  name: Premiere Electrical
+  name: Premier Electric
   sameAs: 'https://www.premierelectricalstaffing.com/'
   logo: >-
     https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png
@@ -53,7 +53,7 @@ identifier:
 email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - Sarahann.Moody@pes123.com
 featured: false
 ---
 

@@ -116,16 +116,176 @@ const JOB_TYPES = {
    responsibilities: 'Install fire alarm control panels and devices, pull and terminate fire alarm cable, mount notification appliances and initiation devices, assist with system programming and testing, maintain detailed point-to-point wiring documentation, coordinate with other trades for device placement, perform pre-wire and trim-out phases, install conduit and cable pathways, troubleshoot system wiring issues, maintain proper color coding and labeling, assist with final testing and inspections',
    qualifications: 'Experience with commercial fire alarm systems, proficiency in blueprint reading, knowledge of NFPA 72 requirements, understanding of fire alarm circuit types, experience with basic programming, ability to use multimeter and testing equipment, attention to detail for documentation, understanding of voltage drop calculations, good communication skills for coordination',
    prompt: 'Create a job description for a Fire Alarm Installation Technician focusing on commercial new construction projects. Must understand fire alarm system installation including control panels, initiating devices, and notification appliances. Experience with fire alarm cable installation, device mounting, and basic programming preferred. NICET certification helpful but not required. Knowledge of NFPA 72, circuit types, and testing procedures essential. Position involves installing complete fire alarm systems in commercial buildings. Must understand proper wiring methods, device placement, and documentation requirements. Role includes maintaining detailed wiring records, coordinating with inspectors, and performing system testing. Some projects require working around other trades in active construction sites. Physical requirements include ladder work, cable pulling, and device mounting. Must be able to read blueprints and understand sequence of operations. Position offers exposure to various system types and advancement opportunities. Weekend work possible during critical testing phases. Clean background check and drug screening required.'
+},
+'Apprentice Electrician': {
+   minValue: 18,
+   maxValue: 25,
+   experienceLevel: 'entry',
+   category: 'Apprentice',
+   team: 'Commercial',
+   yearsExperience: '0-4',
+   responsibilities: 'Assist journeyman electricians with installation and maintenance of electrical systems, learn to read electrical blueprints and diagrams, help install conduit and raceways, pull wire through conduit systems, assist with device and fixture installation, learn proper use of hand and power tools, maintain clean and safe work areas, organize materials and tools, assist with basic troubleshooting, document work performed, follow safety protocols, learn electrical code requirements, help with material handling and logistics, maintain tool inventory, learn proper testing procedures',
+   qualifications: 'High school diploma or equivalent, enrollment in or acceptance to approved electrical apprenticeship program, basic math skills, ability to read and follow instructions, willingness to learn, reliable transportation, ability to lift 50+ pounds regularly, comfort working at heights and in confined spaces, basic computer skills, good communication abilities, strong work ethic, ability to work in various weather conditions, valid driver license, ability to pass drug test and background check',
+   prompt: 'Create a job description for an Apprentice Electrician starting their career in the electrical trade. Position involves learning electrical installation and maintenance while assisting experienced electricians. Must be enrolled in or accepted to an approved apprenticeship program. Role includes helping with conduit installation, wire pulling, and basic electrical work under direct supervision. Will learn blueprint reading, electrical theory, and proper installation techniques. Physical requirements include lifting, climbing ladders, and working in various positions. Schedule includes both on-the-job training and required classroom instruction. Must demonstrate commitment to learning the trade and following safety protocols.'
+},
+'Security Alarm Installer': {
+   minValue: 22,
+   maxValue: 32,
+   experienceLevel: 'entryLevel',
+   category: 'Voice Data',
+   team: 'Commercial',
+   yearsExperience: '1-3',
+   responsibilities: 'Install and service security systems including intrusion detection, access control, and video surveillance, mount and wire security panels and devices, program alarm systems and test functionality, run and terminate low voltage cabling, configure wireless security components, install motion sensors and glass break detectors, mount and aim security cameras, pull cable through existing structures, program user codes and explain system operation to customers, troubleshoot system issues, document installation details, maintain tool and equipment inventory, coordinate with sales team on installation requirements',
+   qualifications: 'High school diploma or equivalent, basic low voltage experience preferred, ability to read system diagrams and floor plans, proficiency with hand tools and power tools, comfort working at heights on ladders, valid driver license and clean driving record, ability to lift 50+ pounds regularly, good customer service skills, basic computer proficiency, ability to pass background check and drug test, comfortable working in various weather conditions, willingness to be on call rotation',
+   prompt: 'Create a job description for a Security Alarm Installer focused on residential and light commercial security systems. Position involves installing and servicing intrusion detection, cameras, and access control systems. Must understand low voltage wiring methods and basic networking concepts. Role includes mounting equipment, pulling cable, programming systems, and explaining operation to customers. Experience with wireless security components and IP cameras helpful but not required. Physical requirements include ladder work, crawl space access, and attic work. Must have reliable transportation and tools. Position requires good customer service skills and professional appearance. Some on-call rotation required for emergency service. Background check and drug test mandatory. Training provided on specific systems and installation methods.'
+},
+'Journeyman Electrician': {
+   minValue: 32,
+   maxValue: 40,
+   experienceLevel: 'skilled',
+   category: 'Journeyman',
+   team: 'Commercial',
+   yearsExperience: '4-8',
+   responsibilities: 'Install, maintain and repair electrical systems in commercial and industrial settings, interpret and execute plans from electrical blueprints, perform complex conduit bending and installation, supervise apprentice electricians, troubleshoot electrical problems using diagnostic equipment, install switchgear and transformers, perform load calculations and voltage drop calculations, maintain power distribution systems, install and program lighting control systems, ensure NEC code compliance, coordinate with general contractors and other trades, maintain detailed documentation of all work performed, implement lockout/tagout procedures, perform emergency repairs, conduct system testing and commissioning',
+   qualifications: 'Valid Journeyman Electrician license, comprehensive knowledge of NEC code requirements, proven experience in commercial electrical installation, advanced blueprint reading ability, expertise in power distribution systems, demonstrated leadership experience, proficiency with electrical test equipment, strong mathematical skills, thorough understanding of OSHA regulations, experience with various voltage systems up to 480V, valid driver license with clean record, complete tool set for commercial work, ability to work flexible hours when needed, physical ability to lift 50+ pounds',
+   prompt: 'Create a job description for a Journeyman Electrician specializing in commercial and industrial installations. Must have comprehensive understanding of electrical systems and NEC requirements. Position involves installing and maintaining complex electrical systems including service equipment, distribution, and motor controls. Leadership role includes supervising apprentices and coordinating with other trades. Must be proficient in conduit installation, wire pulling, and termination techniques. Role requires advanced troubleshooting abilities and thorough documentation practices. Physical requirements include lifting heavy equipment, working at heights, and operating power tools. Position may require occasional overtime and emergency response. Must have complete tool set and reliable transportation. Drug test and background check required.'
 }
 };
 
 const PROMPT_STYLES = {
   'conversational': 'Make this job description friendly and conversational, using casual language while maintaining professionalism. Use "you" and "we" to speak directly to the candidate.',
   'formal': 'Write this job description in a formal, traditional corporate style with clear sections and bullet points.',
-  'detailed': 'Create a comprehensive and detailed job description with specific examples and clear expectations for each responsibility. Make up more responsibilites than the job description already has.',
-  'concise': 'Write a clear and concise job description focusing on key requirements and essential responsibilities. Remove some of the qualifications from the job description.',
+  'detailed': 'Create a comprehensive and detailed job description with specific examples and clear expectations for each responsibility.',
+  'concise': 'Write a clear and concise job description focusing on key requirements and essential responsibilities.',
   'engaging': 'Create an engaging and energetic job description that excites potential candidates while highlighting growth opportunities.'
 };
+
+const PROMPT_TEMPLATES = [
+  `Create a job description that emphasizes the cutting-edge technology aspects of this role. Focus on how this position uses modern tools, software, and equipment. Highlight the technical challenges and innovative solutions. Include specific examples of new technologies being used in {city}, {state}.
+
+Base content:
+{baseContent}
+
+Start with a paragraph about working in {city}, {state} at {company}. Include neighboring cities where work may be performed. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+After the intro paragraph, use these sections with h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 technology-focused responsibilities
+- Include regional tech requirements for {state}
+- Mention upcoming tech projects in {city}
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 tech-specific qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+
+  `Write a job description that focuses on career growth and development. Emphasize training opportunities, mentorship programs, and advancement paths. Highlight how this role can lead to future career opportunities.
+
+Base content:
+{baseContent}
+
+Begin with a paragraph about career opportunities in {city}, {state} at {company}. Name surrounding cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+Then use these sections with h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 skill development opportunities
+- Include learning opportunities in {state}
+- Mention training programs in {city}
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 growth-oriented qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+
+  `Create a job description that emphasizes work-life balance and company culture. Focus on team environment, flexible scheduling, and workplace benefits. Highlight what makes working here unique.
+
+Base content:
+{baseContent}
+
+Start with a paragraph about the work environment in {city}, {state} at {company}. Include nearby cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+Follow with these sections using h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 team-oriented responsibilities
+- Include work-life balance aspects
+- Mention company culture elements
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 team-focused qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+
+  `Develop a job description that focuses on the impact and importance of this role. Emphasize how this position contributes to critical infrastructure and community development. Highlight the meaningful aspects of the work.
+
+Base content:
+{baseContent}
+
+Begin with a paragraph about the impact of this role in {city}, {state} at {company}. Name surrounding cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+Then use these sections with h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 impact-focused responsibilities
+- Include community benefits in {state}
+- Mention significant projects in {city}
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 impact-related qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+
+  `Write a job description that emphasizes hands-on experience and practical skills. Focus on the day-to-day activities and real-world applications. Highlight the variety of work and practical challenges.
+
+Base content:
+{baseContent}
+
+Start with a paragraph about the practical work in {city}, {state} at {company}. Include nearby work locations. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+Follow with these sections with h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 hands-on responsibilities
+- Include practical requirements for {state}
+- Mention typical projects in {city}
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 practical skill qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`
+];
 
 const DESCRIPTION_LENGTHS = {
   'short': 500,
@@ -134,129 +294,137 @@ const DESCRIPTION_LENGTHS = {
 };
 
 const COMPANIES = {
-  'Staley Technologies': {
-    name: 'Staley Technologies',
-    sameAs: 'https://staleytechnologies.com/',
-    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
-  },
-  'M3 Technology': {
-    name: 'M3 Technology',
-    sameAs: 'https://m3tc.com/',
-    logo: 'https://m3tc.com/wp-content/uploads/2020/09/m3svg2.svg'
-  },
-  'TR Group': {
-    name: 'TR Group',
-    sameAs: 'https://www.trgroup.com/',
-    logo: 'https://www.trgroup.com/wp-content/uploads/2022/04/TR-Group-Logo.png'
-  },
-  'Mirapath': {
-    name: 'Mirapath',
-    sameAs: 'https://www.mirapath.com/',
-    logo: 'https://mirapath.com/wp-content/uploads/2016/12/s5_logo-cropped.png'
-  },
-  'InScope': {
-    name: 'InScope',
-    sameAs: 'https://www.inscopecom.com/',
-    logo: 'https://lirp.cdn-website.com/413e02695b2643da8d26d40ae7573b8d/dms3rep/multi/opt/Inscope+logo+for+website-a85d3781-1920w.png'
-  },
-  'Integra Electrical': {
-    name: 'Integra Electrical',
-    sameAs: 'https://www.integraelectrical.co/',
-    logo: 'https://www.integraelectrical.co/images/logos/Logo2.2403050635216.png'
-  },
-  'Enhanced Voice & Data': {
-    name: 'Enhanced Voice & Data',
-    sameAs: 'https://www.evdnetworks.com/',
-    logo: 'https://le-cdn.hibuwebsites.com/96e0889d6ad24d76868742b04ea19ca4/dms3rep/multi/opt/enhanced-voice-and-data-networks-logo-530w.jpg'
-  },
-  'Inc Installs': {
-    name: 'Inc Installs',
-    sameAs: 'https://www.inc-installs.com/',
-    logo: 'https://www.inc-installs.com/wp-content/uploads/2019/12/INC-Installs-Web-Logo.png'
-  },
-  'T&D Communications': {
-    name: 'T&D Communications',
-    sameAs: 'https://www.tanddcomm.com/',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
-  },
-  'Direct Line': {
-    name: 'Direct Connect',
-    sameAs: 'https://www.dlci.net/',
-    logo: 'https://cdn.freebiesupply.com/logos/thumbs/2x/direct-line-2-logo.png'
-  },
-  'Atek Communications': {
-    name: 'Atek Communications',
-    sameAs: 'https://www.atekcommunications.com/',
-    logo: 'https://www.atekcommunications.com/images/gif/icclogo2000.gif'
-  },
-  'Shelby Communications': {
-    name: 'Shelby Communications',
-    sameAs: 'https://www.shelbycommunications.com/',
-    logo: 'https://shelbycommunications.com/wp-content/uploads/2022/02/eQkSUiEUF9h03zP_TRYxMq9BEwyVxvd6tiQOkA.png'
-  },
-  'Texas Voice & Data': {
-    name: 'Texas Voice & Data',
-    sameAs: 'http://www.texasvoicedata.com/',
-    logo: 'https://nebula.wsimg.com/3d01291556c12048b98053e61436463c?AccessKeyId=1694F521AED933792FFF&disposition=0&alloworigin=1'
-  },
-  'WiLine': {
-    name: 'WiLine',
-    sameAs: 'https://www.wiline.com/',
-    logo: 'https://www.wiline.com/img/logo_blue.png'
-  },
-  'Teleco': {
-    name: 'Teleco',
-    sameAs: 'https://www.teleco.com/',
-    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
-  },
+  'Premier Electric': {
+    name: 'Premier Electric',
+    sameAs: 'https://www.premierelectricalstaffing.com/',
+    logo: 'https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
+  }
 };
 
 const LOCATIONS = [
-  { city: 'Boise', state: 'ID', zipCode: '83701' }, // population: 235,684
-{ city: 'Reno', state: 'NV', zipCode: '89501' }, // population: 264,165
-{ city: 'Milwaukee', state: 'WI', zipCode: '53202' }, // population: 577,222
-{ city: 'Madison', state: 'WI', zipCode: '53703' }, // population: 269,840
-{ city: 'Minneapolis', state: 'MN', zipCode: '55401' }, // population: 429,606
-{ city: 'St. Paul', state: 'MN', zipCode: '55101' }, // population: 311,527
-{ city: 'Birmingham', state: 'AL', zipCode: '35203' }, // population: 200,733
-{ city: 'Louisville', state: 'KY', zipCode: '40202' }, // population: 633,045
-{ city: 'Lexington', state: 'KY', zipCode: '40507' }, // population: 322,570
-{ city: 'Nashville', state: 'TN', zipCode: '37201' }, // population: 692,587
-{ city: 'Memphis', state: 'TN', zipCode: '38103' }, // population: 633,104
-{ city: 'Columbus', state: 'OH', zipCode: '43215' }, // population: 905,748
-{ city: 'Cleveland', state: 'OH', zipCode: '44114' }, // population: 372,624
-{ city: 'Cincinnati', state: 'OH', zipCode: '45202' }, // population: 309,317
-{ city: 'Detroit', state: 'MI', zipCode: '48226' }, // population: 670,031
-{ city: 'Grand Rapids', state: 'MI', zipCode: '49503' }, // population: 199,417
-{ city: 'Indianapolis', state: 'IN', zipCode: '46204' }, // population: 887,642
-{ city: 'Fort Wayne', state: 'IN', zipCode: '46802' }, // population: 263,886
-{ city: 'Springfield', state: 'MO', zipCode: '65806' }, // population: 169,176
-{ city: 'Kansas City', state: 'MO', zipCode: '64105' }, // population: 508,090
-{ city: 'St. Louis', state: 'MO', zipCode: '63101' }, // population: 301,578
-{ city: 'Little Rock', state: 'AR', zipCode: '72201' }, // population: 202,591
-{ city: 'Sioux Falls', state: 'SD', zipCode: '57104' }, // population: 200,243
-{ city: 'Omaha', state: 'NE', zipCode: '68102' }, // population: 486,051
-{ city: 'Lincoln', state: 'NE', zipCode: '68508' }, // population: 292,657
-{ city: 'Des Moines', state: 'IA', zipCode: '50309' }, // population: 214,237
-{ city: 'Albuquerque', state: 'NM', zipCode: '87102' }, // population: 564,559
-{ city: 'Las Cruces', state: 'NM', zipCode: '88001' }, // population: 103,432
-{ city: 'Billings', state: 'MT', zipCode: '59101' }, // population: 117,116
-{ city: 'Anchorage', state: 'AK', zipCode: '99501' }, // population: 291,247
-{ city: 'Honolulu', state: 'HI', zipCode: '96813' }, // population: 350,964
-{ city: 'Augusta', state: 'GA', zipCode: '30901' }, // population: 202,081
-{ city: 'Charleston', state: 'SC', zipCode: '29401' }, // population: 150,227
-{ city: 'Columbia', state: 'SC', zipCode: '29201' }, // population: 137,541
-{ city: 'Huntsville', state: 'AL', zipCode: '35801' },
-{ city: 'Charlotte', state: 'NC', zipCode: '28202' }, // population: 879,709
-{ city: 'Raleigh', state: 'NC', zipCode: '27601' }, // population: 469,124
-{ city: 'Durham', state: 'NC', zipCode: '27701' }, // population: 285,527
-{ city: 'Winston-Salem', state: 'NC', zipCode: '27101' }, // population: 250,765
-{ city: 'Greensboro', state: 'NC', zipCode: '27401' }, // population: 298,263
-{ city: 'Cary', state: 'NC', zipCode: '27511' }, // population: 174,721
-{ city: 'Concord', state: 'NC', zipCode: '28025' }, // population: 105,240
-{ city: 'High Point', state: 'NC', zipCode: '27260' }, // population: 114,227
-{ city: 'Chapel Hill', state: 'NC', zipCode: '27514' }, // population: 61,960 (metro area influence)
-{ city: 'Morrisville', state: 'NC', zipCode: '27560' } // population: 29,630 (emerging hub for tech/data centers)
+  { city: 'Phoenix', state: 'AZ', zipCode: '85001' },
+  { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
+  { city: 'Mesa', state: 'AZ', zipCode: '85201' },
+  { city: 'Tempe', state: 'AZ', zipCode: '85281' },
+  { city: 'Glendale', state: 'AZ', zipCode: '85301' },
+  { city: 'Chandler', state: 'AZ', zipCode: '85225' },
+
+  // Denver Area
+  { city: 'Denver', state: 'CO', zipCode: '80201' },
+  { city: 'Aurora', state: 'CO', zipCode: '80010' },
+  { city: 'Lakewood', state: 'CO', zipCode: '80226' },
+  { city: 'Centennial', state: 'CO', zipCode: '80112' },
+  { city: 'Boulder', state: 'CO', zipCode: '80301' },
+
+  // Fort Lauderdale Area
+  { city: 'Fort Lauderdale', state: 'FL', zipCode: '33301' },
+  { city: 'Hollywood', state: 'FL', zipCode: '33020' },
+  { city: 'Pompano Beach', state: 'FL', zipCode: '33060' },
+  { city: 'Coral Springs', state: 'FL', zipCode: '33065' },
+  { city: 'Plantation', state: 'FL', zipCode: '33324' },
+
+  // Orlando Area
+  { city: 'Orlando', state: 'FL', zipCode: '32801' },
+  { city: 'Kissimmee', state: 'FL', zipCode: '34741' },
+  { city: 'Winter Park', state: 'FL', zipCode: '32789' },
+  { city: 'Sanford', state: 'FL', zipCode: '32771' },
+  { city: 'Altamonte Springs', state: 'FL', zipCode: '32701' },
+
+  // Tampa Area
+  { city: 'Tampa', state: 'FL', zipCode: '33601' },
+  { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
+  { city: 'Clearwater', state: 'FL', zipCode: '33755' },
+  { city: 'Brandon', state: 'FL', zipCode: '33510' },
+  { city: 'Largo', state: 'FL', zipCode: '33770' },
+
+  // DC Area
+  { city: 'Washington', state: 'DC', zipCode: '20001' },
+  { city: 'Arlington', state: 'VA', zipCode: '22201' },
+  { city: 'Alexandria', state: 'VA', zipCode: '22301' },
+  { city: 'Bethesda', state: 'MD', zipCode: '20814' },
+  { city: 'Silver Spring', state: 'MD', zipCode: '20910' },
+
+  // Richmond Area
+  { city: 'Richmond', state: 'VA', zipCode: '23219' },
+  { city: 'Mechanicsville', state: 'VA', zipCode: '23111' },
+  { city: 'Glen Allen', state: 'VA', zipCode: '23059' },
+  { city: 'Chester', state: 'VA', zipCode: '23831' },
+  { city: 'Midlothian', state: 'VA', zipCode: '23112' },
+
+  // Virginia Beach Area
+  { city: 'Virginia Beach', state: 'VA', zipCode: '23451' },
+  { city: 'Norfolk', state: 'VA', zipCode: '23501' },
+  { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
+  { city: 'Newport News', state: 'VA', zipCode: '23601' },
+  { city: 'Hampton', state: 'VA', zipCode: '23666' },
+
+  // Wilmington Area
+  { city: 'Wilmington', state: 'NC', zipCode: '28401' },
+  { city: 'Wrightsville Beach', state: 'NC', zipCode: '28480' },
+  { city: 'Carolina Beach', state: 'NC', zipCode: '28428' },
+  { city: 'Leland', state: 'NC', zipCode: '28451' },
+  { city: 'Hampstead', state: 'NC', zipCode: '28443' },
+
+  // Raleigh Area
+  { city: 'Raleigh', state: 'NC', zipCode: '27601' },
+  { city: 'Durham', state: 'NC', zipCode: '27701' },
+  { city: 'Cary', state: 'NC', zipCode: '27511' },
+  { city: 'Chapel Hill', state: 'NC', zipCode: '27514' },
+  { city: 'Wake Forest', state: 'NC', zipCode: '27587' },
+
+  // Fayetteville Area
+  { city: 'Fayetteville', state: 'NC', zipCode: '28301' },
+  { city: 'Spring Lake', state: 'NC', zipCode: '28390' },
+  { city: 'Hope Mills', state: 'NC', zipCode: '28348' },
+  { city: 'Fort Bragg', state: 'NC', zipCode: '28307' },
+  { city: 'Raeford', state: 'NC', zipCode: '28376' },
+
+  // Charlotte Area
+  { city: 'Charlotte', state: 'NC', zipCode: '28201' },
+  { city: 'Concord', state: 'NC', zipCode: '28025' },
+  { city: 'Gastonia', state: 'NC', zipCode: '28052' },
+  { city: 'Rock Hill', state: 'SC', zipCode: '29730' },
+  { city: 'Matthews', state: 'NC', zipCode: '28105' },
+
+  // Greensboro Area
+  { city: 'Greensboro', state: 'NC', zipCode: '27401' },
+  { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
+  { city: 'High Point', state: 'NC', zipCode: '27260' },
+  { city: 'Burlington', state: 'NC', zipCode: '27215' },
+  { city: 'Kernersville', state: 'NC', zipCode: '27284' },
+
+  // Charleston Area
+  { city: 'Charleston', state: 'SC', zipCode: '29401' },
+  { city: 'Mount Pleasant', state: 'SC', zipCode: '29464' },
+  { city: 'North Charleston', state: 'SC', zipCode: '29405' },
+  { city: 'Summerville', state: 'SC', zipCode: '29483' },
+  { city: 'Goose Creek', state: 'SC', zipCode: '29445' },
+
+  // Greenville Area
+  { city: 'Greenville', state: 'SC', zipCode: '29601' },
+  { city: 'Spartanburg', state: 'SC', zipCode: '29301' },
+  { city: 'Anderson', state: 'SC', zipCode: '29621' },
+  { city: 'Greer', state: 'SC', zipCode: '29650' },
+  { city: 'Mauldin', state: 'SC', zipCode: '29662' },
+
+  // Atlanta Area
+  { city: 'Atlanta', state: 'GA', zipCode: '30301' },
+  { city: 'Marietta', state: 'GA', zipCode: '30060' },
+  { city: 'Alpharetta', state: 'GA', zipCode: '30004' },
+  { city: 'Decatur', state: 'GA', zipCode: '30030' },
+  { city: 'Sandy Springs', state: 'GA', zipCode: '30328' },
+  { city: 'Roswell', state: 'GA', zipCode: '30075' },
+  { city: 'Johns Creek', state: 'GA', zipCode: '30097' },
+  { city: 'Duluth', state: 'GA', zipCode: '30096' },
+  { city: 'Kennesaw', state: 'GA', zipCode: '30144' },
+
+  // Nashville Area
+  { city: 'Nashville', state: 'TN', zipCode: '37201' },
+  { city: 'Franklin', state: 'TN', zipCode: '37064' },
+  { city: 'Murfreesboro', state: 'TN', zipCode: '37127' },
+  { city: 'Hendersonville', state: 'TN', zipCode: '37075' },
+  { city: 'Lebanon', state: 'TN', zipCode: '37087' },
+  { city: 'Mount Juliet', state: 'TN', zipCode: '37122' }
 ];
 
 const STREET_TYPES = [
@@ -312,48 +480,25 @@ async function createJob(location, jobType, company) {
   
   const { minValue, maxValue } = generateSalaryWithCents(jobInfo.minValue, jobInfo.maxValue);
 
-  const promptStyles = Object.entries(PROMPT_STYLES);
-  const selectedStyle = promptStyles[Math.floor(Math.random() * promptStyles.length)];
-  
-  const descLengths = Object.entries(DESCRIPTION_LENGTHS);
-  const selectedLength = descLengths[Math.floor(Math.random() * descLengths.length)];
-
-  const prompt = `${selectedStyle[1]} 
-
-Create a ${selectedLength[0]} word job description for a ${jobType} position at ${company.name} in ${location.city}, ${location.state}. 
-
-Base content:
-${jobInfo.prompt}
-
-Start with a paragraph about the role in ${location.city}, ${location.state} at ${company.name}. Name surrounding neighboring cities to ${location.city} for work to be performed. Never use h1 tags or headings before this paragraph. 
-
-After the paragraph intro, use these sections with h2 tags:
-
-## Key Responsibilities
-${jobInfo.responsibilities} 
-- Add 3-4 more responsibilities specific to ${location.city} area
-- Include any regional requirements for ${location.state}
-- Talk about and name a large upcoming project in ${location.city}, ${location.state} area
-
-## Required Qualifications 
-${jobInfo.qualifications}
-- ${jobInfo.yearsExperience} years of experience required for ${jobInfo.category} work in ${jobInfo.team} setting
-- Add 2-3 location-specific qualifications for ${location.city}
-
-## Compensation & Benefits
-- Competitive salary range: $${minValue}-$${maxValue} per hour depending on experience
+  const selectedPrompt = PROMPT_TEMPLATES[Math.floor(Math.random() * PROMPT_TEMPLATES.length)]
+    .replace('{baseContent}', jobInfo.prompt )
+    .replace('{responsibilities}', jobInfo.responsibilities)
+    .replace('{qualifications}', jobInfo.qualifications)
+    .replace('{experience}', jobInfo.yearsExperience)
+    .replace('{city}', location.city)
+    .replace('{state}', location.state)
+    .replace('{company}', company.name)
+    .replace('{benefits}', `- Competitive salary range: $${minValue}-$${maxValue} per hour depending on experience
 - Comprehensive medical, dental, and vision coverage
 - Paid time off and holidays
 - Career advancement opportunities
-- Ongoing training and certifications
-
-Format in markdown without h1 tags. Do not include ticks or markdown formatting instructions. Keep the total length to ${selectedLength[0]} words while maintaining the ${selectedStyle[0]} style.`;
+- Ongoing training and certifications`);
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4o",
     messages: [{ 
       role: "user", 
-      content: prompt
+      content: selectedPrompt
     }],
     temperature: 0.7,
   });
@@ -396,7 +541,8 @@ Format in markdown without h1 tags. Do not include ticks or markdown formatting 
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com'
+      'Michael.Mckeaige@pes123.com',
+      'Sarahann.Moody@pes123.com'
     ]
   };
 

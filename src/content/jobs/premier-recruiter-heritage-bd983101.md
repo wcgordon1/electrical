@@ -1,10 +1,18 @@
 ---
 position: Recruiter
 description: >-
-  At **Premier Electrical Staffing**, we specialize in connecting talented electricians with rewarding opportunities. We’re not just a staffing company—we’re a dedicated team committed to keeping our electricians working 40+ hours a week, ensuring they stay busy and achieve their career goals. Our company is growing rapidly, and we’re busier than ever. Join us and be part of a team that values your contribution and strives to make a difference in the electrical industry.
-  
-  This is a full-time position with a base salary of **$45,000 per year**, plus significant commission potential. Experience in high-volume recruiting or sales is highly valued, but we welcome motivated individuals ready to grow with us. Bilingual skills (English/Spanish) are a plus but not mandatory.
+  At **Premier Electrical Staffing**, we specialize in connecting talented
+  electricians with rewarding opportunities. We’re not just a staffing
+  company—we’re a dedicated team committed to keeping our electricians working
+  40+ hours a week, ensuring they stay busy and achieve their career goals. Our
+  company is growing rapidly, and we’re busier than ever. Join us and be part of
+  a team that values your contribution and strives to make a difference in the
+  electrical industry.
 
+  This is a full-time position with a base salary of **$45,000 per year**, plus
+  significant commission potential. Experience in high-volume recruiting or
+  sales is highly valued, but we welcome motivated individuals ready to grow
+  with us. Bilingual skills (English/Spanish) are a plus but not mandatory.
 location: 'Hermitage, TN'
 team: Operations
 datePosted: '2024-12-23T00:34:15.965Z'
@@ -35,7 +43,7 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - Sarahann.Moody@pes123.com
 ---
 
 At **Premier Electrical Staffing**, we specialize in connecting talented electricians with rewarding opportunities. We’re not just a staffing company—we’re a dedicated team committed to keeping our electricians working 40+ hours a week, ensuring they stay busy and achieve their career goals. Our company is growing rapidly, and we’re busier than ever. Join us and be part of a team that values your contribution and strives to make a difference in the electrical industry.

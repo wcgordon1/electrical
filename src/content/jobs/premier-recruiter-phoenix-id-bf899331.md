@@ -1,12 +1,19 @@
 ---
 position: Recruiter
 description: >-
-  At Premier Electrical Staffing, we are passionate about connecting top-tier electrical talent with incredible opportunities. We’re not just a staffing firm, we’re a dynamic team of individuals dedicated to powering careers and energizing businesses. Join us and become a part of our mission to provide outstanding staffing solutions for the electrical industry nationwide.
-  
-  This is a full time position with a base salary of $50,000 per year. Most of your income will come from commission. If you have experience in a high volume recruiting role, or sales, this is a great opportunity for you.
-  
-  As a **Bilingual Recruiter - English/Spanish**, you will take charge of identifying, engaging, and matching exceptional candidates with exciting roles. Your responsibilities will include:
+  At Premier Electrical Staffing, we are passionate about connecting top-tier
+  electrical talent with incredible opportunities. We’re not just a staffing
+  firm, we’re a dynamic team of individuals dedicated to powering careers and
+  energizing businesses. Join us and become a part of our mission to provide
+  outstanding staffing solutions for the electrical industry nationwide.
 
+  This is a full time position with a base salary of $50,000 per year. Most of
+  your income will come from commission. If you have experience in a high volume
+  recruiting role, or sales, this is a great opportunity for you.
+
+  As a **Bilingual Recruiter - English/Spanish**, you will take charge of
+  identifying, engaging, and matching exceptional candidates with exciting
+  roles. Your responsibilities will include:
 location: 'Tempe, AZ'
 team: Operations
 datePosted: '2024-12-23T00:34:15.965Z'
@@ -37,7 +44,7 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - Sarahann.Moody@pes123.com
 ---
 
 At **Premier Electrical Staffing**, we are passionate about connecting top-tier electrical talent with incredible opportunities. We’re not just a staffing firm, we’re a dynamic team of individuals dedicated to powering careers and energizing businesses. Join us and become a part of our mission to provide outstanding staffing solutions for the electrical industry nationwide.

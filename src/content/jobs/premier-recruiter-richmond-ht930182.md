@@ -1,8 +1,14 @@
 ---
 position: Recruiter
 description: >-
-  As a Recruiter at Premier Electrical Staffing, you will focus on sourcing, placing, and supporting electricians to ensure they excel in their roles. Your responsibilities include: Finding top talent, streamlining placements, and providing ongoing support for both electricians and clients. Key responsibilities include: Interviewing candidates, matching skills with job requirements, and ensuring successful placements. You will work closely with the Operations team to ensure a smooth hiring process and maintain a positive relationship with both electricians and clients.
-
+  As a Recruiter at Premier Electrical Staffing, you will focus on sourcing,
+  placing, and supporting electricians to ensure they excel in their roles. Your
+  responsibilities include: Finding top talent, streamlining placements, and
+  providing ongoing support for both electricians and clients. Key
+  responsibilities include: Interviewing candidates, matching skills with job
+  requirements, and ensuring successful placements. You will work closely with
+  the Operations team to ensure a smooth hiring process and maintain a positive
+  relationship with both electricians and clients.
 location: 'Richmond, VA'
 team: Operations
 datePosted: '2024-12-23T05:34:55.965Z'
@@ -33,7 +39,7 @@ featured: false
 email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - Sarahann.Moody@pes123.com
 ---
 
 

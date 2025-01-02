@@ -28,7 +28,9 @@
     "create:recruiting": "node scripts/create-recruiting-content.js",
     "update-state": "node scripts/update-state-content.js",
     "update-all-states": "node scripts/update-state-content.js",
-    "generate-links": "node scripts/generate-links-list.js"
+    "generate-links": "node scripts/generate-links-list.js",
+    "update-company-names": "node scripts/update-company-names.js",
+    "update-premier-emails": "node scripts/update-premier-emails.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
