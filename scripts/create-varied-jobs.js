@@ -480,8 +480,41 @@ async function createJob(location, jobType, company) {
   
   const { minValue, maxValue } = generateSalaryWithCents(jobInfo.minValue, jobInfo.maxValue);
 
-  const selectedPrompt = PROMPT_TEMPLATES[Math.floor(Math.random() * PROMPT_TEMPLATES.length)]
-    .replace('{baseContent}', jobInfo.prompt )
+  // Create a job-specific prompt that incorporates the job type's unique aspects
+  const jobSpecificPrompt = `Create a detailed job description for a ${jobType} position that aligns with the following responsibilities and qualifications. The description should focus specifically on ${jobType} duties and requirements.
+
+Base content:
+${jobInfo.prompt}
+
+Key focus areas for ${jobType}:
+- ${jobInfo.responsibilities.split(',')[0]}
+- ${jobInfo.qualifications.split(',')[0]}
+- Experience level: ${jobInfo.experienceLevel}
+- Category: ${jobInfo.category}
+- Team: ${jobInfo.team}
+
+Start with a paragraph about working as a ${jobType} in {city}, {state} at {company}. Include neighboring cities where work may be performed. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+
+After the intro paragraph, use these sections with h2 tags:
+
+## Key Responsibilities
+{responsibilities}
+- Add 3-4 ${jobType.toLowerCase()}-specific responsibilities
+- Include regional requirements for {state}
+- Mention upcoming ${jobType.toLowerCase()} projects in {city}
+
+## Required Qualifications
+{qualifications}
+- {experience} years of experience required
+- Add 2-3 ${jobType.toLowerCase()}-specific qualifications
+
+## Compensation & Benefits
+{benefits}
+
+Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`;
+
+  const selectedPrompt = jobSpecificPrompt
+    .replace('{baseContent}', jobInfo.prompt)
     .replace('{responsibilities}', jobInfo.responsibilities)
     .replace('{qualifications}', jobInfo.qualifications)
     .replace('{experience}', jobInfo.yearsExperience)
@@ -495,7 +528,7 @@ async function createJob(location, jobType, company) {
 - Ongoing training and certifications`);
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4o",
+    model: "gpt-4",
     messages: [{ 
       role: "user", 
       content: selectedPrompt

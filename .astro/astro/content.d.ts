@@ -165,9 +165,9 @@ declare module 'astro:content' {
   collection: "company";
   data: InferEntrySchema<"company">
 } & { render(): Render[".md"] };
-"premiere-electrical.md": {
-	id: "premiere-electrical.md";
-  slug: "premiere-electrical";
+"premier-electrical.md": {
+	id: "premier-electrical.md";
+  slug: "premier-electrical";
   body: string;
   collection: "company";
   data: InferEntrySchema<"company">
@@ -8201,6 +8201,643 @@ declare module 'astro:content' {
 "premier-commercial-electrician-winston-salem-comm-xr79e8.md": {
 	id: "premier-commercial-electrician-winston-salem-comm-xr79e8.md";
   slug: "premier-commercial-electrician-winston-salem-comm-xr79e8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-apprentice-electrician-altamonte-springs-premzul7cn.md": {
+	id: "premier-electric-apprentice-electrician-altamonte-springs-premzul7cn.md";
+  slug: "premier-electric-apprentice-electrician-altamonte-springs-premzul7cn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-apprentice-electrician-charleston-premmdvxpr.md": {
+	id: "premier-electric-apprentice-electrician-charleston-premmdvxpr.md";
+  slug: "premier-electric-apprentice-electrician-charleston-premmdvxpr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-apprentice-electrician-hope-mills-premqr5eu1.md": {
+	id: "premier-electric-apprentice-electrician-hope-mills-premqr5eu1.md";
+  slug: "premier-electric-apprentice-electrician-hope-mills-premqr5eu1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-apprentice-electrician-mesa-premxadra8.md": {
+	id: "premier-electric-apprentice-electrician-mesa-premxadra8.md";
+  slug: "premier-electric-apprentice-electrician-mesa-premxadra8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-chesapeake-prem1daez8.md": {
+	id: "premier-electric-cable-installer-chesapeake-prem1daez8.md";
+  slug: "premier-electric-cable-installer-chesapeake-prem1daez8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-coral-springs-premlq95gj.md": {
+	id: "premier-electric-cable-installer-coral-springs-premlq95gj.md";
+  slug: "premier-electric-cable-installer-coral-springs-premlq95gj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-decatur-premosmqas.md": {
+	id: "premier-electric-cable-installer-decatur-premosmqas.md";
+  slug: "premier-electric-cable-installer-decatur-premosmqas";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-denver-premlrt3b2.md": {
+	id: "premier-electric-cable-installer-denver-premlrt3b2.md";
+  slug: "premier-electric-cable-installer-denver-premlrt3b2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-goose-creek-premkrrezz.md": {
+	id: "premier-electric-cable-installer-goose-creek-premkrrezz.md";
+  slug: "premier-electric-cable-installer-goose-creek-premkrrezz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-greensboro-premjkmud9.md": {
+	id: "premier-electric-cable-installer-greensboro-premjkmud9.md";
+  slug: "premier-electric-cable-installer-greensboro-premjkmud9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-lakewood-premat8q7z.md": {
+	id: "premier-electric-cable-installer-lakewood-premat8q7z.md";
+  slug: "premier-electric-cable-installer-lakewood-premat8q7z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-orlando-prem9nr6sa.md": {
+	id: "premier-electric-cable-installer-orlando-prem9nr6sa.md";
+  slug: "premier-electric-cable-installer-orlando-prem9nr6sa";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-plantation-prem0qzsvk.md": {
+	id: "premier-electric-cable-installer-plantation-prem0qzsvk.md";
+  slug: "premier-electric-cable-installer-plantation-prem0qzsvk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-rock-hill-premvueho4.md": {
+	id: "premier-electric-cable-installer-rock-hill-premvueho4.md";
+  slug: "premier-electric-cable-installer-rock-hill-premvueho4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-roswell-premkd5qwu.md": {
+	id: "premier-electric-cable-installer-roswell-premkd5qwu.md";
+  slug: "premier-electric-cable-installer-roswell-premkd5qwu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-virginia-beach-premdfdl73.md": {
+	id: "premier-electric-cable-installer-virginia-beach-premdfdl73.md";
+  slug: "premier-electric-cable-installer-virginia-beach-premdfdl73";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-cable-installer-washington-prem0usg5h.md": {
+	id: "premier-electric-cable-installer-washington-prem0usg5h.md";
+  slug: "premier-electric-cable-installer-washington-prem0usg5h";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-brandon-premk8zyle.md": {
+	id: "premier-electric-commercial-apprentice-brandon-premk8zyle.md";
+  slug: "premier-electric-commercial-apprentice-brandon-premk8zyle";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-chester-premybllem.md": {
+	id: "premier-electric-commercial-apprentice-chester-premybllem.md";
+  slug: "premier-electric-commercial-apprentice-chester-premybllem";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-fort-lauderdale-premfi0l2p.md": {
+	id: "premier-electric-commercial-apprentice-fort-lauderdale-premfi0l2p.md";
+  slug: "premier-electric-commercial-apprentice-fort-lauderdale-premfi0l2p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-high-point-premuw6yfy.md": {
+	id: "premier-electric-commercial-apprentice-high-point-premuw6yfy.md";
+  slug: "premier-electric-commercial-apprentice-high-point-premuw6yfy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-kissimmee-premjm9ss3.md": {
+	id: "premier-electric-commercial-apprentice-kissimmee-premjm9ss3.md";
+  slug: "premier-electric-commercial-apprentice-kissimmee-premjm9ss3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-apprentice-newport-news-prem5m92zt.md": {
+	id: "premier-electric-commercial-apprentice-newport-news-prem5m92zt.md";
+  slug: "premier-electric-commercial-apprentice-newport-news-prem5m92zt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-anderson-premtrixdn.md": {
+	id: "premier-electric-commercial-electrician-anderson-premtrixdn.md";
+  slug: "premier-electric-commercial-electrician-anderson-premtrixdn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-chapel-hill-premadox95.md": {
+	id: "premier-electric-commercial-electrician-chapel-hill-premadox95.md";
+  slug: "premier-electric-commercial-electrician-chapel-hill-premadox95";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-durham-premtsp73f.md": {
+	id: "premier-electric-commercial-electrician-durham-premtsp73f.md";
+  slug: "premier-electric-commercial-electrician-durham-premtsp73f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-lebanon-premex8ob3.md": {
+	id: "premier-electric-commercial-electrician-lebanon-premex8ob3.md";
+  slug: "premier-electric-commercial-electrician-lebanon-premex8ob3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-nashville-prem22z1dr.md": {
+	id: "premier-electric-commercial-electrician-nashville-prem22z1dr.md";
+  slug: "premier-electric-commercial-electrician-nashville-prem22z1dr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-pompano-beach-premkb6kxx.md": {
+	id: "premier-electric-commercial-electrician-pompano-beach-premkb6kxx.md";
+  slug: "premier-electric-commercial-electrician-pompano-beach-premkb6kxx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-scottsdale-prem8kepy0.md": {
+	id: "premier-electric-commercial-electrician-scottsdale-prem8kepy0.md";
+  slug: "premier-electric-commercial-electrician-scottsdale-prem8kepy0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-commercial-electrician-st.-petersburg-prem9qqvk3.md": {
+	id: "premier-electric-commercial-electrician-st.-petersburg-prem9qqvk3.md";
+  slug: "premier-electric-commercial-electrician-st-petersburg-prem9qqvk3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-cable-tech-franklin-premycu10n.md": {
+	id: "premier-electric-data-center-cable-tech-franklin-premycu10n.md";
+  slug: "premier-electric-data-center-cable-tech-franklin-premycu10n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-cable-tech-largo-prem7o547j.md": {
+	id: "premier-electric-data-center-cable-tech-largo-prem7o547j.md";
+  slug: "premier-electric-data-center-cable-tech-largo-prem7o547j";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-cable-tech-sanford-prem533aza.md": {
+	id: "premier-electric-data-center-cable-tech-sanford-prem533aza.md";
+  slug: "premier-electric-data-center-cable-tech-sanford-prem533aza";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-cable-tech-wake-forest-premxnflg0.md": {
+	id: "premier-electric-data-center-cable-tech-wake-forest-premxnflg0.md";
+  slug: "premier-electric-data-center-cable-tech-wake-forest-premxnflg0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-cable-tech-wrightsville-beach-prem5km6v1.md": {
+	id: "premier-electric-data-center-cable-tech-wrightsville-beach-prem5km6v1.md";
+  slug: "premier-electric-data-center-cable-tech-wrightsville-beach-prem5km6v1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-fayetteville-premvzaasw.md": {
+	id: "premier-electric-data-center-technician-fayetteville-premvzaasw.md";
+  slug: "premier-electric-data-center-technician-fayetteville-premvzaasw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-gastonia-premxvdg5w.md": {
+	id: "premier-electric-data-center-technician-gastonia-premxvdg5w.md";
+  slug: "premier-electric-data-center-technician-gastonia-premxvdg5w";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-hampton-premskt5b8.md": {
+	id: "premier-electric-data-center-technician-hampton-premskt5b8.md";
+  slug: "premier-electric-data-center-technician-hampton-premskt5b8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-kernersville-prem0aas8z.md": {
+	id: "premier-electric-data-center-technician-kernersville-prem0aas8z.md";
+  slug: "premier-electric-data-center-technician-kernersville-prem0aas8z";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-marietta-premfsiypq.md": {
+	id: "premier-electric-data-center-technician-marietta-premfsiypq.md";
+  slug: "premier-electric-data-center-technician-marietta-premfsiypq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-matthews-premcgbdya.md": {
+	id: "premier-electric-data-center-technician-matthews-premcgbdya.md";
+  slug: "premier-electric-data-center-technician-matthews-premcgbdya";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-midlothian-premoy593x.md": {
+	id: "premier-electric-data-center-technician-midlothian-premoy593x.md";
+  slug: "premier-electric-data-center-technician-midlothian-premoy593x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-mount-juliet-prem5j6h68.md": {
+	id: "premier-electric-data-center-technician-mount-juliet-prem5j6h68.md";
+  slug: "premier-electric-data-center-technician-mount-juliet-prem5j6h68";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-richmond-prem2958d5.md": {
+	id: "premier-electric-data-center-technician-richmond-prem2958d5.md";
+  slug: "premier-electric-data-center-technician-richmond-prem2958d5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-summerville-prem4e4bc1.md": {
+	id: "premier-electric-data-center-technician-summerville-prem4e4bc1.md";
+  slug: "premier-electric-data-center-technician-summerville-prem4e4bc1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-data-center-technician-winter-park-premcxbdtg.md": {
+	id: "premier-electric-data-center-technician-winter-park-premcxbdtg.md";
+  slug: "premier-electric-data-center-technician-winter-park-premcxbdtg";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-alpharetta-premwu0p5g.md": {
+	id: "premier-electric-fiber-optic-technician-alpharetta-premwu0p5g.md";
+  slug: "premier-electric-fiber-optic-technician-alpharetta-premwu0p5g";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-glendale-premc4l3nq.md": {
+	id: "premier-electric-fiber-optic-technician-glendale-premc4l3nq.md";
+  slug: "premier-electric-fiber-optic-technician-glendale-premc4l3nq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-greenville-premk9uj76.md": {
+	id: "premier-electric-fiber-optic-technician-greenville-premk9uj76.md";
+  slug: "premier-electric-fiber-optic-technician-greenville-premk9uj76";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-greer-premm5xfgl.md": {
+	id: "premier-electric-fiber-optic-technician-greer-premm5xfgl.md";
+  slug: "premier-electric-fiber-optic-technician-greer-premm5xfgl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-johns-creek-premgtzuqe.md": {
+	id: "premier-electric-fiber-optic-technician-johns-creek-premgtzuqe.md";
+  slug: "premier-electric-fiber-optic-technician-johns-creek-premgtzuqe";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-mechanicsville-premfi1wm9.md": {
+	id: "premier-electric-fiber-optic-technician-mechanicsville-premfi1wm9.md";
+  slug: "premier-electric-fiber-optic-technician-mechanicsville-premfi1wm9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-murfreesboro-premxb0n83.md": {
+	id: "premier-electric-fiber-optic-technician-murfreesboro-premxb0n83.md";
+  slug: "premier-electric-fiber-optic-technician-murfreesboro-premxb0n83";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-phoenix-prem71awz6.md": {
+	id: "premier-electric-fiber-optic-technician-phoenix-prem71awz6.md";
+  slug: "premier-electric-fiber-optic-technician-phoenix-prem71awz6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-sandy-springs-premmkui8x.md": {
+	id: "premier-electric-fiber-optic-technician-sandy-springs-premmkui8x.md";
+  slug: "premier-electric-fiber-optic-technician-sandy-springs-premmkui8x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fiber-optic-technician-winston-salem-premwk79hy.md": {
+	id: "premier-electric-fiber-optic-technician-winston-salem-premwk79hy.md";
+  slug: "premier-electric-fiber-optic-technician-winston-salem-premwk79hy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fire-alarm-installer-alexandria-prema3imiu.md": {
+	id: "premier-electric-fire-alarm-installer-alexandria-prema3imiu.md";
+  slug: "premier-electric-fire-alarm-installer-alexandria-prema3imiu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fire-alarm-installer-burlington-premelpx77.md": {
+	id: "premier-electric-fire-alarm-installer-burlington-premelpx77.md";
+  slug: "premier-electric-fire-alarm-installer-burlington-premelpx77";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fire-alarm-installer-cary-prem4pwrkd.md": {
+	id: "premier-electric-fire-alarm-installer-cary-prem4pwrkd.md";
+  slug: "premier-electric-fire-alarm-installer-cary-prem4pwrkd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fire-alarm-installer-clearwater-premf3fjyn.md": {
+	id: "premier-electric-fire-alarm-installer-clearwater-premf3fjyn.md";
+  slug: "premier-electric-fire-alarm-installer-clearwater-premf3fjyn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-fire-alarm-installer-tempe-premniiuwj.md": {
+	id: "premier-electric-fire-alarm-installer-tempe-premniiuwj.md";
+  slug: "premier-electric-fire-alarm-installer-tempe-premniiuwj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-centennial-premg7cqex.md": {
+	id: "premier-electric-journeyman-electrician-centennial-premg7cqex.md";
+  slug: "premier-electric-journeyman-electrician-centennial-premg7cqex";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-fort-bragg-premhfsn66.md": {
+	id: "premier-electric-journeyman-electrician-fort-bragg-premhfsn66.md";
+  slug: "premier-electric-journeyman-electrician-fort-bragg-premhfsn66";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-glen-allen-premws79i9.md": {
+	id: "premier-electric-journeyman-electrician-glen-allen-premws79i9.md";
+  slug: "premier-electric-journeyman-electrician-glen-allen-premws79i9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-raeford-prem8xkygk.md": {
+	id: "premier-electric-journeyman-electrician-raeford-prem8xkygk.md";
+  slug: "premier-electric-journeyman-electrician-raeford-prem8xkygk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-spring-lake-premu2y09y.md": {
+	id: "premier-electric-journeyman-electrician-spring-lake-premu2y09y.md";
+  slug: "premier-electric-journeyman-electrician-spring-lake-premu2y09y";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-journeyman-electrician-tampa-premu8dclb.md": {
+	id: "premier-electric-journeyman-electrician-tampa-premu8dclb.md";
+  slug: "premier-electric-journeyman-electrician-tampa-premu8dclb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-aurora-prem6reg9d.md": {
+	id: "premier-electric-rack-stack-installer-aurora-prem6reg9d.md";
+  slug: "premier-electric-rack-stack-installer-aurora-prem6reg9d";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-bethesda-premxm676s.md": {
+	id: "premier-electric-rack-stack-installer-bethesda-premxm676s.md";
+  slug: "premier-electric-rack-stack-installer-bethesda-premxm676s";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-boulder-premj5t4jl.md": {
+	id: "premier-electric-rack-stack-installer-boulder-premj5t4jl.md";
+  slug: "premier-electric-rack-stack-installer-boulder-premj5t4jl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-carolina-beach-premntt7rs.md": {
+	id: "premier-electric-rack-stack-installer-carolina-beach-premntt7rs.md";
+  slug: "premier-electric-rack-stack-installer-carolina-beach-premntt7rs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-kennesaw-premwfp356.md": {
+	id: "premier-electric-rack-stack-installer-kennesaw-premwfp356.md";
+  slug: "premier-electric-rack-stack-installer-kennesaw-premwfp356";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-rack-stack-installer-spartanburg-premjxqnuk.md": {
+	id: "premier-electric-rack-stack-installer-spartanburg-premjxqnuk.md";
+  slug: "premier-electric-rack-stack-installer-spartanburg-premjxqnuk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-arlington-premk0cvki.md": {
+	id: "premier-electric-security-alarm-installer-arlington-premk0cvki.md";
+  slug: "premier-electric-security-alarm-installer-arlington-premk0cvki";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-atlanta-prem3epf45.md": {
+	id: "premier-electric-security-alarm-installer-atlanta-prem3epf45.md";
+  slug: "premier-electric-security-alarm-installer-atlanta-prem3epf45";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-chandler-prem9aou8x.md": {
+	id: "premier-electric-security-alarm-installer-chandler-prem9aou8x.md";
+  slug: "premier-electric-security-alarm-installer-chandler-prem9aou8x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-concord-prem4h8on1.md": {
+	id: "premier-electric-security-alarm-installer-concord-prem4h8on1.md";
+  slug: "premier-electric-security-alarm-installer-concord-prem4h8on1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-hampstead-prem7l67kl.md": {
+	id: "premier-electric-security-alarm-installer-hampstead-prem7l67kl.md";
+  slug: "premier-electric-security-alarm-installer-hampstead-prem7l67kl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-hendersonville-prem1cdoyq.md": {
+	id: "premier-electric-security-alarm-installer-hendersonville-prem1cdoyq.md";
+  slug: "premier-electric-security-alarm-installer-hendersonville-prem1cdoyq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-leland-premc4sxtk.md": {
+	id: "premier-electric-security-alarm-installer-leland-premc4sxtk.md";
+  slug: "premier-electric-security-alarm-installer-leland-premc4sxtk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-mount-pleasant-premffxhtd.md": {
+	id: "premier-electric-security-alarm-installer-mount-pleasant-premffxhtd.md";
+  slug: "premier-electric-security-alarm-installer-mount-pleasant-premffxhtd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-norfolk-premu60th8.md": {
+	id: "premier-electric-security-alarm-installer-norfolk-premu60th8.md";
+  slug: "premier-electric-security-alarm-installer-norfolk-premu60th8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-alarm-installer-raleigh-premtqztkt.md": {
+	id: "premier-electric-security-alarm-installer-raleigh-premtqztkt.md";
+  slug: "premier-electric-security-alarm-installer-raleigh-premtqztkt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-charlotte-premrvwmon.md": {
+	id: "premier-electric-security-technician-charlotte-premrvwmon.md";
+  slug: "premier-electric-security-technician-charlotte-premrvwmon";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-duluth-premb610yy.md": {
+	id: "premier-electric-security-technician-duluth-premb610yy.md";
+  slug: "premier-electric-security-technician-duluth-premb610yy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-hollywood-premrotpxp.md": {
+	id: "premier-electric-security-technician-hollywood-premrotpxp.md";
+  slug: "premier-electric-security-technician-hollywood-premrotpxp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-mauldin-premf7bkli.md": {
+	id: "premier-electric-security-technician-mauldin-premf7bkli.md";
+  slug: "premier-electric-security-technician-mauldin-premf7bkli";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-north-charleston-premmdhl74.md": {
+	id: "premier-electric-security-technician-north-charleston-premmdhl74.md";
+  slug: "premier-electric-security-technician-north-charleston-premmdhl74";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-silver-spring-premq77plp.md": {
+	id: "premier-electric-security-technician-silver-spring-premq77plp.md";
+  slug: "premier-electric-security-technician-silver-spring-premq77plp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-security-technician-wilmington-premjuo0nt.md": {
+	id: "premier-electric-security-technician-wilmington-premjuo0nt.md";
+  slug: "premier-electric-security-technician-wilmington-premjuo0nt";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
