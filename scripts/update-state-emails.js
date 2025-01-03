@@ -8,8 +8,7 @@ const jobsDir = path.join(__dirname, '..', 'src', 'content', 'jobs');
 function updateStateEmails() {
   const files = fs.readdirSync(jobsDir);
   let updatedCount = 0;
-
-  const targetStates = ['RI', 'MI', 'CA', 'MA'];
+  const targetStates = ['AK', 'CA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MT', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'PA', 'RI', 'SD', 'VT', 'WY'];        
   const newEmails = [
     'will@bestelectricianjobs.com',
     'support@primepartners.info'
