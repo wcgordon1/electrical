@@ -8821,6 +8821,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"premier-electric-recruiter-nashville-id-bg9301.md": {
+	id: "premier-electric-recruiter-nashville-id-bg9301.md";
+  slug: "premier-electric-recruiter-nashville-id-bg9301";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "premier-electric-security-alarm-installer-arlington-premk0cvki.md": {
 	id: "premier-electric-security-alarm-installer-arlington-premk0cvki.md";
   slug: "premier-electric-security-alarm-installer-arlington-premk0cvki";

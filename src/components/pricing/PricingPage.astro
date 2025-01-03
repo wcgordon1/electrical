@@ -1,29 +1,7 @@
 ---
 const pricingPlans = [
   {
-    name: "Basic",
-    monthlyPrice: "199",
-    annualPrice: "149",
-    description:
-      "Perfect for small businesses looking to hire their first electrician",
-    cardBgClass: "bg-white", 
-    descriptionColor: "text-slate-500",
-    buttonClass: "bg-blue-100 hover:bg-blue-50 text-blue-600",
-    features: [
-      "1 job posting",
-      "30-day listing",
-      "Basic candidate dashboard",
-      "Email support"
-    ],
-    unavailableFeatures: [
-      "Featured job listing",
-      "Resume database access",
-      "Applicant tracking system",
-      "Dedicated account manager"
-    ],
-  },
-  {
-    name: "Growth",
+    name: "Starter",
     monthlyPrice: "399",
     annualPrice: "349",
     description: "Ideal for growing electrical contractors and mid-size companies",
@@ -32,7 +10,7 @@ const pricingPlans = [
     buttonClass: "bg-blue-500 hover:bg-blue-600 text-white",
     features: [
       "5 active job postings",
-      "60-day listings",
+      "30-day listings",
       "Featured job listings",
       "Resume database access",
       "Basic applicant tracking",
@@ -44,17 +22,39 @@ const pricingPlans = [
     ],
   },
   {
-    name: "Enterprise",
-    monthlyPrice: "1,299",
-    annualPrice: "1,000", 
+    name: "Growth",
+    monthlyPrice: "1,899",
+    annualPrice: "1,499", 
     description:
       "For large electrical companies with ongoing hiring needs",
     cardBgClass: "bg-white",
     descriptionColor: "text-slate-500",
     buttonClass: "bg-blue-100 hover:bg-blue-50 text-blue-600",
     features: [
+      "50 job postings",
+      "30-day listings",
+      "Advanced ATS integration",
+      "Custom hiring workflows",
+      "Dedicated account manager",
+      "Priority support 24/7"
+    ],
+    unavailableFeatures: [
+      "Applicant tracking system",
+    ],
+  },
+  {
+    name: "Enterprise",
+    monthlyPrice: "5,500",
+    annualPrice: "5,000",
+    description:
+      "Perfect for staffing agencies with ongoing hiring needs nationwide",
+    cardBgClass: "bg-white", 
+    descriptionColor: "text-slate-500",
+    buttonClass: "bg-blue-100 hover:bg-blue-50 text-blue-600",
+    
+    features: [
       "Unlimited job postings",
-      "90-day listings",
+      "Unlimited resume downloads",
       "Premium featured placement",
       "Unlimited resume downloads",
       "Advanced ATS integration",
@@ -62,7 +62,9 @@ const pricingPlans = [
       "Dedicated account manager",
       "Priority support 24/7"
     ],
-    unavailableFeatures: [],
+    unavailableFeatures: [
+      "Applicant tracking system",
+    ],
   },
 ];
 
@@ -161,7 +163,7 @@ const extended = [
                 <div class="space-y-4 ">
                   <div class="flex gap-1 items-end ">
                     <p class={` text-purple-900`}>
-                      <span class="text-5xl font-light tracking-tight    ">
+                      <span class="text-3xl tracking-tight    ">
                         <span x-show="!annual">${plan.monthlyPrice}</span>
                         <span x-show="annual">${plan.annualPrice}</span>
                       </span>
