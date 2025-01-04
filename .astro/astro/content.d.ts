@@ -14353,6 +14353,76 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"atlanta-audio-visual-technician-staffing.md": {
+	id: "atlanta-audio-visual-technician-staffing.md";
+  slug: "atlanta-audio-visual-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-commercial-electrician-staffing.md": {
+	id: "atlanta-commercial-electrician-staffing.md";
+  slug: "atlanta-commercial-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-controls-technician-staffing.md": {
+	id: "atlanta-controls-technician-staffing.md";
+  slug: "atlanta-controls-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-data-center-technician-staffing.md": {
+	id: "atlanta-data-center-technician-staffing.md";
+  slug: "atlanta-data-center-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-fire-alarm-technician-staffing.md": {
+	id: "atlanta-fire-alarm-technician-staffing.md";
+  slug: "atlanta-fire-alarm-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-industrial-electrician-staffing.md": {
+	id: "atlanta-industrial-electrician-staffing.md";
+  slug: "atlanta-industrial-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-residential-electrician-staffing.md": {
+	id: "atlanta-residential-electrician-staffing.md";
+  slug: "atlanta-residential-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-security-technician-staffing.md": {
+	id: "atlanta-security-technician-staffing.md";
+  slug: "atlanta-security-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-solar-installer-staffing.md": {
+	id: "atlanta-solar-installer-staffing.md";
+  slug: "atlanta-solar-installer-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"atlanta-voice-data-technician-staffing.md": {
+	id: "atlanta-voice-data-technician-staffing.md";
+  slug: "atlanta-voice-data-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "audio-visual-technicians-california.md": {
 	id: "audio-visual-technicians-california.md";
   slug: "audio-visual-technicians-california";
@@ -14384,6 +14454,76 @@ declare module 'astro:content' {
 "controls-technicians-california.md": {
 	id: "controls-technicians-california.md";
   slug: "controls-technicians-california";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-audio-visual-technician-staffing.md": {
+	id: "dallas-audio-visual-technician-staffing.md";
+  slug: "dallas-audio-visual-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-commercial-electrician-staffing.md": {
+	id: "dallas-commercial-electrician-staffing.md";
+  slug: "dallas-commercial-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-controls-technician-staffing.md": {
+	id: "dallas-controls-technician-staffing.md";
+  slug: "dallas-controls-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-data-center-technician-staffing.md": {
+	id: "dallas-data-center-technician-staffing.md";
+  slug: "dallas-data-center-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-fire-alarm-technician-staffing.md": {
+	id: "dallas-fire-alarm-technician-staffing.md";
+  slug: "dallas-fire-alarm-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-industrial-electrician-staffing.md": {
+	id: "dallas-industrial-electrician-staffing.md";
+  slug: "dallas-industrial-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-residential-electrician-staffing.md": {
+	id: "dallas-residential-electrician-staffing.md";
+  slug: "dallas-residential-electrician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-security-technician-staffing.md": {
+	id: "dallas-security-technician-staffing.md";
+  slug: "dallas-security-technician-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-solar-installer-staffing.md": {
+	id: "dallas-solar-installer-staffing.md";
+  slug: "dallas-solar-installer-staffing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dallas-voice-data-technician-staffing.md": {
+	id: "dallas-voice-data-technician-staffing.md";
+  slug: "dallas-voice-data-technician-staffing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

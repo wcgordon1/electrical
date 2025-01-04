@@ -19,58 +19,64 @@ const openai = new OpenAI({
 // Blog post metadata
 const BLOG_POSTS = [
     {
-      title: "Los Angeles Commercial Electrician Staffing",
-      slug: "los-angeles-commercial-electrician-staffing",
-      description: "Los Angeles is a hub for commercial development, making commercial electricians essential for powering offices, retail spaces, and large infrastructure projects. Discover how staffing agencies are connecting businesses with skilled commercial electricians to meet the growing demands of this bustling metropolitan area.",
-      tags: ["Commercial Electricians", "Staffing", "Los Angeles", "Jobs"]
+      title: "Dallas Commercial Electrician Staffing",
+      slug: "dallas-commercial-electrician-staffing",
+      description: "Dallas' booming commercial construction sector has created an increasing demand for skilled commercial electricians. From high-rise office buildings to sprawling retail complexes, discover how staffing agencies are helping businesses meet their electrical needs.",
+      tags: ["Commercial Electricians", "Staffing", "Dallas", "Jobs"]
     },
     {
-      title: "Los Angeles Residential Electrician Staffing",
-      slug: "los-angeles-residential-electrician-staffing",
-      description: "As one of the largest housing markets in the country, Los Angeles has a constant need for residential electricians. From new housing developments to renovations, learn how staffing solutions are addressing the demand for skilled electricians in Los Angeles' competitive real estate market.",
-      tags: ["Residential Electricians", "Staffing", "Los Angeles", "Careers"]
+      title: "Dallas Residential Electrician Staffing",
+      slug: "dallas-residential-electrician-staffing",
+      description: "With rapid population growth and new housing developments, Dallas has a high demand for residential electricians. Explore how staffing solutions are connecting homeowners and contractors with experienced professionals.",
+      tags: ["Residential Electricians", "Staffing", "Dallas", "Careers"]
     },
     {
-      title: "Los Angeles Industrial Electrician Staffing",
-      slug: "los-angeles-industrial-electrician-staffing",
-      description: "Industrial electricians play a crucial role in Los Angeles’ manufacturing and logistics sectors. With the city’s economy relying on port operations, factories, and high-tech industrial facilities, discover how staffing agencies are helping businesses meet their electrical labor needs.",
-      tags: ["Industrial Electricians", "Staffing", "Los Angeles", "Careers"]
+      title: "Dallas Industrial Electrician Staffing",
+      slug: "dallas-industrial-electrician-staffing",
+      description: "Industrial electricians are essential to Dallas' manufacturing and logistics industries. Learn how staffing agencies are helping companies find the skilled workers they need to maintain and power industrial facilities.",
+      tags: ["Industrial Electricians", "Staffing", "Dallas", "Careers"]
     },
     {
-      title: "Los Angeles Fire Alarm Technician Staffing",
-      slug: "los-angeles-fire-alarm-technician-staffing",
-      description: "Fire alarm technicians are essential for maintaining safety in Los Angeles’ residential, commercial, and industrial buildings. This blog explores how staffing agencies are ensuring that businesses and property owners have access to certified fire alarm technicians in this safety-critical field.",
-      tags: ["Fire Alarm Technicians", "Staffing", "Los Angeles", "Jobs"]
+      title: "Dallas Fire Alarm Technician Staffing",
+      slug: "dallas-fire-alarm-technician-staffing",
+      description: "As Dallas grows, so does the demand for fire alarm technicians to ensure safety in residential, commercial, and industrial buildings. Discover how staffing agencies are providing certified professionals to meet these critical needs.",
+      tags: ["Fire Alarm Technicians", "Staffing", "Dallas", "Jobs"]
     },
     {
-      title: "Los Angeles Controls Technician Staffing",
-      slug: "los-angeles-controls-technician-staffing",
-      description: "Automation and energy efficiency are driving the demand for controls technicians in Los Angeles. Explore how staffing solutions are helping businesses find the right professionals to manage advanced electrical systems in a city known for innovation and development.",
-      tags: ["Controls Technicians", "Staffing", "Los Angeles", "Careers"]
+      title: "Dallas Controls Technician Staffing",
+      slug: "dallas-controls-technician-staffing",
+      description: "Dallas' expanding industrial and automation sectors have increased the need for controls technicians. Learn how staffing agencies are bridging the gap between businesses and skilled professionals in this high-demand field.",
+      tags: ["Controls Technicians", "Staffing", "Dallas", "Careers"]
     },
     {
-      title: "Los Angeles Security Technician Staffing",
-      slug: "los-angeles-security-technician-staffing",
-      description: "With its vibrant business scene and sprawling residential areas, Los Angeles has a growing need for security technicians. Learn how staffing agencies are connecting businesses and property owners with skilled security professionals to protect their assets and properties.",
-      tags: ["Security Technicians", "Staffing", "Los Angeles", "Jobs"]
+      title: "Dallas Security Technician Staffing",
+      slug: "dallas-security-technician-staffing",
+      description: "Security technicians play a vital role in safeguarding Dallas' businesses and residences. Explore how staffing solutions are helping connect employers with top security professionals to install and maintain advanced systems.",
+      tags: ["Security Technicians", "Staffing", "Dallas", "Jobs"]
     },
     {
-      title: "Los Angeles Solar Installer Staffing",
-      slug: "los-angeles-solar-installer-staffing",
-      description: "As a leader in renewable energy adoption, Los Angeles is experiencing a high demand for solar installers. Discover how staffing agencies are helping businesses and homeowners find qualified professionals to support the city’s transition to sustainable energy solutions.",
-      tags: ["Solar Installers", "Staffing", "Los Angeles", "Green Energy"]
+      title: "Dallas Solar Installer Staffing",
+      slug: "dallas-solar-installer-staffing",
+      description: "As one of Texas' leading cities in renewable energy initiatives, Dallas has a growing need for solar installers. Learn how staffing agencies are supporting the city's green energy goals by connecting businesses with skilled solar professionals.",
+      tags: ["Solar Installers", "Staffing", "Dallas", "Green Energy"]
     },
     {
-      title: "Los Angeles Voice Data Technician Staffing",
-      slug: "los-angeles-voice-data-technician-staffing",
-      description: "Voice data technicians are crucial for keeping Los Angeles' tech hubs, businesses, and institutions connected. Learn how staffing agencies are meeting the rising demand for skilled voice data professionals in the City of Angels.",
-      tags: ["Voice Data Technicians", "Staffing", "Los Angeles", "Technology"]
+      title: "Dallas Voice Data Technician Staffing",
+      slug: "dallas-voice-data-technician-staffing",
+      description: "Voice data technicians are crucial for Dallas' tech-driven businesses and industries. Discover how staffing agencies are meeting the demand for skilled technicians who can keep communication systems running seamlessly.",
+      tags: ["Voice Data Technicians", "Staffing", "Dallas", "Technology"]
     },
     {
-      title: "Los Angeles Audio Visual Technician Staffing",
-      slug: "los-angeles-audio-visual-technician-staffing",
-      description: "From Hollywood productions to corporate events, Los Angeles has a thriving demand for audio visual technicians. Explore how staffing solutions are filling this critical need in the entertainment capital of the world.",
-      tags: ["Audio Visual Technicians", "Staffing", "Los Angeles", "Careers"]
+      title: "Dallas Audio Visual Technician Staffing",
+      slug: "dallas-audio-visual-technician-staffing",
+      description: "Dallas' thriving corporate and entertainment sectors create a significant demand for audio visual technicians. Learn how staffing solutions are connecting businesses with experienced professionals in this specialized field.",
+      tags: ["Audio Visual Technicians", "Staffing", "Dallas", "Careers"]
+    },
+    {
+      title: "Dallas Data Center Technician Staffing",
+      slug: "dallas-data-center-technician-staffing",
+      description: "Dallas is emerging as a key hub for data centers, creating an urgent demand for skilled data center technicians. Discover how staffing agencies are helping companies find the professionals needed to maintain these critical facilities.",
+      tags: ["Data Center Technicians", "Staffing", "Dallas", "Technology"]
     }
   ];
   
