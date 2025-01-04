@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-01-03
-modDate: "2025-01-03T00:29:25Z"
+pubDate: 2024-12-03
+modDate: "2024-12-03T00:29:25Z"
 author: Best Electrician
 title: Audio Visual Technician Staffing in California
 description: "California's entertainment and corporate sectors drive demand for audio visual technicians. Explore how staffing solutions can fill the gap in this specialized industry."

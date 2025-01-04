@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-12-17
-modDate: "2025-12-17T00:27:17Z"
+pubDate: 2024-12-17
+modDate: "2024-12-17T00:27:17Z"
 author: Best Electrician
 title: Staffing Security Technicians in California
 description: "With technology advancing, security technicians are more in demand than ever. Find out how California businesses are meeting the challenge of hiring skilled professionals for this critical role."

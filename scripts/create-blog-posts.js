@@ -19,60 +19,61 @@ const openai = new OpenAI({
 // Blog post metadata
 const BLOG_POSTS = [
     {
-      title: "Texas Commercial Electrician Staffing",
-      slug: "texas-commercial-electrician-staffing",
-      description: "Discover the high demand for commercial electricians in Texas. Learn about the industries driving this need, the skills required, and how staffing solutions can help meet the growing demand in the Lone Star State.",
-      tags: ["Commercial Electricians", "Staffing", "Texas", "Jobs"]
+      title: "Los Angeles Commercial Electrician Staffing",
+      slug: "los-angeles-commercial-electrician-staffing",
+      description: "Los Angeles is a hub for commercial development, making commercial electricians essential for powering offices, retail spaces, and large infrastructure projects. Discover how staffing agencies are connecting businesses with skilled commercial electricians to meet the growing demands of this bustling metropolitan area.",
+      tags: ["Commercial Electricians", "Staffing", "Los Angeles", "Jobs"]
     },
     {
-      title: "Texas Residential Electrician Staffing",
-      slug: "texas-residential-electrician-staffing",
-      description: "Texas' booming housing market has led to a surge in demand for residential electricians. Explore how staffing agencies are addressing this demand and connecting skilled professionals to residential projects.",
-      tags: ["Residential Electricians", "Staffing", "Texas", "Careers"]
+      title: "Los Angeles Residential Electrician Staffing",
+      slug: "los-angeles-residential-electrician-staffing",
+      description: "As one of the largest housing markets in the country, Los Angeles has a constant need for residential electricians. From new housing developments to renovations, learn how staffing solutions are addressing the demand for skilled electricians in Los Angeles' competitive real estate market.",
+      tags: ["Residential Electricians", "Staffing", "Los Angeles", "Careers"]
     },
     {
-      title: "Texas Industrial Electrician Staffing",
-      slug: "texas-industrial-electrician-staffing",
-      description: "Industrial electricians are critical for Texas' thriving manufacturing and energy industries. Discover the opportunities and solutions for staffing these vital roles across the state.",
-      tags: ["Industrial Electricians", "Staffing", "Texas", "Careers"]
+      title: "Los Angeles Industrial Electrician Staffing",
+      slug: "los-angeles-industrial-electrician-staffing",
+      description: "Industrial electricians play a crucial role in Los Angeles’ manufacturing and logistics sectors. With the city’s economy relying on port operations, factories, and high-tech industrial facilities, discover how staffing agencies are helping businesses meet their electrical labor needs.",
+      tags: ["Industrial Electricians", "Staffing", "Los Angeles", "Careers"]
     },
     {
-      title: "Texas Fire Alarm Technician Staffing",
-      slug: "texas-fire-alarm-technician-staffing",
-      description: "With the rise in residential and commercial development, Texas is experiencing a growing need for fire alarm technicians. Learn how staffing solutions can connect companies with top talent for this essential role.",
-      tags: ["Fire Alarm Technicians", "Staffing", "Texas", "Jobs"]
+      title: "Los Angeles Fire Alarm Technician Staffing",
+      slug: "los-angeles-fire-alarm-technician-staffing",
+      description: "Fire alarm technicians are essential for maintaining safety in Los Angeles’ residential, commercial, and industrial buildings. This blog explores how staffing agencies are ensuring that businesses and property owners have access to certified fire alarm technicians in this safety-critical field.",
+      tags: ["Fire Alarm Technicians", "Staffing", "Los Angeles", "Jobs"]
     },
     {
-      title: "Texas Controls Technician Staffing",
-      slug: "texas-controls-technician-staffing",
-      description: "The automation and industrial sectors in Texas are expanding rapidly, driving demand for skilled controls technicians. Explore how staffing agencies can bridge the gap in this critical field.",
-      tags: ["Controls Technicians", "Staffing", "Texas", "Careers"]
+      title: "Los Angeles Controls Technician Staffing",
+      slug: "los-angeles-controls-technician-staffing",
+      description: "Automation and energy efficiency are driving the demand for controls technicians in Los Angeles. Explore how staffing solutions are helping businesses find the right professionals to manage advanced electrical systems in a city known for innovation and development.",
+      tags: ["Controls Technicians", "Staffing", "Los Angeles", "Careers"]
     },
     {
-      title: "Texas Security Technician Staffing",
-      slug: "texas-security-technician-staffing",
-      description: "As technology evolves, the demand for security technicians in Texas is on the rise. Learn how staffing agencies are helping businesses find qualified professionals for this critical role.",
-      tags: ["Security Technicians", "Staffing", "Texas", "Jobs"]
+      title: "Los Angeles Security Technician Staffing",
+      slug: "los-angeles-security-technician-staffing",
+      description: "With its vibrant business scene and sprawling residential areas, Los Angeles has a growing need for security technicians. Learn how staffing agencies are connecting businesses and property owners with skilled security professionals to protect their assets and properties.",
+      tags: ["Security Technicians", "Staffing", "Los Angeles", "Jobs"]
     },
     {
-      title: "Texas Solar Installer Staffing",
-      slug: "texas-solar-installer-staffing",
-      description: "Texas is leading the way in renewable energy, creating significant opportunities for solar installers. Discover how staffing solutions are addressing the increasing need for professionals in this green energy sector.",
-      tags: ["Solar Installers", "Staffing", "Texas", "Green Energy"]
+      title: "Los Angeles Solar Installer Staffing",
+      slug: "los-angeles-solar-installer-staffing",
+      description: "As a leader in renewable energy adoption, Los Angeles is experiencing a high demand for solar installers. Discover how staffing agencies are helping businesses and homeowners find qualified professionals to support the city’s transition to sustainable energy solutions.",
+      tags: ["Solar Installers", "Staffing", "Los Angeles", "Green Energy"]
     },
     {
-      title: "Texas Voice Data Technician Staffing",
-      slug: "texas-voice-data-technician-staffing",
-      description: "Voice data technicians are essential for Texas' tech and business hubs. Explore how staffing agencies are helping businesses find skilled professionals to keep their systems connected.",
-      tags: ["Voice Data Technicians", "Staffing", "Texas", "Technology"]
+      title: "Los Angeles Voice Data Technician Staffing",
+      slug: "los-angeles-voice-data-technician-staffing",
+      description: "Voice data technicians are crucial for keeping Los Angeles' tech hubs, businesses, and institutions connected. Learn how staffing agencies are meeting the rising demand for skilled voice data professionals in the City of Angels.",
+      tags: ["Voice Data Technicians", "Staffing", "Los Angeles", "Technology"]
     },
     {
-      title: "Texas Audio Visual Technician Staffing",
-      slug: "texas-audio-visual-technician-staffing",
-      description: "From corporate events to entertainment, Texas has a growing need for audio visual technicians. Learn how staffing solutions are helping businesses meet the demand for this specialized role.",
-      tags: ["Audio Visual Technicians", "Staffing", "Texas", "Careers"]
+      title: "Los Angeles Audio Visual Technician Staffing",
+      slug: "los-angeles-audio-visual-technician-staffing",
+      description: "From Hollywood productions to corporate events, Los Angeles has a thriving demand for audio visual technicians. Explore how staffing solutions are filling this critical need in the entertainment capital of the world.",
+      tags: ["Audio Visual Technicians", "Staffing", "Los Angeles", "Careers"]
     }
   ];
+  
   
   
 
@@ -112,12 +113,15 @@ async function generateBlogPost(title, description, outline, otherPosts, current
 ${outline}
 
 The blog post should:
-1. Be written in a conversational, engaging tone
+1. Be written in a conversational, engaging tone, and keep your sentences short, concise, and dont use filler words
 2. Include practical examples and specific details
-3. Use markdown formatting (## for h2, ### for h3, ** for bold), never use h1 headings
-4. Be optimized for SEO while maintaining readability
-5. Only include links to these related blog posts (no external links):
+3. Bring up specific cities in the state along with large projects and companies that are hiring
+4. Include specific data points and statistics around construction and hiring in the state
+5. Use markdown formatting (## for h2, ### for h3, ** for bold), never use h1 headings
+6. Be optimized for SEO while maintaining readability
+7. Only include links to these related blog posts (no external links):
 ${relatedPosts.map(post => `- [${post.title}](/posts/${post.slug})`).join('\n')}
+
 
 Title: ${title}
 Description: ${description}
@@ -132,7 +136,7 @@ Important:
 Format the content in markdown. Do not include frontmatter. Start with the main content after the introduction.`;
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ role: "user", content: blogPrompt }],
     temperature: 0.7,
   });

@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-12-30
-modDate: "2025-01-01T00:24:41Z"
+pubDate: 2024-12-30
+modDate: "2024-12-30T00:24:41Z"
 author: Best Electrician
 title: Industrial Electrician Careers in California
 description: "From manufacturing plants to data centers, industrial electricians play a vital role in California's economy. Discover the opportunities, challenges, and solutions for staffing this critical position."

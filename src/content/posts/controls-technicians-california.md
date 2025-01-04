@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-01-01
-modDate: "2025-01-01T00:26:47Z"
+pubDate: 2024-12-01
+modDate: "2024-12-01T00:26:47Z"
 author: Best Electrician
 title: Controls Technicians In-Demand Careers in California
 description: "California's growing automation and industrial sectors have driven a high demand for controls technicians. Learn how staffing can bridge the gap and meet industry needs."

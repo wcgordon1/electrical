@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-12-03
-modDate: "2025-12-03T00:24:07Z"
+pubDate: 2024-12-03
+modDate: "2024-12-03T00:24:07Z"
 author: Best Electrician
 title: Residential Electrician Staffing in California
 description: "California's housing boom has created a surge in demand for residential electricians. Learn how staffing solutions can meet the growing need for skilled professionals in this essential role."

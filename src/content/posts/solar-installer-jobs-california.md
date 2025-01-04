@@ -1,6 +1,6 @@
 ---
-pubDate: 2025-12-02
-modDate: "2025-12-02T00:28:17Z"
+pubDate: 2024-12-02
+modDate: "2024-12-02T00:28:17Z"
 author: Best Electrician
 title: Solar Installer Staffing in California 
 description: "As the leader in renewable energy, California offers abundant opportunities for solar installers. Discover the challenges and solutions for staffing these vital green energy roles."
