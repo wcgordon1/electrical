@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-11-16
 modDate: "2024-11-16T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Exciting Journeyman Electrician Job Openings
 description: "Unveil top journeyman electrician jobs! Explore career advancements, salary insights, and exciting US opportunities."
-avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+avatar: { url: "/images/eleclog.png", alt: "Best Electrician Jobs" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Journeyman Electrician Jobs", "Commercial Electrician", "Industrial Electrician", "Residential Electrician"]
 # End of Selection

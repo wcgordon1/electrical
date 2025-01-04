@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-11-20
 modDate: "2024-11-20T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Electrician Job Outlook Demystified
 description: "Discover the electrician job outlook, from growth expectations to salaries and education. Energize your future today!"
 avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Electrician Jobs", "Journeyman Electrician Jobs", "Apprentice Electrician Jobs", "Master Electrician Jobs", "Residential Electrician Jobs", "Commercial Electrician Jobs", "Industrial Electrician Jobs"]
 # End of Selection

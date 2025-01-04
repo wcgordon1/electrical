@@ -1,15 +1,15 @@
 ---
 pubDate: 2024-11-11
 modDate: "2024-11-11T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: How to Find Electrician Jobs
 description: "This comprehensive guide provides essential advice on how to find electrician jobs for both journeyman and apprentice electricians, covering opportunities in commercial, residential, and industrial sectors. It outlines the differences between journeyman and apprentice roles, highlights the key skills required, and offers actionable tips for job searching, including where to find job listings and how to craft a standout resume."
 avatar:
-  url: "/images/me.png"
-  alt: "#_"
+  url: "/images/eleclog.png"
+  alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
-  alt: "alt text goes here"
+  alt: "Best Electrician Jobs"
 tags: ["Electrician", "Jobs", "Apprentice", "Journeyman"]
 ---
 

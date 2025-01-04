@@ -1,15 +1,15 @@
 ---
 pubDate: 2024-12-05
 modDate: "2024-12-06T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Cable Technician Interview Questions and Answers
 description: "Cable technicians are essential in connecting our modern world. Learn what to expect in your Cable Technician interview and how to prepare for it."
 avatar:
-  url: "/images/me.png"
-  alt: "#_"
+  url: "/images/eleclog.png"
+  alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
-  alt: "alt text goes here"
+  alt: "Best Electrician Jobs"
 tags: ["Cable Technician", "Interview Tips", "Low Voltage", "Voice & Data", "Structured Cabling"]
 ---
 

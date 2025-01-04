@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-10-24
 modDate: "2024-10-24T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Journeyman Electrician Job Description
 description: "Electricians are essential professionals who ensure that homes, businesses, and industrial facilities remain powered and safe. For those looking to advance their careers, becoming a Journeyman Electrician offers the opportunity to work independently in specialized fields such as commercial, industrial, and residential environments. In this blog, we'll break down the job descriptions for each specialization and highlight the benefits, responsibilities, and reasons why these roles are highly rewarding."
-avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+avatar: { url: "/images/eleclog.png", alt: "Best Electrician Jobs" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Job Description", "Commercial Electrician", "Industrial Electrician", "Residential Electrician"]
 # End of Selection

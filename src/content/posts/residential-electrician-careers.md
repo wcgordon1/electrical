@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-11-23
 modDate: "2024-11-23T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Navigating the World of Residential Electrician Careers
 description: "Discover residential electrician careers! Explore roles, market trends, growth opportunities, and earning potential."
-avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+avatar: { url: "/images/eleclog.png", alt: "Best Electrician Jobs" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Journeyman Electrician Jobs", "Residential Electrician Jobs", "Apprentice Electrician Jobs"]
 # End of Selection

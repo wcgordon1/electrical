@@ -1,15 +1,15 @@
 ---
 pubDate: 2024-10-20
 modDate: "2024-10-24T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Best Paying Electrician Jobs
 description: "Electricians are essential in powering our modern world, from residential homes to complex industrial systems. But not all electrician jobs offer the same earning potential. In this blog, we’ll explore the best paying electrician jobs, highlighting roles that can take your career—and salary—to the next level. Whether you’re an experienced pro or just starting out, find out which positions offer the highest rewards."
 avatar:
-  url: "/images/me.png"
-  alt: "#_"
+  url: "/images/eleclog.png"
+  alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
-  alt: "alt text goes here"
+  alt: "Best Electrician Jobs"
 tags: ["Electrician", "Jobs", "How to", "Overview"]
 ---
 

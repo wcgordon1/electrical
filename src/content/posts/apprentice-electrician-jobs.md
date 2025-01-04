@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-11-19
 modDate: "2024-11-19T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Top Apprentice Electrician Jobs in America
 description: "Discover top apprentice electrician jobs in America! Boost your career with insights on salaries, training, and growth!"
-avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+avatar: { url: "/images/eleclog.png", alt: "Best Electrician Jobs" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Apprentice Electrician Jobs", "Commercial Electrician", "Industrial Electrician", "Residential Electrician"]
 # End of Selection

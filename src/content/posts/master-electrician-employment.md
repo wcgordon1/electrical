@@ -1,11 +1,11 @@
 ---
 pubDate: 2024-11-27
 modDate: "2024-11-27T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Master Electrician Employment Guide
 description: "Unlock master electrician employment opportunities! Explore job openings, salary insights, and career paths today."
-avatar: { url: "/images/me.png", alt: "Will Gordon" }
-image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "alt text goes here" }
+avatar: { url: "/images/eleclog.png", alt: "Best Electrician Jobs" }
+image: { url: "https://i.pinimg.com/564x/8b/fa/f7/8bfaf7b7e43584e1d311a6a08b7fdde6.jpg", alt: "Best Electrician Jobs" }
 # Start of Selection
 tags: ["Master Electrician Jobs", "Journeyman Electrician Jobs"]
 # End of Selection

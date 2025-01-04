@@ -1,15 +1,15 @@
 ---
 pubDate: 2024-12-02
 modDate: "2024-12-03T00:00:00Z"
-author: Will Gordon
+author: Best Electrician
 title: Data Center Technician Interview Questions and Answers
 description: "Data center technicians are essential in powering our modern world. Learn what to expect in your Data Center Technician interview and how to prepare for it."
 avatar:
-  url: "/images/me.png"
-  alt: "#_"
+  url: "/images/eleclog.png"
+  alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
-  alt: "alt text goes here"
+  alt: "Best Electrician Jobs"
 tags: ["Data Center", "Interview Tips", "Low Voltage", "Cabling"]
 ---
 
