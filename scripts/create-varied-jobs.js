@@ -18,40 +18,83 @@ const openai = new OpenAI({
 });
 
 const JOB_TYPES = {
-  'Electrical Staffing Manager': {
-   minValue: 65000,
-   maxValue: 75000,
-   experienceLevel: 'senior',
-   category: 'Commercial',
-   team: 'Operations',
-   yearsExperience: '5+',
-   responsibilities: 'Manage recruitment for electrical contractors nationwide, develop relationships with electrical companies and unions, understand commercial and industrial electrical projects, oversee contractor placement and retention, maintain database of qualified electricians, coordinate licensing requirements across states, manage payroll and benefits for electrical contractors, ensure compliance with electrical safety regulations, analyze market rates for electrical trades, coordinate continuing education requirements, implement contractor evaluation systems, manage worker compensation claims, oversee apprenticeship program placements',
-   qualifications: 'Bachelors degree preferred, proven experience in electrical or skilled trades staffing, strong knowledge of electrical industry and trade classifications, understanding of electrical licenses and certifications, experience with skilled trades payroll and benefits, knowledge of electrical safety regulations and requirements, excellent negotiation and relationship building skills, experience with VMS and ATS systems, strong understanding of prevailing wage and union requirements',
-   prompt: 'Create a job description for an Electrical Staffing Manager at Premier Electrical Staffing leading recruitment efforts across multiple regions. Position requires strong understanding of electrical trade and contractor staffing. Must understand journeyman and master electrician requirements across states. Role involves developing relationships with electrical contractors and managing skilled trades recruitment. Experience with prevailing wage and union regulations required. Position includes overseeing contractor compliance and managing worker benefits. Must have excellent communication skills and ability to work with various electrical trade classifications.'
+  'Electrician': {
+    minValue: 28,
+    maxValue: 36,
+    experienceLevel: 'midLevel',
+    category: 'Journeyman',
+    team: 'Commercial',
+    yearsExperience: '3-5',
+    responsibilities: 'Install and maintain electrical systems in commercial buildings, troubleshoot and repair power distribution systems, ensure compliance with safety codes, implement lighting control systems, plan and execute electrical upgrades, manage materials and tools for projects, coordinate with other construction teams, inspect and test installations for quality assurance, document work progress and maintenance records, mentor apprentices and junior electricians, provide on-site technical expertise, support emergency power system installations, integrate energy-efficient solutions into designs',
+    qualifications: 'Relevant electrical certification or licensure preferred, strong understanding of commercial electrical systems, ability to read and interpret blueprints and technical diagrams, hands-on experience with power tools and diagnostic equipment, solid troubleshooting and problem-solving skills, knowledge of safety protocols and building codes, ability to work both independently and as part of a team, good communication and organizational skills, physically capable of handling electrical tools and equipment',
+    prompt: 'Create a job description for a Commercial Electrician focusing on electrical installations and maintenance in commercial buildings. Must understand power distribution systems, lighting controls, and troubleshooting. Experience with electrical upgrades, energy-efficient designs, and safety compliance required. Position involves planning and executing installations, ensuring quality assurance, and mentoring apprentices. Role includes maintaining documentation and coordinating with construction teams. Must have knowledge of safety codes and relevant certifications or licensure. Physical requirements include working at heights, using power tools, and handling materials.'
+},
+'Security Technician': {
+    minValue: 20,
+    maxValue: 28,
+    experienceLevel: 'entryLevel',
+    category: 'Security',
+    team: 'Commercial',
+    yearsExperience: '1-3',
+    responsibilities: 'Install and configure security systems including cameras and access control, perform routine system maintenance and updates, troubleshoot and resolve technical issues, conduct site assessments for optimal equipment placement, manage system documentation and warranties, ensure compliance with security protocols, assist with network integration of security devices, provide training to end-users, coordinate with vendors for repairs or upgrades, participate in testing and commissioning of new systems, adhere to safety and installation standards, maintain inventory of equipment and materials',
+    qualifications: 'Basic understanding of security systems and networks, ability to read and follow technical manuals, proficiency with basic hand and power tools, strong problem-solving skills, effective communication and teamwork abilities, attention to detail and organizational skills, willingness to learn and stay updated on emerging security technologies, physical ability to handle and install equipment',
+    prompt: 'Create a job description for a Security Technician focusing on installing and maintaining security systems. Entry-level position involving hands-on installation, troubleshooting, and configuration of security devices. Must have basic understanding of security technologies and network integration. Experience with technical documentation and testing preferred but not required. Position involves ensuring compliance with safety standards, maintaining equipment inventory, and providing user training. Must be comfortable working with tools and in a variety of environments. Role offers growth opportunities and exposure to advanced security technologies.'
+},
+'Cable Installer': {
+    minValue: 18,
+    maxValue: 25,
+    experienceLevel: 'entryLevel',
+    category: 'Voice Data',
+    team: 'Commercial',
+    yearsExperience: '1-5',
+    responsibilities: 'Install and route cabling for data, voice, and video systems, terminate and test cables for proper functionality, assist in setting up network and communication systems, follow project blueprints and technical diagrams, maintain inventory of cables and tools, collaborate with other team members and trades on site, ensure installations meet safety and quality standards, document work performed and test results, troubleshoot and resolve basic connectivity issues, support system upgrades and expansions as needed, assist in training new team members on installation techniques, adhere to company and project protocols',
+    qualifications: 'High school diploma or equivalent, familiarity with cable installation techniques, ability to use hand and power tools, basic understanding of networking concepts, strong organizational and time-management skills, attention to detail, effective communication skills, physical ability to lift and handle cabling equipment, willingness to learn and grow in the field, reliable transportation and punctuality',
+    prompt: 'Create a job description for a Cable Installer focusing on data, voice, and video system installations. Entry-level position involving hands-on cabling, testing, and troubleshooting. Must be familiar with installation techniques and networking concepts. Experience with tools and basic cable termination preferred but not required. Position involves following blueprints, documenting work, and collaborating with team members. Physical requirements include lifting and handling cables and equipment. Role offers training opportunities and exposure to advanced communication technologies.'
+},
+'Commercial Apprentice': {
+    minValue: 18,
+    maxValue: 22,
+    experienceLevel: 'entryLevel',
+    category: 'Apprentice',
+    team: 'Commercial',
+    yearsExperience: '0-3',
+    responsibilities: 'Assist in electrical installations and upgrades, learn wiring methods and safety protocols, support team with material handling and logistics, observe and practice blueprint reading, help install conduit, panels, and devices, perform routine equipment checks under supervision, maintain a clean and safe worksite, document daily tasks and lessons learned, attend required training and apprenticeship classes, collaborate with team members and supervisors, develop skills in troubleshooting and problem resolution, participate in team meetings and safety briefings, provide support for system testing and commissioning',
+    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts, willingness to learn and follow instructions, good communication and teamwork skills, physical ability to handle tools and materials, attention to detail and safety awareness, reliable transportation and punctuality',
+    prompt: 'Create a job description for a Commercial Electrical Apprentice focusing on learning and supporting electrical installations. Entry-level position involving training and hands-on work under licensed electricians. Must have basic understanding of electrical systems and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, conduit installation, and equipment setup. Role offers growth opportunities and exposure to commercial electrical projects. Must be physically capable of working in various environments and attending required classes for skill development.'
+},
+'Residential Electrician': {
+    minValue: 18,
+    maxValue: 27,
+    experienceLevel: 'entryLevel',
+    category: 'Apprentice',
+    team: 'Residential',
+    yearsExperience: '0-3',
+    responsibilities: 'Assist in the installation of residential electrical systems, learn wiring techniques and safety protocols, support team with material handling and job site preparation, observe and practice interpreting electrical blueprints, assist in installing outlets, switches, lighting fixtures, and circuit breakers, maintain a clean and organized workspace, perform basic troubleshooting under supervision, document daily tasks and learning progress, attend required apprenticeship classes and training sessions, follow safety guidelines and regulations, participate in site inspections and testing procedures, coordinate with team members and supervisors on project tasks',
+    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts, willingness to learn and follow instructions, good communication and teamwork skills, physical ability to lift tools and materials, attention to detail and safety awareness, reliable transportation and punctuality, strong interest in residential electrical systems',
+    prompt: 'Create a job description for a Residential Electrician Apprentice focusing on learning and supporting residential electrical installations. Entry-level position involving hands-on training under licensed electricians. Must have a basic understanding of electrical systems and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, installing fixtures, and troubleshooting residential electrical systems. Role offers growth opportunities and exposure to residential projects. Must be physically capable of working in various environments and attending required training.'
 },
 
-'Senior Electrical Recruiter': {
-   minValue: 55000,
-   maxValue: 70000,
-   experienceLevel: 'midLevel',
-   category: 'Commercial',
-   team: 'Operations',
-   yearsExperience: '2-5',
-   responsibilities: 'Recruit qualified electricians for commercial and industrial projects, screen electrical skills and certifications, maintain candidate pipeline of licensed electricians, coordinate with project managers on electrical staffing needs, verify electrical licenses and certifications, source through trade schools and electrical unions, track placement metrics and retention rates, attend electrical trade events, maintain database of electrical contractors, research prevailing wage rates, coordinate drug testing and background checks, create job descriptions for electrical positions',
-   qualifications: 'Bachelors degree preferred, proven electrical trade recruiting experience, understanding of electrical licenses and certifications, experience with skilled trades staffing, proficiency with ATS systems, strong understanding of electrical safety requirements, excellent communication and interpersonal skills, experience with union and non-union staffing, knowledge of electrical trade terminology, demonstrated ability to evaluate electrical qualifications',
-   prompt: 'Create a job description for a Senior Electrical Recruiter at Premier Electrical Staffing specializing in commercial and industrial electricians. Position involves full-cycle recruitment for licensed electricians including apprentices, journeymen, and master electricians. Must understand electrical certifications and license requirements. Role includes sourcing through multiple channels, screening electrical qualifications, and managing contractor pipeline. Experience with skilled trades staffing required. Position requires strong networking abilities within electrical industry. Must have excellent communication skills and ability to evaluate electrical experience levels.'
+'Industrial Electrician': {
+    minValue: 22,
+    maxValue: 31,
+    experienceLevel: 'entryLevel',
+    category: 'Apprentice',
+    team: 'Industrial',
+    yearsExperience: '0-3',
+    responsibilities: 'Assist in the installation and maintenance of industrial electrical systems, learn to work with high-voltage equipment and machinery, support team with material preparation and organization, help install and troubleshoot motor controls, PLCs, and automation systems, observe and practice interpreting technical diagrams and schematics, assist with conduit bending, wiring, and panel assembly, maintain a clean and safe job site, document learning progress and daily tasks, attend required training and apprenticeship classes, follow safety guidelines and protocols, participate in system testing and inspections, collaborate with team members and supervisors on project tasks',
+    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts and safety protocols, willingness to learn and follow instructions, strong interest in industrial electrical systems, good communication and teamwork skills, physical ability to handle tools and materials, attention to detail and problem-solving mindset, reliable transportation and punctuality',
+    prompt: 'Create a job description for an Industrial Electrician Apprentice focusing on learning and supporting the installation and maintenance of industrial electrical systems. Entry-level position involving hands-on training under licensed electricians. Must have a basic understanding of high-voltage equipment and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, troubleshooting motor controls, and working with PLCs and automation systems. Role offers growth opportunities and exposure to industrial projects. Must be physically capable of working in various environments and attending required training.'
 },
-
-'Junior Electrical Recruiter': {
-   minValue: 50000,
-   maxValue: 60000,
-   experienceLevel: 'entryLevel',
-   category: 'Commercial',
-   team: 'Operations',
-   yearsExperience: '0-2',
-   responsibilities: 'Support electrical trades recruitment process, screen resumes for electrical experience levels, schedule interviews, maintain electrical staffing database, post electrical job openings across various platforms, coordinate with field supervisors, assist with electrical trade shows and career fairs, conduct reference checks on electrical experience, support contractor onboarding process, maintain placement metrics, assist with timecard processing, help coordinate safety training requirements, support electrical apprenticeship program',
-   qualifications: 'Bachelors degree preferred, 0-2 years recruiting or electrical industry experience, proficiency with ATS systems and MS Office, basic understanding of electrical trade classifications, strong organizational and multitasking abilities, excellent written and verbal communication skills, ability to work in fast-paced environment, attention to detail, understanding of electrical safety requirements, ability to maintain confidentiality',
-   prompt: 'Create a job description for a Junior Electrical Recruiter at Premier Electrical Staffing supporting skilled trades recruitment team. Entry-level position learning electrical contractor staffing. Must have strong organizational skills and attention to detail. Role involves screening electrical experience, scheduling interviews, and maintaining contractor documentation. Will assist with trade shows and recruiting events. Position requires excellent communication skills and ability to learn electrical trade terminology. Experience with skilled trades helpful but not required. Must be comfortable in fast-paced environment and maintain strict confidentiality. Training provided on electrical industry requirements and recruiting processes.'
+'Electrician Helper': {
+    minValue: 15,
+    maxValue: 20,
+    experienceLevel: 'entryLevel',
+    category: 'Apprentice',
+    team: 'Commercial',
+    yearsExperience: '0-2',
+    responsibilities: 'Assist electricians with installations and repairs, handle materials and tools on job sites, follow instructions to complete basic electrical tasks, prepare and clean work areas, support cable pulling and conduit installation, learn to read and interpret blueprints under supervision, maintain safety and organization of tools and equipment, document work activities as directed, assist in troubleshooting and resolving minor issues, ensure adherence to safety standards and protocols, participate in team meetings and safety briefings, provide support for testing and system commissioning, demonstrate a willingness to learn and grow in the trade',
+    qualifications: 'High school diploma or equivalent preferred, basic understanding of electrical concepts, ability to use hand tools and follow instructions, strong work ethic and eagerness to learn, good communication and teamwork skills, attention to detail and safety awareness, physical ability to lift and carry tools and materials, reliable transportation and punctuality',
+    prompt: 'Create a job description for an Electrician Helper focusing on supporting electricians with installations, repairs, and general tasks. Entry-level position involving hands-on work with tools and materials under supervision. Must have a basic understanding of electrical concepts and a strong work ethic. Position includes preparing work areas, assisting with conduit installation, and documenting tasks. Role offers opportunities for learning and advancement in the electrical trade. Must be physically capable of working in various environments and committed to safety standards.'
 }
 };
 
@@ -201,30 +244,49 @@ const COMPANIES = {
     name: 'Premier Electric',
     sameAs: 'https://www.premierelectricalstaffing.com/',
     logo: 'https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
+  },
+  'Rogers Electric': {
+    name: 'Rogers Electric',
+    sameAs: 'https://www.rogerselectric.com/',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbvt0RMRvj6bZdL81Q6HJeRVl_qflQIGgp9w&s'
   }
 };
 
 const LOCATIONS = [
-  { city: 'Concord', state: 'NC', zipCode: '28025' },
-{ city: 'Kannapolis', state: 'NC', zipCode: '28081' },
-{ city: 'Harrisburg', state: 'NC', zipCode: '28075' },
-{ city: 'Davidson', state: 'NC', zipCode: '28036' },
-{ city: 'Lawrenceville', state: 'GA', zipCode: '30043' },
-{ city: 'Snellville', state: 'GA', zipCode: '30078' },
-{ city: 'Duluth', state: 'GA', zipCode: '30096' },
-{ city: 'Suwanee', state: 'GA', zipCode: '30024' },
-{ city: 'Cornelius', state: 'NC', zipCode: '28031' },
-{ city: 'Davidson', state: 'NC', zipCode: '28036' },
-{ city: 'Huntersville', state: 'NC', zipCode: '28078' },
-{ city: 'Denver', state: 'NC', zipCode: '28037' },
-{ city: 'Chester', state: 'VA', zipCode: '23831' },
-{ city: 'Colonial Heights', state: 'VA', zipCode: '23834' },
-{ city: 'Hopewell', state: 'VA', zipCode: '23860' },
-{ city: 'Petersburg', state: 'VA', zipCode: '23803' },
-{ city: 'Raleigh', state: 'NC', zipCode: '27601' },
+  { city: 'Tempe', state: 'AZ', zipCode: '85281' },
+{ city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
+{ city: 'Lakewood', state: 'CO', zipCode: '80226' },
+{ city: 'Aurora', state: 'CO', zipCode: '80012' },
+{ city: 'Hollywood', state: 'FL', zipCode: '33020' },
+{ city: 'Pompano Beach', state: 'FL', zipCode: '33060' },
+{ city: 'Kissimmee', state: 'FL', zipCode: '34741' },
+{ city: 'Sanford', state: 'FL', zipCode: '32771' },
+{ city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
+{ city: 'Clearwater', state: 'FL', zipCode: '33755' },
+{ city: 'Arlington', state: 'VA', zipCode: '22201' },
+{ city: 'Alexandria', state: 'VA', zipCode: '22314' },
+{ city: 'Henrico', state: 'VA', zipCode: '23228' },
+{ city: 'Chesterfield', state: 'VA', zipCode: '23832' },
+{ city: 'Norfolk', state: 'VA', zipCode: '23510' },
+{ city: 'Chesapeake', state: 'VA', zipCode: '23320' },
+{ city: 'Leland', state: 'NC', zipCode: '28451' },
+{ city: 'Carolina Beach', state: 'NC', zipCode: '28428' },
 { city: 'Cary', state: 'NC', zipCode: '27511' },
-{ city: 'Garner', state: 'NC', zipCode: '27529' },
-{ city: 'Wake Forest', state: 'NC', zipCode: '27587' },
+{ city: 'Durham', state: 'NC', zipCode: '27701' },
+{ city: 'Spring Lake', state: 'NC', zipCode: '28390' },
+{ city: 'Hope Mills', state: 'NC', zipCode: '28348' },
+{ city: 'Concord', state: 'NC', zipCode: '28025' },
+{ city: 'Gastonia', state: 'NC', zipCode: '28052' },
+{ city: 'High Point', state: 'NC', zipCode: '27260' },
+{ city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
+{ city: 'Mount Pleasant', state: 'SC', zipCode: '29464' },
+{ city: 'North Charleston', state: 'SC', zipCode: '29405' },
+{ city: 'Spartanburg', state: 'SC', zipCode: '29302' },
+{ city: 'Anderson', state: 'SC', zipCode: '29621' },
+{ city: 'Decatur', state: 'GA', zipCode: '30030' },
+{ city: 'Sandy Springs', state: 'GA', zipCode: '30328' },
+{ city: 'Franklin', state: 'TN', zipCode: '37064' },
+{ city: 'Hendersonville', state: 'TN', zipCode: '37075' }
 ];
 
 const STREET_TYPES = [
