@@ -93,8 +93,8 @@ description: >-
   applicants to apply.
 location: 'San Diego, CA'
 team: Residential
-datePosted: '2024-12-17T07:23:52.844Z'
-validThrough: '2025-01-24T07:23:52.844Z'
+datePosted: '2025-01-05T11:05:00.930Z'
+validThrough: '2025-02-13T11:05:00.930Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

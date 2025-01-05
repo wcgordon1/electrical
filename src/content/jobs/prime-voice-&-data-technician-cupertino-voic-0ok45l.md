@@ -19,8 +19,8 @@ description: >-
   services. We are seeking to add an experienced Voice & Data Te...
 location: 'Cupertino, CA'
 team: Commercial
-datePosted: '2024-12-17T07:22:07.373Z'
-validThrough: '2025-01-31T07:22:07.373Z'
+datePosted: '2025-01-05T10:53:13.288Z'
+validThrough: '2025-02-15T10:53:13.288Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

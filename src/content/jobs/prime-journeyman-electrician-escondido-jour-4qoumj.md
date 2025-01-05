@@ -19,8 +19,8 @@ description: >-
   cities including San Marcos...
 location: 'Escondido, CA'
 team: Commercial
-datePosted: '2024-12-17T01:51:12.673Z'
-validThrough: '2025-01-24T01:51:12.673Z'
+datePosted: '2025-01-05T12:54:05.704Z'
+validThrough: '2025-02-06T12:54:05.704Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

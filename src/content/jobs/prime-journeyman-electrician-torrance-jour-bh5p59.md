@@ -18,8 +18,8 @@ description: >-
   compliance with l...
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-17T05:33:27.521Z'
-validThrough: '2025-01-18T05:33:27.521Z'
+datePosted: '2025-01-05T14:56:50.095Z'
+validThrough: '2025-02-13T14:56:50.095Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

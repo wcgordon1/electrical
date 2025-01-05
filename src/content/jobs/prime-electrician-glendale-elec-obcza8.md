@@ -19,8 +19,8 @@ description: >-
   ensure they function correctly ...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-17T00:56:20.692Z'
-validThrough: '2025-01-31T00:56:20.692Z'
+datePosted: '2025-01-05T14:54:51.809Z'
+validThrough: '2025-02-04T14:54:51.809Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   electrical circuits...
 location: 'Rock Hill, SC'
 team: Industrial
-datePosted: '2024-12-17T05:37:59.021Z'
-validThrough: '2025-01-23T05:37:59.021Z'
+datePosted: '2025-01-05T09:59:11.589Z'
+validThrough: '2025-02-12T09:59:11.589Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

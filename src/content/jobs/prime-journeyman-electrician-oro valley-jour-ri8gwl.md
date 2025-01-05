@@ -18,8 +18,8 @@ description: >-
   that all work is in l...
 location: 'Oro Valley, AZ'
 team: Data Center
-datePosted: '2024-12-17T06:58:19.624Z'
-validThrough: '2025-01-21T06:58:19.624Z'
+datePosted: '2025-01-05T08:57:11.244Z'
+validThrough: '2025-02-08T08:57:11.244Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

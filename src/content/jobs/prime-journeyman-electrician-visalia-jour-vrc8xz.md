@@ -21,8 +21,8 @@ description: >-
   Electrician m...
 location: 'Visalia, CA'
 team: Data Center
-datePosted: '2024-12-17T03:35:16.626Z'
-validThrough: '2025-01-20T03:35:16.626Z'
+datePosted: '2025-01-05T13:16:29.347Z'
+validThrough: '2025-02-17T13:16:29.347Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

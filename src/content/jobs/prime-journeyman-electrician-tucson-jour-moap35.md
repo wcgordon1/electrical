@@ -21,8 +21,8 @@ description: >-
   This role is integral ...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-17T07:56:32.424Z'
-validThrough: '2025-01-27T07:56:32.424Z'
+datePosted: '2025-01-05T10:18:42.156Z'
+validThrough: '2025-02-07T10:18:42.156Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

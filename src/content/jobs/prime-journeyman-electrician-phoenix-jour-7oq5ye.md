@@ -17,8 +17,8 @@ description: >-
   team collaboration, a positive attitude, and strong problem-s...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-17T07:26:21.393Z'
-validThrough: '2025-01-21T07:26:21.393Z'
+datePosted: '2025-01-05T08:12:18.762Z'
+validThrough: '2025-02-05T08:12:18.762Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

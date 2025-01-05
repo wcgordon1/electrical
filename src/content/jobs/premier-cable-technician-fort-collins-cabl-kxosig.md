@@ -18,8 +18,8 @@ description: >-
   ...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-17T08:05:31.880Z'
-validThrough: '2025-01-29T08:05:31.880Z'
+datePosted: '2025-01-05T12:43:00.970Z'
+validThrough: '2025-02-04T12:43:00.970Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

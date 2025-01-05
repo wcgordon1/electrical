@@ -24,8 +24,8 @@ description: >-
   Responsibil...
 location: 'Pueblo, CO'
 team: Commercial
-datePosted: '2024-12-17T07:07:24.064Z'
-validThrough: '2025-01-19T07:07:24.064Z'
+datePosted: '2025-01-05T13:37:19.395Z'
+validThrough: '2025-02-17T13:37:19.395Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

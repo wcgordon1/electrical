@@ -21,8 +21,8 @@ description: >-
   maintenance, and repa...
 location: 'Dunwoody, GA'
 team: Commercial
-datePosted: '2024-12-17T05:37:30.601Z'
-validThrough: '2025-01-21T05:37:30.601Z'
+datePosted: '2025-01-05T12:42:22.233Z'
+validThrough: '2025-02-11T12:42:22.233Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

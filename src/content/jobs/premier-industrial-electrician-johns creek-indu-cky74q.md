@@ -24,8 +24,8 @@ description: >-
   1. Install, maintain, test, troubleshoot, and repair industrial elect...
 location: 'Johns Creek, GA'
 team: Industrial
-datePosted: '2024-12-17T05:40:59.023Z'
-validThrough: '2025-01-27T05:40:59.023Z'
+datePosted: '2025-01-05T08:31:51.741Z'
+validThrough: '2025-02-18T08:31:51.741Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

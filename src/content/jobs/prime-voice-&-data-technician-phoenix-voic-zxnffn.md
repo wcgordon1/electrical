@@ -23,8 +23,8 @@ description: >-
   to provide unparalleled services to our clients in Phoeni...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-17T07:29:34.511Z'
-validThrough: '2025-01-19T07:29:34.511Z'
+datePosted: '2025-01-05T16:55:23.931Z'
+validThrough: '2025-02-08T16:55:23.931Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

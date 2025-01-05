@@ -24,8 +24,8 @@ description: >-
   1. Readin...
 location: 'Garden Grove, CA'
 team: Data Center
-datePosted: '2024-12-17T06:05:48.077Z'
-validThrough: '2025-01-23T06:05:48.077Z'
+datePosted: '2025-01-05T12:58:08.379Z'
+validThrough: '2025-02-04T12:58:08.379Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

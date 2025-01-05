@@ -25,8 +25,8 @@ description: >-
   1. Install, maintain, and ...
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-17T03:22:58.249Z'
-validThrough: '2025-01-22T03:22:58.249Z'
+datePosted: '2025-01-05T08:30:36.161Z'
+validThrough: '2025-02-18T08:30:36.161Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

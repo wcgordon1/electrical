@@ -17,8 +17,8 @@ description: >-
   minimum of 1 year of ...
 location: 'Centennial, CO'
 team: Industrial
-datePosted: '2024-12-17T06:07:56.884Z'
-validThrough: '2025-01-16T06:07:56.884Z'
+datePosted: '2025-01-05T16:59:27.724Z'
+validThrough: '2025-02-11T16:59:27.724Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

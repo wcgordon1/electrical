@@ -20,8 +20,8 @@ description: >-
   year of relevant e...
 location: 'Summerville, SC'
 team: Commercial
-datePosted: '2024-12-17T03:52:18.277Z'
-validThrough: '2025-01-16T03:52:18.277Z'
+datePosted: '2025-01-05T15:12:08.786Z'
+validThrough: '2025-02-13T15:12:08.786Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

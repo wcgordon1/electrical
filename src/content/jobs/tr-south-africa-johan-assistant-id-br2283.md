@@ -6,8 +6,8 @@ description: >-
   office.
 location: 'Johannesburg, South Africa'
 team: Commercial
-datePosted: '2024-12-17T05:50:31.076Z'
-validThrough: '2025-01-28T05:50:31.076Z'
+datePosted: '2025-01-04T14:50:22.324Z'
+validThrough: '2025-02-16T14:50:22.324Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners
@@ -31,7 +31,7 @@ occupationalCategory: Voice Data
 identifier:
   name: Prime Partners
   value: br2283
-featured: true
+featured: false
 email:
   - will@bestelectricianjobs.com
 ---

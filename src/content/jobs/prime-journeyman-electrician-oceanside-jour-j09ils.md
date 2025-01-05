@@ -20,8 +20,8 @@ description: >-
   ...
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-17T06:49:13.066Z'
-validThrough: '2025-01-28T06:49:13.066Z'
+datePosted: '2025-01-05T13:49:11.601Z'
+validThrough: '2025-02-11T13:49:11.601Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

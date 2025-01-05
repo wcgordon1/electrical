@@ -18,8 +18,8 @@ description: >-
   electronic communicatio...
 location: 'Fullerton, CA'
 team: Commercial
-datePosted: '2024-12-16T23:36:56.516Z'
-validThrough: '2025-01-19T23:36:56.516Z'
+datePosted: '2025-01-05T10:38:46.657Z'
+validThrough: '2025-02-04T10:38:46.657Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

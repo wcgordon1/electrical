@@ -20,8 +20,8 @@ description: >-
   of electrical systems and a desire to provide high-quality services...
 location: 'Palo Alto, CA'
 team: Data Center
-datePosted: '2024-12-17T02:00:08.943Z'
-validThrough: '2025-01-22T02:00:08.943Z'
+datePosted: '2025-01-05T14:27:49.168Z'
+validThrough: '2025-02-07T14:27:49.168Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

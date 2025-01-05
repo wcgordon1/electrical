@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain and re...
 location: 'Lawrenceville, GA'
 team: Industrial
-datePosted: '2024-12-17T06:59:44.945Z'
-validThrough: '2025-01-19T06:59:44.945Z'
+datePosted: '2025-01-05T10:18:17.736Z'
+validThrough: '2025-02-17T10:18:17.736Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

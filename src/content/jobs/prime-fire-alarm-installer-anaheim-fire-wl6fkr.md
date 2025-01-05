@@ -15,8 +15,8 @@ description: >-
   Key Responsibilities:...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-17T05:10:31.684Z'
-validThrough: '2025-01-28T05:10:31.684Z'
+datePosted: '2025-01-05T15:05:38.667Z'
+validThrough: '2025-02-18T15:05:38.667Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

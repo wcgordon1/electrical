@@ -24,8 +24,8 @@ description: >-
   K...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-17T06:15:40.742Z'
-validThrough: '2025-01-18T06:15:40.742Z'
+datePosted: '2025-01-05T11:46:11.102Z'
+validThrough: '2025-02-19T11:46:11.102Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

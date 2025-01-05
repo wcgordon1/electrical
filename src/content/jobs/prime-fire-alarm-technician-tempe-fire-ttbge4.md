@@ -21,8 +21,8 @@ description: >-
   principles, system opera...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-17T01:41:59.575Z'
-validThrough: '2025-01-16T01:41:59.575Z'
+datePosted: '2025-01-05T14:10:33.327Z'
+validThrough: '2025-02-13T14:10:33.327Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

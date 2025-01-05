@@ -18,8 +18,8 @@ description: >-
   all work is in compliance with national a...
 location: 'Marietta, GA'
 team: Industrial
-datePosted: '2024-12-17T00:43:44.352Z'
-validThrough: '2025-01-31T00:43:44.352Z'
+datePosted: '2025-01-05T12:09:53.458Z'
+validThrough: '2025-02-18T12:09:53.458Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

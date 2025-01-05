@@ -17,8 +17,8 @@ description: >-
   commercial and residential structures. You will also be r...
 location: 'San Jose, CA'
 team: Data Center
-datePosted: '2024-12-17T06:50:35.726Z'
-validThrough: '2025-01-31T06:50:35.726Z'
+datePosted: '2025-01-05T10:10:22.104Z'
+validThrough: '2025-02-11T10:10:22.104Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -23,8 +23,8 @@ description: >-
   1. Install, troubleshoot,...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-16T23:57:40.922Z'
-validThrough: '2025-01-26T23:57:40.922Z'
+datePosted: '2025-01-05T12:43:20.031Z'
+validThrough: '2025-02-08T12:43:20.031Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

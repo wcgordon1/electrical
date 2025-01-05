@@ -102,3 +102,5 @@ npm run index-recent-jobs -- -limit=100
 
 npm run list-jobs
 npm run update-llms
+
+We are using Astro.js and are NOT USING TYPESCRIPT! We are using Resend for emails. 

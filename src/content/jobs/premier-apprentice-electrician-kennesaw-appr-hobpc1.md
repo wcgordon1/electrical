@@ -16,8 +16,8 @@ description: >-
   tasks relating to both residential and commercial...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-17T07:25:24.697Z'
-validThrough: '2025-01-17T07:25:24.697Z'
+datePosted: '2025-01-05T13:18:17.469Z'
+validThrough: '2025-02-10T13:18:17.469Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

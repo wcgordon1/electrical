@@ -19,8 +19,8 @@ description: >-
   Avondale, Litchfield ...
 location: 'Goodyear, AZ'
 team: Commercial
-datePosted: '2024-12-17T04:44:10.356Z'
-validThrough: '2025-01-28T04:44:10.356Z'
+datePosted: '2025-01-05T09:31:38.146Z'
+validThrough: '2025-02-12T09:31:38.146Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

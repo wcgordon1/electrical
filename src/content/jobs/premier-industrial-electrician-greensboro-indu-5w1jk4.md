@@ -20,8 +20,8 @@ description: >-
   the Industrial Electrician field. The successful ap...
 location: 'Greensboro, NC'
 team: Industrial
-datePosted: '2024-12-17T03:32:56.008Z'
-validThrough: '2025-01-29T03:32:56.008Z'
+datePosted: '2025-01-05T10:29:25.693Z'
+validThrough: '2025-02-16T10:29:25.693Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -20,8 +20,8 @@ description: >-
   skilled professional who will be responsible for installing...
 location: 'Modesto, CA'
 team: Data Center
-datePosted: '2024-12-17T01:25:47.977Z'
-validThrough: '2025-01-16T01:25:47.977Z'
+datePosted: '2025-01-05T09:54:26.266Z'
+validThrough: '2025-02-14T09:54:26.266Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

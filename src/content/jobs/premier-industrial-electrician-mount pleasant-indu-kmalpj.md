@@ -18,8 +18,8 @@ description: >-
   safety procedures ...
 location: 'Mount Pleasant, SC'
 team: Industrial
-datePosted: '2024-12-17T01:47:05.500Z'
-validThrough: '2025-01-18T01:47:05.500Z'
+datePosted: '2025-01-05T09:22:36.916Z'
+validThrough: '2025-02-14T09:22:36.916Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

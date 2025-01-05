@@ -21,8 +21,8 @@ description: >-
   significant experienc...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-16T23:24:42.448Z'
-validThrough: '2025-01-23T23:24:42.448Z'
+datePosted: '2025-01-05T11:35:36.371Z'
+validThrough: '2025-02-06T11:35:36.371Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

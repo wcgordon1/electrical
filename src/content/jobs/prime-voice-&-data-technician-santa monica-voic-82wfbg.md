@@ -21,8 +21,8 @@ description: >-
   Voice & ...
 location: 'Santa Monica, CA'
 team: Commercial
-datePosted: '2024-12-17T04:33:42.147Z'
-validThrough: '2025-01-20T04:33:42.147Z'
+datePosted: '2025-01-05T16:08:54.215Z'
+validThrough: '2025-02-14T16:08:54.215Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

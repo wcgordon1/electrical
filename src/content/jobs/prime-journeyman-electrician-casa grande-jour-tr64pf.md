@@ -21,8 +21,8 @@ description: >-
   electrical field, excelle...
 location: 'Casa Grande, AZ'
 team: Commercial
-datePosted: '2024-12-17T03:45:52.651Z'
-validThrough: '2025-01-27T03:45:52.651Z'
+datePosted: '2025-01-05T11:37:42.603Z'
+validThrough: '2025-02-14T11:37:42.603Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners
