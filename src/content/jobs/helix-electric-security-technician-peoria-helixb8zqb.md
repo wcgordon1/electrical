@@ -1,13 +1,13 @@
 ---
 position: Security Technician
 description: >-
-  Join Helix Electric in Peoria, AZ as an Entry-Level Security
-  Technician. This role involves hands-on installation, troubleshooting, and
-  configuration of security systems. You will work with a variety of security
-  technologies and assist in integrating these systems with networks. The
-  position offers growth opportunities and exposure to advanced security
-  technologies. Qualifications Basic understanding of security systems and
-  networks Ability to read and follow technical manuals Prof...
+  Join Helix Electric in Peoria, AZ as an Entry-Level Security Technician. This
+  role involves hands-on installation, troubleshooting, and configuration of
+  security systems. You will work with a variety of security technologies and
+  assist in integrating these systems with networks. The position offers growth
+  opportunities and exposure to advanced security technologies. Qualifications
+  Basic understanding of security systems and networks Ability to read and
+  follow technical manuals Prof...
 location: 'Peoria, AZ'
 team: Commercial
 datePosted: '2025-01-05T22:57:02.411Z'

@@ -1,13 +1,13 @@
 ---
 position: Commercial Apprentice
 description: >-
-  Commercial Electrical Apprentice - Rock Hill, SC! Join Granite
-  State Electric as a Commercial Electrical Apprentice, focusing on learning and
-  supporting electrical installations. This entry-level position offers hands-on
-  training under licensed electricians, providing exposure to commercial
-  electrical projects and growth opportunities. You'll assist with wiring,
-  conduit installation, and equipment setup, contributing to the success of our
-  team. Qualifications High school diploma or ...
+  Commercial Electrical Apprentice - Rock Hill, SC! Join Granite State Electric
+  as a Commercial Electrical Apprentice, focusing on learning and supporting
+  electrical installations. This entry-level position offers hands-on training
+  under licensed electricians, providing exposure to commercial electrical
+  projects and growth opportunities. You'll assist with wiring, conduit
+  installation, and equipment setup, contributing to the success of our team.
+  Qualifications High school diploma or ...
 location: 'Rock Hill, SC'
 team: Commercial
 datePosted: '2025-01-05T23:31:19.664Z'

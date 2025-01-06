@@ -1,13 +1,13 @@
 ---
 position: Industrial Electrician
 description: >-
-  Join Helix Electric in Myrtle Beach, SC as an Industrial
-  Electrician Apprentice. This entry-level position focuses on learning and
-  supporting the installation and maintenance of industrial electrical systems
-  under the guidance of licensed electricians. The role provides hands-on
-  training, offering growth opportunities and exposure to diverse industrial
-  projects. Candidates must be physically capable of working in various
-  environments and attending required training. Qualifications ...
+  Join Helix Electric in Myrtle Beach, SC as an Industrial Electrician
+  Apprentice. This entry-level position focuses on learning and supporting the
+  installation and maintenance of industrial electrical systems under the
+  guidance of licensed electricians. The role provides hands-on training,
+  offering growth opportunities and exposure to diverse industrial projects.
+  Candidates must be physically capable of working in various environments and
+  attending required training. Qualifications ...
 location: 'Myrtle Beach, SC'
 team: Industrial
 datePosted: '2025-01-06T00:32:16.489Z'

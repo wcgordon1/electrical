@@ -1,13 +1,13 @@
 ---
 position: Commercial Apprentice
 description: >-
-  Join Helix Electric in Leesburg, VA, as an Electrical
-  Apprentice and embark on a dynamic career in the electrical industry. This
-  role is essential to our team, offering hands-on experience and professional
-  growth. You'll support electrical installations, learn industry best
-  practices, and contribute to our projects' success. Key Qualifications High
-  school diploma or equivalent Enrollment in an apprenticeship program preferred
-  Basic understanding of electrical concepts Willingne...
+  Join Helix Electric in Leesburg, VA, as an Electrical Apprentice and embark on
+  a dynamic career in the electrical industry. This role is essential to our
+  team, offering hands-on experience and professional growth. You'll support
+  electrical installations, learn industry best practices, and contribute to our
+  projects' success. Key Qualifications High school diploma or equivalent
+  Enrollment in an apprenticeship program preferred Basic understanding of
+  electrical concepts Willingne...
 location: 'Leesburg, VA'
 team: Commercial
 datePosted: '2025-01-06T00:15:26.309Z'

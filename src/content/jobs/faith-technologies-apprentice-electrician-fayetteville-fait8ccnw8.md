@@ -12,8 +12,8 @@ description: >-
 
   ## Position Overview
 
-  The Apprentice Electrician position at Faith Technologies in
-  Fayetteville, NC, is an entry-level role designed for individuals eager ...
+  The Apprentice Electrician position at Faith Technologies in Fayetteville, NC,
+  is an entry-level role designed for individuals eager ...
 location: 'Fayetteville, NC'
 team: Commercial
 datePosted: '2024-12-18T20:31:16.625Z'

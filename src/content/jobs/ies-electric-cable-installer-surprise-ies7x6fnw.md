@@ -1,8 +1,8 @@
 ---
 position: Cable Installer
 description: >-
-  Join IES Electric in Surprise, AZ, as a Low Voltage Cablie Technician
-  and contribute to the seamless installation and maintenance of critical data,
+  Join IES Electric in Surprise, AZ, as a Low Voltage Cablie Technician and
+  contribute to the seamless installation and maintenance of critical data,
   voice, and video systems. This role is pivotal in ensuring our clients have
   robust and reliable communication networks. If you are detail-oriented, eager
   to learn, and passionate about technology, we want you on our team. Key

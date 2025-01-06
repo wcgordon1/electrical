@@ -1,12 +1,13 @@
 ---
 position: Electrician
 description: >-
-  Hiring a skilled electrician, playing a pivotal role in shaping and maintaining the electrical
-  infrastructure of commercial buildings. Your expertise will directly
-  contribute to the efficiency and safety of our projects, ensuring top-notch
-  service and innovation in every task. Key Qualifications Preferred electrical
-  certification or licensure Strong understanding of commercial electrical
-  systems Ability to read and interpret blueprints and te...
+  Hiring a skilled electrician, playing a pivotal role in shaping and
+  maintaining the electrical infrastructure of commercial buildings. Your
+  expertise will directly contribute to the efficiency and safety of our
+  projects, ensuring top-notch service and innovation in every task. Key
+  Qualifications Preferred electrical certification or licensure Strong
+  understanding of commercial electrical systems Ability to read and interpret
+  blueprints and te...
 location: 'Jacksonville, NC'
 team: Commercial
 datePosted: '2025-01-05T23:55:53.288Z'

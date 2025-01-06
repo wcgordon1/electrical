@@ -47,9 +47,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
-  - prime.partners+candidate+jl6y59w7r@mail.manatal.com
+  - Michael.Mckeaige@pes123.com
 ---
 
 

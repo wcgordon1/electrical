@@ -215,10 +215,6 @@ const WORK_ENVIRONMENTS = [
     clients: ['Office Buildings', 'Retail Centers', 'Hospitals', 'Schools'] 
   },
   { 
-    type: 'Fire Alarm', 
-    clients: ['Commercial Buildings', 'Healthcare Facilities', 'Educational Institutions'] 
-  },
-  { 
     type: 'Security', 
     clients: ['Corporate Offices', 'Government Facilities', 'Healthcare Centers'] 
   }
@@ -273,21 +269,8 @@ function generateStreetAddress() {
 }
 
 // Helper function to generate dynamic job titles
-function generateJobTitle(baseTitle, team, location) {
-  const specialties = {
-    'Commercial': ['Commercial', 'Office', 'Retail', 'Healthcare'],
-    'Industrial': ['Industrial', 'Manufacturing', 'Heavy Industrial', 'Plant'],
-    'Residential': ['Residential', 'Multi-Family', 'Custom Home'],
-    'Project Management': ['Project Management', 'Construction Management', 'Field Operations'],
-    'Fire Alarm': ['Fire Alarm', 'Life Safety', 'Fire Protection'],
-    'Security': ['Security', 'Access Control', 'CCTV']
-  };
-
-  // If team doesn't exist in specialties, use Commercial as default
-  const teamSpecialties = specialties[team] || specialties['Commercial'];
-  const specialty = teamSpecialties[Math.floor(Math.random() * teamSpecialties.length)];
-  
-  return `${specialty} ${baseTitle}`;
+function generateJobTitle(baseTitle) {
+  return baseTitle;
 }
 
 // Helper function to generate location-specific content
@@ -360,10 +343,7 @@ async function createJob(location, jobType, company) {
   const team = TEAMS[Math.floor(Math.random() * TEAMS.length)];
   const jobInfo = JOB_TYPES[jobType];
   
-  // Generate dynamic title only for description variety
-  const descriptionTitle = generateJobTitle(jobType, team, location);
-  
-  // Use original jobType for actual job title
+  // Use original jobType for both description and title
   const jobTitle = jobType;
   
   const jobId = generateJobId(company, jobType);
@@ -388,17 +368,16 @@ async function createJob(location, jobType, company) {
     Object.keys(DESCRIPTION_LENGTHS)[Math.floor(Math.random() * Object.keys(DESCRIPTION_LENGTHS).length)]
   ];
 
-  const prompt = `Create a ${descLength}-word job description for a ${descriptionTitle} position at ${company.name} in ${location.city}, ${location.state}. Format in markdown without h1 tags, do not include ticks to display the markdown, these files are being directly uploaded to the website and it will convert to html for us. thank you.
+  const prompt = `Create a ${descLength}-word job description for a ${jobType} position at ${company.name} in ${location.city}, ${location.state}. Format in markdown without h1 tags, do not include ticks to display the markdown, these files are being directly uploaded to the website and it will convert to html for us. thank you.
 
 Brief company introduction focusing on ${team} projects at ${company.name}
 
-Overview of ${descriptionTitle} role in ${team} environment at ${company.name}.
+Overview of the ${jobType} role in our ${team} division at ${company.name}, working on ${workEnv.clients.join(', ')} projects.
 
-## Requirements for ${descriptionTitle}
+## Requirements
 - Key responsibilities for ${team} projects
 - Required certifications: ${requiredCerts.join(', ')}
 - Experience with: ${tools.join(', ')}
-- Typical projects: ${workEnv.clients.join(', ')}
 - ${jobInfo.yearsExperience} years of electrical experience
 - Valid electrical license for ${location.state}
 - Experience with ${tools[0]} and ${tools[1]}

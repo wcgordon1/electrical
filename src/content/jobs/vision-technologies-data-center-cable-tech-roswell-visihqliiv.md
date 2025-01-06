@@ -1,13 +1,13 @@
 ---
 position: Data Center Cable Tech
 description: >-
-  Join Vision Technologies in Roswell, GA, as a vital member
-  of our team, where you will play a key role in ensuring seamless connectivity
-  through expert installation and management of structured cabling systems. Your
-  expertise will enable us to provide reliable network solutions, supporting our
-  mission to deliver cutting-edge technology services. Key Qualifications BICSI
-  Installer 1 preferred Experience with structured cabling systems Proficiency
-  in cable termination techniques ...
+  Join Vision Technologies in Roswell, GA, as a vital member of our team, where
+  you will play a key role in ensuring seamless connectivity through expert
+  installation and management of structured cabling systems. Your expertise will
+  enable us to provide reliable network solutions, supporting our mission to
+  deliver cutting-edge technology services. Key Qualifications BICSI Installer 1
+  preferred Experience with structured cabling systems Proficiency in cable
+  termination techniques ...
 location: 'Roswell, GA'
 team: Commercial
 datePosted: '2025-01-05T22:28:58.145Z'

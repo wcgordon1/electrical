@@ -1,8 +1,8 @@
 ---
 position: Electrical Recruiter
 description: >-
-  As a Electrical Recruiter at Premier Electrical Staffing, you will join
-  our skilled trades recruitment team based in Nashville, TN. The role may also
+  As a Electrical Recruiter at Premier Electrical Staffing, you will join our
+  skilled trades recruitment team based in Nashville, TN. The role may also
   require work in the neighboring cities. This is an entry-level position
   offering in-depth exposure to electrical contractor staffing. You will play an
   integral role in our operations team, serving as the first point of contact

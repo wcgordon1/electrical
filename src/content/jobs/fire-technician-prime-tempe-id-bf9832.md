@@ -92,8 +92,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - Michael.Mckeaige@pes123.com
 ---
 
 Prime Partners is seeking an experienced and detail-oriented **Fire Alarm Technician** to join our team in Tempe, AZ. The ideal candidate will be responsible for installing, inspecting, testing, maintaining, and repairing fire alarm systems to ensure compliance with local, state, and national fire codes. This role is critical to our mission of delivering safety and reliability to our clients.

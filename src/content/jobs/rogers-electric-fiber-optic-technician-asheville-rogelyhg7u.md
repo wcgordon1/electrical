@@ -1,13 +1,13 @@
 ---
 position: Fiber Optic Technician
 description: >-
-  Join Rogers Electric in Asheville, NC as a Fiber Optic
-  Technician, where you'll play a crucial role in designing, implementing, and
-  maintaining advanced fiber optic networks. Your expertise will ensure the
-  efficiency and reliability of our fiber infrastructure, contributing to Rogers
-  Electric's success and innovation. Key Qualifications FOA certification
-  required Extensive experience with fusion splicing Proven expertise in OTDR
-  testing Demonstrated ability with fiber managemen...
+  Join Rogers Electric in Asheville, NC as a Fiber Optic Technician, where
+  you'll play a crucial role in designing, implementing, and maintaining
+  advanced fiber optic networks. Your expertise will ensure the efficiency and
+  reliability of our fiber infrastructure, contributing to Rogers Electric's
+  success and innovation. Key Qualifications FOA certification required
+  Extensive experience with fusion splicing Proven expertise in OTDR testing
+  Demonstrated ability with fiber managemen...
 location: 'Asheville, NC'
 team: Commercial
 datePosted: '2025-01-05T23:39:07.713Z'

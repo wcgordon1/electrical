@@ -1,13 +1,13 @@
 ---
 position: Commercial Apprentice
 description: >-
-  Join MMR Group in Gilbert, AZ, as a Commercial Electrical Apprentice. This entry-level
-  in Gilbert, AZ, as a Commercial Electrical Apprentice. This entry-level
-  position offers a unique opportunity to gain hands-on experience and training
-  in electrical installations under the guidance of licensed electricians. As an
-  apprentice, you'll assist with wiring, conduit installation, and equipment
-  setup, while developing your skills in commercial electrical projects. This
-  role promises growth opportunities and re...
+  Join MMR Group in Gilbert, AZ, as a Commercial Electrical Apprentice. This
+  entry-level in Gilbert, AZ, as a Commercial Electrical Apprentice. This
+  entry-level position offers a unique opportunity to gain hands-on experience
+  and training in electrical installations under the guidance of licensed
+  electricians. As an apprentice, you'll assist with wiring, conduit
+  installation, and equipment setup, while developing your skills in commercial
+  electrical projects. This role promises growth opportunities and re...
 location: 'Gilbert, AZ'
 team: Commercial
 datePosted: '2025-01-05T23:59:38.118Z'

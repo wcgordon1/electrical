@@ -1,7 +1,13 @@
 ---
 position: Electrician Helper
 description: >-
-  Join Vision Technologies in Roanoke, VA as an Electrician Helper. This entry-level position involves supporting electricians with installations, repairs, and various tasks. You will work hands-on with tools and materials under supervision. The role includes preparing work areas, assisting with conduit installation, and documenting tasks. This position is ideal for someone with a basic understanding of electrical concepts and a strong work ethic. You must be physically capable of wo...
+  Join Vision Technologies in Roanoke, VA as an Electrician Helper. This
+  entry-level position involves supporting electricians with installations,
+  repairs, and various tasks. You will work hands-on with tools and materials
+  under supervision. The role includes preparing work areas, assisting with
+  conduit installation, and documenting tasks. This position is ideal for
+  someone with a basic understanding of electrical concepts and a strong work
+  ethic. You must be physically capable of wo...
 location: 'Roanoke, VA'
 team: Commercial
 datePosted: '2025-01-06T00:01:03.564Z'

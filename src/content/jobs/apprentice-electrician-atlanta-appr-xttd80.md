@@ -97,9 +97,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - support@primepartners.info
-  - resumes@bestelectricianjobs.zohorecruitmail.com
-  - prime.partners+candidate+jl6y59w7r@mail.manatal.com
+  - Michael.Mckeaige@pes123.com
 ---
 
   We are searching for a highly-driven, eager and reliable Apprentice
