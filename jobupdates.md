@@ -95,7 +95,9 @@ After pushing to production and waiting for the site to rebuild, run:
 ## npm run notify-updated
 
 
-npm run create-varied-jobs
+npm run create-varied-jobs (used a ton)
+npm run create-variations (new prompts)
+npm run create-jobs-more (more jobs maybe better prompting)
 
 npm run index-recent-jobs -- -limit=100
 

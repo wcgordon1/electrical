@@ -2997,6 +2997,27 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"berg-electric-cable-installer-clarksville-bergihxmc1.md": {
+	id: "berg-electric-cable-installer-clarksville-bergihxmc1.md";
+  slug: "berg-electric-cable-installer-clarksville-bergihxmc1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"berg-electric-electrician-jacksonville-berg0aacqq.md": {
+	id: "berg-electric-electrician-jacksonville-berg0aacqq.md";
+  slug: "berg-electric-electrician-jacksonville-berg0aacqq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"berg-electric-fiber-optic-technician-greeley-berg53x6nm.md": {
+	id: "berg-electric-fiber-optic-technician-greeley-berg53x6nm.md";
+  slug: "berg-electric-fiber-optic-technician-greeley-berg53x6nm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "berks-electrical-cable-installer-burbank-berke63lhj.md": {
 	id: "berks-electrical-cable-installer-burbank-berke63lhj.md";
   slug: "berks-electrical-cable-installer-burbank-berke63lhj";
@@ -3697,6 +3718,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"crosby-electric-cable-installer-charleston-croskglqvp.md": {
+	id: "crosby-electric-cable-installer-charleston-croskglqvp.md";
+  slug: "crosby-electric-cable-installer-charleston-croskglqvp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "crosby-electric-cable-installer-macon-crosttn01d.md": {
 	id: "crosby-electric-cable-installer-macon-crosttn01d.md";
   slug: "crosby-electric-cable-installer-macon-crosttn01d";
@@ -3795,6 +3823,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"crosby-electric-electrician-fort-myers-crosd0t78p.md": {
+	id: "crosby-electric-electrician-fort-myers-crosd0t78p.md";
+  slug: "crosby-electric-electrician-fort-myers-crosd0t78p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "crosby-electric-electrician-pompano-beach-crosqd323f.md": {
 	id: "crosby-electric-electrician-pompano-beach-crosqd323f.md";
   slug: "crosby-electric-electrician-pompano-beach-crosqd323f";
@@ -3840,6 +3875,13 @@ declare module 'astro:content' {
 "crosby-electric-residential-electrician-charlotte-crosc8nmib.md": {
 	id: "crosby-electric-residential-electrician-charlotte-crosc8nmib.md";
   slug: "crosby-electric-residential-electrician-charlotte-crosc8nmib";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"crosby-electric-residential-electrician-columbia-cros7pitt9.md": {
+	id: "crosby-electric-residential-electrician-columbia-cros7pitt9.md";
+  slug: "crosby-electric-residential-electrician-columbia-cros7pitt9";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -4544,6 +4586,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"granite-state-electric-commercial-apprentice-rock-hill-gran6ll0m7.md": {
+	id: "granite-state-electric-commercial-apprentice-rock-hill-gran6ll0m7.md";
+  slug: "granite-state-electric-commercial-apprentice-rock-hill-gran6ll0m7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "granite-state-electric-electrician-helper-spring-lake-granqyu5y5.md": {
 	id: "granite-state-electric-electrician-helper-spring-lake-granqyu5y5.md";
   slug: "granite-state-electric-electrician-helper-spring-lake-granqyu5y5";
@@ -4589,6 +4638,13 @@ declare module 'astro:content' {
 "granite-state-electric-security-technician-dover-gran3946t7.md": {
 	id: "granite-state-electric-security-technician-dover-gran3946t7.md";
   slug: "granite-state-electric-security-technician-dover-gran3946t7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"granite-state-electric-security-technician-naples-granlppmgw.md": {
+	id: "granite-state-electric-security-technician-naples-granlppmgw.md";
+  slug: "granite-state-electric-security-technician-naples-granlppmgw";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5125,6 +5181,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"helix-electric-commercial-apprentice-leesburg-helif4xhos.md": {
+	id: "helix-electric-commercial-apprentice-leesburg-helif4xhos.md";
+  slug: "helix-electric-commercial-apprentice-leesburg-helif4xhos";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "helix-electric-commercial-electrician-naperville-heli6shsgd.md": {
 	id: "helix-electric-commercial-electrician-naperville-heli6shsgd.md";
   slug: "helix-electric-commercial-electrician-naperville-heli6shsgd";
@@ -5230,6 +5293,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"helix-electric-industrial-electrician-myrtle-beach-heli4b35zu.md": {
+	id: "helix-electric-industrial-electrician-myrtle-beach-heli4b35zu.md";
+  slug: "helix-electric-industrial-electrician-myrtle-beach-heli4b35zu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "helix-electric-industrial-electrician-washington-heli9w9jbs.md": {
 	id: "helix-electric-industrial-electrician-washington-heli9w9jbs.md";
   slug: "helix-electric-industrial-electrician-washington-heli9w9jbs";
@@ -5310,6 +5380,13 @@ declare module 'astro:content' {
 "helix-electric-security-technician-high-point-helinc5oop.md": {
 	id: "helix-electric-security-technician-high-point-helinc5oop.md";
   slug: "helix-electric-security-technician-high-point-helinc5oop";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"helix-electric-security-technician-peoria-helixb8zqb.md": {
+	id: "helix-electric-security-technician-peoria-helixb8zqb.md";
+  slug: "helix-electric-security-technician-peoria-helixb8zqb";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -5545,6 +5622,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"ies-electric-cable-installer-surprise-ies7x6fnw.md": {
+	id: "ies-electric-cable-installer-surprise-ies7x6fnw.md";
+  slug: "ies-electric-cable-installer-surprise-ies7x6fnw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "ies-electric-cable-installer-winston-salem-iesurq539.md": {
 	id: "ies-electric-cable-installer-winston-salem-iesurq539.md";
   slug: "ies-electric-cable-installer-winston-salem-iesurq539";
@@ -5671,6 +5755,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"ies-electric-electrician-helper-albany-ies87bdno.md": {
+	id: "ies-electric-electrician-helper-albany-ies87bdno.md";
+  slug: "ies-electric-electrician-helper-albany-ies87bdno";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "ies-electric-electrician-helper-tucson-iesixqpzy.md": {
 	id: "ies-electric-electrician-helper-tucson-iesixqpzy.md";
   slug: "ies-electric-electrician-helper-tucson-iesixqpzy";
@@ -5751,6 +5842,13 @@ declare module 'astro:content' {
 "ies-electric-project-manager-mesa-ies18fcpz.md": {
 	id: "ies-electric-project-manager-mesa-ies18fcpz.md";
   slug: "ies-electric-project-manager-mesa-ies18fcpz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ies-electric-residential-electrician-manassas-ies5jjao6.md": {
+	id: "ies-electric-residential-electrician-manassas-ies5jjao6.md";
+  slug: "ies-electric-residential-electrician-manassas-ies5jjao6";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -6924,6 +7022,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"mmr-group-commercial-apprentice-gilbert-mmr89u5pc.md": {
+	id: "mmr-group-commercial-apprentice-gilbert-mmr89u5pc.md";
+  slug: "mmr-group-commercial-apprentice-gilbert-mmr89u5pc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "mmr-group-commercial-apprentice-mount-pleasant-mmrjdyuun.md": {
 	id: "mmr-group-commercial-apprentice-mount-pleasant-mmrjdyuun.md";
   slug: "mmr-group-commercial-apprentice-mount-pleasant-mmrjdyuun";
@@ -7043,6 +7148,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"mmr-group-fiber-optic-technician-macon-mmrvjceb5.md": {
+	id: "mmr-group-fiber-optic-technician-macon-mmrvjceb5.md";
+  slug: "mmr-group-fiber-optic-technician-macon-mmrvjceb5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "mmr-group-fire-alarm-tech-menlo-park-mmru05lkk.md": {
 	id: "mmr-group-fire-alarm-tech-menlo-park-mmru05lkk.md";
   slug: "mmr-group-fire-alarm-tech-menlo-park-mmru05lkk";
@@ -7067,6 +7179,13 @@ declare module 'astro:content' {
 "mmr-group-industrial-apprentice-electrician-wilmington-mmrxiafz6.md": {
 	id: "mmr-group-industrial-apprentice-electrician-wilmington-mmrxiafz6.md";
   slug: "mmr-group-industrial-apprentice-electrician-wilmington-mmrxiafz6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"mmr-group-industrial-electrician-newport-news-mmrwjhf8y.md": {
+	id: "mmr-group-industrial-electrician-newport-news-mmrwjhf8y.md";
+  slug: "mmr-group-industrial-electrician-newport-news-mmrwjhf8y";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -8387,6 +8506,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"premier-electric-cable-installer-gainesville-prem2hu4n2.md": {
+	id: "premier-electric-cable-installer-gainesville-prem2hu4n2.md";
+  slug: "premier-electric-cable-installer-gainesville-prem2hu4n2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "premier-electric-cable-installer-goose-creek-premkrrezz.md": {
 	id: "premier-electric-cable-installer-goose-creek-premkrrezz.md";
   slug: "premier-electric-cable-installer-goose-creek-premkrrezz";
@@ -8772,6 +8898,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"premier-electric-electrician-glendale-premyjz6c4.md": {
+	id: "premier-electric-electrician-glendale-premyjz6c4.md";
+  slug: "premier-electric-electrician-glendale-premyjz6c4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "premier-electric-electrician-helper-hendersonville-premzpr47q.md": {
 	id: "premier-electric-electrician-helper-hendersonville-premzpr47q.md";
   slug: "premier-electric-electrician-helper-hendersonville-premzpr47q";
@@ -9076,6 +9209,13 @@ declare module 'astro:content' {
 "premier-electric-residential-electrician-franklin-premjyjy6k.md": {
 	id: "premier-electric-residential-electrician-franklin-premjyjy6k.md";
   slug: "premier-electric-residential-electrician-franklin-premjyjy6k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"premier-electric-residential-electrician-sumter-premizj79p.md": {
+	id: "premier-electric-residential-electrician-sumter-premizj79p.md";
+  slug: "premier-electric-residential-electrician-sumter-premizj79p";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12132,6 +12272,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"rogers-electric-electrician-marietta-roge47tada.md": {
+	id: "rogers-electric-electrician-marietta-roge47tada.md";
+  slug: "rogers-electric-electrician-marietta-roge47tada";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"rogers-electric-fiber-optic-technician-asheville-rogelyhg7u.md": {
+	id: "rogers-electric-fiber-optic-technician-asheville-rogelyhg7u.md";
+  slug: "rogers-electric-fiber-optic-technician-asheville-rogelyhg7u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "rogers-electric-industrial-electrician-cary-rogeijem6a.md": {
 	id: "rogers-electric-industrial-electrician-cary-rogeijem6a.md";
   slug: "rogers-electric-industrial-electrician-cary-rogeijem6a";
@@ -12163,6 +12317,13 @@ declare module 'astro:content' {
 "rogers-electric-industrial-electrician-spartanburg-rogevqqb6x.md": {
 	id: "rogers-electric-industrial-electrician-spartanburg-rogevqqb6x.md";
   slug: "rogers-electric-industrial-electrician-spartanburg-rogevqqb6x";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"rogers-electric-industrial-electrician-westminster-roget4t2oq.md": {
+	id: "rogers-electric-industrial-electrician-westminster-roget4t2oq.md";
+  slug: "rogers-electric-industrial-electrician-westminster-roget4t2oq";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12832,6 +12993,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"staley-technologies-data-center-cable-tech-fayetteville-stalsddey8.md": {
+	id: "staley-technologies-data-center-cable-tech-fayetteville-stalsddey8.md";
+  slug: "staley-technologies-data-center-cable-tech-fayetteville-stalsddey8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "staley-technologies-data-center-cable-tech-indianapolis-stal5h18io.md": {
 	id: "staley-technologies-data-center-cable-tech-indianapolis-stal5h18io.md";
   slug: "staley-technologies-data-center-cable-tech-indianapolis-stal5h18io";
@@ -12856,6 +13024,13 @@ declare module 'astro:content' {
 "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md": {
 	id: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm.md";
   slug: "staley-technologies-electrical-project-manager-salt-lake-city-stalho4fvm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-electrician-helper-castle-rock-stal55cxkp.md": {
+	id: "staley-technologies-electrician-helper-castle-rock-stal55cxkp.md";
+  slug: "staley-technologies-electrician-helper-castle-rock-stal55cxkp";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12947,6 +13122,13 @@ declare module 'astro:content' {
 "staley-technologies-rack-stack-installer-irving-stall8n6qa.md": {
 	id: "staley-technologies-rack-stack-installer-irving-stall8n6qa.md";
   slug: "staley-technologies-rack-stack-installer-irving-stall8n6qa";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"staley-technologies-security-technician-murfreesboro-stal5c73tw.md": {
+	id: "staley-technologies-security-technician-murfreesboro-stal5c73tw.md";
+  slug: "staley-technologies-security-technician-murfreesboro-stal5c73tw";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -14148,6 +14330,13 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"tr-group-commercial-apprentice-jackson-trgg1ctzp.md": {
+	id: "tr-group-commercial-apprentice-jackson-trgg1ctzp.md";
+  slug: "tr-group-commercial-apprentice-jackson-trgg1ctzp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "tr-group-commercial-apprentice-philadelphia-trgmklcon.md": {
 	id: "tr-group-commercial-apprentice-philadelphia-trgmklcon.md";
   slug: "tr-group-commercial-apprentice-philadelphia-trgmklcon";
@@ -14186,6 +14375,13 @@ declare module 'astro:content' {
 "tr-group-data-center-cable-tech-hollywood-trg32iyre.md": {
 	id: "tr-group-data-center-cable-tech-hollywood-trg32iyre.md";
   slug: "tr-group-data-center-cable-tech-hollywood-trg32iyre";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-data-center-cable-tech-miami-trgvz4439.md": {
+	id: "tr-group-data-center-cable-tech-miami-trgvz4439.md";
+  slug: "tr-group-data-center-cable-tech-miami-trgvz4439";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -14284,6 +14480,13 @@ declare module 'astro:content' {
 "tr-group-residential-electrician-chicago-trg8mkfch.md": {
 	id: "tr-group-residential-electrician-chicago-trg8mkfch.md";
   slug: "tr-group-residential-electrician-chicago-trg8mkfch";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"tr-group-security-technician-mooresville-trgenlxtx.md": {
+	id: "tr-group-security-technician-mooresville-trgenlxtx.md";
+  slug: "tr-group-security-technician-mooresville-trgenlxtx";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -14456,6 +14659,20 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"vision-technologies-data-center-cable-tech-roswell-visihqliiv.md": {
+	id: "vision-technologies-data-center-cable-tech-roswell-visihqliiv.md";
+  slug: "vision-technologies-data-center-cable-tech-roswell-visihqliiv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"vision-technologies-electrician-helper-roanoke-visikp4wof.md": {
+	id: "vision-technologies-electrician-helper-roanoke-visikp4wof.md";
+  slug: "vision-technologies-electrician-helper-roanoke-visikp4wof";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "vision-technologies-electrician-norfolk-visicaexfn.md": {
 	id: "vision-technologies-electrician-norfolk-visicaexfn.md";
   slug: "vision-technologies-electrician-norfolk-visicaexfn";
@@ -14508,6 +14725,13 @@ declare module 'astro:content' {
 "vision-technologies-residential-electrician-north-charleston-visimkoy74.md": {
 	id: "vision-technologies-residential-electrician-north-charleston-visimkoy74.md";
   slug: "vision-technologies-residential-electrician-north-charleston-visimkoy74";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"vision-technologies-residential-electrician-thornton-visid22c1n.md": {
+	id: "vision-technologies-residential-electrician-thornton-visid22c1n.md";
+  slug: "vision-technologies-residential-electrician-thornton-visid22c1n";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">

@@ -33,7 +33,8 @@
     "update-premier-emails": "node scripts/update-premier-emails.js",
     "update-state-emails": "node scripts/update-state-emails.js",
     "create-blog-posts": "node scripts/create-blog-posts.js",
-    "create-variations": "node scripts/create-job-variations.js"
+    "create-variations": "node scripts/create-job-variations.js",
+    "create-jobs-more": "node scripts/create-jobs-more.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
