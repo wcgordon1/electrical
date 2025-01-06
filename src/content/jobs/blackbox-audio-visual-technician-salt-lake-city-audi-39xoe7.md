@@ -32,8 +32,8 @@ benefits:
   - 401k Match
   - Quarterly Bonuses
   - Vehicle Allowance
-datePosted: '2024-12-17T14:16:20.281Z'
-validThrough: '2025-01-23T14:16:20.281Z'
+datePosted: '2025-01-06T13:26:14.003Z'
+validThrough: '2025-02-05T13:26:14.003Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

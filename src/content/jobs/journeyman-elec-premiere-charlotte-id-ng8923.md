@@ -70,7 +70,7 @@ baseSalary:
 experienceRequirements: seniorLevel
 occupationalCategory: Journeyman
 identifier:
-  name: Premiere Electrical
+  name: Premier Electric
   value: ng8923
 email:
   - will@bestelectricianjobs.com

@@ -19,8 +19,8 @@ description: >-
   maintaining, and troubleshooting voice and...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-17T11:07:51.265Z'
-validThrough: '2025-01-18T11:07:51.265Z'
+datePosted: '2025-01-06T16:04:44.906Z'
+validThrough: '2025-02-08T16:04:44.906Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

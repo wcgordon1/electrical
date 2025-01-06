@@ -29,8 +29,8 @@ description: >-
   including wir...
 location: 'Sunnyvale, CA'
 team: Residential
-datePosted: '2024-12-17T14:21:01.773Z'
-validThrough: '2025-01-30T14:21:01.773Z'
+datePosted: '2025-01-06T09:11:22.626Z'
+validThrough: '2025-02-06T09:11:22.626Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

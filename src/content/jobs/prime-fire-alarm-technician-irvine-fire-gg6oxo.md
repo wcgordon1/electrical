@@ -25,8 +25,8 @@ description: >-
   Key Re...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-17T16:20:04.526Z'
-validThrough: '2025-01-25T16:20:04.526Z'
+datePosted: '2025-01-06T10:02:19.175Z'
+validThrough: '2025-02-20T10:02:19.175Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

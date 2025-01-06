@@ -23,8 +23,8 @@ description: >-
   Job Summa...
 location: 'Yuma, AZ'
 team: Commercial
-datePosted: '2024-12-17T14:38:13.286Z'
-validThrough: '2025-01-24T14:38:13.286Z'
+datePosted: '2025-01-06T09:18:44.711Z'
+validThrough: '2025-02-20T09:18:44.711Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

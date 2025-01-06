@@ -26,8 +26,8 @@ description: >-
   Key ...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-17T16:00:32.329Z'
-validThrough: '2025-01-17T16:00:32.329Z'
+datePosted: '2025-01-06T09:15:27.564Z'
+validThrough: '2025-02-14T09:15:27.564Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

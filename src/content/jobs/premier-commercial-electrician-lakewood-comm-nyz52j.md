@@ -18,8 +18,8 @@ description: >-
   year of ex...
 location: 'Lakewood, CO'
 team: Commercial
-datePosted: '2024-12-17T13:19:20.929Z'
-validThrough: '2025-01-22T13:19:20.929Z'
+datePosted: '2025-01-06T11:56:30.327Z'
+validThrough: '2025-02-10T11:56:30.327Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

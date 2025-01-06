@@ -18,8 +18,8 @@ description: >-
   maintenance of electrical systems. This is an excellent opportunity ...
 location: 'Centennial, CO'
 team: Commercial
-datePosted: '2024-12-17T15:42:52.996Z'
-validThrough: '2025-01-30T15:42:52.996Z'
+datePosted: '2025-01-06T15:55:29.608Z'
+validThrough: '2025-02-08T15:55:29.608Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

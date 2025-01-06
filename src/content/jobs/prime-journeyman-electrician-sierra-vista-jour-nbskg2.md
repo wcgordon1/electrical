@@ -16,8 +16,8 @@ description: >-
   repairs on residential and comme...
 location: 'Sierra Vista, AZ'
 team: Data Center
-datePosted: '2024-12-17T12:56:53.776Z'
-validThrough: '2025-01-28T12:56:53.776Z'
+datePosted: '2025-01-06T14:10:50.115Z'
+validThrough: '2025-02-17T14:10:50.115Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

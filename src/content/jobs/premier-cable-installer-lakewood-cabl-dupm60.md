@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain, and repair cable systems, incl...
 location: 'Lakewood, CO'
 team: Commercial
-datePosted: '2024-12-17T14:55:44.968Z'
-validThrough: '2025-01-24T14:55:44.968Z'
+datePosted: '2025-01-06T15:18:09.248Z'
+validThrough: '2025-02-05T15:18:09.248Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

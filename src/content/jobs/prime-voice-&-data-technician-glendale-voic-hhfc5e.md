@@ -23,8 +23,8 @@ description: >-
   This role primarily focuses on commercial work, mainl...
 location: 'Glendale, AZ'
 team: Commercial
-datePosted: '2024-12-17T13:23:43.809Z'
-validThrough: '2025-01-21T13:23:43.809Z'
+datePosted: '2025-01-06T14:32:58.827Z'
+validThrough: '2025-02-18T14:32:58.827Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

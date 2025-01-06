@@ -23,8 +23,8 @@ description: >-
   systems, attention to detail, and the ability to adhere to all saf...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-17T11:18:59.497Z'
-validThrough: '2025-01-18T11:18:59.497Z'
+datePosted: '2025-01-06T15:36:25.012Z'
+validThrough: '2025-02-11T15:36:25.012Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

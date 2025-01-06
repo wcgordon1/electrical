@@ -19,8 +19,8 @@ description: >-
   efficiency, and customer satis...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-17T09:58:18.950Z'
-validThrough: '2025-01-18T09:58:18.950Z'
+datePosted: '2025-01-06T13:59:09.703Z'
+validThrough: '2025-02-05T13:59:09.703Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -22,8 +22,8 @@ description: >-
   The Journeyman Electrician will be responsible for installin...
 location: 'Oxnard, CA'
 team: Commercial
-datePosted: '2024-12-17T11:04:53.513Z'
-validThrough: '2025-01-30T11:04:53.513Z'
+datePosted: '2025-01-06T15:13:55.756Z'
+validThrough: '2025-02-20T15:13:55.756Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

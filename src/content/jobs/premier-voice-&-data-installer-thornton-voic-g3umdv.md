@@ -19,8 +19,8 @@ description: >-
   environments. This role requires a high level of...
 location: 'Thornton, CO'
 team: Commercial
-datePosted: '2024-12-17T11:03:05.840Z'
-validThrough: '2025-01-17T11:03:05.840Z'
+datePosted: '2025-01-06T09:08:44.645Z'
+validThrough: '2025-02-10T09:08:44.645Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

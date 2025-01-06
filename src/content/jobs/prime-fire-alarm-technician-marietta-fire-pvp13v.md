@@ -26,8 +26,8 @@ description: >-
   1. Install, inspect, and repair fire ...
 location: 'Marietta, GA'
 team: Industrial
-datePosted: '2024-12-17T14:43:01.640Z'
-validThrough: '2025-01-19T14:43:01.640Z'
+datePosted: '2025-01-06T08:21:46.229Z'
+validThrough: '2025-02-18T08:21:46.229Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

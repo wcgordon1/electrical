@@ -23,8 +23,8 @@ description: >-
   1. Install, maint...
 location: 'Roseville, CA'
 team: Data Center
-datePosted: '2024-12-17T13:45:29.963Z'
-validThrough: '2025-01-30T13:45:29.963Z'
+datePosted: '2025-01-06T09:37:57.718Z'
+validThrough: '2025-02-18T09:37:57.718Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

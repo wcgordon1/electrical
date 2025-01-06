@@ -19,8 +19,8 @@ description: >-
   customer service skills, and is...
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-17T08:45:31.389Z'
-validThrough: '2025-01-31T08:45:31.389Z'
+datePosted: '2025-01-06T09:59:31.967Z'
+validThrough: '2025-02-08T09:59:31.967Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

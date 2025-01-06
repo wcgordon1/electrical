@@ -19,8 +19,8 @@ description: >-
   Key R...
 location: 'Sacramento, CA'
 team: Industrial
-datePosted: '2024-12-17T08:36:06.965Z'
-validThrough: '2025-01-25T08:36:06.965Z'
+datePosted: '2025-01-06T14:25:14.534Z'
+validThrough: '2025-02-20T14:25:14.534Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

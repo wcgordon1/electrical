@@ -21,8 +21,8 @@ description: >-
   Vinings, Sandy Springs, a...
 location: 'Smyrna, GA'
 team: Commercial
-datePosted: '2024-12-17T12:19:34.166Z'
-validThrough: '2025-01-30T12:19:34.166Z'
+datePosted: '2025-01-06T08:51:16.948Z'
+validThrough: '2025-02-11T08:51:16.948Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

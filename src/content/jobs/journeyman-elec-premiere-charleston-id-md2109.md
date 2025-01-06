@@ -70,7 +70,7 @@ baseSalary:
 experienceRequirements: seniorLevel
 occupationalCategory: Journeyman
 identifier:
-  name: Premiere Electrical
+  name: Premier Electric
   value: md2109
 email:
   - will@bestelectricianjobs.com

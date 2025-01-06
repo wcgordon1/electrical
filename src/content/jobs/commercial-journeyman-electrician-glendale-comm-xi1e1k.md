@@ -20,8 +20,8 @@ description: >-
   Key Responsibi...
 location: 'Glendale, CA'
 team: Industrial
-datePosted: '2024-12-17T08:07:12.637Z'
-validThrough: '2025-01-28T08:07:12.637Z'
+datePosted: '2025-01-06T09:13:17.789Z'
+validThrough: '2025-02-20T09:13:17.789Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

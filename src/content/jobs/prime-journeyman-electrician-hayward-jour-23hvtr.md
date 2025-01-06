@@ -23,8 +23,8 @@ description: >-
   - Install, maintain, and repair electrical co...
 location: 'Hayward, CA'
 team: Commercial
-datePosted: '2024-12-17T10:05:54.295Z'
-validThrough: '2025-01-17T10:05:54.295Z'
+datePosted: '2025-01-06T08:27:54.151Z'
+validThrough: '2025-02-14T08:27:54.151Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

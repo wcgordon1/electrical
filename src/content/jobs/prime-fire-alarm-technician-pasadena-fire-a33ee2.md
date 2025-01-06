@@ -17,8 +17,8 @@ description: >-
   wiring, devices, panels...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-17T15:07:25.320Z'
-validThrough: '2025-01-19T15:07:25.320Z'
+datePosted: '2025-01-06T13:05:56.411Z'
+validThrough: '2025-02-20T13:05:56.411Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

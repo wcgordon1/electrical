@@ -20,8 +20,8 @@ description: >-
   under...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-17T10:53:41.236Z'
-validThrough: '2025-01-30T10:53:41.236Z'
+datePosted: '2025-01-06T09:49:18.359Z'
+validThrough: '2025-02-15T09:49:18.359Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

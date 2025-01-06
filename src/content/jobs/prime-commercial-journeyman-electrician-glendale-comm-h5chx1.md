@@ -25,8 +25,8 @@ description: >-
   - Install, maintain, and...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-17T10:44:48.151Z'
-validThrough: '2025-01-22T10:44:48.151Z'
+datePosted: '2025-01-06T15:23:18.851Z'
+validThrough: '2025-02-08T15:23:18.851Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

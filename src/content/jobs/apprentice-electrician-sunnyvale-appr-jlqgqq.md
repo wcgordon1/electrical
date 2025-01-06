@@ -82,8 +82,8 @@ description: >-
   respected company. We look forward to reviewing your application.
 location: 'Sunnyvale, CA'
 team: Residential
-datePosted: '2024-12-17T16:18:04.344Z'
-validThrough: '2025-01-26T16:18:04.344Z'
+datePosted: '2025-01-06T12:02:18.861Z'
+validThrough: '2025-02-16T12:02:18.861Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -21,8 +21,8 @@ description: >-
   performance of various technical ta...
 location: 'Roswell, GA'
 team: Commercial
-datePosted: '2024-12-17T14:00:42.364Z'
-validThrough: '2025-01-29T14:00:42.364Z'
+datePosted: '2025-01-06T14:43:51.910Z'
+validThrough: '2025-02-05T14:43:51.910Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

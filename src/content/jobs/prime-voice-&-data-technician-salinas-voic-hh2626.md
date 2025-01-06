@@ -23,8 +23,8 @@ description: >-
   cities. We are seeking a skilled Voice & D...
 location: 'Salinas, CA'
 team: Data Center
-datePosted: '2024-12-17T09:44:33.586Z'
-validThrough: '2025-01-25T09:44:33.586Z'
+datePosted: '2025-01-06T14:48:01.022Z'
+validThrough: '2025-02-05T14:48:01.022Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

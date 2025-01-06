@@ -21,8 +21,8 @@ description: >-
   testing, troubleshooting, an...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-17T08:48:06.778Z'
-validThrough: '2025-01-20T08:48:06.778Z'
+datePosted: '2025-01-06T13:00:38.076Z'
+validThrough: '2025-02-11T13:00:38.076Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

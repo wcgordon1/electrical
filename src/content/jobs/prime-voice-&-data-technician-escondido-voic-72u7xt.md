@@ -22,8 +22,8 @@ description: >-
   are searching for an experienced and dedicated Voi...
 location: 'Escondido, CA'
 team: Commercial
-datePosted: '2024-12-17T16:44:18.343Z'
-validThrough: '2025-01-27T16:44:18.343Z'
+datePosted: '2025-01-06T14:12:20.575Z'
+validThrough: '2025-02-15T14:12:20.575Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

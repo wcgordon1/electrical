@@ -18,8 +18,8 @@ description: >-
   have the ability to troubleshoot...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-17T12:32:48.964Z'
-validThrough: '2025-01-23T12:32:48.964Z'
+datePosted: '2025-01-06T15:30:26.455Z'
+validThrough: '2025-02-12T15:30:26.455Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

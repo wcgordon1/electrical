@@ -20,8 +20,8 @@ description: >-
   troubleshoot electrical components in commer...
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-17T09:48:55.535Z'
-validThrough: '2025-01-25T09:48:55.535Z'
+datePosted: '2025-01-06T15:03:52.884Z'
+validThrough: '2025-02-11T15:03:52.884Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

@@ -25,8 +25,8 @@ description: >-
   2. Inspect, troublesh...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-17T12:31:33.280Z'
-validThrough: '2025-01-31T12:31:33.280Z'
+datePosted: '2025-01-06T09:54:37.125Z'
+validThrough: '2025-02-16T09:54:37.125Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

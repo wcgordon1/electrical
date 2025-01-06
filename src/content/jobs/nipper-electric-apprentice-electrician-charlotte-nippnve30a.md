@@ -1,10 +1,10 @@
 ---
 position: Apprentice Electrician
 description: >-
-  ## Job Description: Apprentice Electrician
+  Job Description: Apprentice Electrician
 
 
-  ### Company Overview
+  Company Overview
 
 
   Nipper Electric is a leading electrical contractor specializing in commercial

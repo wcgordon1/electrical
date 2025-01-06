@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair electrical control,...
 location: 'Arvada, CO'
 team: Industrial
-datePosted: '2024-12-17T14:00:55.255Z'
-validThrough: '2025-01-19T14:00:55.255Z'
+datePosted: '2025-01-06T10:17:36.364Z'
+validThrough: '2025-02-09T10:17:36.364Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Premier Electric

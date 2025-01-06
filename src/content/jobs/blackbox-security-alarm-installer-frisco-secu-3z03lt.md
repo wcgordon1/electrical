@@ -23,8 +23,8 @@ benefits:
   - 401k Match
   - Performance Bonuses
   - Tool Allowance
-datePosted: '2024-12-17T08:42:43.715Z'
-validThrough: '2025-01-26T08:42:43.715Z'
+datePosted: '2025-01-06T09:52:39.513Z'
+validThrough: '2025-02-17T09:52:39.513Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

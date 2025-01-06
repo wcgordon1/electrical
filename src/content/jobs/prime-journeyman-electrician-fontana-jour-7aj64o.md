@@ -20,8 +20,8 @@ description: >-
   commercial and residential settings. This rol...
 location: 'Fontana, CA'
 team: Data Center
-datePosted: '2024-12-17T14:23:47.638Z'
-validThrough: '2025-01-19T14:23:47.638Z'
+datePosted: '2025-01-06T11:05:45.670Z'
+validThrough: '2025-02-10T11:05:45.670Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

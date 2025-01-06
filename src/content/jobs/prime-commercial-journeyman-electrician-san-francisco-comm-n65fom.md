@@ -18,8 +18,8 @@ description: >-
   services may a...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-17T15:05:23.957Z'
-validThrough: '2025-01-17T15:05:23.957Z'
+datePosted: '2025-01-06T10:11:27.707Z'
+validThrough: '2025-02-09T10:11:27.707Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners
