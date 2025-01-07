@@ -11,8 +11,8 @@ const AZ_EMAILS = [
   'will@bestelectricianjobs.com',
   'Michael.Mckeaige@pes123.com',
   'Sarahann.Moody@pes123.com',
-  'Dylan.Gibson@pes123.com',
-  'Sheila.Villagomez@pes123.com'
+  'Makicha.Castaneda@pes123.com',
+  'Sam.Sosa@pes123.com'
 ];
 
 function updateJobFile(filePath) {
@@ -29,7 +29,7 @@ function updateJobFile(filePath) {
     const { data, content } = matter(fileContent);
     
     // Check if this is an Arizona job by looking at the jobLocation state
-    if (!data.jobLocation || data.jobLocation.addressRegion !== 'VA') {
+    if (!data.jobLocation || data.jobLocation.addressRegion !== 'FL') {
       return null;
     }
 
