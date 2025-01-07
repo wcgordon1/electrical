@@ -1,9 +1,7 @@
 ---
 position: Commercial Apprentice
 description: >-
-  **Commercial Apprentice at Premier Electric, Chester, VA**
-
-
+  Commercial Apprentice at Premier Electric, Chester, VA
   Premier Electric is seeking a motivated Commercial Apprentice to join our team
   in Chester, VA. This is an entry-level position, perfect for those looking to
   kick-start their career in the world of electrical installations. As part of
