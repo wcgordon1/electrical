@@ -40,6 +40,9 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Drew.Hammond@pes123.com
+  - Sam.Sosa@pes123.com
+  - Makicha.Castaneda@pes123.com
 ---
 
 

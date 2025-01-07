@@ -40,6 +40,8 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Dylan.Gibson@pes123.com
+  - Sheila.Villagomez@pes123.com
 ---
 
 

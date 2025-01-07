@@ -44,6 +44,8 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Tomeka.Manigault@pes123.com
+  - Guiselle.Rice@pes123.com
 ---
 
 

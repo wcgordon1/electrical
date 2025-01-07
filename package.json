@@ -36,7 +36,8 @@
     "create-variations": "node scripts/create-job-variations.js",
     "create-jobs-more": "node scripts/create-jobs-more.js",
     "fix-description-format": "node scripts/fix-description-format.js",
-    "notify-description-updates": "node scripts/notify-description-updates.js"
+    "notify-description-updates": "node scripts/notify-description-updates.js",
+    "update-premier-az-emails": "node scripts/update-premier-az-emails.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

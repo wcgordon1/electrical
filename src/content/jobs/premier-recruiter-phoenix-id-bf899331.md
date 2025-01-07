@@ -45,6 +45,7 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Nick.Ceriani@pes123.com
 ---
 
 At **Premier Electrical Staffing**, we are passionate about connecting top-tier electrical talent with incredible opportunities. We’re not just a staffing firm, we’re a dynamic team of individuals dedicated to powering careers and energizing businesses. Join us and become a part of our mission to provide outstanding staffing solutions for the electrical industry nationwide.

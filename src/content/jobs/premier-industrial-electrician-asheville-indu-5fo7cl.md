@@ -53,6 +53,10 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Oscar.Perdomo@pes123.com
+  - PESGreensboro@premierelectricalstaffing.com
+  - Mary@pes123.com
+  - Dennis@pes123.com
 ---
 
 

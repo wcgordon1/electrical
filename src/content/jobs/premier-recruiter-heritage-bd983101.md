@@ -44,6 +44,7 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Hannes.Stroebert@pes123.com
 ---
 
 At **Premier Electrical Staffing**, we specialize in connecting talented electricians with rewarding opportunities. We’re not just a staffing company—we’re a dedicated team committed to keeping our electricians working 40+ hours a week, ensuring they stay busy and achieve their career goals. Our company is growing rapidly, and we’re busier than ever. Join us and be part of a team that values your contribution and strives to make a difference in the electrical industry.

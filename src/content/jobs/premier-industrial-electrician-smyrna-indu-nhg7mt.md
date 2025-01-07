@@ -46,6 +46,7 @@ email:
   - will@bestelectricianjobs.com
   - Michael.Mckeaige@pes123.com
   - Sarahann.Moody@pes123.com
+  - Candy.Barron@pes123.com
 ---
 
 
