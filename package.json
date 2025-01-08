@@ -39,7 +39,9 @@
     "notify-description-updates": "node scripts/notify-description-updates.js",
     "update-premier-az-emails": "node scripts/update-premier-az-emails.js",
     "list-premier-tx-jobs": "node scripts/list-premier-tx-jobs.js",
-    "premier-jobs": "node scripts/premier-jobs.js"
+    "premier-jobs": "node scripts/premier-jobs.js",
+    "delete-premier": "node scripts/delete-premier-jobs.js",
+    "notify-deleted": "node scripts/notify-deleted-jobs.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
