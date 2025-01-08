@@ -1,9 +1,9 @@
 ---
 position: Fiber Optic Technician
 description: >-
-  Berg Electric in Greeley, CO is seeking a skilled Fiber Optic
-  Network Specialist for enterprise fiber systems. This role requires expertise
-  in single-mode, multi-mode, and DWDM systems, with a strong focus on designing
+  Berg Electric in Greeley, CO is seeking a skilled Fiber Optic Network
+  Specialist for enterprise fiber systems. This role requires expertise in
+  single-mode, multi-mode, and DWDM systems, with a strong focus on designing
   and implementing fiber networks. The specialist will conduct fusion splicing,
   perform OTDR testing, and manage emergency restorations. Qualifications FOA
   certification is mandatory. Extensive experience in fusion splicing and OTDR
@@ -38,7 +38,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 

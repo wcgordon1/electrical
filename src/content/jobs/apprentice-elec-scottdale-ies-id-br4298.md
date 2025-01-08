@@ -63,7 +63,7 @@ identifier:
   value: br4298
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 featured: false
 ---
 We are seeking a motivated and detail-oriented Apprentice Electrician to join our team in Scottsdale, AZ. This is an excellent opportunity for individuals looking to start or grow their career in the electrical trade. The Apprentice Electrician will work under the supervision of a licensed electrician to install, maintain, and repair electrical systems, including fire and security systems, in residential, commercial, and industrial settings.

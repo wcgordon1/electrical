@@ -41,7 +41,9 @@
     "list-premier-tx-jobs": "node scripts/list-premier-tx-jobs.js",
     "premier-jobs": "node scripts/premier-jobs.js",
     "delete-premier": "node scripts/delete-premier-jobs.js",
-    "notify-deleted": "node scripts/notify-deleted-jobs.js"
+    "notify-deleted": "node scripts/notify-deleted-jobs.js",
+    "get-remaining": "node scripts/get-remaining-jobs.js",
+    "update-mckeaige": "node scripts/update-mckeaige-emails.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

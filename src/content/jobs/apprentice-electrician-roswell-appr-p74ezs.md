@@ -120,7 +120,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
  We are seeking a highly motivated Apprentice Electrician who is eager to learn

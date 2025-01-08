@@ -97,7 +97,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
   We are searching for a highly-driven, eager and reliable Apprentice

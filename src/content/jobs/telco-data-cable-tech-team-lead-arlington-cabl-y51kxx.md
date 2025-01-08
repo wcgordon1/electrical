@@ -53,7 +53,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 workEnvironment:
   type: Healthcare
   clients:

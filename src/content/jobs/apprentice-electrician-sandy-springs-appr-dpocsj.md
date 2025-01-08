@@ -115,7 +115,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 We are currently seeking a motivated and hardworking individual to join our

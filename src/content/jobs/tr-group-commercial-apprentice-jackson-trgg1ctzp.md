@@ -1,13 +1,13 @@
 ---
 position: Commercial Apprentice
 description: >-
-  Join TR Group in Jackson, TN, as an Electrical Apprentice,
-  where you'll embark on a rewarding career path. This role is designed for
-  individuals eager to learn and grow in the electrical field, contributing to
-  essential electrical installations and upgrades while honing your skills in a
-  supportive environment. Key Qualifications High school diploma or equivalent
-  Enrollment in an apprenticeship program preferred Basic understanding of
-  electrical concepts Willingness to learn and...
+  Join TR Group in Jackson, TN, as an Electrical Apprentice, where you'll embark
+  on a rewarding career path. This role is designed for individuals eager to
+  learn and grow in the electrical field, contributing to essential electrical
+  installations and upgrades while honing your skills in a supportive
+  environment. Key Qualifications High school diploma or equivalent Enrollment
+  in an apprenticeship program preferred Basic understanding of electrical
+  concepts Willingness to learn and...
 location: 'Jackson, TN'
 team: Commercial
 datePosted: '2025-01-05T23:29:56.286Z'
@@ -37,7 +37,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 

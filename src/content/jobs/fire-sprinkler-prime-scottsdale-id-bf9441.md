@@ -87,7 +87,7 @@ identifier:
 featured: true
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 Prime Partners is seeking a highly skilled and detail-oriented **Fire Sprinkler Designer** to join our team in Scottsdale, AZ. The ideal candidate will play a critical role in designing, developing, and coordinating fire sprinkler systems for a variety of commercial, industrial, and residential projects. This position requires expertise in fire protection engineering principles, strong knowledge of building and fire codes, and proficiency in CAD software.  

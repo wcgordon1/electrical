@@ -1,10 +1,11 @@
 ---
 position: Residential Electrician
 description: >-
-  Residential Electrician Apprentice at Crosby Electric, Columbia, TN! As a Residential Electrician Apprentice at Crosby Electric, you will
-  engage in hands-on training to support residential electrical installations
-  under the guidance of licensed electricians. This entry-level position
-  emphasizes learning and skill development in wiring, fixture installation, and
+  Residential Electrician Apprentice at Crosby Electric, Columbia, TN! As a
+  Residential Electrician Apprentice at Crosby Electric, you will engage in
+  hands-on training to support residential electrical installations under the
+  guidance of licensed electricians. This entry-level position emphasizes
+  learning and skill development in wiring, fixture installation, and
   troubleshooting within residential settings. The role promises growth
   opportunities and significant exposure to various res...
 location: 'Columbia, TN'
@@ -36,7 +37,7 @@ identifier:
 featured: false
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
+  - support@primepartners.info
 ---
 
 

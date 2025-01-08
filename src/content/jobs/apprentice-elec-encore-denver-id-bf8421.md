@@ -78,8 +78,7 @@ identifier:
   value: bf8421
 email:
   - will@bestelectricianjobs.com
-  - Michael.Mckeaige@pes123.com
-  - resumes@bestelectricianjobs.zohorecruitmail.com
+  - support@primepartners.info
 featured: true
 ---
 
