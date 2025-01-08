@@ -100,10 +100,10 @@ Then, naturally flow into what makes this ${jobType} role exciting. Mention:
 - Growth potential
 - Work locations including ${location.city} and surrounding areas
 
-Weave some of these responsibilities throughout the description:
+Weave some of these responsibilities throughout the description with the title Responsibilities:
 ${jobInfo.responsibilities}
 
-Naturally incorporate some of these qualifications into the conversation:
+Naturally incorporate some of these qualifications into the conversation with a tile of what we are looking for (you don't have to include all of them only what you think is important):
 ${jobInfo.qualifications}
 
 Include these key details in a way that feels organic:
@@ -118,150 +118,170 @@ End with a strong call to action that emphasizes Premier Electric's commitment t
 }
 
 const JOB_TYPES = {
-
-'Electrician': {
-  minValue: 30,
-  maxValue: 36,
-  experienceLevel: 'midLevel',
-  category: 'Journeyman',
-  team: 'Commercial',
-  yearsExperience: '3-5',
-  responsibilities: 'Install and maintain electrical systems using tools such as conduit benders, multimeters, and circuit testers; troubleshoot power systems; work on commercial projects including office buildings, retail spaces, and industrial facilities; upgrade lighting systems with LED retrofits; install fire alarms and backup generators; ensure compliance with NEC codes and safety protocols.',
-  qualifications: 'Valid electrical license; proficiency with tools like conduit benders, power drills, and diagnostic equipment; experience with reading blueprints and technical diagrams; strong troubleshooting skills; knowledge of NEC codes; ability to work independently and in teams; physically capable of lifting heavy tools and materials.',
-  prompt: 'Create a job description for a Commercial Electrician focusing on installations, troubleshooting, and upgrades in commercial settings. Must have experience with tools like conduit benders and multimeters and knowledge of NEC codes.'
+    "Electrician": {
+      "minValue": 29,
+      "maxValue": 38,
+      "experienceLevel": "midLevel",
+      "category": "Journeyman",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install and maintain electrical systems, troubleshoot issues, upgrade lighting systems, and work on large-scale projects, including upcoming data centers and manufacturing plants in North Carolina.",
+      "qualifications": "Experience with conduit benders, multimeters, and circuit testers; ability to read diagrams and troubleshoot systems; hands-on experience with commercial installations.",
+      "prompt": "Create a job description for a Commercial Electrician focusing on installations and upgrades in commercial settings, with tools like conduit benders and multimeters."
+    },
+    "Security Tech": {
+      "minValue": 20,
+      "maxValue": 27,
+      "experienceLevel": "entryLevel",
+      "category": "Security",
+      "team": "Commercial",
+      "yearsExperience": "1-3",
+      "responsibilities": "Install and maintain security systems, troubleshoot connectivity issues, and assist with system integration on commercial properties statewide.",
+      "qualifications": "Basic experience with tools like crimpers and cable testers; understanding of security systems; hands-on troubleshooting skills.",
+      "prompt": "Create a job description for a Security Technician focusing on installing and maintaining security systems. Must have experience with tools like crimpers and cable testers."
+    },
+    "Cable Tech": {
+      "minValue": 23,
+      "maxValue": 30,
+      "experienceLevel": "seniorLevel",
+      "category": "Voice Data",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install structured cabling systems, terminate Cat5e/6 cables, and work on high-demand projects like upcoming warehouses and logistics centers.",
+      "qualifications": "Proficient with punch-down tools and cable testers; experience with structured cabling installations; ability to troubleshoot connectivity issues.",
+      "prompt": "Create a job description for a Cable Tech focusing on structured cabling installations and troubleshooting."
+    },
+    "Electrician Apprentice": {
+      "minValue": 18,
+      "maxValue": 24,
+      "experienceLevel": "entryLevel",
+      "category": "Apprentice",
+      "team": "Commercial",
+      "yearsExperience": "0-3",
+      "responsibilities": "Assist with electrical installations, handle materials, and learn wiring methods on projects such as commercial developments and industrial facilities.",
+      "qualifications": "Familiarity with basic tools like drills and wire strippers; willingness to learn and follow safety protocols; hands-on assistance experience.",
+      "prompt": "Create a job description for an Electrical Apprentice focusing on learning and assisting in commercial installations."
+    },
+    "Data Center Tech": {
+      "minValue": 24,
+      "maxValue": 32,
+      "experienceLevel": "seniorLevel",
+      "category": "Data Center",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install and terminate Cat6 cables, manage cable racks, and maintain server environments for upcoming statewide data center projects.",
+      "qualifications": "Experience with Fluke testers, cable management, and termination tools; hands-on data center installation experience.",
+      "prompt": "Create a job description for a Data Center Technician focusing on cable installations and management for large-scale data centers."
+    },
+    "Electrician Apprentice": {
+  "minValue": 18,
+  "maxValue": 25,
+  "experienceLevel": "entryLevel",
+  "category": "Apprentice",
+  "team": "Commercial",
+  "yearsExperience": "0-4",
+  "responsibilities": "Work alongside licensed electricians to install wiring, mount panels, and assist with conduit preparation; handle tools such as pliers, voltage testers, and drills; maintain a clean workspace and ensure tools are organized for efficiency.",
+  "qualifications": "Familiarity with hand tools like pliers and drills; eagerness to learn the trade; dependable and detail-oriented with strong problem-solving skills.",
+  "prompt": "Create a job description for an Electrician Apprentice focusing on hands-on assistance with electrical installations, including conduit prep, wiring, and tool management in a commercial environment."
 },
-'Security Technician': {
-  minValue: 23,
-  maxValue: 29,
-  experienceLevel: 'entryLevel',
-  category: 'Security',
-  team: 'Commercial',
-  yearsExperience: '1-3',
-  responsibilities: 'Install and configure security systems, including CCTV, access control, and intrusion alarms, using tools like crimpers, cable testers, and network switches; perform maintenance on cameras and alarm panels; assist in system integration for office buildings and warehouses; troubleshoot device connectivity issues; document installations and update system schematics.',
-  qualifications: 'Basic knowledge of security systems and networks; experience with hand tools and diagnostic equipment like cable testers; ability to read technical manuals; strong problem-solving skills; willingness to learn new technologies; physical ability to install and lift equipment; valid driver’s license.',
-  prompt: 'Create a job description for a Security Technician focusing on installing and maintaining security systems. Must have experience with tools like crimpers and cable testers and basic knowledge of security devices and networking.'
+"Apprentice Electrician": {
+  "minValue": 18,
+  "maxValue": 25,
+  "experienceLevel": "entryLevel",
+  "category": "Apprentice",
+  "team": "Commercial",
+  "yearsExperience": "0-4",
+  "responsibilities": "Support electricians by preparing materials, pulling wires, and setting up panels; operate basic tools like cable cutters, wire strippers, and measuring tapes; follow safety guidelines and contribute to smooth project execution.",
+  "qualifications": "Hands-on experience with basic tools preferred but not required; quick learner with excellent teamwork and communication skills; physically capable of lifting materials and working on ladders.",
+  "prompt": "Draft a job description for an Apprentice Electrician role that emphasizes assisting with wire pulling, panel setup, and material handling in a commercial setting while learning safety protocols and tool use."
 },
-'Cable Tech': {
-  minValue: 21,
-  maxValue: 28,
-  experienceLevel: 'seniorLevel',
-  category: 'Voice Data',
-  team: 'Commercial',
-  yearsExperience: '3-5',
-  responsibilities: 'Install structured cabling systems using tools like punch-down tools, cable testers, and fusion splicers; terminate and test Cat5e, Cat6, and fiber optic cables; work on projects such as data centers, call centers, and educational facilities; troubleshoot connectivity issues; ensure compliance with TIA/EIA standards; document test results and project progress.',
-  qualifications: 'Experience with structured cabling systems and tools like punch-down tools and fusion splicers; ability to read blueprints and follow technical diagrams; basic understanding of networking; attention to detail and organizational skills; physically capable of handling cables and equipment; certifications like BICSI Installer preferred.',
-  prompt: 'Create a job description for a Cable Tech focusing on structured cabling installations and troubleshooting. Must have experience with tools like punch-down tools and knowledge of TIA/EIA standards.'
+    "Electrician Helper": {
+      "minValue": 15,
+      "maxValue": 18,
+      "experienceLevel": "entryLevel",
+      "category": "Helper",
+      "team": "Commercial",
+      "yearsExperience": "0-2",
+      "responsibilities": "Assist electricians by organizing tools, materials, and equipment; pull wire, mount fixtures, and prepare conduit under supervision; use basic tools such as pliers, screwdrivers, and measuring tapes.",
+      "qualifications": "Ability to follow directions and work in a team; familiarity with basic tools like pliers and drills; physical ability to lift materials and work on ladders.",
+      "prompt": "Create a job description for an Electrician Helper focusing on supporting licensed electricians with wiring, mounting fixtures, and organizing tools."
+    },
+    "Data Center Tech 2": {
+  "minValue": 30,
+  "maxValue": 39,
+  "experienceLevel": "seniorLevel",
+  "category": "Data Center",
+  "team": "Commercial",
+  "yearsExperience": "5-7",
+  "responsibilities": "Oversee installations of structured cabling, ensure adherence to data center standards, support team coordination for large-scale deployments, manage inventory of cabling materials and tools, and perform quality checks on completed work.",
+  "qualifications": "Proven experience in leading data center projects, strong understanding of best practices for cable management, and ability to mentor junior technicians in efficient workflows.",
+  "prompt": "Create a job description for a Data Center Tech 2 focusing on team coordination, adherence to standards, and advanced cabling management for large-scale data centers."
 },
-  'Commercial Apprentice': {
-    minValue: 17,
-    maxValue: 25,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Commercial',
-    yearsExperience: '0-3',
-    responsibilities: 'Assist in electrical installations and upgrades, learn wiring methods and safety protocols, support team with material handling and logistics, observe and practice blueprint reading, help install conduit, panels, and devices, perform routine equipment checks under supervision, maintain a clean and safe worksite, document daily tasks and lessons learned, attend required training and apprenticeship classes, collaborate with team members and supervisors, develop skills in troubleshooting and problem resolution, participate in team meetings and safety briefings, provide support for system testing and commissioning',
-    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts, willingness to learn and follow instructions, good communication and teamwork skills, physical ability to handle tools and materials, attention to detail and safety awareness, reliable transportation and punctuality',
-    prompt: 'Create a job description for a Commercial Electrical Apprentice focusing on learning and supporting electrical installations. Entry-level position involving training and hands-on work under licensed electricians. Must have basic understanding of electrical systems and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, conduit installation, and equipment setup. Role offers growth opportunities and exposure to commercial electrical projects. Must be physically capable of working in various environments and attending required classes for skill development.'
-  },
-  'Data Center Technician': {
-    minValue: 28,
-    maxValue: 34,
-    experienceLevel: 'seniorLevel',
-    category: 'Data Center',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    responsibilities: 'Install and dress Category 6/6A cabling systems, terminate copper and fiber connections, maintain proper cable management in server racks, install overhead cable tray and ladder rack, perform cable testing and certification, document test results and warranties, maintain clean room protocols, organize patch panel layouts, implement proper cable routing and separation, assist with fiber trunk installation, maintain detailed labeling systems',
-    qualifications: 'BICSI Installer 1 preferred, experience with structured cabling systems, proficiency in cable termination techniques, knowledge of testing procedures, understanding of cable management best practices, ability to read network drawings, experience with labeling systems, attention to detail, basic understanding of network hardware',
-    prompt: 'Create a job description for a Data Center Cable Technician focusing on structured cabling installation. Must understand cable management, termination standards, and testing procedures. Experience with Cat 6/6A installation, rack management, and documentation required. BICSI certification preferred but not required. Knowledge of cable testing, proper dressing techniques, and labeling standards essential. Position involves installing and certifying copper/fiber cabling in data center environments. Must understand proper routing, separation requirements, and rack management. Role includes maintaining test documentation, as-built records, and warranty information. Some projects require off-hours maintenance windows. Physical requirements include ladder work, extended periods of cable termination, and working in active data centers. Must follow clean room protocols and maintain organized work areas. Position offers exposure to enterprise data center environments and advancement opportunities. Weekend work possible during maintenance windows. Clean background check required.'
-  },
-   'Apprentice Electrician': {
-  minValue: 18,
-  maxValue: 25,
-  experienceLevel: 'entryLevel',
-  category: 'Apprentice',
-  team: 'Commercial',
-  yearsExperience: '0-4',
-  responsibilities: 'Assist with pulling wire, installing conduit, and mounting electrical panels; support material handling and setup; use basic tools like wire strippers, screwdrivers, and drills; follow instructions to learn blueprint reading and wiring methods; maintain clean and organized workspaces.',
-  qualifications: 'Basic knowledge of tools like wire strippers and drills; strong work ethic; ability to follow directions and learn quickly; physically able to lift materials and work on ladders; good teamwork and communication skills.',
-  prompt: 'Create a job description for a Commercial Electrical Apprentice focusing on assisting licensed electricians with hands-on tasks like wiring, conduit installation, and material handling. Must be willing to learn and work with basic tools in a commercial environment.'
-},
-'Data Center Technician': {
-  minValue: 24,
-  maxValue: 29,
-  experienceLevel: 'seniorLevel',
-  category: 'Data Center',
-  team: 'Commercial',
-  yearsExperience: '3-5',
-  responsibilities: 'Install and terminate Cat6/6A and fiber cables; dress cables in racks using Velcro ties and cable combs; test cables using Fluke testers; mount patch panels and servers; install cable trays and ladder racks; document installations and test results.',
-  qualifications: 'Proficiency with Fluke testers, cable combs, and termination tools; experience with structured cabling and rack management; ability to read network diagrams; attention to detail for proper labeling and routing; familiarity with clean room standards.',
-  prompt: 'Create a job description for a Data Center Technician focusing on installing, terminating, and testing Cat6/6A and fiber cables. Must have experience with tools like Fluke testers, cable combs, and termination equipment, and an understanding of cable management and documentation.'
-},
-'Electrician': {
-  minValue: 18,
-  maxValue: 25,
-  experienceLevel: 'entryLevel',
-  category: 'Apprentice',
-  team: 'Commercial',
-  yearsExperience: '0-3',
-  responsibilities: 'Assist licensed electricians with installing conduit, pulling wire, and mounting electrical devices; use basic tools like wire strippers, drills, and measuring tapes; transport and organize materials; support panel assembly and device connections; ensure workspace cleanliness and safety; shadow electricians to learn wiring techniques, blueprint reading, and troubleshooting; participate in jobsite setup and teardown; document completed tasks and daily progress.',
-  qualifications: 'Familiarity with basic tools such as wire strippers, drills, and pliers; ability to follow instructions and learn on the job; strong physical stamina for lifting materials and working on ladders; basic math skills for measuring and calculations; reliable transportation and punctuality; safety-conscious and detail-oriented.',
-  prompt: 'Create a concise and practical job description for a Commercial Electrical Apprentice. The role involves heling with wiring, and panel assembly using basic tools. Must be eager to learn, safety-focused, and capable of physical labor in commercial settings.'
-},
-'Electrician Helper': {
-  minValue: 16,
-  maxValue: 20,
-  experienceLevel: 'entryLevel',
-  category: 'Helper',
-  team: 'Commercial',
-  yearsExperience: '0-2',
-  responsibilities: 'Assist electricians by organizing tools, materials, and equipment; pull wire, mount fixtures, and prepare conduit under supervision; use basic tools such as pliers, screwdrivers, and measuring tapes; ensure job site cleanliness and safety; load and unload supplies; support electricians with troubleshooting and testing circuits; learn basic wiring and installation techniques through hands-on experience.',
-  qualifications: 'Ability to follow directions and work in a team; familiarity with basic tools like pliers and drills; physical ability to lift materials and work on ladders; attention to detail and safety; reliable transportation and strong work ethic; willingness to learn electrical trade skills.',
-  prompt: 'Create a job description for an Electrician Helper focusing on supporting licensed electricians with wiring, mounting fixtures, and organizing tools. The role is entry-level and involves learning basic electrical techniques while assisting with physical tasks on job sites.'
-},
-'Industrial Electrician': {
-  minValue: 30,
-  maxValue: 40,
-  experienceLevel: 'midLevel',
-  category: 'Electrician',
-  team: 'Industrial',
-  yearsExperience: '3-5',
-  responsibilities: 'Install and repair electrical systems in industrial facilities, including control panels, motors, and conveyors; troubleshoot and maintain PLC systems using multimeters and oscilloscopes; run and terminate conduit (EMT, Rigid); interpret and work from blueprints, schematics, and wiring diagrams; ensure compliance with safety and electrical codes; perform preventive maintenance on high-voltage equipment; install and test variable frequency drives (VFDs) and motor control systems; document work performed and maintain service logs.',
-  qualifications: 'Proficiency with tools such as multimeters, conduit benders, and oscilloscopes; strong understanding of PLC systems and industrial automation; experience working with high-voltage equipment and motor controls; ability to read blueprints and schematics; solid troubleshooting skills; physical ability to work in industrial environments, including heights and confined spaces; team-oriented with good communication skills.',
-  prompt: 'Create a job description for an Industrial Electrician focusing on installing, troubleshooting, and maintaining electrical systems in industrial facilities. Must have experience with PLCs, motor controls, and conduit work, as well as a strong understanding of high-voltage systems and industrial automation.'
+"Rack and Stack Installer": {
+  "minValue": 17,
+  "maxValue": 20,
+  "experienceLevel": "entryLevel",
+  "category": "Data Center",
+  "team": "Commercial",
+  "yearsExperience": "1-3",
+  "responsibilities": "Assist in assembling and securing server racks in data center environments; follow blueprints and layout plans to position racks accurately; organize and manage tools and materials; install equipment into racks under supervision, including shelves and mounting brackets; ensure cable pathways are clear and accessible; perform basic quality checks to verify proper assembly; maintain cleanliness and safety on the job site.",
+  "qualifications": "Hands-on construction or mechanical assembly experience; familiarity with basic hand tools such as drills, wrenches, and levels; ability to lift and position heavy materials (up to 50 lbs); strong attention to detail and ability to follow instructions; good communication skills and teamwork mindset; reliable transportation and punctuality.",
+  "prompt": "Write a job description for a Rack and Stack Installer focusing on entry-level tasks in assembling server racks in data centers. The role emphasizes hands-on assembly work, safety, and teamwork, requiring construction or similar experience."
 }
-};
+
+  };
 
 const LOCATIONS = [ 
-  { "city": "Charlotte", "state": "NC", "zipCode": "28202" },
-  { "city": "Raleigh", "state": "NC", "zipCode": "27601" },
-  { "city": "Greensboro", "state": "NC", "zipCode": "27401" },
-  { "city": "Durham", "state": "NC", "zipCode": "27701" },
-  { "city": "Winston-Salem", "state": "NC", "zipCode": "27101" },
-  { "city": "Fayetteville", "state": "NC", "zipCode": "28301" },
-  { "city": "Cary", "state": "NC", "zipCode": "27511" },
-  { "city": "Wilmington", "state": "NC", "zipCode": "28401" },
-  { "city": "High Point", "state": "NC", "zipCode": "27260" },
-  { "city": "Concord", "state": "NC", "zipCode": "28025" },
-  { "city": "Asheville", "state": "NC", "zipCode": "28801" },
-  { "city": "Greenville", "state": "NC", "zipCode": "27834" },
-  { "city": "Jacksonville", "state": "NC", "zipCode": "28540" },
-  { "city": "Gastonia", "state": "NC", "zipCode": "28052" },
-  { "city": "Chapel Hill", "state": "NC", "zipCode": "27514" },
-  { "city": "Rocky Mount", "state": "NC", "zipCode": "27801" },
-  { "city": "Burlington", "state": "NC", "zipCode": "27215" },
-  { "city": "Wilson", "state": "NC", "zipCode": "27893" },
-  { "city": "Huntersville", "state": "NC", "zipCode": "28078" },
-  { "city": "Kannapolis", "state": "NC", "zipCode": "28081" },
-  { "city": "Apex", "state": "NC", "zipCode": "27502" },
-  { "city": "Hickory", "state": "NC", "zipCode": "28601" },
-  { "city": "Indian Trail", "state": "NC", "zipCode": "28079" },
-  { "city": "Mooresville", "state": "NC", "zipCode": "28115" },
-  { "city": "Wake Forest", "state": "NC", "zipCode": "27587" },
-  { "city": "Monroe", "state": "NC", "zipCode": "28110" },
-  { "city": "Salisbury", "state": "NC", "zipCode": "28144" },
-  { "city": "New Bern", "state": "NC", "zipCode": "28560" },
-  { "city": "Holly Springs", "state": "NC", "zipCode": "27540" },
-  { "city": "Goldsboro", "state": "NC", "zipCode": "27530" }
+
+  { "city": "Virginia Beach", "state": "VA", "zipCode": "23450" },
+  { "city": "Norfolk", "state": "VA", "zipCode": "23510" },
+  { "city": "Chesapeake", "state": "VA", "zipCode": "23320" },
+  { "city": "Richmond", "state": "VA", "zipCode": "23219" },
+  { "city": "Newport News", "state": "VA", "zipCode": "23607" },
+  { "city": "Alexandria", "state": "VA", "zipCode": "22314" },
+  { "city": "Hampton", "state": "VA", "zipCode": "23669" },
+  { "city": "Roanoke", "state": "VA", "zipCode": "24011" },
+  { "city": "Portsmouth", "state": "VA", "zipCode": "23704" },
+  { "city": "Suffolk", "state": "VA", "zipCode": "23434" },
+  { "city": "Lynchburg", "state": "VA", "zipCode": "24504" },
+  { "city": "Harrisonburg", "state": "VA", "zipCode": "22801" },
+  { "city": "Leesburg", "state": "VA", "zipCode": "20175" },
+  { "city": "Charlottesville", "state": "VA", "zipCode": "22902" },
+  { "city": "Danville", "state": "VA", "zipCode": "24541" },
+  { "city": "Blacksburg", "state": "VA", "zipCode": "24060" },
+  { "city": "Manassas", "state": "VA", "zipCode": "20110" },
+  { "city": "Petersburg", "state": "VA", "zipCode": "23803" },
+  { "city": "Winchester", "state": "VA", "zipCode": "22601" },
+  { "city": "Salem", "state": "VA", "zipCode": "24153" },
+  { "city": "Fredericksburg", "state": "VA", "zipCode": "22401" },
+  { "city": "Staunton", "state": "VA", "zipCode": "24401" },
+  { "city": "Waynesboro", "state": "VA", "zipCode": "22980" },
+  { "city": "Bristol", "state": "VA", "zipCode": "24201" },
+  { "city": "Colonial Heights", "state": "VA", "zipCode": "23834" },
+  { "city": "Radford", "state": "VA", "zipCode": "24141" },
+  { "city": "Hopewell", "state": "VA", "zipCode": "23860" },
+  { "city": "Falls Church", "state": "VA", "zipCode": "22046" },
+  { "city": "Fairfax", "state": "VA", "zipCode": "22030" },
+  { "city": "Vienna", "state": "VA", "zipCode": "22180" },
+  { "city": "Herndon", "state": "VA", "zipCode": "20170" },
+  { "city": "Reston", "state": "VA", "zipCode": "20190" },
+  { "city": "Sterling", "state": "VA", "zipCode": "20164" },
+  { "city": "Ashburn", "state": "VA", "zipCode": "20147" },
+  { "city": "Dulles", "state": "VA", "zipCode": "20166" },
+  { "city": "Chantilly", "state": "VA", "zipCode": "20151" },
+  { "city": "Centreville", "state": "VA", "zipCode": "20120" },
+  { "city": "Gainesville", "state": "VA", "zipCode": "20155" },
+  { "city": "Woodbridge", "state": "VA", "zipCode": "22191" },
+  { "city": "Dale City", "state": "VA", "zipCode": "22193" },
+  { "city": "Annandale", "state": "VA", "zipCode": "22003" },
+  { "city": "Springfield", "state": "VA", "zipCode": "22150" },
+  { "city": "Lorton", "state": "VA", "zipCode": "22079" },
+  { "city": "Midlothian", "state": "VA", "zipCode": "23112" },
+  { "city": "Mechanicsville", "state": "VA", "zipCode": "23111" },
+  { "city": "Chester", "state": "VA", "zipCode": "23831" },
+  { "city": "Tuckahoe", "state": "VA", "zipCode": "23229" },
+  { "city": "Bon Air", "state": "VA", "zipCode": "23235" },
+  { "city": "Short Pump", "state": "VA", "zipCode": "23233" }
 ];
 
 function generateStreetAddress() {
@@ -378,7 +398,8 @@ async function createJob(location, jobType, promptStyle) {
       'will@bestelectricianjobs.com',
       'Michael.Mckeaige@pes123.com',
       'Sarahann.Moody@pes123.com',
-      'PESdallas@pes123.com'
+      'Dylan.Gibson@pes123.com',
+      'Sheila.Villagomez@pes123.com'
     ]
   };
 
