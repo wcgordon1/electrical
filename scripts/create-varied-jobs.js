@@ -106,131 +106,113 @@ const PROMPT_STYLES = {
   'engaging': 'Create an engaging and energetic job description that excites potential candidates while highlighting growth opportunities.'
 };
 
-const PROMPT_TEMPLATES = [
-  `Create a job description that emphasizes the cutting-edge technology aspects of this role. Focus on how this position uses modern tools, software, and equipment. Highlight the technical challenges and innovative solutions. Include specific examples of new technologies being used in {city}, {state}.
+const PROMPTS = [
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Base content:
-{baseContent}
+Create a COMPREHENSIVE job description (800+ words) for an experienced {jobTitle}. Write this as if you are a Senior {jobTitle} with 20 years of experience creating a job post for {company} in {city}, {state}.
 
-Start with a paragraph about working in {city}, {state} at {company}. Include neighboring cities where work may be performed. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+## About Our {jobTitle} Team
+Start with a detailed paragraph about working as a {jobTitle} at {company}, our reputation in {city}, and the types of projects our {jobTitle}s handle. Mention surrounding cities we work in.
 
-After the intro paragraph, use these sections with h2 tags:
+## The {jobTitle} Position
+Write a thorough overview of being a {jobTitle} on our team, focusing on:
+- Day-to-day responsibilities of a {jobTitle}
+- Types of projects and environments you'll work in
+- Team structure and supervision
+- Growth potential within {company}
 
-## Key Responsibilities
+## Core {jobTitle} Responsibilities
 {responsibilities}
-- Add 3-4 technology-focused responsibilities
-- Include regional tech requirements for {state}
-- Mention upcoming tech projects in {city}
+- Add 3-4 advanced technical duties specific to a {jobTitle}
+- Include regional project specifics
+- Detail safety protocols
 
-## Required Qualifications
+## Required Experience & Skills
 {qualifications}
-- {experience} years of experience required
-- Add 2-3 tech-specific qualifications
+- {experience} years minimum experience as a {jobTitle}
+- List essential certifications
+- Detail required technical knowledge
 
-## Compensation & Benefits
+## Tools & Equipment
+- List specific tools used daily by our {jobTitle}s
+- Detail required personal tools
+- Explain company-provided equipment
+
+## Physical Requirements
+- Detail lifting requirements for a {jobTitle}
+- Explain working conditions
+- List safety gear needed
+
+## Training & Development
+- Describe {jobTitle} mentorship program
+- List available certifications
+- Detail career advancement path
+
+## Compensation Package
 {benefits}
+- Explain overtime policies
+- Detail tool allowances
+- List additional perks`,
 
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-  `Write a job description that focuses on career growth and development. Emphasize training opportunities, mentorship programs, and advancement paths. Highlight how this role can lead to future career opportunities.
+Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a {jobTitle}. Write it like a foreman explaining the {jobTitle} position to a potential hire at {company} in {city}, {state}.
 
-Base content:
-{baseContent}
+## What You'll Do as a {jobTitle}
+Quick overview of the {jobTitle} role and our current projects in {city}. Keep it real and straightforward about what a {jobTitle} does day-to-day.
 
-Begin with a paragraph about career opportunities in {city}, {state} at {company}. Name surrounding cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
-
-Then use these sections with h2 tags:
-
-## Key Responsibilities
+## Your Daily Tasks as a {jobTitle}
 {responsibilities}
-- Add 3-4 skill development opportunities
-- Include learning opportunities in {state}
-- Mention training programs in {city}
+- Add 2-3 common daily {jobTitle} activities
+- Focus on practical work examples
 
-## Required Qualifications
+## What You Need to Be a {jobTitle}
 {qualifications}
-- {experience} years of experience required
-- Add 2-3 growth-oriented qualifications
+- {experience} years in the field as a {jobTitle}
+- List must-have skills
+- Focus on hands-on abilities
 
-## Compensation & Benefits
+## The Good Stuff
 {benefits}
+- Highlight key benefits for {jobTitle}s
+- Mention training opportunities`,
 
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-  `Create a job description that emphasizes work-life balance and company culture. Focus on team environment, flexible scheduling, and workplace benefits. Highlight what makes working here unique.
+Create a QUICK job description (200-300 words). Write it like a busy project manager needs this {jobTitle} position filled ASAP at {company} in {city}, {state}.
 
-Base content:
-{baseContent}
+## {jobTitle} Position Overview
+One paragraph about what we need in a {jobTitle} and what you'll do.
 
-Start with a paragraph about the work environment in {city}, {state} at {company}. Include nearby cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
+## Must Haves for {jobTitle}
+- {experience} years experience as a {jobTitle}
+{qualifications}
+- List top 3 requirements
 
-Follow with these sections using h2 tags:
-
-## Key Responsibilities
+## Key {jobTitle} Duties
 {responsibilities}
-- Add 3-4 team-oriented responsibilities
-- Include work-life balance aspects
-- Mention company culture elements
+- Focus on main tasks only
 
-## Required Qualifications
+## What We Offer Our {jobTitle}s
+{benefits}`,
+
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+
+Create a BRIEF job description (200 words max) that's perfect for job boards. Seeking a {jobTitle} at {company} in {city}, {state}.
+
+## Quick Facts
+- Position: {jobTitle}
+- Experience: {experience} years as a {jobTitle}
+- Location: {city}, {state}
+
+## Core {jobTitle} Skills
 {qualifications}
-- {experience} years of experience required
-- Add 2-3 team-focused qualifications
 
-## Compensation & Benefits
-{benefits}
-
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
-
-  `Develop a job description that focuses on the impact and importance of this role. Emphasize how this position contributes to critical infrastructure and community development. Highlight the meaningful aspects of the work.
-
-Base content:
-{baseContent}
-
-Begin with a paragraph about the impact of this role in {city}, {state} at {company}. Name surrounding cities. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
-
-Then use these sections with h2 tags:
-
-## Key Responsibilities
+## Main {jobTitle} Duties
 {responsibilities}
-- Add 3-4 impact-focused responsibilities
-- Include community benefits in {state}
-- Mention significant projects in {city}
 
-## Required Qualifications
-{qualifications}
-- {experience} years of experience required
-- Add 2-3 impact-related qualifications
-
-## Compensation & Benefits
-{benefits}
-
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`,
-
-  `Write a job description that emphasizes hands-on experience and practical skills. Focus on the day-to-day activities and real-world applications. Highlight the variety of work and practical challenges.
-
-Base content:
-{baseContent}
-
-Start with a paragraph about the practical work in {city}, {state} at {company}. Include nearby work locations. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
-
-Follow with these sections with h2 tags:
-
-## Key Responsibilities
-{responsibilities}
-- Add 3-4 hands-on responsibilities
-- Include practical requirements for {state}
-- Mention typical projects in {city}
-
-## Required Qualifications
-{qualifications}
-- {experience} years of experience required
-- Add 2-3 practical skill qualifications
-
-## Compensation & Benefits
-{benefits}
-
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`
+## Benefits for Our {jobTitle}s
+{benefits}`
 ];
 
 const DESCRIPTION_LENGTHS = {
@@ -342,47 +324,15 @@ async function createJob(location, jobType, company) {
   
   const { minValue, maxValue } = generateSalaryWithCents(jobInfo.minValue, jobInfo.maxValue);
 
-  // Create a job-specific prompt that incorporates the job type's unique aspects
-  const jobSpecificPrompt = `Create a detailed job description for a ${jobType} position that aligns with the following responsibilities and qualifications. The description should focus specifically on ${jobType} duties and requirements.
-
-Base content:
-${jobInfo.prompt}
-
-Key focus areas for ${jobType}:
-- ${jobInfo.responsibilities.split(',')[0]}
-- ${jobInfo.qualifications.split(',')[0]}
-- Experience level: ${jobInfo.experienceLevel}
-- Category: ${jobInfo.category}
-- Team: ${jobInfo.team}
-
-Start with a paragraph about working as a ${jobType} in {city}, {state} at {company}. Include neighboring cities where work may be performed. Do not use h1 tags - only use h2 and h3 for headings. Use ** for bold text, not backticks.
-
-After the intro paragraph, use these sections with h2 tags:
-
-## Key Responsibilities
-{responsibilities}
-- Add 3-4 ${jobType.toLowerCase()}-specific responsibilities
-- Include regional requirements for {state}
-- Mention upcoming ${jobType.toLowerCase()} projects in {city}
-
-## Required Qualifications
-{qualifications}
-- {experience} years of experience required
-- Add 2-3 ${jobType.toLowerCase()}-specific qualifications
-
-## Compensation & Benefits
-{benefits}
-
-Format in markdown using only h2 and h3 headings (## and ###). Use ** for bold text. Do not include backticks or formatting instructions in the output.`;
-
-  const selectedPrompt = jobSpecificPrompt
-    .replace('{baseContent}', jobInfo.prompt)
+  // Select a random prompt
+  const selectedPrompt = PROMPTS[Math.floor(Math.random() * PROMPTS.length)]
+    .replace('{jobTitle}', jobType)
+    .replace('{company}', company.name)
+    .replace('{city}', location.city)
+    .replace('{state}', location.state)
     .replace('{responsibilities}', jobInfo.responsibilities)
     .replace('{qualifications}', jobInfo.qualifications)
     .replace('{experience}', jobInfo.yearsExperience)
-    .replace('{city}', location.city)
-    .replace('{state}', location.state)
-    .replace('{company}', company.name)
     .replace('{benefits}', `- Competitive salary range: $${minValue}-$${maxValue} per hour depending on experience
 - Comprehensive medical, dental, and vision coverage
 - Paid time off and holidays

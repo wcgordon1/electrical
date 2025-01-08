@@ -19,213 +19,203 @@ const openai = new OpenAI({
 });
 
 const PROMPTS = [
-  `Create a DETAILED job description (around 800 words) focusing on TECHNICAL EXPERTISE and SAFETY.
-Use these details as reference material but create your own expanded description using only h2 and h3 tags for headings:
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Role Overview:
-{prompt}
+Create a DETAILED job description (800+ words) for an experienced {jobTitle}. Write this as if you are a Senior {jobTitle} explaining the role to potential candidates at {company} in {city}, {state}.
 
-Write a detailed overview of this electrical trade position in {city}, {state} at {company}. Focus on technical expertise, safety protocols, and hands-on experience with electrical systems.
+## About Our {jobTitle} Team
+Start with a detailed paragraph about what it's like being a {jobTitle} at {company}, including our reputation in {city} and surrounding areas.
 
-## About The Role
-[Start with a detailed overview of the electrical work environment and key responsibilities]
+## The {jobTitle} Role
+Explain what makes a successful {jobTitle} at our company:
+- Day-to-day work environment
+- Types of projects you'll handle as a {jobTitle}
+- Team dynamics and leadership opportunities
+- Career growth path for {jobTitle}s
 
-## Technical Skills & Certifications
-Reference but expand beyond these qualifications with specific electrical/technical details:
-{qualifications}
-- Add specific electrical code knowledge requirements
-- Detail required certifications and licenses
-- List specific tools and equipment expertise
-
-## Project Responsibilities
-Reference but expand beyond these with specific electrical project examples:
+## Essential {jobTitle} Duties
 {responsibilities}
-- Detail typical electrical installation procedures
-- Explain troubleshooting processes
-- Describe safety protocols and compliance requirements
+- Add 3-4 key {jobTitle} responsibilities
+- Include local project examples
+- Detail safety requirements
 
-## Career Development
-- {experience} years of hands-on electrical experience required
-- Explain apprentice to journeyman progression
-- Detail available certifications and specialized training
-- Describe mentorship opportunities with master electricians
+## Required {jobTitle} Experience
+{qualifications}
+- {experience} years as a {jobTitle}
+- List critical technical skills
+- Detail required certifications
 
-## Compensation & Benefits
+## What We Offer Our {jobTitle}s
 {benefits}
-- Detail tool allowances and PPE provided
-- Explain overtime and on-call compensation
-- List continuing education benefits`,
+- Explain advancement opportunities
+- Detail training programs
+- List {jobTitle}-specific perks`,
 
-  `Create a MEDIUM-LENGTH job description (around 400 words) focusing on JOBSITE EXPERIENCE.
-Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Role Overview:
-{prompt}
+Create a PRACTICAL job description (400-500 words) for a {jobTitle}. Write it like you're a foreman explaining the position to someone interested in joining {company} in {city}, {state}.
 
-Write a practical overview of working on electrical projects in {city}, {state} at {company}. Focus on daily jobsite activities and team coordination.
+## Life as a {jobTitle}
+Quick overview of what it's really like being a {jobTitle} here. Keep it straightforward.
 
-## The Work Environment
-[Describe typical jobsites and working conditions]
-
-## Essential Trade Skills
-Select relevant hands-on skills from these qualifications:
-{qualifications}
-- Focus on practical field experience
-- Highlight safety awareness
-
-## Daily Operations
-Choose key field activities from these responsibilities:
+## Your Daily Work as a {jobTitle}
 {responsibilities}
-- Describe typical day on the jobsite
-- Explain crew coordination
+- Add 2-3 typical {jobTitle} tasks
+- Focus on hands-on work
 
-## Requirements & Experience
-- {experience} years of field experience
-- Highlight physical demands and safety requirements
+## What Makes a Great {jobTitle}
+{qualifications}
+- {experience} years in the field
+- List essential skills
+- Highlight key traits
 
-## Benefits & Equipment
+## Why Join Our {jobTitle} Team
 {benefits}
-- Detail work gear provided
-- List field training opportunities`,
+- Focus on growth opportunities
+- Highlight work-life balance`,
 
-  `Create a BRIEF job description (around 200 words) emphasizing CORE REQUIREMENTS.
-Use these as reference but create a concise description using only h2 and h3 tags for headings:
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Role Overview:
-{prompt}
+Create a DIRECT job description (200-300 words) for a {jobTitle}. Write it like a project manager who needs to fill this position at {company} in {city}, {state} quickly.
 
-Write a direct summary of this electrical trade position in {city}, {state} at {company}.
+## {jobTitle} Overview
+One strong paragraph about what we need in a {jobTitle}.
 
-## Key Requirements
-Select the most critical qualifications:
+## Requirements for {jobTitle}
+- {experience} years as a {jobTitle}
+{qualifications}
+- List must-have skills
+
+## Key {jobTitle} Tasks
+{responsibilities}
+- Focus on essential duties
+
+## Benefits for {jobTitle}s
+{benefits}`,
+
+  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+
+Create a CONCISE job description (200 words) for a {jobTitle} position at {company} in {city}, {state}.
+
+## Quick Facts
+- Role: {jobTitle}
+- Experience: {experience} years as a {jobTitle}
+- Location: {city}, {state}
+
+## Core {jobTitle} Skills
 {qualifications}
 
-## Essential Duties
-Focus on primary responsibilities:
+## Essential {jobTitle} Duties
 {responsibilities}
 
-## Experience Needed
-- {experience} years of electrical experience
-- List required licenses
-
-## Core Benefits
+## What We Offer
 {benefits}`
 ];
 
 const JOB_TYPES = {
-  'Electrician': {
-    minValue: 28,
-    maxValue: 36,
-    experienceLevel: 'midLevel',
-    category: 'Journeyman',
-    team: 'Commercial',
-    yearsExperience: '3-5',
-    responsibilities: 'Install and maintain electrical systems in commercial buildings, troubleshoot and repair power distribution systems, ensure compliance with safety codes, implement lighting control systems, plan and execute electrical upgrades, manage materials and tools for projects, coordinate with other construction teams, inspect and test installations for quality assurance, document work progress and maintenance records, mentor apprentices and junior electricians, provide on-site technical expertise, support emergency power system installations, integrate energy-efficient solutions into designs',
-    qualifications: 'Relevant electrical certification or licensure preferred, strong understanding of commercial electrical systems, ability to read and interpret blueprints and technical diagrams, hands-on experience with power tools and diagnostic equipment, solid troubleshooting and problem-solving skills, knowledge of safety protocols and building codes, ability to work both independently and as part of a team, good communication and organizational skills, physically capable of handling electrical tools and equipment',
-    prompt: 'Create a job description for a Commercial Electrician focusing on electrical installations and maintenance in commercial buildings. Must understand power distribution systems, lighting controls, and troubleshooting. Experience with electrical upgrades, energy-efficient designs, and safety compliance required. Position involves planning and executing installations, ensuring quality assurance, and mentoring apprentices. Role includes maintaining documentation and coordinating with construction teams. Must have knowledge of safety codes and relevant certifications or licensure. Physical requirements include working at heights, using power tools, and handling materials.'
-},
-'Security Technician': {
-    minValue: 20,
-    maxValue: 28,
-    experienceLevel: 'entryLevel',
-    category: 'Security',
-    team: 'Commercial',
-    yearsExperience: '1-3',
-    responsibilities: 'Install and configure security systems including cameras and access control, perform routine system maintenance and updates, troubleshoot and resolve technical issues, conduct site assessments for optimal equipment placement, manage system documentation and warranties, ensure compliance with security protocols, assist with network integration of security devices, provide training to end-users, coordinate with vendors for repairs or upgrades, participate in testing and commissioning of new systems, adhere to safety and installation standards, maintain inventory of equipment and materials',
-    qualifications: 'Basic understanding of security systems and networks, ability to read and follow technical manuals, proficiency with basic hand and power tools, strong problem-solving skills, effective communication and teamwork abilities, attention to detail and organizational skills, willingness to learn and stay updated on emerging security technologies, physical ability to handle and install equipment',
-    prompt: 'Create a job description for a Security Technician focusing on installing and maintaining security systems. Entry-level position involving hands-on installation, troubleshooting, and configuration of security devices. Must have basic understanding of security technologies and network integration. Experience with technical documentation and testing preferred but not required. Position involves ensuring compliance with safety standards, maintaining equipment inventory, and providing user training. Must be comfortable working with tools and in a variety of environments. Role offers growth opportunities and exposure to advanced security technologies.'
-},
-'Cable Installer': {
-    minValue: 18,
-    maxValue: 25,
-    experienceLevel: 'entryLevel',
-    category: 'Voice Data',
-    team: 'Commercial',
-    yearsExperience: '1-5',
-    responsibilities: 'Install and route cabling for data, voice, and video systems, terminate and test cables for proper functionality, assist in setting up network and communication systems, follow project blueprints and technical diagrams, maintain inventory of cables and tools, collaborate with other team members and trades on site, ensure installations meet safety and quality standards, document work performed and test results, troubleshoot and resolve basic connectivity issues, support system upgrades and expansions as needed, assist in training new team members on installation techniques, adhere to company and project protocols',
-    qualifications: 'High school diploma or equivalent, familiarity with cable installation techniques, ability to use hand and power tools, basic understanding of networking concepts, strong organizational and time-management skills, attention to detail, effective communication skills, physical ability to lift and handle cabling equipment, willingness to learn and grow in the field, reliable transportation and punctuality',
-    prompt: 'Create a job description for a Cable Installer focusing on data, voice, and video system installations. Entry-level position involving hands-on cabling, testing, and troubleshooting. Must be familiar with installation techniques and networking concepts. Experience with tools and basic cable termination preferred but not required. Position involves following blueprints, documenting work, and collaborating with team members. Physical requirements include lifting and handling cables and equipment. Role offers training opportunities and exposure to advanced communication technologies.'
-},
-'Commercial Apprentice': {
+  "Electrician": {
+    minValue: 29,
+    maxValue: 38,
+    experienceLevel: "midLevel",
+    category: "Journeyman",
+    team: "Commercial",
+    yearsExperience: "3-5",
+    responsibilities: "Install and maintain commercial electrical systems, bend and install EMT and rigid conduit, troubleshoot electrical circuits using multimeters, wire and test lighting controls, replace and upgrade switchgear, install transformers, and oversee apprentices on job sites.",
+    qualifications: "Proficiency with conduit benders and power tools, in-depth knowledge of NEC codes, ability to work on lifts and scaffolding, strong troubleshooting skills, experience with lighting control systems, and leadership capabilities to mentor apprentices.",
+    prompt: "Create a job description for a Commercial Electrician focusing on installations and maintenance in commercial settings."
+  },
+  "Electrical Trainee": {
     minValue: 18,
     maxValue: 22,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Commercial',
-    yearsExperience: '0-3',
-    responsibilities: 'Assist in electrical installations and upgrades, learn wiring methods and safety protocols, support team with material handling and logistics, observe and practice blueprint reading, help install conduit, panels, and devices, perform routine equipment checks under supervision, maintain a clean and safe worksite, document daily tasks and lessons learned, attend required training and apprenticeship classes, collaborate with team members and supervisors, develop skills in troubleshooting and problem resolution, participate in team meetings and safety briefings, provide support for system testing and commissioning',
-    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts, willingness to learn and follow instructions, good communication and teamwork skills, physical ability to handle tools and materials, attention to detail and safety awareness, reliable transportation and punctuality',
-    prompt: 'Create a job description for a Commercial Electrical Apprentice focusing on learning and supporting electrical installations. Entry-level position involving training and hands-on work under licensed electricians. Must have basic understanding of electrical systems and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, conduit installation, and equipment setup. Role offers growth opportunities and exposure to commercial electrical projects. Must be physically capable of working in various environments and attending required classes for skill development.'
-},
-'Residential Electrician': {
+    experienceLevel: "entryLevel",
+    category: "Apprentice",
+    team: "Construction",
+    yearsExperience: "0-3",
+    responsibilities: "Support licensed electricians with wiring installations, assist in cutting and threading conduit, prepare materials for job sites, help with panel wiring and mounting, perform routine safety checks on tools and equipment, clean and organize work areas, and learn to read electrical schematics under supervision.",
+    qualifications: "Basic familiarity with hand tools like wire strippers and voltage testers, strong willingness to learn on the job, ability to follow safety protocols, excellent teamwork and communication skills, and physical ability to lift up to 50 lbs and work in confined spaces.",
+    prompt: "Create a job description for an Electrical Trainee focusing on supporting licensed electricians and learning the trade through hands-on experience."
+  },
+  "Apprentice Electrician": {
     minValue: 18,
     maxValue: 27,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Residential',
-    yearsExperience: '0-3',
-    responsibilities: 'Assist in the installation of residential electrical systems, learn wiring techniques and safety protocols, support team with material handling and job site preparation, observe and practice interpreting electrical blueprints, assist in installing outlets, switches, lighting fixtures, and circuit breakers, maintain a clean and organized workspace, perform basic troubleshooting under supervision, document daily tasks and learning progress, attend required apprenticeship classes and training sessions, follow safety guidelines and regulations, participate in site inspections and testing procedures, coordinate with team members and supervisors on project tasks',
-    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts, willingness to learn and follow instructions, good communication and teamwork skills, physical ability to lift tools and materials, attention to detail and safety awareness, reliable transportation and punctuality, strong interest in residential electrical systems',
-    prompt: 'Create a job description for a Residential Electrician Apprentice focusing on learning and supporting residential electrical installations. Entry-level position involving hands-on training under licensed electricians. Must have a basic understanding of electrical systems and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, installing fixtures, and troubleshooting residential electrical systems. Role offers growth opportunities and exposure to residential projects. Must be physically capable of working in various environments and attending required training.'
+    experienceLevel: "entryLevel",
+    category: "Assistant",
+    team: "Residential",
+    yearsExperience: "0-2",
+    responsibilities: "Assist with residential electrical installations, run and secure cables through walls and ceilings, prepare job site materials and tools, install basic fixtures like outlets and switches, provide support for troubleshooting and repairs, and maintain safety compliance on work sites.",
+    qualifications: "Basic knowledge of residential wiring and circuits, ability to handle tools such as pliers and drills, strong attention to detail, good organizational skills, and reliable transportation to job sites.",
+    prompt: "Create a job description for an Electrical Helper focusing on assisting with residential wiring and installations in homes."
+  },
+  "Security Tech": {
+    minValue: 27,
+    maxValue: 32,
+    experienceLevel: "entryLevel",
+    category: "Security",
+    team: "Commercial",
+    yearsExperience: "1-3",
+    responsibilities: "Install and configure IP cameras and access control systems, terminate low voltage cabling, program basic access devices, test system connectivity, troubleshoot security equipment, maintain installation logs, and liaise with clients for system demonstrations.",
+    qualifications: "Experience installing security systems, familiarity with cable termination tools, understanding of basic networking protocols, proficiency with IP camera systems, strong attention to detail, and effective customer service skills.",
+    prompt: "Create a job description for a Security Technician focusing on system installations and maintenance."
+  },
+  "Cable Tech": {
+    minValue: 23,
+    maxValue: 30,
+    experienceLevel: "seniorLevel",
+    category: "Voice Data",
+    team: "Commercial",
+    yearsExperience: "3-5",
+    responsibilities: "Install structured cabling systems including Cat5e, Cat6, and fiber optics, terminate and test fiber connections using Fluke equipment, install and dress network racks, set up cable tray systems, document as-built plans, and lead small project teams.",
+    qualifications: "Extensive experience with structured cabling, proficiency in terminating fiber and copper, knowledge of TIA/EIA cabling standards, ability to read network blueprints, and organizational skills for managing tools and inventory.",
+    prompt: "Create a job description for a Cable Tech focusing on structured cabling and fiber optic installations."
+  },
+  "Data Center Tech": {
+    minValue: 24,
+    maxValue: 32,
+    experienceLevel: "seniorLevel",
+    category: "Data Center",
+    team: "Commercial",
+    yearsExperience: "3-5",
+    responsibilities: "Install and maintain server racks, route and secure high-density cabling, set up PDUs, perform cable testing using Fluke tools, document network layouts and connections, and adhere to strict data center cleanliness standards.",
+    qualifications: "Experience in data center environments, knowledge of power and cooling systems, proficiency with cable testers, understanding of network configurations, and ability to follow precise documentation protocols.",
+    prompt: "Create a job description for a Data Center Technician focusing on infrastructure and cabling installations."
+  },
+  "Electrician Helper": {
+    minValue: 15,
+    maxValue: 18,
+    experienceLevel: "entryLevel",
+    category: "Helper",
+    team: "Commercial",
+    yearsExperience: "0-2",
+    responsibilities: "Assist with pulling wires through conduit, mount electrical boxes and fixtures, prepare and organize materials, maintain a clean job site, support tool maintenance, and help licensed electricians with on-site tasks.",
+    qualifications: "Basic understanding of hand tools such as pliers and screwdrivers, ability to follow instructions, strong physical stamina, reliable work habits, and safety awareness for handling materials and equipment.",
+    prompt: "Create a job description for an Electrician Helper focusing on assisting with installations and site work."
+  },
+  "Fire Alarm Installer": {
+    minValue: 18,
+    maxValue: 25,
+    experienceLevel: "entryLevel",
+    category: "Fire Systems",
+    team: "Commercial",
+    yearsExperience: "0-2",
+    responsibilities: "Assist with the installation of fire alarm systems, pull and terminate low-voltage wiring, mount devices such as smoke detectors and pull stations, follow layout diagrams to route cables, ensure proper labeling of wires, perform basic testing of installed components, and maintain a clean job site.",
+    qualifications: "Basic knowledge of hand tools like drills and cable strippers, familiarity with low-voltage wiring, strong attention to detail, ability to follow instructions and safety guidelines, and physical ability to lift up to 50 lbs and work on ladders.",
+    prompt: "Create a job description for a Fire Alarm Installer focusing on assisting with the installation of low-voltage fire alarm systems in commercial buildings."
+},
+"Fire Alarm Technician": {
+    minValue: 25,
+    maxValue: 35,
+    experienceLevel: "midLevel",
+    category: "Fire Systems",
+    team: "Commercial",
+    yearsExperience: "3-5",
+    responsibilities: "Install, maintain, and troubleshoot fire alarm systems, program fire alarm control panels, test system functionality to ensure compliance with local codes, inspect and repair devices such as smoke detectors and strobes, prepare detailed service reports, coordinate with building managers to schedule testing, and train end-users on system operation.",
+    qualifications: "Experience with fire alarm systems and control panels, understanding of local fire codes and regulations, ability to troubleshoot and resolve system issues, familiarity with programming fire panels preferred, excellent communication skills, and attention to detail in documentation.",
+    prompt: "Create a job description for a Fire Alarm Technician focusing on installation, maintenance, and programming of fire alarm systems for commercial properties."
 },
 
-'Industrial Electrician': {
-    minValue: 22,
-    maxValue: 31,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Industrial',
-    yearsExperience: '0-3',
-    responsibilities: 'Assist in the installation and maintenance of industrial electrical systems, learn to work with high-voltage equipment and machinery, support team with material preparation and organization, help install and troubleshoot motor controls, PLCs, and automation systems, observe and practice interpreting technical diagrams and schematics, assist with conduit bending, wiring, and panel assembly, maintain a clean and safe job site, document learning progress and daily tasks, attend required training and apprenticeship classes, follow safety guidelines and protocols, participate in system testing and inspections, collaborate with team members and supervisors on project tasks',
-    qualifications: 'High school diploma or equivalent, enrollment in an apprenticeship program preferred, basic understanding of electrical concepts and safety protocols, willingness to learn and follow instructions, strong interest in industrial electrical systems, good communication and teamwork skills, physical ability to handle tools and materials, attention to detail and problem-solving mindset, reliable transportation and punctuality',
-    prompt: 'Create a job description for an Industrial Electrician Apprentice focusing on learning and supporting the installation and maintenance of industrial electrical systems. Entry-level position involving hands-on training under licensed electricians. Must have a basic understanding of high-voltage equipment and safety protocols. Enrollment in an apprenticeship program preferred. Position includes assisting with wiring, troubleshooting motor controls, and working with PLCs and automation systems. Role offers growth opportunities and exposure to industrial projects. Must be physically capable of working in various environments and attending required training.'
-},
-'Electrician Helper': {
-    minValue: 15,
-    maxValue: 20,
-    experienceLevel: 'entryLevel',
-    category: 'Apprentice',
-    team: 'Commercial',
-    yearsExperience: '0-2',
-    responsibilities: 'Assist electricians with installations and repairs, handle materials and tools on job sites, follow instructions to complete basic electrical tasks, prepare and clean work areas, support cable pulling and conduit installation, learn to read and interpret blueprints under supervision, maintain safety and organization of tools and equipment, document work activities as directed, assist in troubleshooting and resolving minor issues, ensure adherence to safety standards and protocols, participate in team meetings and safety briefings, provide support for testing and system commissioning, demonstrate a willingness to learn and grow in the trade',
-    qualifications: 'High school diploma or equivalent preferred, basic understanding of electrical concepts, ability to use hand tools and follow instructions, strong work ethic and eagerness to learn, good communication and teamwork skills, attention to detail and safety awareness, physical ability to lift and carry tools and materials, reliable transportation and punctuality',
-    prompt: 'Create a job description for an Electrician Helper focusing on supporting electricians with installations, repairs, and general tasks. Entry-level position involving hands-on work with tools and materials under supervision. Must have a basic understanding of electrical concepts and a strong work ethic. Position includes preparing work areas, assisting with conduit installation, and documenting tasks. Role offers opportunities for learning and advancement in the electrical trade. Must be physically capable of working in various environments and committed to safety standards.'
-},
-'Fiber Optic Technician': {
-    minValue: 26,
-    maxValue: 35,
-    experienceLevel: 'midLevel',
-    category: 'Fiber',
-    team: 'Commercial',
-    yearsExperience: '2-5',
-    responsibilities: 'Design and implement fiber optic networks, perform fusion splicing operations, test and certify fiber installations, maintain splice documentation, install fiber distribution systems, configure DWDM systems, perform OTDR testing, implement fiber management systems, coordinate pathway installations, maintain clean work environment, perform emergency restoration, train junior technicians',
-    qualifications: 'FOA certification required, extensive experience with fusion splicing, proven expertise in OTDR testing, demonstrated ability with fiber management systems, advanced knowledge of fiber types, certification in multiple splice platforms, strong troubleshooting skills, experience with documentation systems, proven emergency response experience',
-    prompt: 'Create a job description for a Fiber Optic Network Specialist specializing in enterprise fiber systems. Must understand complete fiber infrastructure including single-mode, multi-mode, and DWDM systems. Experience with fusion splicing, OTDR testing, and emergency restoration required. Must have FOA certification, OSHA-10, and splice platform certifications. Knowledge of fiber types, testing procedures, and documentation essential. Position involves designing and implementing fiber networks, performing precision splicing, and maintaining detailed records. Must understand loss budgets, fiber management, and testing protocols. Role includes emergency response, system certification, and mentoring junior technicians. Some projects require after-hours emergency response. Physical requirements include performing precise hand work, climbing ladders, and working in confined spaces.'
-},
-'Data Center Cable Tech': {
-   minValue: 22,
-   maxValue: 30,
-   experienceLevel: 'entryLevel',
-   category: 'Voice Data',
-   team: 'Commercial',
-   yearsExperience: '1-3',
-   responsibilities: 'Install and dress Category 6/6A cabling systems, terminate copper and fiber connections, maintain proper cable management in server racks, install overhead cable tray and ladder rack, perform cable testing and certification, document test results and warranties, maintain clean room protocols, organize patch panel layouts, implement proper cable routing and separation, assist with fiber trunk installation, maintain detailed labeling systems',
-   qualifications: 'BICSI Installer 1 preferred, experience with structured cabling systems, proficiency in cable termination techniques, knowledge of testing procedures, understanding of cable management best practices, ability to read network drawings, experience with labeling systems, attention to detail, basic understanding of network hardware',
-   prompt: 'Create a job description for a Data Center Cable Technician focusing on structured cabling installation. Must understand cable management, termination standards, and testing procedures. Experience with Cat 6/6A installation, rack management, and documentation required. BICSI certification preferred but not required. Knowledge of cable testing, proper dressing techniques, and labeling standards essential. Position involves installing and certifying copper/fiber cabling in data center environments. Must understand proper routing, separation requirements, and rack management. Role includes maintaining test documentation, as-built records, and warranty information. Some projects require off-hours maintenance windows. Physical requirements include ladder work, extended periods of cable termination, and working in active data centers. Must follow clean room protocols and maintain organized work areas. Position offers exposure to enterprise data center environments and advancement opportunities. Weekend work possible during maintenance windows. Clean background check required.'
-},
 };
 
 const COMPANIES = {
-  'Premier Electric': {
-    name: 'Premier Electric',
-    sameAs: 'https://www.premierelectricalstaffing.com/',
-    logo: 'https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
-  },
-  'Swan Electrical Systems': {
-    name: 'Swan Electrical Systems',
-    sameAs: 'https://www.swanquality.com/',
-    logo: 'https://images.squarespace-cdn.com/content/v1/54fbb084e4b0a61cf90b2a6b/1511915437509-KMEEKDHKFLZ8J2AD7Y8M/SWAN_logo_horz_black.jpg?format=1500w'
-  },
   'Helix Electric': {
     name: 'Helix Electric',
     sameAs: 'https://www.helixelectric.com/',
@@ -241,11 +231,6 @@ const COMPANIES = {
     sameAs: 'https://www.mmrgrp.com/',
     logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
   },
-  'Vision Technologies': {
-    name: 'Vision Technologies',
-    sameAs: 'https://www.visiontechnologies.com/',
-    logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
-  },
   'Rogers Electric': {
     name: 'Rogers Electric',
     sameAs: 'https://www.rogerselectric.com/',
@@ -256,80 +241,173 @@ const COMPANIES = {
     sameAs: 'https://staleytechnologies.com/',
     logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
   },
-  'TR Group': {
-    name: 'TR Group',
-    sameAs: 'https://www.trgroup.com/',
-    logo: 'https://www.trgroup.com/wp-content/uploads/2022/04/TR-Group-Logo.png'
-  },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
-  },
   'Reliable Electric': {
     name: 'Reliable Electric',
     sameAs: 'https://reliable-contractors.com/',
     logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
-  },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
   },
   'T&D Communications': {
     name: 'T&D Communications',
     sameAs: 'https://www.tanddcomm.com/',
     logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
   },
+  'Howell Electric': {
+    name: 'Howell Electric',
+    sameAs: 'https://www.howellelectric.com/',
+    logo: 'https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png'
+  },
+  'Rex Moore Electric': {
+    name: 'Rex Moore Electric',
+    sameAs: 'https://www.rexmoore.com/',
+    logo: 'https://www.rexmoore.com/wp-content/uploads/2022/03/100-years.png'
+  },
+  'Helix Electric': {
+    name: 'Helix Electric',
+    sameAs: 'https://www.helixelectric.com/',
+    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
+  },
+  'IES Electric': {
+    name: 'IES Electric',
+    sameAs: 'https://iesci.net/',
+    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
+  },
+  'LEI Electrical': {
+    name: 'LEI Electrical',
+    sameAs: 'https://leielectricalcontractors.com/',
+    logo: 'https://leielectricalcontractors.com/wp-content/uploads/2023/06/IMG_2720-e1686941081414-1024x614-1.png'
+  },
+  'AVI SPL': {
+    name: 'AVI SPL',
+    sameAs: 'https://avispl.com/',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyraGCdDcBhUVCLjb9MI2McsVysMD7wjYlIQ&s'
+  },
+  'T&D Communications': {
+    name: 'T&D Communications',
+    sameAs: 'https://www.tanddcomm.com/',
+    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
+  },
+  '3D Communications': {
+    name: '3D Communications',
+    sameAs: 'https://www.3dtsi.com/',
+    logo: 'https://threedtsistage.wpenginepowered.com/wp-content/uploads/2021/01/logo-default.png'
+  },
+  'WiLine': {
+    name: 'WiLine',
+    sameAs: 'https://www.wiline.com/',
+    logo: 'https://www.wiline.com/img/logo_blue.png'
+  },
 };
 
-const LOCATIONS = [
-    { city: 'Tempe', state: 'AZ', zipCode: '85281' },
-    { city: 'Scottsdale', state: 'AZ', zipCode: '85251' },
-    { city: 'Mesa', state: 'AZ', zipCode: '85201' },
-    { city: 'Chandler', state: 'AZ', zipCode: '85225' },
-    { city: 'Lakewood', state: 'CO', zipCode: '80226' },
-    { city: 'Aurora', state: 'CO', zipCode: '80012' },
-    { city: 'Boulder', state: 'CO', zipCode: '80301' },
-    { city: 'Parker', state: 'CO', zipCode: '80134' },
-    { city: 'Hollywood', state: 'FL', zipCode: '33020' },
-    { city: 'Pompano Beach', state: 'FL', zipCode: '33060' },
-    { city: 'Kissimmee', state: 'FL', zipCode: '34741' },
-    { city: 'Sanford', state: 'FL', zipCode: '32771' },
-    { city: 'St. Petersburg', state: 'FL', zipCode: '33701' },
-    { city: 'Clearwater', state: 'FL', zipCode: '33755' },
-    { city: 'Arlington', state: 'VA', zipCode: '22201' },
-    { city: 'Alexandria', state: 'VA', zipCode: '22314' },
-    { city: 'Henrico', state: 'VA', zipCode: '23228' },
-    { city: 'Chesterfield', state: 'VA', zipCode: '23832' },
-    { city: 'Norfolk', state: 'VA', zipCode: '23510' },
-    { city: 'Chesapeake', state: 'VA', zipCode: '23320' },
-    { city: 'Leland', state: 'NC', zipCode: '28451' },
-    { city: 'Carolina Beach', state: 'NC', zipCode: '28428' },
-    { city: 'Cary', state: 'NC', zipCode: '27511' },
-    { city: 'Durham', state: 'NC', zipCode: '27701' },
-    { city: 'Spring Lake', state: 'NC', zipCode: '28390' },
-    { city: 'Hope Mills', state: 'NC', zipCode: '28348' },
-    { city: 'Concord', state: 'NC', zipCode: '28025' },
-    { city: 'Gastonia', state: 'NC', zipCode: '28052' },
-    { city: 'High Point', state: 'NC', zipCode: '27260' },
-    { city: 'Winston-Salem', state: 'NC', zipCode: '27101' },
-    { city: 'Mount Pleasant', state: 'SC', zipCode: '29464' },
-    { city: 'North Charleston', state: 'SC', zipCode: '29405' },
-    { city: 'Spartanburg', state: 'SC', zipCode: '29302' },
-    { city: 'Greenville', state: 'SC', zipCode: '29601' },
-    { city: 'Decatur', state: 'GA', zipCode: '30030' },
-    { city: 'Sandy Springs', state: 'GA', zipCode: '30328' },
-    { city: 'Savannah', state: 'GA', zipCode: '31401' },
-    { city: 'Athens', state: 'GA', zipCode: '30601' },
-    { city: 'Franklin', state: 'TN', zipCode: '37064' },
-    { city: 'Hendersonville', state: 'TN', zipCode: '37075' },
-    { city: 'Knoxville', state: 'TN', zipCode: '37902' },
-    { city: 'Chattanooga', state: 'TN', zipCode: '37402' },
-    { city: 'Tucson', state: 'AZ', zipCode: '85701' },
-    { city: 'Flagstaff', state: 'AZ', zipCode: '86001' },
-    { city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-    { city: 'Fort Collins', state: 'CO', zipCode: '80521' },
+const LOCATIONS = [{ "city": "San Francisco", "state": "CA", "zipCode": "94102" },
+  { "city": "Oakland", "state": "CA", "zipCode": "94601" },
+  { "city": "San Jose", "state": "CA", "zipCode": "95101" },
+  { "city": "Berkeley", "state": "CA", "zipCode": "94704" },
+  { "city": "Fremont", "state": "CA", "zipCode": "94536" },
+  { "city": "Palo Alto", "state": "CA", "zipCode": "94301" },
+  { "city": "Mountain View", "state": "CA", "zipCode": "94040" },
+  { "city": "Sunnyvale", "state": "CA", "zipCode": "94085" },
+  { "city": "Santa Clara", "state": "CA", "zipCode": "95050" },
+  { "city": "Daly City", "state": "CA", "zipCode": "94015" },
+  { "city": "Redwood City", "state": "CA", "zipCode": "94061" },
+  { "city": "San Mateo", "state": "CA", "zipCode": "94401" },
+  { "city": "Hayward", "state": "CA", "zipCode": "94541" },
+  { "city": "Union City", "state": "CA", "zipCode": "94587" },
+  { "city": "Milpitas", "state": "CA", "zipCode": "95035" },
+  { "city": "Cupertino", "state": "CA", "zipCode": "95014" },
+  { "city": "Gilroy", "state": "CA", "zipCode": "95020" },
+  { "city": "Morgan Hill", "state": "CA", "zipCode": "95037" },
+  { "city": "Los Gatos", "state": "CA", "zipCode": "95030" },
+  { "city": "Campbell", "state": "CA", "zipCode": "95008" },
+  { "city": "Saratoga", "state": "CA", "zipCode": "95070" },
+  { "city": "Los Altos", "state": "CA", "zipCode": "94022" },
+  { "city": "Menlo Park", "state": "CA", "zipCode": "94025" },
+  { "city": "Atherton", "state": "CA", "zipCode": "94027" },
+  { "city": "Belmont", "state": "CA", "zipCode": "94002" },
+  { "city": "San Carlos", "state": "CA", "zipCode": "94070" },
+  { "city": "Foster City", "state": "CA", "zipCode": "94404" },
+  { "city": "Burlingame", "state": "CA", "zipCode": "94010" },
+  { "city": "Millbrae", "state": "CA", "zipCode": "94030" },
+  { "city": "South San Francisco", "state": "CA", "zipCode": "94080" },
+  { "city": "Brisbane", "state": "CA", "zipCode": "94005" },
+  { "city": "San Bruno", "state": "CA", "zipCode": "94066" },
+  { "city": "Pacifica", "state": "CA", "zipCode": "94044" },
+  { "city": "Half Moon Bay", "state": "CA", "zipCode": "94019" },
+  { "city": "Richmond", "state": "CA", "zipCode": "94801" },
+  { "city": "El Cerrito", "state": "CA", "zipCode": "94530" },
+  { "city": "Albany", "state": "CA", "zipCode": "94706" },
+  { "city": "Emeryville", "state": "CA", "zipCode": "94608" },
+  { "city": "Piedmont", "state": "CA", "zipCode": "94611" },
+  { "city": "Alameda", "state": "CA", "zipCode": "94501" },
+  { "city": "San Leandro", "state": "CA", "zipCode": "94577" },
+  { "city": "Castro Valley", "state": "CA", "zipCode": "94546" },
+  { "city": "Pleasanton", "state": "CA", "zipCode": "94566" },
+  { "city": "Livermore", "state": "CA", "zipCode": "94550" },
+  { "city": "Dublin", "state": "CA", "zipCode": "94568" },
+  { "city": "San Ramon", "state": "CA", "zipCode": "94582" },
+  { "city": "Danville", "state": "CA", "zipCode": "94526" },
+  { "city": "Walnut Creek", "state": "CA", "zipCode": "94596" },
+  { "city": "Concord", "state": "CA", "zipCode": "94520" },
+  { "city": "Martinez", "state": "CA", "zipCode": "94553" },
+  { "city": "Pittsburg", "state": "CA", "zipCode": "94565" },
+  { "city": "Antioch", "state": "CA", "zipCode": "94509" },
+  { "city": "Brentwood", "state": "CA", "zipCode": "94513" },
+  { "city": "Los Angeles", "state": "CA", "zipCode": "90001" },
+  { "city": "Long Beach", "state": "CA", "zipCode": "90802" },
+  { "city": "Glendale", "state": "CA", "zipCode": "91201" },
+  { "city": "Santa Monica", "state": "CA", "zipCode": "90401" },
+  { "city": "Burbank", "state": "CA", "zipCode": "91501" },
+  { "city": "Pasadena", "state": "CA", "zipCode": "91101" },
+  { "city": "Inglewood", "state": "CA", "zipCode": "90301" },
+  { "city": "Culver City", "state": "CA", "zipCode": "90230" },
+   { "city": "Torrance", "state": "CA", "zipCode": "90501" },
+  { "city": "Carson", "state": "CA", "zipCode": "90745" },
+  { "city": "Gardena", "state": "CA", "zipCode": "90247" },
+  { "city": "Hawthorne", "state": "CA", "zipCode": "90250" },
+  { "city": "Redondo Beach", "state": "CA", "zipCode": "90277" },
+  { "city": "Hermosa Beach", "state": "CA", "zipCode": "90254" },
+  { "city": "Manhattan Beach", "state": "CA", "zipCode": "90266" },
+  { "city": "El Segundo", "state": "CA", "zipCode": "90245" },
+  { "city": "Compton", "state": "CA", "zipCode": "90220" },
+  { "city": "Downey", "state": "CA", "zipCode": "90241" },
+  { "city": "Norwalk", "state": "CA", "zipCode": "90650" },
+  { "city": "Whittier", "state": "CA", "zipCode": "90601" },
+  { "city": "Pico Rivera", "state": "CA", "zipCode": "90660" },
+  { "city": "Montebello", "state": "CA", "zipCode": "90640" },
+  { "city": "Bell Gardens", "state": "CA", "zipCode": "90201" },
+  { "city": "Huntington Park", "state": "CA", "zipCode": "90255" },
+  { "city": "South Gate", "state": "CA", "zipCode": "90280" },
+  { "city": "Lynwood", "state": "CA", "zipCode": "90262" },
+  { "city": "Paramount", "state": "CA", "zipCode": "90723" },
+  { "city": "Lakewood", "state": "CA", "zipCode": "90712" },
+  { "city": "Bellflower", "state": "CA", "zipCode": "90706" },
+  { "city": "Cerritos", "state": "CA", "zipCode": "90703" },
+  { "city": "Artesia", "state": "CA", "zipCode": "90701" },
+  { "city": "La Mirada", "state": "CA", "zipCode": "90638" },
+  { "city": "Fullerton", "state": "CA", "zipCode": "92831" },
+  { "city": "Anaheim", "state": "CA", "zipCode": "92805" },
+  { "city": "Orange", "state": "CA", "zipCode": "92866" },
+  { "city": "Santa Ana", "state": "CA", "zipCode": "92701" },
+  { "city": "Tustin", "state": "CA", "zipCode": "92780" },
+  { "city": "Irvine", "state": "CA", "zipCode": "92618" },
+  { "city": "Costa Mesa", "state": "CA", "zipCode": "92627" },
+  { "city": "Huntington Beach", "state": "CA", "zipCode": "92647" },
+  { "city": "Newport Beach", "state": "CA", "zipCode": "92660" },
+  { "city": "Laguna Beach", "state": "CA", "zipCode": "92651" },
+  { "city": "Mission Viejo", "state": "CA", "zipCode": "92691" },
+  { "city": "Aliso Viejo", "state": "CA", "zipCode": "92656" },
+  { "city": "Laguna Niguel", "state": "CA", "zipCode": "92677" },
+  { "city": "Lake Forest", "state": "CA", "zipCode": "92630" },
+  { "city": "San Clemente", "state": "CA", "zipCode": "92672" },
+  { "city": "Dana Point", "state": "CA", "zipCode": "92629" },
+  { "city": "Rancho Santa Margarita", "state": "CA", "zipCode": "92688" },
+  { "city": "Brea", "state": "CA", "zipCode": "92821" },
+  { "city": "Yorba Linda", "state": "CA", "zipCode": "92886" },
+  { "city": "Placentia", "state": "CA", "zipCode": "92870" },
+  { "city": "Buena Park", "state": "CA", "zipCode": "90620" },
+  { "city": "Garden Grove", "state": "CA", "zipCode": "92840" },
+  { "city": "Westminster", "state": "CA", "zipCode": "92683" },
+  { "city": "Fountain Valley", "state": "CA", "zipCode": "92708" }
+
   ];
   
 

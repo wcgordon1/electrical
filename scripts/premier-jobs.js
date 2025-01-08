@@ -362,7 +362,7 @@ async function createJob(location, jobType, promptStyle) {
 
   const jobData = {
     position: jobType,
-    description: `Join our team at Premier Electric as a ${jobType} in ${location.city}, ${location.state}. ${strippedDescription.substring(0, 400)}...`,
+    description: `Join our team at Premier Electric as a ${jobType} in ${location.city}, ${location.state}. ${strippedDescription}`,
     location: `${location.city}, ${location.state}`,
     team: jobInfo.team,
     datePosted,
