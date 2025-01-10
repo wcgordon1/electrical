@@ -18,101 +18,131 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const PROMPTS = [
-  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+function generatePrompt(jobType, company, city, state, responsibilities, qualifications, experience, benefits) {
+  const prompts = [
+    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a DETAILED job description (800+ words) for an experienced {jobTitle}. Write this as if you are a Senior {jobTitle} explaining the role to potential candidates at {company} in {city}, {state}.
+Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are a Senior ${jobType} with 20 years of experience creating a job post for ${company} in ${city}, ${state}.
 
-## About Our {jobTitle} Team
-Start with a detailed paragraph about what it's like being a {jobTitle} at {company}, including our reputation in {city} and surrounding areas.
+## About Our ${jobType} Team
+Start with a detailed paragraph about working as a ${jobType} at ${company}, our reputation in ${city}, and the types of projects our ${jobType}s handle. Mention surrounding cities we work in.
 
-## The {jobTitle} Role
-Explain what makes a successful {jobTitle} at our company:
-- Day-to-day work environment
-- Types of projects you'll handle as a {jobTitle}
-- Team dynamics and leadership opportunities
-- Career growth path for {jobTitle}s
+## The ${jobType} Position
+Write a thorough overview of being a ${jobType} on our team, focusing on:
+- Day-to-day responsibilities of a ${jobType}
+- Types of projects and environments you'll work in
+- Team structure and supervision
+- Growth potential within ${company}
 
-## Essential {jobTitle} Duties
-{responsibilities}
-- Add 3-4 key {jobTitle} responsibilities
-- Include local project examples
-- Detail safety requirements
+## Core ${jobType} Responsibilities
+${responsibilities}
+- Add 3-4 advanced technical duties specific to a ${jobType}
+- Include regional project specifics
+- Detail safety protocols
 
-## Required {jobTitle} Experience
-{qualifications}
-- {experience} years as a {jobTitle}
-- List critical technical skills
-- Detail required certifications
+## Required Experience & Skills
+${qualifications}
+- ${experience} years minimum experience as a ${jobType}
+- List essential certifications
+- Detail required technical knowledge
 
-## What We Offer Our {jobTitle}s
-{benefits}
-- Explain advancement opportunities
-- Detail training programs
-- List {jobTitle}-specific perks`,
+## Tools & Equipment
+- List specific tools used daily by our ${jobType}s
+- Detail required personal tools
+- Explain company-provided equipment
 
-  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+## Physical Requirements
+- Detail lifting requirements for a ${jobType}
+- Explain working conditions
+- List safety gear needed
 
-Create a PRACTICAL job description (400-500 words) for a {jobTitle}. Write it like you're a foreman explaining the position to someone interested in joining {company} in {city}, {state}.
+## Training & Development
+- Describe ${jobType} mentorship program
+- List available certifications
+- Detail career advancement path
 
-## Life as a {jobTitle}
-Quick overview of what it's really like being a {jobTitle} here. Keep it straightforward.
+## Compensation Package
+${benefits}
+- Explain overtime policies
+- Detail tool allowances
+- List additional perks`,
 
-## Your Daily Work as a {jobTitle}
-{responsibilities}
-- Add 2-3 typical {jobTitle} tasks
-- Focus on hands-on work
+    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-## What Makes a Great {jobTitle}
-{qualifications}
-- {experience} years in the field
-- List essential skills
-- Highlight key traits
+Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a ${jobType}. Write it like a foreman explaining the ${jobType} position to a potential hire at ${company} in ${city}, ${state}.
 
-## Why Join Our {jobTitle} Team
-{benefits}
-- Focus on growth opportunities
-- Highlight work-life balance`,
+## What You'll Do as a ${jobType}
+Quick overview of the ${jobType} role and our current projects in ${city}. Keep it real and straightforward about what a ${jobType} does day-to-day.
 
-  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+## Your Daily Tasks as a ${jobType}
+${responsibilities}
+- Add 2-3 common daily ${jobType} activities
+- Focus on practical work examples
 
-Create a DIRECT job description (200-300 words) for a {jobTitle}. Write it like a project manager who needs to fill this position at {company} in {city}, {state} quickly.
-
-## {jobTitle} Overview
-One strong paragraph about what we need in a {jobTitle}.
-
-## Requirements for {jobTitle}
-- {experience} years as a {jobTitle}
-{qualifications}
+## What You Need to Be a ${jobType}
+${qualifications}
+- ${experience} years in the field as a ${jobType}
 - List must-have skills
+- Focus on hands-on abilities
 
-## Key {jobTitle} Tasks
-{responsibilities}
-- Focus on essential duties
+## Compensation
+${benefits}
+- Highlight key benefits for ${jobType}s
+- Mention training opportunities`,
 
-## Benefits for {jobTitle}s
-{benefits}`,
+    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-  `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+Create a QUICK job description (200-300 words). Write it like a busy project manager needs this ${jobType} position filled ASAP at ${company} in ${city}, ${state}.
 
-Create a CONCISE job description (200 words) for a {jobTitle} position at {company} in {city}, {state}.
+## ${jobType} Position Overview
+One paragraph about what we need in a ${jobType} and what you'll do.
+
+## Must Haves for ${jobType}
+- ${experience} years experience as a ${jobType}
+${qualifications}
+- List top 3 requirements
+
+## Key ${jobType} Duties
+${responsibilities}
+- Focus on main tasks only
+
+## What We Offer Our ${jobType}s
+${benefits}`,
+
+    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+
+Create a BRIEF job description (200 words max) that's perfect for job boards. Seeking a ${jobType} at ${company} in ${city}, ${state}.
 
 ## Quick Facts
-- Role: {jobTitle}
-- Experience: {experience} years as a {jobTitle}
-- Location: {city}, {state}
+- Position: ${jobType}
+- Experience: ${experience} years as a ${jobType}
+- Location: ${city}, ${state}
 
-## Core {jobTitle} Skills
-{qualifications}
+## Background
+${qualifications}
 
-## Essential {jobTitle} Duties
-{responsibilities}
+## Main Duties
+${responsibilities}
 
-## What We Offer
-{benefits}`
-];
+## Benefits
+${benefits}`
+  ];
+
+  return prompts[Math.floor(Math.random() * prompts.length)];
+}
 
 const JOB_TYPES = {
+  "Security Tech": {
+    minValue: 27,
+    maxValue: 32,
+    experienceLevel: "entryLevel",
+    category: "Security",
+    team: "Commercial",
+    yearsExperience: "1-3",
+    responsibilities: "Install and configure IP cameras and access control systems, terminate low voltage cabling, program basic access devices, test system connectivity, troubleshoot security equipment, maintain installation logs, and liaise with clients for system demonstrations.",
+    qualifications: "Experience installing security systems, familiarity with cable termination tools, understanding of basic networking protocols, proficiency with IP camera systems, strong attention to detail, and effective customer service skills.",
+    prompt: "Create a job description for a Security Technician focusing on system installations and maintenance."
+  },
   "Electrician": {
     minValue: 29,
     maxValue: 38,
@@ -129,7 +159,7 @@ const JOB_TYPES = {
     maxValue: 22,
     experienceLevel: "entryLevel",
     category: "Apprentice",
-    team: "Construction",
+    team: "Commercial",
     yearsExperience: "0-3",
     responsibilities: "Support licensed electricians with wiring installations, assist in cutting and threading conduit, prepare materials for job sites, help with panel wiring and mounting, perform routine safety checks on tools and equipment, clean and organize work areas, and learn to read electrical schematics under supervision.",
     qualifications: "Basic familiarity with hand tools like wire strippers and voltage testers, strong willingness to learn on the job, ability to follow safety protocols, excellent teamwork and communication skills, and physical ability to lift up to 50 lbs and work in confined spaces.",
@@ -145,17 +175,6 @@ const JOB_TYPES = {
     responsibilities: "Assist with residential electrical installations, run and secure cables through walls and ceilings, prepare job site materials and tools, install basic fixtures like outlets and switches, provide support for troubleshooting and repairs, and maintain safety compliance on work sites.",
     qualifications: "Basic knowledge of residential wiring and circuits, ability to handle tools such as pliers and drills, strong attention to detail, good organizational skills, and reliable transportation to job sites.",
     prompt: "Create a job description for an Electrical Helper focusing on assisting with residential wiring and installations in homes."
-  },
-  "Security Tech": {
-    minValue: 27,
-    maxValue: 32,
-    experienceLevel: "entryLevel",
-    category: "Security",
-    team: "Commercial",
-    yearsExperience: "1-3",
-    responsibilities: "Install and configure IP cameras and access control systems, terminate low voltage cabling, program basic access devices, test system connectivity, troubleshoot security equipment, maintain installation logs, and liaise with clients for system demonstrations.",
-    qualifications: "Experience installing security systems, familiarity with cable termination tools, understanding of basic networking protocols, proficiency with IP camera systems, strong attention to detail, and effective customer service skills.",
-    prompt: "Create a job description for a Security Technician focusing on system installations and maintenance."
   },
   "Cable Tech": {
     minValue: 23,
@@ -211,21 +230,11 @@ const JOB_TYPES = {
     responsibilities: "Install, maintain, and troubleshoot fire alarm systems, program fire alarm control panels, test system functionality to ensure compliance with local codes, inspect and repair devices such as smoke detectors and strobes, prepare detailed service reports, coordinate with building managers to schedule testing, and train end-users on system operation.",
     qualifications: "Experience with fire alarm systems and control panels, understanding of local fire codes and regulations, ability to troubleshoot and resolve system issues, familiarity with programming fire panels preferred, excellent communication skills, and attention to detail in documentation.",
     prompt: "Create a job description for a Fire Alarm Technician focusing on installation, maintenance, and programming of fire alarm systems for commercial properties."
-},
+}
 
 };
 
 const COMPANIES = {
-  'Helix Electric': {
-    name: 'Helix Electric',
-    sameAs: 'https://www.helixelectric.com/',
-    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
-  },
-  'IES Electric': {
-    name: 'IES Electric',
-    sameAs: 'https://iesci.net/',
-    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
-  },
   'MMR Group': {
     name: 'MMR Group',
     sameAs: 'https://www.mmrgrp.com/',
@@ -245,11 +254,6 @@ const COMPANIES = {
     name: 'Reliable Electric',
     sameAs: 'https://reliable-contractors.com/',
     logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
-  },
-  'T&D Communications': {
-    name: 'T&D Communications',
-    sameAs: 'https://www.tanddcomm.com/',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
   },
   'Howell Electric': {
     name: 'Howell Electric',
@@ -296,6 +300,17 @@ const COMPANIES = {
     sameAs: 'https://www.wiline.com/',
     logo: 'https://www.wiline.com/img/logo_blue.png'
   },
+  'SRP Electric': {
+    name: 'SRP Electric',
+    sameAs: 'https://www.srpelectricinc.com/',
+    logo: 'https://lirp.cdn-website.com/b7067fab/dms3rep/multi/opt/srp-electric-1920w.png'
+  },
+  'Convergint': {
+    name: 'Convergint',
+    sameAs: 'https://www.convergint.com/',
+    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
+  },
+  
 };
 
 const LOCATIONS = [{ "city": "San Francisco", "state": "CA", "zipCode": "94102" },
@@ -462,7 +477,7 @@ function stripMarkdown(text) {
     .trim();
 }
 
-async function createJob(location, jobType, company, promptIndex) {
+async function createJob(location, jobType, company) {
   const datePosted = generateRecentDate();
   const validThrough = generateValidThrough(datePosted);
   const jobInfo = JOB_TYPES[jobType];
@@ -470,39 +485,41 @@ async function createJob(location, jobType, company, promptIndex) {
   
   const { minValue, maxValue } = generateSalaryWithCents(jobInfo.minValue, jobInfo.maxValue);
 
-  const prompt = PROMPTS[promptIndex]
-    .replace('{prompt}', jobInfo.prompt)
-    .replace('{qualifications}', jobInfo.qualifications)
-    .replace('{responsibilities}', jobInfo.responsibilities)
-    .replace('{experience}', jobInfo.yearsExperience)
-    .replace('{city}', location.city)
-    .replace('{state}', location.state)
-    .replace('{company}', company.name)
-    .replace('{benefits}', `- Competitive salary range: $${minValue}-$${maxValue} per hour depending on experience
-- Comprehensive medical, dental, and vision coverage
+  const benefits = `- Competitive salary range: $${minValue}-$${maxValue} per hour depending on experience
 - Paid time off and holidays
 - Career advancement opportunities
-- Ongoing training and certifications`);
+- Ongoing training and certifications`;
+
+  // Generate the prompt using our new function
+  const selectedPrompt = generatePrompt(
+    jobType,
+    company.name,
+    location.city,
+    location.state,
+    jobInfo.responsibilities,
+    jobInfo.qualifications,
+    jobInfo.yearsExperience,
+    benefits
+  );
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4o",
     messages: [{ 
       role: "user", 
-      content: prompt
+      content: selectedPrompt
     }],
     temperature: 0.7,
   });
 
-  const description = completion.choices[0].message.content;
-  const strippedDescription = stripMarkdown(description);
+  const fullDescription = completion.choices[0].message.content;
 
   const jobData = {
     position: jobType,
-    description: strippedDescription.substring(0, 500) + '...',
+    description: `${fullDescription.substring(0, 500)}...`,
     location: `${location.city}, ${location.state}`,
     team: jobInfo.team,
-    datePosted,
-    validThrough,
+    datePosted: datePosted,
+    validThrough: validThrough,
     employmentType: 'FULL_TIME',
     hiringOrganization: {
       name: company.name,
@@ -532,54 +549,57 @@ async function createJob(location, jobType, company, promptIndex) {
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com',
+      'support@primepartners.info'
     ]
   };
 
   const frontmatter = matter.stringify('', jobData);
-  const finalContent = `${frontmatter}\n\n${description}`;
-  
+  const finalContent = `${frontmatter}\n\n${fullDescription}`;
+
   const filename = generateFilename(company, jobType, location, jobId);
   const filePath = path.join(__dirname, '..', 'src', 'content', 'jobs', filename);
   
   fs.writeFileSync(filePath, finalContent);
   console.log(`Created ${jobType} for ${company.name} in ${location.city}: ${filename}`);
-  
-  // Add delay between API calls
-  await new Promise(resolve => setTimeout(resolve, 2000));
 }
 
-async function main() {
-  const jobTypes = Object.keys(JOB_TYPES);
+async function createAllJobs() {
   const companies = Object.values(COMPANIES);
+  const jobTypes = Object.keys(JOB_TYPES);
   let jobTypeIndex = 0;
-  let promptIndex = 0;
+  let companyIndex = 0;
   let totalJobs = 0;
-
-  // Process one location at a time
+  
   for (const location of LOCATIONS) {
     try {
-      // Pick one company for this location
-      const company = companies[totalJobs % companies.length];
+      // Cycle through companies and job types
+      const company = companies[companyIndex];
       const jobType = jobTypes[jobTypeIndex];
       
-      console.log(`\nCreating job #${totalJobs + 1}/50 in ${location.city}`);
-      console.log(`Company: ${company.name}, Job Type: ${jobType}, Prompt Style: ${promptIndex + 1}`);
+      console.log(`\nCreating job #${totalJobs + 1}/${LOCATIONS.length}`);
+      console.log(`Location: ${location.city}, ${location.state}`);
+      console.log(`Company: ${company.name}`);
+      console.log(`Position: ${jobType}`);
       
-      await createJob(location, jobType, company, promptIndex);
-
-      // Move to next job type and prompt for next iteration
+      await createJob(location, jobType, company);
+      
+      // Update indexes for next iteration
       jobTypeIndex = (jobTypeIndex + 1) % jobTypes.length;
-      promptIndex = (promptIndex + 1) % PROMPTS.length;
+      if (jobTypeIndex === 0) {
+        companyIndex = (companyIndex + 1) % companies.length;
+      }
+      
       totalJobs++;
       
+      // Add delay between API calls
+      await new Promise(resolve => setTimeout(resolve, 2000));
     } catch (error) {
-      console.error(`Error in ${location.city}:`, error);
+      console.error(`Error creating job in ${location.city}:`, error);
     }
   }
-
+  
   console.log('\nJob creation complete!');
-  console.log(`Created ${totalJobs} total jobs across ${LOCATIONS.length} locations`);
+  console.log(`Created ${totalJobs} jobs across ${LOCATIONS.length} locations`);
 }
 
-main().catch(console.error); 
+createAllJobs().catch(console.error); 

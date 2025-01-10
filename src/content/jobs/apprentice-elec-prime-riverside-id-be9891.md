@@ -1,6 +1,6 @@
 ---
 position: Apprentice Electrician
-description: >-
+description: >
   Location: Riverside, CA (Serving nearby cities: Corona, Moreno Valley, Perris,
   San Bernardino, and Redlands)
 

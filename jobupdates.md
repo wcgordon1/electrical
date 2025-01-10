@@ -95,6 +95,9 @@ After pushing to production and waiting for the site to rebuild, run:
 ## npm run notify-updated
 
 
+***********
+
+
 npm run create-varied-jobs (used a ton)
 npm run create-variations (new prompts)
 npm run create-jobs-more (more jobs maybe better prompting)
@@ -106,3 +109,18 @@ npm run list-jobs
 npm run update-llms
 
 We are using Astro.js and are NOT USING TYPESCRIPT! We are using Resend for emails. 
+
+
+
+
+
+
+npm run update-premier-az-emails
+
+update premier contact by state
+
+
+FUCK PREMIER
+
+npm run delete-premier
+npm run notify-deleted

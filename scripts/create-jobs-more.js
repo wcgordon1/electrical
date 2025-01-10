@@ -23,11 +23,11 @@ const PROMPTS = [
 
 Provide a concise and engaging overview of the position in {city}, {state} at {company}, highlighting its purpose at {company}.
 
-## Key Qualifications
+## Background
 List the most essential qualifications, certifications, or skills for success:
 {qualifications}
 
-## Core Responsibilities
+## Responsibilities
 Detail the major tasks and responsibilities this role entails:
 {responsibilities}
 
@@ -74,7 +74,7 @@ const JOB_TYPES = {
     yearsExperience: '3-5',
     responsibilities: 'Install and maintain electrical systems in commercial buildings, troubleshoot and repair power distribution systems, ensure compliance with safety codes, implement lighting control systems, plan and execute electrical upgrades, manage materials and tools for projects, coordinate with other construction teams, inspect and test installations for quality assurance, document work progress and maintenance records, mentor apprentices and junior electricians, provide on-site technical expertise, support emergency power system installations, integrate energy-efficient solutions into designs',
     qualifications: 'Relevant electrical certification or licensure preferred, strong understanding of commercial electrical systems, ability to read and interpret blueprints and technical diagrams, hands-on experience with power tools and diagnostic equipment, solid troubleshooting and problem-solving skills, knowledge of safety protocols and building codes, ability to work both independently and as part of a team, good communication and organizational skills, physically capable of handling electrical tools and equipment',
-    prompt: 'Create a job description for a Commercial Electrician focusing on electrical installations and maintenance in commercial buildings. Must understand power distribution systems, lighting controls, and troubleshooting. Experience with electrical upgrades, energy-efficient designs, and safety compliance required. Position involves planning and executing installations, ensuring quality assurance, and mentoring apprentices. Role includes maintaining documentation and coordinating with construction teams. Must have knowledge of safety codes and relevant certifications or licensure. Physical requirements include working at heights, using power tools, and handling materials.'
+    prompt: 'Create a job description for a Commercial Journeyman Electrician focusing on electrical installations and maintenance in commercial buildings. Must understand power distribution systems, lighting controls, and troubleshooting. Experience with electrical upgrades, energy-efficient designs, and safety compliance required. Position involves planning and executing installations, ensuring quality assurance, and mentoring apprentices. Role includes maintaining documentation and coordinating with construction teams. Must have knowledge of safety codes and relevant certifications or licensure. Physical requirements include working at heights, using power tools, and handling materials.'
 },
 'Security Technician': {
     minValue: 20,
@@ -188,11 +188,6 @@ const COMPANIES = {
     sameAs: 'https://www.mmrgrp.com/',
     logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
   },
-  'Vision Technologies': {
-    name: 'Vision Technologies',
-    sameAs: 'https://www.visiontechnologies.com/',
-    logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
-  },
   'Rogers Electric': {
     name: 'Rogers Electric',
     sameAs: 'https://www.rogerselectric.com/',
@@ -212,16 +207,6 @@ const COMPANIES = {
     name: 'TR Group',
     sameAs: 'https://www.trgroup.com/',
     logo: 'https://www.trgroup.com/wp-content/uploads/2022/04/TR-Group-Logo.png'
-  },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
-  },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
   }
 };
 
