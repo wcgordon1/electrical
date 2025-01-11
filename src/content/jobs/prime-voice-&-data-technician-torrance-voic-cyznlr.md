@@ -19,8 +19,8 @@ description: >-
   box retail clients. The successful candidate will ...
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-17T18:40:06.413Z'
-validThrough: '2025-01-24T18:40:06.413Z'
+datePosted: '2025-01-11T08:12:45.486Z'
+validThrough: '2025-02-24T08:12:45.486Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

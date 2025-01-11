@@ -18,8 +18,8 @@ description: >-
   construction and retrofits. This position r...
 location: 'Bellevue, WA'
 team: Commercial
-datePosted: '2024-12-17T19:42:22.541Z'
-validThrough: '2025-01-23T19:42:22.541Z'
+datePosted: '2025-01-11T13:53:45.911Z'
+validThrough: '2025-02-21T13:53:45.911Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

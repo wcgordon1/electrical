@@ -23,8 +23,8 @@ description: >-
   Key Resp...
 location: 'Sunnyvale, CA'
 team: Commercial
-datePosted: '2024-12-17T17:35:48.734Z'
-validThrough: '2025-01-29T17:35:48.734Z'
+datePosted: '2025-01-11T16:04:35.839Z'
+validThrough: '2025-02-16T16:04:35.839Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

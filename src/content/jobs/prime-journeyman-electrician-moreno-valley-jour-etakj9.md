@@ -23,8 +23,8 @@ description: >-
   including but not...
 location: 'Moreno Valley, CA'
 team: Commercial
-datePosted: '2024-12-17T18:01:41.057Z'
-validThrough: '2025-01-26T18:01:41.057Z'
+datePosted: '2025-01-11T16:02:12.533Z'
+validThrough: '2025-02-13T16:02:12.533Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

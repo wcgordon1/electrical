@@ -26,8 +26,8 @@ description: >-
   1. Oversee th...
 location: 'Gresham, OR'
 team: Commercial
-datePosted: '2024-12-17T19:41:57.942Z'
-validThrough: '2025-01-27T19:41:57.942Z'
+datePosted: '2025-01-11T09:31:10.479Z'
+validThrough: '2025-02-20T09:31:10.479Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

@@ -92,8 +92,8 @@ description: >-
   status.
 location: 'Palo Alto, CA'
 team: Industrial
-datePosted: '2024-12-17T18:52:41.566Z'
-validThrough: '2025-01-23T18:52:41.566Z'
+datePosted: '2025-01-11T12:41:08.075Z'
+validThrough: '2025-02-10T12:41:08.075Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

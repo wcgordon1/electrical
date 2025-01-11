@@ -26,8 +26,8 @@ description: >-
   Prime Partners is seeking a skilled Voice & Data Technic...
 location: 'Sunnyvale, CA'
 team: Data Center
-datePosted: '2024-12-17T19:42:08.311Z'
-validThrough: '2025-01-18T19:42:08.311Z'
+datePosted: '2025-01-11T07:00:54.724Z'
+validThrough: '2025-02-21T07:00:54.724Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

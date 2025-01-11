@@ -21,8 +21,8 @@ description: >-
   Key Responsibilities...
 location: 'Buckeye, AZ'
 team: Commercial
-datePosted: '2024-12-17T19:41:37.397Z'
-validThrough: '2025-01-29T19:41:37.397Z'
+datePosted: '2025-01-11T14:16:03.247Z'
+validThrough: '2025-02-17T14:16:03.247Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

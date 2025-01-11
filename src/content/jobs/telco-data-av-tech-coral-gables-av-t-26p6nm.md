@@ -22,8 +22,8 @@ benefits:
   - 401k Match
   - Quarterly Bonuses
   - Vehicle Allowance
-datePosted: '2024-12-17T23:31:51.047Z'
-validThrough: '2025-01-16T23:31:51.047Z'
+datePosted: '2025-01-11T07:48:39.349Z'
+validThrough: '2025-02-16T07:48:39.349Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Telco Data

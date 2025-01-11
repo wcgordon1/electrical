@@ -29,8 +29,8 @@ benefits:
   - 401k Match
   - Performance Bonuses
   - Tool Allowance
-datePosted: '2024-12-17T23:39:40.945Z'
-validThrough: '2025-01-29T23:39:40.945Z'
+datePosted: '2025-01-11T12:58:05.972Z'
+validThrough: '2025-02-19T12:58:05.972Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Telco Data

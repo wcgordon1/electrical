@@ -24,8 +24,8 @@ description: >-
   Res...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-17T19:43:07.317Z'
-validThrough: '2025-01-24T19:43:07.317Z'
+datePosted: '2025-01-11T08:54:05.973Z'
+validThrough: '2025-02-25T08:54:05.973Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

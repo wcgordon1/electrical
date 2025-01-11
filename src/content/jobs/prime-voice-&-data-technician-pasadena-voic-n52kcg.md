@@ -22,8 +22,8 @@ description: >-
   installation, maintenance, and troubleshooting of voice...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-17T17:57:26.716Z'
-validThrough: '2025-01-31T17:57:26.716Z'
+datePosted: '2025-01-11T14:33:34.019Z'
+validThrough: '2025-02-19T14:33:34.019Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

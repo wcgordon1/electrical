@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, and repai...
 location: 'Bakersfield, CA'
 team: Data Center
-datePosted: '2024-12-17T19:52:50.015Z'
-validThrough: '2025-01-25T19:52:50.015Z'
+datePosted: '2025-01-11T07:06:28.650Z'
+validThrough: '2025-02-15T07:06:28.650Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -24,8 +24,8 @@ description: >-
   1. Install, maintain, and repair electrical ...
 location: 'Mesa, AZ'
 team: Commercial
-datePosted: '2024-12-17T22:54:02.903Z'
-validThrough: '2025-01-19T22:54:02.903Z'
+datePosted: '2025-01-11T12:07:08.890Z'
+validThrough: '2025-02-25T12:07:08.890Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

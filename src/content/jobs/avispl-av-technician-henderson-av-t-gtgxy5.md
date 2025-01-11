@@ -20,8 +20,8 @@ description: >-
   1. Design, install, and maintain commercial audio ...
 location: 'Henderson, NV'
 team: Commercial
-datePosted: '2024-12-17T19:42:47.177Z'
-validThrough: '2025-01-17T19:42:47.177Z'
+datePosted: '2025-01-11T12:52:02.524Z'
+validThrough: '2025-02-21T12:52:02.524Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

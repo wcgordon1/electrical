@@ -10,8 +10,8 @@ description: >-
   market. We are seeking a highly skilled Industr...
 location: 'Camden, NJ'
 team: Industrial
-datePosted: '2024-12-17T19:29:47.003Z'
-validThrough: '2025-01-18T19:29:47.003Z'
+datePosted: '2025-01-11T12:20:46.482Z'
+validThrough: '2025-02-22T12:20:46.482Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

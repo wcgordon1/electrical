@@ -37,8 +37,8 @@ benefits:
   - 401k Match
   - Performance Bonuses
   - Tool Allowance
-datePosted: '2024-12-17T23:10:22.106Z'
-validThrough: '2025-01-20T23:10:22.106Z'
+datePosted: '2025-01-11T08:54:37.316Z'
+validThrough: '2025-02-16T08:54:37.316Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

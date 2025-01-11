@@ -29,8 +29,8 @@ benefits:
   - 401k Match
   - Quarterly Bonuses
   - Vehicle Allowance
-datePosted: '2024-12-17T19:53:39.516Z'
-validThrough: '2025-01-24T19:53:39.516Z'
+datePosted: '2025-01-11T13:46:26.781Z'
+validThrough: '2025-02-17T13:46:26.781Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

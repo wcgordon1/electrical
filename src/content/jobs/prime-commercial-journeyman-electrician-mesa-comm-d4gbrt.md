@@ -19,8 +19,8 @@ description: >-
   retail stor...
 location: 'Mesa, AZ'
 team: Commercial
-datePosted: '2024-12-17T20:23:42.469Z'
-validThrough: '2025-01-26T20:23:42.469Z'
+datePosted: '2025-01-11T10:14:28.860Z'
+validThrough: '2025-02-11T10:14:28.860Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

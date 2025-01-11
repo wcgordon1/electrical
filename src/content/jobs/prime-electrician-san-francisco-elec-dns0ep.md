@@ -23,8 +23,8 @@ description: >-
   1. Reading and interpreting bl...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-17T19:42:45.034Z'
-validThrough: '2025-01-19T19:42:45.034Z'
+datePosted: '2025-01-11T07:10:49.920Z'
+validThrough: '2025-02-24T07:10:49.920Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

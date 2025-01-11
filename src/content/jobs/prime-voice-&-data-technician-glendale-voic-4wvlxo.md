@@ -28,8 +28,8 @@ description: >-
   The Voice & Data Technic...
 location: 'Glendale, CA'
 team: Data Center
-datePosted: '2024-12-17T19:20:52.860Z'
-validThrough: '2025-01-23T19:20:52.860Z'
+datePosted: '2025-01-11T11:10:10.735Z'
+validThrough: '2025-02-18T11:10:10.735Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

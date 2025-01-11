@@ -21,8 +21,8 @@ description: >-
   familiar...
 location: 'Pacifica, CA'
 team: Commercial
-datePosted: '2024-12-17T19:41:34.899Z'
-validThrough: '2025-01-25T19:41:34.899Z'
+datePosted: '2025-01-11T15:57:24.801Z'
+validThrough: '2025-02-24T15:57:24.801Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

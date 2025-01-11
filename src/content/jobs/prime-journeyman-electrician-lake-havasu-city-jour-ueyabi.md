@@ -23,8 +23,8 @@ description: >-
   1. Install, maintain, and repair...
 location: 'Lake Havasu City, AZ'
 team: Data Center
-datePosted: '2024-12-17T19:27:33.300Z'
-validThrough: '2025-01-26T19:27:33.300Z'
+datePosted: '2025-01-11T15:23:18.100Z'
+validThrough: '2025-02-14T15:23:18.100Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

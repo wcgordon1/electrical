@@ -10,8 +10,8 @@ description: >-
   the region and be a part of our dynamic ...
 location: 'Canton, OH'
 team: Solar
-datePosted: '2024-12-17T21:59:37.271Z'
-validThrough: '2025-01-27T21:59:37.271Z'
+datePosted: '2025-01-11T06:06:28.347Z'
+validThrough: '2025-02-15T06:06:28.347Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

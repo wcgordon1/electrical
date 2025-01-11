@@ -1,8 +1,8 @@
 ---
 position: Security Tech
 description: >-
-  Position Overview Job Title: {jobTitle} Join Reliable Electric in Berkeley,
-  CA, as a {jobTitle}. We seek candidates with 1-3 years of relevant experience.
+  Position Overview Job Title: Security Tech Join Reliable Electric in Berkeley,
+  CA, as a Security Tech. We seek candidates with 1-3 years of relevant experience.
   Key Skills and Qualifications Core Competencies Install security systems Use
   cable termination tools Understand networking protocols Manage IP camera
   systems Attention to detail Excellent customer service Primary
@@ -44,8 +44,8 @@ email:
 
 
 ## Position Overview
-### Job Title: {jobTitle}
-Join Reliable Electric in Berkeley, CA, as a {jobTitle}. We seek candidates with 1-3 years of relevant experience.
+### Job Title: Security Tech
+Join Reliable Electric in Berkeley, CA, as a Security Tech. We seek candidates with 1-3 years of relevant experience.
 
 ## Key Skills and Qualifications
 ### Core Competencies

@@ -19,8 +19,8 @@ description: >-
   2. Read and interpret blueprints, diagrams, submittals, specifications,...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-17T19:17:06.362Z'
-validThrough: '2025-01-31T19:17:06.362Z'
+datePosted: '2025-01-11T05:01:35.769Z'
+validThrough: '2025-02-16T05:01:35.769Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

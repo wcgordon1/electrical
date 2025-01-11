@@ -12,8 +12,8 @@ description: >-
   ...
 location: 'Augusta, GA'
 team: Residential
-datePosted: '2024-12-17T23:39:21.217Z'
-validThrough: '2025-01-20T23:39:21.217Z'
+datePosted: '2025-01-11T15:51:51.025Z'
+validThrough: '2025-02-25T15:51:51.025Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

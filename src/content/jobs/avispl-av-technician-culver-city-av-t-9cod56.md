@@ -26,8 +26,8 @@ description: >-
   1. Installation, configurat...
 location: 'Culver City, CA'
 team: Commercial
-datePosted: '2024-12-17T19:40:46.757Z'
-validThrough: '2025-01-28T19:40:46.757Z'
+datePosted: '2025-01-11T06:21:09.781Z'
+validThrough: '2025-02-13T06:21:09.781Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL
