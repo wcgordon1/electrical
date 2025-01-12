@@ -16,8 +16,8 @@ description: >-
   ###...
 location: 'Bridgeport, CT'
 team: Solar
-datePosted: '2024-12-18T14:27:34.484Z'
-validThrough: '2025-01-25T14:27:34.484Z'
+datePosted: '2025-01-12T08:43:05.560Z'
+validThrough: '2025-02-23T08:43:05.560Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

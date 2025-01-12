@@ -10,8 +10,8 @@ description: >-
   cabling systems and be able to work independently as well as part of a team.
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-18T07:59:48.271Z'
-validThrough: '2025-01-28T07:59:48.271Z'
+datePosted: '2025-01-12T09:04:28.948Z'
+validThrough: '2025-02-20T09:04:28.948Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

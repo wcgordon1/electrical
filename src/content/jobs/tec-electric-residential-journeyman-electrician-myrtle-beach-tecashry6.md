@@ -16,8 +16,8 @@ description: >-
   The Residential Journeyman Electrician at TEC Electric will be r...
 location: 'Myrtle Beach, SC'
 team: Residential
-datePosted: '2024-12-18T07:24:01.942Z'
-validThrough: '2025-01-28T07:24:01.942Z'
+datePosted: '2025-01-12T10:05:18.796Z'
+validThrough: '2025-02-19T10:05:18.796Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

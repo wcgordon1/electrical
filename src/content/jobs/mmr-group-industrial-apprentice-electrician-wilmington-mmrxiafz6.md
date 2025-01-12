@@ -16,8 +16,8 @@ description: >-
   experience and tra...
 location: 'Wilmington, NC'
 team: Industrial
-datePosted: '2024-12-18T01:45:27.450Z'
-validThrough: '2025-01-29T01:45:27.450Z'
+datePosted: '2025-01-12T10:41:39.240Z'
+validThrough: '2025-02-20T10:41:39.240Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

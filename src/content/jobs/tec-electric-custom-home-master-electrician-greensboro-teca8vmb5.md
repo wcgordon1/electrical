@@ -16,8 +16,8 @@ description: >-
   delivering high-quality electrical services for c...
 location: 'Greensboro, NC'
 team: Residential
-datePosted: '2024-12-18T07:12:15.839Z'
-validThrough: '2025-01-28T07:12:15.839Z'
+datePosted: '2025-01-12T08:52:19.654Z'
+validThrough: '2025-02-11T08:52:19.654Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

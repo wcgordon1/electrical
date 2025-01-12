@@ -16,8 +16,8 @@ description: >-
   role in ensuring t...
 location: 'Richmond, VA'
 team: Service
-datePosted: '2024-12-18T10:39:53.257Z'
-validThrough: '2025-01-29T10:39:53.257Z'
+datePosted: '2025-01-12T09:52:28.913Z'
+validThrough: '2025-02-19T09:52:28.913Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

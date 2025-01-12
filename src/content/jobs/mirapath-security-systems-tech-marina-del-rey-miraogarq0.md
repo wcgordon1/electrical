@@ -8,8 +8,8 @@ description: >-
   management.
 location: 'Marina del Rey, CA'
 team: Commercial
-datePosted: '2024-12-18T13:53:29.890Z'
-validThrough: '2025-01-28T13:53:29.890Z'
+datePosted: '2025-01-12T10:39:04.583Z'
+validThrough: '2025-02-16T10:39:04.583Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Mirapath

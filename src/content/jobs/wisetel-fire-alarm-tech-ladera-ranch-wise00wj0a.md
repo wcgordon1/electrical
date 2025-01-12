@@ -14,8 +14,8 @@ description: >-
   responsible for the installation, maintenance, and troubl...
 location: 'Ladera Ranch, CA'
 team: Commercial
-datePosted: '2024-12-18T10:07:02.746Z'
-validThrough: '2025-01-23T10:07:02.746Z'
+datePosted: '2025-01-12T09:31:47.309Z'
+validThrough: '2025-02-19T09:31:47.309Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

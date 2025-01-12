@@ -10,8 +10,8 @@ description: >-
   talented and dedicated individuals who are ready...
 location: 'Detroit, MI'
 team: Residential
-datePosted: '2024-12-18T00:23:59.642Z'
-validThrough: '2025-01-18T00:23:59.642Z'
+datePosted: '2025-01-12T11:29:10.149Z'
+validThrough: '2025-02-14T11:29:10.149Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -16,8 +16,8 @@ description: >-
   The Fire Alarm Tech at Tech Electronics wi...
 location: 'Westlake Village, CA'
 team: Commercial
-datePosted: '2024-12-18T20:22:02.126Z'
-validThrough: '2025-01-23T20:22:02.126Z'
+datePosted: '2025-01-12T09:49:17.229Z'
+validThrough: '2025-02-13T09:49:17.229Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

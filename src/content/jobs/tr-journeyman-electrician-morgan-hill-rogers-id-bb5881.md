@@ -12,8 +12,8 @@ description: >-
   offers hands-on experience in commercial and industrial electrical work...
 location: 'Morgan Hill, CA'
 team: Commercial
-datePosted: '2024-12-18T06:05:14.546Z'
-validThrough: '2025-01-31T06:05:14.546Z'
+datePosted: '2025-01-12T10:28:06.702Z'
+validThrough: '2025-02-11T10:28:06.702Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

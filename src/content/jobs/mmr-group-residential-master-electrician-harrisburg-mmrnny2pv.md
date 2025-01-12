@@ -21,8 +21,8 @@ description: >-
   - Lead and overse...
 location: 'Harrisburg, PA'
 team: Residential
-datePosted: '2024-12-18T06:02:04.848Z'
-validThrough: '2025-01-31T06:02:04.848Z'
+datePosted: '2025-01-12T08:14:26.143Z'
+validThrough: '2025-02-12T08:14:26.143Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

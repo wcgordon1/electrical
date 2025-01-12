@@ -14,8 +14,8 @@ description: >-
   The Security Systems Tech will be responsible for the installatio...
 location: 'Westlake Village, CA'
 team: Commercial
-datePosted: '2024-12-18T19:38:28.640Z'
-validThrough: '2025-01-24T19:38:28.640Z'
+datePosted: '2025-01-12T09:29:43.510Z'
+validThrough: '2025-02-24T09:29:43.510Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

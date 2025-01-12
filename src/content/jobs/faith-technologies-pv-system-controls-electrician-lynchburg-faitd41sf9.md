@@ -16,8 +16,8 @@ description: >-
   responsible for installing, maintaining, and troubleshoot...
 location: 'Lynchburg, VA'
 team: Solar
-datePosted: '2024-12-18T00:26:30.984Z'
-validThrough: '2025-01-30T00:26:30.984Z'
+datePosted: '2025-01-12T11:16:18.898Z'
+validThrough: '2025-02-17T11:16:18.898Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

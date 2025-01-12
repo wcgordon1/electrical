@@ -26,8 +26,8 @@ description: >-
   codes, manufacturer's specific...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-18T10:08:32.131Z'
-validThrough: '2025-01-19T10:08:32.131Z'
+datePosted: '2025-01-12T09:21:30.665Z'
+validThrough: '2025-02-12T09:21:30.665Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

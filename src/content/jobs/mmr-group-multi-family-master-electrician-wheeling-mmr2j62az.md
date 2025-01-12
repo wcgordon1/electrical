@@ -10,8 +10,8 @@ description: >-
   exciting opportunity to be a part of a team t...
 location: 'Wheeling, WV'
 team: Residential
-datePosted: '2024-12-18T14:35:11.513Z'
-validThrough: '2025-01-20T14:35:11.513Z'
+datePosted: '2025-01-12T11:19:24.541Z'
+validThrough: '2025-02-12T11:19:24.541Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

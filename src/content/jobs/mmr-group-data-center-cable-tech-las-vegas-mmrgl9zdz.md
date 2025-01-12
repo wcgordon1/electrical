@@ -13,8 +13,8 @@ description: >-
   environment...
 location: 'Las Vegas, NV'
 team: Commercial
-datePosted: '2024-12-18T09:33:49.968Z'
-validThrough: '2025-01-19T09:33:49.968Z'
+datePosted: '2025-01-12T08:15:34.803Z'
+validThrough: '2025-02-25T08:15:34.803Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

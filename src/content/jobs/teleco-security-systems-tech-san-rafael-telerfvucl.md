@@ -18,8 +18,8 @@ description: >-
   The Security Systems Tech at Teleco ...
 location: 'San Rafael, CA'
 team: Commercial
-datePosted: '2024-12-18T16:01:48.576Z'
-validThrough: '2025-01-25T16:01:48.576Z'
+datePosted: '2025-01-12T11:36:37.473Z'
+validThrough: '2025-02-25T11:36:37.473Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

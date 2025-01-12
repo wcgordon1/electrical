@@ -18,8 +18,8 @@ description: >-
   1. Install, maintain, and repair electrical systems in commerc...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-18T12:25:46.508Z'
-validThrough: '2025-01-18T12:25:46.508Z'
+datePosted: '2025-01-12T10:11:37.202Z'
+validThrough: '2025-02-13T10:11:37.202Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

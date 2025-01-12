@@ -13,8 +13,8 @@ description: >-
   ## Pos...
 location: 'Gary, IN'
 team: Service
-datePosted: '2024-12-18T04:40:08.207Z'
-validThrough: '2025-01-31T04:40:08.207Z'
+datePosted: '2025-01-12T10:00:49.940Z'
+validThrough: '2025-02-21T10:00:49.940Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

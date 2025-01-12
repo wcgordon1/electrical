@@ -16,8 +16,8 @@ description: >-
   installing, maintaining, and repairing electrical control systems specif...
 location: 'Winston-Salem, NC'
 team: Commercial
-datePosted: '2024-12-18T04:36:04.709Z'
-validThrough: '2025-01-28T04:36:04.709Z'
+datePosted: '2025-01-12T08:47:58.858Z'
+validThrough: '2025-02-17T08:47:58.858Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

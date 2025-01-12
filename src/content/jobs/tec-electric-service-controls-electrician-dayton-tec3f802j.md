@@ -10,8 +10,8 @@ description: >-
   industry knowledge. We are currently looking f...
 location: 'Dayton, OH'
 team: Service
-datePosted: '2024-12-18T04:54:30.380Z'
-validThrough: '2025-02-01T04:54:30.380Z'
+datePosted: '2025-01-12T09:44:33.309Z'
+validThrough: '2025-02-26T09:44:33.309Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

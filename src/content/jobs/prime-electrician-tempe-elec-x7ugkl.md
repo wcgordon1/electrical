@@ -23,8 +23,8 @@ description: >-
   equipment following e...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-18T12:46:44.023Z'
-validThrough: '2025-01-30T12:46:44.023Z'
+datePosted: '2025-01-12T11:17:58.539Z'
+validThrough: '2025-02-24T11:17:58.539Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

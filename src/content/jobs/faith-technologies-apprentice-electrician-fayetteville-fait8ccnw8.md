@@ -16,8 +16,8 @@ description: >-
   is an entry-level role designed for individuals eager ...
 location: 'Fayetteville, NC'
 team: Commercial
-datePosted: '2024-12-18T20:31:16.625Z'
-validThrough: '2025-01-19T20:31:16.625Z'
+datePosted: '2025-01-12T09:23:26.560Z'
+validThrough: '2025-02-23T09:23:26.560Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

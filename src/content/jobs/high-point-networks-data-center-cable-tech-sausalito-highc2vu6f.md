@@ -14,8 +14,8 @@ description: >-
   As a Da...
 location: 'Sausalito, CA'
 team: Commercial
-datePosted: '2024-12-18T06:37:40.208Z'
-validThrough: '2025-01-21T06:37:40.208Z'
+datePosted: '2025-01-12T10:18:42.923Z'
+validThrough: '2025-02-23T10:18:42.923Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

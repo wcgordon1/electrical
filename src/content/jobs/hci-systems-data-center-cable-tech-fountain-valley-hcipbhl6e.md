@@ -12,8 +12,8 @@ description: >-
   strives to exceed expectations through reliable, efficient, and technolog...
 location: 'Fountain Valley, CA'
 team: Commercial
-datePosted: '2024-12-18T04:03:03.393Z'
-validThrough: '2025-01-19T04:03:03.393Z'
+datePosted: '2025-01-12T08:24:12.163Z'
+validThrough: '2025-02-16T08:24:12.163Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

@@ -14,8 +14,8 @@ description: >-
   projects in the area. Your ma...
 location: 'El Segundo, CA'
 team: Commercial
-datePosted: '2024-12-18T16:37:17.216Z'
-validThrough: '2025-01-28T16:37:17.216Z'
+datePosted: '2025-01-12T10:10:28.344Z'
+validThrough: '2025-02-21T10:10:28.344Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

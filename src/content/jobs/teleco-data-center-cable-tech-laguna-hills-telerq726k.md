@@ -15,8 +15,8 @@ description: >-
   ## Position Overview at...
 location: 'Laguna Hills, CA'
 team: Commercial
-datePosted: '2024-12-18T04:22:36.191Z'
-validThrough: '2025-01-20T04:22:36.191Z'
+datePosted: '2025-01-12T10:56:30.596Z'
+validThrough: '2025-02-18T10:56:30.596Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

@@ -14,8 +14,8 @@ description: >-
   installation, maintenance, and repair o...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-18T17:46:59.071Z'
-validThrough: '2025-01-25T17:46:59.071Z'
+datePosted: '2025-01-12T10:02:25.958Z'
+validThrough: '2025-02-12T10:02:25.958Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

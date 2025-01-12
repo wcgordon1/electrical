@@ -16,8 +16,8 @@ description: >-
   This role requires a detail-oriented prof...
 location: 'Gainesville, FL'
 team: Residential
-datePosted: '2024-12-18T19:06:01.924Z'
-validThrough: '2025-01-28T19:06:01.924Z'
+datePosted: '2025-01-12T11:24:36.642Z'
+validThrough: '2025-02-18T11:24:36.642Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

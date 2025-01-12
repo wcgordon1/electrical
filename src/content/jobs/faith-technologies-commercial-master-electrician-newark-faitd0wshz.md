@@ -15,8 +15,8 @@ description: >-
   As a Commercial Master Electrician at Faith Technologies, you will play...
 location: 'Newark, NJ'
 team: Commercial
-datePosted: '2024-12-18T13:15:41.866Z'
-validThrough: '2025-01-24T13:15:41.866Z'
+datePosted: '2025-01-12T10:30:13.616Z'
+validThrough: '2025-02-25T10:30:13.616Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

@@ -15,8 +15,8 @@ description: >-
   installation, maintenance, and tro...
 location: 'Knoxville, TN'
 team: Commercial
-datePosted: '2024-12-18T10:45:47.937Z'
-validThrough: '2025-01-20T10:45:47.937Z'
+datePosted: '2025-01-12T08:32:01.242Z'
+validThrough: '2025-02-17T08:32:01.242Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

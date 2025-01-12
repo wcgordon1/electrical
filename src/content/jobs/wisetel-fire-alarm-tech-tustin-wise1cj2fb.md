@@ -14,8 +14,8 @@ description: >-
   healthcare facil...
 location: 'Tustin, CA'
 team: Commercial
-datePosted: '2024-12-18T04:05:41.085Z'
-validThrough: '2025-01-27T04:05:41.085Z'
+datePosted: '2025-01-12T08:51:21.071Z'
+validThrough: '2025-02-11T08:51:21.071Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

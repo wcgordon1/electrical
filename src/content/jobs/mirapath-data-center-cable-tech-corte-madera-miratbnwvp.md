@@ -14,8 +14,8 @@ description: >-
   educati...
 location: 'Corte Madera, CA'
 team: Commercial
-datePosted: '2024-12-18T07:25:32.369Z'
-validThrough: '2025-01-23T07:25:32.369Z'
+datePosted: '2025-01-12T08:12:32.402Z'
+validThrough: '2025-02-24T08:12:32.402Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Mirapath

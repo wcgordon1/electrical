@@ -15,8 +15,8 @@ description: >-
   Join MMR Group's region...
 location: 'Allentown, PA'
 team: Service
-datePosted: '2024-12-18T19:26:27.913Z'
-validThrough: '2025-01-23T19:26:27.913Z'
+datePosted: '2025-01-12T09:26:41.909Z'
+validThrough: '2025-02-15T09:26:41.909Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

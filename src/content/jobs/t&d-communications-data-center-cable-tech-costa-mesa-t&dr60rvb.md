@@ -14,8 +14,8 @@ description: >-
   cabling infrastructure within educationa...
 location: 'Costa Mesa, CA'
 team: Commercial
-datePosted: '2024-12-18T06:40:07.974Z'
-validThrough: '2025-01-28T06:40:07.974Z'
+datePosted: '2025-01-12T08:11:13.041Z'
+validThrough: '2025-02-21T08:11:13.041Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

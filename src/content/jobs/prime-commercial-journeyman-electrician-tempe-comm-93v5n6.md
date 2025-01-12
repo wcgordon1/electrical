@@ -21,8 +21,8 @@ description: >-
   paycheck as an...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-18T08:11:30.071Z'
-validThrough: '2025-01-24T08:11:30.071Z'
+datePosted: '2025-01-12T09:55:41.465Z'
+validThrough: '2025-02-12T09:55:41.465Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

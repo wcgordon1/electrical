@@ -16,8 +16,8 @@ description: >-
   equipment an...
 location: 'Richmond, VA'
 team: Commercial
-datePosted: '2024-12-18T05:14:40.606Z'
-validThrough: '2025-01-29T05:14:40.606Z'
+datePosted: '2025-01-12T08:13:40.140Z'
+validThrough: '2025-02-22T08:13:40.140Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

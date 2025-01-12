@@ -10,8 +10,8 @@ description: >-
   cutting-edge electrical solutions and are seeking an experienc...
 location: 'Albany, GA'
 team: Industrial
-datePosted: '2024-12-18T09:57:34.469Z'
-validThrough: '2025-01-21T09:57:34.469Z'
+datePosted: '2025-01-12T11:47:37.023Z'
+validThrough: '2025-02-11T11:47:37.023Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

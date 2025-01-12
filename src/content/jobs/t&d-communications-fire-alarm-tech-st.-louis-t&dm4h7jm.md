@@ -15,8 +15,8 @@ description: >-
   As a Fire Al...
 location: 'St. Louis, MO'
 team: Commercial
-datePosted: '2024-12-18T08:19:16.432Z'
-validThrough: '2025-02-01T08:19:16.432Z'
+datePosted: '2025-01-12T11:39:09.707Z'
+validThrough: '2025-02-11T11:39:09.707Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

@@ -19,8 +19,8 @@ description: >-
   - Co...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-18T03:18:06.336Z'
-validThrough: '2025-01-19T03:18:06.336Z'
+datePosted: '2025-01-12T09:51:30.323Z'
+validThrough: '2025-02-21T09:51:30.323Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

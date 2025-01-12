@@ -14,8 +14,8 @@ description: >-
   and troubleshooting of audiovisual systems within...
 location: 'Walnut Creek, CA'
 team: Commercial
-datePosted: '2024-12-18T09:35:54.115Z'
-validThrough: '2025-01-25T09:35:54.115Z'
+datePosted: '2025-01-12T09:16:36.404Z'
+validThrough: '2025-02-18T09:16:36.404Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

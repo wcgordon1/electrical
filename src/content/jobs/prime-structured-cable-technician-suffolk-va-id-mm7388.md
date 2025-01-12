@@ -15,8 +15,8 @@ description: >-
   values your expertise, we want to hear from you.  
 location: 'Suffolk, VA'
 team: Commercial
-datePosted: '2024-12-18T18:10:44.081Z'
-validThrough: '2025-01-25T18:10:44.081Z'
+datePosted: '2025-01-12T08:25:12.112Z'
+validThrough: '2025-02-25T08:25:12.112Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -18,8 +18,8 @@ description: >-
   - Design, install, and maintain...
 location: 'Buffalo, NY'
 team: Solar
-datePosted: '2024-12-18T09:20:49.168Z'
-validThrough: '2025-01-29T09:20:49.168Z'
+datePosted: '2025-01-12T09:33:36.391Z'
+validThrough: '2025-02-14T09:33:36.391Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

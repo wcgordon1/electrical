@@ -14,8 +14,8 @@ description: >-
   maintenance, and troubleshooting of ...
 location: 'Santa Clara, CA'
 team: Commercial
-datePosted: '2024-12-18T18:19:57.944Z'
-validThrough: '2025-01-19T18:19:57.944Z'
+datePosted: '2025-01-12T09:12:21.065Z'
+validThrough: '2025-02-21T09:12:21.065Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

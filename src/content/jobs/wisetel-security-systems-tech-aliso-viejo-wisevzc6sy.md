@@ -14,8 +14,8 @@ description: >-
   the surrounding areas. The ...
 location: 'Aliso Viejo, CA'
 team: Commercial
-datePosted: '2024-12-18T13:48:04.853Z'
-validThrough: '2025-01-23T13:48:04.853Z'
+datePosted: '2025-01-12T09:55:25.753Z'
+validThrough: '2025-02-26T09:55:25.753Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

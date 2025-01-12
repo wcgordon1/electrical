@@ -14,8 +14,8 @@ description: >-
   role in supporting healthcare facilities projects...
 location: 'Indianapolis, IN'
 team: Commercial
-datePosted: '2024-12-18T03:33:49.683Z'
-validThrough: '2025-01-30T03:33:49.683Z'
+datePosted: '2025-01-12T08:20:34.490Z'
+validThrough: '2025-02-23T08:20:34.490Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint
@@ -30,8 +30,8 @@ jobLocation:
 baseSalary:
   currency: USD
   value: 32.07
-  minValue: 29.04
-  maxValue: 35.1
+  minValue: 21.04
+  maxValue: 25.1
   unitText: HOUR
 experienceRequirements: midLevel
 occupationalCategory: Data Center

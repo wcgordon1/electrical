@@ -15,8 +15,8 @@ description: >-
   ### Role: Multi-Family Master Electr...
 location: 'Chattanooga, TN'
 team: Residential
-datePosted: '2024-12-18T12:27:04.587Z'
-validThrough: '2025-02-01T12:27:04.587Z'
+datePosted: '2025-01-12T10:36:03.234Z'
+validThrough: '2025-02-18T10:36:03.234Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

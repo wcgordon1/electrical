@@ -18,8 +18,8 @@ description: >-
   buildings according to NFPA codes and sta...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-18T03:00:14.334Z'
-validThrough: '2025-01-22T03:00:14.334Z'
+datePosted: '2025-01-12T09:24:19.852Z'
+validThrough: '2025-02-25T09:24:19.852Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

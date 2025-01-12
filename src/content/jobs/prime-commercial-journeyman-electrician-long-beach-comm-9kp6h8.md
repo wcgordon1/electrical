@@ -23,8 +23,8 @@ description: >-
   - Install, main...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-18T06:41:28.790Z'
-validThrough: '2025-01-27T06:41:28.790Z'
+datePosted: '2025-01-12T11:45:53.805Z'
+validThrough: '2025-02-22T11:45:53.805Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

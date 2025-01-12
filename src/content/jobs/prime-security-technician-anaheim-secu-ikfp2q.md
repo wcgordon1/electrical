@@ -23,8 +23,8 @@ description: >-
   - Install, maintain, and repair secur...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-18T11:30:55.461Z'
-validThrough: '2025-02-01T11:30:55.461Z'
+datePosted: '2025-01-12T09:20:34.787Z'
+validThrough: '2025-02-26T09:20:34.787Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

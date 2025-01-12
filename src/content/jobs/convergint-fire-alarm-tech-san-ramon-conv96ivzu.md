@@ -14,8 +14,8 @@ description: >-
   installation, maintenance...
 location: 'San Ramon, CA'
 team: Commercial
-datePosted: '2024-12-18T03:33:42.578Z'
-validThrough: '2025-01-19T03:33:42.578Z'
+datePosted: '2025-01-12T08:34:46.849Z'
+validThrough: '2025-02-11T08:34:46.849Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint
@@ -30,8 +30,8 @@ jobLocation:
 baseSalary:
   currency: USD
   value: 29.55
-  minValue: 26.82
-  maxValue: 32.29
+  minValue: 28.82
+  maxValue: 34.29
   unitText: HOUR
 experienceRequirements: midLevel
 occupationalCategory: Fire Alarm

@@ -16,8 +16,8 @@ description: >-
   experienced electricians to install, maintain, and repair electrical sys...
 location: 'Columbia, SC'
 team: Industrial
-datePosted: '2024-12-18T06:30:40.228Z'
-validThrough: '2025-01-26T06:30:40.228Z'
+datePosted: '2025-01-12T11:49:02.976Z'
+validThrough: '2025-02-23T11:49:02.976Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies
