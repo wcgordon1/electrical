@@ -22,7 +22,7 @@ function generatePrompt(jobType, company, city, state, responsibilities, qualifi
   const prompts = [
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are a Senior ${jobType} with 20 years of experience creating a job post for ${company} in ${city}, ${state}.
+Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are a Senior ${jobType} with 20 years of experience creating a job post for ${company} for a multi-year project in ${city}, ${state} with additional projects near ${city} (list neighboring cities to ${city}).
 
 ## About Our ${jobType} Team
 Start with a detailed paragraph about working as a ${jobType} at ${company}, our reputation in ${city}, and the types of projects our ${jobType}s handle. Mention surrounding cities we work in.
@@ -69,7 +69,7 @@ ${benefits}
 
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a ${jobType}. Write it like a foreman explaining the ${jobType} position to a potential hire at ${company} in ${city}, ${state}.
+Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a ${jobType}. Write it like a foreman explaining the ${jobType} position to a potential hire at ${company} for a multi-year project in ${city}, ${state} with additional projects near ${city} (list neighboring cities to ${city})..
 
 ## What You'll Do as a ${jobType}
 Quick overview of the ${jobType} role and our current projects in ${city}. Keep it real and straightforward about what a ${jobType} does day-to-day.
@@ -92,7 +92,7 @@ ${benefits}
 
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a QUICK job description (200 words). Write it like a busy project manager needs this ${jobType} position filled ASAP at ${company} in ${city}, ${state}.
+Create a QUICK job description (200 words). Write it like a busy project manager needs this ${jobType} position filled ASAP at ${company} in ${city}, ${state} for long term projects.
 
 ## ${jobType} Position Overview
 One paragraph about what we need in a ${jobType} and what you'll do.
@@ -111,7 +111,7 @@ ${benefits}`,
 
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a BRIEF job description (200 words max) that's perfect for job boards. Seeking a ${jobType} at ${company} in ${city}, ${state}.
+Create a BRIEF job description (200 words max) that's perfect for job boards. Seeking a ${jobType} at ${company} in ${city}, ${state} for ongoing work.
 
 ## Role Overview
 - Position: ${jobType}
@@ -129,305 +129,415 @@ ${responsibilities}`
 }
 
 const JOB_TYPES = {
-  "Security Technician": {
-    "minValue": 22,
-    "maxValue": 30,
-    "experienceLevel": "entryLevel",
-    "category": "Security",
-    "team": "Commercial",
-    "yearsExperience": "1-3",
-    "responsibilities": "Install and configure IP cameras, access control systems, and motion sensors at commercial job sites. Pull and terminate low-voltage cables, including proper labeling and routing through conduits and cable trays. Mount and align security cameras and ensure proper field-of-view adjustments. Install and secure control panels, keypads, and card readers. Perform on-site functional testing of systems, including power and connectivity checks. Collaborate with general contractors and other trades to ensure installations meet site specifications. Maintain cleanliness and organization of tools, materials, and job sites.",
-    "qualifications": "Experience installing security systems, familiarity with cable termination tools, understanding of basic networking protocols, proficiency with IP camera systems, strong attention to detail, and effective customer service skills.",
-    "prompt": "Create a job description for a Security Technician focusing on system installations and maintenance."
-  },
-  "Electrician": {
-    "minValue": 30,
-    "maxValue": 38,
+  "PLC Technician": {
+    "minValue": 55,
+    "maxValue": 70,
     "experienceLevel": "midLevel",
-    "category": "Journeyman",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Perform installations of commercial electrical systems, including switchgear, panels, and transformers. Measure, cut, bend, and install EMT and rigid conduit accurately based on blueprints. Pull and terminate wires within conduits and boxes, ensuring secure and neat connections. Install and wire lighting fixtures, outlets, and power circuits. Perform testing and troubleshooting of circuits and electrical components using tools such as multimeters. Collaborate with other trades to plan and complete installations within project timelines. Ensure work areas are organized, clean, and compliant with safety standards.",
-    "qualifications": "Proficiency with conduit benders and power tools, in-depth knowledge of NEC codes, ability to work on lifts and scaffolding, strong troubleshooting skills, experience with lighting control systems, and leadership capabilities to mentor apprentices.",
-    "prompt": "Create a job description for a Commercial JourneymanElectrician focusing on installations and maintenance in commercial new constructionsettings."
+    "category": "Controls",
+    "team": "Industrial",
+    "yearsExperience": "2+",
+    "responsibilities": "Lead the commissioning and startup of PLC and DDC control systems, ensuring seamless integration and reliable performance. Collaborate with engineers, clients, and electrical teams to solve automation challenges and deliver high-quality outcomes. Maintain detailed records of system modifications and operations, ensuring all project documentation aligns with current statuses. Provide technical leadership on-site, guiding subcontractors, enforcing quality control standards, and resolving issues efficiently. Travel to client sites as needed (up to 30%) to oversee project implementation and ensure operational success.",
+    "qualifications": "2+ years of experience with Siemens TIA Portal, Allen Bradley Studio 5000, or similar platforms such as Inductive Automation Ignition or ICONICS. Proficiency in PLC installation, commissioning, and troubleshooting. Strong understanding of HVAC control theory, electronics, and electrical circuits. Excellent communication skills, the ability to work independently, and a proactive approach to problem-solving.",
+    "prompt": "Create a job description for a PLC Technician specializing in the commissioning, troubleshooting, and integration of automation systems for data centers and industrial facilities."
   },
-  "Apprentice Electrician": {
-    "minValue": 18,
-    "maxValue": 27,
-    "experienceLevel": "entryLevel",
-    "category": "Assistant",
-    "team": "Residential",
-    "yearsExperience": "0-2",
-    "responsibilities": "Assist licensed electricians with the installation of residential electrical systems, including wiring for outlets, switches, and lighting fixtures. Pull and secure electrical cables through walls, attics, and crawl spaces. Set up and maintain job site tools and materials. Perform basic tasks such as mounting electrical boxes and preparing conduit for wiring. Help with labeling and organizing wires according to system plans. Maintain safety practices and a clean job site, ensuring all tools and debris are properly stored or disposed of. Shadow experienced electricians to learn proper techniques and methods.",
-    "qualifications": "Basic knowledge of residential wiring and circuits, ability to handle tools such as pliers and drills, strong attention to detail, good organizational skills, and reliable transportation to job sites.",
-    "prompt": "Create a job description for an Electrical Helper focusing on assisting with residential wiring and installations in homes."
-  },
-  "Cable Installer": {
-    "minValue": 18,
-    "maxValue": 28,
-    "experienceLevel": "seniorLevel",
-    "category": "Voice Data",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Install structured cabling systems, including Cat5e, Cat6, and fiber optics, in new construction and retrofit environments. Terminate and test copper and fiber optic cables using precision tools and testers. Mount, secure, and label network racks and patch panels. Install cable tray and ladder rack systems, ensuring proper routing and support. Dress and bundle cables neatly to meet industry and site-specific standards. Read and follow construction blueprints and cabling diagrams to complete installations accurately. Coordinate with construction teams to integrate cabling systems with other infrastructure components.",
-    "qualifications": "Extensive experience with structured cabling, proficiency in terminating fiber and copper, knowledge of TIA/EIA cabling standards, ability to read network blueprints, and organizational skills for managing tools and inventory.",
-    "prompt": "Create a job description for a Voice and Data Structured Cable Technician focusing on structured cabling and fiber optic installations, terminating cat 5 and cat 6 cabling, patch panels, and network racks primarily in commercial new construction office buildings."
-  },
-  "Data Center Technician": {
-    "minValue": 24,
-    "maxValue": 32,
-    "experienceLevel": "seniorLevel",
-    "category": "Data Center",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Install server racks and cabinets, ensuring proper alignment and anchoring. Route and secure high-density cabling within racks, overhead trays, and under-floor systems. Mount and connect power distribution units (PDUs) and manage cable pathways to ensure a clean and organized setup. Perform basic cable testing and labeling to maintain accuracy in data center documentation. Work closely with project managers and other trades to meet installation schedules. Maintain adherence to strict cleanliness and operational standards in the data center environment. Assist with material and inventory management to support ongoing projects.",
-    "qualifications": "Experience in data center environments, knowledge of power and cooling systems, proficiency with cable testers, understanding of network configurations, and ability to follow precise documentation protocols.",
-    "prompt": "Create a job description for a Data Center Technician focusing on infrastructure and cabling installations."
-  },
-  "Electrician Helper": {
+    "Security Technician": {
+      "minValue": 22,
+      "maxValue": 32,
+      "experienceLevel": "entryLevel",
+      "category": "Security",
+      "team": "Commercial",
+      "yearsExperience": "1-3",
+      "responsibilities": "Install, configure, and troubleshoot security systems, including IP cameras, access control systems, motion detectors, and alarm systems at commercial job sites. Pull, terminate, and label low-voltage cables, ensuring proper routing and compliance with site specifications. Perform comprehensive on-site testing to verify system functionality, connectivity, and power reliability. Collaborate with project managers and general contractors to align installations with project timelines. Maintain accurate installation records and documentation, ensuring all systems meet customer and industry standards. Provide training to clients on basic system operation and troubleshooting. Adhere to safety protocols and maintain cleanliness and organization on job sites.",
+      "qualifications": "Experience with security systems installation, knowledge of cable routing and termination, familiarity with IP networking and camera systems, proficiency in troubleshooting hardware and software issues, and strong communication and organizational skills.",
+      "prompt": "Create a job description for a Security Technician focusing on advanced installations, system configuration, and maintenance for commercial environments."
+    },
+    "Journeyman Electrician": {
+      "minValue": 29,
+      "maxValue": 35,
+      "experienceLevel": "midLevel",
+      "category": "Journeyman",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install and maintain commercial electrical systems, including switchgear, transformers, lighting fixtures, and power circuits. Accurately measure, cut, and bend conduit (EMT, rigid) for system installations. Perform wire pulling, labeling, and termination, ensuring neat and secure connections. Troubleshoot electrical issues using tools like multimeters and ensure circuits meet NEC code requirements. Work collaboratively with other trades to plan and execute electrical installations within construction schedules. Supervise apprentices and provide guidance on proper techniques and safety practices. Maintain organized and clean job sites, adhering to all safety and operational standards.",
+      "qualifications": "Valid journeyman electrician license, in-depth knowledge of NEC codes, proficiency with conduit bending and electrical tools, strong troubleshooting skills, and leadership abilities to manage apprentices and teams.",
+      "prompt": "Create a job description for a Commercial Journeyman Electrician focusing on large-scale installations, maintenance, and troubleshooting in construction environments."
+    },
+    "Apprentice Electrician": {
+      "minValue": 18,
+      "maxValue": 23,
+      "experienceLevel": "entryLevel",
+      "category": "Apprentice",
+      "team": "Residential",
+      "yearsExperience": "0-2",
+      "responsibilities": "Assist licensed electricians with the installation of residential and commercial electrical systems, including wiring for outlets, switches, and lighting fixtures. Pull and route electrical cables through walls, ceilings, and conduits. Prepare conduit and assist in mounting electrical boxes and panels. Maintain job site organization, including inventory management and tool preparation. Perform basic tasks like wire labeling and clean-up to support project progress. Shadow experienced electricians to gain hands-on knowledge and develop skills in electrical installations and safety practices.",
+      "qualifications": "Basic understanding of electrical systems and hand tools, eagerness to learn, strong physical stamina, attention to detail, and ability to follow safety guidelines and instructions.",
+      "prompt": "Create a job description for an Apprentice Electrician focusing on learning and assisting with electrical installations in residential and commercial projects."
+    },
+    "Cable Installer": {
+      "minValue": 19,
+      "maxValue": 25,
+      "experienceLevel": "seniorLevel",
+      "category": "Voice Data",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install structured cabling systems, including Cat5e, Cat6, and fiber optics, in commercial and industrial environments. Terminate and test copper and fiber optic cables using precision tools and advanced testers. Mount, secure, and organize network racks, patch panels, and cable trays. Dress and bundle cables neatly to meet site-specific and industry standards. Troubleshoot and resolve connectivity issues during and after installations. Read and interpret blueprints and construction diagrams to ensure accurate installations. Coordinate with project teams to integrate cabling systems into larger infrastructure projects. Maintain detailed installation records and ensure adherence to quality and safety protocols.",
+      "qualifications": "Extensive experience with structured cabling, expertise in terminating and testing fiber optics, knowledge of TIA/EIA cabling standards, strong troubleshooting skills, and organizational ability to manage tools and inventory.",
+      "prompt": "Create a job description for a Structured Voice and Data Cable Installer focusing on advanced cabling installations, terminating cat 5 and 6, patch panels, cable trays, and infrastructure setup for commercial environments."
+    },
+    "Data Center Technician": {
+      "minValue": 25,
+      "maxValue": 33,
+      "experienceLevel": "seniorLevel",
+      "category": "Data Center",
+      "team": "Commercial",
+      "yearsExperience": "3-5",
+      "responsibilities": "Install server racks, cabinets, and power distribution units (PDUs) in large-scale data centers, ensuring proper alignment and anchoring. Route, secure, and label high-density cabling within overhead trays, underfloor systems, and racks, maintaining a clean and organized setup. Perform cable testing and troubleshooting using advanced diagnostic tools. Collaborate with project managers, engineers, and other trades to meet strict installation schedules and technical requirements. Maintain adherence to cleanliness, safety, and operational standards in sensitive data center environments. Manage materials and inventory to support ongoing projects and provide detailed documentation of completed work.",
+      "qualifications": "Extensive experience in data center environments, knowledge of power and cooling systems, proficiency in cable management and testing tools, understanding of network configurations, and strong documentation skills.",
+      "prompt": "Create a job description for a Data Center Technician focusing on advanced infrastructure installations, cable management, and system integration for enterprise-level data centers."
+    },
+    "Electrician Helper": {
     "minValue": 15,
     "maxValue": 18,
     "experienceLevel": "entryLevel",
     "category": "Apprentice",
     "team": "Commercial",
     "yearsExperience": "0-2",
-    "responsibilities": "Support electricians by pulling wires through conduit systems, cutting and preparing conduit, and mounting electrical boxes. Organize and prepare materials and tools for daily tasks. Assist in assembling light fixtures and basic electrical components. Maintain cleanliness and organization on the job site, including debris removal. Ensure tools and materials are stored safely and returned to proper locations. Provide general assistance with measurements and marking layouts as directed by licensed electricians.",
-    "qualifications": "Basic understanding of hand tools such as pliers and screwdrivers, ability to follow instructions, strong physical stamina, reliable work habits, and safety awareness for handling materials and equipment.",
-    "prompt": "Create a job description for an Electrician Helper focusing on assisting with installations and site work."
+    "responsibilities": "Assist electricians by pulling and securing wires through conduit systems, cutting and preparing conduit, and mounting electrical boxes. Organize tools and materials to ensure efficient daily operations. Perform basic tasks such as assembling light fixtures and preparing panels for wiring. Keep job sites clean, organized, and compliant with safety standards. Remove debris and assist with inventory management. Provide general support for measuring, marking, and layout tasks under the direction of licensed electricians.",
+    "qualifications": "Basic understanding of electrical tools and safety protocols, willingness to learn and follow instructions, strong physical stamina for handling materials, and a reliable work ethic.",
+    "prompt": "Create a job description for an Electrician Helper focusing on providing support for commercial electrical installations and maintenance."
   },
   "Alarm Installer": {
-    "minValue": 18,
-    "maxValue": 25,
+    "minValue": 23,
+    "maxValue": 30,
     "experienceLevel": "entryLevel",
     "category": "Fire Alarm",
     "team": "Commercial",
     "yearsExperience": "0-2",
-    "responsibilities": "Assist in the installation of fire alarm systems by pulling low-voltage wiring and securing it within conduits and cable trays. Mount devices such as smoke detectors, pull stations, and notification appliances according to layout plans. Perform labeling and basic testing of installed components under supervision. Prepare tools and materials for daily tasks and maintain a clean and safe work environment. Work closely with team members to ensure installations are completed on schedule.",
-    "qualifications": "Basic knowledge of hand tools like drills and cable strippers, familiarity with low-voltage wiring, strong attention to detail, ability to follow instructions and safety guidelines, and physical ability to lift up to 50 lbs and work on ladders.",
-    "prompt": "Create a job description for a Fire Alarm Installer focusing on assisting with the installation of low-voltage fire alarm systems in commercial office buildings."
+    "responsibilities": "Assist in the installation of fire alarm systems by pulling and terminating low-voltage wiring. Mount devices such as smoke detectors, pull stations, and notification appliances according to detailed layout plans. Perform system labeling, basic testing, and adjustments under supervision. Prepare materials and tools for daily tasks while maintaining a clean and organized work environment. Collaborate with senior installers to meet project schedules and maintain compliance with fire safety codes.",
+    "qualifications": "Basic knowledge of low-voltage wiring and tools, ability to follow installation instructions and safety guidelines, attention to detail, and physical ability to lift equipment and work on ladders.",
+    "prompt": "Create a job description for a Fire Alarm Installer focusing on assisting with the installation and basic testing of fire alarm systems in commercial environments."
   },
   "Fire Alarm Technician": {
-    "minValue": 29,
-    "maxValue": 38,
+    "minValue": 25,
+    "maxValue": 30,
     "experienceLevel": "midLevel",
     "category": "Fire Alarm",
     "team": "Commercial",
     "yearsExperience": "3-5",
-    "responsibilities": "Install, inspect, and troubleshoot fire alarm systems, ensuring all devices are mounted and wired according to layout plans. Perform system testing and adjustments to ensure proper functionality and compliance with site requirements. Route and secure low-voltage cabling in ceilings and walls. Coordinate with general contractors to integrate fire alarm systems with other building systems. Document work progress and maintain accurate records of installations and repairs. Provide basic on-site training for end-users on operating fire alarm systems.",
-    "qualifications": "Experience with fire alarm systems and control panels, understanding of local fire codes and regulations, ability to troubleshoot and resolve system issues, familiarity with programming fire panels preferred, excellent communication skills, and attention to detail in documentation.",
-    "prompt": "Create a job description for a Fire Alarm Technician focusing on installation, maintenance, and programming of fire alarm systems for commercial properties."
+    "responsibilities": "Install, inspect, and maintain fire alarm systems, ensuring all components, including control panels, smoke detectors, and pull stations, meet design specifications and safety standards. Perform system testing and troubleshooting to resolve functionality issues and ensure compliance with local fire codes. Route and secure low-voltage wiring in walls and ceilings, maintaining an organized and professional installation. Coordinate with general contractors and electricians to integrate fire alarm systems with other building systems. Document installation and maintenance details, providing clear records for compliance and client use. Train end-users on the operation of fire alarm systems and respond to service calls as needed.",
+    "qualifications": "Proficiency with fire alarm control panels and programming, strong understanding of local fire codes and NFPA standards, experience with troubleshooting and maintaining fire alarm systems, and excellent communication and problem-solving skills.",
+    "prompt": "Create a job description for a Fire Alarm Technician focusing on installation, testing, and maintenance of fire alarm systems for large commercial properties."
   },
   "Audio Visual Technician": {
     "minValue": 25,
-    "maxValue": 34,
+    "maxValue": 30,
     "experienceLevel": "midLevel",
     "category": "Audio Visual",
     "team": "Commercial",
     "yearsExperience": "3-5",
-    "responsibilities": "Install and set up audio-visual systems, including projectors, monitors, speakers, and microphones, in commercial environments. Route and terminate low-voltage cabling for AV components, ensuring proper labeling and connections. Mount and secure equipment such as displays, ceiling speakers, and wall control panels. Perform on-site system testing to verify sound quality, video clarity, and overall functionality. Troubleshoot connectivity and performance issues with AV systems and make necessary adjustments. Collaborate with construction teams to integrate AV systems into larger project plans. Document installation details, including wiring diagrams and equipment configurations, for future reference. Maintain organized tools, materials, and work areas on job sites.",
-    "qualifications": "Experience with audio-visual installations, knowledge of AV system components and connectivity standards, proficiency in routing and terminating low-voltage cabling, attention to detail in mounting and alignment, and effective communication skills for client interactions.",
-    "prompt": "Create a job description for an Audio Visual Technician focusing on installations, system setup, and troubleshooting in commercial settings."
-}
+    "responsibilities": "Install, configure, and test audio-visual systems, including projectors, displays, speakers, and microphones, for corporate and commercial clients. Route, terminate, and label low-voltage cables, ensuring secure and neat installations. Mount and align AV equipment such as wall displays and ceiling speakers, adhering to site plans and standards. Perform system troubleshooting and calibration to optimize audio and video quality. Collaborate with IT teams and construction crews to integrate AV systems with larger infrastructure projects. Maintain detailed documentation of equipment configurations, wiring diagrams, and installation notes. Provide basic training to clients on operating installed systems and address post-installation issues.",
+    "qualifications": "Experience in audio-visual installations, strong knowledge of AV components and connectivity, proficiency in cable termination and routing, attention to detail for mounting and alignment, and excellent troubleshooting skills.",
+    "prompt": "Create a job description for an Audio Visual Technician focusing on professional installation, configuration, and testing of AV systems in commercial environments."
+  },
+  "Fiber Optics Technician": {
+    "minValue": 28,
+    "maxValue": 38,
+    "experienceLevel": "midLevel",
+    "category": "Fiber Optics",
+    "team": "Commercial",
+    "yearsExperience": "3-5",
+    "responsibilities": "Install, terminate, and test fiber optic cables in commercial and industrial environments. Perform splicing of single-mode and multi-mode fibers using fusion splicers. Route and secure fiber optic cables within conduits, trays, and overhead systems, ensuring compliance with site standards. Conduct OTDR testing and troubleshooting to ensure signal integrity and performance. Collaborate with project managers, engineers, and other trades to integrate fiber optic systems with network infrastructure. Maintain detailed documentation of splicing, testing, and installation activities for client records and compliance. Ensure installations are clean, organized, and meet industry best practices.",
+    "qualifications": "Experience in fiber optic installations and splicing, proficiency with OTDR testing and troubleshooting, strong knowledge of industry standards (e.g., TIA/EIA), attention to detail for cable routing and termination, and effective communication skills for team collaboration.",
+    "prompt": "Create a job description for a Fiber Optics Technician focusing on professional installation, splicing, and testing of fiber optic systems in commercial environments."
+  }
 };
 
 const COMPANIES = {
-  'MMR Group': {
-    name: 'MMR Group',
-    sameAs: 'https://www.mmrgrp.com/',
-    logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
+  'Kirby Electric': {
+    name: 'Kirby Electric',
+    sameAs: 'https://kirbyelectric.com/',
+    logo: 'https://kirbyelectric.com/wp-content/uploads/2023/03/kirby_logo.png'
   },
-  'Staley Technologies': {
-    name: 'Staley Technologies',
-    sameAs: 'https://staleytechnologies.com/',
-    logo: 'https://staleytechnologies.com/wp-content/uploads/2021/02/cropped-Logo_StaleyTechnologies.png'
+  'Myro Electrical': {
+    name: 'Myro Electrical',
+    sameAs: 'https://myroelectrical.com/',
+    logo: 'https://images.squarespace-cdn.com/content/v1/6441d6a8c943293c268b4359/7b2478ca-3514-499f-80c1-3a92bb142f0c/curve__1_-removebg-preview.png?format=1500w'
   },
-  'IES Electric': {
-    name: 'IES Electric',
-    sameAs: 'https://iesci.net/',
-    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
-  },
-  'AVI SPL': {
-    name: 'AVI SPL',
-    sameAs: 'https://avispl.com/',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyraGCdDcBhUVCLjb9MI2McsVysMD7wjYlIQ&s'
-  },
-  'T&D Communications': {
-    name: 'T&D Communications',
-    sameAs: 'https://www.tanddcomm.com/',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHzkB3k7eQoSQ/company-logo_200_200/company-logo_200_200/0/1631320385872?e=2147483647&v=beta&t=nuFy5lrwqoCuQ6_2P8hO_EwhwJlnndzcbM7ZPSfdKlM'
-  },
-  'WiLine': {
-    name: 'WiLine',
-    sameAs: 'https://www.wiline.com/',
-    logo: 'https://www.wiline.com/img/logo_blue.png'
-  },
-  'SRP Electric': {
-    name: 'SRP Electric',
-    sameAs: 'https://www.srpelectricinc.com/',
-    logo: 'https://lirp.cdn-website.com/b7067fab/dms3rep/multi/opt/srp-electric-1920w.png'
-  },
-  'Convergint': {
-    name: 'Convergint',
-    sameAs: 'https://www.convergint.com/',
-    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
-  },
-  'Vision Technologies': {
-    name: 'Vision Technologies',
-    sameAs: 'https://www.visiontechnologies.com/',
-    logo: 'https://www.visiontechnologies.com/themes/custom/vt/logo.svg'
+  'Berks Electrical': {
+    name: 'Berks Electrical',
+    sameAs: 'https://berkselectrical.com/',
+    logo: 'https://berkselectrical.com/wp-content/uploads/2022/03/berk-logo.jpg'
   },
   'Tech Electronics': {
     name: 'Tech Electronics',
     sameAs: 'https://www.techelectronics.com/',
     logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
   },
-  'High Point Networks': {
-    name: 'High Point Networks',
-    sameAs: 'https://www.highpointnetworks.com/',
-    logo: 'https://highpointnetworks.com/wp-content/uploads/2023/11/HPN-logo-fullColor-rgb.svg'
+  'Oak Electrical': {
+    name: 'Oak Electrical',
+    sameAs: 'https://oakelectriccompany.com/',
+    logo: 'https://oakelectriccompany.com/wp-content/uploads/2017/04/logoNav-for-web.png'
   },
-  'M3 Technology': {
-    name: 'M3 Technology',
-    sameAs: 'https://m3tc.com/',
-    logo: 'https://m3tc.com/wp-content/uploads/2020/09/m3svg2.svg'
+  'Crosby Electric': {
+    name: 'Crosby Electric',
+    sameAs: 'https://www.crosbyelectric.com/',
+    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
   },
-  'Enhanced Voice & Data': {
-    name: 'Enhanced Voice & Data',
-    sameAs: 'https://www.evdnetworks.com/',
-    logo: 'https://le-cdn.hibuwebsites.com/96e0889d6ad24d76868742b04ea19ca4/dms3rep/multi/opt/enhanced-voice-and-data-networks-logo-530w.jpg'
+  'Reliable Electric': {
+    name: 'Reliable Electric',
+    sameAs: 'https://reliable-contractors.com/',
+    logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
   },
-  'Inc Installs': {
-    name: 'Inc Installs',
-    sameAs: 'https://www.inc-installs.com/',
-    logo: 'https://www.inc-installs.com/wp-content/uploads/2019/12/INC-Installs-Web-Logo.png'
+  'Granite State Electric': {
+    name: 'Granite State Electric',
+    sameAs: 'https://granitestateelectricians.com/',
+    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
   },
-  'Direct Line': {
-    name: 'Direct Connect',
-    sameAs: 'https://www.dlci.net/',
-    logo: 'https://cdn.freebiesupply.com/logos/thumbs/2x/direct-line-2-logo.png'
+  'EZ Electric': {
+    name: 'EZ Electric',
+    sameAs: 'https://ezelectric.com/',
+    logo: 'https://cdn.prod.website-files.com/62858eb9f95b5ef6ab8256be/66195b93d011344d05b98867_ez-electric-logo.svg'
   },
-  'Atek Communications': {
-    name: 'Atek Communications',
-    sameAs: 'https://www.atekcommunications.com/',
-    logo: 'https://www.atekcommunications.com/images/gif/icclogo2000.gif'
+  'JP Electric': {
+    name: 'JP Electric',
+    sameAs: 'https://jpelectric.com/',
+    logo: 'https://jpelectric.com/wp-content/uploads/2021/05/logo.png'
   },
-  'Shelby Communications': {
-    name: 'Shelby Communications',
-    sameAs: 'https://www.shelbycommunications.com/',
-    logo: 'https://shelbycommunications.com/wp-content/uploads/2022/02/eQkSUiEUF9h03zP_TRYxMq9BEwyVxvd6tiQOkA.png'
+  'Star Electric': {
+    name: 'Star Electric',
+    sameAs: 'https://www.starelectricmt.com/',
+    logo: 'https://www.starelectricmt.com/wp-content/uploads/2023/11/starelectric-favicon-black-and-white.svg'
   },
-  'Texas Voice & Data': {
-    name: 'Texas Voice & Data',
-    sameAs: 'http://www.texasvoicedata.com/',
-    logo: 'https://nebula.wsimg.com/3d01291556c12048b98053e61436463c?AccessKeyId=1694F521AED933792FFF&disposition=0&alloworigin=1'
+  'JD Electric': {
+    name: 'JD Electric',
+    sameAs: 'https://jdproelectric.com/',
+    logo: 'https://img1.wsimg.com/isteam/ip/243bff06-83b1-4928-b792-0338b6394a0b/logo/f2643ee5-278f-40f6-b108-dfc392a3d6fa.png/:/rs=w:662,h:160,cg:true,m/cr=w:662,h:160/qt=q:95'
   },
-  'Teleco': {
-    name: 'Teleco',
-    sameAs: 'https://www.teleco.com/',
-    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
+  'Tully Electric': {
+    name: 'Tully Electric',
+    sameAs: 'https://www.tully-electric.com/',
+    logo: 'https://static.wixstatic.com/media/3a1e46_522696ccd68b4e63b984a72af3fe2da3~mv2.jpg/v1/fill/w_310,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/tully_logo_name_(640x245).jpg'
+  },
+  'Marathon Electrical': {
+    name: 'Marathon Electrical',
+    sameAs: 'https://marathonelectric.com/',
+    logo: 'https://static.wixstatic.com/media/619c2c_813b990e8a82413597ed3f144ac0cb67~mv2.png/v1/crop/x_0,y_93,w_2420,h_815/fill/w_820,h_276,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/Marathon_Horizontal_Reversed_RGB.png'
+  },
+  'Eskew Electric': {
+    name: 'Eskew Electric',
+    sameAs: 'https://eskewelectric.com/',
+    logo: 'https://img1.wsimg.com/isteam/ip/a06397fa-6f72-478f-ae05-6cf10229cbc5/blob-b5037f9.png/:/rs=w:501,h:400,cg:true,m/cr=w:501,h:400/qt=q:95'
+  },
+  'Colvin Electric': {
+    name: 'Colvin Electric',
+    sameAs: 'https://colvinelectric.com/',
+    logo: 'https://colvinelectric.com/wp-content/uploads/2018/10/colvin-electric_footer-logo-1.png'
+  },
+  'Passion Electric': {
+    name: 'Passion Electric',
+    sameAs: 'https://passionelectric.com/',
+    logo: 'https://passionelectric.com/wp-content/uploads/Passion-Electric-Logo-web-final-wide-full-color.png.webp'
+  },
+  'Braco Electrical': {
+    name: 'Braco Electrical',
+    sameAs: 'https://bracoelectrical.com/',
+    logo: 'https://www.bracoelectrical.com/images/logo.png'
+  },
+  'Safe Electric': {
+    name: 'Safe Electric',
+    sameAs: 'https://callsafe.com/',
+    logo: 'https://callsafe.com/wp-content/uploads/2024/05/Safe-Electric-Plumbing-Logo.png.webp'
+  },
+  'ESP Electrical': {
+    name: 'ESP Electrical',
+    sameAs: 'https://www.espelectrical.net/',
+    logo: 'https://www.espelectrical.net/images/logo.png'
+  },
+  'DP Electric': {
+    name: 'DP Electric',
+    sameAs: 'https://dpelectric.com/',
+    logo: 'https://dpelectric.com/wp-content/uploads/2022/03/DPA.png'
+  },
+  'Simple Electric': {
+    name: 'Simple Electric',
+    sameAs: 'https://simpleelectricaz.com/',
+    logo: 'https://simpleelectricaz.com/wp-content/uploads/2017/10/logo.png'
+  },
+  'Dodge Electric': {
+    name: 'Dodge Electric',
+    sameAs: 'https://dodgeelectric.com/',
+    logo: 'https://dodgeelectric.com/wp-content/uploads/2016/04/logo.jpg?quality=100.3022012111021'
+  },
+  'Miller Electric': {
+    name: 'Miller Electric',
+    sameAs: 'https://millerelect.com/',
+    logo: 'https://millerelect.com/wp-content/uploads/2022/04/logo.png'
+  },
+  'Arc Electric': {
+    name: 'Arc Electric',
+    sameAs: 'https://www.arcelectric.co/',
+    logo: 'https://static.wixstatic.com/media/6fbf59_32ce059a02c943c1a4ca0da76effedcc~mv2.png/v1/fill/w_116,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arc%20Electric%20Logo.png'
+  },
+  'Koehler Electric': {
+    name: 'Koehler Electric',
+    sameAs: 'https://jwkoehler.com/',
+    logo: 'https://jwkoehler.com/wp-content/uploads/2022/04/Koehler-Electric-Logo-2022-01.svg'
+  },
+  'Convergint': {
+    name: 'Convergint',
+    sameAs: 'https://www.convergint.com/',
+    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
+  },
+  'Prime Partners': {
+    name: 'Prime Partners',
+    sameAs: 'https://www.primepartners.com/',
+    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
+  },
+  'Valley Alarm': {
+    name: 'Valley Alarm',
+    sameAs: 'https://valleyalarm.com/',
+    logo: 'https://www.valleyalarm.com/wp-content/uploads/2024/07/Valley-Alarm-Logo-web.png'
+  },
+  'Alert 360': {
+    name: 'Alert 360',
+    sameAs: 'https://alert360.com/',
+    logo: 'https://www.alert360.com/sites/default/files/Alert%20360%20Santa-01%202.png'
+  },
+  'Safe and Sound': {
+    name: 'Safe and Sound',
+    sameAs: 'https://getsafeandsound.com/',
+    logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
+  },
+  'Barry Bros Security': {
+    name: 'Barry Bros Security',
+    sameAs: 'https://barrybros.com/',
+    logo: 'https://www.barrybros.com/wp-content/themes/barrybros/img/logo.svg'
+  },
+  'Koorsen': {
+    name: 'Koorsen',
+    sameAs: 'https://koorsen.com/',
+    logo: 'https://www.koorsen.com/wp-content/uploads/2022/02/Koorsen-Logo.svg'
   }
 };
 
 const LOCATIONS = [
-  { "city": "Miami", "state": "FL", "zipCode": "33101" },
-  { "city": "Orlando", "state": "FL", "zipCode": "32801" },
-  { "city": "Tampa", "state": "FL", "zipCode": "33601" },
-  { "city": "Jacksonville", "state": "FL", "zipCode": "32201" },
+  { "city": "Phoenix", "state": "AZ", "zipCode": "85001" },
+  { "city": "Glendale", "state": "AZ", "zipCode": "85301" },
+  { "city": "Scottsdale", "state": "AZ", "zipCode": "85250" },
+  { "city": "Tempe", "state": "AZ", "zipCode": "85280" },
+  { "city": "Mesa", "state": "AZ", "zipCode": "85201" },
+  { "city": "Chandler", "state": "AZ", "zipCode": "85224" },
+  { "city": "Gilbert", "state": "AZ", "zipCode": "85233" },
+  { "city": "Peoria", "state": "AZ", "zipCode": "85345" },
+  { "city": "Surprise", "state": "AZ", "zipCode": "85374" },
+  { "city": "Avondale", "state": "AZ", "zipCode": "85323" },
+  { "city": "Denver", "state": "CO", "zipCode": "80201" },
+  { "city": "Aurora", "state": "CO", "zipCode": "80010" },
+  { "city": "Lakewood", "state": "CO", "zipCode": "80226" },
+  { "city": "Thornton", "state": "CO", "zipCode": "80229" },
+  { "city": "Arvada", "state": "CO", "zipCode": "80002" },
+  { "city": "Westminster", "state": "CO", "zipCode": "80030" },
+  { "city": "Centennial", "state": "CO", "zipCode": "80112" },
+  { "city": "Boulder", "state": "CO", "zipCode": "80301" },
+  { "city": "Fort Collins", "state": "CO", "zipCode": "80521" },
+  { "city": "Greeley", "state": "CO", "zipCode": "80631" },
   { "city": "Fort Lauderdale", "state": "FL", "zipCode": "33301" },
-  { "city": "Tallahassee", "state": "FL", "zipCode": "32301" },
-  { "city": "Naples", "state": "FL", "zipCode": "34101" },
-  { "city": "Sarasota", "state": "FL", "zipCode": "34230" },
-  { "city": "Cape Coral", "state": "FL", "zipCode": "33904" },
-  { "city": "Pensacola", "state": "FL", "zipCode": "32501" },
-  { "city": "St. Petersburg", "state": "FL", "zipCode": "33701" },
-  { "city": "Lakeland", "state": "FL", "zipCode": "33801" },
-  { "city": "Melbourne", "state": "FL", "zipCode": "32901" },
-  { "city": "Palm Bay", "state": "FL", "zipCode": "32905" },
-  { "city": "Hialeah", "state": "FL", "zipCode": "33002" },
-  { "city": "Delray Beach", "state": "FL", "zipCode": "33444" },
-  { "city": "Boca Raton", "state": "FL", "zipCode": "33427" },
   { "city": "Hollywood", "state": "FL", "zipCode": "33019" },
-  { "city": "Coral Springs", "state": "FL", "zipCode": "33065" },
-  { "city": "Miami Beach", "state": "FL", "zipCode": "33139" },
-  { "city": "Kissimmee", "state": "FL", "zipCode": "34741" },
-  { "city": "West Palm Beach", "state": "FL", "zipCode": "33401" },
-  { "city": "Port St. Lucie", "state": "FL", "zipCode": "34952" },
-  { "city": "Gainesville", "state": "FL", "zipCode": "32601" },
-  { "city": "Daytona Beach", "state": "FL", "zipCode": "32114" },
-  { "city": "Clearwater", "state": "FL", "zipCode": "33755" },
-  { "city": "Ocala", "state": "FL", "zipCode": "34470" },
-  { "city": "Doral", "state": "FL", "zipCode": "33122" },
-  { "city": "Altamonte Springs", "state": "FL", "zipCode": "32701" },
-  { "city": "Sanford", "state": "FL", "zipCode": "32771" },
-  { "city": "Winter Park", "state": "FL", "zipCode": "32789" },
-  { "city": "Winter Haven", "state": "FL", "zipCode": "33880" },
-  { "city": "Lake Worth", "state": "FL", "zipCode": "33460" },
-  { "city": "Palm Coast", "state": "FL", "zipCode": "32137" },
-  { "city": "Fort Myers", "state": "FL", "zipCode": "33901" },
-  { "city": "North Miami", "state": "FL", "zipCode": "33161" },
-  { "city": "Lehigh Acres", "state": "FL", "zipCode": "33936" },
-  { "city": "Homestead", "state": "FL", "zipCode": "33030" },
+  { "city": "Pompano Beach", "state": "FL", "zipCode": "33060" },
   { "city": "Davie", "state": "FL", "zipCode": "33314" },
-  { "city": "Houston", "state": "TX", "zipCode": "77001" },
-  { "city": "Dallas", "state": "TX", "zipCode": "75201" },
-  { "city": "Austin", "state": "TX", "zipCode": "78701" },
-  { "city": "San Antonio", "state": "TX", "zipCode": "78201" },
-  { "city": "Fort Worth", "state": "TX", "zipCode": "76101" },
-  { "city": "El Paso", "state": "TX", "zipCode": "79901" },
-  { "city": "Plano", "state": "TX", "zipCode": "75023" },
-  { "city": "Arlington", "state": "TX", "zipCode": "76001" },
-  { "city": "Corpus Christi", "state": "TX", "zipCode": "78401" },
-  { "city": "Laredo", "state": "TX", "zipCode": "78040" },
-  { "city": "Lubbock", "state": "TX", "zipCode": "79401" },
-  { "city": "Irving", "state": "TX", "zipCode": "75038" },
-  { "city": "Garland", "state": "TX", "zipCode": "75040" },
-  { "city": "Frisco", "state": "TX", "zipCode": "75033" },
-  { "city": "McKinney", "state": "TX", "zipCode": "75069" },
-  { "city": "Killeen", "state": "TX", "zipCode": "76540" },
-  { "city": "Pasadena", "state": "TX", "zipCode": "77501" },
-  { "city": "Midland", "state": "TX", "zipCode": "79701" },
-  { "city": "Amarillo", "state": "TX", "zipCode": "79101" },
-  { "city": "Brownsville", "state": "TX", "zipCode": "78520" },
-  { "city": "Sugar Land", "state": "TX", "zipCode": "77478" },
-  { "city": "Pearland", "state": "TX", "zipCode": "77581" },
-  { "city": "College Station", "state": "TX", "zipCode": "77840" },
-  { "city": "Round Rock", "state": "TX", "zipCode": "78664" },
-  { "city": "Odessa", "state": "TX", "zipCode": "79760" },
-  { "city": "Beaumont", "state": "TX", "zipCode": "77701" },
-  { "city": "Carrollton", "state": "TX", "zipCode": "75006" },
-  { "city": "Abilene", "state": "TX", "zipCode": "79601" },
-  { "city": "Waco", "state": "TX", "zipCode": "76701" },
-  { "city": "Denton", "state": "TX", "zipCode": "76201" },
-  { "city": "Atlanta", "state": "GA", "zipCode": "30301" },
-  { "city": "Augusta", "state": "GA", "zipCode": "30901" },
-  { "city": "Savannah", "state": "GA", "zipCode": "31401" },
-  { "city": "Athens", "state": "GA", "zipCode": "30601" },
-  { "city": "Sandy Springs", "state": "GA", "zipCode": "30328" },
-  { "city": "Macon", "state": "GA", "zipCode": "31201" },
-  { "city": "Roswell", "state": "GA", "zipCode": "30075" },
-  { "city": "Marietta", "state": "GA", "zipCode": "30060" },
-  { "city": "Alpharetta", "state": "GA", "zipCode": "30009" },
-  { "city": "Warner Robins", "state": "GA", "zipCode": "31088" },
-  { "city": "Valdosta", "state": "GA", "zipCode": "31601" },
-  { "city": "Dalton", "state": "GA", "zipCode": "30720" },
-  { "city": "Peachtree City", "state": "GA", "zipCode": "30269" },
-  { "city": "Columbus", "state": "GA", "zipCode": "31901" },
-  { "city": "Gainesville", "state": "GA", "zipCode": "30501" },
-  { "city": "Charleston", "state": "SC", "zipCode": "29401" },
-  { "city": "Columbia", "state": "SC", "zipCode": "29201" },
-  { "city": "Greenville", "state": "SC", "zipCode": "29601" },
-  { "city": "Mount Pleasant", "state": "SC", "zipCode": "29464" },
-  { "city": "North Charleston", "state": "SC", "zipCode": "29405" },
-  { "city": "Rock Hill", "state": "SC", "zipCode": "29730" },
-  { "city": "Summerville", "state": "SC", "zipCode": "29483" },
-  { "city": "Hilton Head Island", "state": "SC", "zipCode": "29928" },
-  { "city": "Florence", "state": "SC", "zipCode": "29501" },
-  { "city": "Spartanburg", "state": "SC", "zipCode": "29301" },
-  { "city": "Anderson", "state": "SC", "zipCode": "29621" },
-  { "city": "Beaufort", "state": "SC", "zipCode": "29902" },
-  { "city": "Greenwood", "state": "SC", "zipCode": "29646" },
-  { "city": "Aiken", "state": "SC", "zipCode": "29801" },
-  { "city": "Greer", "state": "SC", "zipCode": "29650" }
+  { "city": "Plantation", "state": "FL", "zipCode": "33324" },
+  { "city": "Sunrise", "state": "FL", "zipCode": "33313" },
+  { "city": "Miramar", "state": "FL", "zipCode": "33023" },
+  { "city": "Coral Springs", "state": "FL", "zipCode": "33065" },
+  { "city": "Weston", "state": "FL", "zipCode": "33326" },
+  { "city": "Deerfield Beach", "state": "FL", "zipCode": "33441" },
+  { "city": "Orlando", "state": "FL", "zipCode": "32801" },
+  { "city": "Kissimmee", "state": "FL", "zipCode": "34741" },
+  { "city": "Sanford", "state": "FL", "zipCode": "32771" },
+  { "city": "Altamonte Springs", "state": "FL", "zipCode": "32701" },
+  { "city": "Oviedo", "state": "FL", "zipCode": "32765" },
+  { "city": "Winter Park", "state": "FL", "zipCode": "32789" },
+  { "city": "Apopka", "state": "FL", "zipCode": "32703" },
+  { "city": "Ocoee", "state": "FL", "zipCode": "34761" },
+  { "city": "Clermont", "state": "FL", "zipCode": "34711" },
+  { "city": "Winter Garden", "state": "FL", "zipCode": "34787" },
+  { "city": "Tampa", "state": "FL", "zipCode": "33601" },
+  { "city": "St. Petersburg", "state": "FL", "zipCode": "33701" },
+  { "city": "Clearwater", "state": "FL", "zipCode": "33755" },
+  { "city": "Brandon", "state": "FL", "zipCode": "33510" },
+  { "city": "Largo", "state": "FL", "zipCode": "33770" },
+  { "city": "Riverview", "state": "FL", "zipCode": "33578" },
+  { "city": "Palm Harbor", "state": "FL", "zipCode": "34682" },
+  { "city": "Pinellas Park", "state": "FL", "zipCode": "33781" },
+  { "city": "Wesley Chapel", "state": "FL", "zipCode": "33543" },
+  { "city": "Plant City", "state": "FL", "zipCode": "33563" },
+  { "city": "Washington", "state": "DC", "zipCode": "20001" },
+  { "city": "Arlington", "state": "VA", "zipCode": "22201" },
+  { "city": "Alexandria", "state": "VA", "zipCode": "22301" },
+  { "city": "Silver Spring", "state": "MD", "zipCode": "20901" },
+  { "city": "Bethesda", "state": "MD", "zipCode": "20814" },
+  { "city": "Falls Church", "state": "VA", "zipCode": "22046" },
+  // { "city": "Rockville", "state": "MD", "zipCode": "20850" },
+  // { "city": "Reston", "state": "VA", "zipCode": "20190" },
+  // { "city": "Gaithersburg", "state": "MD", "zipCode": "20877" },
+  // { "city": "Bowie", "state": "MD", "zipCode": "20715" },
+  // { "city": "Richmond", "state": "VA", "zipCode": "23218" },
+  // { "city": "Henrico", "state": "VA", "zipCode": "23228" },
+  // { "city": "Henrico", "state": "VA", "zipCode": "23228" },
+  // { "city": "Chesterfield", "state": "VA", "zipCode": "23832" },
+  // { "city": "Petersburg", "state": "VA", "zipCode": "23803" },
+  // { "city": "Hopewell", "state": "VA", "zipCode": "23860" },
+  // { "city": "Mechanicsville", "state": "VA", "zipCode": "23111" },
+  // { "city": "Virginia Beach", "state": "VA", "zipCode": "23450" },
+  // { "city": "Norfolk", "state": "VA", "zipCode": "23510" },
+  // { "city": "Chesapeake", "state": "VA", "zipCode": "23320" },
+  // { "city": "Newport News", "state": "VA", "zipCode": "23606" },
+  // { "city": "Hampton", "state": "VA", "zipCode": "23661" },
+  // { "city": "Suffolk", "state": "VA", "zipCode": "23434" },
+  // { "city": "Portsmouth", "state": "VA", "zipCode": "23704" },
+  // { "city": "Wilmington", "state": "NC", "zipCode": "28401" },
+  // { "city": "Leland", "state": "NC", "zipCode": "28451" },
+  // { "city": "Southport", "state": "NC", "zipCode": "28461" },
+  // { "city": "Raleigh", "state": "NC", "zipCode": "27601" },
+  // { "city": "Cary", "state": "NC", "zipCode": "27511" },
+  // { "city": "Durham", "state": "NC", "zipCode": "27701" },
+  // { "city": "Chapel Hill", "state": "NC", "zipCode": "27514" },
+  // { "city": "Wake Forest", "state": "NC", "zipCode": "27587" },
+  // { "city": "Fayetteville", "state": "NC", "zipCode": "28301" },
+  // { "city": "Hope Mills", "state": "NC", "zipCode": "28348" },
+  // { "city": "Spring Lake", "state": "NC", "zipCode": "28390" },
+  // { "city": "Charlotte", "state": "NC", "zipCode": "28202" },
+  // { "city": "Concord", "state": "NC", "zipCode": "28025" },
+  // { "city": "Huntersville", "state": "NC", "zipCode": "28078" },
+  // { "city": "Gastonia", "state": "NC", "zipCode": "28052" },
+  // { "city": "Matthews", "state": "NC", "zipCode": "28105" },
+  // { "city": "Greensboro", "state": "NC", "zipCode": "27401" },
+  // { "city": "High Point", "state": "NC", "zipCode": "27260" },
+  // { "city": "Burlington", "state": "NC", "zipCode": "27215" },
+  // { "city": "Winston-Salem", "state": "NC", "zipCode": "27101" },
+  // { "city": "Charleston", "state": "SC", "zipCode": "29401" },
+  // { "city": "Mount Pleasant", "state": "SC", "zipCode": "29464" },
+  // { "city": "North Charleston", "state": "SC", "zipCode": "29405" },
+  // { "city": "Summerville", "state": "SC", "zipCode": "29483" },
+  // { "city": "Goose Creek", "state": "SC", "zipCode": "29445" },
+  // { "city": "Greenville", "state": "SC", "zipCode": "29601" },
+  // { "city": "Spartanburg", "state": "SC", "zipCode": "29301" },
+  // { "city": "Anderson", "state": "SC", "zipCode": "29621" },
+  // { "city": "Simpsonville", "state": "SC", "zipCode": "29681" },
+  // { "city": "Atlanta", "state": "GA", "zipCode": "30301" },
+  // { "city": "Marietta", "state": "GA", "zipCode": "30060" },
+  // { "city": "Smyrna", "state": "GA", "zipCode": "30080" },
+  // { "city": "Roswell", "state": "GA", "zipCode": "30075" },
+  // { "city": "Alpharetta", "state": "GA", "zipCode": "30004" },
+  // { "city": "Nashville", "state": "TN", "zipCode": "37201" },
+  // { "city": "Franklin", "state": "TN", "zipCode": "37064" },
+  // { "city": "Hendersonville", "state": "TN", "zipCode": "37075" },
+  // { "city": "Murfreesboro", "state": "TN", "zipCode": "37130" },
+  // { "city": "Miami", "state": "FL", "zipCode": "33101" },
+  // { "city": "Hialeah", "state": "FL", "zipCode": "33010" },
+  // { "city": "Miami Gardens", "state": "FL", "zipCode": "33056" },
+  // { "city": "Homestead", "state": "FL", "zipCode": "33030" },
+  // { "city": "North Miami Beach", "state": "FL", "zipCode": "33160" }
   ];
   
 

@@ -35,42 +35,42 @@
     "notificationType": "URL_UPDATED"
   },
   "tec-electric-apprentice-electrician-anaheim-tecbph6pj": {
-    "lastIndexed": "2024-12-22T15:02:40.885Z",
+    "lastIndexed": "2025-01-13T14:10:45.218Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "ies-electric-apprentice-electrician-lancaster-iesxyigr8": {
-    "lastIndexed": "2024-12-22T15:02:41.185Z",
+    "lastIndexed": "2025-01-13T14:10:44.941Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "tr-data-installer-fremont-id-hv8477": {
-    "lastIndexed": "2024-12-22T15:02:41.455Z",
+    "lastIndexed": "2025-01-13T14:10:44.683Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "mmr-group-security-systems-tech-placentia-mmr1bgn6r": {
-    "lastIndexed": "2024-12-22T15:02:41.746Z",
+    "lastIndexed": "2025-01-13T14:10:44.407Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "mmr-group-plant-apprentice-electrician-durham-mmre2w8pw": {
-    "lastIndexed": "2024-12-22T15:02:42.012Z",
+    "lastIndexed": "2025-01-13T14:10:44.127Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "tech-electronics-data-center-cable-tech-san-jose-tech16bpdv": {
-    "lastIndexed": "2024-12-22T15:02:42.270Z",
+    "lastIndexed": "2025-01-13T14:10:43.795Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "3d-communications-av-systems-tech-sunnyvale-3dcp8lvus": {
-    "lastIndexed": "2024-12-22T15:02:42.530Z",
+    "lastIndexed": "2025-01-13T14:10:43.486Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
   "convergint-security-systems-tech-milwaukee-convcipwqw": {
-    "lastIndexed": "2024-12-22T15:02:42.789Z",
+    "lastIndexed": "2025-01-13T14:10:43.182Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   },
@@ -3381,6 +3381,466 @@
   },
   "telco-data-av-tech-pompano-beach-av-t-l1m4m5": {
     "lastIndexed": "2025-01-11T17:07:24.235Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-maintenance-controls-electrician-savannah-tec7emt91": {
+    "lastIndexed": "2025-01-13T14:10:45.479Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wiline-data-center-cable-tech-fort-worth-wiliqbgw0w": {
+    "lastIndexed": "2025-01-13T14:10:45.761Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-low-voltage-cable-technician-commerce-visi3fcoqy": {
+    "lastIndexed": "2025-01-13T14:10:51.124Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-retail-apprentice-electrician-birmingham-mmr0ct2mw": {
+    "lastIndexed": "2025-01-13T14:10:51.386Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-security-systems-tech-san-carlos-visiyx1eht": {
+    "lastIndexed": "2025-01-13T14:10:51.643Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-pv-system-journeyman-electrician-jacksonville-mmrt0x4xt": {
+    "lastIndexed": "2025-01-13T14:10:51.906Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-residential-journeyman-electrician-norfolk-mmr3v76sn": {
+    "lastIndexed": "2025-01-13T14:10:52.180Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-pv-system-controls-electrician-augusta-mmrubl94v": {
+    "lastIndexed": "2025-01-13T14:10:52.437Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-av-systems-tech-foster-city-wiser4m45r": {
+    "lastIndexed": "2025-01-13T14:10:52.692Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "high-point-networks-security-systems-tech-tiburon-high73tbci": {
+    "lastIndexed": "2025-01-13T14:10:52.961Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-apprentice-electrician-santa-ana-tecqtvfx0": {
+    "lastIndexed": "2025-01-13T14:10:53.220Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "hci-systems-low-voltage-cable-technician-glen-allen-hciu8vsp5": {
+    "lastIndexed": "2025-01-13T14:10:53.496Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-repair-master-electrician-youngstown-tecvvc0nk": {
+    "lastIndexed": "2025-01-13T14:10:58.820Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "cable-tech-sd-kane-id-gj3423": {
+    "lastIndexed": "2025-01-13T14:10:59.077Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wiline-fire-alarm-tech-rancho-santa-margarita-wilijq2q62": {
+    "lastIndexed": "2025-01-13T14:10:59.334Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-data-center-cable-tech-marina-del-rey-mmr8h4vgg": {
+    "lastIndexed": "2025-01-13T14:10:59.606Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-av-systems-tech-minneapolis-mmr4id64s": {
+    "lastIndexed": "2025-01-13T14:10:59.880Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "convergint-cable-technician-falls-church-convjkjkxw": {
+    "lastIndexed": "2025-01-13T14:11:00.140Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-journeyman-electrician-rancho-cucamonga-howebu6xzi": {
+    "lastIndexed": "2025-01-13T14:11:00.414Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-repair-apprentice-electrician-memphis-teczcccf1": {
+    "lastIndexed": "2025-01-13T14:11:00.677Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mirapath-data-center-cable-tech-culver-city-mirapkriai": {
+    "lastIndexed": "2025-01-13T14:11:00.935Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-low-voltage-cable-technician-flowery-branch-mmrzv2nou": {
+    "lastIndexed": "2025-01-13T14:11:01.196Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "ies-electric-apprentice-electrician-fresno-iesdh0j7l": {
+    "lastIndexed": "2025-01-13T14:11:06.588Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "convergint-av-systems-tech-kansas-city-conv8kmegf": {
+    "lastIndexed": "2025-01-13T14:11:06.844Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "t&d-communications-av-systems-tech-torrance-t&d7ujwdj": {
+    "lastIndexed": "2025-01-13T14:11:07.102Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tech-electronics-security-systems-tech-cleveland-techexgvxu": {
+    "lastIndexed": "2025-01-13T14:11:07.360Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tech-electronics-security-systems-tech-milpitas-techdq70ew": {
+    "lastIndexed": "2025-01-13T14:11:07.622Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-cable-technician-jackson-wisedmgl86": {
+    "lastIndexed": "2025-01-13T14:11:07.880Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-industrial-controls-electrician-columbus-tecpm9mw0": {
+    "lastIndexed": "2025-01-13T14:11:08.137Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-low-voltage-cable-technician-loveland-mmrz3ykmm": {
+    "lastIndexed": "2025-01-13T14:11:08.393Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "convergint-fire-alarm-tech-mission-viejo-conv3jj8qj": {
+    "lastIndexed": "2025-01-13T14:11:08.653Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-cable-technician-virginia-beach-visiq9o906": {
+    "lastIndexed": "2025-01-13T14:11:08.911Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "high-point-networks-cable-technician-woodstock-highhkqq19": {
+    "lastIndexed": "2025-01-13T14:11:14.362Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-cable-technician-greeley-wisehl7kbv": {
+    "lastIndexed": "2025-01-13T14:11:14.616Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-manufacturing-journeyman-electrician-virginia-beach-faitnxgpk3": {
+    "lastIndexed": "2025-01-13T14:11:14.880Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-healthcare-journeyman-electrician-macon-mmrp1v7jk": {
+    "lastIndexed": "2025-01-13T14:11:15.141Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-manufacturing-journeyman-electrician-toledo-tecmqvt5t": {
+    "lastIndexed": "2025-01-13T14:11:15.402Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "ies-electric-journeyman-electrician-glendale-ies6q5tfb": {
+    "lastIndexed": "2025-01-13T14:11:15.663Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-apprentice-electrician-los-angeles-howe4xauen": {
+    "lastIndexed": "2025-01-13T14:11:15.917Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wiline-cable-technician-longmont-wililfzvw9": {
+    "lastIndexed": "2025-01-13T14:11:16.174Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-custom-home-controls-electrician-pensacola-mmrjin9hj": {
+    "lastIndexed": "2025-01-13T14:11:16.432Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-service-apprentice-electrician-roanoke-faithqfjcs": {
+    "lastIndexed": "2025-01-13T14:11:16.691Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "rex-moore-electric-journeyman-electrician-long-beach-rexs70u1d": {
+    "lastIndexed": "2025-01-13T14:11:22.023Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-service-controls-electrician-saginaw-techzmgkk": {
+    "lastIndexed": "2025-01-13T14:11:22.281Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "rex-moore-electric-apprentice-electrician-riverside-rexr6266x": {
+    "lastIndexed": "2025-01-13T14:11:22.537Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-renewable-energy-master-electrician-baltimore-tecdzzb4x": {
+    "lastIndexed": "2025-01-13T14:11:22.789Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-healthcare-master-electrician-springfield-faitlufg7y": {
+    "lastIndexed": "2025-01-13T14:11:23.045Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "teleco-av-systems-tech-culver-city-tele7y7nlb": {
+    "lastIndexed": "2025-01-13T14:11:23.300Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-manufacturing-apprentice-electrician-greenville-faituk0mow": {
+    "lastIndexed": "2025-01-13T14:11:23.556Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-maintenance-apprentice-electrician-huntsville-fait20l4um": {
+    "lastIndexed": "2025-01-13T14:11:23.817Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-fire-alarm-tech-menlo-park-mmru05lkk": {
+    "lastIndexed": "2025-01-13T14:11:24.077Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-solar-master-electrician-akron-mmri284h8": {
+    "lastIndexed": "2025-01-13T14:11:24.337Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-heavy-industrial-journeyman-electrician-erie-tecrqh2xz": {
+    "lastIndexed": "2025-01-13T14:11:29.652Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "t&d-communications-cable-technician-salem-t&dzphrzv": {
+    "lastIndexed": "2025-01-13T14:11:29.911Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-healthcare-journeyman-electrician-charleston-fait8sjzhz": {
+    "lastIndexed": "2025-01-13T14:11:30.179Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "3d-communications-fire-alarm-tech-emeryville-3dcft4thq": {
+    "lastIndexed": "2025-01-13T14:11:30.441Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "rex-moore-electric-journeyman-electrician-modesto-rexo8lgz6": {
+    "lastIndexed": "2025-01-13T14:11:30.698Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "high-point-networks-cable-technician-denver-highkdwgl7": {
+    "lastIndexed": "2025-01-13T14:11:30.976Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "t&d-communications-data-center-cable-tech-columbus-t&d3xiz6r": {
+    "lastIndexed": "2025-01-13T14:11:31.241Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "t&d-communications-fire-alarm-tech-houston-t&da5s1jn": {
+    "lastIndexed": "2025-01-13T14:11:31.500Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tech-electronics-cable-technician-atlanta-tech7cf84a": {
+    "lastIndexed": "2025-01-13T14:11:31.756Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-manufacturing-apprentice-electrician-wilmington-faiteg6yuk": {
+    "lastIndexed": "2025-01-13T14:11:32.017Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-apprentice-electrician-moreno-valley-howek3znta": {
+    "lastIndexed": "2025-01-13T14:11:37.344Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-maintenance-apprentice-electrician-flint-faitq2nr8e": {
+    "lastIndexed": "2025-01-13T14:11:37.602Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "cable-tech-la-kane-id-jg3892": {
+    "lastIndexed": "2025-01-13T14:11:37.856Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-multi-family-controls-electrician-rochester-faito8lgf6": {
+    "lastIndexed": "2025-01-13T14:11:38.115Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "3d-communications-fire-alarm-tech-el-segundo-3dc7yz1iq": {
+    "lastIndexed": "2025-01-13T14:11:38.369Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-av-systems-tech-detroit-visi6bj5zg": {
+    "lastIndexed": "2025-01-13T14:11:38.626Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-residential-master-electrician-reading-mmr2px39p": {
+    "lastIndexed": "2025-01-13T14:11:38.888Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tr-data-installer-seattle-id-bb8834": {
+    "lastIndexed": "2025-01-13T14:11:39.145Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "ies-electric-journeyman-electrician-san-bernardino-iesz3nsev": {
+    "lastIndexed": "2025-01-13T14:11:39.403Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-apprentice-electrician-garden-grove-howe48l9wx": {
+    "lastIndexed": "2025-01-13T14:11:39.668Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-av-systems-tech-lake-forest-visiq8s9xz": {
+    "lastIndexed": "2025-01-13T14:11:44.996Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-plant-master-electrician-syracuse-mmrhj7yna": {
+    "lastIndexed": "2025-01-13T14:11:45.255Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-custom-home-apprentice-electrician-cleveland-mmrbn8e5r": {
+    "lastIndexed": "2025-01-13T14:11:45.510Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tr-cable-technician-portland-rogers-id-mm8313": {
+    "lastIndexed": "2025-01-13T14:11:45.768Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-fire-alarm-tech-san-diego-wise9i3zwk": {
+    "lastIndexed": "2025-01-13T14:11:46.026Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "faith-technologies-maintenance-apprentice-electrician-mobile-fait6mye0g": {
+    "lastIndexed": "2025-01-13T14:11:46.283Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "3d-communications-data-center-cable-tech-campbell-3dckt80s7": {
+    "lastIndexed": "2025-01-13T14:11:46.539Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "teleco-fire-alarm-tech-la-palma-telea41vih": {
+    "lastIndexed": "2025-01-13T14:11:46.792Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-journeyman-electrician-huntington-beach-howesjpood": {
+    "lastIndexed": "2025-01-13T14:11:47.049Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-low-voltage-cable-technician-durham-wisea44vf9": {
+    "lastIndexed": "2025-01-13T14:11:47.308Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-custom-home-master-electrician-utica-mmrnowd9m": {
+    "lastIndexed": "2025-01-13T14:11:52.751Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "howell-electric-journeyman-electrician-los-angeles-howee96m47": {
+    "lastIndexed": "2025-01-13T14:11:53.008Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tr-fiber-optic-technician-mcenroe-sb-id-mm4811": {
+    "lastIndexed": "2025-01-13T14:11:53.263Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mmr-group-service-apprentice-electrician-scranton-mmrk0zdk6": {
+    "lastIndexed": "2025-01-13T14:11:53.523Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "mirapath-security-systems-tech-seattle-mirarc0dyp": {
+    "lastIndexed": "2025-01-13T14:11:53.775Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "wisetel-fire-alarm-tech-el-paso-wise83bbu0": {
+    "lastIndexed": "2025-01-13T14:11:54.031Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "vision-technologies-security-systems-tech-san-antonio-visi6np52m": {
+    "lastIndexed": "2025-01-13T14:11:54.293Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "hci-systems-security-systems-tech-mill-valley-hcimeu8nb": {
+    "lastIndexed": "2025-01-13T14:11:54.546Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "hci-systems-cable-technician-kennesaw-hcik6cewt": {
+    "lastIndexed": "2025-01-13T14:11:54.814Z",
+    "status": 200,
+    "notificationType": "URL_UPDATED"
+  },
+  "tec-electric-solar-apprentice-electrician-jackson-tecglxa6i": {
+    "lastIndexed": "2025-01-13T14:11:55.068Z",
     "status": 200,
     "notificationType": "URL_UPDATED"
   }
