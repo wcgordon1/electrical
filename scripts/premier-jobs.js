@@ -18,33 +18,28 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-// Premier Electric company info
+// Prime Partners company info
 const COMPANY = {
-  name: 'Premier Electric',
-  sameAs: 'https://www.premierelectricalstaffing.com/',
-  logo: 'https://www.premierelectricalstaffing.com/wp-content/uploads/2020/05/Premier-Electrical-Staffing-logo.png'
+  name: 'Prime Partners',
+  sameAs: 'https://www.primepartners.info/',
+  logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1-1.png'
 };
 
 // Dynamic prompts based on job type and style
 const PROMPT_STYLES = {
-  detailed: {
-    wordCount: 400,
-    style: 'comprehensive and detailed',
-    tone: 'professional and thorough'
-  },
   standard: {
     wordCount: 300,
-    style: 'balanced and informative',
+    style: 'balanced and informative focusing on day to day tasks',
     tone: 'clear and engaging'
   },
   concise: {
     wordCount: 200,
-    style: 'direct and focused',
+    style: 'direct and focused like a project foreman talking to his crew',
     tone: 'straightforward and practical'
   },
   brief: {
     wordCount: 50,
-    style: 'concise and to the point',
+    style: 'concise, to the point, and very direct',
     tone: 'direct and clear like a project foreman talking to his crew'
   }
 };
@@ -52,12 +47,12 @@ const PROMPT_STYLES = {
 function generatePromptA(jobType, jobInfo, location, style, salary) {
   const { wordCount, tone } = PROMPT_STYLES[style];
   
-  return `Create a ${wordCount}-word ${tone} job description for a ${jobType} position at Premier Electric in ${location.city}, ${location.state}. Format in markdown using only h2 and h3 tags for headings. This description will be directly converted to HTML, so no markdown code blocks needed.
+  return `Create a ${wordCount}-word ${tone} job description for a ${jobType} position at Prime Partners in ${location.city}, ${location.state}. Format in markdown using only h2 and h3 tags for headings. This description will be directly converted to HTML, so no markdown code blocks needed.
 
 ${jobInfo.prompt}
 
-## About Premier Electric
-Highlight our reputation in ${location.city} for excellence in electrical contracting and large projects. Mention our focus on ${jobInfo.team} projects and commitment to quality.
+## About Prime Partners
+Highlight our reputation in ${location.city} for excellence in contracting and large projects. Mention our focus on ${jobInfo.team} projects and commitment to quality.
 
 ## Role Overview
 Detail the ${jobType} position, emphasizing:
@@ -83,13 +78,13 @@ ${jobInfo.responsibilities}
 - Professional development
 - Career advancement opportunities
 
-Focus on Premier Electric's commitment to employee growth, safety, and excellence in the electrical industry.`;
+Focus on Prime Partners commitment to employee growth, safety, and excellence in the electrical industry.`;
 }
 
 function generatePromptB(jobType, jobInfo, location, style, salary) {
   const { wordCount, tone } = PROMPT_STYLES[style];
   
-  return `Write a ${wordCount}-word ${tone} job posting that feels more conversational and engaging. This is for a ${jobType} role at Premier Electric in ${location.city}, ${location.state}. Use only h2 and h3 markdown tags for headings, no code blocks needed.
+  return `Write a ${wordCount}-word ${tone} job posting that feels more conversational and engaging. This is for a ${jobType} role at Prime Partners in ${location.city}, ${location.state}. Use only h2 and h3 markdown tags for headings, no code blocks needed.
 
 ${jobInfo.prompt}
 
@@ -114,31 +109,20 @@ Include these key details in a way that feels organic:
 - Tools and equipment provided
 - Training opportunities
 
-End with a strong call to action that emphasizes Premier Electric's commitment to employee development and long-term career growth. Make the reader feel excited about joining our team.`;
+End with a strong call to action that emphasizes Prime Partners commitment to employee development and long-term career growth. Make the reader feel excited about joining our team.`;
 }
 
 const JOB_TYPES = {
-    "Electrician": {
-      "minValue": 29,
-      "maxValue": 38,
-      "experienceLevel": "midLevel",
+"Journeyman Electrician": {
+      "minValue": 32,
+      "maxValue": 42,
+      "experienceLevel": "seniorLevel",
       "category": "Journeyman",
-      "team": "Commercial",
-      "yearsExperience": "3-5",
-      "responsibilities": "Install and maintain electrical systems, troubleshoot issues, upgrade lighting systems, and work on large-scale projects, including upcoming data centers and manufacturing plants in North Carolina.",
-      "qualifications": "Experience with conduit benders, multimeters, and circuit testers; ability to read diagrams and troubleshoot systems; hands-on experience with commercial installations.",
-      "prompt": "Create a job description for a Commercial Electrician focusing on installations and upgrades in commercial settings, with tools like conduit benders and multimeters."
-    },
-    "Security Tech": {
-      "minValue": 20,
-      "maxValue": 27,
-      "experienceLevel": "entryLevel",
-      "category": "Security",
-      "team": "Commercial",
-      "yearsExperience": "1-3",
-      "responsibilities": "Install and maintain security systems, troubleshoot connectivity issues, and assist with system integration on commercial properties statewide.",
-      "qualifications": "Basic experience with tools like crimpers and cable testers; understanding of security systems; hands-on troubleshooting skills.",
-      "prompt": "Create a job description for a Security Technician focusing on installing and maintaining security systems. Must have experience with tools like crimpers and cable testers."
+      "team": "Data Center",
+      "yearsExperience": "4-6",
+      "responsibilities": "Install, maintain, and troubleshoot electrical systems, including switchgear, UPS systems, and power distribution units (PDUs); ensure compliance with NEC and local electrical codes for data center construction and operations.",
+      "qualifications": "Valid journeyman electrician license; experience with high-voltage systems, conduit bending, and data center electrical infrastructure; strong knowledge of safety protocols and electrical schematics.",
+      "prompt": "Create a job description for a Journeyman Electrician specializing in electrical installations and maintenance for data center facilities."
     },
     "Cable Tech": {
       "minValue": 23,
@@ -149,18 +133,18 @@ const JOB_TYPES = {
       "yearsExperience": "3-5",
       "responsibilities": "Install structured cabling systems, terminate Cat5e/6 cables, and work on high-demand projects like upcoming warehouses and logistics centers.",
       "qualifications": "Proficient with punch-down tools and cable testers; experience with structured cabling installations; ability to troubleshoot connectivity issues.",
-      "prompt": "Create a job description for a Cable Tech focusing on structured cabling installations and troubleshooting."
+      "prompt": "Create a job description for a Structured Cable Technician focusing on voice and data structured cabling installations and troubleshooting."
     },
-    "Electrician Apprentice": {
-      "minValue": 18,
-      "maxValue": 24,
-      "experienceLevel": "entryLevel",
-      "category": "Apprentice",
-      "team": "Commercial",
-      "yearsExperience": "0-3",
-      "responsibilities": "Assist with electrical installations, handle materials, and learn wiring methods on projects such as commercial developments and industrial facilities.",
-      "qualifications": "Familiarity with basic tools like drills and wire strippers; willingness to learn and follow safety protocols; hands-on assistance experience.",
-      "prompt": "Create a job description for an Electrical Apprentice focusing on learning and assisting in commercial installations."
+"HVAC Technician": {
+      "minValue": 30,
+      "maxValue": 40,
+      "experienceLevel": "midLevel",
+      "category": "HVAC",
+      "team": "Data Center",
+      "yearsExperience": "3-5",
+      "responsibilities": "Maintain, repair, and install HVAC systems to ensure optimal cooling for server rooms; monitor and troubleshoot airflow and environmental controls in large-scale data center environments.",
+      "qualifications": "Experience with CRAC/CRAH units, precision cooling systems, and HVAC diagnostics; EPA certification and familiarity with data center cooling requirements.",
+      "prompt": "Create a job description for an HVAC Technician specializing in maintaining and optimizing cooling systems for data center operations."
     },
     "Data Center Tech": {
       "minValue": 24,
@@ -173,17 +157,17 @@ const JOB_TYPES = {
       "qualifications": "Experience with Fluke testers, cable management, and termination tools; hands-on data center installation experience.",
       "prompt": "Create a job description for a Data Center Technician focusing on cable installations and management for large-scale data centers."
     },
-    "Electrician Apprentice": {
-  "minValue": 18,
-  "maxValue": 25,
-  "experienceLevel": "entryLevel",
-  "category": "Apprentice",
-  "team": "Commercial",
-  "yearsExperience": "0-4",
-  "responsibilities": "Work alongside licensed electricians to install wiring, mount panels, and assist with conduit preparation; handle tools such as pliers, voltage testers, and drills; maintain a clean workspace and ensure tools are organized for efficiency.",
-  "qualifications": "Familiarity with hand tools like pliers and drills; eagerness to learn the trade; dependable and detail-oriented with strong problem-solving skills.",
-  "prompt": "Create a job description for an Electrician Apprentice focusing on hands-on assistance with electrical installations, including conduit prep, wiring, and tool management in a commercial environment."
-},
+    "Fiber Optic Technician": {
+      "minValue": 28,
+      "maxValue": 36,
+      "experienceLevel": "midLevel",
+      "category": "Fiber Optics",
+      "team": "Data Center",
+      "yearsExperience": "2-4",
+      "responsibilities": "Install, splice, and test fiber optic cables; manage fiber pathways and troubleshoot connectivity issues in large-scale data center environments.",
+      "qualifications": "Proficiency in OTDR testing, fiber splicing, and termination techniques; experience with fiber management systems and adhering to industry standards.",
+      "prompt": "Create a job description for a Fiber Optic Technician specializing in fiber installations and maintenance for data center projects."
+    },
 "Apprentice Electrician": {
   "minValue": 18,
   "maxValue": 25,
@@ -227,61 +211,84 @@ const JOB_TYPES = {
   "responsibilities": "Assist in assembling and securing server racks in data center environments; follow blueprints and layout plans to position racks accurately; organize and manage tools and materials; install equipment into racks under supervision, including shelves and mounting brackets; ensure cable pathways are clear and accessible; perform basic quality checks to verify proper assembly; maintain cleanliness and safety on the job site.",
   "qualifications": "Hands-on construction or mechanical assembly experience; familiarity with basic hand tools such as drills, wrenches, and levels; ability to lift and position heavy materials (up to 50 lbs); strong attention to detail and ability to follow instructions; good communication skills and teamwork mindset; reliable transportation and punctuality.",
   "prompt": "Write a job description for a Rack and Stack Installer focusing on entry-level tasks in assembling server racks in data centers. The role emphasizes hands-on assembly work, safety, and teamwork, requiring construction or similar experience."
-}
+},
+"Access Control Technician": {
+      "minValue": 25,
+      "maxValue": 35,
+      "experienceLevel": "midLevel",
+      "category": "Security",
+      "team": "Data Center",
+      "yearsExperience": "2-4",
+      "responsibilities": "Install, configure, and maintain access control systems, including badge readers, biometric scanners, and door hardware; troubleshoot and repair security devices to ensure secure operations in data center environments.",
+      "qualifications": "Experience with access control systems such as Lenel, Honeywell, or HID; proficiency in low-voltage wiring and system integration; strong knowledge of security protocols and data center standards.",
+      "prompt": "Create a job description for an Access Control Technician specializing in installing and maintaining physical security systems for data center facilities."
+    },
+    "Facilities Technician": {
+      "minValue": 26,
+      "maxValue": 34,
+      "experienceLevel": "midLevel",
+      "category": "Data Center",
+      "team": "Facilities",
+      "yearsExperience": "2-4",
+      "responsibilities": "Perform routine inspections, maintenance, and repairs of data center infrastructure, including HVAC systems, electrical systems, and fire suppression systems; ensure operational efficiency and compliance with safety standards.",
+      "qualifications": "Experience in facilities maintenance, including HVAC, electrical, and plumbing systems; familiarity with data center infrastructure management (DCIM) tools; strong problem-solving and troubleshooting skills.",
+      "prompt": "Create a job description for a Facilities Technician specializing in maintaining and optimizing data center infrastructure and supporting day-to-day operations."
+    }
+
 
   };
 
 const LOCATIONS = [ 
-
-  { "city": "Virginia Beach", "state": "VA", "zipCode": "23450" },
-  { "city": "Norfolk", "state": "VA", "zipCode": "23510" },
-  { "city": "Chesapeake", "state": "VA", "zipCode": "23320" },
-  { "city": "Richmond", "state": "VA", "zipCode": "23219" },
-  { "city": "Newport News", "state": "VA", "zipCode": "23607" },
-  { "city": "Alexandria", "state": "VA", "zipCode": "22314" },
-  { "city": "Hampton", "state": "VA", "zipCode": "23669" },
-  { "city": "Roanoke", "state": "VA", "zipCode": "24011" },
-  { "city": "Portsmouth", "state": "VA", "zipCode": "23704" },
-  { "city": "Suffolk", "state": "VA", "zipCode": "23434" },
-  { "city": "Lynchburg", "state": "VA", "zipCode": "24504" },
-  { "city": "Harrisonburg", "state": "VA", "zipCode": "22801" },
-  { "city": "Leesburg", "state": "VA", "zipCode": "20175" },
-  { "city": "Charlottesville", "state": "VA", "zipCode": "22902" },
-  { "city": "Danville", "state": "VA", "zipCode": "24541" },
-  { "city": "Blacksburg", "state": "VA", "zipCode": "24060" },
-  { "city": "Manassas", "state": "VA", "zipCode": "20110" },
-  { "city": "Petersburg", "state": "VA", "zipCode": "23803" },
-  { "city": "Winchester", "state": "VA", "zipCode": "22601" },
-  { "city": "Salem", "state": "VA", "zipCode": "24153" },
-  { "city": "Fredericksburg", "state": "VA", "zipCode": "22401" },
-  { "city": "Staunton", "state": "VA", "zipCode": "24401" },
-  { "city": "Waynesboro", "state": "VA", "zipCode": "22980" },
-  { "city": "Bristol", "state": "VA", "zipCode": "24201" },
-  { "city": "Colonial Heights", "state": "VA", "zipCode": "23834" },
-  { "city": "Radford", "state": "VA", "zipCode": "24141" },
-  { "city": "Hopewell", "state": "VA", "zipCode": "23860" },
-  { "city": "Falls Church", "state": "VA", "zipCode": "22046" },
-  { "city": "Fairfax", "state": "VA", "zipCode": "22030" },
-  { "city": "Vienna", "state": "VA", "zipCode": "22180" },
-  { "city": "Herndon", "state": "VA", "zipCode": "20170" },
-  { "city": "Reston", "state": "VA", "zipCode": "20190" },
-  { "city": "Sterling", "state": "VA", "zipCode": "20164" },
   { "city": "Ashburn", "state": "VA", "zipCode": "20147" },
-  { "city": "Dulles", "state": "VA", "zipCode": "20166" },
+  { "city": "Leesburg", "state": "VA", "zipCode": "20175" },
   { "city": "Chantilly", "state": "VA", "zipCode": "20151" },
-  { "city": "Centreville", "state": "VA", "zipCode": "20120" },
-  { "city": "Gainesville", "state": "VA", "zipCode": "20155" },
-  { "city": "Woodbridge", "state": "VA", "zipCode": "22191" },
-  { "city": "Dale City", "state": "VA", "zipCode": "22193" },
-  { "city": "Annandale", "state": "VA", "zipCode": "22003" },
-  { "city": "Springfield", "state": "VA", "zipCode": "22150" },
-  { "city": "Lorton", "state": "VA", "zipCode": "22079" },
-  { "city": "Midlothian", "state": "VA", "zipCode": "23112" },
-  { "city": "Mechanicsville", "state": "VA", "zipCode": "23111" },
-  { "city": "Chester", "state": "VA", "zipCode": "23831" },
-  { "city": "Tuckahoe", "state": "VA", "zipCode": "23229" },
-  { "city": "Bon Air", "state": "VA", "zipCode": "23235" },
-  { "city": "Short Pump", "state": "VA", "zipCode": "23233" }
+  { "city": "Richmond", "state": "VA", "zipCode": "23219" },
+  { "city": "Santa Clara", "state": "CA", "zipCode": "95050" },
+  { "city": "San Jose", "state": "CA", "zipCode": "95110" },
+  { "city": "Fremont", "state": "CA", "zipCode": "94536" },
+  { "city": "Dallas", "state": "TX", "zipCode": "75201" },
+  { "city": "Plano", "state": "TX", "zipCode": "75023" },
+  { "city": "Fort Worth", "state": "TX", "zipCode": "76102" },
+  { "city": "Austin", "state": "TX", "zipCode": "78701" },
+  { "city": "Chicago", "state": "IL", "zipCode": "60601" },
+  { "city": "Aurora", "state": "IL", "zipCode": "60502" },
+  { "city": "Naperville", "state": "IL", "zipCode": "60540" },
+  { "city": "Secaucus", "state": "NJ", "zipCode": "07094" },
+  { "city": "Piscataway", "state": "NJ", "zipCode": "08854" },
+  { "city": "Edison", "state": "NJ", "zipCode": "08817" },
+  { "city": "Phoenix", "state": "AZ", "zipCode": "85001" },
+  { "city": "Mesa", "state": "AZ", "zipCode": "85201" },
+  { "city": "Tempe", "state": "AZ", "zipCode": "85281" },
+  { "city": "Atlanta", "state": "GA", "zipCode": "30301" },
+  { "city": "Marietta", "state": "GA", "zipCode": "30060" },
+  { "city": "Alpharetta", "state": "GA", "zipCode": "30004" },
+  { "city": "Salt Lake City", "state": "UT", "zipCode": "84101" },
+  { "city": "West Jordan", "state": "UT", "zipCode": "84084" },
+  { "city": "Ogden", "state": "UT", "zipCode": "84401" },
+  { "city": "Seattle", "state": "WA", "zipCode": "98101" },
+  { "city": "Redmond", "state": "WA", "zipCode": "98052" },
+  { "city": "Tacoma", "state": "WA", "zipCode": "98402" },
+  { "city": "Denver", "state": "CO", "zipCode": "80201" },
+  { "city": "Boulder", "state": "CO", "zipCode": "80301" },
+  { "city": "Aurora", "state": "CO", "zipCode": "80010" },
+  { "city": "Miami", "state": "FL", "zipCode": "33101" },
+  { "city": "Orlando", "state": "FL", "zipCode": "32801" },
+  { "city": "Tampa", "state": "FL", "zipCode": "33601" },
+  { "city": "New York", "state": "NY", "zipCode": "10001" },
+  { "city": "Buffalo", "state": "NY", "zipCode": "14201" },
+  { "city": "Albany", "state": "NY", "zipCode": "12207" },
+  { "city": "Las Vegas", "state": "NV", "zipCode": "89101" },
+  { "city": "Henderson", "state": "NV", "zipCode": "89002" },
+  { "city": "Reno", "state": "NV", "zipCode": "89501" },
+  { "city": "Portland", "state": "OR", "zipCode": "97201" },
+  { "city": "Hillsboro", "state": "OR", "zipCode": "97123" },
+  { "city": "Salem", "state": "OR", "zipCode": "97301" },
+  { "city": "Charlotte", "state": "NC", "zipCode": "28202" },
+  { "city": "Raleigh", "state": "NC", "zipCode": "27601" },
+  { "city": "Durham", "state": "NC", "zipCode": "27701" },
+  { "city": "Columbus", "state": "OH", "zipCode": "43201" },
+  { "city": "Cleveland", "state": "OH", "zipCode": "44101" },
+  { "city": "Cincinnati", "state": "OH", "zipCode": "45201" }
 ];
 
 function generateStreetAddress() {
@@ -314,11 +321,11 @@ function generateSalaryWithCents(baseMin, baseMax) {
 }
 
 function generateJobId(type) {
-  return `PREM${Math.random().toString(36).substring(2, 8)}`;
+  return `p-id-${Math.random().toString(36).substring(2, 8)}`;
 }
 
 function generateFilename(title, location, jobId) {
-  return `premier-electric-${title.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase()}.md`;
+  return `prime-data-${title.toLowerCase().replace(/\s+/g, '-')}-${location.city.toLowerCase().replace(/\s+/g, '-')}-${jobId.toLowerCase()}.md`;
 }
 
 function stripMarkdown(text) {
@@ -362,7 +369,7 @@ async function createJob(location, jobType, promptStyle) {
 
   const jobData = {
     position: jobType,
-    description: `Join our team at Premier Electric as a ${jobType} in ${location.city}, ${location.state}. ${strippedDescription}`,
+    description: `Join our team at Prime Partners as a ${jobType} in ${location.city}, ${location.state}. ${strippedDescription}`,
     location: `${location.city}, ${location.state}`,
     team: jobInfo.team,
     datePosted,
@@ -396,10 +403,7 @@ async function createJob(location, jobType, promptStyle) {
     featured: Math.random() < 0.2,
     email: [
       'will@bestelectricianjobs.com',
-      'Michael.Mckeaige@pes123.com',
-      'Sarahann.Moody@pes123.com',
-      'Dylan.Gibson@pes123.com',
-      'Sheila.Villagomez@pes123.com'
+      'support@primepartners.info'
     ]
   };
 
@@ -444,7 +448,7 @@ async function main() {
   }
 
   console.log('\nJob creation complete!');
-  console.log(`Created ${totalJobs} Premier Electric jobs across ${LOCATIONS.length} locations`);
+  console.log(`Created ${totalJobs} Prime Partners jobs across ${LOCATIONS.length} locations`);
 }
 
 main().catch(console.error); 
