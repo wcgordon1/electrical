@@ -37,7 +37,7 @@ baseSalary:
   maxValue: 30.29
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: Helix Electric
   value: HELIszumrl

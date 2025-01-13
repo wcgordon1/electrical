@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 37.86
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: MMR Group
   value: MMRvb7e8b

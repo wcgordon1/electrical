@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 37.77
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: 3D Communications
   value: 3DC7j32fo

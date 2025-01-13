@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 28.68
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Reliable Electric
   value: RELIpvj801

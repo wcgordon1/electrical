@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 27
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Howell Electric
   value: HOWEe7szqf

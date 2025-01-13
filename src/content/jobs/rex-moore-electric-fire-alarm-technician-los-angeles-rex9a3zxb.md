@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 37.46
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Rex Moore Electric
   value: REX9a3zxb

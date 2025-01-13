@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 27.64
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: 3D Communications
   value: 3DCcv19iq

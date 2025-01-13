@@ -39,7 +39,7 @@ baseSalary:
   maxValue: 29.09
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: IES Electric
   value: IES8meh0g

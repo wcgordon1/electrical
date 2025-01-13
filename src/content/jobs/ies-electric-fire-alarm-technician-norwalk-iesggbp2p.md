@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 38.08
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: IES Electric
   value: IESggbp2p

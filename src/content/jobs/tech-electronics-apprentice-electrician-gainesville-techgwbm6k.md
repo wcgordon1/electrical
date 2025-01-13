@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 29.3
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: Tech Electronics
   value: TECHgwbm6k

@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 36.86
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Staley Technologies
   value: STALaujoj3

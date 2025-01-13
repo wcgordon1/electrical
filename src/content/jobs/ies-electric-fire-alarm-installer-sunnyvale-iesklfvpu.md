@@ -1,13 +1,14 @@
 ---
 position: Fire Alarm Installer
 description: >-
-  Job Description: Fire Alarm Installer at IES Electric Quick Facts Role: Fire Alarm Installer
-  Experience: 0-2 years as a Fire Alarm Installer Location: Sunnyvale, CA Core Fire Alarm Installer
-  Skills Proficiency with hand tools Familiarity with low-voltage wiring Strong
-  attention to detail Ability to follow instructions and safety guidelines
-  Physical capability to lift 50 lbs and work on ladders Essential Fire Alarm Installer
-  Duties Assist with fire alarm system installations Pull and terminate
-  low-voltage wiring Mount devices Follow layout diagr...
+  Job Description: Fire Alarm Installer at IES Electric Quick Facts Role: Fire
+  Alarm Installer Experience: 0-2 years as a Fire Alarm Installer Location:
+  Sunnyvale, CA Core Fire Alarm Installer Skills Proficiency with hand tools
+  Familiarity with low-voltage wiring Strong attention to detail Ability to
+  follow instructions and safety guidelines Physical capability to lift 50 lbs
+  and work on ladders Essential Fire Alarm Installer Duties Assist with fire
+  alarm system installations Pull and terminate low-voltage wiring Mount devices
+  Follow layout diagr...
 location: 'Sunnyvale, CA'
 team: Commercial
 datePosted: '2025-01-10T12:14:23.468Z'
@@ -30,7 +31,7 @@ baseSalary:
   maxValue: 26.9
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: IES Electric
   value: IESklfvpu

@@ -39,7 +39,7 @@ baseSalary:
   maxValue: 37.87
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: T&D Communications
   value: T&Df2kdu2

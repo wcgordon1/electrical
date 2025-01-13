@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 37.1
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: LEI Electrical
   value: LEIawq98s

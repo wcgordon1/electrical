@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 30.2
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: High Point Networks
   value: HIGHod6rll

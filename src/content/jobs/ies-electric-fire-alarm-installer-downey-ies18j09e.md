@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 28.32
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: IES Electric
   value: IES18j09e

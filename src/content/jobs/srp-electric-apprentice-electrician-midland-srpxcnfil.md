@@ -39,7 +39,7 @@ baseSalary:
   maxValue: 30.26
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: SRP Electric
   value: SRPxcnfil

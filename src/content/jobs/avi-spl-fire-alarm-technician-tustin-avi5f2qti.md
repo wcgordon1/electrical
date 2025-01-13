@@ -40,7 +40,7 @@ baseSalary:
   maxValue: 37.94
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: AVI SPL
   value: AVI5f2qti

@@ -31,7 +31,7 @@ baseSalary:
   maxValue: 28.52
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: 3D Communications
   value: 3DCw9z68g

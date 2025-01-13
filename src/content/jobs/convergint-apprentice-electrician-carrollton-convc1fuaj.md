@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 29.84
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: Convergint
   value: CONVc1fuaj

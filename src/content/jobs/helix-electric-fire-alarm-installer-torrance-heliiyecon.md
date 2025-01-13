@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 27.53
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Helix Electric
   value: HELIiyecon

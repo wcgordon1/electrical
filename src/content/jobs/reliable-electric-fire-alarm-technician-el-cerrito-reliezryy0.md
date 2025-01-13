@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 37.99
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Reliable Electric
   value: RELIezryy0

@@ -49,7 +49,7 @@ baseSalary:
   maxValue: 19.57
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Prime Partners
   value: p-id-yxnpd7

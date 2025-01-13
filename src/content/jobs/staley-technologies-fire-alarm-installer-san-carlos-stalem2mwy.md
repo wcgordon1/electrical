@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 26.98
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Staley Technologies
   value: STALem2mwy

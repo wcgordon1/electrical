@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 21.77
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Reliable Electric
   value: RELI2eipd2

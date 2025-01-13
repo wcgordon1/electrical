@@ -47,7 +47,7 @@ baseSalary:
   maxValue: 30.1
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: Howell Electric
   value: HOWEf26oyb

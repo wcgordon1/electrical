@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 37.45
   unitText: HOUR
 experienceRequirements: midLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Rogers Electric
   value: ROGEmd16nx

@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 20.94
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Rex Moore Electric
   value: REX2zbwrg

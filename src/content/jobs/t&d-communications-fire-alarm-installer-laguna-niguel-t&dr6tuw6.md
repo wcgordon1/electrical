@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 28.07
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: T&D Communications
   value: T&Dr6tuw6

@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 28.6
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: LEI Electrical
   value: LEIpfxels

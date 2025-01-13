@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 29.52
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: AVI SPL
   value: AVIrhmhu2

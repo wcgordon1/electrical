@@ -47,7 +47,7 @@ baseSalary:
   maxValue: 28.71
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: LEI Electrical
   value: LEIzkrbsc

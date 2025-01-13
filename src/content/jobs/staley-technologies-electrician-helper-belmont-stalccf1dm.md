@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 20.52
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Staley Technologies
   value: STALccf1dm

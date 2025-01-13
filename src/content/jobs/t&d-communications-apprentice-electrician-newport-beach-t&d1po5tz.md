@@ -46,7 +46,7 @@ baseSalary:
   maxValue: 30.31
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: T&D Communications
   value: T&D1po5tz

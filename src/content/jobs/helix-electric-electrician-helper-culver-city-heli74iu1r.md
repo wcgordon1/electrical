@@ -41,7 +41,7 @@ baseSalary:
   maxValue: 20.24
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Helix Electric
   value: HELI74iu1r

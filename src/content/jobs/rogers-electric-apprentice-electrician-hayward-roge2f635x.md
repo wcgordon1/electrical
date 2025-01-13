@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 28.85
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: Rogers Electric
   value: ROGE2f635x

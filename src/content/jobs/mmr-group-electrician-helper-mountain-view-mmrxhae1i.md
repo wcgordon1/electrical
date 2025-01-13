@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 21.66
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: MMR Group
   value: MMRxhae1i

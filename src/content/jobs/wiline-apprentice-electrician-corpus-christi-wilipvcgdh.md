@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 28.29
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Assistant
+occupationalCategory: Apprentice
 identifier:
   name: WiLine
   value: WILIpvcgdh

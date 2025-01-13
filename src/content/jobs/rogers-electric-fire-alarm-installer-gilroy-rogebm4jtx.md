@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 28.4
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Fire Systems
+occupationalCategory: Fire Alarm
 identifier:
   name: Rogers Electric
   value: ROGEbm4jtx
