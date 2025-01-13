@@ -10,8 +10,8 @@ description: >-
   offers a unique opportunity to gain hands-on exp...
 location: 'Scranton, PA'
 team: Service
-datePosted: '2024-12-19T17:12:37.339Z'
-validThrough: '2025-02-01T17:12:37.339Z'
+datePosted: '2025-01-13T10:43:19.468Z'
+validThrough: '2025-02-17T10:43:19.468Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

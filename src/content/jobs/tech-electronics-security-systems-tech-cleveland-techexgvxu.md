@@ -13,8 +13,8 @@ description: >-
   customer se...
 location: 'Cleveland, OH'
 team: Commercial
-datePosted: '2024-12-19T03:57:55.028Z'
-validThrough: '2025-02-01T03:57:55.028Z'
+datePosted: '2025-01-13T09:15:15.799Z'
+validThrough: '2025-02-20T09:15:15.799Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

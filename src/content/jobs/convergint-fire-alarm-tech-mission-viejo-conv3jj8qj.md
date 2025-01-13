@@ -14,8 +14,8 @@ description: >-
   installation, mainte...
 location: 'Mission Viejo, CA'
 team: Commercial
-datePosted: '2024-12-19T04:51:59.279Z'
-validThrough: '2025-01-31T04:51:59.279Z'
+datePosted: '2025-01-13T08:07:44.834Z'
+validThrough: '2025-02-23T08:07:44.834Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

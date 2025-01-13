@@ -14,8 +14,8 @@ description: >-
   TX. This role...
 location: 'Houston, TX'
 team: Commercial
-datePosted: '2024-12-19T10:48:34.787Z'
-validThrough: '2025-01-31T10:48:34.787Z'
+datePosted: '2025-01-13T09:25:01.503Z'
+validThrough: '2025-02-17T09:25:01.503Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

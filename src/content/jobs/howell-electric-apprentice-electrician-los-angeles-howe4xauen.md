@@ -13,8 +13,8 @@ description: >-
   satisfaction, making us a leader in the ...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-19T06:11:55.121Z'
-validThrough: '2025-02-02T06:11:55.121Z'
+datePosted: '2025-01-13T13:45:54.594Z'
+validThrough: '2025-02-25T13:45:54.594Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

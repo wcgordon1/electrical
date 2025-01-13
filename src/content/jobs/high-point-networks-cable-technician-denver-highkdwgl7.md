@@ -14,8 +14,8 @@ description: >-
   the deployment of cabling infrastructures ...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-19T10:33:43.788Z'
-validThrough: '2025-02-01T10:33:43.788Z'
+datePosted: '2025-01-13T13:20:56.333Z'
+validThrough: '2025-02-12T13:20:56.333Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

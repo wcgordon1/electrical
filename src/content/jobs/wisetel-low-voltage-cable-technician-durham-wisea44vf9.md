@@ -15,8 +15,8 @@ description: >-
   installation,...
 location: 'Durham, NC'
 team: Commercial
-datePosted: '2024-12-19T16:10:18.833Z'
-validThrough: '2025-01-28T16:10:18.833Z'
+datePosted: '2025-01-13T10:58:11.099Z'
+validThrough: '2025-02-25T10:58:11.099Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

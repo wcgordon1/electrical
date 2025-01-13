@@ -16,8 +16,8 @@ description: >-
   responsible for installing, maintaining...
 location: 'Pensacola, FL'
 team: Residential
-datePosted: '2024-12-19T06:51:52.165Z'
-validThrough: '2025-02-01T06:51:52.165Z'
+datePosted: '2025-01-13T13:30:22.449Z'
+validThrough: '2025-02-25T13:30:22.449Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

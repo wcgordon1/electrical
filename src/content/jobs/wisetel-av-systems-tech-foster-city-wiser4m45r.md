@@ -14,8 +14,8 @@ description: >-
   installing, and maintaining audio-visual systems primarily for healthcare ...
 location: 'Foster City, CA'
 team: Commercial
-datePosted: '2024-12-19T01:35:54.605Z'
-validThrough: '2025-01-22T01:35:54.605Z'
+datePosted: '2025-01-13T12:48:41.983Z'
+validThrough: '2025-02-24T12:48:41.983Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

@@ -18,8 +18,8 @@ description: >-
   ### Overview of...
 location: 'Garden Grove, CA'
 team: Residential
-datePosted: '2024-12-19T13:40:44.287Z'
-validThrough: '2025-02-02T13:40:44.287Z'
+datePosted: '2025-01-13T10:37:25.939Z'
+validThrough: '2025-02-20T10:37:25.939Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

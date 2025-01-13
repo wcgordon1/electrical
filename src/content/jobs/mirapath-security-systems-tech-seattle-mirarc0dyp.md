@@ -14,8 +14,8 @@ description: >-
   and neighboring ci...
 location: 'Seattle, WA'
 team: Commercial
-datePosted: '2024-12-19T17:27:11.118Z'
-validThrough: '2025-01-24T17:27:11.118Z'
+datePosted: '2025-01-13T10:53:11.957Z'
+validThrough: '2025-02-23T10:53:11.957Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Mirapath

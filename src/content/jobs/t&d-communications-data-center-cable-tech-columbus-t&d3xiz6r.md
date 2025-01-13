@@ -14,8 +14,8 @@ description: >-
   healthcare facilities projects in Columbus, OH, and the surrounding areas...
 location: 'Columbus, OH'
 team: Commercial
-datePosted: '2024-12-19T10:35:45.679Z'
-validThrough: '2025-01-30T10:35:45.679Z'
+datePosted: '2025-01-13T12:20:43.242Z'
+validThrough: '2025-02-16T12:20:43.242Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

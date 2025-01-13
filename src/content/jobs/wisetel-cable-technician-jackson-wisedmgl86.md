@@ -14,8 +14,8 @@ description: >-
   This role primarily focuses on pr...
 location: 'Jackson, WY'
 team: Commercial
-datePosted: '2024-12-19T04:20:13.822Z'
-validThrough: '2025-01-30T04:20:13.822Z'
+datePosted: '2025-01-13T09:49:39.647Z'
+validThrough: '2025-02-19T09:49:39.647Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

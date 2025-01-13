@@ -14,8 +14,8 @@ description: >-
   office...
 location: 'Emeryville, CA'
 team: Commercial
-datePosted: '2024-12-19T10:14:07.545Z'
-validThrough: '2025-01-19T10:14:07.545Z'
+datePosted: '2025-01-13T08:14:37.607Z'
+validThrough: '2025-02-24T08:14:37.607Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

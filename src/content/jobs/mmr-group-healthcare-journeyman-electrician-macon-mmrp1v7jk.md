@@ -16,8 +16,8 @@ description: >-
   for installing, maint...
 location: 'Macon, GA'
 team: Commercial
-datePosted: '2024-12-19T05:31:19.820Z'
-validThrough: '2025-01-21T05:31:19.820Z'
+datePosted: '2025-01-13T09:58:56.337Z'
+validThrough: '2025-02-21T09:58:56.337Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

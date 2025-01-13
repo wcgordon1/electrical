@@ -15,8 +15,8 @@ description: >-
   **Overview of Heavy Industrial Apprentice Electrician Role...
 location: 'Fresno, CA'
 team: Industrial
-datePosted: '2024-12-19T03:30:37.200Z'
-validThrough: '2025-01-24T03:30:37.200Z'
+datePosted: '2025-01-13T11:18:58.504Z'
+validThrough: '2025-02-14T11:18:58.504Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

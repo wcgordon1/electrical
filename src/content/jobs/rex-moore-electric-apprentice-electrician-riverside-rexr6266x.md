@@ -13,8 +13,8 @@ description: >-
   environment where your skills and e...
 location: 'Riverside, CA'
 team: Residential
-datePosted: '2024-12-19T08:17:46.099Z'
-validThrough: '2025-01-30T08:17:46.099Z'
+datePosted: '2025-01-13T10:56:20.193Z'
+validThrough: '2025-02-16T10:56:20.193Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

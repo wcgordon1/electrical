@@ -14,8 +14,8 @@ description: >-
   data transmission and optimal network performance.
 location: 'Santa Barbara, CA'
 team: Commercial
-datePosted: '2024-12-19T17:10:29.775Z'
-validThrough: '2025-01-25T17:10:29.775Z'
+datePosted: '2025-01-13T11:28:01.436Z'
+validThrough: '2025-02-20T11:28:01.436Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

@@ -14,8 +14,8 @@ description: >-
   installing, maintaining...
 location: 'Woodstock, GA'
 team: Commercial
-datePosted: '2024-12-19T05:12:47.514Z'
-validThrough: '2025-01-23T05:12:47.514Z'
+datePosted: '2025-01-13T09:49:15.280Z'
+validThrough: '2025-02-15T09:49:15.280Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

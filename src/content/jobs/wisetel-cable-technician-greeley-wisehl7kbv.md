@@ -14,8 +14,8 @@ description: >-
   educational institutions throughout Greeley, CO, and the surrounding areas....
 location: 'Greeley, CO'
 team: Commercial
-datePosted: '2024-12-19T05:17:31.449Z'
-validThrough: '2025-01-29T05:17:31.449Z'
+datePosted: '2025-01-13T08:28:37.243Z'
+validThrough: '2025-02-19T08:28:37.243Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

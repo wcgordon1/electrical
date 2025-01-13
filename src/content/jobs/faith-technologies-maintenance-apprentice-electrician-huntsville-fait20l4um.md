@@ -16,8 +16,8 @@ description: >-
   We are seeking ...
 location: 'Huntsville, AL'
 team: Service
-datePosted: '2024-12-19T09:20:20.526Z'
-validThrough: '2025-02-01T09:20:20.526Z'
+datePosted: '2025-01-13T09:12:32.965Z'
+validThrough: '2025-02-13T09:12:32.965Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

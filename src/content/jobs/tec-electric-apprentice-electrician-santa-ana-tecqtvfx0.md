@@ -16,8 +16,8 @@ description: >-
   ...
 location: 'Santa Ana, CA'
 team: Commercial
-datePosted: '2024-12-19T01:48:26.971Z'
-validThrough: '2025-01-20T01:48:26.971Z'
+datePosted: '2025-01-13T14:01:42.156Z'
+validThrough: '2025-02-23T14:01:42.156Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

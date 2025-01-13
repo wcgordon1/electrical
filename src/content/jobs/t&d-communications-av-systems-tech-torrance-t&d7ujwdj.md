@@ -14,8 +14,8 @@ description: >-
   and support of audiovisual systems within healthcare facilities ...
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-19T03:43:29.419Z'
-validThrough: '2025-01-30T03:43:29.419Z'
+datePosted: '2025-01-13T12:27:56.447Z'
+validThrough: '2025-02-27T12:27:56.447Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

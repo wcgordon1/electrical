@@ -13,8 +13,8 @@ description: >-
   service and innovati...
 location: 'Lancaster, CA'
 team: Commercial
-datePosted: '2024-12-18T23:43:58.474Z'
-validThrough: '2025-01-21T23:43:58.474Z'
+datePosted: '2025-01-13T13:42:56.040Z'
+validThrough: '2025-02-12T13:42:56.040Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

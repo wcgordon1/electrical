@@ -13,8 +13,8 @@ description: >-
   ## Position O...
 location: 'Youngstown, OH'
 team: Service
-datePosted: '2024-12-19T01:54:18.415Z'
-validThrough: '2025-01-24T01:54:18.415Z'
+datePosted: '2025-01-13T12:04:55.604Z'
+validThrough: '2025-02-12T12:04:55.604Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

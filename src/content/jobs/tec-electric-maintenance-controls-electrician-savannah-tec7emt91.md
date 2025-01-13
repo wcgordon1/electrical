@@ -16,8 +16,8 @@ description: >-
   involves troubleshooting...
 location: 'Savannah, GA'
 team: Service
-datePosted: '2024-12-19T00:04:53.354Z'
-validThrough: '2025-01-31T00:04:53.354Z'
+datePosted: '2025-01-13T11:55:26.379Z'
+validThrough: '2025-02-19T11:55:26.379Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

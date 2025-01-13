@@ -14,8 +14,8 @@ description: >-
   to learn, and a commitment to safety.
 location: 'Seattle, WA'
 team: Commercial
-datePosted: '2024-12-19T12:34:51.482Z'
-validThrough: '2025-01-24T12:34:51.482Z'
+datePosted: '2025-01-13T08:21:10.706Z'
+validThrough: '2025-02-14T08:21:10.706Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

@@ -15,8 +15,8 @@ description: >-
   for installing, maintaining, and repairing electrical systems in a manu...
 location: 'Virginia Beach, VA'
 team: Industrial
-datePosted: '2024-12-19T05:25:07.492Z'
-validThrough: '2025-01-31T05:25:07.492Z'
+datePosted: '2025-01-13T08:55:01.739Z'
+validThrough: '2025-02-16T08:55:01.739Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

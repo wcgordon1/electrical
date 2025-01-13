@@ -16,8 +16,8 @@ description: >-
   The Plant Apprentice E...
 location: 'Durham, NC'
 team: Industrial
-datePosted: '2024-12-18T22:15:17.323Z'
-validThrough: '2025-01-18T22:15:17.323Z'
+datePosted: '2025-01-13T12:55:39.167Z'
+validThrough: '2025-02-18T12:55:39.167Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

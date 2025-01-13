@@ -15,8 +15,8 @@ description: >-
   buildin...
 location: 'Milpitas, CA'
 team: Commercial
-datePosted: '2024-12-19T04:10:20.020Z'
-validThrough: '2025-01-31T04:10:20.020Z'
+datePosted: '2025-01-13T10:55:03.557Z'
+validThrough: '2025-02-26T10:55:03.557Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

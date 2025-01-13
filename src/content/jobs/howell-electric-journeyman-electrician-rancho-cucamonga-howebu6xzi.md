@@ -15,8 +15,8 @@ description: >-
   **Overview of Custom Home ...
 location: 'Rancho Cucamonga, CA'
 team: Residential
-datePosted: '2024-12-19T03:00:32.817Z'
-validThrough: '2025-01-20T03:00:32.817Z'
+datePosted: '2025-01-13T12:16:43.460Z'
+validThrough: '2025-02-23T12:16:43.460Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

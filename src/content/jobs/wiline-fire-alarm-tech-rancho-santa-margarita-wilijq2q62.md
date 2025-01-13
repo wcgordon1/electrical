@@ -15,8 +15,8 @@ description: >-
   alarm...
 location: 'Rancho Santa Margarita, CA'
 team: Commercial
-datePosted: '2024-12-19T02:16:08.179Z'
-validThrough: '2025-01-24T02:16:08.179Z'
+datePosted: '2025-01-13T12:25:05.981Z'
+validThrough: '2025-02-15T12:25:05.981Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

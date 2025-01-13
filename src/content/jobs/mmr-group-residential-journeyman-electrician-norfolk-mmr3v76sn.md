@@ -16,8 +16,8 @@ description: >-
   responsible for installing, maintaining, and re...
 location: 'Norfolk, VA'
 team: Residential
-datePosted: '2024-12-19T01:26:34.653Z'
-validThrough: '2025-01-21T01:26:34.653Z'
+datePosted: '2025-01-13T12:55:41.306Z'
+validThrough: '2025-02-25T12:55:41.306Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -17,8 +17,8 @@ description: >-
   As a ...
 location: 'Anaheim, CA'
 team: Residential
-datePosted: '2024-12-18T23:50:19.268Z'
-validThrough: '2025-01-30T23:50:19.268Z'
+datePosted: '2025-01-13T12:06:25.445Z'
+validThrough: '2025-02-18T12:06:25.445Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

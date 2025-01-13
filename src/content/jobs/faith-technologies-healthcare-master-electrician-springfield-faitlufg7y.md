@@ -16,8 +16,8 @@ description: >-
   Faith Techno...
 location: 'Springfield, MA'
 team: Commercial
-datePosted: '2024-12-19T08:55:55.401Z'
-validThrough: '2025-01-19T08:55:55.401Z'
+datePosted: '2025-01-13T10:36:20.342Z'
+validThrough: '2025-02-16T10:36:20.342Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

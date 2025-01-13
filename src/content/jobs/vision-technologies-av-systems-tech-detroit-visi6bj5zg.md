@@ -13,8 +13,8 @@ description: >-
   We are seeking an experienced AV Systems Tech to join our team, focusing on...
 location: 'Detroit, MI'
 team: Commercial
-datePosted: '2024-12-19T12:19:40.647Z'
-validThrough: '2025-01-30T12:19:40.647Z'
+datePosted: '2025-01-13T10:24:40.415Z'
+validThrough: '2025-02-13T10:24:40.415Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

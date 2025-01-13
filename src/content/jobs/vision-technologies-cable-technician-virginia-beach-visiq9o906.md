@@ -18,8 +18,8 @@ description: >-
   The Cable...
 location: 'Virginia Beach, VA'
 team: Commercial
-datePosted: '2024-12-19T05:12:25.873Z'
-validThrough: '2025-01-29T05:12:25.873Z'
+datePosted: '2025-01-13T08:09:10.431Z'
+validThrough: '2025-02-14T08:09:10.431Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

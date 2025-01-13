@@ -13,8 +13,8 @@ description: >-
   ensuring that we mee...
 location: 'Glendale, CA'
 team: Industrial
-datePosted: '2024-12-19T05:41:49.462Z'
-validThrough: '2025-02-01T05:41:49.462Z'
+datePosted: '2025-01-13T10:29:50.108Z'
+validThrough: '2025-02-27T10:29:50.108Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

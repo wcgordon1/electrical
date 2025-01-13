@@ -16,8 +16,8 @@ description: >-
   ###...
 location: 'San Bernardino, CA'
 team: Industrial
-datePosted: '2024-12-19T13:34:50.444Z'
-validThrough: '2025-01-24T13:34:50.444Z'
+datePosted: '2025-01-13T13:33:49.126Z'
+validThrough: '2025-02-14T13:33:49.126Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

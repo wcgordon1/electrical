@@ -14,8 +14,8 @@ description: >-
   team, responsible for the installation, mainte...
 location: 'Mill Valley, CA'
 team: Commercial
-datePosted: '2024-12-19T18:15:23.705Z'
-validThrough: '2025-01-30T18:15:23.705Z'
+datePosted: '2025-01-13T14:03:01.705Z'
+validThrough: '2025-02-16T14:03:01.705Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

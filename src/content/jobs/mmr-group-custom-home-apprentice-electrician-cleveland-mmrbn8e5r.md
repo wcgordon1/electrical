@@ -17,8 +17,8 @@ description: >-
   Join our residential team in Cleveland, where the housing ...
 location: 'Cleveland, OH'
 team: Residential
-datePosted: '2024-12-19T14:24:29.213Z'
-validThrough: '2025-01-20T14:24:29.213Z'
+datePosted: '2025-01-13T11:25:00.660Z'
+validThrough: '2025-02-25T11:25:00.660Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

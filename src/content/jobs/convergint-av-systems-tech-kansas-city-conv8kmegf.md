@@ -14,8 +14,8 @@ description: >-
   maintenance, and optimization of audiov...
 location: 'Kansas City, MO'
 team: Commercial
-datePosted: '2024-12-19T03:30:41.517Z'
-validThrough: '2025-01-23T03:30:41.517Z'
+datePosted: '2025-01-13T08:08:13.120Z'
+validThrough: '2025-02-23T08:08:13.120Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

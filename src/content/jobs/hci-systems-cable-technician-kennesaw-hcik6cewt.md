@@ -16,8 +16,8 @@ description: >-
   The Cable Technician at HCI Systems will play a crucia...
 location: 'Kennesaw, GA'
 team: Commercial
-datePosted: '2024-12-19T18:22:36.271Z'
-validThrough: '2025-02-02T18:22:36.271Z'
+datePosted: '2025-01-13T08:40:31.203Z'
+validThrough: '2025-02-12T08:40:31.203Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

@@ -10,8 +10,8 @@ description: >-
   regional area, offering top-tier electrical servic...
 location: 'Erie, PA'
 team: Industrial
-datePosted: '2024-12-19T09:54:47.758Z'
-validThrough: '2025-01-30T09:54:47.758Z'
+datePosted: '2025-01-13T11:03:25.465Z'
+validThrough: '2025-02-21T11:03:25.465Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

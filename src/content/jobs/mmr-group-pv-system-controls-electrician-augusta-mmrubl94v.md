@@ -16,8 +16,8 @@ description: >-
   controls. This role is critical in ensuring the effici...
 location: 'Augusta, GA'
 team: Solar
-datePosted: '2024-12-19T01:32:03.493Z'
-validThrough: '2025-01-19T01:32:03.493Z'
+datePosted: '2025-01-13T09:12:48.417Z'
+validThrough: '2025-02-22T09:12:48.417Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

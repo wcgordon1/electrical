@@ -13,8 +13,8 @@ description: >-
   clients' needs. Our team is dedicated to ...
 location: 'Modesto, CA'
 team: Industrial
-datePosted: '2024-12-19T10:24:44.770Z'
-validThrough: '2025-01-27T10:24:44.770Z'
+datePosted: '2025-01-13T13:48:00.347Z'
+validThrough: '2025-02-27T13:48:00.347Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

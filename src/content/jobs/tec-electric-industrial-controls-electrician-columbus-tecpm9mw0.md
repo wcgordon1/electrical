@@ -10,8 +10,8 @@ description: >-
   reliable and efficient service delivery. We are curr...
 location: 'Columbus, GA'
 team: Industrial
-datePosted: '2024-12-19T04:21:46.557Z'
-validThrough: '2025-01-19T04:21:46.557Z'
+datePosted: '2025-01-13T09:48:33.992Z'
+validThrough: '2025-02-20T09:48:33.992Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

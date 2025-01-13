@@ -15,8 +15,8 @@ description: >-
   experienc...
 location: 'Marina del Rey, CA'
 team: Commercial
-datePosted: '2024-12-19T02:21:17.119Z'
-validThrough: '2025-02-02T02:21:17.119Z'
+datePosted: '2025-01-13T12:12:26.019Z'
+validThrough: '2025-02-15T12:12:26.019Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

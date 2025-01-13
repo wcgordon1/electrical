@@ -14,8 +14,8 @@ description: >-
   maintaining, and tr...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-19T10:48:46.382Z'
-validThrough: '2025-01-30T10:48:46.382Z'
+datePosted: '2025-01-13T08:24:19.803Z'
+validThrough: '2025-02-14T08:24:19.803Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

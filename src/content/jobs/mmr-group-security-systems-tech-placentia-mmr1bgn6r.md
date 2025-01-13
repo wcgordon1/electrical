@@ -14,8 +14,8 @@ description: >-
   maintenance, and trouble...
 location: 'Placentia, CA'
 team: Commercial
-datePosted: '2024-12-18T22:48:15.252Z'
-validThrough: '2025-01-31T22:48:15.252Z'
+datePosted: '2025-01-13T11:41:36.959Z'
+validThrough: '2025-02-13T11:41:36.959Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

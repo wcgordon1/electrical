@@ -19,8 +19,8 @@ description: >-
   As a Man...
 location: 'Wilmington, DE'
 team: Industrial
-datePosted: '2024-12-19T10:50:53.829Z'
-validThrough: '2025-02-02T10:50:53.829Z'
+datePosted: '2025-01-13T09:59:24.097Z'
+validThrough: '2025-02-23T09:59:24.097Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

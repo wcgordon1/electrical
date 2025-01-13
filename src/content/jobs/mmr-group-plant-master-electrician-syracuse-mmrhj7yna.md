@@ -10,8 +10,8 @@ description: >-
   contribute to the region's developme...
 location: 'Syracuse, NY'
 team: Industrial
-datePosted: '2024-12-19T14:24:25.019Z'
-validThrough: '2025-02-01T14:24:25.019Z'
+datePosted: '2025-01-13T11:47:52.258Z'
+validThrough: '2025-02-19T11:47:52.258Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

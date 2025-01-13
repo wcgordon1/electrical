@@ -14,8 +14,8 @@ description: >-
   The AV Systems Tech at 3...
 location: 'Sunnyvale, CA'
 team: Commercial
-datePosted: '2024-12-18T21:44:54.598Z'
-validThrough: '2025-01-21T21:44:54.598Z'
+datePosted: '2025-01-13T13:10:49.783Z'
+validThrough: '2025-02-18T13:10:49.783Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

@@ -17,8 +17,8 @@ description: >-
   workin...
 location: 'Jacksonville, FL'
 team: Solar
-datePosted: '2024-12-19T01:08:46.056Z'
-validThrough: '2025-01-31T01:08:46.056Z'
+datePosted: '2025-01-13T10:48:02.203Z'
+validThrough: '2025-02-17T10:48:02.203Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

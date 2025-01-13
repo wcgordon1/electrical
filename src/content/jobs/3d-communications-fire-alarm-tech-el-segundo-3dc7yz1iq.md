@@ -11,8 +11,8 @@ description: >-
   The Fire Alarm Tech will be resp...
 location: 'El Segundo, CA'
 team: Commercial
-datePosted: '2024-12-19T12:08:04.067Z'
-validThrough: '2025-01-23T12:08:04.067Z'
+datePosted: '2025-01-13T11:41:48.596Z'
+validThrough: '2025-02-12T11:41:48.596Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

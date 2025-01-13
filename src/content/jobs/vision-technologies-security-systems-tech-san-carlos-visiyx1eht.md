@@ -13,8 +13,8 @@ description: >-
   lasting partnerships with ...
 location: 'San Carlos, CA'
 team: Commercial
-datePosted: '2024-12-19T01:04:24.695Z'
-validThrough: '2025-01-25T01:04:24.695Z'
+datePosted: '2025-01-13T12:33:07.276Z'
+validThrough: '2025-02-15T12:33:07.276Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

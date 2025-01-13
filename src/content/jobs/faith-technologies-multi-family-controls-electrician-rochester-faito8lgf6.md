@@ -17,8 +17,8 @@ description: >-
   - Install, maintain, and repair elec...
 location: 'Rochester, NY'
 team: Residential
-datePosted: '2024-12-19T11:24:49.379Z'
-validThrough: '2025-01-24T11:24:49.379Z'
+datePosted: '2025-01-13T10:28:04.564Z'
+validThrough: '2025-02-15T10:28:04.564Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

@@ -14,8 +14,8 @@ description: >-
   critical role in ...
 location: 'Falls Church, VA'
 team: Commercial
-datePosted: '2024-12-19T02:58:26.283Z'
-validThrough: '2025-01-26T02:58:26.283Z'
+datePosted: '2025-01-13T08:33:40.967Z'
+validThrough: '2025-02-18T08:33:40.967Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

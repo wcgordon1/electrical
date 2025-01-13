@@ -16,8 +16,8 @@ description: >-
   installing, maintainin...
 location: 'Charleston, WV'
 team: Commercial
-datePosted: '2024-12-19T10:05:23.467Z'
-validThrough: '2025-01-31T10:05:23.467Z'
+datePosted: '2025-01-13T10:08:33.784Z'
+validThrough: '2025-02-15T10:08:33.784Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

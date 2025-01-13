@@ -15,8 +15,8 @@ description: >-
   ## Position Over...
 location: 'El Paso, TX'
 team: Commercial
-datePosted: '2024-12-19T17:32:16.240Z'
-validThrough: '2025-01-24T17:32:16.240Z'
+datePosted: '2025-01-13T11:29:51.261Z'
+validThrough: '2025-02-26T11:29:51.261Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

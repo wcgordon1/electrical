@@ -10,8 +10,8 @@ description: >-
   while fostering a culture of continuous learning and developme...
 location: 'Roanoke, VA'
 team: Service
-datePosted: '2024-12-19T07:12:36.012Z'
-validThrough: '2025-01-30T07:12:36.012Z'
+datePosted: '2025-01-13T13:23:43.969Z'
+validThrough: '2025-02-13T13:23:43.969Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

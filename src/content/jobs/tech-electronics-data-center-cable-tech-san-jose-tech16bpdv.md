@@ -14,8 +14,8 @@ description: >-
   installing, maintaining...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-18T22:06:43.559Z'
-validThrough: '2025-01-18T22:06:43.559Z'
+datePosted: '2025-01-13T09:19:32.213Z'
+validThrough: '2025-02-24T09:19:32.213Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

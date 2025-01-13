@@ -14,8 +14,8 @@ description: >-
   supporting and implemen...
 location: 'Lake Forest, CA'
 team: Commercial
-datePosted: '2024-12-19T13:56:48.876Z'
-validThrough: '2025-01-19T13:56:48.876Z'
+datePosted: '2025-01-13T12:26:53.323Z'
+validThrough: '2025-02-21T12:26:53.323Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

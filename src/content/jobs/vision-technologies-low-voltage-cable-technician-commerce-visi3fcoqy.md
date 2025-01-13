@@ -14,8 +14,8 @@ description: >-
   educational institution projects in Comm...
 location: 'Commerce, GA'
 team: Commercial
-datePosted: '2024-12-19T00:17:40.661Z'
-validThrough: '2025-01-20T00:17:40.661Z'
+datePosted: '2025-01-13T13:39:02.808Z'
+validThrough: '2025-02-24T13:39:02.808Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

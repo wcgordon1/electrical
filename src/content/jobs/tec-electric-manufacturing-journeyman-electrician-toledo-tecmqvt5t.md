@@ -15,8 +15,8 @@ description: >-
   As a Manufacturing Journeyman E...
 location: 'Toledo, OH'
 team: Industrial
-datePosted: '2024-12-19T05:32:12.167Z'
-validThrough: '2025-01-28T05:32:12.167Z'
+datePosted: '2025-01-13T13:30:29.638Z'
+validThrough: '2025-02-22T13:30:29.638Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

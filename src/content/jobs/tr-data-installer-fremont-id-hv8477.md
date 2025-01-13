@@ -16,8 +16,8 @@ description: >-
   equipment an...
 location: 'Fremont, CA'
 team: Commercial
-datePosted: '2024-12-18T23:28:59.193Z'
-validThrough: '2025-01-30T23:28:59.193Z'
+datePosted: '2025-01-13T08:41:59.639Z'
+validThrough: '2025-02-26T08:41:59.639Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

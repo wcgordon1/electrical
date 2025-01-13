@@ -16,8 +16,8 @@ description: >-
   in the installation, maint...
 location: 'Greenville, SC'
 team: Industrial
-datePosted: '2024-12-19T09:10:26.926Z'
-validThrough: '2025-02-02T09:10:26.926Z'
+datePosted: '2025-01-13T12:53:43.541Z'
+validThrough: '2025-02-13T12:53:43.541Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

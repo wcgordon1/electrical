@@ -14,8 +14,8 @@ description: >-
   installation and maintenance of low voltage cab...
 location: 'Glen Allen, VA'
 team: Commercial
-datePosted: '2024-12-19T01:52:52.397Z'
-validThrough: '2025-01-25T01:52:52.397Z'
+datePosted: '2025-01-13T10:14:55.343Z'
+validThrough: '2025-02-14T10:14:55.343Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

@@ -14,8 +14,8 @@ description: >-
   troubleshooting security systems in offi...
 location: 'Tiburon, CA'
 team: Commercial
-datePosted: '2024-12-19T01:46:45.773Z'
-validThrough: '2025-01-28T01:46:45.773Z'
+datePosted: '2025-01-13T13:31:04.064Z'
+validThrough: '2025-02-21T13:31:04.064Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

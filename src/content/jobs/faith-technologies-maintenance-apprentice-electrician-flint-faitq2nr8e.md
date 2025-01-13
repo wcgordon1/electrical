@@ -16,8 +16,8 @@ description: >-
   ### Role and...
 location: 'Flint, MI'
 team: Service
-datePosted: '2024-12-19T11:14:18.137Z'
-validThrough: '2025-02-02T11:14:18.137Z'
+datePosted: '2025-01-13T13:57:21.746Z'
+validThrough: '2025-02-15T13:57:21.746Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

@@ -16,8 +16,8 @@ description: >-
   supporting and imp...
 location: 'Culver City, CA'
 team: Commercial
-datePosted: '2024-12-19T03:20:49.155Z'
-validThrough: '2025-01-19T03:20:49.155Z'
+datePosted: '2025-01-13T11:36:59.432Z'
+validThrough: '2025-02-15T11:36:59.432Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Mirapath

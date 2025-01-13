@@ -15,8 +15,8 @@ description: >-
   invol...
 location: 'Fort Worth, TX'
 team: Commercial
-datePosted: '2024-12-19T00:06:29.590Z'
-validThrough: '2025-01-28T00:06:29.590Z'
+datePosted: '2025-01-13T08:00:45.813Z'
+validThrough: '2025-02-15T08:00:45.813Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

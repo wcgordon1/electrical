@@ -13,8 +13,8 @@ description: >-
   ## About the...
 location: 'Birmingham, AL'
 team: Commercial
-datePosted: '2024-12-19T00:21:28.157Z'
-validThrough: '2025-01-26T00:21:28.157Z'
+datePosted: '2025-01-13T12:40:12.617Z'
+validThrough: '2025-02-12T12:40:12.617Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

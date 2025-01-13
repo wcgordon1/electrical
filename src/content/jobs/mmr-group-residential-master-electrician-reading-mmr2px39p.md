@@ -17,8 +17,8 @@ description: >-
   - **Location:** Reading, PA is a thrivi...
 location: 'Reading, PA'
 team: Residential
-datePosted: '2024-12-19T12:24:25.104Z'
-validThrough: '2025-01-23T12:24:25.104Z'
+datePosted: '2025-01-13T09:27:19.844Z'
+validThrough: '2025-02-21T09:27:19.844Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

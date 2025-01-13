@@ -16,8 +16,8 @@ description: >-
   ### Ove...
 location: 'Moreno Valley, CA'
 team: Residential
-datePosted: '2024-12-19T11:07:54.973Z'
-validThrough: '2025-01-20T11:07:54.973Z'
+datePosted: '2025-01-13T08:48:45.882Z'
+validThrough: '2025-02-21T08:48:45.882Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

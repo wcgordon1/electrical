@@ -16,8 +16,8 @@ description: >-
   i...
 location: 'Longmont, CO'
 team: Commercial
-datePosted: '2024-12-19T06:32:28.408Z'
-validThrough: '2025-01-26T06:32:28.408Z'
+datePosted: '2025-01-13T10:22:57.114Z'
+validThrough: '2025-02-24T10:22:57.114Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

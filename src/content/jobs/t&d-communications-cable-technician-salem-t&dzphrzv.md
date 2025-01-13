@@ -14,8 +14,8 @@ description: >-
   supporting healthcar...
 location: 'Salem, VA'
 team: Commercial
-datePosted: '2024-12-19T09:58:02.668Z'
-validThrough: '2025-01-20T09:58:02.668Z'
+datePosted: '2025-01-13T09:45:34.290Z'
+validThrough: '2025-02-19T09:45:34.290Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

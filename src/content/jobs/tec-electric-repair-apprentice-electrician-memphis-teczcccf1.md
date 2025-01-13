@@ -13,8 +13,8 @@ description: >-
   ## Position...
 location: 'Memphis, TN'
 team: Service
-datePosted: '2024-12-19T03:15:31.739Z'
-validThrough: '2025-01-29T03:15:31.739Z'
+datePosted: '2025-01-13T10:37:15.892Z'
+validThrough: '2025-02-13T10:37:15.892Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

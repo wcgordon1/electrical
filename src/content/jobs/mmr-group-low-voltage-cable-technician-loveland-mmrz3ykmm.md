@@ -14,8 +14,8 @@ description: >-
   maintaining, and repairing low voltage cabling systems in off...
 location: 'Loveland, CO'
 team: Commercial
-datePosted: '2024-12-19T04:29:54.158Z'
-validThrough: '2025-02-02T04:29:54.158Z'
+datePosted: '2025-01-13T10:48:47.273Z'
+validThrough: '2025-02-21T10:48:47.273Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

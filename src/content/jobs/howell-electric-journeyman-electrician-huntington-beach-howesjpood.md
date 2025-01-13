@@ -12,8 +12,8 @@ description: >-
   clients. Our team is composed of skilled professionals who...
 location: 'Huntington Beach, CA'
 team: Commercial
-datePosted: '2024-12-19T16:08:29.944Z'
-validThrough: '2025-01-23T16:08:29.944Z'
+datePosted: '2025-01-13T09:44:31.504Z'
+validThrough: '2025-02-16T09:44:31.504Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

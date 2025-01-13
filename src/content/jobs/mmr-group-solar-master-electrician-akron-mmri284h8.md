@@ -15,8 +15,8 @@ description: >-
   Join MMR Group in shaping the future of solar energy in Akron and its surro...
 location: 'Akron, OH'
 team: Solar
-datePosted: '2024-12-19T09:37:19.352Z'
-validThrough: '2025-01-31T09:37:19.352Z'
+datePosted: '2025-01-13T13:46:30.099Z'
+validThrough: '2025-02-12T13:46:30.099Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

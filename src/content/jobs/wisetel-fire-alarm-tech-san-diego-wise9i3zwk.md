@@ -15,8 +15,8 @@ description: >-
   installation, m...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-19T14:59:26.118Z'
-validThrough: '2025-01-20T14:59:26.118Z'
+datePosted: '2025-01-13T10:34:12.214Z'
+validThrough: '2025-02-20T10:34:12.214Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

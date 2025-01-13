@@ -16,8 +16,8 @@ description: >-
   ### Key Respons...
 location: 'Mobile, AL'
 team: Service
-datePosted: '2024-12-19T15:21:35.996Z'
-validThrough: '2025-02-01T15:21:35.996Z'
+datePosted: '2025-01-13T10:07:41.611Z'
+validThrough: '2025-02-20T10:07:41.611Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Faith Technologies

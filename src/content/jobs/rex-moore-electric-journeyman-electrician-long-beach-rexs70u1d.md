@@ -11,8 +11,8 @@ description: >-
   workforce, sta...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-19T07:17:07.480Z'
-validThrough: '2025-01-23T07:17:07.480Z'
+datePosted: '2025-01-13T10:38:22.584Z'
+validThrough: '2025-02-15T10:38:22.584Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

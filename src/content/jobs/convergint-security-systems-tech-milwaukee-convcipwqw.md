@@ -14,8 +14,8 @@ description: >-
   educational institutions in Milwauke...
 location: 'Milwaukee, WI'
 team: Commercial
-datePosted: '2024-12-18T21:17:36.123Z'
-validThrough: '2025-01-31T21:17:36.123Z'
+datePosted: '2025-01-13T12:33:13.026Z'
+validThrough: '2025-02-24T12:33:13.026Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

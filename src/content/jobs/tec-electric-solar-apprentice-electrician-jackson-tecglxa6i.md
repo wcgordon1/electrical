@@ -17,8 +17,8 @@ description: >-
   - **Jacks...
 location: 'Jackson, MS'
 team: Solar
-datePosted: '2024-12-19T18:49:15.850Z'
-validThrough: '2025-02-02T18:49:15.850Z'
+datePosted: '2025-01-13T13:26:07.365Z'
+validThrough: '2025-02-16T13:26:07.365Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

@@ -17,8 +17,8 @@ description: >-
   As an AV Systems Tech at Teleco, you will be responsible for installin...
 location: 'Culver City, CA'
 team: Commercial
-datePosted: '2024-12-19T09:01:32.088Z'
-validThrough: '2025-01-25T09:01:32.088Z'
+datePosted: '2025-01-13T12:43:39.610Z'
+validThrough: '2025-02-26T12:43:39.610Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

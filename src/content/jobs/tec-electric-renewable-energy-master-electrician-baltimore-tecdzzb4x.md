@@ -10,8 +10,8 @@ description: >-
   Renewable Energy Master Electrician to join our ...
 location: 'Baltimore, MD'
 team: Solar
-datePosted: '2024-12-19T08:34:12.837Z'
-validThrough: '2025-01-22T08:34:12.837Z'
+datePosted: '2025-01-13T10:19:22.809Z'
+validThrough: '2025-02-27T10:19:22.809Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

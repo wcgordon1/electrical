@@ -10,8 +10,8 @@ description: >-
   City and Midland. Our focus on local market c...
 location: 'Saginaw, MI'
 team: Service
-datePosted: '2024-12-19T07:56:19.069Z'
-validThrough: '2025-01-28T07:56:19.069Z'
+datePosted: '2025-01-13T09:40:25.922Z'
+validThrough: '2025-02-22T09:40:25.922Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

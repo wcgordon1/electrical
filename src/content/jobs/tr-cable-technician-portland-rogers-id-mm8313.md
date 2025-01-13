@@ -13,8 +13,8 @@ description: >-
   industrial electrical work...
 location: 'Portland, OR'
 team: Commercial
-datePosted: '2024-12-19T14:35:47.197Z'
-validThrough: '2025-01-20T14:35:47.197Z'
+datePosted: '2025-01-13T13:28:29.502Z'
+validThrough: '2025-02-19T13:28:29.502Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

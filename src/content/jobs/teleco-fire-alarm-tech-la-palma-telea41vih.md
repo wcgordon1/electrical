@@ -15,8 +15,8 @@ description: >-
   role...
 location: 'La Palma, CA'
 team: Commercial
-datePosted: '2024-12-19T16:07:52.488Z'
-validThrough: '2025-01-23T16:07:52.488Z'
+datePosted: '2025-01-13T12:42:24.546Z'
+validThrough: '2025-02-16T12:42:24.546Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

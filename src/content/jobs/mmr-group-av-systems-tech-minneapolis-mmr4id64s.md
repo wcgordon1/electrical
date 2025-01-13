@@ -14,8 +14,8 @@ description: >-
   projects throughout Minneapolis, MN, and t...
 location: 'Minneapolis, MN'
 team: Commercial
-datePosted: '2024-12-19T02:47:07.343Z'
-validThrough: '2025-01-27T02:47:07.343Z'
+datePosted: '2025-01-13T12:20:27.213Z'
+validThrough: '2025-02-21T12:20:27.213Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

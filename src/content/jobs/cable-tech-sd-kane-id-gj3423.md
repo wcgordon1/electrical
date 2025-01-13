@@ -8,8 +8,8 @@ description: >-
   multi-mode fiber optic cables.
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-19T02:02:40.783Z'
-validThrough: '2025-01-26T02:02:40.783Z'
+datePosted: '2025-01-13T10:33:12.078Z'
+validThrough: '2025-02-12T10:33:12.078Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications

@@ -11,8 +11,8 @@ description: >-
   time, and within budge...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-19T16:25:14.073Z'
-validThrough: '2025-01-20T16:25:14.073Z'
+datePosted: '2025-01-13T11:54:02.261Z'
+validThrough: '2025-02-21T11:54:02.261Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric
