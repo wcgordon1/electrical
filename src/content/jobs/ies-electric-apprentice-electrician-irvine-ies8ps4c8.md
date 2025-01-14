@@ -15,8 +15,8 @@ description: >-
   enhance productivity and efficiency. At IES Electric, we ...
 location: 'Irvine, CA'
 team: Industrial
-datePosted: '2024-12-19T23:36:44.789Z'
-validThrough: '2025-02-01T23:36:44.789Z'
+datePosted: '2025-01-14T13:21:50.710Z'
+validThrough: '2025-02-23T13:21:50.710Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

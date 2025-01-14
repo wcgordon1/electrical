@@ -14,8 +14,8 @@ description: >-
   audio-visual systems within healthcare fac...
 location: 'Omaha, NE'
 team: Commercial
-datePosted: '2024-12-19T19:11:08.796Z'
-validThrough: '2025-01-28T19:11:08.796Z'
+datePosted: '2025-01-14T09:12:10.719Z'
+validThrough: '2025-02-15T09:12:10.719Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

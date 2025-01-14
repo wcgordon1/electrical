@@ -13,8 +13,8 @@ description: >-
   o...
 location: 'Huntington Beach, CA'
 team: Commercial
-datePosted: '2024-12-20T02:21:07.203Z'
-validThrough: '2025-01-20T02:21:07.203Z'
+datePosted: '2025-01-14T15:02:26.780Z'
+validThrough: '2025-02-26T15:02:26.780Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

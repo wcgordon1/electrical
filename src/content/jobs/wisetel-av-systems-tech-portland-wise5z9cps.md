@@ -15,8 +15,8 @@ description: >-
   As an AV Systems T...
 location: 'Portland, OR'
 team: Commercial
-datePosted: '2024-12-19T21:13:29.980Z'
-validThrough: '2025-01-25T21:13:29.980Z'
+datePosted: '2025-01-14T10:30:26.342Z'
+validThrough: '2025-02-16T10:30:26.342Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

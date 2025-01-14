@@ -13,8 +13,8 @@ description: >-
   hospitals, and school...
 location: 'Garden Grove, CA'
 team: Commercial
-datePosted: '2024-12-20T01:59:39.335Z'
-validThrough: '2025-01-26T01:59:39.335Z'
+datePosted: '2025-01-14T13:21:17.207Z'
+validThrough: '2025-02-13T13:21:17.207Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Alert 360

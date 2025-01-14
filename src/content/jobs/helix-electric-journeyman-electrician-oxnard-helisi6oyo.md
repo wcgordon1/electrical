@@ -13,8 +13,8 @@ description: >-
   clients while foste...
 location: 'Oxnard, CA'
 team: Industrial
-datePosted: '2024-12-19T20:23:54.160Z'
-validThrough: '2025-01-23T20:23:54.160Z'
+datePosted: '2025-01-14T14:08:48.100Z'
+validThrough: '2025-02-21T14:08:48.100Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

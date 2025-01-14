@@ -13,8 +13,8 @@ description: >-
   undertake meets the unique n...
 location: 'Salem, OR'
 team: Commercial
-datePosted: '2024-12-20T03:37:54.100Z'
-validThrough: '2025-01-22T03:37:54.100Z'
+datePosted: '2025-01-14T12:59:48.928Z'
+validThrough: '2025-02-28T12:59:48.928Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -14,8 +14,8 @@ description: >-
   primarily in of...
 location: 'Dallas, TX'
 team: Commercial
-datePosted: '2024-12-19T23:09:13.017Z'
-validThrough: '2025-01-23T23:09:13.017Z'
+datePosted: '2025-01-14T08:57:47.679Z'
+validThrough: '2025-02-14T08:57:47.679Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

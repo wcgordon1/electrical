@@ -13,8 +13,8 @@ description: >-
   to the high...
 location: 'Tampa, FL'
 team: Residential
-datePosted: '2024-12-20T07:52:37.628Z'
-validThrough: '2025-02-03T07:52:37.628Z'
+datePosted: '2025-01-14T08:13:01.120Z'
+validThrough: '2025-02-22T08:13:01.120Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

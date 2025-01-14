@@ -13,8 +13,8 @@ description: >-
   As a Field...
 location: 'Las Vegas, NV'
 team: Commercial
-datePosted: '2024-12-20T05:27:48.339Z'
-validThrough: '2025-01-27T05:27:48.339Z'
+datePosted: '2025-01-14T08:04:05.875Z'
+validThrough: '2025-02-15T08:04:05.875Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire

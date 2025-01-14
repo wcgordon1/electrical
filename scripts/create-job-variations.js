@@ -107,437 +107,147 @@ ${responsibilities}
 - Focus on main tasks only
 
 ## What We Offer Our ${jobType}s
-${benefits}`,
-
-    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
-
-Create a BRIEF job description (200 words max) that's perfect for job boards. Seeking a ${jobType} at ${company} in ${city}, ${state} for ongoing work.
-
-## Role Overview
-- Position: ${jobType}
-- Experience: ${experience} years as a ${jobType}
-- Location: ${city}, ${state}
-
-## Qualifications
-${qualifications}
-
-## Responsibilities
-${responsibilities}`
+${benefits}`
   ];
 
   return prompts[Math.floor(Math.random() * prompts.length)];
 }
 
 const JOB_TYPES = {
-  "PLC Technician": {
-    "minValue": 55,
-    "maxValue": 70,
-    "experienceLevel": "midLevel",
-    "category": "Controls",
-    "team": "Industrial",
-    "yearsExperience": "2+",
-    "responsibilities": "Lead the commissioning and startup of PLC and DDC control systems, ensuring seamless integration and reliable performance. Collaborate with engineers, clients, and electrical teams to solve automation challenges and deliver high-quality outcomes. Maintain detailed records of system modifications and operations, ensuring all project documentation aligns with current statuses. Provide technical leadership on-site, guiding subcontractors, enforcing quality control standards, and resolving issues efficiently. Travel to client sites as needed (up to 30%) to oversee project implementation and ensure operational success.",
-    "qualifications": "2+ years of experience with Siemens TIA Portal, Allen Bradley Studio 5000, or similar platforms such as Inductive Automation Ignition or ICONICS. Proficiency in PLC installation, commissioning, and troubleshooting. Strong understanding of HVAC control theory, electronics, and electrical circuits. Excellent communication skills, the ability to work independently, and a proactive approach to problem-solving.",
-    "prompt": "Create a job description for a PLC Technician specializing in the commissioning, troubleshooting, and integration of automation systems for data centers and industrial facilities."
-  },
-    "Security Technician": {
-      "minValue": 22,
-      "maxValue": 32,
-      "experienceLevel": "entryLevel",
-      "category": "Security",
-      "team": "Commercial",
-      "yearsExperience": "1-3",
-      "responsibilities": "Install, configure, and troubleshoot security systems, including IP cameras, access control systems, motion detectors, and alarm systems at commercial job sites. Pull, terminate, and label low-voltage cables, ensuring proper routing and compliance with site specifications. Perform comprehensive on-site testing to verify system functionality, connectivity, and power reliability. Collaborate with project managers and general contractors to align installations with project timelines. Maintain accurate installation records and documentation, ensuring all systems meet customer and industry standards. Provide training to clients on basic system operation and troubleshooting. Adhere to safety protocols and maintain cleanliness and organization on job sites.",
-      "qualifications": "Experience with security systems installation, knowledge of cable routing and termination, familiarity with IP networking and camera systems, proficiency in troubleshooting hardware and software issues, and strong communication and organizational skills.",
-      "prompt": "Create a job description for a Security Technician focusing on advanced installations, system configuration, and maintenance for commercial environments."
-    },
-    "Journeyman Electrician": {
-      "minValue": 29,
-      "maxValue": 35,
-      "experienceLevel": "midLevel",
-      "category": "Journeyman",
-      "team": "Commercial",
-      "yearsExperience": "3-5",
-      "responsibilities": "Install and maintain commercial electrical systems, including switchgear, transformers, lighting fixtures, and power circuits. Accurately measure, cut, and bend conduit (EMT, rigid) for system installations. Perform wire pulling, labeling, and termination, ensuring neat and secure connections. Troubleshoot electrical issues using tools like multimeters and ensure circuits meet NEC code requirements. Work collaboratively with other trades to plan and execute electrical installations within construction schedules. Supervise apprentices and provide guidance on proper techniques and safety practices. Maintain organized and clean job sites, adhering to all safety and operational standards.",
-      "qualifications": "Valid journeyman electrician license, in-depth knowledge of NEC codes, proficiency with conduit bending and electrical tools, strong troubleshooting skills, and leadership abilities to manage apprentices and teams.",
-      "prompt": "Create a job description for a Commercial Journeyman Electrician focusing on large-scale installations, maintenance, and troubleshooting in construction environments."
-    },
-    "Apprentice Electrician": {
-      "minValue": 18,
-      "maxValue": 23,
-      "experienceLevel": "entryLevel",
-      "category": "Apprentice",
-      "team": "Residential",
-      "yearsExperience": "0-2",
-      "responsibilities": "Assist licensed electricians with the installation of residential and commercial electrical systems, including wiring for outlets, switches, and lighting fixtures. Pull and route electrical cables through walls, ceilings, and conduits. Prepare conduit and assist in mounting electrical boxes and panels. Maintain job site organization, including inventory management and tool preparation. Perform basic tasks like wire labeling and clean-up to support project progress. Shadow experienced electricians to gain hands-on knowledge and develop skills in electrical installations and safety practices.",
-      "qualifications": "Basic understanding of electrical systems and hand tools, eagerness to learn, strong physical stamina, attention to detail, and ability to follow safety guidelines and instructions.",
-      "prompt": "Create a job description for an Apprentice Electrician focusing on learning and assisting with electrical installations in residential and commercial projects."
-    },
-    "Cable Installer": {
-      "minValue": 19,
-      "maxValue": 25,
-      "experienceLevel": "seniorLevel",
-      "category": "Voice Data",
-      "team": "Commercial",
-      "yearsExperience": "3-5",
-      "responsibilities": "Install structured cabling systems, including Cat5e, Cat6, and fiber optics, in commercial and industrial environments. Terminate and test copper and fiber optic cables using precision tools and advanced testers. Mount, secure, and organize network racks, patch panels, and cable trays. Dress and bundle cables neatly to meet site-specific and industry standards. Troubleshoot and resolve connectivity issues during and after installations. Read and interpret blueprints and construction diagrams to ensure accurate installations. Coordinate with project teams to integrate cabling systems into larger infrastructure projects. Maintain detailed installation records and ensure adherence to quality and safety protocols.",
-      "qualifications": "Extensive experience with structured cabling, expertise in terminating and testing fiber optics, knowledge of TIA/EIA cabling standards, strong troubleshooting skills, and organizational ability to manage tools and inventory.",
-      "prompt": "Create a job description for a Structured Voice and Data Cable Installer focusing on advanced cabling installations, terminating cat 5 and 6, patch panels, cable trays, and infrastructure setup for commercial environments."
-    },
-    "Data Center Technician": {
-      "minValue": 25,
-      "maxValue": 33,
-      "experienceLevel": "seniorLevel",
-      "category": "Data Center",
-      "team": "Commercial",
-      "yearsExperience": "3-5",
-      "responsibilities": "Install server racks, cabinets, and power distribution units (PDUs) in large-scale data centers, ensuring proper alignment and anchoring. Route, secure, and label high-density cabling within overhead trays, underfloor systems, and racks, maintaining a clean and organized setup. Perform cable testing and troubleshooting using advanced diagnostic tools. Collaborate with project managers, engineers, and other trades to meet strict installation schedules and technical requirements. Maintain adherence to cleanliness, safety, and operational standards in sensitive data center environments. Manage materials and inventory to support ongoing projects and provide detailed documentation of completed work.",
-      "qualifications": "Extensive experience in data center environments, knowledge of power and cooling systems, proficiency in cable management and testing tools, understanding of network configurations, and strong documentation skills.",
-      "prompt": "Create a job description for a Data Center Technician focusing on advanced infrastructure installations, cable management, and system integration for enterprise-level data centers."
-    },
-    "Electrician Helper": {
-    "minValue": 15,
-    "maxValue": 18,
-    "experienceLevel": "entryLevel",
-    "category": "Apprentice",
-    "team": "Commercial",
-    "yearsExperience": "0-2",
-    "responsibilities": "Assist electricians by pulling and securing wires through conduit systems, cutting and preparing conduit, and mounting electrical boxes. Organize tools and materials to ensure efficient daily operations. Perform basic tasks such as assembling light fixtures and preparing panels for wiring. Keep job sites clean, organized, and compliant with safety standards. Remove debris and assist with inventory management. Provide general support for measuring, marking, and layout tasks under the direction of licensed electricians.",
-    "qualifications": "Basic understanding of electrical tools and safety protocols, willingness to learn and follow instructions, strong physical stamina for handling materials, and a reliable work ethic.",
-    "prompt": "Create a job description for an Electrician Helper focusing on providing support for commercial electrical installations and maintenance."
-  },
-  "Alarm Installer": {
-    "minValue": 23,
-    "maxValue": 30,
-    "experienceLevel": "entryLevel",
-    "category": "Fire Alarm",
-    "team": "Commercial",
-    "yearsExperience": "0-2",
-    "responsibilities": "Assist in the installation of fire alarm systems by pulling and terminating low-voltage wiring. Mount devices such as smoke detectors, pull stations, and notification appliances according to detailed layout plans. Perform system labeling, basic testing, and adjustments under supervision. Prepare materials and tools for daily tasks while maintaining a clean and organized work environment. Collaborate with senior installers to meet project schedules and maintain compliance with fire safety codes.",
-    "qualifications": "Basic knowledge of low-voltage wiring and tools, ability to follow installation instructions and safety guidelines, attention to detail, and physical ability to lift equipment and work on ladders.",
-    "prompt": "Create a job description for a Fire Alarm Installer focusing on assisting with the installation and basic testing of fire alarm systems in commercial environments."
-  },
-  "Fire Alarm Technician": {
-    "minValue": 25,
-    "maxValue": 30,
-    "experienceLevel": "midLevel",
-    "category": "Fire Alarm",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Install, inspect, and maintain fire alarm systems, ensuring all components, including control panels, smoke detectors, and pull stations, meet design specifications and safety standards. Perform system testing and troubleshooting to resolve functionality issues and ensure compliance with local fire codes. Route and secure low-voltage wiring in walls and ceilings, maintaining an organized and professional installation. Coordinate with general contractors and electricians to integrate fire alarm systems with other building systems. Document installation and maintenance details, providing clear records for compliance and client use. Train end-users on the operation of fire alarm systems and respond to service calls as needed.",
-    "qualifications": "Proficiency with fire alarm control panels and programming, strong understanding of local fire codes and NFPA standards, experience with troubleshooting and maintaining fire alarm systems, and excellent communication and problem-solving skills.",
-    "prompt": "Create a job description for a Fire Alarm Technician focusing on installation, testing, and maintenance of fire alarm systems for large commercial properties."
-  },
-  "Audio Visual Technician": {
-    "minValue": 25,
-    "maxValue": 30,
-    "experienceLevel": "midLevel",
-    "category": "Audio Visual",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Install, configure, and test audio-visual systems, including projectors, displays, speakers, and microphones, for corporate and commercial clients. Route, terminate, and label low-voltage cables, ensuring secure and neat installations. Mount and align AV equipment such as wall displays and ceiling speakers, adhering to site plans and standards. Perform system troubleshooting and calibration to optimize audio and video quality. Collaborate with IT teams and construction crews to integrate AV systems with larger infrastructure projects. Maintain detailed documentation of equipment configurations, wiring diagrams, and installation notes. Provide basic training to clients on operating installed systems and address post-installation issues.",
-    "qualifications": "Experience in audio-visual installations, strong knowledge of AV components and connectivity, proficiency in cable termination and routing, attention to detail for mounting and alignment, and excellent troubleshooting skills.",
-    "prompt": "Create a job description for an Audio Visual Technician focusing on professional installation, configuration, and testing of AV systems in commercial environments."
-  },
-  "Fiber Optics Technician": {
-    "minValue": 28,
-    "maxValue": 38,
-    "experienceLevel": "midLevel",
-    "category": "Fiber Optics",
-    "team": "Commercial",
-    "yearsExperience": "3-5",
-    "responsibilities": "Install, terminate, and test fiber optic cables in commercial and industrial environments. Perform splicing of single-mode and multi-mode fibers using fusion splicers. Route and secure fiber optic cables within conduits, trays, and overhead systems, ensuring compliance with site standards. Conduct OTDR testing and troubleshooting to ensure signal integrity and performance. Collaborate with project managers, engineers, and other trades to integrate fiber optic systems with network infrastructure. Maintain detailed documentation of splicing, testing, and installation activities for client records and compliance. Ensure installations are clean, organized, and meet industry best practices.",
-    "qualifications": "Experience in fiber optic installations and splicing, proficiency with OTDR testing and troubleshooting, strong knowledge of industry standards (e.g., TIA/EIA), attention to detail for cable routing and termination, and effective communication skills for team collaboration.",
-    "prompt": "Create a job description for a Fiber Optics Technician focusing on professional installation, splicing, and testing of fiber optic systems in commercial environments."
-  }
+  "Journeyman Electrician": {
+  "minValue": 38,
+  "maxValue": 46,
+  "experienceLevel": "midLevel",
+  "category": "Journeyman",
+  "team": "Commercial",
+  "yearsExperience": "3-5",
+  "responsibilities": "Install, maintain, and troubleshoot electrical systems specifically for electric vehicle (EV) charging stations, including service panels, transformers, and related components. Accurately measure, cut, and bend conduit (EMT, rigid) for installations, ensuring precise alignment. Pull, label, and terminate wiring, maintaining clean and organized connections according to NEC and California Electric Code standards. Perform load calculations and install main service equipment for EV charging infrastructure. Conduct system testing to verify performance, safety, and compliance with site specifications. Work collaboratively with project managers and other trades to meet construction schedules and deliver quality installations. Supervise apprentices, ensuring adherence to safety and best practices while mentoring on EV-specific electrical systems. Maintain accurate documentation of installations and site activities, submitting daily reports as required.",
+  "qualifications": "Active and valid journeyman electrician certification from the California Department of Industrial Relations (DIR). Strong knowledge of NEC and California Electric Code, with specific experience in EV charging station installations. Proficiency with conduit bending tools, multimeters, and other diagnostic equipment. Ability to read and interpret blueprints, schematics, and electrical diagrams. Demonstrated leadership skills in supervising apprentices and managing on-site safety. Excellent communication and organizational skills to ensure project success.",
+  "prompt": "Create a job description for a Certified Journeyman Electrician focusing on the installation and maintenance of electric vehicle charging stations, ensuring compliance with California DIR certification requirements."
+},
+"Civil General Foreman": {
+  "minValue": 65,
+  "maxValue": 80,
+  "experienceLevel": "seniorLevel",
+  "category": "Foreman",
+  "team": "Commercial",
+  "yearsExperience": "8-10",
+  "responsibilities": "Oversee and manage the civil scope of work for medium to large-scale electrical projects, specifically electric vehicle (EV) charging station installations. Supervise multiple crews performing excavation, backfill, rebar, concrete pouring, bollard installation, asphalt work, and other civil tasks. Review and interpret project plans, blueprints, and schematics to ensure compliance with design specifications and California Building Code standards. Coordinate with project managers, subcontractors, and other teams to ensure work is executed on time, within budget, and to quality expectations. Conduct milestone inspections, verify adherence to safety standards, and implement corrective actions as needed. Maintain daily reports detailing labor hours, resource usage, and project status. Monitor and enforce compliance with SWIPPs, ensuring environmental conditions like stormwater management and site cleanliness. Conduct regular toolbox talks and safety meetings to uphold a safety-first culture. Ensure all crew certifications and equipment are current and compliant with governing standards. Collaborate with project leadership to address scope changes, track additional work, and maintain accurate documentation for contract variations.",
+  "qualifications": "Minimum 8-10 years of experience as a lead project foreman in commercial civil construction. Strong knowledge of the California Building Code and OSHA safety standards. Proven track record in leading teams for excavation, concrete, rebar, asphalt, and similar civil tasks. Strong leadership, organizational, and problem-solving skills. Proficient in Microsoft Office Suite and familiarity with construction project management software (e.g., Site Tracker). Valid driver's license with a clean record and the ability to maintain coverage on company auto insurance. OSHA 30-hour and First Aid/CPR certifications preferred.",
+  "prompt": "Create a job description for a Civil General Foreman overseeing the construction of electric vehicle (EV) charging stations. The ideal candidate will have extensive experience in managing crews for civil tasks such as excavation, concrete work, and asphalt installation. Responsibilities should include supervising crews, ensuring compliance with safety and environmental regulations, coordinating with project managers, and maintaining accurate documentation. Emphasize the importance of leadership, organization, and adherence to California Building Code standards. Candidates must have a minimum of 8-10 years of experience as a foreman and strong familiarity with commercial civil construction best practices."
+},
+"Electrical Foreman": {
+  "minValue": 45,
+  "maxValue": 55,
+  "experienceLevel": "seniorLevel",
+  "category": "Foreman",
+  "team": "Commercial",
+  "yearsExperience": "5-7",
+  "responsibilities": "Lead field operations for the installation and maintenance of electric vehicle (EV) charging stations, ensuring compliance with project designs, safety standards, and deadlines. Oversee the installation of commercial electrical systems, including service panels, transformers, conduit (EMT, rigid), and EV charging equipment. Plan and allocate daily tasks for journeymen and apprentices, ensuring efficient crew operations and adherence to safety protocols. Perform and supervise conduit bending, wire pulling, labeling, and terminations to meet NEC and California Electric Code standards. Troubleshoot and resolve electrical issues, conducting diagnostics using tools like multimeters, megohmmeters, and other testing equipment. Provide on-site leadership, coaching, and mentoring for team members while ensuring a clean and organized job site. Collaborate with project managers, clients, and other trades to resolve field challenges and ensure seamless project execution. Maintain daily reports documenting project progress, labor hours, material usage, and any deviations from the plan. Conduct regular safety meetings and enforce stop work authority in the event of violations or unsafe conditions. Ensure proper material ordering, inventory management, and adherence to project schedules.",
+  "qualifications": "Active and valid journeyman electrician certification from the California Department of Industrial Relations (DIR). Minimum of 5 years of experience in commercial electrical work, with at least 2 years in a leadership role. Extensive knowledge of NEC and California Electric Code, with hands-on experience in EV charging station installations. Proficiency with conduit bending, wire termination, and troubleshooting electrical systems. Strong leadership and communication skills, with a proven ability to mentor apprentices and manage field teams. Valid driver's license with a clean driving record and the ability to maintain auto insurance coverage. OSHA 30-hour certification and First Aid/CPR preferred. Familiarity with construction management software and tools such as Site Tracker is a plus.",
+  "prompt": "Create a job description for an Electrical Foreman responsible for leading field operations in the installation and maintenance of EV charging stations. Emphasize the requirement for an active journeyman certification from the California DIR, strong leadership skills, and in-depth knowledge of NEC and California Electric Code. Responsibilities should include supervising field crews, managing safety protocols, troubleshooting, and collaborating with project managers to ensure timely and high-quality project completion."
+},
+"Apprentice Electrician": {
+  "minValue": 18,
+  "maxValue": 23,
+  "experienceLevel": "entryLevel",
+  "category": "Apprentice",
+  "team": "Commercial",
+  "yearsExperience": "0-2",
+  "responsibilities": "Assist journeymen and foremen in the installation and maintenance of electric vehicle (EV) charging stations, ensuring all tasks align with NEC and California Electric Code standards. Pull and secure electrical wiring through conduits, trenches, and walls, ensuring proper labeling and organization. Assist in conduit bending (EMT, rigid) and installation under supervision. Help with the installation of service panels, transformers, and EV charging equipment. Perform basic troubleshooting tasks and system testing under the guidance of licensed electricians. Maintain cleanliness and organization on the job site, including proper storage of tools, materials, and equipment. Attend daily safety meetings and adhere to all workplace safety protocols. Learn and implement proper techniques for wire terminations, conduit layout, and electrical system components. Document daily work progress and report any safety or operational issues to supervisors. Proactively support team members in achieving project milestones and deadlines.",
+  "qualifications": "Valid Electrical Trainee card from the California Department of Industrial Relations (DIR). Basic understanding of electrical systems, tools, and equipment. Familiarity with NEC and California Electric Code is a plus. Strong willingness to learn and develop skills under the supervision of experienced electricians. Reliable transportation to job sites and ability to work across multiple locations. OSHA 10-hour certification and First Aid/CPR preferred. Physical stamina to perform manual labor, including lifting up to 50 pounds and working on ladders or in confined spaces.",
+  "prompt": "Create a job description for an Apprentice Electrician assisting in the installation and maintenance of EV charging stations. Emphasize the requirement for a valid Electrical Trainee card from the California DIR, willingness to learn, and ability to work collaboratively under supervision. Responsibilities should include pulling wires, assisting in conduit installation, supporting troubleshooting efforts, and maintaining job site cleanliness while adhering to safety protocols."
+}
+
+
+
+    
 };
 
 const COMPANIES = {
-  'Kirby Electric': {
-    name: 'Kirby Electric',
-    sameAs: 'https://kirbyelectric.com/',
-    logo: 'https://kirbyelectric.com/wp-content/uploads/2023/03/kirby_logo.png'
+  'Bright Move Energy': {
+    name: 'Bright Move Energy',
+    sameAs: 'https://www.brytemove.com/',
+    logo: 'https://www.brytemove.com/wp-content/uploads/2021/04/bme_logo_white-light_backgroun-2.png'
   },
-  'Myro Electrical': {
-    name: 'Myro Electrical',
-    sameAs: 'https://myroelectrical.com/',
-    logo: 'https://images.squarespace-cdn.com/content/v1/6441d6a8c943293c268b4359/7b2478ca-3514-499f-80c1-3a92bb142f0c/curve__1_-removebg-preview.png?format=1500w'
+  'Blink Charging': {
+    name: 'Blink Charging',
+    sameAs: 'https://blinkcharging.com/',
+    logo: 'https://play-lh.googleusercontent.com/r1o4hHnnpz4nBmWPMUzPIHxA9Ei-VcabK1yDpBVkCu19UOeZFBlBhD7-uE7q9TlSEJo'
   },
-  'Berks Electrical': {
-    name: 'Berks Electrical',
-    sameAs: 'https://berkselectrical.com/',
-    logo: 'https://berkselectrical.com/wp-content/uploads/2022/03/berk-logo.jpg'
+  'EV GO': {
+    name: 'EV GO',
+    sameAs: 'https://evgo.com/',
+    logo: 'https://play-lh.googleusercontent.com/BMy1sIp658aqwGM1YNE8sNF9UVgdj56o09jsyuk-IbCdAwVVpLCAhPNvmYDPRO7pi0E'
   },
-  'Tech Electronics': {
-    name: 'Tech Electronics',
-    sameAs: 'https://www.techelectronics.com/',
-    logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
+  'ChargePoint': {
+    name: 'ChargePoint',
+    sameAs: 'https://chargepoint.com/',
+    logo: 'https://www.chargepoint.com/themes/chargepoint/logo.svg'
   },
-  'Oak Electrical': {
-    name: 'Oak Electrical',
-    sameAs: 'https://oakelectriccompany.com/',
-    logo: 'https://oakelectriccompany.com/wp-content/uploads/2017/04/logoNav-for-web.png'
+  'Bidram Electric': {
+    name: 'Bidram Electric',
+    sameAs: 'https://bmodernelectric.com/',
+    logo: 'https://bmodernelectric.com/wp-content/uploads/2018/03/BMODERN_1212-e1595396794929.png'
   },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
-  },
-  'Reliable Electric': {
-    name: 'Reliable Electric',
-    sameAs: 'https://reliable-contractors.com/',
-    logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
-  },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
-  },
-  'EZ Electric': {
-    name: 'EZ Electric',
-    sameAs: 'https://ezelectric.com/',
-    logo: 'https://cdn.prod.website-files.com/62858eb9f95b5ef6ab8256be/66195b93d011344d05b98867_ez-electric-logo.svg'
-  },
-  'JP Electric': {
-    name: 'JP Electric',
-    sameAs: 'https://jpelectric.com/',
-    logo: 'https://jpelectric.com/wp-content/uploads/2021/05/logo.png'
-  },
-  'Star Electric': {
-    name: 'Star Electric',
-    sameAs: 'https://www.starelectricmt.com/',
-    logo: 'https://www.starelectricmt.com/wp-content/uploads/2023/11/starelectric-favicon-black-and-white.svg'
-  },
-  'JD Electric': {
-    name: 'JD Electric',
-    sameAs: 'https://jdproelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/243bff06-83b1-4928-b792-0338b6394a0b/logo/f2643ee5-278f-40f6-b108-dfc392a3d6fa.png/:/rs=w:662,h:160,cg:true,m/cr=w:662,h:160/qt=q:95'
-  },
-  'Tully Electric': {
-    name: 'Tully Electric',
-    sameAs: 'https://www.tully-electric.com/',
-    logo: 'https://static.wixstatic.com/media/3a1e46_522696ccd68b4e63b984a72af3fe2da3~mv2.jpg/v1/fill/w_310,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/tully_logo_name_(640x245).jpg'
-  },
-  'Marathon Electrical': {
-    name: 'Marathon Electrical',
-    sameAs: 'https://marathonelectric.com/',
-    logo: 'https://static.wixstatic.com/media/619c2c_813b990e8a82413597ed3f144ac0cb67~mv2.png/v1/crop/x_0,y_93,w_2420,h_815/fill/w_820,h_276,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/Marathon_Horizontal_Reversed_RGB.png'
-  },
-  'Eskew Electric': {
-    name: 'Eskew Electric',
-    sameAs: 'https://eskewelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/a06397fa-6f72-478f-ae05-6cf10229cbc5/blob-b5037f9.png/:/rs=w:501,h:400,cg:true,m/cr=w:501,h:400/qt=q:95'
-  },
-  'Colvin Electric': {
-    name: 'Colvin Electric',
-    sameAs: 'https://colvinelectric.com/',
-    logo: 'https://colvinelectric.com/wp-content/uploads/2018/10/colvin-electric_footer-logo-1.png'
-  },
-  'Passion Electric': {
-    name: 'Passion Electric',
-    sameAs: 'https://passionelectric.com/',
-    logo: 'https://passionelectric.com/wp-content/uploads/Passion-Electric-Logo-web-final-wide-full-color.png.webp'
-  },
-  'Braco Electrical': {
-    name: 'Braco Electrical',
-    sameAs: 'https://bracoelectrical.com/',
-    logo: 'https://www.bracoelectrical.com/images/logo.png'
-  },
-  'Safe Electric': {
-    name: 'Safe Electric',
-    sameAs: 'https://callsafe.com/',
-    logo: 'https://callsafe.com/wp-content/uploads/2024/05/Safe-Electric-Plumbing-Logo.png.webp'
-  },
-  'ESP Electrical': {
-    name: 'ESP Electrical',
-    sameAs: 'https://www.espelectrical.net/',
-    logo: 'https://www.espelectrical.net/images/logo.png'
-  },
-  'DP Electric': {
-    name: 'DP Electric',
-    sameAs: 'https://dpelectric.com/',
-    logo: 'https://dpelectric.com/wp-content/uploads/2022/03/DPA.png'
-  },
-  'Simple Electric': {
-    name: 'Simple Electric',
-    sameAs: 'https://simpleelectricaz.com/',
-    logo: 'https://simpleelectricaz.com/wp-content/uploads/2017/10/logo.png'
-  },
-  'Dodge Electric': {
-    name: 'Dodge Electric',
-    sameAs: 'https://dodgeelectric.com/',
-    logo: 'https://dodgeelectric.com/wp-content/uploads/2016/04/logo.jpg?quality=100.3022012111021'
-  },
-  'Miller Electric': {
-    name: 'Miller Electric',
-    sameAs: 'https://millerelect.com/',
-    logo: 'https://millerelect.com/wp-content/uploads/2022/04/logo.png'
-  },
-  'Arc Electric': {
-    name: 'Arc Electric',
-    sameAs: 'https://www.arcelectric.co/',
-    logo: 'https://static.wixstatic.com/media/6fbf59_32ce059a02c943c1a4ca0da76effedcc~mv2.png/v1/fill/w_116,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arc%20Electric%20Logo.png'
-  },
-  'Koehler Electric': {
-    name: 'Koehler Electric',
-    sameAs: 'https://jwkoehler.com/',
-    logo: 'https://jwkoehler.com/wp-content/uploads/2022/04/Koehler-Electric-Logo-2022-01.svg'
-  },
-  'Convergint': {
-    name: 'Convergint',
-    sameAs: 'https://www.convergint.com/',
-    logo: 'https://www.convergint.com/wp-content/uploads/2021/06/logo-on-dark-blue.png'
-  },
-  'Prime Partners': {
-    name: 'Prime Partners',
-    sameAs: 'https://www.primepartners.com/',
-    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
-  },
-  'Valley Alarm': {
-    name: 'Valley Alarm',
-    sameAs: 'https://valleyalarm.com/',
-    logo: 'https://www.valleyalarm.com/wp-content/uploads/2024/07/Valley-Alarm-Logo-web.png'
-  },
-  'Alert 360': {
-    name: 'Alert 360',
-    sameAs: 'https://alert360.com/',
-    logo: 'https://www.alert360.com/sites/default/files/Alert%20360%20Santa-01%202.png'
-  },
-  'Safe and Sound': {
-    name: 'Safe and Sound',
-    sameAs: 'https://getsafeandsound.com/',
-    logo: 'https://getsafeandsound.com/wp-content/uploads/2020/08/cropped-safe-and-sound-logo-460.png'
-  },
-  'Barry Bros Security': {
-    name: 'Barry Bros Security',
-    sameAs: 'https://barrybros.com/',
-    logo: 'https://www.barrybros.com/wp-content/themes/barrybros/img/logo.svg'
-  },
-  'Koorsen': {
-    name: 'Koorsen',
-    sameAs: 'https://koorsen.com/',
-    logo: 'https://www.koorsen.com/wp-content/uploads/2022/02/Koorsen-Logo.svg'
+  'Collins Electrical': {
+    name: 'Collins Electrical',
+    sameAs: 'https://www.collinselectric.com/commercial-ev-charging-station/',
+    logo: 'https://marvel-b1-cdn.bc0a.com/f00000000225472/www.collinselectric.com/wp-content/uploads/2025/01/Collins-Electrical-Logo-New._withTag-01.png'
   }
 };
 
 const LOCATIONS = [
-  { "city": "Phoenix", "state": "AZ", "zipCode": "85001" },
-  { "city": "Glendale", "state": "AZ", "zipCode": "85301" },
-  { "city": "Scottsdale", "state": "AZ", "zipCode": "85250" },
-  { "city": "Tempe", "state": "AZ", "zipCode": "85280" },
-  { "city": "Mesa", "state": "AZ", "zipCode": "85201" },
-  { "city": "Chandler", "state": "AZ", "zipCode": "85224" },
-  { "city": "Gilbert", "state": "AZ", "zipCode": "85233" },
-  { "city": "Peoria", "state": "AZ", "zipCode": "85345" },
-  { "city": "Surprise", "state": "AZ", "zipCode": "85374" },
-  { "city": "Avondale", "state": "AZ", "zipCode": "85323" },
-  { "city": "Denver", "state": "CO", "zipCode": "80201" },
-  { "city": "Aurora", "state": "CO", "zipCode": "80010" },
-  { "city": "Lakewood", "state": "CO", "zipCode": "80226" },
-  { "city": "Thornton", "state": "CO", "zipCode": "80229" },
-  { "city": "Arvada", "state": "CO", "zipCode": "80002" },
-  { "city": "Westminster", "state": "CO", "zipCode": "80030" },
-  { "city": "Centennial", "state": "CO", "zipCode": "80112" },
-  { "city": "Boulder", "state": "CO", "zipCode": "80301" },
-  { "city": "Fort Collins", "state": "CO", "zipCode": "80521" },
-  { "city": "Greeley", "state": "CO", "zipCode": "80631" },
-  { "city": "Fort Lauderdale", "state": "FL", "zipCode": "33301" },
-  { "city": "Hollywood", "state": "FL", "zipCode": "33019" },
-  { "city": "Pompano Beach", "state": "FL", "zipCode": "33060" },
-  { "city": "Davie", "state": "FL", "zipCode": "33314" },
-  { "city": "Plantation", "state": "FL", "zipCode": "33324" },
-  { "city": "Sunrise", "state": "FL", "zipCode": "33313" },
-  { "city": "Miramar", "state": "FL", "zipCode": "33023" },
-  { "city": "Coral Springs", "state": "FL", "zipCode": "33065" },
-  { "city": "Weston", "state": "FL", "zipCode": "33326" },
-  { "city": "Deerfield Beach", "state": "FL", "zipCode": "33441" },
-  { "city": "Orlando", "state": "FL", "zipCode": "32801" },
-  { "city": "Kissimmee", "state": "FL", "zipCode": "34741" },
-  { "city": "Sanford", "state": "FL", "zipCode": "32771" },
-  { "city": "Altamonte Springs", "state": "FL", "zipCode": "32701" },
-  { "city": "Oviedo", "state": "FL", "zipCode": "32765" },
-  { "city": "Winter Park", "state": "FL", "zipCode": "32789" },
-  { "city": "Apopka", "state": "FL", "zipCode": "32703" },
-  { "city": "Ocoee", "state": "FL", "zipCode": "34761" },
-  { "city": "Clermont", "state": "FL", "zipCode": "34711" },
-  { "city": "Winter Garden", "state": "FL", "zipCode": "34787" },
-  { "city": "Tampa", "state": "FL", "zipCode": "33601" },
-  { "city": "St. Petersburg", "state": "FL", "zipCode": "33701" },
-  { "city": "Clearwater", "state": "FL", "zipCode": "33755" },
-  { "city": "Brandon", "state": "FL", "zipCode": "33510" },
-  { "city": "Largo", "state": "FL", "zipCode": "33770" },
-  { "city": "Riverview", "state": "FL", "zipCode": "33578" },
-  { "city": "Palm Harbor", "state": "FL", "zipCode": "34682" },
-  { "city": "Pinellas Park", "state": "FL", "zipCode": "33781" },
-  { "city": "Wesley Chapel", "state": "FL", "zipCode": "33543" },
-  { "city": "Plant City", "state": "FL", "zipCode": "33563" },
-  { "city": "Washington", "state": "DC", "zipCode": "20001" },
-  { "city": "Arlington", "state": "VA", "zipCode": "22201" },
-  { "city": "Alexandria", "state": "VA", "zipCode": "22301" },
-  { "city": "Silver Spring", "state": "MD", "zipCode": "20901" },
-  { "city": "Bethesda", "state": "MD", "zipCode": "20814" },
-  { "city": "Falls Church", "state": "VA", "zipCode": "22046" },
-  // { "city": "Rockville", "state": "MD", "zipCode": "20850" },
-  // { "city": "Reston", "state": "VA", "zipCode": "20190" },
-  // { "city": "Gaithersburg", "state": "MD", "zipCode": "20877" },
-  // { "city": "Bowie", "state": "MD", "zipCode": "20715" },
-  // { "city": "Richmond", "state": "VA", "zipCode": "23218" },
-  // { "city": "Henrico", "state": "VA", "zipCode": "23228" },
-  // { "city": "Henrico", "state": "VA", "zipCode": "23228" },
-  // { "city": "Chesterfield", "state": "VA", "zipCode": "23832" },
-  // { "city": "Petersburg", "state": "VA", "zipCode": "23803" },
-  // { "city": "Hopewell", "state": "VA", "zipCode": "23860" },
-  // { "city": "Mechanicsville", "state": "VA", "zipCode": "23111" },
-  // { "city": "Virginia Beach", "state": "VA", "zipCode": "23450" },
-  // { "city": "Norfolk", "state": "VA", "zipCode": "23510" },
-  // { "city": "Chesapeake", "state": "VA", "zipCode": "23320" },
-  // { "city": "Newport News", "state": "VA", "zipCode": "23606" },
-  // { "city": "Hampton", "state": "VA", "zipCode": "23661" },
-  // { "city": "Suffolk", "state": "VA", "zipCode": "23434" },
-  // { "city": "Portsmouth", "state": "VA", "zipCode": "23704" },
-  // { "city": "Wilmington", "state": "NC", "zipCode": "28401" },
-  // { "city": "Leland", "state": "NC", "zipCode": "28451" },
-  // { "city": "Southport", "state": "NC", "zipCode": "28461" },
-  // { "city": "Raleigh", "state": "NC", "zipCode": "27601" },
-  // { "city": "Cary", "state": "NC", "zipCode": "27511" },
-  // { "city": "Durham", "state": "NC", "zipCode": "27701" },
-  // { "city": "Chapel Hill", "state": "NC", "zipCode": "27514" },
-  // { "city": "Wake Forest", "state": "NC", "zipCode": "27587" },
-  // { "city": "Fayetteville", "state": "NC", "zipCode": "28301" },
-  // { "city": "Hope Mills", "state": "NC", "zipCode": "28348" },
-  // { "city": "Spring Lake", "state": "NC", "zipCode": "28390" },
-  // { "city": "Charlotte", "state": "NC", "zipCode": "28202" },
-  // { "city": "Concord", "state": "NC", "zipCode": "28025" },
-  // { "city": "Huntersville", "state": "NC", "zipCode": "28078" },
-  // { "city": "Gastonia", "state": "NC", "zipCode": "28052" },
-  // { "city": "Matthews", "state": "NC", "zipCode": "28105" },
-  // { "city": "Greensboro", "state": "NC", "zipCode": "27401" },
-  // { "city": "High Point", "state": "NC", "zipCode": "27260" },
-  // { "city": "Burlington", "state": "NC", "zipCode": "27215" },
-  // { "city": "Winston-Salem", "state": "NC", "zipCode": "27101" },
-  // { "city": "Charleston", "state": "SC", "zipCode": "29401" },
-  // { "city": "Mount Pleasant", "state": "SC", "zipCode": "29464" },
-  // { "city": "North Charleston", "state": "SC", "zipCode": "29405" },
-  // { "city": "Summerville", "state": "SC", "zipCode": "29483" },
-  // { "city": "Goose Creek", "state": "SC", "zipCode": "29445" },
-  // { "city": "Greenville", "state": "SC", "zipCode": "29601" },
-  // { "city": "Spartanburg", "state": "SC", "zipCode": "29301" },
-  // { "city": "Anderson", "state": "SC", "zipCode": "29621" },
-  // { "city": "Simpsonville", "state": "SC", "zipCode": "29681" },
-  // { "city": "Atlanta", "state": "GA", "zipCode": "30301" },
-  // { "city": "Marietta", "state": "GA", "zipCode": "30060" },
-  // { "city": "Smyrna", "state": "GA", "zipCode": "30080" },
-  // { "city": "Roswell", "state": "GA", "zipCode": "30075" },
-  // { "city": "Alpharetta", "state": "GA", "zipCode": "30004" },
-  // { "city": "Nashville", "state": "TN", "zipCode": "37201" },
-  // { "city": "Franklin", "state": "TN", "zipCode": "37064" },
-  // { "city": "Hendersonville", "state": "TN", "zipCode": "37075" },
-  // { "city": "Murfreesboro", "state": "TN", "zipCode": "37130" },
-  // { "city": "Miami", "state": "FL", "zipCode": "33101" },
-  // { "city": "Hialeah", "state": "FL", "zipCode": "33010" },
-  // { "city": "Miami Gardens", "state": "FL", "zipCode": "33056" },
-  // { "city": "Homestead", "state": "FL", "zipCode": "33030" },
-  // { "city": "North Miami Beach", "state": "FL", "zipCode": "33160" }
+  { city: 'Anaheim', state: 'CA', zipCode: '92801' },
+{ city: 'Santa Ana', state: 'CA', zipCode: '92701' },
+{ city: 'Huntington Beach', state: 'CA', zipCode: '92646' },
+{ city: 'Fullerton', state: 'CA', zipCode: '92831' },
+{ city: 'Orange', state: 'CA', zipCode: '92865' },
+{ city: 'Costa Mesa', state: 'CA', zipCode: '92626' },
+{ city: 'Garden Grove', state: 'CA', zipCode: '92840' },
+{ city: 'Tustin', state: 'CA', zipCode: '92780' },
+{ city: 'Laguna Beach', state: 'CA', zipCode: '92651' },
+{ city: 'Newport Beach', state: 'CA', zipCode: '92660' },
+{ city: 'Mission Viejo', state: 'CA', zipCode: '92691' },
+{ city: 'Laguna Niguel', state: 'CA', zipCode: '92677' },
+{ city: 'Lake Forest', state: 'CA', zipCode: '92630' },
+{ city: 'Aliso Viejo', state: 'CA', zipCode: '92656' },
+{ city: 'Fountain Valley', state: 'CA', zipCode: '92708' },
+{ city: 'San Clemente', state: 'CA', zipCode: '92672' },
+{ city: 'Brea', state: 'CA', zipCode: '92821' },
+{ city: 'Placentia', state: 'CA', zipCode: '92870' },
+{ city: 'San Juan Capistrano', state: 'CA', zipCode: '92675' },
+{ city: 'Laguna Hills', state: 'CA', zipCode: '92653' },
+{ city: 'Dana Point', state: 'CA', zipCode: '92629' },
+{ city: 'Seal Beach', state: 'CA', zipCode: '90740' },
+{ city: 'Cypress', state: 'CA', zipCode: '90630' },
+{ city: 'Buena Park', state: 'CA', zipCode: '90620' },
+{ city: 'Yorba Linda', state: 'CA', zipCode: '92886' },
+{ city: 'La Habra', state: 'CA', zipCode: '90631' },
+{ city: 'Westminster', state: 'CA', zipCode: '92683' },
+{ city: 'Stanton', state: 'CA', zipCode: '90680' },
+{ city: 'Los Alamitos', state: 'CA', zipCode: '90720' },
+{ city: 'La Palma', state: 'CA', zipCode: '90623' },
+{ city: 'Rancho Santa Margarita', state: 'CA', zipCode: '92688' },
+{ city: 'Coto de Caza', state: 'CA', zipCode: '92679' },
+{ city: 'Ladera Ranch', state: 'CA', zipCode: '92694' },
+{ city: 'Norwalk', state: 'CA', zipCode: '90650' },
+{ city: 'Cerritos', state: 'CA', zipCode: '90703' },
+{ city: 'Hawaiian Gardens', state: 'CA', zipCode: '90716' },
+{ city: 'Long Beach', state: 'CA', zipCode: '90802' },
+{ city: 'Carson', state: 'CA', zipCode: '90745' },
+{ city: 'San Pedro', state: 'CA', zipCode: '90731' },
+{ city: 'Lakewood', state: 'CA', zipCode: '90712' },
+{ city: 'Bellflower', state: 'CA', zipCode: '90706' },
+{ city: 'Downey', state: 'CA', zipCode: '90241' },
+{ city: 'Santa Fe Springs', state: 'CA', zipCode: '90670' },
+{ city: 'Whittier', state: 'CA', zipCode: '90601' },
+{ city: 'Paramount', state: 'CA', zipCode: '90723' },
+{ city: 'South Gate', state: 'CA', zipCode: '90280' },
+{ city: 'Pico Rivera', state: 'CA', zipCode: '90660' },
+{ city: 'Torrance', state: 'CA', zipCode: '90501' },
+{ city: 'Manhattan Beach', state: 'CA', zipCode: '90266' },
+{ city: 'Redondo Beach', state: 'CA', zipCode: '90277' }
   ];
   
 

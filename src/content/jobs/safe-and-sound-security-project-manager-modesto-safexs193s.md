@@ -13,8 +13,8 @@ description: >-
   security sol...
 location: 'Modesto, CA'
 team: Commercial
-datePosted: '2024-12-20T01:28:32.746Z'
-validThrough: '2025-01-25T01:28:32.746Z'
+datePosted: '2025-01-14T08:44:19.732Z'
+validThrough: '2025-02-24T08:44:19.732Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

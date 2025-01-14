@@ -14,8 +14,8 @@ description: >-
   in supporting our healthcare facilities projects in Marietta, GA, ...
 location: 'Marietta, GA'
 team: Commercial
-datePosted: '2024-12-19T21:27:18.741Z'
-validThrough: '2025-01-19T21:27:18.741Z'
+datePosted: '2025-01-14T10:16:46.672Z'
+validThrough: '2025-02-26T10:16:46.672Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

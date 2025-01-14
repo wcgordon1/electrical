@@ -15,8 +15,8 @@ description: >-
   Arlington,...
 location: 'Arlington, VA'
 team: Commercial
-datePosted: '2024-12-19T19:26:59.748Z'
-validThrough: '2025-01-23T19:26:59.748Z'
+datePosted: '2025-01-14T10:49:06.988Z'
+validThrough: '2025-02-17T10:49:06.988Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

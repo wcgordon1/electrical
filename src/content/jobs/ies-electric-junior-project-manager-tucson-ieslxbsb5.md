@@ -13,8 +13,8 @@ description: >-
   efficiency, making us a preferre...
 location: 'Tucson, AZ'
 team: Industrial
-datePosted: '2024-12-20T10:34:29.834Z'
-validThrough: '2025-01-21T10:34:29.834Z'
+datePosted: '2025-01-14T10:01:54.883Z'
+validThrough: '2025-02-13T10:01:54.883Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

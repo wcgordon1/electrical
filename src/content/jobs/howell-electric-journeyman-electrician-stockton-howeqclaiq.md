@@ -13,8 +13,8 @@ description: >-
   and quality in every p...
 location: 'Stockton, CA'
 team: Commercial
-datePosted: '2024-12-20T08:34:58.560Z'
-validThrough: '2025-02-03T08:34:58.560Z'
+datePosted: '2025-01-14T08:34:35.277Z'
+validThrough: '2025-02-15T08:34:35.277Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

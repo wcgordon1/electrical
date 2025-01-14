@@ -15,8 +15,8 @@ description: >-
   As a Fire Alarm Tech based in Los Angeles,...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-20T00:39:33.569Z'
-validThrough: '2025-01-21T00:39:33.569Z'
+datePosted: '2025-01-14T10:33:09.518Z'
+validThrough: '2025-02-19T10:33:09.518Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

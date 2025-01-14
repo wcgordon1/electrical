@@ -14,8 +14,8 @@ description: >-
   educational insti...
 location: 'Louisville, CO'
 team: Commercial
-datePosted: '2024-12-20T09:36:56.117Z'
-validThrough: '2025-02-02T09:36:56.117Z'
+datePosted: '2025-01-14T08:47:11.897Z'
+validThrough: '2025-02-23T08:47:11.897Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

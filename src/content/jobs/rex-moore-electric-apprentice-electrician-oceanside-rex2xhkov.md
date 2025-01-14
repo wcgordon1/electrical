@@ -13,8 +13,8 @@ description: >-
   safety, growth, and te...
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-19T20:53:58.294Z'
-validThrough: '2025-01-21T20:53:58.294Z'
+datePosted: '2025-01-14T08:06:14.448Z'
+validThrough: '2025-02-27T08:06:14.448Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

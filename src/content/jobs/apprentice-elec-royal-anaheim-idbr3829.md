@@ -47,8 +47,8 @@ description: >-
   commercial electrical systems, tools, and techniques.
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-20T08:36:31.609Z'
-validThrough: '2025-01-27T08:36:31.609Z'
+datePosted: '2025-01-14T10:10:27.476Z'
+validThrough: '2025-02-22T10:10:27.476Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Royal Electric

@@ -13,8 +13,8 @@ description: >-
   Based...
 location: 'Moreno Valley, CA'
 team: Commercial
-datePosted: '2024-12-20T01:14:31.450Z'
-validThrough: '2025-01-31T01:14:31.450Z'
+datePosted: '2025-01-14T09:30:05.381Z'
+validThrough: '2025-02-25T09:30:05.381Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Barry Bros Security

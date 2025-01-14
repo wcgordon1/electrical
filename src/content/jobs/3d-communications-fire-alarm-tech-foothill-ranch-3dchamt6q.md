@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Foothill Ranch, CA'
 team: Commercial
-datePosted: '2024-12-19T22:08:26.932Z'
-validThrough: '2025-01-31T22:08:26.932Z'
+datePosted: '2025-01-14T11:58:49.023Z'
+validThrough: '2025-02-19T11:58:49.023Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

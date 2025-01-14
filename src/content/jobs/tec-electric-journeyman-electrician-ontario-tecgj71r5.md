@@ -13,8 +13,8 @@ description: >-
   needs of our c...
 location: 'Ontario, CA'
 team: Residential
-datePosted: '2024-12-20T00:34:53.914Z'
-validThrough: '2025-01-20T00:34:53.914Z'
+datePosted: '2025-01-14T11:14:41.902Z'
+validThrough: '2025-02-23T11:14:41.902Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

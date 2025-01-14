@@ -14,8 +14,8 @@ description: >-
   supporting healthcare facility projects in Norfolk, VA, and neighbo...
 location: 'Norfolk, VA'
 team: Commercial
-datePosted: '2024-12-19T20:53:01.734Z'
-validThrough: '2025-02-02T20:53:01.734Z'
+datePosted: '2025-01-14T08:08:20.952Z'
+validThrough: '2025-02-17T08:08:20.952Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

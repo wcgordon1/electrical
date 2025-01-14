@@ -14,8 +14,8 @@ description: >-
   installation, maintenance, and troubleshooting of ...
 location: 'Chesapeake, VA'
 team: Commercial
-datePosted: '2024-12-19T23:25:41.585Z'
-validThrough: '2025-01-20T23:25:41.585Z'
+datePosted: '2025-01-14T11:50:59.077Z'
+validThrough: '2025-02-28T11:50:59.077Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

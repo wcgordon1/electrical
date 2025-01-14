@@ -18,8 +18,8 @@ description: >-
   The Cable Technician at HCI ...
 location: 'Richmond, VA'
 team: Commercial
-datePosted: '2024-12-19T20:59:51.029Z'
-validThrough: '2025-01-31T20:59:51.029Z'
+datePosted: '2025-01-14T12:58:31.636Z'
+validThrough: '2025-02-25T12:58:31.636Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

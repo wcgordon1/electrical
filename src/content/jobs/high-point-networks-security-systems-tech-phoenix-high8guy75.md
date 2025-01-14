@@ -14,8 +14,8 @@ description: >-
   projects primarily focused on educationa...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-19T20:41:51.047Z'
-validThrough: '2025-02-01T20:41:51.047Z'
+datePosted: '2025-01-14T13:39:31.429Z'
+validThrough: '2025-02-28T13:39:31.429Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

@@ -46,8 +46,8 @@ description: >-
   Torrance and beyond.
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-20T08:43:35.365Z'
-validThrough: '2025-01-21T08:43:35.365Z'
+datePosted: '2025-01-14T11:59:40.808Z'
+validThrough: '2025-02-22T11:59:40.808Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

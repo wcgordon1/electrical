@@ -13,8 +13,8 @@ description: >-
   clients succeed...
 location: 'Roanoke, VA'
 team: Commercial
-datePosted: '2024-12-19T19:03:55.403Z'
-validThrough: '2025-01-19T19:03:55.403Z'
+datePosted: '2025-01-14T09:07:07.712Z'
+validThrough: '2025-02-18T09:07:07.712Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

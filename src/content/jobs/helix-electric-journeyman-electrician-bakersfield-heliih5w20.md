@@ -15,8 +15,8 @@ description: >-
   in Bakersfield, CA, Helix Electric i...
 location: 'Bakersfield, CA'
 team: Industrial
-datePosted: '2024-12-19T22:54:04.379Z'
-validThrough: '2025-01-19T22:54:04.379Z'
+datePosted: '2025-01-14T09:21:09.632Z'
+validThrough: '2025-02-25T09:21:09.632Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

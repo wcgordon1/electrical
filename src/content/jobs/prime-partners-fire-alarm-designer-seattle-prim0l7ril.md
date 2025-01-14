@@ -15,8 +15,8 @@ description: >-
   on innovation, quality, and exceptional service...
 location: 'Seattle, WA'
 team: Commercial
-datePosted: '2024-12-20T07:14:39.467Z'
-validThrough: '2025-01-25T07:14:39.467Z'
+datePosted: '2025-01-14T11:30:48.737Z'
+validThrough: '2025-02-14T11:30:48.737Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

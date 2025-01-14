@@ -27,8 +27,8 @@ description: >-
   opportunities and ongoing training.
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-20T11:17:35.515Z'
-validThrough: '2025-01-27T11:17:35.515Z'
+datePosted: '2025-01-14T11:04:44.655Z'
+validThrough: '2025-02-24T11:04:44.655Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

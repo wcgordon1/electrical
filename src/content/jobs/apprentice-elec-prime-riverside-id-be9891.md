@@ -49,8 +49,8 @@ description: >
   excellence, and career development.
 location: 'Riverside, CA'
 team: Commercial
-datePosted: '2024-12-20T09:40:20.661Z'
-validThrough: '2025-02-01T09:40:20.661Z'
+datePosted: '2025-01-14T08:05:29.473Z'
+validThrough: '2025-02-26T08:05:29.473Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

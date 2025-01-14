@@ -14,8 +14,8 @@ description: >-
   installation, maintenance, and troubleshooting o...
 location: 'Larkspur, CA'
 team: Commercial
-datePosted: '2024-12-19T22:22:07.686Z'
-validThrough: '2025-01-21T22:22:07.686Z'
+datePosted: '2025-01-14T09:07:38.191Z'
+validThrough: '2025-02-18T09:07:38.191Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

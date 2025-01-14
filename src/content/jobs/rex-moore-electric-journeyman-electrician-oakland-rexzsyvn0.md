@@ -13,8 +13,8 @@ description: >-
   Oakland, C...
 location: 'Oakland, CA'
 team: Industrial
-datePosted: '2024-12-20T11:32:54.419Z'
-validThrough: '2025-01-21T11:32:54.419Z'
+datePosted: '2025-01-14T14:24:10.702Z'
+validThrough: '2025-02-13T14:24:10.702Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

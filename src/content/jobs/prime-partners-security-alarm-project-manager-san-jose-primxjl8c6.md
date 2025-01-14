@@ -10,8 +10,8 @@ description: >-
   closely with clients to ensure that their security needs are met w...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-20T08:46:40.303Z'
-validThrough: '2025-01-29T08:46:40.303Z'
+datePosted: '2025-01-14T08:20:28.856Z'
+validThrough: '2025-02-26T08:20:28.856Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

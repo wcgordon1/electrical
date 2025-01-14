@@ -15,8 +15,8 @@ description: >-
   **Industrial Junior Project Manager...
 location: 'Miami, FL'
 team: Industrial
-datePosted: '2024-12-19T23:52:48.666Z'
-validThrough: '2025-02-02T23:52:48.666Z'
+datePosted: '2025-01-14T08:28:03.559Z'
+validThrough: '2025-02-18T08:28:03.559Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

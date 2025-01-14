@@ -13,8 +13,8 @@ description: >-
   ## Overview of CCTV Fire Alarm Designer Rol...
 location: 'West Jordan, UT'
 team: Commercial
-datePosted: '2024-12-20T08:16:43.052Z'
-validThrough: '2025-02-03T08:16:43.052Z'
+datePosted: '2025-01-14T14:14:25.282Z'
+validThrough: '2025-02-17T14:14:25.282Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

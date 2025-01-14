@@ -14,8 +14,8 @@ description: >-
   for installing, maintaining, a...
 location: 'Smyrna, GA'
 team: Commercial
-datePosted: '2024-12-20T04:53:40.187Z'
-validThrough: '2025-02-03T04:53:40.187Z'
+datePosted: '2025-01-14T12:36:00.647Z'
+validThrough: '2025-02-13T12:36:00.647Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

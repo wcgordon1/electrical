@@ -15,8 +15,8 @@ description: >-
   play a crucial role in the installation and mainten...
 location: 'Midlothian, VA'
 team: Commercial
-datePosted: '2024-12-20T09:52:45.481Z'
-validThrough: '2025-01-28T09:52:45.481Z'
+datePosted: '2025-01-14T15:02:02.031Z'
+validThrough: '2025-02-15T15:02:02.031Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

@@ -13,8 +13,8 @@ description: >-
   skilled workfor...
 location: 'Chula Vista, CA'
 team: Industrial
-datePosted: '2024-12-20T09:55:58.924Z'
-validThrough: '2025-01-31T09:55:58.924Z'
+datePosted: '2025-01-14T10:18:02.155Z'
+validThrough: '2025-02-28T10:18:02.155Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

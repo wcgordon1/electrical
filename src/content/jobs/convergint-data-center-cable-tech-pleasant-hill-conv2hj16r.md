@@ -14,8 +14,8 @@ description: >-
   maintaining, and troubleshooting cabling systems in Pleasant Hill, CA, ...
 location: 'Pleasant Hill, CA'
 team: Commercial
-datePosted: '2024-12-19T19:12:41.828Z'
-validThrough: '2025-01-27T19:12:41.828Z'
+datePosted: '2025-01-14T13:49:43.211Z'
+validThrough: '2025-02-24T13:49:43.211Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

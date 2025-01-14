@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-20T08:45:15.620Z'
-validThrough: '2025-01-29T08:45:15.620Z'
+datePosted: '2025-01-14T15:17:21.264Z'
+validThrough: '2025-02-27T15:17:21.264Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

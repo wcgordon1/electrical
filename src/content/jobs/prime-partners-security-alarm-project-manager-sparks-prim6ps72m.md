@@ -13,8 +13,8 @@ description: >-
   complexities, from inception to co...
 location: 'Sparks, NV'
 team: Commercial
-datePosted: '2024-12-20T09:12:54.184Z'
-validThrough: '2025-01-25T09:12:54.184Z'
+datePosted: '2025-01-14T10:44:06.845Z'
+validThrough: '2025-02-24T10:44:06.845Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

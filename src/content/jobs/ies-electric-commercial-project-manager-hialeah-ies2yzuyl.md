@@ -18,8 +18,8 @@ description: >-
   As a Manuf...
 location: 'Hialeah, FL'
 team: Industrial
-datePosted: '2024-12-20T02:46:54.296Z'
-validThrough: '2025-02-03T02:46:54.296Z'
+datePosted: '2025-01-14T09:48:14.644Z'
+validThrough: '2025-02-20T09:48:14.644Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

@@ -18,8 +18,8 @@ description: >-
   Village, CA. This role focu...
 location: 'Westlake Village, CA'
 team: Commercial
-datePosted: '2024-12-19T20:55:40.683Z'
-validThrough: '2025-01-21T20:55:40.683Z'
+datePosted: '2025-01-14T15:00:28.508Z'
+validThrough: '2025-02-23T15:00:28.508Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

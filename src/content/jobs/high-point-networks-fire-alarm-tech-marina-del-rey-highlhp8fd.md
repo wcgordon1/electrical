@@ -11,8 +11,8 @@ description: >-
   Rey, CA. This role is critical in ensuring the safety and compli...
 location: 'Marina del Rey, CA'
 team: Commercial
-datePosted: '2024-12-19T21:54:08.184Z'
-validThrough: '2025-01-27T21:54:08.184Z'
+datePosted: '2025-01-14T11:42:19.675Z'
+validThrough: '2025-02-22T11:42:19.675Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

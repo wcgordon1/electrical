@@ -22,8 +22,8 @@ description: >-
   (PPE).
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-20T11:01:33.209Z'
-validThrough: '2025-01-22T11:01:33.209Z'
+datePosted: '2025-01-14T10:25:01.884Z'
+validThrough: '2025-02-27T10:25:01.884Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

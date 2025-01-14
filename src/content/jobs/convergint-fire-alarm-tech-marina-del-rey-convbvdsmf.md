@@ -17,8 +17,8 @@ description: >-
   servicing, maintaining, and installing fire alarm systems, par...
 location: 'Marina del Rey, CA'
 team: Commercial
-datePosted: '2024-12-19T23:54:49.821Z'
-validThrough: '2025-02-02T23:54:49.821Z'
+datePosted: '2025-01-14T12:18:26.791Z'
+validThrough: '2025-02-21T12:18:26.791Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

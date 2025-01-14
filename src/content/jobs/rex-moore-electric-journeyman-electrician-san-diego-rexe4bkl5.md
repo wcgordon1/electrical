@@ -13,8 +13,8 @@ description: >-
   We are seeking a skilled Multi-Family Journeyman ...
 location: 'San Diego, CA'
 team: Residential
-datePosted: '2024-12-20T01:49:01.890Z'
-validThrough: '2025-01-31T01:49:01.890Z'
+datePosted: '2025-01-14T09:09:07.739Z'
+validThrough: '2025-02-22T09:09:07.739Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

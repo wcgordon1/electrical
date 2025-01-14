@@ -13,8 +13,8 @@ description: >-
   on delivering top...
 location: 'Denver, CO'
 team: Industrial
-datePosted: '2024-12-19T23:28:58.054Z'
-validThrough: '2025-02-02T23:28:58.054Z'
+datePosted: '2025-01-14T11:52:32.821Z'
+validThrough: '2025-02-28T11:52:32.821Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

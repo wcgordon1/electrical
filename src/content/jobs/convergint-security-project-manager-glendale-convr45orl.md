@@ -18,8 +18,8 @@ description: >-
   As a Fire Alarm ...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-20T07:47:36.472Z'
-validThrough: '2025-01-29T07:47:36.472Z'
+datePosted: '2025-01-14T14:26:10.671Z'
+validThrough: '2025-02-23T14:26:10.671Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

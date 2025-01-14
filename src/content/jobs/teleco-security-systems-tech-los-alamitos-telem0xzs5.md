@@ -14,8 +14,8 @@ description: >-
   and upgrading security systems for educational institutions ...
 location: 'Los Alamitos, CA'
 team: Commercial
-datePosted: '2024-12-19T20:43:31.438Z'
-validThrough: '2025-01-31T20:43:31.438Z'
+datePosted: '2025-01-14T11:25:25.447Z'
+validThrough: '2025-02-20T11:25:25.447Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

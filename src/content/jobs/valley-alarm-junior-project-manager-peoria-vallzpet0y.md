@@ -10,8 +10,8 @@ description: >-
   our clients through cutting-edge technology and...
 location: 'Peoria, AZ'
 team: Commercial
-datePosted: '2024-12-20T04:37:04.481Z'
-validThrough: '2025-01-25T04:37:04.481Z'
+datePosted: '2025-01-14T10:16:41.622Z'
+validThrough: '2025-02-17T10:16:41.622Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Valley Alarm

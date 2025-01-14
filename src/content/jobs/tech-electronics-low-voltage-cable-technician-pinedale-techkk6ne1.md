@@ -14,8 +14,8 @@ description: >-
   maintaining low voltage systems in healthcare f...
 location: 'Pinedale, WY'
 team: Commercial
-datePosted: '2024-12-20T08:58:08.992Z'
-validThrough: '2025-02-03T08:58:08.992Z'
+datePosted: '2025-01-14T11:33:06.000Z'
+validThrough: '2025-02-14T11:33:06.000Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

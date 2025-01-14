@@ -13,8 +13,8 @@ description: >-
   ## Position ...
 location: 'Alexandria, VA'
 team: Commercial
-datePosted: '2024-12-20T00:52:20.851Z'
-validThrough: '2025-01-30T00:52:20.851Z'
+datePosted: '2025-01-14T12:08:31.482Z'
+validThrough: '2025-02-27T12:08:31.482Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

@@ -14,8 +14,8 @@ description: >-
   the safety and security o...
 location: 'Austin, TX'
 team: Commercial
-datePosted: '2024-12-20T01:00:28.821Z'
-validThrough: '2025-01-28T01:00:28.821Z'
+datePosted: '2025-01-14T11:08:50.029Z'
+validThrough: '2025-02-15T11:08:50.029Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

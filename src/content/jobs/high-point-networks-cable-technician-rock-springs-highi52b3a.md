@@ -14,8 +14,8 @@ description: >-
   We are seeking a skilled Cable Technician to joi...
 location: 'Rock Springs, WY'
 team: Commercial
-datePosted: '2024-12-19T20:16:25.979Z'
-validThrough: '2025-01-30T20:16:25.979Z'
+datePosted: '2025-01-14T15:12:13.543Z'
+validThrough: '2025-02-26T15:12:13.543Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

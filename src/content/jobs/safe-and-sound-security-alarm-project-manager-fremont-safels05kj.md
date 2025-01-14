@@ -13,8 +13,8 @@ description: >-
   trusted partner in se...
 location: 'Fremont, CA'
 team: Commercial
-datePosted: '2024-12-20T11:50:07.020Z'
-validThrough: '2025-01-23T11:50:07.020Z'
+datePosted: '2025-01-14T14:01:35.873Z'
+validThrough: '2025-02-13T14:01:35.873Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

@@ -12,8 +12,8 @@ description: >-
   ensuring that all fire safety systems are designed and imple...
 location: 'North Las Vegas, NV'
 team: Commercial
-datePosted: '2024-12-20T06:24:50.835Z'
-validThrough: '2025-01-26T06:24:50.835Z'
+datePosted: '2025-01-14T10:16:25.643Z'
+validThrough: '2025-02-13T10:16:25.643Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Valley Alarm

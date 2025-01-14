@@ -14,8 +14,8 @@ description: >-
   CO, and neighboring a...
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-20T08:17:45.588Z'
-validThrough: '2025-01-23T08:17:45.588Z'
+datePosted: '2025-01-14T14:05:41.478Z'
+validThrough: '2025-02-28T14:05:41.478Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

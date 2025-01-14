@@ -16,8 +16,8 @@ description: >-
   of experienced electricians to d...
 location: 'Charleston, SC'
 team: Service
-datePosted: '2024-12-19T19:40:19.788Z'
-validThrough: '2025-01-26T19:40:19.788Z'
+datePosted: '2025-01-14T12:31:30.562Z'
+validThrough: '2025-02-16T12:31:30.562Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -13,8 +13,8 @@ description: >-
   efficiency. At TEC...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-20T05:22:15.351Z'
-validThrough: '2025-01-21T05:22:15.351Z'
+datePosted: '2025-01-14T11:16:17.921Z'
+validThrough: '2025-02-14T11:16:17.921Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

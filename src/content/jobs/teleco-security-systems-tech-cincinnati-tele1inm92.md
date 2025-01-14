@@ -12,8 +12,8 @@ description: >-
   organizations seeking to upgrade t...
 location: 'Cincinnati, OH'
 team: Commercial
-datePosted: '2024-12-19T20:46:01.133Z'
-validThrough: '2025-01-30T20:46:01.133Z'
+datePosted: '2025-01-14T12:44:18.144Z'
+validThrough: '2025-02-25T12:44:18.144Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

@@ -16,8 +16,8 @@ description: >-
   The Security Systems Tech will play a crucial role in designing, ins...
 location: 'Union City, CA'
 team: Commercial
-datePosted: '2024-12-19T22:12:48.244Z'
-validThrough: '2025-01-26T22:12:48.244Z'
+datePosted: '2025-01-14T12:44:27.073Z'
+validThrough: '2025-02-14T12:44:27.073Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

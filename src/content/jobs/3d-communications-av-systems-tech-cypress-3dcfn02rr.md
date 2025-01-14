@@ -14,8 +14,8 @@ description: >-
   configuration, and maintenance of audiovisual ...
 location: 'Cypress, CA'
 team: Commercial
-datePosted: '2024-12-19T22:39:37.575Z'
-validThrough: '2025-01-31T22:39:37.575Z'
+datePosted: '2025-01-14T12:51:37.135Z'
+validThrough: '2025-02-20T12:51:37.135Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

@@ -15,8 +15,8 @@ description: >-
   insta...
 location: 'Oklahoma City, OK'
 team: Commercial
-datePosted: '2024-12-19T20:30:17.709Z'
-validThrough: '2025-01-25T20:30:17.709Z'
+datePosted: '2025-01-14T14:39:30.136Z'
+validThrough: '2025-02-28T14:39:30.136Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

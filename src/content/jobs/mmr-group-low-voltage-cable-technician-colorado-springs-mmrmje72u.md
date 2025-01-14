@@ -14,8 +14,8 @@ description: >-
   will be responsible for installing, maintainin...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-19T19:00:02.527Z'
-validThrough: '2025-01-30T19:00:02.527Z'
+datePosted: '2025-01-14T12:21:06.919Z'
+validThrough: '2025-02-26T12:21:06.919Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

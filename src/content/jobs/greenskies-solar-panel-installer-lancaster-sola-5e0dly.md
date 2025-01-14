@@ -23,8 +23,8 @@ description: >-
   electrical diagrams to det...
 location: 'Lancaster, CA'
 team: Solar
-datePosted: '2024-12-20T11:50:41.263Z'
-validThrough: '2025-01-27T11:50:41.263Z'
+datePosted: '2025-01-14T09:39:49.152Z'
+validThrough: '2025-02-23T09:39:49.152Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

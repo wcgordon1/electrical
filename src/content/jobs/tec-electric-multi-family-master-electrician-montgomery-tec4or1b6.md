@@ -18,8 +18,8 @@ description: >-
   - Oversee and execute electrical insta...
 location: 'Montgomery, AL'
 team: Residential
-datePosted: '2024-12-19T19:15:05.482Z'
-validThrough: '2025-02-02T19:15:05.482Z'
+datePosted: '2025-01-14T14:10:25.049Z'
+validThrough: '2025-02-16T14:10:25.049Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

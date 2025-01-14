@@ -13,8 +13,8 @@ description: >-
   advancements, ensuring tha...
 location: 'Oakwood, GA'
 team: Commercial
-datePosted: '2024-12-20T03:43:24.766Z'
-validThrough: '2025-01-31T03:43:24.766Z'
+datePosted: '2025-01-14T09:23:40.468Z'
+validThrough: '2025-02-28T09:23:40.468Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

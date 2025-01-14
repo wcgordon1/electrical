@@ -13,8 +13,8 @@ description: >-
   We take pri...
 location: 'Tempe, AZ'
 team: Residential
-datePosted: '2024-12-20T07:30:28.892Z'
-validThrough: '2025-01-21T07:30:28.892Z'
+datePosted: '2025-01-14T10:27:47.524Z'
+validThrough: '2025-02-17T10:27:47.524Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

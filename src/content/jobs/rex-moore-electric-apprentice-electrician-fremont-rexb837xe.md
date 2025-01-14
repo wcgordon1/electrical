@@ -13,8 +13,8 @@ description: >-
   energy-efficient and safe ele...
 location: 'Fremont, CA'
 team: Residential
-datePosted: '2024-12-20T07:32:37.072Z'
-validThrough: '2025-02-03T07:32:37.072Z'
+datePosted: '2025-01-14T08:31:26.653Z'
+validThrough: '2025-02-13T08:31:26.653Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

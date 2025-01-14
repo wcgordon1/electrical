@@ -13,8 +13,8 @@ description: >-
   innovation, safety, and e...
 location: 'San Jose, CA'
 team: Industrial
-datePosted: '2024-12-20T11:16:24.816Z'
-validThrough: '2025-01-29T11:16:24.816Z'
+datePosted: '2025-01-14T08:35:29.646Z'
+validThrough: '2025-02-20T08:35:29.646Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

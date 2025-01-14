@@ -14,8 +14,8 @@ description: >-
   and troubleshooting low voltage cab...
 location: 'Watkinsville, GA'
 team: Commercial
-datePosted: '2024-12-20T02:48:22.968Z'
-validThrough: '2025-02-02T02:48:22.968Z'
+datePosted: '2025-01-14T12:30:10.204Z'
+validThrough: '2025-02-16T12:30:10.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

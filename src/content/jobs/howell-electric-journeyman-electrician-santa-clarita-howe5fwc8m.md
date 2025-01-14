@@ -13,8 +13,8 @@ description: >-
   a trusted partner in the re...
 location: 'Santa Clarita, CA'
 team: Residential
-datePosted: '2024-12-19T18:52:36.398Z'
-validThrough: '2025-01-24T18:52:36.398Z'
+datePosted: '2025-01-14T09:54:20.133Z'
+validThrough: '2025-02-18T09:54:20.133Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

@@ -10,8 +10,8 @@ description: >-
   and experienced Field Operations Security A...
 location: 'Tacoma, WA'
 team: Commercial
-datePosted: '2024-12-20T08:13:44.860Z'
-validThrough: '2025-02-02T08:13:44.860Z'
+datePosted: '2025-01-14T14:08:34.891Z'
+validThrough: '2025-02-14T14:08:34.891Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

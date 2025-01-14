@@ -15,8 +15,8 @@ description: >-
   create secure environments where people can thriv...
 location: 'Hillsboro, OR'
 team: Commercial
-datePosted: '2024-12-20T02:44:24.162Z'
-validThrough: '2025-02-03T02:44:24.162Z'
+datePosted: '2025-01-14T09:37:46.260Z'
+validThrough: '2025-02-16T09:37:46.260Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Alert 360

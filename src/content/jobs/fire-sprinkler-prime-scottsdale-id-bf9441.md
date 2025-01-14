@@ -59,8 +59,8 @@ description: >-
   Opportunities for advancement within the company.
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-20T08:37:25.078Z'
-validThrough: '2025-01-31T08:37:25.078Z'
+datePosted: '2025-01-14T10:09:03.645Z'
+validThrough: '2025-02-26T10:09:03.645Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

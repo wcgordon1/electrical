@@ -13,8 +13,8 @@ description: >-
   state-of-the-art secu...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-20T08:21:50.421Z'
-validThrough: '2025-01-26T08:21:50.421Z'
+datePosted: '2025-01-14T13:59:46.717Z'
+validThrough: '2025-02-17T13:59:46.717Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire
