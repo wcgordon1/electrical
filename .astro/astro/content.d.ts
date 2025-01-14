@@ -3354,6 +3354,62 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"bidram-electric-apprentice-electrician-laguna-hills-bidr0mf80p.md": {
+	id: "bidram-electric-apprentice-electrician-laguna-hills-bidr0mf80p.md";
+  slug: "bidram-electric-apprentice-electrician-laguna-hills-bidr0mf80p";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-apprentice-electrician-whittier-bidr4makkv.md": {
+	id: "bidram-electric-apprentice-electrician-whittier-bidr4makkv.md";
+  slug: "bidram-electric-apprentice-electrician-whittier-bidr4makkv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-electrical-foreman-san-juan-capistrano-bidrru1lmz.md": {
+	id: "bidram-electric-electrical-foreman-san-juan-capistrano-bidrru1lmz.md";
+  slug: "bidram-electric-electrical-foreman-san-juan-capistrano-bidrru1lmz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-electrical-foreman-santa-fe-springs-bidrz4yh1c.md": {
+	id: "bidram-electric-electrical-foreman-santa-fe-springs-bidrz4yh1c.md";
+  slug: "bidram-electric-electrical-foreman-santa-fe-springs-bidrz4yh1c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-general-foreman-downey-bidrrgzhia.md": {
+	id: "bidram-electric-general-foreman-downey-bidrrgzhia.md";
+  slug: "bidram-electric-general-foreman-downey-bidrrgzhia";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-general-foreman-placentia-bidroofku1.md": {
+	id: "bidram-electric-general-foreman-placentia-bidroofku1.md";
+  slug: "bidram-electric-general-foreman-placentia-bidroofku1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-journeyman-electrician-bellflower-bidrgsotb2.md": {
+	id: "bidram-electric-journeyman-electrician-bellflower-bidrgsotb2.md";
+  slug: "bidram-electric-journeyman-electrician-bellflower-bidrgsotb2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bidram-electric-journeyman-electrician-brea-bidrx14bbs.md": {
+	id: "bidram-electric-journeyman-electrician-brea-bidrx14bbs.md";
+  slug: "bidram-electric-journeyman-electrician-brea-bidrx14bbs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "blackbox-audio-visual-technician-columbus-audi-6ibaj5.md": {
 	id: "blackbox-audio-visual-technician-columbus-audi-6ibaj5.md";
   slug: "blackbox-audio-visual-technician-columbus-audi-6ibaj5";
@@ -3459,6 +3515,62 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"blink-charging-apprentice-electrician-coto-de-caza-blin9q6cqf.md": {
+	id: "blink-charging-apprentice-electrician-coto-de-caza-blin9q6cqf.md";
+  slug: "blink-charging-apprentice-electrician-coto-de-caza-blin9q6cqf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-apprentice-electrician-tustin-blingumkws.md": {
+	id: "blink-charging-apprentice-electrician-tustin-blingumkws.md";
+  slug: "blink-charging-apprentice-electrician-tustin-blingumkws";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-electrical-foreman-garden-grove-blink30dsg.md": {
+	id: "blink-charging-electrical-foreman-garden-grove-blink30dsg.md";
+  slug: "blink-charging-electrical-foreman-garden-grove-blink30dsg";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-electrical-foreman-rancho-santa-margarita-blinfvmw91.md": {
+	id: "blink-charging-electrical-foreman-rancho-santa-margarita-blinfvmw91.md";
+  slug: "blink-charging-electrical-foreman-rancho-santa-margarita-blinfvmw91";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-general-foreman-costa-mesa-blinps8k6u.md": {
+	id: "blink-charging-general-foreman-costa-mesa-blinps8k6u.md";
+  slug: "blink-charging-general-foreman-costa-mesa-blinps8k6u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-general-foreman-la-palma-blinl7ib4w.md": {
+	id: "blink-charging-general-foreman-la-palma-blinl7ib4w.md";
+  slug: "blink-charging-general-foreman-la-palma-blinl7ib4w";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-journeyman-electrician-los-alamitos-blink4l2ut.md": {
+	id: "blink-charging-journeyman-electrician-los-alamitos-blink4l2ut.md";
+  slug: "blink-charging-journeyman-electrician-los-alamitos-blink4l2ut";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"blink-charging-journeyman-electrician-orange-blincov5ag.md": {
+	id: "blink-charging-journeyman-electrician-orange-blincov5ag.md";
+  slug: "blink-charging-journeyman-electrician-orange-blincov5ag";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "braco-electrical-commercial-apprentice-boulder-bracqobr90.md": {
 	id: "braco-electrical-commercial-apprentice-boulder-bracqobr90.md";
   slug: "braco-electrical-commercial-apprentice-boulder-bracqobr90";
@@ -3504,6 +3616,76 @@ declare module 'astro:content' {
 "braco-electrical-residential-apprentice-fargo-bracqbh6qa.md": {
 	id: "braco-electrical-residential-apprentice-fargo-bracqbh6qa.md";
   slug: "braco-electrical-residential-apprentice-fargo-bracqbh6qa";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-apprentice-electrician-fullerton-brigx75gpk.md": {
+	id: "bright-move-energy-apprentice-electrician-fullerton-brigx75gpk.md";
+  slug: "bright-move-energy-apprentice-electrician-fullerton-brigx75gpk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-apprentice-electrician-stanton-brigwmsq0b.md": {
+	id: "bright-move-energy-apprentice-electrician-stanton-brigwmsq0b.md";
+  slug: "bright-move-energy-apprentice-electrician-stanton-brigwmsq0b";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-electrical-foreman-huntington-beach-brig2iff07.md": {
+	id: "bright-move-energy-electrical-foreman-huntington-beach-brig2iff07.md";
+  slug: "bright-move-energy-electrical-foreman-huntington-beach-brig2iff07";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-electrical-foreman-westminster-brigkp4aqg.md": {
+	id: "bright-move-energy-electrical-foreman-westminster-brigkp4aqg.md";
+  slug: "bright-move-energy-electrical-foreman-westminster-brigkp4aqg";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-general-foreman-la-habra-brig0dcmng.md": {
+	id: "bright-move-energy-general-foreman-la-habra-brig0dcmng.md";
+  slug: "bright-move-energy-general-foreman-la-habra-brig0dcmng";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-general-foreman-redondo-beach-brigx3ntrn.md": {
+	id: "bright-move-energy-general-foreman-redondo-beach-brigx3ntrn.md";
+  slug: "bright-move-energy-general-foreman-redondo-beach-brigx3ntrn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-general-foreman-santa-ana-brigyzokhw.md": {
+	id: "bright-move-energy-general-foreman-santa-ana-brigyzokhw.md";
+  slug: "bright-move-energy-general-foreman-santa-ana-brigyzokhw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-journeyman-electrician-anaheim-brig00vzp5.md": {
+	id: "bright-move-energy-journeyman-electrician-anaheim-brig00vzp5.md";
+  slug: "bright-move-energy-journeyman-electrician-anaheim-brig00vzp5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-journeyman-electrician-manhattan-beach-brig7k9865.md": {
+	id: "bright-move-energy-journeyman-electrician-manhattan-beach-brig7k9865.md";
+  slug: "bright-move-energy-journeyman-electrician-manhattan-beach-brig7k9865";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"bright-move-energy-journeyman-electrician-yorba-linda-brigpc922g.md": {
+	id: "bright-move-energy-journeyman-electrician-yorba-linda-brigpc922g.md";
+  slug: "bright-move-energy-journeyman-electrician-yorba-linda-brigpc922g";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -3567,6 +3749,118 @@ declare module 'astro:content' {
 "cable-technician-columbia-md-id-fds43.md": {
 	id: "cable-technician-columbia-md-id-fds43.md";
   slug: "cable-technician-columbia-md-id-fds43";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-apprentice-electrician-lakewood-char523rwk.md": {
+	id: "chargepoint-apprentice-electrician-lakewood-char523rwk.md";
+  slug: "chargepoint-apprentice-electrician-lakewood-char523rwk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-apprentice-electrician-san-clemente-chark0c4me.md": {
+	id: "chargepoint-apprentice-electrician-san-clemente-chark0c4me.md";
+  slug: "chargepoint-apprentice-electrician-san-clemente-chark0c4me";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-electrical-foreman-fountain-valley-charm0p121.md": {
+	id: "chargepoint-electrical-foreman-fountain-valley-charm0p121.md";
+  slug: "chargepoint-electrical-foreman-fountain-valley-charm0p121";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-electrical-foreman-san-pedro-chartt7enb.md": {
+	id: "chargepoint-electrical-foreman-san-pedro-chartt7enb.md";
+  slug: "chargepoint-electrical-foreman-san-pedro-chartt7enb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-general-foreman-aliso-viejo-charoqqy68.md": {
+	id: "chargepoint-general-foreman-aliso-viejo-charoqqy68.md";
+  slug: "chargepoint-general-foreman-aliso-viejo-charoqqy68";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-general-foreman-carson-charsz43bd.md": {
+	id: "chargepoint-general-foreman-carson-charsz43bd.md";
+  slug: "chargepoint-general-foreman-carson-charsz43bd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-journeyman-electrician-lake-forest-char4i3oiu.md": {
+	id: "chargepoint-journeyman-electrician-lake-forest-char4i3oiu.md";
+  slug: "chargepoint-journeyman-electrician-lake-forest-char4i3oiu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"chargepoint-journeyman-electrician-long-beach-charx5mu7m.md": {
+	id: "chargepoint-journeyman-electrician-long-beach-charx5mu7m.md";
+  slug: "chargepoint-journeyman-electrician-long-beach-charx5mu7m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-apprentice-electrician-buena-park-collhep0p7.md": {
+	id: "collins-electrical-apprentice-electrician-buena-park-collhep0p7.md";
+  slug: "collins-electrical-apprentice-electrician-buena-park-collhep0p7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-apprentice-electrician-torrance-collspknn9.md": {
+	id: "collins-electrical-apprentice-electrician-torrance-collspknn9.md";
+  slug: "collins-electrical-apprentice-electrician-torrance-collspknn9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-electrical-foreman-cypress-colljkqhbv.md": {
+	id: "collins-electrical-electrical-foreman-cypress-colljkqhbv.md";
+  slug: "collins-electrical-electrical-foreman-cypress-colljkqhbv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-electrical-foreman-pico-rivera-collt36sqp.md": {
+	id: "collins-electrical-electrical-foreman-pico-rivera-collt36sqp.md";
+  slug: "collins-electrical-electrical-foreman-pico-rivera-collt36sqp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-general-foreman-seal-beach-collg8hnpo.md": {
+	id: "collins-electrical-general-foreman-seal-beach-collg8hnpo.md";
+  slug: "collins-electrical-general-foreman-seal-beach-collg8hnpo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-general-foreman-south-gate-collr42qcf.md": {
+	id: "collins-electrical-general-foreman-south-gate-collr42qcf.md";
+  slug: "collins-electrical-general-foreman-south-gate-collr42qcf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-journeyman-electrician-dana-point-colljd366r.md": {
+	id: "collins-electrical-journeyman-electrician-dana-point-colljd366r.md";
+  slug: "collins-electrical-journeyman-electrician-dana-point-colljd366r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"collins-electrical-journeyman-electrician-paramount-coll1m1vwz.md": {
+	id: "collins-electrical-journeyman-electrician-paramount-coll1m1vwz.md";
+  slug: "collins-electrical-journeyman-electrician-paramount-coll1m1vwz";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -4659,6 +4953,62 @@ declare module 'astro:content' {
 "esp-electrical-electrician-birmingham-esp7w2xc4.md": {
 	id: "esp-electrical-electrician-birmingham-esp7w2xc4.md";
   slug: "esp-electrical-electrician-birmingham-esp7w2xc4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-apprentice-electrician-hawaiian-gardens-evghradyx.md": {
+	id: "ev-go-apprentice-electrician-hawaiian-gardens-evghradyx.md";
+  slug: "ev-go-apprentice-electrician-hawaiian-gardens-evghradyx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-apprentice-electrician-laguna-niguel-evggq70vr.md": {
+	id: "ev-go-apprentice-electrician-laguna-niguel-evggq70vr.md";
+  slug: "ev-go-apprentice-electrician-laguna-niguel-evggq70vr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-electrical-foreman-cerritos-evgjwz1f0.md": {
+	id: "ev-go-electrical-foreman-cerritos-evgjwz1f0.md";
+  slug: "ev-go-electrical-foreman-cerritos-evgjwz1f0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-electrical-foreman-mission-viejo-evg6uvlee.md": {
+	id: "ev-go-electrical-foreman-mission-viejo-evg6uvlee.md";
+  slug: "ev-go-electrical-foreman-mission-viejo-evg6uvlee";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-general-foreman-newport-beach-evgz15o4n.md": {
+	id: "ev-go-general-foreman-newport-beach-evgz15o4n.md";
+  slug: "ev-go-general-foreman-newport-beach-evgz15o4n";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-general-foreman-norwalk-evghk7cvt.md": {
+	id: "ev-go-general-foreman-norwalk-evghk7cvt.md";
+  slug: "ev-go-general-foreman-norwalk-evghk7cvt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-journeyman-electrician-ladera-ranch-evgbpd73o.md": {
+	id: "ev-go-journeyman-electrician-ladera-ranch-evgbpd73o.md";
+  slug: "ev-go-journeyman-electrician-ladera-ranch-evgbpd73o";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"ev-go-journeyman-electrician-laguna-beach-evg3nlior.md": {
+	id: "ev-go-journeyman-electrician-laguna-beach-evg3nlior.md";
+  slug: "ev-go-journeyman-electrician-laguna-beach-evg3nlior";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">

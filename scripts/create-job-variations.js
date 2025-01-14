@@ -125,7 +125,7 @@ const JOB_TYPES = {
   "qualifications": "Active and valid journeyman electrician certification from the California Department of Industrial Relations (DIR). Strong knowledge of NEC and California Electric Code, with specific experience in EV charging station installations. Proficiency with conduit bending tools, multimeters, and other diagnostic equipment. Ability to read and interpret blueprints, schematics, and electrical diagrams. Demonstrated leadership skills in supervising apprentices and managing on-site safety. Excellent communication and organizational skills to ensure project success.",
   "prompt": "Create a job description for a Certified Journeyman Electrician focusing on the installation and maintenance of electric vehicle charging stations, ensuring compliance with California DIR certification requirements."
 },
-"Civil General Foreman": {
+"General Foreman": {
   "minValue": 65,
   "maxValue": 80,
   "experienceLevel": "seniorLevel",
@@ -159,9 +159,6 @@ const JOB_TYPES = {
   "prompt": "Create a job description for an Apprentice Electrician assisting in the installation and maintenance of EV charging stations. Emphasize the requirement for a valid Electrical Trainee card from the California DIR, willingness to learn, and ability to work collaboratively under supervision. Responsibilities should include pulling wires, assisting in conduit installation, supporting troubleshooting efforts, and maintaining job site cleanliness while adhering to safety protocols."
 }
 
-
-
-    
 };
 
 const COMPANIES = {
