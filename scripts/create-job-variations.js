@@ -115,136 +115,145 @@ ${benefits}`
 
 const JOB_TYPES = {
   "Journeyman Electrician": {
-  "minValue": 38,
-  "maxValue": 46,
+  "minValue": 32,
+  "maxValue": 39,
   "experienceLevel": "midLevel",
   "category": "Journeyman",
   "team": "Commercial",
-  "yearsExperience": "3-5",
-  "responsibilities": "Install, maintain, and troubleshoot electrical systems specifically for electric vehicle (EV) charging stations, including service panels, transformers, and related components. Accurately measure, cut, and bend conduit (EMT, rigid) for installations, ensuring precise alignment. Pull, label, and terminate wiring, maintaining clean and organized connections according to NEC and California Electric Code standards. Perform load calculations and install main service equipment for EV charging infrastructure. Conduct system testing to verify performance, safety, and compliance with site specifications. Work collaboratively with project managers and other trades to meet construction schedules and deliver quality installations. Supervise apprentices, ensuring adherence to safety and best practices while mentoring on EV-specific electrical systems. Maintain accurate documentation of installations and site activities, submitting daily reports as required.",
-  "qualifications": "Active and valid journeyman electrician certification from the California Department of Industrial Relations (DIR). Strong knowledge of NEC and California Electric Code, with specific experience in EV charging station installations. Proficiency with conduit bending tools, multimeters, and other diagnostic equipment. Ability to read and interpret blueprints, schematics, and electrical diagrams. Demonstrated leadership skills in supervising apprentices and managing on-site safety. Excellent communication and organizational skills to ensure project success.",
-  "prompt": "Create a job description for a Certified Journeyman Electrician focusing on the installation and maintenance of electric vehicle charging stations, ensuring compliance with California DIR certification requirements."
+  "yearsExperience": "5+",
+  "responsibilities": "Install and maintain complex electrical systems in new hospital construction projects, including patient rooms, operating theaters, and critical care units. Route, bend, and install conduit (EMT, rigid) to support high-density wiring requirements for medical-grade equipment. Ensure proper grounding and bonding of all systems in compliance with NEC and hospital-specific codes. Collaborate with engineers and medical equipment specialists to ensure power systems meet design specifications and safety standards. Perform load calculations and install service equipment, emergency power systems, and backup generators. Supervise apprentices, ensuring adherence to safety protocols and quality workmanship. Troubleshoot and test critical electrical systems, including fire alarm circuits, nurse call systems, and life safety equipment.",
+  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Extensive knowledge of NEC and healthcare-specific electrical standards. Experience with emergency power systems, backup generators, and life safety circuits. Ability to read and interpret complex blueprints, electrical schematics, and technical manuals. Proficiency with diagnostic tools such as multimeters and megohmmeters. Strong communication skills and ability to collaborate with diverse teams in high-pressure environments.",
+  "prompt": "Create a job description for a Certified Journeyman Electrician specializing in new hospital construction. Emphasize the installation and maintenance of critical healthcare systems, compliance with medical-grade standards, and leadership in mentoring apprentices. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
 },
-"General Foreman": {
-  "minValue": 65,
-  "maxValue": 80,
-  "experienceLevel": "seniorLevel",
-  "category": "Foreman",
+"Journeyman Electrician": {
+  "minValue": 33,
+  "maxValue": 40,
+  "experienceLevel": "midLevel",
+  "category": "Journeyman",
   "team": "Commercial",
-  "yearsExperience": "8-10",
-  "responsibilities": "Oversee and manage the civil scope of work for medium to large-scale electrical projects, specifically electric vehicle (EV) charging station installations. Supervise multiple crews performing excavation, backfill, rebar, concrete pouring, bollard installation, asphalt work, and other civil tasks. Review and interpret project plans, blueprints, and schematics to ensure compliance with design specifications and California Building Code standards. Coordinate with project managers, subcontractors, and other teams to ensure work is executed on time, within budget, and to quality expectations. Conduct milestone inspections, verify adherence to safety standards, and implement corrective actions as needed. Maintain daily reports detailing labor hours, resource usage, and project status. Monitor and enforce compliance with SWIPPs, ensuring environmental conditions like stormwater management and site cleanliness. Conduct regular toolbox talks and safety meetings to uphold a safety-first culture. Ensure all crew certifications and equipment are current and compliant with governing standards. Collaborate with project leadership to address scope changes, track additional work, and maintain accurate documentation for contract variations.",
-  "qualifications": "Minimum 8-10 years of experience as a lead project foreman in commercial civil construction. Strong knowledge of the California Building Code and OSHA safety standards. Proven track record in leading teams for excavation, concrete, rebar, asphalt, and similar civil tasks. Strong leadership, organizational, and problem-solving skills. Proficient in Microsoft Office Suite and familiarity with construction project management software (e.g., Site Tracker). Valid driver's license with a clean record and the ability to maintain coverage on company auto insurance. OSHA 30-hour and First Aid/CPR certifications preferred.",
-  "prompt": "Create a job description for a Civil General Foreman overseeing the construction of electric vehicle (EV) charging stations. The ideal candidate will have extensive experience in managing crews for civil tasks such as excavation, concrete work, and asphalt installation. Responsibilities should include supervising crews, ensuring compliance with safety and environmental regulations, coordinating with project managers, and maintaining accurate documentation. Emphasize the importance of leadership, organization, and adherence to California Building Code standards. Candidates must have a minimum of 8-10 years of experience as a foreman and strong familiarity with commercial civil construction best practices."
+  "yearsExperience": "5+",
+  "responsibilities": "Install and maintain electrical systems in high-rise office buildings, focusing on power distribution, lighting systems, and tenant build-outs. Perform conduit installation (EMT, rigid) through walls, ceilings, and floors of high-rise structures. Pull, label, and terminate wiring for lighting systems, outlets, and high-voltage panels. Collaborate with general contractors and building management to ensure compliance with building codes and construction schedules. Conduct system testing, troubleshooting, and commissioning for tenant-specific electrical installations. Install and configure building automation systems, including lighting controls and energy management systems. Supervise and mentor apprentices, ensuring quality and safety on the job site.",
+  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Strong knowledge of NEC and California Building Code requirements for high-rise structures. Proficiency in conduit bending, wiring, and troubleshooting commercial electrical systems. Experience with building automation systems and energy-efficient technologies. Ability to read and interpret blueprints, tenant improvement plans, and construction documents. Strong organizational and leadership skills for managing apprentices and site activities.",
+  "prompt": "Create a job description for a Certified Journeyman Electrician focusing on electrical installations in high-rise office buildings. Highlight responsibilities in power distribution, tenant build-outs, and building automation systems while ensuring compliance with California DIR certification. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
 },
-"Electrical Foreman": {
-  "minValue": 45,
-  "maxValue": 55,
-  "experienceLevel": "seniorLevel",
-  "category": "Foreman",
+"Journeyman Electrician": {
+  "minValue": 34,
+  "maxValue": 42,
+  "experienceLevel": "midLevel",
+  "category": "Journeyman",
   "team": "Commercial",
-  "yearsExperience": "5-7",
-  "responsibilities": "Lead field operations for the installation and maintenance of electric vehicle (EV) charging stations, ensuring compliance with project designs, safety standards, and deadlines. Oversee the installation of commercial electrical systems, including service panels, transformers, conduit (EMT, rigid), and EV charging equipment. Plan and allocate daily tasks for journeymen and apprentices, ensuring efficient crew operations and adherence to safety protocols. Perform and supervise conduit bending, wire pulling, labeling, and terminations to meet NEC and California Electric Code standards. Troubleshoot and resolve electrical issues, conducting diagnostics using tools like multimeters, megohmmeters, and other testing equipment. Provide on-site leadership, coaching, and mentoring for team members while ensuring a clean and organized job site. Collaborate with project managers, clients, and other trades to resolve field challenges and ensure seamless project execution. Maintain daily reports documenting project progress, labor hours, material usage, and any deviations from the plan. Conduct regular safety meetings and enforce stop work authority in the event of violations or unsafe conditions. Ensure proper material ordering, inventory management, and adherence to project schedules.",
-  "qualifications": "Active and valid journeyman electrician certification from the California Department of Industrial Relations (DIR). Minimum of 5 years of experience in commercial electrical work, with at least 2 years in a leadership role. Extensive knowledge of NEC and California Electric Code, with hands-on experience in EV charging station installations. Proficiency with conduit bending, wire termination, and troubleshooting electrical systems. Strong leadership and communication skills, with a proven ability to mentor apprentices and manage field teams. Valid driver's license with a clean driving record and the ability to maintain auto insurance coverage. OSHA 30-hour certification and First Aid/CPR preferred. Familiarity with construction management software and tools such as Site Tracker is a plus.",
-  "prompt": "Create a job description for an Electrical Foreman responsible for leading field operations in the installation and maintenance of EV charging stations. Emphasize the requirement for an active journeyman certification from the California DIR, strong leadership skills, and in-depth knowledge of NEC and California Electric Code. Responsibilities should include supervising field crews, managing safety protocols, troubleshooting, and collaborating with project managers to ensure timely and high-quality project completion."
+  "yearsExperience": "4+",
+  "responsibilities": "Install, maintain, and troubleshoot electrical systems for large-scale data centers, ensuring consistent uptime and reliability. Perform conduit installation and cable routing for high-density server environments, including under-floor systems and cable trays. Install and test uninterruptible power supply (UPS) systems, switchgear, and high-voltage transformers. Collaborate with engineers to ensure electrical systems meet design specifications for redundancy and scalability. Conduct load calculations and install backup generators and battery storage systems. Implement grounding and bonding practices to minimize system disruptions. Supervise apprentices and ensure strict adherence to safety standards in high-risk environments. Maintain detailed documentation of electrical installations, test results, and maintenance schedules.",
+  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Strong knowledge of NEC and electrical systems for data centers, including UPS and backup generators. Proficiency in conduit installation, wiring, and troubleshooting high-voltage equipment. Ability to read and interpret technical blueprints, wiring diagrams, and schematics. Experience working in high-security, controlled environments such as data centers. Strong leadership and problem-solving skills with a focus on maintaining uptime.",
+  "prompt": "Create a job description for a Certified Journeyman Electrician specializing in data center electrical systems. Focus on responsibilities like UPS installation, high-voltage equipment maintenance, and collaboration with engineers to ensure system reliability and scalability. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
 },
-"Apprentice Electrician": {
-  "minValue": 18,
-  "maxValue": 23,
-  "experienceLevel": "entryLevel",
-  "category": "Apprentice",
+"Journeyman Electrician": {
+  "minValue": 30,
+  "maxValue": 35,
+  "experienceLevel": "midLevel",
+  "category": "Journeyman",
   "team": "Commercial",
-  "yearsExperience": "0-2",
-  "responsibilities": "Assist journeymen and foremen in the installation and maintenance of electric vehicle (EV) charging stations, ensuring all tasks align with NEC and California Electric Code standards. Pull and secure electrical wiring through conduits, trenches, and walls, ensuring proper labeling and organization. Assist in conduit bending (EMT, rigid) and installation under supervision. Help with the installation of service panels, transformers, and EV charging equipment. Perform basic troubleshooting tasks and system testing under the guidance of licensed electricians. Maintain cleanliness and organization on the job site, including proper storage of tools, materials, and equipment. Attend daily safety meetings and adhere to all workplace safety protocols. Learn and implement proper techniques for wire terminations, conduit layout, and electrical system components. Document daily work progress and report any safety or operational issues to supervisors. Proactively support team members in achieving project milestones and deadlines.",
-  "qualifications": "Valid Electrical Trainee card from the California Department of Industrial Relations (DIR). Basic understanding of electrical systems, tools, and equipment. Familiarity with NEC and California Electric Code is a plus. Strong willingness to learn and develop skills under the supervision of experienced electricians. Reliable transportation to job sites and ability to work across multiple locations. OSHA 10-hour certification and First Aid/CPR preferred. Physical stamina to perform manual labor, including lifting up to 50 pounds and working on ladders or in confined spaces.",
-  "prompt": "Create a job description for an Apprentice Electrician assisting in the installation and maintenance of EV charging stations. Emphasize the requirement for a valid Electrical Trainee card from the California DIR, willingness to learn, and ability to work collaboratively under supervision. Responsibilities should include pulling wires, assisting in conduit installation, supporting troubleshooting efforts, and maintaining job site cleanliness while adhering to safety protocols."
+  "yearsExperience": "4+",
+  "responsibilities": "Install, maintain, and troubleshoot renewable energy systems for commercial properties, including solar panels, energy storage systems, and inverters. Route and install conduit (EMT, rigid) and wiring for high-voltage DC and AC systems. Perform system testing and commissioning for solar arrays, ensuring optimal energy output and compliance with local regulations. Collaborate with engineers and project managers to design and implement energy-efficient electrical solutions. Install and maintain battery energy storage systems (BESS) and integrate them with building power systems. Conduct preventive maintenance on renewable energy equipment, including replacing faulty components and ensuring proper grounding. Supervise apprentices, ensuring adherence to safety standards and proper installation techniques. Prepare detailed reports on system performance and maintenance activities.",
+  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Extensive knowledge of NEC and renewable energy codes, including solar and battery storage regulations. Experience with solar panel installations, inverters, and high-voltage DC systems. Proficiency with multimeters, megohmmeters, and other diagnostic tools. Ability to read and interpret blueprints, electrical schematics, and energy system diagrams. Strong problem-solving skills and attention to detail for troubleshooting and system optimization.",
+  "prompt": "Create a job description for a Certified Journeyman Electrician specializing in renewable energy systems for commercial properties. Focus on solar panel installations, energy storage integration, and system commissioning. Highlight the importance of NEC compliance and California DIR certification."
 }
 
 };
 
 const COMPANIES = {
-  'Bright Move Energy': {
-    name: 'Bright Move Energy',
-    sameAs: 'https://www.brytemove.com/',
-    logo: 'https://www.brytemove.com/wp-content/uploads/2021/04/bme_logo_white-light_backgroun-2.png'
+  'TEC Electric': {
+    name: 'TEC Electric',
+    sameAs: 'https://tec-electric.com/',
+    logo: 'https://tec-electric.com/wp-content/themes/tec-electric/imgs/tec-logo.png'
   },
-  'Blink Charging': {
-    name: 'Blink Charging',
-    sameAs: 'https://blinkcharging.com/',
-    logo: 'https://play-lh.googleusercontent.com/r1o4hHnnpz4nBmWPMUzPIHxA9Ei-VcabK1yDpBVkCu19UOeZFBlBhD7-uE7q9TlSEJo'
+  'Howell Electric': {
+    name: 'Howell Electric',
+    sameAs: 'https://www.howellelectric.com/',
+    logo: 'https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png'
   },
-  'EV GO': {
-    name: 'EV GO',
-    sameAs: 'https://evgo.com/',
-    logo: 'https://play-lh.googleusercontent.com/BMy1sIp658aqwGM1YNE8sNF9UVgdj56o09jsyuk-IbCdAwVVpLCAhPNvmYDPRO7pi0E'
+  'Rex Moore Electric': {
+    name: 'Rex Moore Electric',
+    sameAs: 'https://www.rexmoore.com/',
+    logo: 'https://www.rexmoore.com/wp-content/uploads/2022/03/100-years.png'
   },
-  'ChargePoint': {
-    name: 'ChargePoint',
-    sameAs: 'https://chargepoint.com/',
-    logo: 'https://www.chargepoint.com/themes/chargepoint/logo.svg'
+  'Helix Electric': {
+    name: 'Helix Electric',
+    sameAs: 'https://www.helixelectric.com/',
+    logo: 'https://www.helixelectric.com/wp-content/uploads/2022/07/Helping-Hands-Logo_Blue-e1656694113799.jpg'
   },
-  'Bidram Electric': {
-    name: 'Bidram Electric',
-    sameAs: 'https://bmodernelectric.com/',
-    logo: 'https://bmodernelectric.com/wp-content/uploads/2018/03/BMODERN_1212-e1595396794929.png'
+  'IES Electric': {
+    name: 'IES Electric',
+    sameAs: 'https://iesci.net/',
+    logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
   },
-  'Collins Electrical': {
-    name: 'Collins Electrical',
-    sameAs: 'https://www.collinselectric.com/commercial-ev-charging-station/',
-    logo: 'https://marvel-b1-cdn.bc0a.com/f00000000225472/www.collinselectric.com/wp-content/uploads/2025/01/Collins-Electrical-Logo-New._withTag-01.png'
+  'MMR Group': {
+    name: 'MMR Group',
+    sameAs: 'https://www.mmrgrp.com/',
+    logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
+  },
+  'Teleco': {
+    name: 'Teleco',
+    sameAs: 'https://www.teleco.com/',
+    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
+  },
+  'FSG': {
+    name: 'FSG',
+    sameAs: 'https://www.fsg.com/',
+    logo: 'https://fsg.com/wp-content/uploads/2020/10/fsgLogoUpdated@2x-1-2.png'
   }
 };
 
 const LOCATIONS = [
-  { city: 'Anaheim', state: 'CA', zipCode: '92801' },
+  { city: 'Culver City', state: 'CA', zipCode: '90230' },
+{ city: 'Santa Monica', state: 'CA', zipCode: '90401' },
+{ city: 'Burbank', state: 'CA', zipCode: '91501' },
+{ city: 'Pasadena', state: 'CA', zipCode: '91101' },
+{ city: 'Long Beach', state: 'CA', zipCode: '90802' },
+{ city: 'Torrance', state: 'CA', zipCode: '90501' },
+{ city: 'San Pedro', state: 'CA', zipCode: '90731' },
+{ city: 'Glendale', state: 'CA', zipCode: '91203' },
+{ city: 'Inglewood', state: 'CA', zipCode: '90301' },
+{ city: 'Hawthorne', state: 'CA', zipCode: '90250' },
+{ city: 'Anaheim', state: 'CA', zipCode: '92801' },
 { city: 'Santa Ana', state: 'CA', zipCode: '92701' },
+{ city: 'Irvine', state: 'CA', zipCode: '92618' },
 { city: 'Huntington Beach', state: 'CA', zipCode: '92646' },
 { city: 'Fullerton', state: 'CA', zipCode: '92831' },
 { city: 'Orange', state: 'CA', zipCode: '92865' },
-{ city: 'Costa Mesa', state: 'CA', zipCode: '92626' },
-{ city: 'Garden Grove', state: 'CA', zipCode: '92840' },
-{ city: 'Tustin', state: 'CA', zipCode: '92780' },
-{ city: 'Laguna Beach', state: 'CA', zipCode: '92651' },
-{ city: 'Newport Beach', state: 'CA', zipCode: '92660' },
-{ city: 'Mission Viejo', state: 'CA', zipCode: '92691' },
-{ city: 'Laguna Niguel', state: 'CA', zipCode: '92677' },
-{ city: 'Lake Forest', state: 'CA', zipCode: '92630' },
-{ city: 'Aliso Viejo', state: 'CA', zipCode: '92656' },
-{ city: 'Fountain Valley', state: 'CA', zipCode: '92708' },
-{ city: 'San Clemente', state: 'CA', zipCode: '92672' },
-{ city: 'Brea', state: 'CA', zipCode: '92821' },
-{ city: 'Placentia', state: 'CA', zipCode: '92870' },
-{ city: 'San Juan Capistrano', state: 'CA', zipCode: '92675' },
-{ city: 'Laguna Hills', state: 'CA', zipCode: '92653' },
-{ city: 'Dana Point', state: 'CA', zipCode: '92629' },
-{ city: 'Seal Beach', state: 'CA', zipCode: '90740' },
-{ city: 'Cypress', state: 'CA', zipCode: '90630' },
-{ city: 'Buena Park', state: 'CA', zipCode: '90620' },
-{ city: 'Yorba Linda', state: 'CA', zipCode: '92886' },
-{ city: 'La Habra', state: 'CA', zipCode: '90631' },
-{ city: 'Westminster', state: 'CA', zipCode: '92683' },
-{ city: 'Stanton', state: 'CA', zipCode: '90680' },
-{ city: 'Los Alamitos', state: 'CA', zipCode: '90720' },
-{ city: 'La Palma', state: 'CA', zipCode: '90623' },
-{ city: 'Rancho Santa Margarita', state: 'CA', zipCode: '92688' },
-{ city: 'Coto de Caza', state: 'CA', zipCode: '92679' },
-{ city: 'Ladera Ranch', state: 'CA', zipCode: '92694' },
-{ city: 'Norwalk', state: 'CA', zipCode: '90650' },
-{ city: 'Cerritos', state: 'CA', zipCode: '90703' },
-{ city: 'Hawaiian Gardens', state: 'CA', zipCode: '90716' },
-{ city: 'Long Beach', state: 'CA', zipCode: '90802' },
-{ city: 'Carson', state: 'CA', zipCode: '90745' },
-{ city: 'San Pedro', state: 'CA', zipCode: '90731' },
-{ city: 'Lakewood', state: 'CA', zipCode: '90712' },
-{ city: 'Bellflower', state: 'CA', zipCode: '90706' },
-{ city: 'Downey', state: 'CA', zipCode: '90241' },
-{ city: 'Santa Fe Springs', state: 'CA', zipCode: '90670' },
-{ city: 'Whittier', state: 'CA', zipCode: '90601' },
-{ city: 'Paramount', state: 'CA', zipCode: '90723' },
-{ city: 'South Gate', state: 'CA', zipCode: '90280' },
-{ city: 'Pico Rivera', state: 'CA', zipCode: '90660' },
-{ city: 'Torrance', state: 'CA', zipCode: '90501' },
-{ city: 'Manhattan Beach', state: 'CA', zipCode: '90266' },
-{ city: 'Redondo Beach', state: 'CA', zipCode: '90277' }
+{ city: 'San Diego', state: 'CA', zipCode: '92101' },
+{ city: 'Chula Vista', state: 'CA', zipCode: '91910' },
+{ city: 'Escondido', state: 'CA', zipCode: '92025' },
+{ city: 'Oceanside', state: 'CA', zipCode: '92054' },
+{ city: 'Carlsbad', state: 'CA', zipCode: '92008' },
+{ city: 'Fresno', state: 'CA', zipCode: '93721' },
+{ city: 'Clovis', state: 'CA', zipCode: '93612' },
+{ city: 'Bakersfield', state: 'CA', zipCode: '93301' },
+{ city: 'San Jose', state: 'CA', zipCode: '95112' },
+{ city: 'Santa Clara', state: 'CA', zipCode: '95050' },
+{ city: 'Sunnyvale', state: 'CA', zipCode: '94086' },
+{ city: 'Palo Alto', state: 'CA', zipCode: '94301' },
+{ city: 'San Mateo', state: 'CA', zipCode: '94401' },
+{ city: 'Oakland', state: 'CA', zipCode: '94612' },
+{ city: 'Berkeley', state: 'CA', zipCode: '94704' },
+{ city: 'Richmond', state: 'CA', zipCode: '94804' },
+{ city: 'San Francisco', state: 'CA', zipCode: '94103' },
+{ city: 'Daly City', state: 'CA', zipCode: '94015' },
+{ city: 'Sacramento', state: 'CA', zipCode: '95814' },
+{ city: 'Elk Grove', state: 'CA', zipCode: '95757' },
+{ city: 'Roseville', state: 'CA', zipCode: '95678' },
+{ city: 'Riverside', state: 'CA', zipCode: '92501' },
+{ city: 'San Bernardino', state: 'CA', zipCode: '92401' },
+{ city: 'Ontario', state: 'CA', zipCode: '91761' },
+{ city: 'Rancho Cucamonga', state: 'CA', zipCode: '91730' },
+{ city: 'Palm Springs', state: 'CA', zipCode: '92262' },
+{ city: 'Santa Rosa', state: 'CA', zipCode: '95401' },
+{ city: 'Redding', state: 'CA', zipCode: '96001' },
+{ city: 'Modesto', state: 'CA', zipCode: '95354' },
+{ city: 'Stockton', state: 'CA', zipCode: '95202' },
+{ city: 'Chico', state: 'CA', zipCode: '95928' },
+{ city: 'Visalia', state: 'CA', zipCode: '93277' },
+{ city: 'San Luis Obispo', state: 'CA', zipCode: '93401' }
   ];
   
 
