@@ -65,8 +65,8 @@ description: >-
   high-demand environments like big-box retail sites.
 location: 'La Canada Flintridge, CA'
 team: Commercial
-datePosted: '2024-12-20T13:44:05.466Z'
-validThrough: '2025-02-03T13:44:05.466Z'
+datePosted: '2025-01-15T08:16:36.487Z'
+validThrough: '2025-02-19T08:16:36.487Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

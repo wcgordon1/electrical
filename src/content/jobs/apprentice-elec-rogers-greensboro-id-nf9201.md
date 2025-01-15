@@ -23,8 +23,8 @@ description: >-
   opportunities and ongoing training.
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-20T12:16:17.093Z'
-validThrough: '2025-01-19T12:16:17.093Z'
+datePosted: '2025-01-15T12:45:12.227Z'
+validThrough: '2025-02-23T12:45:12.227Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

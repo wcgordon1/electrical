@@ -8,8 +8,8 @@ description: >-
   single-mode and multi-mode fiber optic cables.
 location: 'Columbia, MD'
 team: Commercial
-datePosted: '2024-12-20T15:06:12.063Z'
-validThrough: '2025-01-29T15:06:12.063Z'
+datePosted: '2025-01-15T12:27:40.767Z'
+validThrough: '2025-02-26T12:27:40.767Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kane Communications

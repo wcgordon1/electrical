@@ -24,8 +24,8 @@ description: >-
   1. Install, maintain, and troubleshoot voice and data sys...
 location: 'Cheyenne, WY'
 team: Commercial
-datePosted: '2024-12-20T14:20:24.760Z'
-validThrough: '2025-01-30T14:20:24.760Z'
+datePosted: '2025-01-15T11:52:24.370Z'
+validThrough: '2025-02-28T11:52:24.370Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

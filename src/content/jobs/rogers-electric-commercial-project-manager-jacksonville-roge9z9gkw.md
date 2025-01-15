@@ -12,8 +12,8 @@ description: >-
   delivering exceptional electrical services that meet the unique n...
 location: 'Jacksonville, FL'
 team: Residential
-datePosted: '2024-12-20T15:05:20.746Z'
-validThrough: '2025-01-21T15:05:20.746Z'
+datePosted: '2025-01-15T11:17:23.590Z'
+validThrough: '2025-02-17T11:17:23.590Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

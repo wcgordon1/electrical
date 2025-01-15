@@ -23,8 +23,8 @@ description: >-
   - Installation of voice and data systems in new construction sites, i...
 location: 'Omaha, NE'
 team: Commercial
-datePosted: '2024-12-20T14:24:22.715Z'
-validThrough: '2025-01-26T14:24:22.715Z'
+datePosted: '2025-01-15T09:36:17.070Z'
+validThrough: '2025-02-20T09:36:17.070Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

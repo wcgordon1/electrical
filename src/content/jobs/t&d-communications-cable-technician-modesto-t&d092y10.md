@@ -10,8 +10,8 @@ description: >-
   striving to exceed client expectations while fostering a d...
 location: 'Modesto, CA'
 team: Commercial
-datePosted: '2024-12-21T08:30:29.187Z'
-validThrough: '2025-01-27T08:30:29.187Z'
+datePosted: '2025-01-15T09:39:45.201Z'
+validThrough: '2025-02-20T09:39:45.201Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

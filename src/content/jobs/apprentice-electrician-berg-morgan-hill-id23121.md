@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'Morgan Hill, CA'
 team: Commercial
-datePosted: '2024-12-20T12:28:42.974Z'
-validThrough: '2025-01-26T12:28:42.974Z'
+datePosted: '2025-01-15T10:33:18.204Z'
+validThrough: '2025-02-26T10:33:18.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berg Electric

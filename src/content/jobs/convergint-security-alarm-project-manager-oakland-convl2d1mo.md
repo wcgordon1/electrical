@@ -13,8 +13,8 @@ description: >-
   a strong presenc...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-21T06:17:38.218Z'
-validThrough: '2025-01-23T06:17:38.218Z'
+datePosted: '2025-01-15T09:49:49.069Z'
+validThrough: '2025-02-20T09:49:49.069Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

@@ -15,8 +15,8 @@ description: >-
   troubleshooting cable systems specifica...
 location: 'Burbank, CA'
 team: Commercial
-datePosted: '2024-12-21T07:25:28.230Z'
-validThrough: '2025-01-28T07:25:28.230Z'
+datePosted: '2025-01-15T10:33:10.705Z'
+validThrough: '2025-02-20T10:33:10.705Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -17,8 +17,8 @@ description: >-
   The Field Operations Fire Alarm Designer at S...
 location: 'West Valley City, UT'
 team: Commercial
-datePosted: '2024-12-21T06:32:54.168Z'
-validThrough: '2025-01-28T06:32:54.168Z'
+datePosted: '2025-01-15T10:58:29.921Z'
+validThrough: '2025-02-26T10:58:29.921Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

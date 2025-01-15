@@ -10,8 +10,8 @@ description: >-
   seeking a dedicated Construction Management Elect...
 location: 'Eugene, OR'
 team: Commercial
-datePosted: '2024-12-21T03:40:54.198Z'
-validThrough: '2025-01-27T03:40:54.198Z'
+datePosted: '2025-01-15T10:07:36.308Z'
+validThrough: '2025-02-23T10:07:36.308Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

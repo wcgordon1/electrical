@@ -21,8 +21,8 @@ description: >-
   As a He...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-21T02:49:50.782Z'
-validThrough: '2025-02-03T02:49:50.782Z'
+datePosted: '2025-01-15T10:33:21.251Z'
+validThrough: '2025-02-24T10:33:21.251Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

@@ -14,8 +14,8 @@ description: >-
   competitive, precise, and comprehensive project estimates.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-21T08:31:24.899Z'
-validThrough: '2025-01-25T08:31:24.899Z'
+datePosted: '2025-01-15T09:56:43.328Z'
+validThrough: '2025-02-21T09:56:43.328Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

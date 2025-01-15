@@ -19,8 +19,8 @@ description: >-
   2. Install voice and data sys...
 location: 'Boston, MA'
 team: Commercial
-datePosted: '2024-12-20T15:14:06.135Z'
-validThrough: '2025-01-31T15:14:06.135Z'
+datePosted: '2025-01-15T08:02:46.630Z'
+validThrough: '2025-02-21T08:02:46.630Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McEnroe Voice & Data

@@ -14,8 +14,8 @@ description: >-
   installing, maintaining, an...
 location: 'Gainesville, GA'
 team: Commercial
-datePosted: '2024-12-20T20:13:41.121Z'
-validThrough: '2025-01-23T20:13:41.121Z'
+datePosted: '2025-01-15T10:50:45.817Z'
+validThrough: '2025-03-01T10:50:45.817Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

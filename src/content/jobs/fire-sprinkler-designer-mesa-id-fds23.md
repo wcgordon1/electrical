@@ -6,8 +6,8 @@ description: >-
   programming advanced fire sprinkler systems.
 location: 'Mesa, AZ'
 team: Commercial
-datePosted: '2024-12-20T14:05:32.299Z'
-validThrough: '2025-01-24T14:05:32.299Z'
+datePosted: '2025-01-15T08:09:59.908Z'
+validThrough: '2025-02-14T08:09:59.908Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nexus Alarm & Suppression

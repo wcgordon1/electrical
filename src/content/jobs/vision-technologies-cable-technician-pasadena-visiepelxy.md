@@ -14,8 +14,8 @@ description: >-
   As a Cable Technician, you will be responsible for installing, maintain...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-21T02:12:34.370Z'
-validThrough: '2025-01-30T02:12:34.370Z'
+datePosted: '2025-01-15T09:42:59.224Z'
+validThrough: '2025-02-16T09:42:59.224Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

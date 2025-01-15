@@ -17,8 +17,8 @@ description: >-
   ...
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-20T15:27:52.053Z'
-validThrough: '2025-01-28T15:27:52.053Z'
+datePosted: '2025-01-15T08:54:03.989Z'
+validThrough: '2025-02-15T08:54:03.989Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

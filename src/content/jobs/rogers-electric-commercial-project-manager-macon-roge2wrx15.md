@@ -15,8 +15,8 @@ description: >-
   **Overview of Multi-Family Co...
 location: 'Macon, GA'
 team: Residential
-datePosted: '2024-12-20T20:44:07.873Z'
-validThrough: '2025-01-31T20:44:07.873Z'
+datePosted: '2025-01-15T10:49:49.842Z'
+validThrough: '2025-02-16T10:49:49.842Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

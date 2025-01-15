@@ -13,8 +13,8 @@ description: >-
   cutting-edge security ...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-21T07:31:26.761Z'
-validThrough: '2025-01-23T07:31:26.761Z'
+datePosted: '2025-01-15T11:13:22.342Z'
+validThrough: '2025-02-23T11:13:22.342Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Alert 360

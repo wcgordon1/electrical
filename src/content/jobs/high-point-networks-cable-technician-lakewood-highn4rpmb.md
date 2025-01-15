@@ -14,8 +14,8 @@ description: >-
   installing and maintaining network infrastructures for educ...
 location: 'Lakewood, CO'
 team: Commercial
-datePosted: '2024-12-20T13:01:40.614Z'
-validThrough: '2025-01-29T13:01:40.614Z'
+datePosted: '2025-01-15T09:13:58.357Z'
+validThrough: '2025-02-17T09:13:58.357Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: High Point Networks

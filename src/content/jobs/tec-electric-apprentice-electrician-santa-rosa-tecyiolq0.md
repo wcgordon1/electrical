@@ -17,8 +17,8 @@ description: >-
   As a Multi-Family Apprentice Electrician at TEC Electric...
 location: 'Santa Rosa, CA'
 team: Residential
-datePosted: '2024-12-20T20:16:51.155Z'
-validThrough: '2025-01-27T20:16:51.155Z'
+datePosted: '2025-01-15T08:58:33.346Z'
+validThrough: '2025-02-20T08:58:33.346Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

@@ -15,8 +15,8 @@ description: >-
   primarily within ...
 location: 'Beverly Hills, CA'
 team: Commercial
-datePosted: '2024-12-21T07:04:29.939Z'
-validThrough: '2025-02-02T07:04:29.939Z'
+datePosted: '2025-01-15T10:48:50.621Z'
+validThrough: '2025-02-23T10:48:50.621Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

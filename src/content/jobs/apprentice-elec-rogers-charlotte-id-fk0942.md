@@ -29,8 +29,8 @@ description: >-
   savings plan with employer contributions. Paid time off and holidays.
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-20T13:49:23.166Z'
-validThrough: '2025-01-26T13:49:23.166Z'
+datePosted: '2025-01-15T09:29:44.155Z'
+validThrough: '2025-02-28T09:29:44.155Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

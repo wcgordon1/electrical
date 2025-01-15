@@ -15,8 +15,8 @@ description: >-
   The Healthcare Journeyman Electri...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-20T13:47:16.658Z'
-validThrough: '2025-02-01T13:47:16.658Z'
+datePosted: '2025-01-15T11:40:31.995Z'
+validThrough: '2025-02-21T11:40:31.995Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

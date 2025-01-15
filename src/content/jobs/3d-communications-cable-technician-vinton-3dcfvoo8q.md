@@ -14,8 +14,8 @@ description: >-
   troubleshooting cable system...
 location: 'Vinton, VA'
 team: Commercial
-datePosted: '2024-12-20T23:36:38.397Z'
-validThrough: '2025-01-27T23:36:38.397Z'
+datePosted: '2025-01-15T11:59:15.517Z'
+validThrough: '2025-02-26T11:59:15.517Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

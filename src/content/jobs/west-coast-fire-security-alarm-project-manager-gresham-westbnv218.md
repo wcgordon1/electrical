@@ -16,8 +16,8 @@ description: >-
   As a Fire...
 location: 'Gresham, OR'
 team: Commercial
-datePosted: '2024-12-20T16:51:37.974Z'
-validThrough: '2025-01-28T16:51:37.974Z'
+datePosted: '2025-01-15T10:10:36.818Z'
+validThrough: '2025-03-01T10:10:36.818Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire

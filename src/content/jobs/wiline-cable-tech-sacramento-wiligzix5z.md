@@ -15,8 +15,8 @@ description: >-
   The Cable Tech position at WiLine is pivotal in supporting our...
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-21T01:21:22.803Z'
-validThrough: '2025-01-29T01:21:22.803Z'
+datePosted: '2025-01-15T10:29:12.072Z'
+validThrough: '2025-02-14T10:29:12.072Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

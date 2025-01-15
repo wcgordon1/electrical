@@ -13,8 +13,8 @@ description: >-
   industry, committed ...
 location: 'Fontana, CA'
 team: Residential
-datePosted: '2024-12-20T19:22:51.320Z'
-validThrough: '2025-01-22T19:22:51.320Z'
+datePosted: '2025-01-15T10:29:57.547Z'
+validThrough: '2025-02-23T10:29:57.547Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

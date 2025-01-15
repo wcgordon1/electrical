@@ -14,8 +14,8 @@ description: >-
   The Cable Technician will play a crucial role in supporting office build...
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-20T17:20:54.709Z'
-validThrough: '2025-01-26T17:20:54.709Z'
+datePosted: '2025-01-15T09:34:21.949Z'
+validThrough: '2025-02-26T09:34:21.949Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

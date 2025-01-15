@@ -10,8 +10,8 @@ description: >-
   seeking a dedicated Fire Alarm Project Manager to join...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-20T19:30:53.476Z'
-validThrough: '2025-01-31T19:30:53.476Z'
+datePosted: '2025-01-15T12:17:41.106Z'
+validThrough: '2025-02-22T12:17:41.106Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Valley Alarm

@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at Conv...
 location: 'Palm Springs, CA'
 team: Commercial
-datePosted: '2024-12-20T20:50:30.283Z'
-validThrough: '2025-01-26T20:50:30.283Z'
+datePosted: '2025-01-15T12:28:21.086Z'
+validThrough: '2025-02-27T12:28:21.086Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

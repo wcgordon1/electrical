@@ -14,8 +14,8 @@ description: >-
   maintaining, and troubleshootin...
 location: 'Boulder, CO'
 team: Commercial
-datePosted: '2024-12-20T18:01:22.508Z'
-validThrough: '2025-02-03T18:01:22.508Z'
+datePosted: '2025-01-15T12:49:47.466Z'
+validThrough: '2025-02-16T12:49:47.466Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

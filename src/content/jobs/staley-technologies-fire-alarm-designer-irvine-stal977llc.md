@@ -13,8 +13,8 @@ description: >-
   healthcare ce...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-20T14:57:14.753Z'
-validThrough: '2025-01-31T14:57:14.753Z'
+datePosted: '2025-01-15T08:50:50.961Z'
+validThrough: '2025-02-24T08:50:50.961Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

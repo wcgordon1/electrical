@@ -13,8 +13,8 @@ description: >-
   for their assets and person...
 location: 'Reno, NV'
 team: Commercial
-datePosted: '2024-12-20T16:29:19.089Z'
-validThrough: '2025-01-29T16:29:19.089Z'
+datePosted: '2025-01-15T10:59:05.246Z'
+validThrough: '2025-02-27T10:59:05.246Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

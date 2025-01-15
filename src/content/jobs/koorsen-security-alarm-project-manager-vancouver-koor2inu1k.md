@@ -10,8 +10,8 @@ description: >-
   and healthcare centers, where we have built a r...
 location: 'Vancouver, WA'
 team: Commercial
-datePosted: '2024-12-20T22:54:57.693Z'
-validThrough: '2025-01-22T22:54:57.693Z'
+datePosted: '2025-01-15T10:10:49.069Z'
+validThrough: '2025-02-28T10:10:49.069Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

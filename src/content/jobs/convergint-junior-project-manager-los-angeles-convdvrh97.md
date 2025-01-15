@@ -13,8 +13,8 @@ description: >-
   each client. Our te...
 location: 'Los Angeles, CA'
 team: Residential
-datePosted: '2024-12-20T22:57:02.236Z'
-validThrough: '2025-02-03T22:57:02.236Z'
+datePosted: '2025-01-15T09:31:09.173Z'
+validThrough: '2025-02-28T09:31:09.173Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

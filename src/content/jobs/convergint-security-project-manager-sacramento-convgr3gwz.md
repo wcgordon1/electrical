@@ -13,8 +13,8 @@ description: >-
   buildings, healthcare f...
 location: 'Sacramento, CA'
 team: Commercial
-datePosted: '2024-12-21T06:50:54.221Z'
-validThrough: '2025-02-02T06:50:54.221Z'
+datePosted: '2025-01-15T12:04:13.405Z'
+validThrough: '2025-02-14T12:04:13.405Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

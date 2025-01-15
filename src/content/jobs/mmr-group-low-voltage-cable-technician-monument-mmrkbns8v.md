@@ -14,8 +14,8 @@ description: >-
   installing, maintaining,...
 location: 'Monument, CO'
 team: Commercial
-datePosted: '2024-12-20T12:54:35.181Z'
-validThrough: '2025-01-22T12:54:35.181Z'
+datePosted: '2025-01-15T09:44:58.860Z'
+validThrough: '2025-02-22T09:44:58.860Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

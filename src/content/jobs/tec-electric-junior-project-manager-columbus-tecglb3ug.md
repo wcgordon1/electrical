@@ -13,8 +13,8 @@ description: >-
   pivotal role i...
 location: 'Columbus, GA'
 team: Commercial
-datePosted: '2024-12-20T21:04:14.817Z'
-validThrough: '2025-01-27T21:04:14.817Z'
+datePosted: '2025-01-15T11:31:02.563Z'
+validThrough: '2025-02-16T11:31:02.563Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

@@ -10,8 +10,8 @@ description: >-
   efficiency, contributing to the seamless operation of ...
 location: 'Culver City, CA'
 team: Commercial
-datePosted: '2024-12-20T18:00:21.955Z'
-validThrough: '2025-01-31T18:00:21.955Z'
+datePosted: '2025-01-15T11:25:34.119Z'
+validThrough: '2025-02-24T11:25:34.119Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

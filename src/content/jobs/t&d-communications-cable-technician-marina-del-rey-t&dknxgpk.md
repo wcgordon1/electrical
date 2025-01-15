@@ -15,8 +15,8 @@ description: >-
   The Cable T...
 location: 'Marina del Rey, CA'
 team: Commercial
-datePosted: '2024-12-20T21:11:24.655Z'
-validThrough: '2025-01-26T21:11:24.655Z'
+datePosted: '2025-01-15T08:59:34.767Z'
+validThrough: '2025-02-28T08:59:34.767Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

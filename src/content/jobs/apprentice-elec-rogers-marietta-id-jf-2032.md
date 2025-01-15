@@ -61,8 +61,8 @@ description: >-
   for apprenticeship programs.
 location: 'Marietta, GA'
 team: Commercial
-datePosted: '2024-12-20T12:28:56.642Z'
-validThrough: '2025-01-30T12:28:56.642Z'
+datePosted: '2025-01-15T08:46:27.149Z'
+validThrough: '2025-02-27T08:46:27.149Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

@@ -13,8 +13,8 @@ description: >-
   custom homes to multi-family units a...
 location: 'Sacramento, CA'
 team: Residential
-datePosted: '2024-12-20T16:13:50.943Z'
-validThrough: '2025-02-01T16:13:50.943Z'
+datePosted: '2025-01-15T10:57:30.289Z'
+validThrough: '2025-02-26T10:57:30.289Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

@@ -13,8 +13,8 @@ description: >-
   execution of complex industrial p...
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-20T13:13:05.374Z'
-validThrough: '2025-01-25T13:13:05.374Z'
+datePosted: '2025-01-15T11:30:27.710Z'
+validThrough: '2025-02-24T11:30:27.710Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

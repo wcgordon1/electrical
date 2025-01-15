@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-20T23:45:06.176Z'
-validThrough: '2025-02-02T23:45:06.176Z'
+datePosted: '2025-01-15T10:42:52.529Z'
+validThrough: '2025-02-16T10:42:52.529Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

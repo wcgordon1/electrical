@@ -15,8 +15,8 @@ description: >-
   maintaining, and servicing security systems within ...
 location: 'Berkeley, CA'
 team: Commercial
-datePosted: '2024-12-20T21:12:31.354Z'
-validThrough: '2025-01-23T21:12:31.354Z'
+datePosted: '2025-01-15T12:32:43.167Z'
+validThrough: '2025-02-25T12:32:43.167Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

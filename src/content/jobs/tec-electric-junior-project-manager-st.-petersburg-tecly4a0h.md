@@ -12,8 +12,8 @@ description: >-
   As a Retail Junior Project Manager at TEC Electric, you...
 location: 'St. Petersburg, FL'
 team: Commercial
-datePosted: '2024-12-20T13:05:45.154Z'
-validThrough: '2025-01-24T13:05:45.154Z'
+datePosted: '2025-01-15T10:43:19.649Z'
+validThrough: '2025-02-27T10:43:19.649Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

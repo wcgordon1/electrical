@@ -6,8 +6,8 @@ description: >-
   installing, maintaining, and repairing electrical systems and equipment.
 location: 'Irvine, CA'
 team: Residential
-datePosted: '2024-12-20T15:43:15.827Z'
-validThrough: '2025-01-20T15:43:15.827Z'
+datePosted: '2025-01-15T09:45:54.868Z'
+validThrough: '2025-02-18T09:45:54.868Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Salt n Light Electric

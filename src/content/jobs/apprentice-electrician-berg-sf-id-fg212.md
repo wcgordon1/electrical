@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-20T15:51:22.893Z'
-validThrough: '2025-01-19T15:51:22.893Z'
+datePosted: '2025-01-15T12:07:32.255Z'
+validThrough: '2025-02-14T12:07:32.255Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berg Electric

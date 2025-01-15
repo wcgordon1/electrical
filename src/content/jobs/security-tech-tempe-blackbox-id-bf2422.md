@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-20T13:20:46.076Z'
-validThrough: '2025-01-19T13:20:46.076Z'
+datePosted: '2025-01-15T12:16:22.814Z'
+validThrough: '2025-02-24T12:16:22.814Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

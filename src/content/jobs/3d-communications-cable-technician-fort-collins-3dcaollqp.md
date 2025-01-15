@@ -14,8 +14,8 @@ description: >-
   As a Cable Technician at 3D ...
 location: 'Fort Collins, CO'
 team: Commercial
-datePosted: '2024-12-20T16:14:30.698Z'
-validThrough: '2025-01-27T16:14:30.698Z'
+datePosted: '2025-01-15T09:14:35.556Z'
+validThrough: '2025-02-27T09:14:35.556Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

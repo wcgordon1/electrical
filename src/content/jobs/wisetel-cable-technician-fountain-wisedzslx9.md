@@ -15,8 +15,8 @@ description: >-
   ## Position ...
 location: 'Fountain, CO'
 team: Commercial
-datePosted: '2024-12-20T22:31:36.383Z'
-validThrough: '2025-01-20T22:31:36.383Z'
+datePosted: '2025-01-15T08:02:09.535Z'
+validThrough: '2025-02-24T08:02:09.535Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Wisetel

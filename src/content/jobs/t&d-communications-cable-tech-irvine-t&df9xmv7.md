@@ -15,8 +15,8 @@ description: >-
   The Cable Tech positio...
 location: 'Irvine, CA'
 team: Commercial
-datePosted: '2024-12-21T08:18:00.012Z'
-validThrough: '2025-01-28T08:18:00.012Z'
+datePosted: '2025-01-15T09:48:04.217Z'
+validThrough: '2025-02-26T09:48:04.217Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

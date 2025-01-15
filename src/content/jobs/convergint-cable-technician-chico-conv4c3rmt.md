@@ -10,8 +10,8 @@ description: >-
   of clients, including those in educational i...
 location: 'Chico, CA'
 team: Commercial
-datePosted: '2024-12-20T15:37:14.593Z'
-validThrough: '2025-01-31T15:37:14.593Z'
+datePosted: '2025-01-15T12:43:03.363Z'
+validThrough: '2025-02-18T12:43:03.363Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

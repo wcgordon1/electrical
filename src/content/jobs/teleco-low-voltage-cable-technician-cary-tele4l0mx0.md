@@ -14,8 +14,8 @@ description: >-
   The Low Voltage Cable Technician will be responsible for the installati...
 location: 'Cary, NC'
 team: Commercial
-datePosted: '2024-12-20T21:56:32.059Z'
-validThrough: '2025-02-01T21:56:32.059Z'
+datePosted: '2025-01-15T10:21:07.010Z'
+validThrough: '2025-02-18T10:21:07.010Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Teleco

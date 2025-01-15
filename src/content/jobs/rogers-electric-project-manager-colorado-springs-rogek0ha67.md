@@ -16,8 +16,8 @@ description: >-
   **Overview of ...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-20T13:30:20.110Z'
-validThrough: '2025-01-23T13:30:20.110Z'
+datePosted: '2025-01-15T10:27:37.699Z'
+validThrough: '2025-02-26T10:27:37.699Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

@@ -12,8 +12,8 @@ description: >-
   and educational institutions. We pride ourselv...
 location: 'San Bernardino, CA'
 team: Commercial
-datePosted: '2024-12-21T07:47:59.931Z'
-validThrough: '2025-01-29T07:47:59.931Z'
+datePosted: '2025-01-15T10:04:01.645Z'
+validThrough: '2025-02-18T10:04:01.645Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

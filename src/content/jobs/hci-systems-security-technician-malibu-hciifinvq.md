@@ -16,8 +16,8 @@ description: >-
   The Se...
 location: 'Malibu, CA'
 team: Commercial
-datePosted: '2024-12-21T00:44:34.304Z'
-validThrough: '2025-01-30T00:44:34.304Z'
+datePosted: '2025-01-15T10:29:43.060Z'
+validThrough: '2025-02-18T10:29:43.060Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

@@ -12,8 +12,8 @@ description: >-
   At West Coast Fire, we are seeking a skilled CCTV Fire...
 location: 'Henderson, NV'
 team: Commercial
-datePosted: '2024-12-20T19:53:01.457Z'
-validThrough: '2025-01-21T19:53:01.457Z'
+datePosted: '2025-01-15T10:20:26.706Z'
+validThrough: '2025-02-19T10:20:26.706Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire

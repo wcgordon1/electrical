@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'Torrance, CA'
 team: Commercial
-datePosted: '2024-12-20T13:52:53.151Z'
-validThrough: '2025-01-23T13:52:53.151Z'
+datePosted: '2025-01-15T10:15:42.491Z'
+validThrough: '2025-02-25T10:15:42.491Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

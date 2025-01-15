@@ -13,8 +13,8 @@ description: >-
   clients while adhering to the hig...
 location: 'Savannah, GA'
 team: Commercial
-datePosted: '2024-12-21T05:44:51.097Z'
-validThrough: '2025-02-02T05:44:51.097Z'
+datePosted: '2025-01-15T09:43:54.958Z'
+validThrough: '2025-02-26T09:43:54.958Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

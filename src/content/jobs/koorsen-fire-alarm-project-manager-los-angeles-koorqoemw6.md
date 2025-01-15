@@ -18,8 +18,8 @@ description: >-
   execution, and completion of Fire Alarm projects. You...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-21T04:42:18.875Z'
-validThrough: '2025-02-03T04:42:18.875Z'
+datePosted: '2025-01-15T11:53:39.835Z'
+validThrough: '2025-02-16T11:53:39.835Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

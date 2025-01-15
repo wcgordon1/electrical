@@ -14,8 +14,8 @@ description: >-
   We are seeking a skilled Low Volt...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-20T20:51:03.589Z'
-validThrough: '2025-01-20T20:51:03.589Z'
+datePosted: '2025-01-15T09:27:25.318Z'
+validThrough: '2025-02-28T09:27:25.318Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

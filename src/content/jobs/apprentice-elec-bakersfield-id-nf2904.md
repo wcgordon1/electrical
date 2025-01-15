@@ -37,8 +37,8 @@ description: >-
   projects is a plus.
 location: 'Bakersfield, CA'
 team: Commercial
-datePosted: '2024-12-20T14:29:25.499Z'
-validThrough: '2025-01-28T14:29:25.499Z'
+datePosted: '2025-01-15T12:17:57.761Z'
+validThrough: '2025-02-15T12:17:57.761Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

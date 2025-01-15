@@ -7,8 +7,8 @@ description: >-
   commitment to quality, safety, and innovation.
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-20T14:52:29.677Z'
-validThrough: '2025-01-24T14:52:29.677Z'
+datePosted: '2025-01-15T12:38:20.072Z'
+validThrough: '2025-02-23T12:38:20.072Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

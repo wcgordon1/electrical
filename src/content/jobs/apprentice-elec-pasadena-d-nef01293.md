@@ -28,8 +28,8 @@ description: >-
   savings plan with employer contributions. Paid time off and holidays.
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-20T16:56:41.990Z'
-validThrough: '2025-01-24T16:56:41.990Z'
+datePosted: '2025-01-15T12:21:29.835Z'
+validThrough: '2025-02-14T12:21:29.835Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

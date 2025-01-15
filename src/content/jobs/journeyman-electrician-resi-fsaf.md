@@ -6,8 +6,8 @@ description: >-
   maintaining, and repairing electrical systems and equipment.
 location: 'Irvine, CA'
 team: Residential
-datePosted: '2024-12-20T13:04:08.856Z'
-validThrough: '2025-01-27T13:04:08.856Z'
+datePosted: '2025-01-15T08:58:02.261Z'
+validThrough: '2025-02-26T08:58:02.261Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Hal Hayes Electric

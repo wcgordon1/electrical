@@ -15,8 +15,8 @@ description: >-
   As a Cable Techni...
 location: 'Visalia, CA'
 team: Commercial
-datePosted: '2024-12-20T15:32:03.457Z'
-validThrough: '2025-01-26T15:32:03.457Z'
+datePosted: '2025-01-15T08:33:55.068Z'
+validThrough: '2025-02-23T08:33:55.068Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

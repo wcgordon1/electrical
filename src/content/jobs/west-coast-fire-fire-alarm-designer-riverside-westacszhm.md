@@ -15,8 +15,8 @@ description: >-
   **Overview of Life Safety Fire Alarm ...
 location: 'Riverside, CA'
 team: Commercial
-datePosted: '2024-12-21T08:30:59.181Z'
-validThrough: '2025-01-25T08:30:59.181Z'
+datePosted: '2025-01-15T12:41:57.005Z'
+validThrough: '2025-02-19T12:41:57.005Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire

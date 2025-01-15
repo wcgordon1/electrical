@@ -15,8 +15,8 @@ description: >-
   Staley Technologies is seeking a skilled Office E...
 location: 'Salt Lake City, UT'
 team: Commercial
-datePosted: '2024-12-20T15:10:22.381Z'
-validThrough: '2025-02-03T15:10:22.381Z'
+datePosted: '2025-01-15T10:48:35.917Z'
+validThrough: '2025-02-15T10:48:35.917Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

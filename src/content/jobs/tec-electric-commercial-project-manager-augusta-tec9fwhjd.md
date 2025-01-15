@@ -17,8 +17,8 @@ description: >-
   As a Custom Home Commercial Proje...
 location: 'Augusta, GA'
 team: Residential
-datePosted: '2024-12-20T21:34:00.929Z'
-validThrough: '2025-01-22T21:34:00.929Z'
+datePosted: '2025-01-15T12:44:31.849Z'
+validThrough: '2025-02-16T12:44:31.849Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

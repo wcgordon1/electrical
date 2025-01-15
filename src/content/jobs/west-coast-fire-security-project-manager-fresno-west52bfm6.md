@@ -13,8 +13,8 @@ description: >-
   reliable fire...
 location: 'Fresno, CA'
 team: Commercial
-datePosted: '2024-12-20T23:07:12.009Z'
-validThrough: '2025-01-26T23:07:12.009Z'
+datePosted: '2025-01-15T08:37:35.745Z'
+validThrough: '2025-02-16T08:37:35.745Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire
