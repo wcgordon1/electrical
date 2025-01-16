@@ -15,8 +15,8 @@ description: >-
   As a Retail Electrician at Tri City Electric, ...
 location: 'Morganton, NC'
 team: Commercial
-datePosted: '2024-12-22T09:23:09.686Z'
-validThrough: '2025-01-30T09:23:09.686Z'
+datePosted: '2025-01-16T09:42:31.093Z'
+validThrough: '2025-02-25T09:42:31.093Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

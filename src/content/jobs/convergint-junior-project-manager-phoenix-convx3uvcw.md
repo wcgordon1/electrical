@@ -13,8 +13,8 @@ description: >-
   buildings and facilities are prote...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-21T13:32:54.739Z'
-validThrough: '2025-02-01T13:32:54.739Z'
+datePosted: '2025-01-16T15:15:46.116Z'
+validThrough: '2025-02-22T15:15:46.116Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

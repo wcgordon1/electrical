@@ -13,8 +13,8 @@ description: >-
   crucial role in supporting our co...
 location: 'Roanoke, VA'
 team: Commercial
-datePosted: '2024-12-22T02:17:38.442Z'
-validThrough: '2025-02-02T02:17:38.442Z'
+datePosted: '2025-01-16T08:04:20.180Z'
+validThrough: '2025-03-02T08:04:20.180Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

@@ -15,8 +15,8 @@ description: >-
   implementing and maintaining security systems within healthca...
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-21T20:56:04.289Z'
-validThrough: '2025-02-02T20:56:04.289Z'
+datePosted: '2025-01-16T08:40:05.405Z'
+validThrough: '2025-02-23T08:40:05.405Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

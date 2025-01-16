@@ -10,8 +10,8 @@ description: >-
   Management Fire Alarm Designer and bec...
 location: 'Spokane, WA'
 team: Commercial
-datePosted: '2024-12-21T23:45:48.977Z'
-validThrough: '2025-01-25T23:45:48.977Z'
+datePosted: '2025-01-16T09:23:49.404Z'
+validThrough: '2025-02-23T09:23:49.404Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

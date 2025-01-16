@@ -10,8 +10,8 @@ description: >-
   healthcare facilities by implementing state-of-the-art...
 location: 'Calabasas, CA'
 team: Commercial
-datePosted: '2024-12-21T10:20:55.452Z'
-validThrough: '2025-02-01T10:20:55.452Z'
+datePosted: '2025-01-16T10:31:18.622Z'
+validThrough: '2025-02-25T10:31:18.622Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

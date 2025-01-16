@@ -22,8 +22,8 @@ description: >-
   - Install solar PV systems in accordance with code...
 location: 'Las Vegas, NV'
 team: Solar
-datePosted: '2024-12-22T09:01:22.588Z'
-validThrough: '2025-02-01T09:01:22.588Z'
+datePosted: '2025-01-16T11:30:52.904Z'
+validThrough: '2025-02-20T11:30:52.904Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

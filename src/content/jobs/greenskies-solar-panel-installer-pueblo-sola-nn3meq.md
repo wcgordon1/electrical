@@ -26,8 +26,8 @@ description: >-
   - Install, inspect, maintain and repair solar pan...
 location: 'Pueblo, CO'
 team: Solar
-datePosted: '2024-12-22T08:24:08.445Z'
-validThrough: '2025-01-22T08:24:08.445Z'
+datePosted: '2025-01-16T12:37:44.166Z'
+validThrough: '2025-02-28T12:37:44.166Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

@@ -18,8 +18,8 @@ description: >-
   As a Retail Ca...
 location: 'Concord, NC'
 team: Commercial
-datePosted: '2024-12-21T22:42:07.096Z'
-validThrough: '2025-01-26T22:42:07.096Z'
+datePosted: '2025-01-16T15:23:10.935Z'
+validThrough: '2025-02-18T15:23:10.935Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

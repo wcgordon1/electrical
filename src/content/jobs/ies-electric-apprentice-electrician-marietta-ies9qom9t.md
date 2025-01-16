@@ -13,8 +13,8 @@ description: >-
   dedicated to providing exc...
 location: 'Marietta, GA'
 team: Commercial
-datePosted: '2024-12-22T08:06:30.287Z'
-validThrough: '2025-02-05T08:06:30.287Z'
+datePosted: '2025-01-16T10:36:50.313Z'
+validThrough: '2025-02-21T10:36:50.313Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

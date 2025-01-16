@@ -13,8 +13,8 @@ description: >-
   ## Overview o...
 location: 'Orem, UT'
 team: Commercial
-datePosted: '2024-12-21T15:16:50.631Z'
-validThrough: '2025-01-26T15:16:50.631Z'
+datePosted: '2025-01-16T09:22:11.746Z'
+validThrough: '2025-03-02T09:22:11.746Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

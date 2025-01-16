@@ -6,8 +6,8 @@ description: >-
   programming advanced fire alarm systems.
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-22T12:18:43.045Z'
-validThrough: '2025-02-03T12:18:43.045Z'
+datePosted: '2025-01-16T13:40:12.808Z'
+validThrough: '2025-02-17T13:40:12.808Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nexus Alarm & Suppression

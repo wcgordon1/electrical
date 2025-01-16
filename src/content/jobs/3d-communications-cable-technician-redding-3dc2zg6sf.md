@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at 3D Co...
 location: 'Redding, CA'
 team: Commercial
-datePosted: '2024-12-21T08:44:25.752Z'
-validThrough: '2025-01-28T08:44:25.752Z'
+datePosted: '2025-01-16T14:55:10.621Z'
+validThrough: '2025-02-25T14:55:10.621Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

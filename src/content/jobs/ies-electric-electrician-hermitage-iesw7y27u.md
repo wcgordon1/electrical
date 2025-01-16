@@ -13,8 +13,8 @@ description: >-
   electrical...
 location: 'Hermitage, TN'
 team: Commercial
-datePosted: '2024-12-22T05:19:17.500Z'
-validThrough: '2025-02-04T05:19:17.500Z'
+datePosted: '2025-01-16T08:46:10.174Z'
+validThrough: '2025-02-19T08:46:10.174Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

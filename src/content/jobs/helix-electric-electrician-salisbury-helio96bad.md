@@ -16,8 +16,8 @@ description: >-
   ### Overview of t...
 location: 'Salisbury, NC'
 team: Commercial
-datePosted: '2024-12-22T09:12:47.214Z'
-validThrough: '2025-02-02T09:12:47.214Z'
+datePosted: '2025-01-16T11:26:38.111Z'
+validThrough: '2025-02-17T11:26:38.111Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

@@ -13,8 +13,8 @@ description: >-
   have positioned us as...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-21T13:51:56.405Z'
-validThrough: '2025-01-23T13:51:56.405Z'
+datePosted: '2025-01-16T14:44:35.960Z'
+validThrough: '2025-02-18T14:44:35.960Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

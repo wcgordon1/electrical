@@ -12,8 +12,8 @@ description: >-
   on quality, Barry Bros Security has established a reputation f...
 location: 'Provo, UT'
 team: Commercial
-datePosted: '2024-12-21T18:21:16.423Z'
-validThrough: '2025-02-01T18:21:16.423Z'
+datePosted: '2025-01-16T13:12:21.409Z'
+validThrough: '2025-02-22T13:12:21.409Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Barry Bros Security

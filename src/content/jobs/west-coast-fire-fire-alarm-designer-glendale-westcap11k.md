@@ -13,8 +13,8 @@ description: >-
   budget. Our team of highly s...
 location: 'Glendale, AZ'
 team: Commercial
-datePosted: '2024-12-21T16:23:40.360Z'
-validThrough: '2025-01-28T16:23:40.360Z'
+datePosted: '2025-01-16T11:44:14.266Z'
+validThrough: '2025-03-02T11:44:14.266Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: West Coast Fire

@@ -48,8 +48,8 @@ description: >-
   career advancement.
 location: 'North Hollywood, CA'
 team: Commercial
-datePosted: '2024-12-22T10:23:10.174Z'
-validThrough: '2025-02-01T10:23:10.174Z'
+datePosted: '2025-01-16T14:34:22.435Z'
+validThrough: '2025-02-22T14:34:22.435Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

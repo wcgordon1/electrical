@@ -10,8 +10,8 @@ description: >-
   team in Anaheim, CA, and contribute to our mission ...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-21T10:16:35.514Z'
-validThrough: '2025-01-27T10:16:35.514Z'
+datePosted: '2025-01-16T13:16:46.306Z'
+validThrough: '2025-02-27T13:16:46.306Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

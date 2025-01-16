@@ -13,8 +13,8 @@ description: >-
   As we continue to expand our operat...
 location: 'Scottsdale, AZ'
 team: Commercial
-datePosted: '2024-12-21T11:19:11.865Z'
-validThrough: '2025-01-21T11:19:11.865Z'
+datePosted: '2025-01-16T09:54:41.368Z'
+validThrough: '2025-02-15T09:54:41.368Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

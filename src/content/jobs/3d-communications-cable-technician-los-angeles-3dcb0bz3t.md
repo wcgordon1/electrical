@@ -10,8 +10,8 @@ description: >-
   Technician to join our team in Los Angeles, CA, focusing on offi...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-21T14:41:47.660Z'
-validThrough: '2025-02-01T14:41:47.660Z'
+datePosted: '2025-01-16T10:26:05.547Z'
+validThrough: '2025-02-24T10:26:05.547Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

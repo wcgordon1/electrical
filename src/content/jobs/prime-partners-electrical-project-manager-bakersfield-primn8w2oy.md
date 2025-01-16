@@ -15,8 +15,8 @@ description: >-
   As a Fire Protection Elect...
 location: 'Bakersfield, CA'
 team: Commercial
-datePosted: '2024-12-21T18:08:45.092Z'
-validThrough: '2025-02-01T18:08:45.092Z'
+datePosted: '2025-01-16T08:18:37.300Z'
+validThrough: '2025-02-26T08:18:37.300Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

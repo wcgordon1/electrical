@@ -13,8 +13,8 @@ description: >-
   As an Industrial Junior Project Manager at...
 location: 'Aurora, CO'
 team: Industrial
-datePosted: '2024-12-21T16:20:22.236Z'
-validThrough: '2025-01-28T16:20:22.236Z'
+datePosted: '2025-01-16T12:24:28.140Z'
+validThrough: '2025-02-16T12:24:28.140Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

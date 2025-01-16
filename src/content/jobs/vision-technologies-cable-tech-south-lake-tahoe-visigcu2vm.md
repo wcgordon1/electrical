@@ -15,8 +15,8 @@ description: >-
   responsible for installing, maintaining, and troubleshooting ...
 location: 'South Lake Tahoe, CA'
 team: Commercial
-datePosted: '2024-12-21T20:53:41.685Z'
-validThrough: '2025-01-22T20:53:41.685Z'
+datePosted: '2025-01-16T13:37:35.776Z'
+validThrough: '2025-02-22T13:37:35.776Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

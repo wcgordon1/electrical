@@ -13,8 +13,8 @@ description: >-
   foster a culture of innova...
 location: 'Grand Junction, CO'
 team: Commercial
-datePosted: '2024-12-22T03:42:24.026Z'
-validThrough: '2025-01-22T03:42:24.026Z'
+datePosted: '2025-01-16T08:14:19.010Z'
+validThrough: '2025-02-19T08:14:19.010Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

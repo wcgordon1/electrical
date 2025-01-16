@@ -16,8 +16,8 @@ description: >-
   to your success.
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-21T08:31:24.899Z'
-validThrough: '2025-01-25T08:31:24.899Z'
+datePosted: '2025-01-16T11:12:33.305Z'
+validThrough: '2025-02-28T11:12:33.305Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

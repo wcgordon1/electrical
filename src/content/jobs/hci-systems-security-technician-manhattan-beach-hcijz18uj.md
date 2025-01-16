@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at HCI Systems...
 location: 'Manhattan Beach, CA'
 team: Commercial
-datePosted: '2024-12-22T12:25:30.508Z'
-validThrough: '2025-01-24T12:25:30.508Z'
+datePosted: '2025-01-16T11:51:50.881Z'
+validThrough: '2025-02-16T11:51:50.881Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

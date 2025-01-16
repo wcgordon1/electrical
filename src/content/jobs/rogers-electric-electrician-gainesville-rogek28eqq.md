@@ -13,8 +13,8 @@ description: >-
   **Overview of Comme...
 location: 'Gainesville, GA'
 team: Commercial
-datePosted: '2024-12-21T21:07:22.207Z'
-validThrough: '2025-02-03T21:07:22.207Z'
+datePosted: '2025-01-16T11:45:44.266Z'
+validThrough: '2025-02-20T11:45:44.266Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

@@ -14,8 +14,8 @@ description: >-
   installation and maintenance of low voltage cabling systems ...
 location: 'San Luis Obispo, CA'
 team: Commercial
-datePosted: '2024-12-21T13:31:29.665Z'
-validThrough: '2025-01-22T13:31:29.665Z'
+datePosted: '2025-01-16T10:00:13.406Z'
+validThrough: '2025-02-24T10:00:13.406Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

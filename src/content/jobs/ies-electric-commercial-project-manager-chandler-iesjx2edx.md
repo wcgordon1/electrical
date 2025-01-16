@@ -18,8 +18,8 @@ description: >-
   The Hea...
 location: 'Chandler, AZ'
 team: Commercial
-datePosted: '2024-12-21T13:36:57.298Z'
-validThrough: '2025-01-24T13:36:57.298Z'
+datePosted: '2025-01-16T09:58:59.045Z'
+validThrough: '2025-02-18T09:58:59.045Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

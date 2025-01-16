@@ -15,8 +15,8 @@ description: >-
   The Cable Technician p...
 location: 'El Centro, CA'
 team: Commercial
-datePosted: '2024-12-21T20:56:34.848Z'
-validThrough: '2025-02-02T20:56:34.848Z'
+datePosted: '2025-01-16T14:40:23.619Z'
+validThrough: '2025-02-18T14:40:23.619Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

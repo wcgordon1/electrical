@@ -35,8 +35,8 @@ description: >-
   Knowledge of state and local regulations regarding low voltage systems.
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-22T10:16:59.013Z'
-validThrough: '2025-02-04T10:16:59.013Z'
+datePosted: '2025-01-16T14:06:41.986Z'
+validThrough: '2025-02-20T14:06:41.986Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Black Box

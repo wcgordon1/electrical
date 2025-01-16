@@ -10,8 +10,8 @@ description: >-
   particularly for projects in healthcare facilitie...
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-22T09:38:41.286Z'
-validThrough: '2025-02-04T09:38:41.286Z'
+datePosted: '2025-01-16T13:58:09.192Z'
+validThrough: '2025-02-23T13:58:09.192Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

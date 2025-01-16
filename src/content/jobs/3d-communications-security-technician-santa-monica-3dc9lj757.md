@@ -15,8 +15,8 @@ description: >-
   the installation, maintenance, and tro...
 location: 'Santa Monica, CA'
 team: Commercial
-datePosted: '2024-12-22T06:36:15.497Z'
-validThrough: '2025-01-24T06:36:15.497Z'
+datePosted: '2025-01-16T12:27:50.205Z'
+validThrough: '2025-02-15T12:27:50.205Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

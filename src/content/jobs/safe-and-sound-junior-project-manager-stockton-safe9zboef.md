@@ -10,8 +10,8 @@ description: >-
   currently seeking a motivated and skilled Retail Juni...
 location: 'Stockton, CA'
 team: Commercial
-datePosted: '2024-12-21T15:43:36.644Z'
-validThrough: '2025-01-31T15:43:36.644Z'
+datePosted: '2025-01-16T10:48:21.698Z'
+validThrough: '2025-02-22T10:48:21.698Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe and Sound

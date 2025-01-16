@@ -12,8 +12,8 @@ description: >-
   providing top-notch service and innovative securit...
 location: 'Chula Vista, CA'
 team: Commercial
-datePosted: '2024-12-21T22:33:36.257Z'
-validThrough: '2025-01-28T22:33:36.257Z'
+datePosted: '2025-01-16T13:52:41.326Z'
+validThrough: '2025-02-26T13:52:41.326Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Barry Bros Security

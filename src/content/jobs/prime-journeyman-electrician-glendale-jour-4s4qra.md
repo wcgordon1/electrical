@@ -24,8 +24,8 @@ description: >-
   1. ...
 location: 'Glendale, CA'
 team: Data Center
-datePosted: '2024-12-22T11:00:58.802Z'
-validThrough: '2025-01-29T11:00:58.802Z'
+datePosted: '2025-01-16T12:55:33.343Z'
+validThrough: '2025-02-15T12:55:33.343Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

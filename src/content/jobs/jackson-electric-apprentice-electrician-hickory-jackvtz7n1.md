@@ -15,8 +15,8 @@ description: >-
   The Office Apprentice Electrician at Jackson Electric ...
 location: 'Hickory, NC'
 team: Commercial
-datePosted: '2024-12-21T23:27:08.346Z'
-validThrough: '2025-01-29T23:27:08.346Z'
+datePosted: '2025-01-16T08:06:48.907Z'
+validThrough: '2025-02-20T08:06:48.907Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

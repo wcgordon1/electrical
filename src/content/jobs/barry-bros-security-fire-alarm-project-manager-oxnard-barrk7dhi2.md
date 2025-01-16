@@ -13,8 +13,8 @@ description: >-
   We are seeking a dedicated and experienced ...
 location: 'Oxnard, CA'
 team: Commercial
-datePosted: '2024-12-21T17:38:23.230Z'
-validThrough: '2025-01-23T17:38:23.230Z'
+datePosted: '2025-01-16T12:55:09.126Z'
+validThrough: '2025-02-15T12:55:09.126Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Barry Bros Security

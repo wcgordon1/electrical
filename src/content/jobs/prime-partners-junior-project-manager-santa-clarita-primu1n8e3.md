@@ -12,8 +12,8 @@ description: >-
   We are seeking an enthusiastic and detail-orie...
 location: 'Santa Clarita, CA'
 team: Commercial
-datePosted: '2024-12-21T22:06:22.855Z'
-validThrough: '2025-01-26T22:06:22.855Z'
+datePosted: '2025-01-16T09:50:20.355Z'
+validThrough: '2025-02-15T09:50:20.355Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -10,8 +10,8 @@ description: >-
   Office Apprentice Electrician to join our team and c...
 location: 'Fayetteville, GA'
 team: Commercial
-datePosted: '2024-12-22T04:58:41.610Z'
-validThrough: '2025-01-26T04:58:41.610Z'
+datePosted: '2025-01-16T15:31:14.886Z'
+validThrough: '2025-02-17T15:31:14.886Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

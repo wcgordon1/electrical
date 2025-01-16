@@ -12,8 +12,8 @@ description: >-
   schools, where precision and expertise are paramount. As we conti...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-21T21:40:49.338Z'
-validThrough: '2025-02-03T21:40:49.338Z'
+datePosted: '2025-01-16T08:04:41.360Z'
+validThrough: '2025-02-18T08:04:41.360Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

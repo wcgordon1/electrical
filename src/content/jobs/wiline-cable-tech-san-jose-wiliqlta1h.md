@@ -15,8 +15,8 @@ description: >-
   play a crucial role in installing, maintaining, a...
 location: 'San Jose, CA'
 team: Commercial
-datePosted: '2024-12-21T15:21:33.649Z'
-validThrough: '2025-01-22T15:21:33.649Z'
+datePosted: '2025-01-16T11:23:09.937Z'
+validThrough: '2025-02-26T11:23:09.937Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

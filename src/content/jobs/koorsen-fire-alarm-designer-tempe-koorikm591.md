@@ -13,8 +13,8 @@ description: >-
   retail centers, hospitals, a...
 location: 'Tempe, AZ'
 team: Commercial
-datePosted: '2024-12-21T17:13:45.491Z'
-validThrough: '2025-01-27T17:13:45.491Z'
+datePosted: '2025-01-16T09:40:49.751Z'
+validThrough: '2025-02-25T09:40:49.751Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koorsen

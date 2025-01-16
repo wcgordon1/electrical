@@ -13,8 +13,8 @@ description: >-
   value our team of skilled ...
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-22T01:15:16.357Z'
-validThrough: '2025-01-23T01:15:16.357Z'
+datePosted: '2025-01-16T15:31:28.536Z'
+validThrough: '2025-02-21T15:31:28.536Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

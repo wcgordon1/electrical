@@ -10,8 +10,8 @@ description: >-
   service and innovative solutions tailored to meet th...
 location: 'Santa Ana, CA'
 team: Commercial
-datePosted: '2024-12-21T20:34:49.731Z'
-validThrough: '2025-01-31T20:34:49.731Z'
+datePosted: '2025-01-16T09:26:30.807Z'
+validThrough: '2025-02-20T09:26:30.807Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Valley Alarm

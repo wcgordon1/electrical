@@ -16,8 +16,8 @@ description: >-
   **Overview ...
 location: 'Gilbert, AZ'
 team: Commercial
-datePosted: '2024-12-21T13:40:19.409Z'
-validThrough: '2025-02-03T13:40:19.409Z'
+datePosted: '2025-01-16T14:39:56.835Z'
+validThrough: '2025-02-21T14:39:56.835Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Alert 360

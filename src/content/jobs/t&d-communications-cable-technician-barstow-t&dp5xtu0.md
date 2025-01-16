@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at T&D C...
 location: 'Barstow, CA'
 team: Commercial
-datePosted: '2024-12-22T04:01:28.146Z'
-validThrough: '2025-02-03T04:01:28.146Z'
+datePosted: '2025-01-16T08:24:30.783Z'
+validThrough: '2025-02-16T08:24:30.783Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

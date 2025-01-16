@@ -18,8 +18,8 @@ description: >-
   ...
 location: 'Sherman, TX'
 team: Commercial
-datePosted: '2024-12-22T08:44:56.320Z'
-validThrough: '2025-01-22T08:44:56.320Z'
+datePosted: '2025-01-16T10:04:56.371Z'
+validThrough: '2025-03-02T10:04:56.371Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

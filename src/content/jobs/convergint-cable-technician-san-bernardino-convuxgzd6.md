@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at Con...
 location: 'San Bernardino, CA'
 team: Commercial
-datePosted: '2024-12-21T21:59:26.674Z'
-validThrough: '2025-01-26T21:59:26.674Z'
+datePosted: '2025-01-16T10:31:57.354Z'
+validThrough: '2025-03-02T10:31:57.354Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

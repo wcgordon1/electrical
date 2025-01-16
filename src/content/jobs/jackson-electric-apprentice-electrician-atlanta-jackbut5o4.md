@@ -10,8 +10,8 @@ description: >-
   company that values growth, teamwork, and the purs...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-22T11:28:24.403Z'
-validThrough: '2025-01-22T11:28:24.403Z'
+datePosted: '2025-01-16T14:41:48.118Z'
+validThrough: '2025-02-16T14:41:48.118Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

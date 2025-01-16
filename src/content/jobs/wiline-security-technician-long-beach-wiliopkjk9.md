@@ -13,8 +13,8 @@ description: >-
   ## Position Overview ...
 location: 'Long Beach, CA'
 team: Commercial
-datePosted: '2024-12-22T02:52:36.950Z'
-validThrough: '2025-02-01T02:52:36.950Z'
+datePosted: '2025-01-16T08:07:39.378Z'
+validThrough: '2025-03-01T08:07:39.378Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

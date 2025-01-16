@@ -15,8 +15,8 @@ description: >-
   clients, internal teams, and external partners will be key to your success.
 location: 'Burbank, CA'
 team: Commercial
-datePosted: '2024-12-21T08:31:24.899Z'
-validThrough: '2025-01-25T08:31:24.899Z'
+datePosted: '2025-01-16T10:15:36.309Z'
+validThrough: '2025-02-20T10:15:36.309Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: AVI SPL

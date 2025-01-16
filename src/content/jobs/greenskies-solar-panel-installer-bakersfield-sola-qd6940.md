@@ -19,8 +19,8 @@ description: >-
   and efficient man...
 location: 'Bakersfield, CA'
 team: Solar
-datePosted: '2024-12-22T10:37:19.894Z'
-validThrough: '2025-01-25T10:37:19.894Z'
+datePosted: '2025-01-16T12:34:14.822Z'
+validThrough: '2025-02-24T12:34:14.822Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

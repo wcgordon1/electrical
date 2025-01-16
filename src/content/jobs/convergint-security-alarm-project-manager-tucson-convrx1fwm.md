@@ -13,8 +13,8 @@ description: >-
   We are seeki...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-21T19:18:23.440Z'
-validThrough: '2025-01-27T19:18:23.440Z'
+datePosted: '2025-01-16T14:29:52.589Z'
+validThrough: '2025-02-18T14:29:52.589Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

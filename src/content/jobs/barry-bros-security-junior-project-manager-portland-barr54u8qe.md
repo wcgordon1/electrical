@@ -15,8 +15,8 @@ description: >-
   The Retail Junior Project Manager will play a p...
 location: 'Portland, OR'
 team: Commercial
-datePosted: '2024-12-21T12:31:33.307Z'
-validThrough: '2025-01-21T12:31:33.307Z'
+datePosted: '2025-01-16T11:31:06.225Z'
+validThrough: '2025-02-21T11:31:06.225Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Barry Bros Security

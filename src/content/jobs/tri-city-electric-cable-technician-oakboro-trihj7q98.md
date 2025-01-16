@@ -13,8 +13,8 @@ description: >-
   commercial en...
 location: 'Oakboro, NC'
 team: Commercial
-datePosted: '2024-12-22T02:09:33.986Z'
-validThrough: '2025-01-22T02:09:33.986Z'
+datePosted: '2025-01-16T14:14:16.256Z'
+validThrough: '2025-02-21T14:14:16.256Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

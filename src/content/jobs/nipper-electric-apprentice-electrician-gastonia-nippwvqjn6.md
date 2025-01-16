@@ -13,8 +13,8 @@ description: >-
   potential of our team to delive...
 location: 'Gastonia, NC'
 team: Commercial
-datePosted: '2024-12-22T06:19:13.452Z'
-validThrough: '2025-01-23T06:19:13.452Z'
+datePosted: '2025-01-16T13:02:52.964Z'
+validThrough: '2025-02-21T13:02:52.964Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

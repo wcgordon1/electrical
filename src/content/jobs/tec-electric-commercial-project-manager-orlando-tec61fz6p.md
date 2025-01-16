@@ -16,8 +16,8 @@ description: >-
   ### Overv...
 location: 'Orlando, FL'
 team: Residential
-datePosted: '2024-12-21T16:52:44.631Z'
-validThrough: '2025-01-30T16:52:44.631Z'
+datePosted: '2025-01-16T12:15:54.513Z'
+validThrough: '2025-02-19T12:15:54.513Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TEC Electric

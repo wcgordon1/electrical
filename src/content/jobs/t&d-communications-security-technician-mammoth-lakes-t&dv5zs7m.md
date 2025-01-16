@@ -10,8 +10,8 @@ description: >-
   its dynamic team of highly skilled profe...
 location: 'Mammoth Lakes, CA'
 team: Commercial
-datePosted: '2024-12-22T00:43:52.605Z'
-validThrough: '2025-01-23T00:43:52.605Z'
+datePosted: '2025-01-16T08:32:19.480Z'
+validThrough: '2025-02-18T08:32:19.480Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

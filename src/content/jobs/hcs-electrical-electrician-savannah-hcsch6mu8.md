@@ -16,8 +16,8 @@ description: >-
   ensuring the su...
 location: 'Savannah, GA'
 team: Commercial
-datePosted: '2024-12-22T02:00:05.306Z'
-validThrough: '2025-02-03T02:00:05.306Z'
+datePosted: '2025-01-16T11:13:40.080Z'
+validThrough: '2025-02-28T11:13:40.080Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

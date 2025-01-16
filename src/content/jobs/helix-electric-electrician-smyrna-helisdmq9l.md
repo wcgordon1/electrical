@@ -12,8 +12,8 @@ description: >-
   service and solutions to our clients, making us a...
 location: 'Smyrna, TN'
 team: Commercial
-datePosted: '2024-12-22T11:43:01.842Z'
-validThrough: '2025-02-04T11:43:01.842Z'
+datePosted: '2025-01-16T14:29:07.101Z'
+validThrough: '2025-02-20T14:29:07.101Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

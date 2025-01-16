@@ -15,8 +15,8 @@ description: >-
   ### Overview of Heavy...
 location: 'Mesa, AZ'
 team: Industrial
-datePosted: '2024-12-21T16:31:28.144Z'
-validThrough: '2025-01-21T16:31:28.144Z'
+datePosted: '2025-01-16T09:31:57.775Z'
+validThrough: '2025-03-01T09:31:57.775Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

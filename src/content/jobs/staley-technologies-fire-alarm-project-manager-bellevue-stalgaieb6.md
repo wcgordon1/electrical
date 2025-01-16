@@ -13,8 +13,8 @@ description: >-
   exceed our clien...
 location: 'Bellevue, WA'
 team: Commercial
-datePosted: '2024-12-21T15:11:31.487Z'
-validThrough: '2025-01-24T15:11:31.487Z'
+datePosted: '2025-01-16T13:11:28.054Z'
+validThrough: '2025-02-20T13:11:28.054Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

@@ -15,8 +15,8 @@ description: >-
   and repair of cable s...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-22T04:42:21.419Z'
-validThrough: '2025-02-03T04:42:21.419Z'
+datePosted: '2025-01-16T10:51:26.283Z'
+validThrough: '2025-02-20T10:51:26.283Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

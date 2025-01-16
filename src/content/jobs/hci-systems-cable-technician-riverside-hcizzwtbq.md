@@ -15,8 +15,8 @@ description: >-
   The Cable Techni...
 location: 'Riverside, CA'
 team: Commercial
-datePosted: '2024-12-22T10:01:37.232Z'
-validThrough: '2025-01-27T10:01:37.232Z'
+datePosted: '2025-01-16T12:54:56.891Z'
+validThrough: '2025-02-24T12:54:56.891Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

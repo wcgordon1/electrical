@@ -15,8 +15,8 @@ description: >-
   and maintenance of telecommunications systems in office build...
 location: 'Victorville, CA'
 team: Commercial
-datePosted: '2024-12-22T06:13:46.459Z'
-validThrough: '2025-01-31T06:13:46.459Z'
+datePosted: '2025-01-16T08:01:09.452Z'
+validThrough: '2025-02-27T08:01:09.452Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

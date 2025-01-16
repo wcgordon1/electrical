@@ -15,8 +15,8 @@ description: >-
   **Overview of Healthcare Electrici...
 location: 'Rock Hill, SC'
 team: Commercial
-datePosted: '2024-12-22T08:15:03.406Z'
-validThrough: '2025-01-27T08:15:03.406Z'
+datePosted: '2025-01-16T12:02:03.276Z'
+validThrough: '2025-02-27T12:02:03.276Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

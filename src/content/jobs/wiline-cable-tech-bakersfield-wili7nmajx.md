@@ -15,8 +15,8 @@ description: >-
   CA, focusing on projects in office buildings. T...
 location: 'Bakersfield, CA'
 team: Commercial
-datePosted: '2024-12-21T17:07:03.204Z'
-validThrough: '2025-01-30T17:07:03.204Z'
+datePosted: '2025-01-16T12:07:37.002Z'
+validThrough: '2025-02-16T12:07:37.002Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

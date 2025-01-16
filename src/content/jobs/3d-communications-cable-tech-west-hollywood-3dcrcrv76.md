@@ -15,8 +15,8 @@ description: >-
   The Cable Tech position at 3D Communications involves installing,...
 location: 'West Hollywood, CA'
 team: Commercial
-datePosted: '2024-12-22T05:06:21.583Z'
-validThrough: '2025-02-01T05:06:21.583Z'
+datePosted: '2025-01-16T14:28:36.058Z'
+validThrough: '2025-02-26T14:28:36.058Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

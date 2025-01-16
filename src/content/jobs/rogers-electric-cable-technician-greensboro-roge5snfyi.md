@@ -16,8 +16,8 @@ description: >-
   ### Overview of Comm...
 location: 'Greensboro, GA'
 team: Commercial
-datePosted: '2024-12-22T10:22:44.173Z'
-validThrough: '2025-01-25T10:22:44.173Z'
+datePosted: '2025-01-16T13:22:49.751Z'
+validThrough: '2025-02-26T13:22:49.751Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

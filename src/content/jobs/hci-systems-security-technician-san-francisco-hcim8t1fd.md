@@ -13,8 +13,8 @@ description: >-
   ## Position Overview...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-21T17:39:48.889Z'
-validThrough: '2025-02-01T17:39:48.889Z'
+datePosted: '2025-01-16T09:02:19.095Z'
+validThrough: '2025-02-18T09:02:19.095Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

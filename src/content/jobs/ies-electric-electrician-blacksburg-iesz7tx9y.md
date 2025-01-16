@@ -12,8 +12,8 @@ description: >-
   successful candidate will be responsible for the in...
 location: 'Blacksburg, VA'
 team: Commercial
-datePosted: '2024-12-22T07:08:37.389Z'
-validThrough: '2025-01-25T07:08:37.389Z'
+datePosted: '2025-01-16T14:21:43.846Z'
+validThrough: '2025-03-01T14:21:43.846Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

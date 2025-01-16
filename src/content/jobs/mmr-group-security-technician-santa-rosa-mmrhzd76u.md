@@ -15,8 +15,8 @@ description: >-
   working ...
 location: 'Santa Rosa, CA'
 team: Commercial
-datePosted: '2024-12-22T00:58:17.832Z'
-validThrough: '2025-01-26T00:58:17.832Z'
+datePosted: '2025-01-16T12:36:23.532Z'
+validThrough: '2025-02-22T12:36:23.532Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

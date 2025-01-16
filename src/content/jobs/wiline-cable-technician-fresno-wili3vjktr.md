@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Fresno, CA'
 team: Commercial
-datePosted: '2024-12-21T15:30:16.133Z'
-validThrough: '2025-01-27T15:30:16.133Z'
+datePosted: '2025-01-16T12:43:16.028Z'
+validThrough: '2025-02-28T12:43:16.028Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

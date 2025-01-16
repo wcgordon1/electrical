@@ -18,8 +18,8 @@ description: >-
   As an Office...
 location: 'Mooresville, NC'
 team: Commercial
-datePosted: '2024-12-21T22:03:13.714Z'
-validThrough: '2025-02-03T22:03:13.714Z'
+datePosted: '2025-01-16T13:01:37.042Z'
+validThrough: '2025-02-20T13:01:37.042Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

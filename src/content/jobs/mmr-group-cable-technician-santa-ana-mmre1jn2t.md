@@ -15,8 +15,8 @@ description: >-
   projects in Santa Ana, CA, and neighbo...
 location: 'Santa Ana, CA'
 team: Commercial
-datePosted: '2024-12-22T00:01:02.634Z'
-validThrough: '2025-02-04T00:01:02.634Z'
+datePosted: '2025-01-16T11:07:02.768Z'
+validThrough: '2025-02-23T11:07:02.768Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -16,8 +16,8 @@ description: >-
   error, ensuring maximum performance of install...
 location: 'Hatch, NM'
 team: Solar
-datePosted: '2024-12-22T08:23:04.761Z'
-validThrough: '2025-02-03T08:23:04.761Z'
+datePosted: '2025-01-16T10:21:03.687Z'
+validThrough: '2025-02-23T10:21:03.687Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

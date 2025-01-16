@@ -15,8 +15,8 @@ description: >-
   The Cable Technic...
 location: 'Eureka, CA'
 team: Commercial
-datePosted: '2024-12-21T20:47:30.645Z'
-validThrough: '2025-01-24T20:47:30.645Z'
+datePosted: '2025-01-16T10:52:58.847Z'
+validThrough: '2025-02-27T10:52:58.847Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

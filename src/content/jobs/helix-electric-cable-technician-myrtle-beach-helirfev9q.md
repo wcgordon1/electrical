@@ -18,8 +18,8 @@ description: >-
   **Role Overview*...
 location: 'Myrtle Beach, SC'
 team: Commercial
-datePosted: '2024-12-22T05:38:46.822Z'
-validThrough: '2025-01-23T05:38:46.822Z'
+datePosted: '2025-01-16T12:05:44.334Z'
+validThrough: '2025-02-19T12:05:44.334Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric
