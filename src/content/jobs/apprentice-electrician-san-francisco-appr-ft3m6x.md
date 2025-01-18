@@ -85,8 +85,8 @@ description: >-
   dedicated individuals to apply.
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-22T13:20:53.068Z'
-validThrough: '2025-01-23T13:20:53.068Z'
+datePosted: '2025-01-18T08:08:24.751Z'
+validThrough: '2025-03-03T08:08:24.751Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -15,8 +15,8 @@ description: >-
   ### Position Overview: Commercial ...
 location: 'Indianapolis, IN'
 team: Commercial
-datePosted: '2024-12-25T07:40:47.542Z'
-validThrough: '2025-01-29T07:40:47.542Z'
+datePosted: '2025-01-18T08:31:57.120Z'
+validThrough: '2025-02-28T08:31:57.120Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

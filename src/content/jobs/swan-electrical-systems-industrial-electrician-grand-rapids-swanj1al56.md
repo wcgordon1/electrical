@@ -10,8 +10,8 @@ description: >-
   you're based in or near Grand Rapids,...
 location: 'Grand Rapids, MI'
 team: Industrial
-datePosted: '2024-12-25T02:11:36.036Z'
-validThrough: '2025-02-05T02:11:36.036Z'
+datePosted: '2025-01-18T08:19:57.660Z'
+validThrough: '2025-03-04T08:19:57.660Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

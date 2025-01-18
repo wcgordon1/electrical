@@ -13,8 +13,8 @@ description: >-
   and to the highest stand...
 location: 'Baltimore, MD'
 team: Commercial
-datePosted: '2024-12-24T09:07:34.753Z'
-validThrough: '2025-02-03T09:07:34.753Z'
+datePosted: '2025-01-18T08:00:19.150Z'
+validThrough: '2025-02-18T08:00:19.150Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

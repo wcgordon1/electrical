@@ -10,8 +10,8 @@ description: >-
   leadership, and project coordination is req...
 location: 'Houston, TX'
 team: Commercial
-datePosted: '2024-12-24T22:21:02.084Z'
-validThrough: '2025-02-02T22:21:02.084Z'
+datePosted: '2025-01-18T08:23:46.463Z'
+validThrough: '2025-02-21T08:23:46.463Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

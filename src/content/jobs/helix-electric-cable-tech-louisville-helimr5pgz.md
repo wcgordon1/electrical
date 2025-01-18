@@ -13,8 +13,8 @@ description: >-
   on delivering cutting-edge solutions a...
 location: 'Louisville, KY'
 team: Commercial
-datePosted: '2024-12-25T03:10:43.431Z'
-validThrough: '2025-01-30T03:10:43.431Z'
+datePosted: '2025-01-18T08:03:13.208Z'
+validThrough: '2025-02-27T08:03:13.208Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

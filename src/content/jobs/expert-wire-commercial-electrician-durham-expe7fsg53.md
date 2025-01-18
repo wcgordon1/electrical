@@ -15,8 +15,8 @@ description: >-
   ## Commercial E...
 location: 'Durham, NC'
 team: Commercial
-datePosted: '2024-12-24T17:07:30.214Z'
-validThrough: '2025-02-05T17:07:30.214Z'
+datePosted: '2025-01-18T08:33:33.423Z'
+validThrough: '2025-02-25T08:33:33.423Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Expert Wire

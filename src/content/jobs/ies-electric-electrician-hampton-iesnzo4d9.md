@@ -12,8 +12,8 @@ description: >-
   As a Commercial Electrician at IES Electric, yo...
 location: 'Hampton, VA'
 team: Commercial
-datePosted: '2024-12-23T01:00:35.268Z'
-validThrough: '2025-02-04T01:00:35.268Z'
+datePosted: '2025-01-18T08:11:04.700Z'
+validThrough: '2025-02-28T08:11:04.700Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

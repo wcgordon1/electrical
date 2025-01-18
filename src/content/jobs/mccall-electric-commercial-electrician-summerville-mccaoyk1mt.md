@@ -15,8 +15,8 @@ description: >-
   reputation for excellence has made us a trusted partner in t...
 location: 'Summerville, SC'
 team: Commercial
-datePosted: '2024-12-24T04:42:07.273Z'
-validThrough: '2025-02-02T04:42:07.273Z'
+datePosted: '2025-01-18T08:34:27.036Z'
+validThrough: '2025-02-24T08:34:27.036Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

@@ -13,8 +13,8 @@ description: >-
   exceptional servi...
 location: 'Mount Pleasant, SC'
 team: Commercial
-datePosted: '2024-12-24T16:11:35.219Z'
-validThrough: '2025-01-30T16:11:35.219Z'
+datePosted: '2025-01-18T08:01:31.725Z'
+validThrough: '2025-02-19T08:01:31.725Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: H & A Electric

@@ -12,8 +12,8 @@ description: >-
   commercial projects. You will be responsible fo...
 location: 'Chesapeake, VA'
 team: Commercial
-datePosted: '2024-12-22T20:06:24.757Z'
-validThrough: '2025-02-05T20:06:24.757Z'
+datePosted: '2025-01-18T08:13:13.860Z'
+validThrough: '2025-02-24T08:13:13.860Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

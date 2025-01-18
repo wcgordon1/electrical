@@ -10,8 +10,8 @@ description: >-
   OSHA-30. A solid knowledge of AutoCAD, troublesho...
 location: 'Worcester, MA'
 team: Industrial
-datePosted: '2024-12-24T20:49:54.394Z'
-validThrough: '2025-02-01T20:49:54.394Z'
+datePosted: '2025-01-18T08:13:58.869Z'
+validThrough: '2025-02-26T08:13:58.869Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

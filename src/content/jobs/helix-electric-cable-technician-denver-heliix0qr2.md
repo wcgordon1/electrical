@@ -12,8 +12,8 @@ description: >-
   We’re looking for someone with expertise in Cat5e/6...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-25T06:32:23.160Z'
-validThrough: '2025-02-06T06:32:23.160Z'
+datePosted: '2025-01-18T08:14:02.062Z'
+validThrough: '2025-02-27T08:14:02.062Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

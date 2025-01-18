@@ -13,8 +13,8 @@ description: >-
   and provide a support...
 location: 'Peachtree Corners, GA'
 team: Commercial
-datePosted: '2024-12-24T09:32:18.621Z'
-validThrough: '2025-02-07T09:32:18.621Z'
+datePosted: '2025-01-18T08:32:29.667Z'
+validThrough: '2025-02-17T08:32:29.667Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

@@ -12,8 +12,8 @@ description: >-
   excellence in every project we undertake. Join us and be part of a team th...
 location: 'Snyder, TX'
 team: Commercial
-datePosted: '2024-12-22T20:49:51.555Z'
-validThrough: '2025-01-26T20:49:51.555Z'
+datePosted: '2025-01-18T08:34:51.437Z'
+validThrough: '2025-02-27T08:34:51.437Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

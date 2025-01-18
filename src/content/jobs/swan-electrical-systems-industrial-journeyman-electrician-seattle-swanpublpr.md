@@ -10,8 +10,8 @@ description: >-
   If you've got a State Electrical License, OSH...
 location: 'Seattle, WA'
 team: Industrial
-datePosted: '2024-12-25T06:55:25.170Z'
-validThrough: '2025-02-03T06:55:25.170Z'
+datePosted: '2025-01-18T08:11:16.335Z'
+validThrough: '2025-02-23T08:11:16.335Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

@@ -13,8 +13,8 @@ description: >-
   We are currently seek...
 location: 'Lawrenceville, GA'
 team: Commercial
-datePosted: '2024-12-23T06:05:50.575Z'
-validThrough: '2025-01-23T06:05:50.575Z'
+datePosted: '2025-01-18T08:29:54.448Z'
+validThrough: '2025-03-01T08:29:54.448Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

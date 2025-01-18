@@ -16,8 +16,8 @@ description: >-
   j...
 location: 'Alpharetta, GA'
 team: Commercial
-datePosted: '2024-12-22T23:58:57.994Z'
-validThrough: '2025-01-26T23:58:57.994Z'
+datePosted: '2025-01-18T08:33:47.537Z'
+validThrough: '2025-03-02T08:33:47.537Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

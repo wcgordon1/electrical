@@ -13,8 +13,8 @@ description: >-
   ## Position Overview at M...
 location: 'Ridgecrest, CA'
 team: Commercial
-datePosted: '2024-12-22T15:19:48.941Z'
-validThrough: '2025-02-04T15:19:48.941Z'
+datePosted: '2025-01-18T08:27:36.044Z'
+validThrough: '2025-03-04T08:27:36.044Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

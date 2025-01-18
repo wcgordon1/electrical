@@ -15,8 +15,8 @@ description: >-
   ### Overview of the Ret...
 location: 'Fort Worth, TX'
 team: Commercial
-datePosted: '2024-12-25T00:14:57.973Z'
-validThrough: '2025-02-06T00:14:57.973Z'
+datePosted: '2025-01-18T08:17:49.966Z'
+validThrough: '2025-02-28T08:17:49.966Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Priority Electrical Services

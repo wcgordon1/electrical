@@ -15,8 +15,8 @@ description: >-
   The position is based in Los Angeles...
 location: 'Los Angeles, CA'
 team: Commercial
-datePosted: '2024-12-25T02:55:06.061Z'
-validThrough: '2025-02-06T02:55:06.061Z'
+datePosted: '2025-01-18T08:37:29.491Z'
+validThrough: '2025-02-24T08:37:29.491Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

@@ -13,8 +13,8 @@ description: >-
   essential community infrastr...
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-22T14:04:02.278Z'
-validThrough: '2025-01-28T14:04:02.278Z'
+datePosted: '2025-01-18T08:27:34.098Z'
+validThrough: '2025-02-26T08:27:34.098Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

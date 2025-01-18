@@ -13,8 +13,8 @@ description: >-
   schools, H...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-25T05:06:25.027Z'
-validThrough: '2025-02-02T05:06:25.027Z'
+datePosted: '2025-01-18T08:03:26.354Z'
+validThrough: '2025-03-02T08:03:26.354Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

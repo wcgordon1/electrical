@@ -10,8 +10,8 @@ description: >-
   Electric, we value growth and provide ample opport...
 location: 'New York City, NY'
 team: Commercial
-datePosted: '2024-12-25T00:55:18.344Z'
-validThrough: '2025-02-04T00:55:18.344Z'
+datePosted: '2025-01-18T08:22:28.595Z'
+validThrough: '2025-02-19T08:22:28.595Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -18,8 +18,8 @@ description: >-
   ### Overvi...
 location: 'Dalton, GA'
 team: Commercial
-datePosted: '2024-12-23T07:30:39.658Z'
-validThrough: '2025-01-26T07:30:39.658Z'
+datePosted: '2025-01-18T08:28:07.565Z'
+validThrough: '2025-02-24T08:28:07.565Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

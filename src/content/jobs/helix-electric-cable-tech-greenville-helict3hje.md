@@ -15,8 +15,8 @@ description: >-
   ## Overview of Ret...
 location: 'Greenville, SC'
 team: Commercial
-datePosted: '2024-12-24T22:59:17.027Z'
-validThrough: '2025-02-03T22:59:17.027Z'
+datePosted: '2025-01-18T08:26:56.790Z'
+validThrough: '2025-03-03T08:26:56.790Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

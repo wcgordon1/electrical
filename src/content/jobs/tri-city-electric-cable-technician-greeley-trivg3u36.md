@@ -16,8 +16,8 @@ description: >-
   ...
 location: 'Greeley, CO'
 team: Commercial
-datePosted: '2024-12-23T16:21:33.540Z'
-validThrough: '2025-02-03T16:21:33.540Z'
+datePosted: '2025-01-18T08:17:27.406Z'
+validThrough: '2025-02-18T08:17:27.406Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

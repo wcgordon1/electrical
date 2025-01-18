@@ -13,8 +13,8 @@ description: >-
   hospitals, our expertise spans a wid...
 location: 'Richmond, VA'
 team: Commercial
-datePosted: '2024-12-23T03:52:11.003Z'
-validThrough: '2025-02-04T03:52:11.003Z'
+datePosted: '2025-01-18T08:00:07.150Z'
+validThrough: '2025-02-17T08:00:07.150Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

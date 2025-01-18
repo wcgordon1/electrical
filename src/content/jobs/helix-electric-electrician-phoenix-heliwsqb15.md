@@ -12,8 +12,8 @@ description: >-
   electrical solutions, ensuring the highest standards of safety and quali...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-23T09:19:27.830Z'
-validThrough: '2025-01-31T09:19:27.830Z'
+datePosted: '2025-01-18T08:14:43.410Z'
+validThrough: '2025-02-20T08:14:43.410Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

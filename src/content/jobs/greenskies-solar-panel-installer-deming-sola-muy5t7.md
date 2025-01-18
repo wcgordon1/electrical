@@ -26,8 +26,8 @@ description: >-
   1. Installation of solar panels and systems in ...
 location: 'Deming, NM'
 team: Solar
-datePosted: '2024-12-22T12:52:08.599Z'
-validThrough: '2025-02-02T12:52:08.599Z'
+datePosted: '2025-01-18T08:19:09.105Z'
+validThrough: '2025-02-24T08:19:09.105Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

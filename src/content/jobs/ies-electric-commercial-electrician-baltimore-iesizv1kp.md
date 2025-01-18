@@ -10,8 +10,8 @@ description: >-
   such as Columbia, Towson, or Dundalk, keep rea...
 location: 'Baltimore, MD'
 team: Commercial
-datePosted: '2024-12-25T00:59:06.611Z'
-validThrough: '2025-01-29T00:59:06.611Z'
+datePosted: '2025-01-18T08:05:17.421Z'
+validThrough: '2025-02-26T08:05:17.421Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

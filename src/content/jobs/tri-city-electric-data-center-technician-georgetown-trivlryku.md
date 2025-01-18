@@ -15,8 +15,8 @@ description: >-
   clients receive the highest quality service and support....
 location: 'Georgetown, TX'
 team: Commercial
-datePosted: '2024-12-25T00:33:08.380Z'
-validThrough: '2025-02-08T00:33:08.380Z'
+datePosted: '2025-01-18T08:01:29.333Z'
+validThrough: '2025-03-01T08:01:29.333Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

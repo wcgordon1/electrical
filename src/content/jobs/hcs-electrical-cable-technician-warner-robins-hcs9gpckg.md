@@ -15,8 +15,8 @@ description: >-
   our operations as we work on projects that include office bu...
 location: 'Warner Robins, GA'
 team: Commercial
-datePosted: '2024-12-23T05:39:23.376Z'
-validThrough: '2025-01-28T05:39:23.376Z'
+datePosted: '2025-01-18T08:26:03.204Z'
+validThrough: '2025-03-03T08:26:03.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

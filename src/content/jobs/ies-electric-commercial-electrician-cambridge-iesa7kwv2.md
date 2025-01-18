@@ -15,8 +15,8 @@ description: >-
   Retail Commercial Electrician to join our t...
 location: 'Cambridge, MA'
 team: Commercial
-datePosted: '2024-12-25T01:22:26.244Z'
-validThrough: '2025-02-07T01:22:26.244Z'
+datePosted: '2025-01-18T08:25:00.678Z'
+validThrough: '2025-03-01T08:25:00.678Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

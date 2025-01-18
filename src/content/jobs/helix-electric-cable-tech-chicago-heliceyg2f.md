@@ -17,8 +17,8 @@ description: >-
   The Office Cable Tech at Helix Electric plays a crucial role in ensuri...
 location: 'Chicago, IL'
 team: Commercial
-datePosted: '2024-12-24T17:18:00.551Z'
-validThrough: '2025-01-28T17:18:00.551Z'
+datePosted: '2025-01-18T08:22:18.620Z'
+validThrough: '2025-02-22T08:22:18.620Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

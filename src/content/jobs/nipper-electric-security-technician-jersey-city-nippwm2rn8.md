@@ -21,8 +21,8 @@ description: >-
   As a Healthca...
 location: 'Jersey City, NJ'
 team: Commercial
-datePosted: '2024-12-25T00:14:50.437Z'
-validThrough: '2025-01-29T00:14:50.437Z'
+datePosted: '2025-01-18T08:02:07.041Z'
+validThrough: '2025-03-03T08:02:07.041Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

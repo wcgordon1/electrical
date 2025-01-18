@@ -18,8 +18,8 @@ description: >-
   As a Commercial Apprentice El...
 location: 'Union, SC'
 team: Commercial
-datePosted: '2024-12-22T23:29:20.416Z'
-validThrough: '2025-02-04T23:29:20.416Z'
+datePosted: '2025-01-18T08:18:58.329Z'
+validThrough: '2025-02-26T08:18:58.329Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

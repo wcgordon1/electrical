@@ -15,8 +15,8 @@ description: >-
   schools. Our commitment to excellence and safety has made...
 location: 'Birmingham, AL'
 team: Commercial
-datePosted: '2024-12-25T08:29:28.603Z'
-validThrough: '2025-01-25T08:29:28.603Z'
+datePosted: '2025-01-18T08:18:57.802Z'
+validThrough: '2025-03-03T08:18:57.802Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

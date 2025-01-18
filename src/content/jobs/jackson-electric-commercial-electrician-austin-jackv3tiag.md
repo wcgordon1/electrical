@@ -13,8 +13,8 @@ description: >-
   Joining Jackson Electric as a Health...
 location: 'Austin, TX'
 team: Commercial
-datePosted: '2024-12-24T18:33:38.083Z'
-validThrough: '2025-01-31T18:33:38.083Z'
+datePosted: '2025-01-18T08:07:20.759Z'
+validThrough: '2025-02-23T08:07:20.759Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

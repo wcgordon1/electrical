@@ -15,8 +15,8 @@ description: >-
   As a Security Technician at Vision Technologies, you will pl...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-22T13:48:09.475Z'
-validThrough: '2025-01-28T13:48:09.475Z'
+datePosted: '2025-01-18T08:14:45.115Z'
+validThrough: '2025-03-03T08:14:45.115Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

@@ -15,8 +15,8 @@ description: >-
   client receives tailore...
 location: 'Knoxville, TN'
 team: Commercial
-datePosted: '2024-12-25T05:33:58.924Z'
-validThrough: '2025-01-25T05:33:58.924Z'
+datePosted: '2025-01-18T08:01:32.358Z'
+validThrough: '2025-02-27T08:01:32.358Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Priority Electrical Services

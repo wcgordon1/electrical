@@ -18,8 +18,8 @@ description: >-
   The Office Cable Tech at Nipper Electric play...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-24T08:52:28.516Z'
-validThrough: '2025-01-31T08:52:28.516Z'
+datePosted: '2025-01-18T08:30:01.542Z'
+validThrough: '2025-02-21T08:30:01.542Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

@@ -14,8 +14,8 @@ description: >-
   This role is based in Augusta, ...
 location: 'Augusta, GA'
 team: Commercial
-datePosted: '2024-12-25T00:53:42.067Z'
-validThrough: '2025-02-03T00:53:42.067Z'
+datePosted: '2025-01-18T08:31:14.444Z'
+validThrough: '2025-02-24T08:31:14.444Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

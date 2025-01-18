@@ -18,8 +18,8 @@ description: >-
   communication syst...
 location: 'Goodyear, AZ'
 team: Commercial
-datePosted: '2024-12-22T14:26:58.658Z'
-validThrough: '2025-01-22T14:26:58.658Z'
+datePosted: '2025-01-18T08:22:19.040Z'
+validThrough: '2025-03-02T08:22:19.040Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

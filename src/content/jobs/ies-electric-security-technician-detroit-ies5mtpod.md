@@ -10,8 +10,8 @@ description: >-
   networking, system programming, and client traini...
 location: 'Detroit, MI'
 team: Commercial
-datePosted: '2024-12-25T08:42:32.577Z'
-validThrough: '2025-01-26T08:42:32.577Z'
+datePosted: '2025-01-18T08:01:07.975Z'
+validThrough: '2025-02-23T08:01:07.975Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

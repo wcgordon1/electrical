@@ -15,8 +15,8 @@ description: >-
   **Job Overview: Commercial...
 location: 'Rome, GA'
 team: Commercial
-datePosted: '2024-12-23T15:06:18.077Z'
-validThrough: '2025-01-27T15:06:18.077Z'
+datePosted: '2025-01-18T08:25:32.640Z'
+validThrough: '2025-02-17T08:25:32.640Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

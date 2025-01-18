@@ -10,8 +10,8 @@ description: >-
   with their hands and solving pr...
 location: 'Houston, TX'
 team: Residential
-datePosted: '2024-12-25T06:33:53.508Z'
-validThrough: '2025-02-04T06:33:53.508Z'
+datePosted: '2025-01-18T08:14:28.058Z'
+validThrough: '2025-02-21T08:14:28.058Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

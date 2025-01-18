@@ -13,8 +13,8 @@ description: >-
   is completed with precision and...
 location: 'Naperville, IL'
 team: Commercial
-datePosted: '2024-12-24T10:51:19.407Z'
-validThrough: '2025-01-26T10:51:19.407Z'
+datePosted: '2025-01-18T08:26:24.107Z'
+validThrough: '2025-02-25T08:26:24.107Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

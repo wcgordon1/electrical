@@ -22,8 +22,8 @@ description: >-
   - Install and configure solar panel systems according to design p...
 location: 'Palm Springs, CA'
 team: Solar
-datePosted: '2024-12-22T12:39:25.605Z'
-validThrough: '2025-02-02T12:39:25.605Z'
+datePosted: '2025-01-18T08:25:06.694Z'
+validThrough: '2025-02-20T08:25:06.694Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

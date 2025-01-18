@@ -23,8 +23,8 @@ description: >-
   1. Assemble, install, or maintain solar photovoltaic (PV) system...
 location: 'Gila Bend, AZ'
 team: Solar
-datePosted: '2024-12-22T12:56:17.101Z'
-validThrough: '2025-02-05T12:56:17.101Z'
+datePosted: '2025-01-18T08:01:23.415Z'
+validThrough: '2025-02-22T08:01:23.415Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Greenskies

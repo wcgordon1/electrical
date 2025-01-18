@@ -13,8 +13,8 @@ description: >-
   undertake, ensuring that ou...
 location: 'Pinedale, WY'
 team: Commercial
-datePosted: '2024-12-22T20:11:32.171Z'
-validThrough: '2025-01-30T20:11:32.171Z'
+datePosted: '2025-01-18T08:21:44.455Z'
+validThrough: '2025-02-21T08:21:44.455Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

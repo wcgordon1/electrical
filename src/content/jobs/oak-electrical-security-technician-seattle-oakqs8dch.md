@@ -10,8 +10,8 @@ description: >-
   and client training is essential to ...
 location: 'Seattle, WA'
 team: Commercial
-datePosted: '2024-12-25T07:49:08.863Z'
-validThrough: '2025-01-25T07:49:08.863Z'
+datePosted: '2025-01-18T08:23:25.691Z'
+validThrough: '2025-02-20T08:23:25.691Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

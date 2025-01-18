@@ -15,8 +15,8 @@ description: >-
   innovation, safety, and providing exceptional service to ...
 location: 'Spartanburg, SC'
 team: Commercial
-datePosted: '2024-12-23T02:19:33.433Z'
-validThrough: '2025-01-28T02:19:33.433Z'
+datePosted: '2025-01-18T08:09:45.101Z'
+validThrough: '2025-02-18T08:09:45.101Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

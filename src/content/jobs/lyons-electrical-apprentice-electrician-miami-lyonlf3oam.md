@@ -15,8 +15,8 @@ description: >-
   schools. Our team of skilled professionals is passionate...
 location: 'Miami, FL'
 team: Commercial
-datePosted: '2024-12-25T06:47:03.670Z'
-validThrough: '2025-02-06T06:47:03.670Z'
+datePosted: '2025-01-18T08:00:50.561Z'
+validThrough: '2025-03-04T08:00:50.561Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Lyons Electrical

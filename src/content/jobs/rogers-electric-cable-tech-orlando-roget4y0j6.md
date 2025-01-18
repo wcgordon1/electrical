@@ -15,8 +15,8 @@ description: >-
   ensuring that our clients receive the ...
 location: 'Orlando, FL'
 team: Commercial
-datePosted: '2024-12-24T22:34:21.292Z'
-validThrough: '2025-02-02T22:34:21.292Z'
+datePosted: '2025-01-18T08:06:39.884Z'
+validThrough: '2025-02-28T08:06:39.884Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

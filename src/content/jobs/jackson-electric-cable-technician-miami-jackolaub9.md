@@ -15,8 +15,8 @@ description: >-
   **Overview of Healthcare Cabl...
 location: 'Miami, FL'
 team: Commercial
-datePosted: '2024-12-22T16:58:01.924Z'
-validThrough: '2025-01-30T16:58:01.924Z'
+datePosted: '2025-01-18T08:03:56.041Z'
+validThrough: '2025-03-01T08:03:56.041Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

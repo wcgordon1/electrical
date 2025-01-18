@@ -13,8 +13,8 @@ description: >-
   currently seeking a skilled Healthc...
 location: 'North Charleston, SC'
 team: Commercial
-datePosted: '2024-12-23T00:35:55.957Z'
-validThrough: '2025-01-28T00:35:55.957Z'
+datePosted: '2025-01-18T08:36:42.256Z'
+validThrough: '2025-02-25T08:36:42.256Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

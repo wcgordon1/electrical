@@ -12,8 +12,8 @@ description: >-
   exceed client expectations. From office buildings to retail centers, ...
 location: 'Cedar Park, TX'
 team: Commercial
-datePosted: '2024-12-24T12:01:48.808Z'
-validThrough: '2025-01-25T12:01:48.808Z'
+datePosted: '2025-01-18T08:19:12.590Z'
+validThrough: '2025-02-19T08:19:12.590Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

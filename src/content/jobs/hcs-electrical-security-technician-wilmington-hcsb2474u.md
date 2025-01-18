@@ -13,8 +13,8 @@ description: >-
   provide cutting-edge...
 location: 'Wilmington, DE'
 team: Commercial
-datePosted: '2024-12-25T05:53:05.902Z'
-validThrough: '2025-01-28T05:53:05.902Z'
+datePosted: '2025-01-18T08:04:02.881Z'
+validThrough: '2025-02-21T08:04:02.881Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

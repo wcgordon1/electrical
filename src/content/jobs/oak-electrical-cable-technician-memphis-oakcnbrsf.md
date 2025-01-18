@@ -10,8 +10,8 @@ description: >-
   cabling standards, blueprint reading, and documentation practices....
 location: 'Memphis, TN'
 team: Commercial
-datePosted: '2024-12-24T22:54:43.713Z'
-validThrough: '2025-01-30T22:54:43.713Z'
+datePosted: '2025-01-18T08:21:25.345Z'
+validThrough: '2025-02-19T08:21:25.345Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

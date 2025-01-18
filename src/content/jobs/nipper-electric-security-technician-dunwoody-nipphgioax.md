@@ -13,8 +13,8 @@ description: >-
   businesses in Dunwoody, GA, and beyon...
 location: 'Dunwoody, GA'
 team: Commercial
-datePosted: '2024-12-24T19:33:03.359Z'
-validThrough: '2025-02-01T19:33:03.359Z'
+datePosted: '2025-01-18T08:21:50.814Z'
+validThrough: '2025-02-18T08:21:50.814Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

@@ -18,8 +18,8 @@ description: >-
   Join HCS Electrical as an Of...
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-23T13:50:13.600Z'
-validThrough: '2025-01-26T13:50:13.600Z'
+datePosted: '2025-01-18T08:24:37.018Z'
+validThrough: '2025-03-01T08:24:37.018Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

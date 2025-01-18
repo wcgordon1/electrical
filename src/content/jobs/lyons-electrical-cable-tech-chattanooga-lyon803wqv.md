@@ -15,8 +15,8 @@ description: >-
   our projects, which range from office buildings to hospit...
 location: 'Chattanooga, TN'
 team: Commercial
-datePosted: '2024-12-24T11:56:14.585Z'
-validThrough: '2025-01-28T11:56:14.585Z'
+datePosted: '2025-01-18T08:00:12.599Z'
+validThrough: '2025-02-28T08:00:12.599Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Lyons Electrical

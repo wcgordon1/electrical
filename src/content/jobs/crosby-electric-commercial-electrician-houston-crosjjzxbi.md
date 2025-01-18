@@ -10,8 +10,8 @@ description: >-
   and panel building to good use. The ability to r...
 location: 'Houston, TX'
 team: Commercial
-datePosted: '2024-12-25T06:40:53.274Z'
-validThrough: '2025-02-07T06:40:53.274Z'
+datePosted: '2025-01-18T08:12:44.468Z'
+validThrough: '2025-02-28T08:12:44.468Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

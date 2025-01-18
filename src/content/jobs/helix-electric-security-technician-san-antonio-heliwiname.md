@@ -15,8 +15,8 @@ description: >-
   Helix Electric is seek...
 location: 'San Antonio, TX'
 team: Commercial
-datePosted: '2024-12-25T00:52:00.506Z'
-validThrough: '2025-01-28T00:52:00.506Z'
+datePosted: '2025-01-18T08:24:00.865Z'
+validThrough: '2025-02-25T08:24:00.865Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

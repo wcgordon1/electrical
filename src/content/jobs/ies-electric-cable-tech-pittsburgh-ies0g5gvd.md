@@ -12,8 +12,8 @@ description: >-
   skilled Commercial Cable Tech to join our dynamic...
 location: 'Pittsburgh, PA'
 team: Commercial
-datePosted: '2024-12-25T08:27:21.033Z'
-validThrough: '2025-02-02T08:27:21.033Z'
+datePosted: '2025-01-18T08:26:38.332Z'
+validThrough: '2025-02-27T08:26:38.332Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

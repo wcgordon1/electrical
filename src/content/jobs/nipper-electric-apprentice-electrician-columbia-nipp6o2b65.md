@@ -13,8 +13,8 @@ description: >-
   clients' establishments...
 location: 'Columbia, SC'
 team: Commercial
-datePosted: '2024-12-22T18:42:09.379Z'
-validThrough: '2025-01-31T18:42:09.379Z'
+datePosted: '2025-01-18T08:28:54.495Z'
+validThrough: '2025-02-20T08:28:54.495Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

@@ -13,8 +13,8 @@ description: >-
   Electrical, we pride ours...
 location: 'Mooresboro, NC'
 team: Commercial
-datePosted: '2024-12-22T20:24:07.819Z'
-validThrough: '2025-02-04T20:24:07.819Z'
+datePosted: '2025-01-18T08:34:22.920Z'
+validThrough: '2025-02-17T08:34:22.920Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

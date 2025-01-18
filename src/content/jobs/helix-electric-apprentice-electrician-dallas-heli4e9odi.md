@@ -15,8 +15,8 @@ description: >-
   As an Office Apprentice Electrician at Helix Electric, you...
 location: 'Dallas, GA'
 team: Commercial
-datePosted: '2024-12-23T16:53:56.582Z'
-validThrough: '2025-01-25T16:53:56.582Z'
+datePosted: '2025-01-18T08:20:29.131Z'
+validThrough: '2025-03-04T08:20:29.131Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

@@ -47,8 +47,8 @@ description: >-
   Familiarity with commercial electrical systems, tools, and techniques.
 location: 'San Clemente, CA'
 team: Commercial
-datePosted: '2024-12-22T14:47:06.953Z'
-validThrough: '2025-01-25T14:47:06.953Z'
+datePosted: '2025-01-18T08:28:36.004Z'
+validThrough: '2025-02-24T08:28:36.004Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rex Moore Electric

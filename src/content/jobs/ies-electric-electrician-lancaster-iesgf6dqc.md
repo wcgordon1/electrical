@@ -12,8 +12,8 @@ description: >-
   This role is crucial in ensuring the successful com...
 location: 'Lancaster, SC'
 team: Commercial
-datePosted: '2024-12-23T01:05:49.735Z'
-validThrough: '2025-01-28T01:05:49.735Z'
+datePosted: '2025-01-18T08:20:22.941Z'
+validThrough: '2025-03-01T08:20:22.941Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

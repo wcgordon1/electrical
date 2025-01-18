@@ -13,8 +13,8 @@ description: >-
   trusted partner in t...
 location: 'Round Rock, TX'
 team: Commercial
-datePosted: '2024-12-25T01:38:54.594Z'
-validThrough: '2025-02-08T01:38:54.594Z'
+datePosted: '2025-01-18T08:34:38.898Z'
+validThrough: '2025-02-28T08:34:38.898Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: H & A Electric

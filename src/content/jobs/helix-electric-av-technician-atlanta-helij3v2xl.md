@@ -10,8 +10,8 @@ description: >-
   certification and a low voltage l...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-25T06:00:07.815Z'
-validThrough: '2025-02-07T06:00:07.815Z'
+datePosted: '2025-01-18T08:04:42.012Z'
+validThrough: '2025-02-25T08:04:42.012Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

@@ -18,8 +18,8 @@ description: >-
   - Has 1-3 years of...
 location: 'Boston, MA'
 team: Commercial
-datePosted: '2024-12-25T01:04:57.979Z'
-validThrough: '2025-01-30T01:04:57.979Z'
+datePosted: '2025-01-18T08:22:02.395Z'
+validThrough: '2025-02-22T08:22:02.395Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

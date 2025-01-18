@@ -13,8 +13,8 @@ description: >-
   project we undert...
 location: 'Irving, TX'
 team: Commercial
-datePosted: '2024-12-25T07:56:07.832Z'
-validThrough: '2025-02-08T07:56:07.832Z'
+datePosted: '2025-01-18T08:14:17.641Z'
+validThrough: '2025-02-22T08:14:17.641Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Priority Electrical Services

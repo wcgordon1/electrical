@@ -12,8 +12,8 @@ description: >-
   Located in the heart of San Francisco, CA, you'll be wor...
 location: 'San Francisco, CA'
 team: Commercial
-datePosted: '2024-12-25T04:24:54.190Z'
-validThrough: '2025-01-28T04:24:54.190Z'
+datePosted: '2025-01-18T08:24:23.452Z'
+validThrough: '2025-03-04T08:24:23.452Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

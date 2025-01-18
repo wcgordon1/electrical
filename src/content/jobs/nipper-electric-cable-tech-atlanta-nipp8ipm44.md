@@ -13,8 +13,8 @@ description: >-
   office buildings...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-24T09:41:46.878Z'
-validThrough: '2025-02-03T09:41:46.878Z'
+datePosted: '2025-01-18T08:14:31.951Z'
+validThrough: '2025-02-19T08:14:31.951Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

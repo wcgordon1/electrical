@@ -14,8 +14,8 @@ description: >-
   standards of quality and safety in every project we ...
 location: 'Jacksonville, FL'
 team: Commercial
-datePosted: '2024-12-24T08:16:21.730Z'
-validThrough: '2025-01-26T08:16:21.730Z'
+datePosted: '2025-01-18T08:15:48.241Z'
+validThrough: '2025-02-20T08:15:48.241Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

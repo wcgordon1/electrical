@@ -15,8 +15,8 @@ description: >-
   ### Overview of the Offi...
 location: 'Orangeburg, SC'
 team: Commercial
-datePosted: '2024-12-23T15:31:15.407Z'
-validThrough: '2025-02-03T15:31:15.407Z'
+datePosted: '2025-01-18T08:15:26.009Z'
+validThrough: '2025-02-19T08:15:26.009Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

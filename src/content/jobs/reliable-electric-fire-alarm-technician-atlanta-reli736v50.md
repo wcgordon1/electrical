@@ -10,8 +10,8 @@ description: >-
   those living in neighboring cities like Marietta, Sandy Springs, Rosw...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-25T06:57:18.902Z'
-validThrough: '2025-02-03T06:57:18.902Z'
+datePosted: '2025-01-18T08:26:56.225Z'
+validThrough: '2025-02-17T08:26:56.225Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

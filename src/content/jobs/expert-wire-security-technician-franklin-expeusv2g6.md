@@ -17,8 +17,8 @@ description: >-
   As an Office Security Technician at Expert Wire, you will ...
 location: 'Franklin, TN'
 team: Commercial
-datePosted: '2024-12-25T01:51:11.185Z'
-validThrough: '2025-01-28T01:51:11.185Z'
+datePosted: '2025-01-18T08:26:40.698Z'
+validThrough: '2025-02-26T08:26:40.698Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Expert Wire

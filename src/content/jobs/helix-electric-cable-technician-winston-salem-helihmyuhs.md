@@ -15,8 +15,8 @@ description: >-
   ### Overview of Commercial Cable Technician Rol...
 location: 'Winston-Salem, NC'
 team: Commercial
-datePosted: '2024-12-22T20:52:16.294Z'
-validThrough: '2025-01-24T20:52:16.294Z'
+datePosted: '2025-01-18T08:34:39.947Z'
+validThrough: '2025-03-02T08:34:39.947Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

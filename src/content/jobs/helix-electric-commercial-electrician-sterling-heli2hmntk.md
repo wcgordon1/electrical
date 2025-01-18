@@ -15,8 +15,8 @@ description: >-
   As a Retail Commercial Electrician at Helix Electric, you will be...
 location: 'Sterling, VA'
 team: Commercial
-datePosted: '2024-12-25T00:25:14.050Z'
-validThrough: '2025-01-31T00:25:14.050Z'
+datePosted: '2025-01-18T08:10:18.056Z'
+validThrough: '2025-02-20T08:10:18.056Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

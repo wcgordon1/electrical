@@ -15,8 +15,8 @@ description: >-
   Phoenix, AZ. Nearby cities include G...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-25T03:37:56.185Z'
-validThrough: '2025-02-07T03:37:56.185Z'
+datePosted: '2025-01-18T08:26:29.402Z'
+validThrough: '2025-03-02T08:26:29.402Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

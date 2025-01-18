@@ -10,8 +10,8 @@ description: >-
   residential rough-in, service upgrades, fixture/device i...
 location: 'St. Louis, MO'
 team: Residential
-datePosted: '2024-12-25T07:23:28.783Z'
-validThrough: '2025-01-31T07:23:28.783Z'
+datePosted: '2025-01-18T08:19:14.778Z'
+validThrough: '2025-02-23T08:19:14.778Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

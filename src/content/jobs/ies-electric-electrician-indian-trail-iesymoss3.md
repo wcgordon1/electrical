@@ -15,8 +15,8 @@ description: >-
   delivering exceptional results that meet the unique ...
 location: 'Indian Trail, NC'
 team: Commercial
-datePosted: '2024-12-23T14:46:10.497Z'
-validThrough: '2025-01-31T14:46:10.497Z'
+datePosted: '2025-01-18T08:25:58.270Z'
+validThrough: '2025-02-23T08:25:58.270Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

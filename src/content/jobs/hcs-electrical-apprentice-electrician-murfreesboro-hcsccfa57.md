@@ -15,8 +15,8 @@ description: >-
   electrical systems are both efficient and reliabl...
 location: 'Murfreesboro, TN'
 team: Commercial
-datePosted: '2024-12-24T05:32:40.112Z'
-validThrough: '2025-01-29T05:32:40.112Z'
+datePosted: '2025-01-18T08:35:40.897Z'
+validThrough: '2025-02-26T08:35:40.897Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

@@ -17,8 +17,8 @@ description: >-
   Join our dynamic team at Expert Wire as an Offic...
 location: 'Newark, NJ'
 team: Commercial
-datePosted: '2024-12-24T04:32:36.260Z'
-validThrough: '2025-01-27T04:32:36.260Z'
+datePosted: '2025-01-18T08:19:59.559Z'
+validThrough: '2025-03-04T08:19:59.559Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Expert Wire

@@ -10,8 +10,8 @@ description: >-
   could be your gig! Plus, we need you to bring you...
 location: 'Dallas, TX'
 team: Industrial
-datePosted: '2024-12-24T23:20:59.661Z'
-validThrough: '2025-01-30T23:20:59.661Z'
+datePosted: '2025-01-18T08:23:47.612Z'
+validThrough: '2025-02-25T08:23:47.612Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

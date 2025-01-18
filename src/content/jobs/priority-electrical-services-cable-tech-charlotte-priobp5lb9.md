@@ -15,8 +15,8 @@ description: >-
   installations, maintenance, and repa...
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-25T08:36:08.871Z'
-validThrough: '2025-01-27T08:36:08.871Z'
+datePosted: '2025-01-18T08:03:07.846Z'
+validThrough: '2025-02-22T08:03:07.846Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Priority Electrical Services

@@ -13,8 +13,8 @@ description: >-
   Electrical prides itself on deliverin...
 location: 'Hampstead, NC'
 team: Commercial
-datePosted: '2024-12-23T10:30:42.955Z'
-validThrough: '2025-02-01T10:30:42.955Z'
+datePosted: '2025-01-18T08:13:20.144Z'
+validThrough: '2025-03-03T08:13:20.144Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

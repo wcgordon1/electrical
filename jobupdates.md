@@ -120,7 +120,11 @@ npm run update-premier-az-emails
 update premier contact by state
 
 
-FUCK PREMIER
+REMOVE PREMIER
 
 npm run delete-premier
 npm run notify-deleted
+
+FOR ALL LOCATIONS RUN:
+
+npm run count-locations
