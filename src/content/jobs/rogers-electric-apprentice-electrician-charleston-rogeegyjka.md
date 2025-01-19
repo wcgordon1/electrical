@@ -15,8 +15,8 @@ description: >-
   standards, making us a trusted partner for c...
 location: 'Charleston, SC'
 team: Commercial
-datePosted: '2024-12-25T21:38:57.062Z'
-validThrough: '2025-01-29T21:38:57.062Z'
+datePosted: '2025-01-19T13:00:45.952Z'
+validThrough: '2025-02-28T13:00:45.952Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

@@ -10,8 +10,8 @@ description: >-
   consistently showcase these abilities. ...
 location: 'Aurora, IL'
 team: Commercial
-datePosted: '2024-12-26T00:18:45.284Z'
-validThrough: '2025-01-30T00:18:45.284Z'
+datePosted: '2025-01-19T12:23:17.397Z'
+validThrough: '2025-03-05T12:23:17.397Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

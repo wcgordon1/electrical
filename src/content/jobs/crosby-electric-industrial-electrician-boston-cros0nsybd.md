@@ -10,8 +10,8 @@ description: >-
   troubleshooting. This position is based in Boston, MA and may...
 location: 'Boston, MA'
 team: Industrial
-datePosted: '2024-12-25T17:51:45.711Z'
-validThrough: '2025-02-07T17:51:45.711Z'
+datePosted: '2025-01-19T08:32:17.102Z'
+validThrough: '2025-03-04T08:32:17.102Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

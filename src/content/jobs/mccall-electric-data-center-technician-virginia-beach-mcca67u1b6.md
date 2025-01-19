@@ -15,8 +15,8 @@ description: >-
   ## Overview of Office Data Center Technic...
 location: 'Virginia Beach, VA'
 team: Commercial
-datePosted: '2024-12-25T15:46:21.934Z'
-validThrough: '2025-02-01T15:46:21.934Z'
+datePosted: '2025-01-19T14:32:44.443Z'
+validThrough: '2025-02-21T14:32:44.443Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

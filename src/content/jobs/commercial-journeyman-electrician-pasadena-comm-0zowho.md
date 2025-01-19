@@ -22,8 +22,8 @@ description: >-
   1. Install, maintain, m...
 location: 'Pasadena, CA'
 team: Commercial
-datePosted: '2024-12-26T09:04:03.061Z'
-validThrough: '2025-01-29T09:04:03.061Z'
+datePosted: '2025-01-19T11:49:44.978Z'
+validThrough: '2025-03-01T11:49:44.978Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

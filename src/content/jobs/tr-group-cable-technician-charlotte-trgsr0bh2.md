@@ -10,8 +10,8 @@ description: >-
   applicant will have a keen eye for detail, excellent proble...
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-25T08:51:48.611Z'
-validThrough: '2025-01-29T08:51:48.611Z'
+datePosted: '2025-01-19T16:01:15.606Z'
+validThrough: '2025-02-22T16:01:15.606Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

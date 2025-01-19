@@ -11,8 +11,8 @@ description: >-
   to yo...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-26T05:11:35.803Z'
-validThrough: '2025-02-08T05:11:35.803Z'
+datePosted: '2025-01-19T16:11:54.917Z'
+validThrough: '2025-02-22T16:11:54.917Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

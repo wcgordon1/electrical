@@ -20,8 +20,8 @@ description: >-
   The successful candidat...
 location: 'Long Beach, CA'
 team: Data Center
-datePosted: '2024-12-26T10:13:48.981Z'
-validThrough: '2025-02-02T10:13:48.981Z'
+datePosted: '2025-01-19T09:23:19.357Z'
+validThrough: '2025-02-24T09:23:19.357Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

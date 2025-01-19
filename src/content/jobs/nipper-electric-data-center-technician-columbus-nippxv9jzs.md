@@ -13,8 +13,8 @@ description: >-
   businesses seeking rel...
 location: 'Columbus, OH'
 team: Commercial
-datePosted: '2024-12-25T18:19:37.929Z'
-validThrough: '2025-02-06T18:19:37.929Z'
+datePosted: '2025-01-19T11:31:16.529Z'
+validThrough: '2025-02-26T11:31:16.529Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

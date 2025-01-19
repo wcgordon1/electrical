@@ -12,8 +12,8 @@ description: >-
   currently seeking a skilled Healthcare Cable Tech to join our team in Broo...
 location: 'Broomfield, CO'
 team: Commercial
-datePosted: '2024-12-25T15:46:00.875Z'
-validThrough: '2025-02-08T15:46:00.875Z'
+datePosted: '2025-01-19T14:58:19.787Z'
+validThrough: '2025-02-21T14:58:19.787Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

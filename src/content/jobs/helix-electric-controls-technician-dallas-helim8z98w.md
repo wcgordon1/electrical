@@ -10,8 +10,8 @@ description: >-
   Arlington, Plano, and Garland. This is an excell...
 location: 'Dallas, TX'
 team: Industrial
-datePosted: '2024-12-25T12:57:59.026Z'
-validThrough: '2025-02-07T12:57:59.026Z'
+datePosted: '2025-01-19T09:56:07.276Z'
+validThrough: '2025-02-25T09:56:07.276Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

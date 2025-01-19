@@ -25,8 +25,8 @@ description: >-
   2. Conduct regular inspection...
 location: 'Fremont, CA'
 team: Data Center
-datePosted: '2024-12-26T08:55:08.344Z'
-validThrough: '2025-02-02T08:55:08.344Z'
+datePosted: '2025-01-19T08:47:17.945Z'
+validThrough: '2025-02-25T08:47:17.945Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

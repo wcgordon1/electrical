@@ -23,8 +23,8 @@ description: >-
   environments, includin...
 location: 'Huntington Beach, CA'
 team: Data Center
-datePosted: '2024-12-26T08:59:27.138Z'
-validThrough: '2025-02-04T08:59:27.138Z'
+datePosted: '2025-01-19T08:54:12.054Z'
+validThrough: '2025-02-27T08:54:12.054Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

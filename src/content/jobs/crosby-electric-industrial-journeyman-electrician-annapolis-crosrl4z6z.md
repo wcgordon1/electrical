@@ -10,8 +10,8 @@ description: >-
   State Electrical License, OSHA-30, Arc Fl...
 location: 'Annapolis, MD'
 team: Industrial
-datePosted: '2024-12-26T00:59:40.435Z'
-validThrough: '2025-01-28T00:59:40.435Z'
+datePosted: '2025-01-19T14:20:09.444Z'
+validThrough: '2025-03-04T14:20:09.444Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -19,8 +19,8 @@ description: >-
   vo...
 location: 'San Jose, CA'
 team: Data Center
-datePosted: '2024-12-26T09:46:39.603Z'
-validThrough: '2025-02-06T09:46:39.603Z'
+datePosted: '2025-01-19T14:12:35.831Z'
+validThrough: '2025-02-23T14:12:35.831Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

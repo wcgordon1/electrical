@@ -10,8 +10,8 @@ description: >-
   bending, wire pulling, and tool operation. An Electr...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-25T23:31:36.207Z'
-validThrough: '2025-02-01T23:31:36.207Z'
+datePosted: '2025-01-19T11:03:22.946Z'
+validThrough: '2025-02-26T11:03:22.946Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

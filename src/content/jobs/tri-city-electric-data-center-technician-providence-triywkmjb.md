@@ -15,8 +15,8 @@ description: >-
   sustainable and efficient electrical systems. Join...
 location: 'Providence, RI'
 team: Commercial
-datePosted: '2024-12-26T02:38:00.295Z'
-validThrough: '2025-01-31T02:38:00.295Z'
+datePosted: '2025-01-19T12:11:28.473Z'
+validThrough: '2025-02-20T12:11:28.473Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

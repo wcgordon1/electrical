@@ -13,8 +13,8 @@ description: >-
   ...
 location: 'Cleveland, OH'
 team: Commercial
-datePosted: '2024-12-26T08:03:24.691Z'
-validThrough: '2025-01-26T08:03:24.691Z'
+datePosted: '2025-01-19T16:18:03.453Z'
+validThrough: '2025-03-04T16:18:03.453Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

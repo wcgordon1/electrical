@@ -15,8 +15,8 @@ description: >-
   ## Retail Cable Tech Rol...
 location: 'Philadelphia, PA'
 team: Commercial
-datePosted: '2024-12-25T19:46:45.500Z'
-validThrough: '2025-02-08T19:46:45.500Z'
+datePosted: '2025-01-19T09:21:49.935Z'
+validThrough: '2025-02-28T09:21:49.935Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Jackson Electric

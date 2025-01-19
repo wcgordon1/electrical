@@ -17,8 +17,8 @@ description: >-
   The Commercial Security Technician at Tri Cit...
 location: 'Tampa, FL'
 team: Commercial
-datePosted: '2024-12-25T15:01:38.453Z'
-validThrough: '2025-01-25T15:01:38.453Z'
+datePosted: '2025-01-19T08:23:16.512Z'
+validThrough: '2025-03-04T08:23:16.512Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

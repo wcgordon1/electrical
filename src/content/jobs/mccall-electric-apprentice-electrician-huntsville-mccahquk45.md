@@ -21,8 +21,8 @@ description: >-
   McCall Electric i...
 location: 'Huntsville, AL'
 team: Commercial
-datePosted: '2024-12-26T04:40:14.012Z'
-validThrough: '2025-01-28T04:40:14.012Z'
+datePosted: '2025-01-19T16:21:25.618Z'
+validThrough: '2025-02-24T16:21:25.618Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

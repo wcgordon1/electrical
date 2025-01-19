@@ -15,8 +15,8 @@ description: >-
   ## Overview of Office Data Center Te...
 location: 'Boston, MA'
 team: Commercial
-datePosted: '2024-12-25T19:37:36.323Z'
-validThrough: '2025-02-03T19:37:36.323Z'
+datePosted: '2025-01-19T12:50:22.212Z'
+validThrough: '2025-02-28T12:50:22.212Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

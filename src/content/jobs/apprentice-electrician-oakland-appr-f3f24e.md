@@ -83,8 +83,8 @@ description: >-
   characteristic protected by law.
 location: 'Oakland, CA'
 team: Commercial
-datePosted: '2024-12-26T09:57:14.645Z'
-validThrough: '2025-02-04T09:57:14.645Z'
+datePosted: '2025-01-19T12:10:31.740Z'
+validThrough: '2025-02-23T12:10:31.740Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

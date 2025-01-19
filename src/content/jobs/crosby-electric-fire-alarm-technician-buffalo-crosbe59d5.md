@@ -10,8 +10,8 @@ description: >-
   procedures, and documentation is vital for this r...
 location: 'Buffalo, NY'
 team: Commercial
-datePosted: '2024-12-25T17:58:20.840Z'
-validThrough: '2025-01-26T17:58:20.840Z'
+datePosted: '2025-01-19T11:35:23.624Z'
+validThrough: '2025-03-04T11:35:23.624Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

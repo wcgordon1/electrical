@@ -13,8 +13,8 @@ description: >-
   Franklin, Hendersonville, Mt. Juliet, an...
 location: 'Nashville, TN'
 team: Commercial
-datePosted: '2024-12-25T13:29:24.606Z'
-validThrough: '2025-02-03T13:29:24.606Z'
+datePosted: '2025-01-19T12:18:50.542Z'
+validThrough: '2025-02-21T12:18:50.542Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

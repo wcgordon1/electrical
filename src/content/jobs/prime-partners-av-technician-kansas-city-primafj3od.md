@@ -13,8 +13,8 @@ description: >-
   ## Req...
 location: 'Kansas City, MO'
 team: Commercial
-datePosted: '2024-12-25T20:03:35.775Z'
-validThrough: '2025-02-08T20:03:35.775Z'
+datePosted: '2025-01-19T10:07:41.411Z'
+validThrough: '2025-02-22T10:07:41.411Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

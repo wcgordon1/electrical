@@ -13,8 +13,8 @@ description: >-
   ## Required Experi...
 location: 'Miami, FL'
 team: Commercial
-datePosted: '2024-12-25T18:06:06.499Z'
-validThrough: '2025-02-05T18:06:06.499Z'
+datePosted: '2025-01-19T09:34:39.128Z'
+validThrough: '2025-02-26T09:34:39.128Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

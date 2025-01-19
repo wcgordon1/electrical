@@ -13,8 +13,8 @@ description: >-
   encourage candida...
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-26T05:27:47.705Z'
-validThrough: '2025-02-03T05:27:47.705Z'
+datePosted: '2025-01-19T08:52:51.525Z'
+validThrough: '2025-03-02T08:52:51.525Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

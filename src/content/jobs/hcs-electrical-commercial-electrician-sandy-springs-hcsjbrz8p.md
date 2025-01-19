@@ -18,8 +18,8 @@ description: >-
   At HCS Electr...
 location: 'Sandy Springs, GA'
 team: Commercial
-datePosted: '2024-12-25T10:37:32.448Z'
-validThrough: '2025-02-02T10:37:32.448Z'
+datePosted: '2025-01-19T15:10:37.079Z'
+validThrough: '2025-03-03T15:10:37.079Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

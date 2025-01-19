@@ -10,8 +10,8 @@ description: >-
   problem-solving skills are vital for this role. The candidat...
 location: 'Baltimore, MD'
 team: Commercial
-datePosted: '2024-12-26T06:22:42.857Z'
-validThrough: '2025-02-01T06:22:42.857Z'
+datePosted: '2025-01-19T13:08:54.057Z'
+validThrough: '2025-02-27T13:08:54.057Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

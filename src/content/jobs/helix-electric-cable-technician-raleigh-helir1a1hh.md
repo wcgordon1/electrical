@@ -10,8 +10,8 @@ description: >-
   knowledge of structured cabling standards, blu...
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-26T06:47:58.164Z'
-validThrough: '2025-01-31T06:47:58.164Z'
+datePosted: '2025-01-19T12:06:35.160Z'
+validThrough: '2025-02-24T12:06:35.160Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

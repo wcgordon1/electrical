@@ -10,8 +10,8 @@ description: >-
   troubleshooting, we would like to meet you. We encou...
 location: 'Chicago, IL'
 team: Residential
-datePosted: '2024-12-25T11:37:07.122Z'
-validThrough: '2025-01-25T11:37:07.122Z'
+datePosted: '2025-01-19T15:57:31.987Z'
+validThrough: '2025-02-21T15:57:31.987Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

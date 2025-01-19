@@ -13,8 +13,8 @@ description: >-
   ## Required Experience ...
 location: 'Nashville, TN'
 team: Commercial
-datePosted: '2024-12-25T23:24:51.997Z'
-validThrough: '2025-01-30T23:24:51.997Z'
+datePosted: '2025-01-19T11:54:14.054Z'
+validThrough: '2025-02-19T11:54:14.054Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

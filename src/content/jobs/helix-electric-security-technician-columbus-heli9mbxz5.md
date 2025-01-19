@@ -10,8 +10,8 @@ description: >-
   networking and system programming, keep re...
 location: 'Columbus, OH'
 team: Commercial
-datePosted: '2024-12-25T10:17:17.060Z'
-validThrough: '2025-02-03T10:17:17.060Z'
+datePosted: '2025-01-19T08:07:51.101Z'
+validThrough: '2025-03-05T08:07:51.101Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

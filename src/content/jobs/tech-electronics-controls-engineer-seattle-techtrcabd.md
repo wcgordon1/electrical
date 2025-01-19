@@ -15,8 +15,8 @@ description: >-
   We are located in Seattle, WA, neighboring cities in...
 location: 'Seattle, WA'
 team: Industrial
-datePosted: '2024-12-26T07:00:34.203Z'
-validThrough: '2025-02-01T07:00:34.203Z'
+datePosted: '2025-01-19T09:03:23.924Z'
+validThrough: '2025-02-28T09:03:23.924Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

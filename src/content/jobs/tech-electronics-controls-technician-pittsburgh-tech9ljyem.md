@@ -12,8 +12,8 @@ description: >-
   ...
 location: 'Pittsburgh, PA'
 team: Industrial
-datePosted: '2024-12-25T14:26:04.303Z'
-validThrough: '2025-01-30T14:26:04.303Z'
+datePosted: '2025-01-19T16:08:54.885Z'
+validThrough: '2025-02-19T16:08:54.885Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

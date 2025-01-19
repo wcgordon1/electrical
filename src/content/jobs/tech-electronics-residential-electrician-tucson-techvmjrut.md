@@ -10,8 +10,8 @@ description: >-
   position necessitates the possession of a valid ...
 location: 'Tucson, AZ'
 team: Residential
-datePosted: '2024-12-25T23:27:05.043Z'
-validThrough: '2025-01-31T23:27:05.043Z'
+datePosted: '2025-01-19T08:56:41.694Z'
+validThrough: '2025-02-22T08:56:41.694Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

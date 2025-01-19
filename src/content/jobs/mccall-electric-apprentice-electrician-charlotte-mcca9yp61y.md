@@ -15,8 +15,8 @@ description: >-
   **Overview of Retail Apprentic...
 location: 'Charlotte, NC'
 team: Commercial
-datePosted: '2024-12-25T19:17:34.337Z'
-validThrough: '2025-02-02T19:17:34.337Z'
+datePosted: '2025-01-19T13:40:07.958Z'
+validThrough: '2025-03-05T13:40:07.958Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

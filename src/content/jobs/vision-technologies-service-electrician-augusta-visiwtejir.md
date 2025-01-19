@@ -10,8 +10,8 @@ description: >-
   customer service skills and a...
 location: 'Augusta, GA'
 team: Commercial
-datePosted: '2024-12-26T00:56:36.338Z'
-validThrough: '2025-01-31T00:56:36.338Z'
+datePosted: '2025-01-19T11:32:18.480Z'
+validThrough: '2025-02-18T11:32:18.480Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

@@ -23,8 +23,8 @@ description: >-
   skilled team. ...
 location: 'Oro Valley, AZ'
 team: Data Center
-datePosted: '2024-12-26T09:27:39.950Z'
-validThrough: '2025-01-30T09:27:39.950Z'
+datePosted: '2025-01-19T10:13:16.340Z'
+validThrough: '2025-02-18T10:13:16.340Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

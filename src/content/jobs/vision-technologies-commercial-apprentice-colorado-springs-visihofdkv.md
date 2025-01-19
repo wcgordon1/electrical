@@ -13,8 +13,8 @@ description: >-
   ## Locatio...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-25T16:01:21.198Z'
-validThrough: '2025-01-30T16:01:21.198Z'
+datePosted: '2025-01-19T11:48:08.350Z'
+validThrough: '2025-03-03T11:48:08.350Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

@@ -15,8 +15,8 @@ description: >-
   in the commercial sector....
 location: 'Houston, TX'
 team: Commercial
-datePosted: '2024-12-26T04:05:57.758Z'
-validThrough: '2025-02-07T04:05:57.758Z'
+datePosted: '2025-01-19T13:22:39.444Z'
+validThrough: '2025-03-05T13:22:39.444Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

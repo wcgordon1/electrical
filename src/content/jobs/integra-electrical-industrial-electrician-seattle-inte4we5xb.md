@@ -10,8 +10,8 @@ description: >-
   License, OSHA-30, Arc Flash, and First Aid/C...
 location: 'Seattle, WA'
 team: Industrial
-datePosted: '2024-12-26T10:09:13.564Z'
-validThrough: '2025-02-02T10:09:13.564Z'
+datePosted: '2025-01-19T14:47:41.259Z'
+validThrough: '2025-02-21T14:47:41.259Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

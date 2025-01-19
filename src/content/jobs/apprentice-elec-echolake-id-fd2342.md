@@ -6,8 +6,8 @@ description: >-
   installing, maintaining, and repairing electrical systems and equipment.
 location: 'Echo Lake,CA'
 team: Residential
-datePosted: '2024-12-26T08:47:12.531Z'
-validThrough: '2025-02-05T08:47:12.531Z'
+datePosted: '2025-01-19T12:49:37.885Z'
+validThrough: '2025-03-01T12:49:37.885Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Salt n Light Electric

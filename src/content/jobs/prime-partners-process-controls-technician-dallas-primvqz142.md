@@ -10,8 +10,8 @@ description: >-
   throw away. This role comes with ample opport...
 location: 'Dallas, TX'
 team: Industrial
-datePosted: '2024-12-26T05:07:08.176Z'
-validThrough: '2025-01-26T05:07:08.176Z'
+datePosted: '2025-01-19T08:39:25.846Z'
+validThrough: '2025-03-02T08:39:25.846Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -10,8 +10,8 @@ description: >-
   electrical system for our customers. Our ideal ca...
 location: 'Raleigh, NC'
 team: Residential
-datePosted: '2024-12-25T23:55:22.334Z'
-validThrough: '2025-01-26T23:55:22.334Z'
+datePosted: '2025-01-19T09:41:07.916Z'
+validThrough: '2025-02-18T09:41:07.916Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

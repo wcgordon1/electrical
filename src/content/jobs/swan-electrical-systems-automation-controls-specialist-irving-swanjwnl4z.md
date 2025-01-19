@@ -10,8 +10,8 @@ description: >-
   happen to be a certified Universal Robotics and FANU...
 location: 'Irving, TX'
 team: Industrial
-datePosted: '2024-12-26T02:58:49.664Z'
-validThrough: '2025-02-01T02:58:49.664Z'
+datePosted: '2025-01-19T12:05:02.576Z'
+validThrough: '2025-03-01T12:05:02.576Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

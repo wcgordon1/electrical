@@ -15,8 +15,8 @@ description: >-
   clients. With a commitment to excellence and a foc...
 location: 'Richmond, VA'
 team: Commercial
-datePosted: '2024-12-25T13:38:16.536Z'
-validThrough: '2025-01-31T13:38:16.536Z'
+datePosted: '2025-01-19T08:48:20.759Z'
+validThrough: '2025-03-05T08:48:20.759Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Lyons Electrical

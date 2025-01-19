@@ -10,8 +10,8 @@ description: >-
   and develop your career while making a diffe...
 location: 'San Antonio, TX'
 team: Industrial
-datePosted: '2024-12-26T02:45:31.499Z'
-validThrough: '2025-02-05T02:45:31.499Z'
+datePosted: '2025-01-19T11:58:01.721Z'
+validThrough: '2025-02-23T11:58:01.721Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

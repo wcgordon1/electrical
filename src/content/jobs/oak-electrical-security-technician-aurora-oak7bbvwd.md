@@ -15,8 +15,8 @@ description: >-
   platforms. Here's...
 location: 'Aurora, IL'
 team: Commercial
-datePosted: '2024-12-25T09:37:48.301Z'
-validThrough: '2025-02-02T09:37:48.301Z'
+datePosted: '2025-01-19T15:43:21.286Z'
+validThrough: '2025-02-26T15:43:21.286Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

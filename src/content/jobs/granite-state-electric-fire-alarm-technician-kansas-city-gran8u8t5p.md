@@ -13,8 +13,8 @@ description: >-
   ...
 location: 'Kansas City, MO'
 team: Commercial
-datePosted: '2024-12-26T04:08:30.313Z'
-validThrough: '2025-01-29T04:08:30.313Z'
+datePosted: '2025-01-19T09:48:57.462Z'
+validThrough: '2025-02-22T09:48:57.462Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

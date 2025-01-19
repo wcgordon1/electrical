@@ -10,8 +10,8 @@ description: >-
   excellent customer service, sharp problem-solvi...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-25T10:24:43.242Z'
-validThrough: '2025-02-01T10:24:43.242Z'
+datePosted: '2025-01-19T09:22:44.729Z'
+validThrough: '2025-03-03T09:22:44.729Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

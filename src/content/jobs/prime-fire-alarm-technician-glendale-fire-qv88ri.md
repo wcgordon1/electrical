@@ -20,8 +20,8 @@ description: >-
   with national and sta...
 location: 'Glendale, CA'
 team: Industrial
-datePosted: '2024-12-26T09:47:10.028Z'
-validThrough: '2025-02-06T09:47:10.028Z'
+datePosted: '2025-01-19T11:27:48.576Z'
+validThrough: '2025-02-20T11:27:48.576Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

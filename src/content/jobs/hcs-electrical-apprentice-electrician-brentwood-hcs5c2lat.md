@@ -15,8 +15,8 @@ description: >-
   commercial sector, and we are looking to expand our team with de...
 location: 'Brentwood, TN'
 team: Commercial
-datePosted: '2024-12-25T09:55:23.445Z'
-validThrough: '2025-02-05T09:55:23.445Z'
+datePosted: '2025-01-19T08:03:59.527Z'
+validThrough: '2025-02-28T08:03:59.527Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

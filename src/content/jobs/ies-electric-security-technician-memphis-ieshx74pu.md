@@ -13,8 +13,8 @@ description: >-
   tailored to meet th...
 location: 'Memphis, TN'
 team: Commercial
-datePosted: '2024-12-25T13:05:50.223Z'
-validThrough: '2025-02-04T13:05:50.223Z'
+datePosted: '2025-01-19T11:17:01.667Z'
+validThrough: '2025-03-02T11:17:01.667Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

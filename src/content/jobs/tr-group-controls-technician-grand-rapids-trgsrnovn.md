@@ -10,8 +10,8 @@ description: >-
   Associates/Technical degree, vendor certification...
 location: 'Grand Rapids, MI'
 team: Industrial
-datePosted: '2024-12-26T03:15:13.137Z'
-validThrough: '2025-01-30T03:15:13.137Z'
+datePosted: '2025-01-19T12:57:55.707Z'
+validThrough: '2025-02-27T12:57:55.707Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

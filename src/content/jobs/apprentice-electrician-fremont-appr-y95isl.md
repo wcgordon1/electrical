@@ -75,8 +75,8 @@ description: >-
   crucial.
 location: 'Fremont, CA'
 team: Data Center
-datePosted: '2024-12-26T10:03:59.246Z'
-validThrough: '2025-01-29T10:03:59.246Z'
+datePosted: '2025-01-19T13:11:47.283Z'
+validThrough: '2025-02-18T13:11:47.283Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

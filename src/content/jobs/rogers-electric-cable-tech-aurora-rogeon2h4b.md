@@ -12,8 +12,8 @@ description: >-
   experienced Office Cable Tech to join our dynamic team i...
 location: 'Aurora, CO'
 team: Commercial
-datePosted: '2024-12-26T00:02:19.235Z'
-validThrough: '2025-02-06T00:02:19.235Z'
+datePosted: '2025-01-19T11:36:50.009Z'
+validThrough: '2025-03-03T11:36:50.009Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Rogers Electric

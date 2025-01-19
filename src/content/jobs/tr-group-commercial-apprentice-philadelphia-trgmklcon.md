@@ -10,8 +10,8 @@ description: >-
   Apprentice License, OSHA-10, First Aid/CPR certifications t...
 location: 'Philadelphia, PA'
 team: Commercial
-datePosted: '2024-12-25T23:46:21.919Z'
-validThrough: '2025-01-29T23:46:21.919Z'
+datePosted: '2025-01-19T10:11:05.037Z'
+validThrough: '2025-02-24T10:11:05.037Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

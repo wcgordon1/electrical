@@ -15,8 +15,8 @@ description: >-
   some...
 location: 'Fullerton, CA'
 team: Industrial
-datePosted: '2024-12-26T09:22:14.370Z'
-validThrough: '2025-02-01T09:22:14.370Z'
+datePosted: '2025-01-19T12:33:00.931Z'
+validThrough: '2025-03-04T12:33:00.931Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

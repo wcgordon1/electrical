@@ -10,8 +10,8 @@ description: >-
   surrounding cities. So, are you ready to bring your...
 location: 'St. Louis, MO'
 team: Industrial
-datePosted: '2024-12-26T10:09:39.419Z'
-validThrough: '2025-02-05T10:09:39.419Z'
+datePosted: '2025-01-19T14:30:23.180Z'
+validThrough: '2025-02-26T14:30:23.180Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

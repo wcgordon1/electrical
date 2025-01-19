@@ -10,8 +10,8 @@ description: >-
   (NFPA) codes. This role is based in Chicago, IL, but ...
 location: 'Chicago, IL'
 team: Commercial
-datePosted: '2024-12-25T08:54:39.918Z'
-validThrough: '2025-01-25T08:54:39.918Z'
+datePosted: '2025-01-19T10:11:29.149Z'
+validThrough: '2025-02-22T10:11:29.149Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

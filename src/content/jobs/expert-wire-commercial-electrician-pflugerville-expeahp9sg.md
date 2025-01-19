@@ -12,8 +12,8 @@ description: >-
   schools, reflecting our commitment to excellence and innovation...
 location: 'Pflugerville, TX'
 team: Commercial
-datePosted: '2024-12-26T02:30:18.155Z'
-validThrough: '2025-01-31T02:30:18.155Z'
+datePosted: '2025-01-19T11:16:39.763Z'
+validThrough: '2025-02-24T11:16:39.763Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Expert Wire

@@ -13,8 +13,8 @@ description: >-
   ## Required Experience and Certifica...
 location: 'Houston, TX'
 team: Commercial
-datePosted: '2024-12-26T03:47:44.854Z'
-validThrough: '2025-02-07T03:47:44.854Z'
+datePosted: '2025-01-19T16:00:41.858Z'
+validThrough: '2025-03-02T16:00:41.858Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

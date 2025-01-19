@@ -12,8 +12,8 @@ description: >-
   location wiring. This position requires hands-on experience with...
 location: 'Miami, FL'
 team: Industrial
-datePosted: '2024-12-25T14:42:33.984Z'
-validThrough: '2025-02-06T14:42:33.984Z'
+datePosted: '2025-01-19T13:01:30.109Z'
+validThrough: '2025-02-18T13:01:30.109Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

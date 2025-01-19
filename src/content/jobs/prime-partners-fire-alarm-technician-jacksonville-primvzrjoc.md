@@ -13,8 +13,8 @@ description: >-
   the safety of our clients...
 location: 'Jacksonville, FL'
 team: Commercial
-datePosted: '2024-12-25T09:04:33.763Z'
-validThrough: '2025-01-27T09:04:33.763Z'
+datePosted: '2025-01-19T09:50:06.595Z'
+validThrough: '2025-03-02T09:50:06.595Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

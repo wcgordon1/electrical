@@ -10,8 +10,8 @@ description: >-
   to meet you. This role comes with an attractive salary range ...
 location: 'San Francisco, CA'
 team: Data Center
-datePosted: '2024-12-25T22:10:43.178Z'
-validThrough: '2025-01-29T22:10:43.178Z'
+datePosted: '2025-01-19T11:41:12.217Z'
+validThrough: '2025-02-21T11:41:12.217Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

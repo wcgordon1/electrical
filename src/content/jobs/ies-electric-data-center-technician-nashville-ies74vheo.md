@@ -16,8 +16,8 @@ description: >-
   ## Over...
 location: 'Nashville, TN'
 team: Commercial
-datePosted: '2024-12-25T09:02:00.317Z'
-validThrough: '2025-01-31T09:02:00.317Z'
+datePosted: '2025-01-19T14:11:46.664Z'
+validThrough: '2025-02-21T14:11:46.664Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

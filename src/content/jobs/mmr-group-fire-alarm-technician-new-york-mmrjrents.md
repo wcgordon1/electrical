@@ -13,8 +13,8 @@ description: >-
   promisi...
 location: 'New York, NY'
 team: Commercial
-datePosted: '2024-12-25T17:20:41.328Z'
-validThrough: '2025-01-30T17:20:41.328Z'
+datePosted: '2025-01-19T13:41:18.296Z'
+validThrough: '2025-03-02T13:41:18.296Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

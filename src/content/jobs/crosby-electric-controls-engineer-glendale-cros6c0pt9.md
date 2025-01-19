@@ -10,8 +10,8 @@ description: >-
   your expertise with ISO 13849/IEC 62061 standards...
 location: 'Glendale, CA'
 team: Industrial
-datePosted: '2024-12-26T04:46:59.116Z'
-validThrough: '2025-02-05T04:46:59.116Z'
+datePosted: '2025-01-19T10:31:22.565Z'
+validThrough: '2025-02-23T10:31:22.565Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

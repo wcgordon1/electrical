@@ -13,8 +13,8 @@ description: >-
   safety, efficiency, and...
 location: 'Ashburn, VA'
 team: Commercial
-datePosted: '2024-12-25T23:49:20.932Z'
-validThrough: '2025-01-31T23:49:20.932Z'
+datePosted: '2025-01-19T15:38:30.681Z'
+validThrough: '2025-02-22T15:38:30.681Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

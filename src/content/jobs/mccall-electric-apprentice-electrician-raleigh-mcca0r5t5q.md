@@ -15,8 +15,8 @@ description: >-
   ## Overview of the Office Ap...
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-26T02:25:31.449Z'
-validThrough: '2025-02-04T02:25:31.449Z'
+datePosted: '2025-01-19T08:52:33.356Z'
+validThrough: '2025-02-26T08:52:33.356Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: McCall Electric

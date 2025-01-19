@@ -13,8 +13,8 @@ description: >-
   dedicated to providing exceptional serv...
 location: 'Hartford, CT'
 team: Commercial
-datePosted: '2024-12-25T10:59:48.629Z'
-validThrough: '2025-02-03T10:59:48.629Z'
+datePosted: '2025-01-19T15:19:25.895Z'
+validThrough: '2025-02-19T15:19:25.895Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tri City Electric

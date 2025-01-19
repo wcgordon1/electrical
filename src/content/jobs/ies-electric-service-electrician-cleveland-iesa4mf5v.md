@@ -10,8 +10,8 @@ description: >-
   Cleveland, OH, and may also service neighboring areas incl...
 location: 'Cleveland, OH'
 team: Commercial
-datePosted: '2024-12-26T03:03:23.801Z'
-validThrough: '2025-01-26T03:03:23.801Z'
+datePosted: '2025-01-19T15:42:25.740Z'
+validThrough: '2025-02-19T15:42:25.740Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

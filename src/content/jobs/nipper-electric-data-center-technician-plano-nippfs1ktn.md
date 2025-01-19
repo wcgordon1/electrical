@@ -13,8 +13,8 @@ description: >-
   Electric prides itself on its strong co...
 location: 'Plano, TX'
 team: Commercial
-datePosted: '2024-12-25T22:02:48.412Z'
-validThrough: '2025-01-26T22:02:48.412Z'
+datePosted: '2025-01-19T13:46:49.311Z'
+validThrough: '2025-02-26T13:46:49.311Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Nipper Electric

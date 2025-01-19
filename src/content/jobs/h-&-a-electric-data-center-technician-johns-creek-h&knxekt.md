@@ -13,8 +13,8 @@ description: >-
   sustainability, making us a truste...
 location: 'Johns Creek, GA'
 team: Commercial
-datePosted: '2024-12-25T23:27:49.163Z'
-validThrough: '2025-02-06T23:27:49.163Z'
+datePosted: '2025-01-19T09:13:07.842Z'
+validThrough: '2025-02-25T09:13:07.842Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: H & A Electric

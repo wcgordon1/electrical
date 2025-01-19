@@ -15,8 +15,8 @@ description: >-
   of electrical systems, making us a t...
 location: 'Dallas, TX'
 team: Commercial
-datePosted: '2024-12-25T15:21:13.940Z'
-validThrough: '2025-01-25T15:21:13.940Z'
+datePosted: '2025-01-19T08:17:57.273Z'
+validThrough: '2025-03-02T08:17:57.273Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCS Electrical

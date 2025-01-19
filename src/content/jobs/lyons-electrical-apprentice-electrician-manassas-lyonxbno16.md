@@ -15,8 +15,8 @@ description: >-
   **Overview of Ret...
 location: 'Manassas, VA'
 team: Commercial
-datePosted: '2024-12-25T16:31:56.019Z'
-validThrough: '2025-02-08T16:31:56.019Z'
+datePosted: '2025-01-19T10:31:57.026Z'
+validThrough: '2025-02-21T10:31:57.026Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Lyons Electrical

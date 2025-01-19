@@ -12,8 +12,8 @@ description: >-
   certifications such as BICSI DCDC, OSHA-30, or CompTIA Server+, we're i...
 location: 'Chicago, IL'
 team: Data Center
-datePosted: '2024-12-26T00:05:00.070Z'
-validThrough: '2025-01-31T00:05:00.070Z'
+datePosted: '2025-01-19T12:08:43.404Z'
+validThrough: '2025-02-19T12:08:43.404Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

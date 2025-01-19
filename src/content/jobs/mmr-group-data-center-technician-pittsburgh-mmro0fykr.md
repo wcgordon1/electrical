@@ -15,8 +15,8 @@ description: >-
   You'll need to...
 location: 'Pittsburgh, PA'
 team: Data Center
-datePosted: '2024-12-25T14:20:09.681Z'
-validThrough: '2025-01-30T14:20:09.681Z'
+datePosted: '2025-01-19T11:33:01.300Z'
+validThrough: '2025-02-22T11:33:01.300Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

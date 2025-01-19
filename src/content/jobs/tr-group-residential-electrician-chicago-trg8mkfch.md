@@ -10,8 +10,8 @@ description: >-
   including Evanston, Oak Park, and Cicero. We offer a suppo...
 location: 'Chicago, IL'
 team: Residential
-datePosted: '2024-12-25T15:16:08.898Z'
-validThrough: '2025-02-04T15:16:08.898Z'
+datePosted: '2025-01-19T15:54:39.361Z'
+validThrough: '2025-03-05T15:54:39.361Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

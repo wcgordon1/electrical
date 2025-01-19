@@ -13,8 +13,8 @@ description: >-
   Baltimore, W...
 location: 'Annapolis, MD'
 team: Commercial
-datePosted: '2024-12-25T15:05:11.445Z'
-validThrough: '2025-02-01T15:05:11.445Z'
+datePosted: '2025-01-19T08:47:05.212Z'
+validThrough: '2025-02-18T08:47:05.212Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems
