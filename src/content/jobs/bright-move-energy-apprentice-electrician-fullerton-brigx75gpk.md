@@ -1,11 +1,6 @@
 ---
 position: Apprentice Electrician
 description: >-
-  ```markdown
-
-  ## What You'll Do as an Apprentice Electrician
-
-
   As an Apprentice Electrician at Bright Move Energy, you'll be a crucial part
   of our team working on exciting multi-year projects in Fullerton, CA, and
   surrounding areas such as Anaheim, Brea, Buena Park, and La Habra. Your main
@@ -46,8 +41,6 @@ email:
 ---
 
 
-
-```markdown
 ## What You'll Do as an Apprentice Electrician
 
 As an Apprentice Electrician at Bright Move Energy, you'll be a crucial part of our team working on exciting multi-year projects in Fullerton, CA, and surrounding areas such as Anaheim, Brea, Buena Park, and La Habra. Your main role will involve assisting in the installation and maintenance of electric vehicle (EV) charging stations. You’ll gain hands-on experience, learn from skilled journeymen and foremen, and play a vital role in the future of sustainable energy solutions. 
@@ -97,4 +90,3 @@ To join our team as an Apprentice Electrician, you need a valid Electrical Train
 - Ongoing training and certifications to further your career.
 - Key benefits include health insurance, paid time off, and retirement plans.
 - Continuous training opportunities to enhance your skills and knowledge.
-```

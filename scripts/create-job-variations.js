@@ -125,53 +125,53 @@ const JOB_TYPES = {
   "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Extensive knowledge of NEC and healthcare-specific electrical standards. Experience with emergency power systems, backup generators, and life safety circuits. Ability to read and interpret complex blueprints, electrical schematics, and technical manuals. Proficiency with diagnostic tools such as multimeters and megohmmeters. Strong communication skills and ability to collaborate with diverse teams in high-pressure environments.",
   "prompt": "Create a job description for a Certified Journeyman Electrician specializing in new hospital construction. Emphasize the installation and maintenance of critical healthcare systems, compliance with medical-grade standards, and leadership in mentoring apprentices. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
 },
-"Journeyman Electrician": {
-  "minValue": 33,
-  "maxValue": 40,
-  "experienceLevel": "midLevel",
-  "category": "Journeyman",
+"Apprentice Electrician": {
+  "minValue": 18,
+  "maxValue": 25,
+  "experienceLevel": "entryLevel",
+  "category": "Apprentice",
   "team": "Commercial",
-  "yearsExperience": "5+",
-  "responsibilities": "Install and maintain electrical systems in high-rise office buildings, focusing on power distribution, lighting systems, and tenant build-outs. Perform conduit installation (EMT, rigid) through walls, ceilings, and floors of high-rise structures. Pull, label, and terminate wiring for lighting systems, outlets, and high-voltage panels. Collaborate with general contractors and building management to ensure compliance with building codes and construction schedules. Conduct system testing, troubleshooting, and commissioning for tenant-specific electrical installations. Install and configure building automation systems, including lighting controls and energy management systems. Supervise and mentor apprentices, ensuring quality and safety on the job site.",
-  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Strong knowledge of NEC and California Building Code requirements for high-rise structures. Proficiency in conduit bending, wiring, and troubleshooting commercial electrical systems. Experience with building automation systems and energy-efficient technologies. Ability to read and interpret blueprints, tenant improvement plans, and construction documents. Strong organizational and leadership skills for managing apprentices and site activities.",
-  "prompt": "Create a job description for a Certified Journeyman Electrician focusing on electrical installations in high-rise office buildings. Highlight responsibilities in power distribution, tenant build-outs, and building automation systems while ensuring compliance with California DIR certification. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
+  "yearsExperience": "0-4",
+  "responsibilities": "Assist journeymen in the installation and maintenance of electrical systems in commercial buildings, including lighting, power distribution, and control systems. Pull and terminate wires, ensuring proper connections for panels, switches, and outlets. Learn to bend and install conduit (EMT and PVC) to support wiring systems. Perform basic troubleshooting under supervision, using tools like multimeters and voltage testers. Organize and maintain tools, equipment, and materials on-site to ensure smooth workflow. Attend team meetings and safety briefings to learn industry best practices and code compliance.",
+  "qualifications": "Basic understanding of electrical systems, tools, and safety protocols. Ability to read and interpret simple electrical diagrams and blueprints. Strong desire to learn and grow within the electrical trade. Ability to follow instructions, work as part of a team, and communicate effectively on-site. Physical capability to lift heavy equipment, work on ladders, and perform tasks in confined spaces. High school diploma or equivalent is preferred.",
+  "prompt": "Create a job description for an entry-level Apprentice Electrician working on commercial projects. Focus on assisting with installations, learning basic troubleshooting, and supporting journeymen on-site in California."
 },
-"Journeyman Electrician": {
-  "minValue": 34,
-  "maxValue": 42,
-  "experienceLevel": "midLevel",
-  "category": "Journeyman",
+"Security Alarm Installer": {
+  "minValue": 26,
+  "maxValue": 32,
+  "experienceLevel": "entryLevel",
+  "category": "Security",
   "team": "Commercial",
-  "yearsExperience": "4+",
-  "responsibilities": "Install, maintain, and troubleshoot electrical systems for large-scale data centers, ensuring consistent uptime and reliability. Perform conduit installation and cable routing for high-density server environments, including under-floor systems and cable trays. Install and test uninterruptible power supply (UPS) systems, switchgear, and high-voltage transformers. Collaborate with engineers to ensure electrical systems meet design specifications for redundancy and scalability. Conduct load calculations and install backup generators and battery storage systems. Implement grounding and bonding practices to minimize system disruptions. Supervise apprentices and ensure strict adherence to safety standards in high-risk environments. Maintain detailed documentation of electrical installations, test results, and maintenance schedules.",
-  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Strong knowledge of NEC and electrical systems for data centers, including UPS and backup generators. Proficiency in conduit installation, wiring, and troubleshooting high-voltage equipment. Ability to read and interpret technical blueprints, wiring diagrams, and schematics. Experience working in high-security, controlled environments such as data centers. Strong leadership and problem-solving skills with a focus on maintaining uptime.",
-  "prompt": "Create a job description for a Certified Journeyman Electrician specializing in data center electrical systems. Focus on responsibilities like UPS installation, high-voltage equipment maintenance, and collaboration with engineers to ensure system reliability and scalability. Must have a valid California Journeyman Certification from the Department of Industrial Relations."
+  "yearsExperience": "1-3",
+  "responsibilities": "Install and configure security alarm systems, including sensors, control panels, and communication modules, in residential and small business properties. Test system functionality to ensure proper operation and address any installation issues. Program alarm systems to customer specifications, including remote access features and monitoring services. Educate customers on how to use and manage their security systems effectively. Maintain detailed records of installations, tests, and service calls for documentation purposes.",
+  "qualifications": "Experience with low-voltage wiring and basic electronics. Ability to work independently and problem-solve during installations and service calls. Strong customer service skills to ensure satisfaction and system understanding. Familiarity with common hand tools and diagnostic equipment. Comfortable working in both indoor and outdoor environments. Valid driver’s license and ability to travel between job sites.",
+  "prompt": "Create a job description for a Security Alarm Installer focusing on residential and small business installations. Emphasize configuration, testing, and customer education, with work primarily in California."
 },
-"Journeyman Electrician": {
-  "minValue": 30,
-  "maxValue": 35,
+"Fire Alarm Installer": {
+  "minValue": 28,
+  "maxValue": 33,
   "experienceLevel": "midLevel",
-  "category": "Journeyman",
+  "category": "Fire Alarm",
   "team": "Commercial",
-  "yearsExperience": "4+",
-  "responsibilities": "Install, maintain, and troubleshoot renewable energy systems for commercial properties, including solar panels, energy storage systems, and inverters. Route and install conduit (EMT, rigid) and wiring for high-voltage DC and AC systems. Perform system testing and commissioning for solar arrays, ensuring optimal energy output and compliance with local regulations. Collaborate with engineers and project managers to design and implement energy-efficient electrical solutions. Install and maintain battery energy storage systems (BESS) and integrate them with building power systems. Conduct preventive maintenance on renewable energy equipment, including replacing faulty components and ensuring proper grounding. Supervise apprentices, ensuring adherence to safety standards and proper installation techniques. Prepare detailed reports on system performance and maintenance activities.",
-  "qualifications": "Must have a valid California Journeyman Certification from the Department of Industrial Relations. Extensive knowledge of NEC and renewable energy codes, including solar and battery storage regulations. Experience with solar panel installations, inverters, and high-voltage DC systems. Proficiency with multimeters, megohmmeters, and other diagnostic tools. Ability to read and interpret blueprints, electrical schematics, and energy system diagrams. Strong problem-solving skills and attention to detail for troubleshooting and system optimization.",
-  "prompt": "Create a job description for a Certified Journeyman Electrician specializing in renewable energy systems for commercial properties. Focus on solar panel installations, energy storage integration, and system commissioning. Highlight the importance of NEC compliance and California DIR certification."
-}
-
+  "yearsExperience": "3-5",
+  "responsibilities": "Install, test, and maintain fire alarm systems, including control panels, pull stations, and notification devices, in commercial and industrial facilities. Conduct thorough inspections to ensure all components meet California fire code and NFPA standards. Troubleshoot and repair faulty wiring or devices to ensure system reliability. Coordinate with contractors and building managers to plan and execute installations in new and existing structures. Program fire alarm systems to integrate with other safety equipment, such as sprinklers and emergency lighting. Keep detailed service logs and provide documentation for system approvals and inspections.",
+  "qualifications": "Experience installing and maintaining fire alarm systems in commercial settings. Strong understanding of NFPA codes and California fire safety regulations. Proficiency with tools and software used for fire alarm programming and diagnostics. Ability to work at heights and in confined spaces, as required by job sites. Strong organizational skills to manage multiple projects and deadlines. Effective communication skills to collaborate with team members and clients.",
+  "prompt": "Create a job description for a Fire Alarm Installer specializing in commercial and industrial facilities. Focus on system installation, code compliance, and troubleshooting in California."
+},
+"Apprentice Electrician": {
+  "minValue": 20,
+  "maxValue": 25,
+  "experienceLevel": "entryLevel",
+  "category": "Apprentice",
+  "team": "Commercial",
+  "yearsExperience": "1-4",
+  "responsibilities": "Support the installation of solar panels, battery storage systems, and EV charging stations on residential and commercial properties. Assist in running conduit, pulling wire, and connecting inverters to electrical panels. Learn to interpret system blueprints and layouts for renewable energy projects. Perform routine inspections and maintenance on installed systems to ensure optimal performance. Monitor and troubleshoot system components under the supervision of senior technicians. Ensure all work complies with local building codes and renewable energy guidelines. Maintain a clean and organized work environment, including managing tools and materials on-site.",
+  "qualifications": "Familiarity with basic electrical concepts and renewable energy systems. Eagerness to learn solar, battery, and EV charging technology. Ability to work outdoors in various weather conditions and at heights, such as on rooftops. Strong problem-solving skills and attention to detail. Willingness to travel between job sites and work extended hours when necessary. High school diploma or equivalent preferred; technical coursework in renewable energy is a plus.",
+  "prompt": "Create a job description for an entry-level Apprentice Electrician focusing on renewable energy installations, including solar panels and EV chargers. Emphasize learning system layouts, troubleshooting, and hands-on fieldwork in California."
+},
 };
 
 const COMPANIES = {
-  'TEC Electric': {
-    name: 'TEC Electric',
-    sameAs: 'https://tec-electric.com/',
-    logo: 'https://tec-electric.com/wp-content/themes/tec-electric/imgs/tec-logo.png'
-  },
-  'Howell Electric': {
-    name: 'Howell Electric',
-    sameAs: 'https://www.howellelectric.com/',
-    logo: 'https://howellelectric.com/live/wp-content/uploads/2019/04/Howell-logo-img.png'
-  },
   'Rex Moore Electric': {
     name: 'Rex Moore Electric',
     sameAs: 'https://www.rexmoore.com/',
@@ -187,58 +187,65 @@ const COMPANIES = {
     sameAs: 'https://iesci.net/',
     logo: 'https://iesci.net/wp-content/uploads/2024/08/IES-Electrical-Logo-color.png'
   },
-  'MMR Group': {
-    name: 'MMR Group',
-    sameAs: 'https://www.mmrgrp.com/',
-    logo: 'https://www.mmrgrp.com/assets/images/mmrlogo.svg'
-  },
-  'Teleco': {
-    name: 'Teleco',
-    sameAs: 'https://www.teleco.com/',
-    logo: 'https://www.teleco.com/wp-content/uploads/2019/10/telecologo-2023.png'
-  },
   'FSG': {
     name: 'FSG',
     sameAs: 'https://www.fsg.com/',
     logo: 'https://fsg.com/wp-content/uploads/2020/10/fsgLogoUpdated@2x-1-2.png'
+  },
+  'Royal Electric': {
+    name: 'Royal Electric',
+    sameAs: 'https://www.royalelect.com/',
+    logo: 'https://www.royalelect.com/wp-content/uploads/2021/04/royal-electric-logo-full-color-rgb.svg'
+  },
+  'Primoris': {
+    name: 'Primoris',
+    sameAs: 'https://www.prim.com/',
+    logo: 'https://www.prim.com/~/media/Images/P/Primoris-V4/logo/primoris-black.png?h=62&iar=0&w=138'
+  },
+  'Berg Electric': {
+    name: 'Berg Electric',
+    sameAs: 'https://www.berg-electric.com/',
+    logo: 'https://pbs.twimg.com/profile_images/1433515221495123981/lN1y0hEr_400x400.png'
+  },
+  'Alessandro Electric': {
+    name: 'Alessandro Electric',
+    sameAs: 'https://www.alessandroelectric.com/',
+    logo: 'https://static.wixstatic.com/media/d6a234_4090f87bd5714dd4989b7e178087d534~mv2.png/v1/crop/x_5,y_0,w_953,h_187/fill/w_810,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AEI_Font_gif-color_edited.png'
+  },
+  'Cal State Electric': {
+    name: 'Cal State Electric',
+    sameAs: 'https://www.calstateelectrical.com/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company101070Image.png'
+  },
+  'Foshay Electric': {
+    name: 'Foshay Electric',
+    sameAs: 'https://foshayelectric.com/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company96Image.png'
+  },
+  'Fredericks Electric': {
+    name: 'Fredericks Electric',
+    sameAs: 'https://www.fredrickselectric.com/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company101078Image.png'
+  },
+  'ProTech Security': {
+    name: 'ProTech Security',
+    sameAs: 'https://protechsecurity.us/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company100660Image.png'
+  },
+  'Tri Signal': {
+    name: 'Tri Signal',
+    sameAs: 'https://www.tri-signal.com/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company289Image.jpg'
+  },
+  'Summit Electric': {
+    name: 'Summit Electric',
+    sameAs: 'https://summit-e.com/',
+    logo: 'https://www.goweca.com/WECAContent/companylogos/Company130Image.png'
   }
 };
 
 const LOCATIONS = [
-  { city: 'Culver City', state: 'CA', zipCode: '90230' },
-{ city: 'Santa Monica', state: 'CA', zipCode: '90401' },
-{ city: 'Burbank', state: 'CA', zipCode: '91501' },
-{ city: 'Pasadena', state: 'CA', zipCode: '91101' },
-{ city: 'Long Beach', state: 'CA', zipCode: '90802' },
-{ city: 'Torrance', state: 'CA', zipCode: '90501' },
-{ city: 'San Pedro', state: 'CA', zipCode: '90731' },
-{ city: 'Glendale', state: 'CA', zipCode: '91203' },
-{ city: 'Inglewood', state: 'CA', zipCode: '90301' },
-{ city: 'Hawthorne', state: 'CA', zipCode: '90250' },
-{ city: 'Anaheim', state: 'CA', zipCode: '92801' },
-{ city: 'Santa Ana', state: 'CA', zipCode: '92701' },
-{ city: 'Irvine', state: 'CA', zipCode: '92618' },
-{ city: 'Huntington Beach', state: 'CA', zipCode: '92646' },
-{ city: 'Fullerton', state: 'CA', zipCode: '92831' },
-{ city: 'Orange', state: 'CA', zipCode: '92865' },
-{ city: 'San Diego', state: 'CA', zipCode: '92101' },
-{ city: 'Chula Vista', state: 'CA', zipCode: '91910' },
-{ city: 'Escondido', state: 'CA', zipCode: '92025' },
-{ city: 'Oceanside', state: 'CA', zipCode: '92054' },
-{ city: 'Carlsbad', state: 'CA', zipCode: '92008' },
-{ city: 'Fresno', state: 'CA', zipCode: '93721' },
-{ city: 'Clovis', state: 'CA', zipCode: '93612' },
-{ city: 'Bakersfield', state: 'CA', zipCode: '93301' },
-{ city: 'San Jose', state: 'CA', zipCode: '95112' },
-{ city: 'Santa Clara', state: 'CA', zipCode: '95050' },
-{ city: 'Sunnyvale', state: 'CA', zipCode: '94086' },
-{ city: 'Palo Alto', state: 'CA', zipCode: '94301' },
-{ city: 'San Mateo', state: 'CA', zipCode: '94401' },
-{ city: 'Oakland', state: 'CA', zipCode: '94612' },
-{ city: 'Berkeley', state: 'CA', zipCode: '94704' },
-{ city: 'Richmond', state: 'CA', zipCode: '94804' },
-{ city: 'San Francisco', state: 'CA', zipCode: '94103' },
-{ city: 'Daly City', state: 'CA', zipCode: '94015' },
+
 { city: 'Sacramento', state: 'CA', zipCode: '95814' },
 { city: 'Elk Grove', state: 'CA', zipCode: '95757' },
 { city: 'Roseville', state: 'CA', zipCode: '95678' },
@@ -253,7 +260,58 @@ const LOCATIONS = [
 { city: 'Stockton', state: 'CA', zipCode: '95202' },
 { city: 'Chico', state: 'CA', zipCode: '95928' },
 { city: 'Visalia', state: 'CA', zipCode: '93277' },
-{ city: 'San Luis Obispo', state: 'CA', zipCode: '93401' }
+{ city: 'San Luis Obispo', state: 'CA', zipCode: '93401' },
+{ city: 'Alameda', state: 'CA', zipCode: '94501' },
+{ city: 'Albany', state: 'CA', zipCode: '94706' },
+{ city: 'Antioch', state: 'CA', zipCode: '94509' },
+{ city: 'Arcadia', state: 'CA', zipCode: '91006' },
+{ city: 'Baldwin Park', state: 'CA', zipCode: '91706' },
+{ city: 'Barstow', state: 'CA', zipCode: '92311' },
+{ city: 'Beaumont', state: 'CA', zipCode: '92223' },
+{ city: 'Bell', state: 'CA', zipCode: '90201' },
+{ city: 'Bellflower', state: 'CA', zipCode: '90706' },
+{ city: 'Blythe', state: 'CA', zipCode: '92225' },
+{ city: 'Camarillo', state: 'CA', zipCode: '93010' },
+{ city: 'Campbell', state: 'CA', zipCode: '95008' },
+{ city: 'Cerritos', state: 'CA', zipCode: '90703' },
+{ city: 'Ceres', state: 'CA', zipCode: '95307' },
+{ city: 'Chino', state: 'CA', zipCode: '91710' },
+{ city: 'Chino Hills', state: 'CA', zipCode: '91709' },
+{ city: 'Compton', state: 'CA', zipCode: '90220' },
+{ city: 'Concord', state: 'CA', zipCode: '94520' },
+{ city: 'Corona', state: 'CA', zipCode: '92879' },
+{ city: 'Cupertino', state: 'CA', zipCode: '95014' },
+{ city: 'Davis', state: 'CA', zipCode: '95616' },
+{ city: 'Downey', state: 'CA', zipCode: '90242' },
+{ city: 'Duarte', state: 'CA', zipCode: '91010' },
+{ city: 'Fairfield', state: 'CA', zipCode: '94533' },
+{ city: 'Fontana', state: 'CA', zipCode: '92335' },
+{ city: 'Fountain Valley', state: 'CA', zipCode: '92708' },
+{ city: 'Gilroy', state: 'CA', zipCode: '95020' },
+{ city: 'Hemet', state: 'CA', zipCode: '92543' },
+{ city: 'Hesperia', state: 'CA', zipCode: '92345' },
+{ city: 'Highland', state: 'CA', zipCode: '92346' },
+{ city: 'La Habra', state: 'CA', zipCode: '90631' },
+{ city: 'La Mesa', state: 'CA', zipCode: '91942' },
+{ city: 'La Mirada', state: 'CA', zipCode: '90638' },
+{ city: 'Laguna Niguel', state: 'CA', zipCode: '92677' },
+{ city: 'Lake Elsinore', state: 'CA', zipCode: '92530' },
+{ city: 'Lancaster', state: 'CA', zipCode: '93534' },
+{ city: 'Livermore', state: 'CA', zipCode: '94550' },
+{ city: 'Lodi', state: 'CA', zipCode: '95240' },
+{ city: 'Manteca', state: 'CA', zipCode: '95336' },
+{ city: 'Merced', state: 'CA', zipCode: '95340' },
+{ city: 'Milpitas', state: 'CA', zipCode: '95035' },
+{ city: 'Monterey', state: 'CA', zipCode: '93940' },
+{ city: 'Morgan Hill', state: 'CA', zipCode: '95037' },
+{ city: 'Mountain View', state: 'CA', zipCode: '94040' },
+{ city: 'Napa', state: 'CA', zipCode: '94559' },
+{ city: 'Norwalk', state: 'CA', zipCode: '90650' },
+{ city: 'Pittsburg', state: 'CA', zipCode: '94565' },
+{ city: 'Redwood City', state: 'CA', zipCode: '94063' },
+{ city: 'Simi Valley', state: 'CA', zipCode: '93063' },
+{ city: 'Tulare', state: 'CA', zipCode: '93274' },
+{ city: 'Victorville', state: 'CA', zipCode: '92392' }
   ];
   
 
