@@ -10,8 +10,8 @@ description: >-
   cities like Manitou Springs, Fountai...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-26T11:08:07.513Z'
-validThrough: '2025-01-31T11:08:07.513Z'
+datePosted: '2025-01-20T08:16:02.325Z'
+validThrough: '2025-02-23T08:16:02.325Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

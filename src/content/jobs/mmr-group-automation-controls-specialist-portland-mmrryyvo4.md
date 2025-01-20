@@ -10,8 +10,8 @@ description: >-
   exciting role involves 60-80% travel for robo...
 location: 'Portland, OR'
 team: Industrial
-datePosted: '2024-12-26T22:28:22.447Z'
-validThrough: '2025-02-01T22:28:22.447Z'
+datePosted: '2025-01-20T08:00:44.845Z'
+validThrough: '2025-03-01T08:00:44.845Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

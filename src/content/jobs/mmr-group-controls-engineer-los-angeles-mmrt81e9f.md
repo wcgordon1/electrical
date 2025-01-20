@@ -16,8 +16,8 @@ description: >-
   * Expertise in machine safety sys...
 location: 'Los Angeles, CA'
 team: Industrial
-datePosted: '2024-12-26T22:39:42.878Z'
-validThrough: '2025-02-08T22:39:42.878Z'
+datePosted: '2025-01-20T08:04:09.452Z'
+validThrough: '2025-03-04T08:04:09.452Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -13,8 +13,8 @@ description: >-
   ## Required...
 location: 'Anaheim, CA'
 team: Industrial
-datePosted: '2024-12-27T03:17:58.635Z'
-validThrough: '2025-02-09T03:17:58.635Z'
+datePosted: '2025-01-20T08:14:20.138Z'
+validThrough: '2025-02-20T08:14:20.138Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

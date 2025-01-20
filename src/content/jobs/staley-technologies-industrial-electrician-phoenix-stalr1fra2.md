@@ -10,8 +10,8 @@ description: >-
   play a critical role in maintaining our industri...
 location: 'Phoenix, AZ'
 team: Industrial
-datePosted: '2024-12-27T02:38:08.920Z'
-validThrough: '2025-02-05T02:38:08.920Z'
+datePosted: '2025-01-20T08:10:44.854Z'
+validThrough: '2025-02-22T08:10:44.854Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

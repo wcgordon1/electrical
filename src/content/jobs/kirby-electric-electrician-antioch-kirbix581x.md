@@ -16,8 +16,8 @@ description: >-
   - Assist with motor cont...
 location: 'Antioch, CA'
 team: Industrial
-datePosted: '2024-12-27T07:19:47.032Z'
-validThrough: '2025-02-04T07:19:47.032Z'
+datePosted: '2025-01-20T08:10:10.399Z'
+validThrough: '2025-02-19T08:10:10.399Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

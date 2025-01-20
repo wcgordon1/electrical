@@ -16,8 +16,8 @@ description: >-
   Buffalo, NY. The role may also...
 location: 'Buffalo, NY'
 team: Commercial
-datePosted: '2024-12-26T14:57:12.632Z'
-validThrough: '2025-02-02T14:57:12.632Z'
+datePosted: '2025-01-20T08:08:11.415Z'
+validThrough: '2025-03-02T08:08:11.415Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

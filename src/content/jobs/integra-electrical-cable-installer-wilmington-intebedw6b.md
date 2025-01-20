@@ -16,8 +16,8 @@ description: >-
   - Maintain cable m...
 location: 'Wilmington, NC'
 team: Commercial
-datePosted: '2024-12-27T01:03:36.117Z'
-validThrough: '2025-02-07T01:03:36.117Z'
+datePosted: '2025-01-20T08:16:35.423Z'
+validThrough: '2025-03-04T08:16:35.423Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

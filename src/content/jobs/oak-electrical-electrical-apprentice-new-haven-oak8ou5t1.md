@@ -10,8 +10,8 @@ description: >-
   their skills and advance their career withi...
 location: 'New Haven, CT'
 team: Commercial
-datePosted: '2024-12-27T02:29:25.633Z'
-validThrough: '2025-02-03T02:29:25.633Z'
+datePosted: '2025-01-20T08:02:21.251Z'
+validThrough: '2025-02-23T08:02:21.251Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

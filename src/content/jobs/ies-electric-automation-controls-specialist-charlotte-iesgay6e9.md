@@ -10,8 +10,8 @@ description: >-
   surrounding cities too. The role does invol...
 location: 'Charlotte, NC'
 team: Industrial
-datePosted: '2024-12-27T03:48:15.650Z'
-validThrough: '2025-02-08T03:48:15.650Z'
+datePosted: '2025-01-20T08:06:45.212Z'
+validThrough: '2025-03-01T08:06:45.212Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

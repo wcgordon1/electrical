@@ -10,8 +10,8 @@ description: >-
   essential. We are located in Denver, but are also open ...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-26T18:29:45.007Z'
-validThrough: '2025-01-26T18:29:45.007Z'
+datePosted: '2025-01-20T08:10:53.409Z'
+validThrough: '2025-03-02T08:10:53.409Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

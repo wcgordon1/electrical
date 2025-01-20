@@ -21,8 +21,8 @@ description: >-
   the job locatio...
 location: 'Flagstaff, AZ'
 team: Data Center
-datePosted: '2024-12-26T13:09:36.445Z'
-validThrough: '2025-02-07T13:09:36.445Z'
+datePosted: '2025-01-20T08:07:37.633Z'
+validThrough: '2025-02-24T08:07:37.633Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

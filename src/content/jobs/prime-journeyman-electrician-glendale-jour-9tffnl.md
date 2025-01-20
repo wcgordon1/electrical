@@ -21,8 +21,8 @@ description: >-
   electrical panels, and...
 location: 'Glendale, AZ'
 team: Commercial
-datePosted: '2024-12-26T14:31:40.553Z'
-validThrough: '2025-01-28T14:31:40.553Z'
+datePosted: '2025-01-20T08:05:51.538Z'
+validThrough: '2025-02-23T08:05:51.538Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -10,8 +10,8 @@ description: >-
   delivering high-quality solar solutions to home...
 location: 'Charleston, SC'
 team: Solar
-datePosted: '2024-12-27T05:10:30.885Z'
-validThrough: '2025-02-04T05:10:30.885Z'
+datePosted: '2025-01-20T08:03:53.819Z'
+validThrough: '2025-02-27T08:03:53.819Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

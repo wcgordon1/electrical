@@ -10,8 +10,8 @@ description: >-
   requiring coordination with other trades and some local ...
 location: 'Oxnard, CA'
 team: Commercial
-datePosted: '2024-12-27T05:05:54.140Z'
-validThrough: '2025-02-07T05:05:54.140Z'
+datePosted: '2025-01-20T08:13:58.426Z'
+validThrough: '2025-02-24T08:13:58.426Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

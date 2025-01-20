@@ -10,8 +10,8 @@ description: >-
   your career to the next level, t...
 location: 'Provo, UT'
 team: Data Center
-datePosted: '2024-12-27T00:21:47.762Z'
-validThrough: '2025-01-29T00:21:47.762Z'
+datePosted: '2025-01-20T08:08:25.539Z'
+validThrough: '2025-02-26T08:08:25.539Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

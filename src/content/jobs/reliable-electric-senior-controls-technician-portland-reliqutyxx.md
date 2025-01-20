@@ -10,8 +10,8 @@ description: >-
   industrial networking protocols. Our ideal candida...
 location: 'Portland, OR'
 team: Industrial
-datePosted: '2024-12-26T19:07:37.120Z'
-validThrough: '2025-02-04T19:07:37.120Z'
+datePosted: '2025-01-20T08:14:38.404Z'
+validThrough: '2025-02-22T08:14:38.404Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

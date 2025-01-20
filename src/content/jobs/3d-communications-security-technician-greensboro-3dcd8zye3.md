@@ -10,8 +10,8 @@ description: >-
   conveniently near cities like Winston-Salem, High ...
 location: 'Greensboro, NC'
 team: Commercial
-datePosted: '2024-12-27T03:18:04.882Z'
-validThrough: '2025-02-07T03:18:04.882Z'
+datePosted: '2025-01-20T08:02:22.939Z'
+validThrough: '2025-02-19T08:02:22.939Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

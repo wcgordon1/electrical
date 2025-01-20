@@ -10,8 +10,8 @@ description: >-
   and CompTIA Network+ certification. Extensive ex...
 location: 'Los Angeles, CA'
 team: Industrial
-datePosted: '2024-12-27T02:29:22.070Z'
-validThrough: '2025-02-07T02:29:22.070Z'
+datePosted: '2025-01-20T08:05:14.359Z'
+validThrough: '2025-02-22T08:05:14.359Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

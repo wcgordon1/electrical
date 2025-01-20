@@ -10,8 +10,8 @@ description: >-
   experience with hand/power tools, digital multimeters...
 location: 'Worcester, MA'
 team: Industrial
-datePosted: '2024-12-26T15:26:05.380Z'
-validThrough: '2025-01-31T15:26:05.380Z'
+datePosted: '2025-01-20T08:01:13.952Z'
+validThrough: '2025-03-03T08:01:13.952Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

@@ -10,8 +10,8 @@ description: >-
   problem-solve under pressure, and a passion fo...
 location: 'St. Louis, MO'
 team: Industrial
-datePosted: '2024-12-27T00:51:12.009Z'
-validThrough: '2025-01-31T00:51:12.009Z'
+datePosted: '2025-01-20T08:03:28.632Z'
+validThrough: '2025-02-21T08:03:28.632Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

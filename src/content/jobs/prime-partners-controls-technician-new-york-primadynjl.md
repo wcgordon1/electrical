@@ -10,8 +10,8 @@ description: >-
   The ideal candidate has an Associates/Technical degree, vendor certificati...
 location: 'New York, NY'
 team: Industrial
-datePosted: '2024-12-26T17:27:56.345Z'
-validThrough: '2025-01-28T17:27:56.345Z'
+datePosted: '2025-01-20T08:10:58.918Z'
+validThrough: '2025-02-28T08:10:58.918Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

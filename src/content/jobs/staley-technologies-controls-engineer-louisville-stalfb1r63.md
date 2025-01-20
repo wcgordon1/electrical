@@ -10,8 +10,8 @@ description: >-
   design, and safety network protocols (CIP Safety,...
 location: 'Louisville, KY'
 team: Industrial
-datePosted: '2024-12-27T06:28:35.222Z'
-validThrough: '2025-02-05T06:28:35.222Z'
+datePosted: '2025-01-20T08:03:45.408Z'
+validThrough: '2025-02-20T08:03:45.408Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

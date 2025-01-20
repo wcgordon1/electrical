@@ -13,8 +13,8 @@ description: >-
   ## Ke...
 location: 'Vallejo, CA'
 team: Commercial
-datePosted: '2024-12-27T05:44:26.191Z'
-validThrough: '2025-02-01T05:44:26.191Z'
+datePosted: '2025-01-20T08:14:44.376Z'
+validThrough: '2025-02-24T08:14:44.376Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

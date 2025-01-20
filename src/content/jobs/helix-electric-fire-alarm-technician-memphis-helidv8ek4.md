@@ -10,8 +10,8 @@ description: >-
   maintaining accurate documentation. This position requires a NI...
 location: 'Memphis, TN'
 team: Commercial
-datePosted: '2024-12-26T20:28:25.568Z'
-validThrough: '2025-02-03T20:28:25.568Z'
+datePosted: '2025-01-20T08:14:58.581Z'
+validThrough: '2025-03-02T08:14:58.581Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

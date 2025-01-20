@@ -10,8 +10,8 @@ description: >-
   understanding of ISO 13849/IEC 62061 standards, safety...
 location: 'Sacramento, CA'
 team: Industrial
-datePosted: '2024-12-26T22:57:31.378Z'
-validThrough: '2025-02-02T22:57:31.378Z'
+datePosted: '2025-01-20T08:04:25.931Z'
+validThrough: '2025-03-01T08:04:25.931Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -10,8 +10,8 @@ description: >-
   working in luxury homes throughout these beauti...
 location: 'Palm Springs, CA'
 team: Residential
-datePosted: '2024-12-27T06:38:49.985Z'
-validThrough: '2025-01-30T06:38:49.985Z'
+datePosted: '2025-01-20T08:15:59.143Z'
+validThrough: '2025-03-05T08:15:59.143Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

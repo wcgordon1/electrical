@@ -13,8 +13,8 @@ description: >-
   ## ...
 location: 'Norman, OK'
 team: Commercial
-datePosted: '2024-12-27T05:36:44.108Z'
-validThrough: '2025-02-09T05:36:44.108Z'
+datePosted: '2025-01-20T08:09:54.768Z'
+validThrough: '2025-02-19T08:09:54.768Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

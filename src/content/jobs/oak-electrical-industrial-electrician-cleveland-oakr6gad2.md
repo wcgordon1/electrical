@@ -10,8 +10,8 @@ description: >-
   around the neighboring cities of Lakewood, P...
 location: 'Cleveland, OH'
 team: Industrial
-datePosted: '2024-12-26T14:36:06.370Z'
-validThrough: '2025-01-27T14:36:06.370Z'
+datePosted: '2025-01-20T08:08:05.950Z'
+validThrough: '2025-02-22T08:08:05.950Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

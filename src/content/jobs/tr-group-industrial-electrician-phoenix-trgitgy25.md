@@ -10,8 +10,8 @@ description: >-
   may involve some travel to nearby cities su...
 location: 'Phoenix, AZ'
 team: Industrial
-datePosted: '2024-12-27T06:22:28.104Z'
-validThrough: '2025-02-10T06:22:28.104Z'
+datePosted: '2025-01-20T08:06:42.791Z'
+validThrough: '2025-02-28T08:06:42.791Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

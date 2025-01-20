@@ -10,8 +10,8 @@ description: >-
   blueprint reading, crew leadership, and project coo...
 location: 'New York City, NY'
 team: Commercial
-datePosted: '2024-12-26T16:54:37.558Z'
-validThrough: '2025-01-29T16:54:37.558Z'
+datePosted: '2025-01-20T08:08:19.698Z'
+validThrough: '2025-03-03T08:08:19.698Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

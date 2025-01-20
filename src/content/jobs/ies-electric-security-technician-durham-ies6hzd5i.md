@@ -10,8 +10,8 @@ description: >-
   security of our clients by installing and maintaining cuttin...
 location: 'Durham, NC'
 team: Commercial
-datePosted: '2024-12-26T23:28:22.226Z'
-validThrough: '2025-02-03T23:28:22.226Z'
+datePosted: '2025-01-20T08:03:54.568Z'
+validThrough: '2025-03-04T08:03:54.568Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

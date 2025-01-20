@@ -89,8 +89,8 @@ description: >-
   sexual orientation, age, marital status, veteran status, or disability status.
 location: 'Long Beach, CA'
 team: Data Center
-datePosted: '2024-12-26T14:13:37.154Z'
-validThrough: '2025-01-26T14:13:37.154Z'
+datePosted: '2025-01-20T08:07:08.228Z'
+validThrough: '2025-02-23T08:07:08.228Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

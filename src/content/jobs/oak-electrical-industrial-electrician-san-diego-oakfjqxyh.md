@@ -10,8 +10,8 @@ description: >-
   First Aid/CPR certifications. A comprehe...
 location: 'San Diego, CA'
 team: Industrial
-datePosted: '2024-12-27T01:41:11.941Z'
-validThrough: '2025-01-29T01:41:11.941Z'
+datePosted: '2025-01-20T08:11:22.890Z'
+validThrough: '2025-03-04T08:11:22.890Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

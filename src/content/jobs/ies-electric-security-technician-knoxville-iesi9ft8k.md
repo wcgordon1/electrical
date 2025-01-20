@@ -10,8 +10,8 @@ description: >-
   access control platforms, and intrusion dete...
 location: 'Knoxville, TN'
 team: Commercial
-datePosted: '2024-12-26T20:48:39.969Z'
-validThrough: '2025-02-05T20:48:39.969Z'
+datePosted: '2025-01-20T08:10:24.444Z'
+validThrough: '2025-02-26T08:10:24.444Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

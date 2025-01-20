@@ -10,8 +10,8 @@ description: >-
   multimeters and basic test equipment to perform your dut...
 location: 'Charlotte, NC'
 team: Residential
-datePosted: '2024-12-26T13:49:16.106Z'
-validThrough: '2025-02-02T13:49:16.106Z'
+datePosted: '2025-01-20T08:16:30.778Z'
+validThrough: '2025-02-28T08:16:30.778Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

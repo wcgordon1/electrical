@@ -23,8 +23,8 @@ description: >-
   2. Ensure pro...
 location: 'Surprise, AZ'
 team: Data Center
-datePosted: '2024-12-26T11:27:31.889Z'
-validThrough: '2025-02-09T11:27:31.889Z'
+datePosted: '2025-01-20T08:12:10.565Z'
+validThrough: '2025-02-26T08:12:10.565Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

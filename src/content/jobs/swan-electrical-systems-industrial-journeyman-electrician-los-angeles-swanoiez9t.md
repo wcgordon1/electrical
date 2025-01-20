@@ -14,8 +14,8 @@ description: >-
   location wiring. We're located right in the heart of Los Angeles, ...
 location: 'Los Angeles, CA'
 team: Industrial
-datePosted: '2024-12-26T17:53:09.140Z'
-validThrough: '2025-01-29T17:53:09.140Z'
+datePosted: '2025-01-20T08:08:48.080Z'
+validThrough: '2025-02-26T08:08:48.080Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

@@ -10,8 +10,8 @@ description: >-
   and grow. This role will have you stationed ...
 location: 'Jacksonville, FL'
 team: Commercial
-datePosted: '2024-12-26T19:12:27.468Z'
-validThrough: '2025-01-30T19:12:27.468Z'
+datePosted: '2025-01-20T08:07:26.260Z'
+validThrough: '2025-02-28T08:07:26.260Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

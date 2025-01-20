@@ -21,8 +21,8 @@ description: >-
   ...
 location: 'San Diego, CA'
 team: Commercial
-datePosted: '2024-12-26T14:38:12.679Z'
-validThrough: '2025-02-02T14:38:12.679Z'
+datePosted: '2025-01-20T08:00:40.495Z'
+validThrough: '2025-03-05T08:00:40.495Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

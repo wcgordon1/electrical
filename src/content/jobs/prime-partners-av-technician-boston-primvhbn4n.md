@@ -10,8 +10,8 @@ description: >-
   talking to you. Bonus points if you...
 location: 'Boston, MA'
 team: Commercial
-datePosted: '2024-12-26T19:49:11.785Z'
-validThrough: '2025-02-05T19:49:11.785Z'
+datePosted: '2025-01-20T08:04:12.846Z'
+validThrough: '2025-02-27T08:04:12.846Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

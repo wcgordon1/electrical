@@ -10,8 +10,8 @@ description: >-
   getting hands-on with testing equipment and ...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-26T18:20:37.971Z'
-validThrough: '2025-02-04T18:20:37.971Z'
+datePosted: '2025-01-20T08:05:15.411Z'
+validThrough: '2025-03-04T08:05:15.411Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

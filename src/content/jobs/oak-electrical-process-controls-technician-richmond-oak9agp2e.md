@@ -16,8 +16,8 @@ description: >-
   We're loo...
 location: 'Richmond, VA'
 team: Industrial
-datePosted: '2024-12-27T05:46:56.592Z'
-validThrough: '2025-01-27T05:46:56.592Z'
+datePosted: '2025-01-20T08:15:19.886Z'
+validThrough: '2025-02-21T08:15:19.886Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

@@ -10,8 +10,8 @@ description: >-
   This position is based in Philadelphia, PA, but ...
 location: 'Philadelphia, PA'
 team: Commercial
-datePosted: '2024-12-26T15:28:42.596Z'
-validThrough: '2025-02-04T15:28:42.596Z'
+datePosted: '2025-01-20T08:02:00.911Z'
+validThrough: '2025-03-02T08:02:00.911Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

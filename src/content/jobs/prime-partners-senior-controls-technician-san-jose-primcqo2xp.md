@@ -10,8 +10,8 @@ description: >-
   EtherNet/IP, and Modbus TCP/IP. This position requires...
 location: 'San Jose, CA'
 team: Industrial
-datePosted: '2024-12-26T17:13:25.833Z'
-validThrough: '2025-01-31T17:13:25.833Z'
+datePosted: '2025-01-20T08:13:33.600Z'
+validThrough: '2025-02-19T08:13:33.600Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

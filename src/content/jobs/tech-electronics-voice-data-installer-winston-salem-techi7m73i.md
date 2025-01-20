@@ -10,8 +10,8 @@ description: >-
   role for you. Embrace the chance to grow and thrive while workin...
 location: 'Winston-Salem, NC'
 team: Commercial
-datePosted: '2024-12-27T01:42:10.195Z'
-validThrough: '2025-01-31T01:42:10.195Z'
+datePosted: '2025-01-20T08:12:24.593Z'
+validThrough: '2025-02-21T08:12:24.593Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

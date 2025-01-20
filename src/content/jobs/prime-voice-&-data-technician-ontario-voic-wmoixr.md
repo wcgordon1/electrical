@@ -26,8 +26,8 @@ description: >-
   We are currently seeking a highly skilled...
 location: 'Ontario, CA'
 team: Commercial
-datePosted: '2024-12-26T14:30:04.437Z'
-validThrough: '2025-02-08T14:30:04.437Z'
+datePosted: '2025-01-20T08:02:10.845Z'
+validThrough: '2025-02-24T08:02:10.845Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

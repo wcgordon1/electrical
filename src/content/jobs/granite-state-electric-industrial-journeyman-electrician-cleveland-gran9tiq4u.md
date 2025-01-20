@@ -10,8 +10,8 @@ description: >-
   with industrial maintenance, automation systems, ...
 location: 'Cleveland, OH'
 team: Industrial
-datePosted: '2024-12-26T18:01:17.925Z'
-validThrough: '2025-02-09T18:01:17.925Z'
+datePosted: '2025-01-20T08:09:03.345Z'
+validThrough: '2025-03-04T08:09:03.345Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

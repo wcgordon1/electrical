@@ -16,8 +16,8 @@ description: >-
   - Install re...
 location: 'Aurora, CO'
 team: Solar
-datePosted: '2024-12-26T21:55:03.421Z'
-validThrough: '2025-02-05T21:55:03.421Z'
+datePosted: '2025-01-20T08:16:27.736Z'
+validThrough: '2025-03-03T08:16:27.736Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

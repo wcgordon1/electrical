@@ -26,8 +26,8 @@ description: >-
   1. Install...
 location: 'Maricopa, AZ'
 team: Commercial
-datePosted: '2024-12-26T10:48:52.299Z'
-validThrough: '2025-02-03T10:48:52.299Z'
+datePosted: '2025-01-20T08:01:43.639Z'
+validThrough: '2025-02-26T08:01:43.639Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

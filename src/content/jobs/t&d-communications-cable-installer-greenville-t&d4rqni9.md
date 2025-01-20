@@ -10,8 +10,8 @@ description: >-
   where you will contribute to high-quality telecommunicat...
 location: 'Greenville, SC'
 team: Commercial
-datePosted: '2024-12-26T20:53:57.625Z'
-validThrough: '2025-02-02T20:53:57.625Z'
+datePosted: '2025-01-20T08:02:21.602Z'
+validThrough: '2025-02-22T08:02:21.602Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

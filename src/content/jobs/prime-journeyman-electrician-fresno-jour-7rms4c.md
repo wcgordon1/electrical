@@ -19,8 +19,8 @@ description: >-
   a committed, experience...
 location: 'Fresno, CA'
 team: Commercial
-datePosted: '2024-12-26T11:50:16.261Z'
-validThrough: '2025-01-27T11:50:16.261Z'
+datePosted: '2025-01-20T08:09:32.332Z'
+validThrough: '2025-02-20T08:09:32.332Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

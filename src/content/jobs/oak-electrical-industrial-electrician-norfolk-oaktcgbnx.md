@@ -16,8 +16,8 @@ description: >-
   - Elect...
 location: 'Norfolk, VA'
 team: Industrial
-datePosted: '2024-12-27T02:54:05.134Z'
-validThrough: '2025-02-09T02:54:05.134Z'
+datePosted: '2025-01-20T08:00:11.110Z'
+validThrough: '2025-02-24T08:00:11.110Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

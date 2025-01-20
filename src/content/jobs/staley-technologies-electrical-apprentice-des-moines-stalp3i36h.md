@@ -10,8 +10,8 @@ description: >-
   maintenance of electrical systems in commercial and retail en...
 location: 'Des Moines, IA'
 team: Commercial
-datePosted: '2024-12-26T22:41:33.812Z'
-validThrough: '2025-01-29T22:41:33.812Z'
+datePosted: '2025-01-20T08:04:37.302Z'
+validThrough: '2025-02-25T08:04:37.302Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

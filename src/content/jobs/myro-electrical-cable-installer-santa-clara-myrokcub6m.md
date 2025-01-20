@@ -10,8 +10,8 @@ description: >-
   goals. This is not just a job; it...
 location: 'Santa Clara, CA'
 team: Commercial
-datePosted: '2024-12-27T06:19:45.263Z'
-validThrough: '2025-02-01T06:19:45.263Z'
+datePosted: '2025-01-20T08:02:27.313Z'
+validThrough: '2025-03-01T08:02:27.313Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

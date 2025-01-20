@@ -15,8 +15,8 @@ description: >-
   We're looking for someone who can hit ...
 location: 'Hartford, CT'
 team: Commercial
-datePosted: '2024-12-26T20:20:55.668Z'
-validThrough: '2025-02-03T20:20:55.668Z'
+datePosted: '2025-01-20T08:14:26.006Z'
+validThrough: '2025-03-05T08:14:26.006Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

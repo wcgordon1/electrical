@@ -18,8 +18,8 @@ description: >-
   high level of technical expertise, attent...
 location: 'Cupertino, CA'
 team: Residential
-datePosted: '2024-12-26T10:46:51.929Z'
-validThrough: '2025-01-25T10:46:51.929Z'
+datePosted: '2025-01-20T08:13:51.005Z'
+validThrough: '2025-02-21T08:13:51.005Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

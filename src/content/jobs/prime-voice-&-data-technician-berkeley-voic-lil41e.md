@@ -22,8 +22,8 @@ description: >-
   Key Res...
 location: 'Berkeley, CA'
 team: Data Center
-datePosted: '2024-12-26T12:48:07.837Z'
-validThrough: '2025-01-26T12:48:07.837Z'
+datePosted: '2025-01-20T08:08:51.520Z'
+validThrough: '2025-02-19T08:08:51.520Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -17,8 +17,8 @@ description: >-
   - Experien...
 location: 'Detroit, MI'
 team: Commercial
-datePosted: '2024-12-26T12:28:38.708Z'
-validThrough: '2025-02-05T12:28:38.708Z'
+datePosted: '2025-01-20T08:04:30.116Z'
+validThrough: '2025-02-20T08:04:30.116Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

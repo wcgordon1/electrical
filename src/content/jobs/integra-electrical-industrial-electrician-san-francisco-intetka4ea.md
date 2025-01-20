@@ -15,8 +15,8 @@ description: >-
   San Mateo, and Ala...
 location: 'San Francisco, CA'
 team: Industrial
-datePosted: '2024-12-26T12:58:06.272Z'
-validThrough: '2025-01-27T12:58:06.272Z'
+datePosted: '2025-01-20T08:11:07.442Z'
+validThrough: '2025-03-06T08:11:07.442Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

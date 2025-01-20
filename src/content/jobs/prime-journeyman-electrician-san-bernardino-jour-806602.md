@@ -19,8 +19,8 @@ description: >-
   Fontana, Redl...
 location: 'San Bernardino, CA'
 team: Commercial
-datePosted: '2024-12-26T13:23:37.818Z'
-validThrough: '2025-02-08T13:23:37.818Z'
+datePosted: '2025-01-20T08:05:35.310Z'
+validThrough: '2025-02-20T08:05:35.310Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners
