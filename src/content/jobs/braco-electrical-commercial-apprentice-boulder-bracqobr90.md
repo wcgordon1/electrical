@@ -10,8 +10,8 @@ description: >-
   electrifying journey, working on groundbreaking new const...
 location: 'Boulder, CO'
 team: Commercial
-datePosted: '2024-12-28T02:59:29.062Z'
-validThrough: '2025-02-01T02:59:29.062Z'
+datePosted: '2025-01-21T10:00:51.086Z'
+validThrough: '2025-02-26T10:00:51.086Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

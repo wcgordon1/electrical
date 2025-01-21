@@ -10,8 +10,8 @@ description: >-
   a deep understanding of data center i...
 location: 'Columbus, OH'
 team: Commercial
-datePosted: '2024-12-28T00:30:02.527Z'
-validThrough: '2025-01-28T00:30:02.527Z'
+datePosted: '2025-01-21T11:48:40.123Z'
+validThrough: '2025-02-22T11:48:40.123Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

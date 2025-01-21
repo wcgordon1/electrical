@@ -10,8 +10,8 @@ description: >-
   seamless integration of our services. If you'...
 location: 'Thousand Oaks, CA'
 team: Commercial
-datePosted: '2024-12-27T17:49:41.425Z'
-validThrough: '2025-02-07T17:49:41.425Z'
+datePosted: '2025-01-21T21:15:54.388Z'
+validThrough: '2025-03-01T21:15:54.388Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

@@ -24,8 +24,8 @@ description: >-
   whi...
 location: 'Berkeley, CA'
 team: Industrial
-datePosted: '2024-12-27T20:29:34.095Z'
-validThrough: '2025-02-01T20:29:34.095Z'
+datePosted: '2025-01-21T09:15:12.198Z'
+validThrough: '2025-03-07T09:15:12.198Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

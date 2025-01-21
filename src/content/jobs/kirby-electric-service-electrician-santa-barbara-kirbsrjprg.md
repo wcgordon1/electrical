@@ -10,8 +10,8 @@ description: >-
   residential clients powered up and safe....
 location: 'Santa Barbara, CA'
 team: Commercial
-datePosted: '2024-12-28T06:03:07.558Z'
-validThrough: '2025-01-29T06:03:07.558Z'
+datePosted: '2025-01-21T22:52:37.254Z'
+validThrough: '2025-03-02T22:52:37.254Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

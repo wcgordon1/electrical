@@ -16,8 +16,8 @@ description: >-
   - Design and instal...
 location: 'Rochester, NY'
 team: Commercial
-datePosted: '2024-12-28T01:31:14.166Z'
-validThrough: '2025-02-05T01:31:14.166Z'
+datePosted: '2025-01-21T20:13:42.009Z'
+validThrough: '2025-02-22T20:13:42.009Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: JD Electric

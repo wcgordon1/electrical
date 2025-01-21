@@ -19,8 +19,8 @@ description: >-
   residential, commercial, a...
 location: 'Lancaster, CA'
 team: Data Center
-datePosted: '2024-12-27T20:36:03.444Z'
-validThrough: '2025-02-07T20:36:03.444Z'
+datePosted: '2025-01-21T22:33:33.225Z'
+validThrough: '2025-02-20T22:33:33.225Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -10,8 +10,8 @@ description: >-
   process control. The ideal candidate...
 location: 'Cincinnati, OH'
 team: Industrial
-datePosted: '2024-12-27T19:35:57.486Z'
-validThrough: '2025-02-04T19:35:57.486Z'
+datePosted: '2025-01-21T15:29:12.049Z'
+validThrough: '2025-02-27T15:29:12.049Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koehler Electric

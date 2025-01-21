@@ -10,8 +10,8 @@ description: >-
   systems, transforming luxury homes into futuristi...
 location: 'Peoria, IL'
 team: Residential
-datePosted: '2024-12-27T21:31:44.222Z'
-validThrough: '2025-02-02T21:31:44.222Z'
+datePosted: '2025-01-21T22:41:53.045Z'
+validThrough: '2025-03-07T22:41:53.045Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Colvin Electric

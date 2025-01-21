@@ -18,8 +18,8 @@ description: >-
   - Aerial lift certi...
 location: 'Wichita, KS'
 team: Commercial
-datePosted: '2024-12-28T01:12:13.897Z'
-validThrough: '2025-02-03T01:12:13.897Z'
+datePosted: '2025-01-21T19:18:32.591Z'
+validThrough: '2025-02-27T19:18:32.591Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

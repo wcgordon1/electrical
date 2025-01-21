@@ -35,8 +35,8 @@ benefits:
   - 401k Match
   - Quarterly Bonuses
   - Vehicle Allowance
-datePosted: '2024-12-27T19:03:30.209Z'
-validThrough: '2025-01-27T19:03:30.209Z'
+datePosted: '2025-01-21T11:02:37.656Z'
+validThrough: '2025-02-22T11:02:37.656Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

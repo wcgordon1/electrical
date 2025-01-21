@@ -10,8 +10,8 @@ description: >-
   for installing and maintaining state-of-the-art security sy...
 location: 'Murrieta, CA'
 team: Commercial
-datePosted: '2024-12-27T19:16:50.315Z'
-validThrough: '2025-02-09T19:16:50.315Z'
+datePosted: '2025-01-21T12:57:02.606Z'
+validThrough: '2025-02-26T12:57:02.606Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

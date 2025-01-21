@@ -10,8 +10,8 @@ description: >-
   facilities. This position requires expertise in st...
 location: 'Worcester, MA'
 team: Commercial
-datePosted: '2024-12-27T19:35:31.810Z'
-validThrough: '2025-01-30T19:35:31.810Z'
+datePosted: '2025-01-21T18:32:33.261Z'
+validThrough: '2025-02-22T18:32:33.261Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

@@ -10,8 +10,8 @@ description: >-
   the opportunity to work in various commercia...
 location: 'Santa Cruz, CA'
 team: Commercial
-datePosted: '2024-12-28T06:00:37.912Z'
-validThrough: '2025-01-29T06:00:37.912Z'
+datePosted: '2025-01-21T18:38:00.344Z'
+validThrough: '2025-02-27T18:38:00.344Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

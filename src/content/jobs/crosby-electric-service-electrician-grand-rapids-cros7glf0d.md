@@ -10,8 +10,8 @@ description: >-
   healthcare institutions. Grand Rap...
 location: 'Grand Rapids, MI'
 team: Commercial
-datePosted: '2024-12-27T22:09:55.371Z'
-validThrough: '2025-02-06T22:09:55.371Z'
+datePosted: '2025-01-21T11:33:27.638Z'
+validThrough: '2025-02-21T11:33:27.638Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

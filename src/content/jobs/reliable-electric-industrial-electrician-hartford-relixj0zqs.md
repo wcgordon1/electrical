@@ -14,8 +14,8 @@ description: >-
   - Program and troubleshoot...
 location: 'Hartford, CT'
 team: Industrial
-datePosted: '2024-12-27T23:46:24.559Z'
-validThrough: '2025-01-30T23:46:24.559Z'
+datePosted: '2025-01-21T22:38:37.024Z'
+validThrough: '2025-03-01T22:38:37.024Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

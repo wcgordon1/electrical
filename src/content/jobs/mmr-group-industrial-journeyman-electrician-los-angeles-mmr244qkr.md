@@ -10,8 +10,8 @@ description: >-
   and hazardous location wiring, you'll...
 location: 'Los Angeles, CA'
 team: Industrial
-datePosted: '2024-12-27T18:41:02.026Z'
-validThrough: '2025-02-05T18:41:02.026Z'
+datePosted: '2025-01-21T16:36:00.664Z'
+validThrough: '2025-02-28T16:36:00.664Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

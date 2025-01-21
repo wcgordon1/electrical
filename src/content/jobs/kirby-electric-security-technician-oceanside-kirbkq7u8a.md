@@ -10,8 +10,8 @@ description: >-
   and security of our client's premises by...
 location: 'Oceanside, CA'
 team: Commercial
-datePosted: '2024-12-27T20:12:49.456Z'
-validThrough: '2025-02-03T20:12:49.456Z'
+datePosted: '2025-01-21T22:03:59.631Z'
+validThrough: '2025-03-06T22:03:59.631Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

@@ -10,8 +10,8 @@ description: >-
   grow, innovate, and shine in a supportive ...
 location: 'Cedar Rapids, IA'
 team: Residential
-datePosted: '2024-12-27T20:11:49.988Z'
-validThrough: '2025-02-02T20:11:49.988Z'
+datePosted: '2025-01-21T19:27:32.850Z'
+validThrough: '2025-03-06T19:27:32.850Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe Electric

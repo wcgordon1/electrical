@@ -10,8 +10,8 @@ description: >-
   separation. As part of Myro Electrical, you will contribute to ...
 location: 'Newport, RI'
 team: Commercial
-datePosted: '2024-12-28T05:18:35.267Z'
-validThrough: '2025-02-11T05:18:35.267Z'
+datePosted: '2025-01-21T22:16:46.892Z'
+validThrough: '2025-03-04T22:16:46.892Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

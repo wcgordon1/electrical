@@ -10,8 +10,8 @@ description: >-
   seamless operation of our facilities, leveraging you...
 location: 'Lafayette, LA'
 team: Data Center
-datePosted: '2024-12-27T16:40:19.546Z'
-validThrough: '2025-02-04T16:40:19.546Z'
+datePosted: '2025-01-21T19:12:19.266Z'
+validThrough: '2025-02-23T19:12:19.266Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Convergint

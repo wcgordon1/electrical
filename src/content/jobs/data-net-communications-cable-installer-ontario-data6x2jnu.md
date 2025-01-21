@@ -10,8 +10,8 @@ description: >-
   to grow your career, expand you...
 location: 'Ontario, CA'
 team: Commercial
-datePosted: '2024-12-28T03:34:31.092Z'
-validThrough: '2025-01-31T03:34:31.092Z'
+datePosted: '2025-01-21T12:11:01.539Z'
+validThrough: '2025-02-27T12:11:01.539Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

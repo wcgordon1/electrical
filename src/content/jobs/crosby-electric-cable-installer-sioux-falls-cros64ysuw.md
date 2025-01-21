@@ -10,8 +10,8 @@ description: >-
   data centers run smoothly, and we need you to help...
 location: 'Sioux Falls, SD'
 team: Commercial
-datePosted: '2024-12-27T23:30:44.956Z'
-validThrough: '2025-01-29T23:30:44.956Z'
+datePosted: '2025-01-21T08:16:01.236Z'
+validThrough: '2025-02-24T08:16:01.236Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -10,8 +10,8 @@ description: >-
   maintaining state-of-the-art security systems. This position...
 location: 'Youngstown, OH'
 team: Commercial
-datePosted: '2024-12-27T17:35:53.511Z'
-validThrough: '2025-02-07T17:35:53.511Z'
+datePosted: '2025-01-21T09:49:11.656Z'
+validThrough: '2025-02-25T09:49:11.656Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

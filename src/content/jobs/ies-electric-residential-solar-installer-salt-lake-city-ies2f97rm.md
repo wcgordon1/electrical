@@ -10,8 +10,8 @@ description: >-
   neighboring cities like West Valley City, Sa...
 location: 'Salt Lake City, UT'
 team: Solar
-datePosted: '2024-12-28T00:32:36.411Z'
-validThrough: '2025-02-05T00:32:36.411Z'
+datePosted: '2025-01-21T11:06:16.004Z'
+validThrough: '2025-02-22T11:06:16.004Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

@@ -10,8 +10,8 @@ description: >-
   in mission-critical facilities. If you're eager to co...
 location: 'Norfolk, VA'
 team: Commercial
-datePosted: '2024-12-27T19:02:56.422Z'
-validThrough: '2025-02-07T19:02:56.422Z'
+datePosted: '2025-01-21T22:11:38.892Z'
+validThrough: '2025-03-03T22:11:38.892Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

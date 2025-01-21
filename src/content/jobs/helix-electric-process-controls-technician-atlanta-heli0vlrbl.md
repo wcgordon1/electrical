@@ -10,8 +10,8 @@ description: >-
   control valve maintenance, and PID loop tuni...
 location: 'Atlanta, GA'
 team: Industrial
-datePosted: '2024-12-27T19:41:17.746Z'
-validThrough: '2025-01-30T19:41:17.746Z'
+datePosted: '2025-01-21T14:43:07.597Z'
+validThrough: '2025-02-22T14:43:07.597Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

@@ -10,8 +10,8 @@ description: >-
   the ever-evolving AV industry. If you're ready to elevat...
 location: 'Nampa, ID'
 team: Commercial
-datePosted: '2024-12-27T18:08:02.410Z'
-validThrough: '2025-02-05T18:08:02.410Z'
+datePosted: '2025-01-21T10:16:36.477Z'
+validThrough: '2025-02-21T10:16:36.477Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: TR Group

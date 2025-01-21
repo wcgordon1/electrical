@@ -18,8 +18,8 @@ description: >-
   - Understanding of 3-ph...
 location: 'Newport Beach, CA'
 team: Industrial
-datePosted: '2024-12-28T05:53:34.413Z'
-validThrough: '2025-01-30T05:53:34.413Z'
+datePosted: '2025-01-21T10:02:36.471Z'
+validThrough: '2025-03-04T10:02:36.471Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

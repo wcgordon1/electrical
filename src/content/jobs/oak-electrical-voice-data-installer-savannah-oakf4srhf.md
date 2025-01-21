@@ -10,8 +10,8 @@ description: >-
   excited to have you bring your expertise...
 location: 'Savannah, GA'
 team: Commercial
-datePosted: '2024-12-28T01:01:46.862Z'
-validThrough: '2025-02-02T01:01:46.862Z'
+datePosted: '2025-01-21T10:03:12.878Z'
+validThrough: '2025-02-26T10:03:12.878Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

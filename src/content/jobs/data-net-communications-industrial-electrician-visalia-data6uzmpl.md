@@ -10,8 +10,8 @@ description: >-
   shifts to ensure the smooth operation of our adva...
 location: 'Visalia, CA'
 team: Industrial
-datePosted: '2024-12-27T18:33:12.502Z'
-validThrough: '2025-01-27T18:33:12.502Z'
+datePosted: '2025-01-21T21:34:39.211Z'
+validThrough: '2025-03-06T21:34:39.211Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

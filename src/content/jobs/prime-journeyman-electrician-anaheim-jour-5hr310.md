@@ -18,8 +18,8 @@ description: >-
   industrial settings. This includes various types of electrical equi...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-27T18:15:28.961Z'
-validThrough: '2025-02-02T18:15:28.961Z'
+datePosted: '2025-01-21T10:42:32.652Z'
+validThrough: '2025-02-25T10:42:32.652Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

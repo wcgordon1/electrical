@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Manchester, NH'
 team: Commercial
-datePosted: '2024-12-28T01:28:07.172Z'
-validThrough: '2025-01-30T01:28:07.172Z'
+datePosted: '2025-01-21T13:13:40.892Z'
+validThrough: '2025-02-24T13:13:40.892Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

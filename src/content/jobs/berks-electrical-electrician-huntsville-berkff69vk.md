@@ -10,8 +10,8 @@ description: >-
   career. We are looking for individuals who are eag...
 location: 'Huntsville, AL'
 team: Industrial
-datePosted: '2024-12-27T17:56:32.239Z'
-validThrough: '2025-02-04T17:56:32.239Z'
+datePosted: '2025-01-21T19:24:35.702Z'
+validThrough: '2025-03-04T19:24:35.702Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

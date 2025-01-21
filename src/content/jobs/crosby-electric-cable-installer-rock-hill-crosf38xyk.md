@@ -10,8 +10,8 @@ description: >-
   amenities. As a Cable Installation Technician, y...
 location: 'Rock Hill, SC'
 team: Commercial
-datePosted: '2024-12-27T17:24:31.195Z'
-validThrough: '2025-02-03T17:24:31.195Z'
+datePosted: '2025-01-21T14:26:10.582Z'
+validThrough: '2025-02-21T14:26:10.582Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

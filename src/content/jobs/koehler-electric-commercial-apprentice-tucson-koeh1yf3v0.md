@@ -10,8 +10,8 @@ description: >-
   journeyman electricians to learn the intricacies of comme...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-28T00:08:52.472Z'
-validThrough: '2025-02-11T00:08:52.472Z'
+datePosted: '2025-01-21T22:34:28.333Z'
+validThrough: '2025-03-01T22:34:28.333Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koehler Electric

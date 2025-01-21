@@ -10,8 +10,8 @@ description: >-
   part of a dynamic team, we'd love to ...
 location: 'Vacaville, CA'
 team: Industrial
-datePosted: '2024-12-27T17:32:47.649Z'
-validThrough: '2025-02-01T17:32:47.649Z'
+datePosted: '2025-01-21T20:40:27.274Z'
+validThrough: '2025-02-22T20:40:27.274Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

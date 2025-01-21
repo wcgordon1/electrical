@@ -10,8 +10,8 @@ description: >-
   termination, and testing of structured cablin...
 location: 'Macon, GA'
 team: Commercial
-datePosted: '2024-12-27T20:39:29.774Z'
-validThrough: '2025-01-27T20:39:29.774Z'
+datePosted: '2025-01-21T09:06:32.391Z'
+validThrough: '2025-02-21T09:06:32.391Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

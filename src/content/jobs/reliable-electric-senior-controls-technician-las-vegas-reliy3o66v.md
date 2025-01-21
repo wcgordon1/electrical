@@ -10,8 +10,8 @@ description: >-
   RSLogix 5000/Studio 5000, FactoryTalk View, Wo...
 location: 'Las Vegas, NV'
 team: Industrial
-datePosted: '2024-12-27T20:41:25.097Z'
-validThrough: '2025-01-30T20:41:25.097Z'
+datePosted: '2025-01-21T16:33:31.630Z'
+validThrough: '2025-02-24T16:33:31.630Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

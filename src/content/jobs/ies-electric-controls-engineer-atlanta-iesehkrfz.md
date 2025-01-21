@@ -16,8 +16,8 @@ description: >-
   This position...
 location: 'Atlanta, GA'
 team: Industrial
-datePosted: '2024-12-27T19:37:40.923Z'
-validThrough: '2025-02-06T19:37:40.923Z'
+datePosted: '2025-01-21T20:53:48.872Z'
+validThrough: '2025-03-05T20:53:48.872Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

@@ -10,8 +10,8 @@ description: >-
   environments. Get ready to elevate your career...
 location: 'Myrtle Beach, SC'
 team: Commercial
-datePosted: '2024-12-27T22:12:53.848Z'
-validThrough: '2025-01-31T22:12:53.848Z'
+datePosted: '2025-01-21T20:59:21.862Z'
+validThrough: '2025-03-02T20:59:21.862Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

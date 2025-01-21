@@ -10,8 +10,8 @@ description: >-
   experience in smart home systems, including lig...
 location: 'Little Rock, AR'
 team: Residential
-datePosted: '2024-12-27T20:43:15.824Z'
-validThrough: '2025-02-07T20:43:15.824Z'
+datePosted: '2025-01-21T11:55:14.695Z'
+validThrough: '2025-02-25T11:55:14.695Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

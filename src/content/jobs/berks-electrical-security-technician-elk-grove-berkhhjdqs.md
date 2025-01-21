@@ -15,8 +15,8 @@ description: >-
   - Install security cameras...
 location: 'Elk Grove, CA'
 team: Commercial
-datePosted: '2024-12-27T17:55:21.568Z'
-validThrough: '2025-02-04T17:55:21.568Z'
+datePosted: '2025-01-21T14:41:17.125Z'
+validThrough: '2025-02-20T14:41:17.125Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

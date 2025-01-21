@@ -10,8 +10,8 @@ description: >-
   invaluable skills in commercial electrical installation,...
 location: 'Jacksonville, FL'
 team: Commercial
-datePosted: '2024-12-28T01:20:31.959Z'
-validThrough: '2025-01-29T01:20:31.959Z'
+datePosted: '2025-01-21T11:56:37.526Z'
+validThrough: '2025-02-20T11:56:37.526Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

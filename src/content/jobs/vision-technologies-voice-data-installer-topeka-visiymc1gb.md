@@ -10,8 +10,8 @@ description: >-
   some local travel between job sites withi...
 location: 'Topeka, KS'
 team: Commercial
-datePosted: '2024-12-28T01:07:59.041Z'
-validThrough: '2025-01-30T01:07:59.041Z'
+datePosted: '2025-01-21T10:58:08.459Z'
+validThrough: '2025-03-05T10:58:08.459Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

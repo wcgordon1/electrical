@@ -10,8 +10,8 @@ description: >-
   Adelanto, giving you a diverse range of environment...
 location: 'Victorville, CA'
 team: Commercial
-datePosted: '2024-12-27T17:18:29.125Z'
-validThrough: '2025-01-30T17:18:29.125Z'
+datePosted: '2025-01-21T22:25:28.143Z'
+validThrough: '2025-02-24T22:25:28.143Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

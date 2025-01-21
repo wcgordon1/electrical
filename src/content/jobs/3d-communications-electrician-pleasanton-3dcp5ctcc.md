@@ -13,8 +13,8 @@ description: >-
   ## Qualifica...
 location: 'Pleasanton, CA'
 team: Industrial
-datePosted: '2024-12-28T03:11:28.342Z'
-validThrough: '2025-01-28T03:11:28.342Z'
+datePosted: '2025-01-21T14:57:51.333Z'
+validThrough: '2025-03-07T14:57:51.333Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

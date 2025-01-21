@@ -10,8 +10,8 @@ description: >-
   shares our commitment to top-not...
 location: 'Bismarck, ND'
 team: Industrial
-datePosted: '2024-12-28T04:56:28.243Z'
-validThrough: '2025-02-04T04:56:28.243Z'
+datePosted: '2025-01-21T10:07:54.838Z'
+validThrough: '2025-02-22T10:07:54.838Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

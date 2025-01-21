@@ -10,8 +10,8 @@ description: >-
   our clients' needs, contributing to a varie...
 location: 'Providence, RI'
 team: Commercial
-datePosted: '2024-12-28T01:10:05.437Z'
-validThrough: '2025-02-06T01:10:05.437Z'
+datePosted: '2025-01-21T16:23:10.583Z'
+validThrough: '2025-03-04T16:23:10.583Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

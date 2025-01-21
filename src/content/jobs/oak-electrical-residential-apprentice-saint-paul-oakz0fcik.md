@@ -10,8 +10,8 @@ description: >-
   highest level of service while embracing the latest ad...
 location: 'Saint Paul, MN'
 team: Residential
-datePosted: '2024-12-27T17:04:21.315Z'
-validThrough: '2025-01-31T17:04:21.315Z'
+datePosted: '2025-01-21T10:21:01.296Z'
+validThrough: '2025-02-20T10:21:01.296Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

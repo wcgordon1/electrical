@@ -10,8 +10,8 @@ description: >-
   electrical industry. As a Luxury Home Technology Special...
 location: 'Charlotte, NC'
 team: Residential
-datePosted: '2024-12-28T04:59:19.244Z'
-validThrough: '2025-01-30T04:59:19.244Z'
+datePosted: '2025-01-21T08:58:46.559Z'
+validThrough: '2025-02-21T08:58:46.559Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

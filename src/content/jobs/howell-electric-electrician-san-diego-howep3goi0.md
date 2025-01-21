@@ -10,8 +10,8 @@ description: >-
   dedicated individual eager to learn and contrib...
 location: 'San Diego, CA'
 team: Industrial
-datePosted: '2024-12-27T23:42:23.342Z'
-validThrough: '2025-02-06T23:42:23.342Z'
+datePosted: '2025-01-21T12:12:40.154Z'
+validThrough: '2025-03-07T12:12:40.154Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

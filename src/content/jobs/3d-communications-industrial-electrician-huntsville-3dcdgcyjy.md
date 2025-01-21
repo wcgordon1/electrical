@@ -13,8 +13,8 @@ description: >-
   ## Qualifications...
 location: 'Huntsville, AL'
 team: Industrial
-datePosted: '2024-12-27T21:26:46.844Z'
-validThrough: '2025-01-28T21:26:46.844Z'
+datePosted: '2025-01-21T14:06:17.571Z'
+validThrough: '2025-03-07T14:06:17.571Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

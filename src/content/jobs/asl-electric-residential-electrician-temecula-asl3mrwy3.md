@@ -10,8 +10,8 @@ description: >-
   manage home automation systems, lighting co...
 location: 'Temecula, CA'
 team: Residential
-datePosted: '2024-12-28T02:01:52.300Z'
-validThrough: '2025-02-05T02:01:52.300Z'
+datePosted: '2025-01-21T14:04:48.527Z'
+validThrough: '2025-03-06T14:04:48.527Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

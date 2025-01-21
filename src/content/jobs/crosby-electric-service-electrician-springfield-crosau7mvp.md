@@ -10,8 +10,8 @@ description: >-
   complex electrical issues in critical facilities like data center...
 location: 'Springfield, IL'
 team: Commercial
-datePosted: '2024-12-28T02:44:58.575Z'
-validThrough: '2025-02-01T02:44:58.575Z'
+datePosted: '2025-01-21T21:43:25.193Z'
+validThrough: '2025-02-23T21:43:25.193Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

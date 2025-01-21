@@ -10,8 +10,8 @@ description: >-
   you. We're seeking an energetic and motiv...
 location: 'Alexandria, VA'
 team: Commercial
-datePosted: '2024-12-27T20:36:44.114Z'
-validThrough: '2025-02-05T20:36:44.114Z'
+datePosted: '2025-01-21T22:44:35.039Z'
+validThrough: '2025-02-24T22:44:35.039Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

@@ -10,8 +10,8 @@ description: >-
   Manitowoc. As a primary technical resource, the Senior Servic...
 location: 'Green Bay, WI'
 team: Commercial
-datePosted: '2024-12-27T17:00:35.387Z'
-validThrough: '2025-02-01T17:00:35.387Z'
+datePosted: '2025-01-21T22:23:58.049Z'
+validThrough: '2025-02-25T22:23:58.049Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

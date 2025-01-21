@@ -15,8 +15,8 @@ description: >-
   - Diagnose electrical issues in both commercial an...
 location: 'Modesto, CA'
 team: Commercial
-datePosted: '2024-12-28T01:30:58.028Z'
-validThrough: '2025-02-03T01:30:58.028Z'
+datePosted: '2025-01-21T19:55:08.687Z'
+validThrough: '2025-02-28T19:55:08.687Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

@@ -10,8 +10,8 @@ description: >-
   opportunities for career growth and developme...
 location: 'Virginia Beach, VA'
 team: Commercial
-datePosted: '2024-12-27T22:53:00.576Z'
-validThrough: '2025-02-06T22:53:00.576Z'
+datePosted: '2025-01-21T18:50:15.674Z'
+validThrough: '2025-02-22T18:50:15.674Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

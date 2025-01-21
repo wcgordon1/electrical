@@ -10,8 +10,8 @@ description: >-
   eager to grow and lead, with a passion for innovati...
 location: 'Cheyenne, WY'
 team: Commercial
-datePosted: '2024-12-27T17:25:29.745Z'
-validThrough: '2025-01-27T17:25:29.745Z'
+datePosted: '2025-01-21T13:52:30.173Z'
+validThrough: '2025-03-07T13:52:30.173Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: JP Electric

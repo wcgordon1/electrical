@@ -10,8 +10,8 @@ description: >-
   Berks Electrical, we believe in fostering an environment w...
 location: 'Bakersfield, CA'
 team: Commercial
-datePosted: '2024-12-27T20:26:24.395Z'
-validThrough: '2025-02-06T20:26:24.395Z'
+datePosted: '2025-01-21T14:27:20.936Z'
+validThrough: '2025-02-28T14:27:20.936Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

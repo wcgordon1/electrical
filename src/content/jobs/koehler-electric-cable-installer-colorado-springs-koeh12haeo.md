@@ -14,8 +14,8 @@ description: >-
   Design and install structured cabling systems for data centers an...
 location: 'Colorado Springs, CO'
 team: Commercial
-datePosted: '2024-12-28T01:12:54.473Z'
-validThrough: '2025-02-05T01:12:54.473Z'
+datePosted: '2025-01-21T10:23:22.818Z'
+validThrough: '2025-02-27T10:23:22.818Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koehler Electric

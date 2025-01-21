@@ -14,8 +14,8 @@ description: >-
   Program and troubleshoot All...
 location: 'Minneapolis, MN'
 team: Industrial
-datePosted: '2024-12-27T17:44:58.980Z'
-validThrough: '2025-01-29T17:44:58.980Z'
+datePosted: '2025-01-21T21:08:21.881Z'
+validThrough: '2025-03-06T21:08:21.881Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

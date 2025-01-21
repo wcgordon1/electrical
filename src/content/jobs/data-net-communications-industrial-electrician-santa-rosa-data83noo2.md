@@ -10,8 +10,8 @@ description: >-
   require a dedicated professional to support our ongoing...
 location: 'Santa Rosa, CA'
 team: Industrial
-datePosted: '2024-12-28T04:11:14.261Z'
-validThrough: '2025-01-28T04:11:14.261Z'
+datePosted: '2025-01-21T18:12:36.913Z'
+validThrough: '2025-03-01T18:12:36.913Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

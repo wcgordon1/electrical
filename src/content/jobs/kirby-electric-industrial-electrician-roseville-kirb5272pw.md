@@ -10,8 +10,8 @@ description: >-
   manufacturing systems and industrial ...
 location: 'Roseville, CA'
 team: Industrial
-datePosted: '2024-12-27T21:43:57.825Z'
-validThrough: '2025-02-07T21:43:57.825Z'
+datePosted: '2025-01-21T13:20:46.204Z'
+validThrough: '2025-02-25T13:20:46.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

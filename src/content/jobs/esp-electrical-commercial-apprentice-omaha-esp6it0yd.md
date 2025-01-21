@@ -10,8 +10,8 @@ description: >-
   commercial electrical installation, focusing ...
 location: 'Omaha, NE'
 team: Commercial
-datePosted: '2024-12-27T23:39:17.790Z'
-validThrough: '2025-02-08T23:39:17.790Z'
+datePosted: '2025-01-21T08:45:11.500Z'
+validThrough: '2025-03-07T08:45:11.500Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ESP Electrical

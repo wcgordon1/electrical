@@ -10,8 +10,8 @@ description: >-
   advanced troubleshooting techniques, all while workin...
 location: 'San Marcos, CA'
 team: Residential
-datePosted: '2024-12-27T20:33:41.492Z'
-validThrough: '2025-02-07T20:33:41.492Z'
+datePosted: '2025-01-21T13:42:33.812Z'
+validThrough: '2025-02-20T13:42:33.812Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

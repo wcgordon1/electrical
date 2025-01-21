@@ -10,8 +10,8 @@ description: >-
   such as Durham, Chapel Hill, and Cary. As a part of our ...
 location: 'Raleigh, NC'
 team: Commercial
-datePosted: '2024-12-27T23:47:47.485Z'
-validThrough: '2025-02-09T23:47:47.485Z'
+datePosted: '2025-01-21T12:57:45.610Z'
+validThrough: '2025-02-27T12:57:45.610Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: DP Electric

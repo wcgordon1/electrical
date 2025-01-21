@@ -13,8 +13,8 @@ description: >-
   ## Req...
 location: 'Cincinnati, OH'
 team: Industrial
-datePosted: '2024-12-27T21:48:48.361Z'
-validThrough: '2025-02-09T21:48:48.361Z'
+datePosted: '2025-01-21T09:23:00.269Z'
+validThrough: '2025-03-01T09:23:00.269Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

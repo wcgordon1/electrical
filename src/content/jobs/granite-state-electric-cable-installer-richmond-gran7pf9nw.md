@@ -10,8 +10,8 @@ description: >-
   levels of efficiency and reliability....
 location: 'Richmond, VA'
 team: Commercial
-datePosted: '2024-12-27T20:24:26.522Z'
-validThrough: '2025-02-07T20:24:26.522Z'
+datePosted: '2025-01-21T17:36:04.207Z'
+validThrough: '2025-02-21T17:36:04.207Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

@@ -10,8 +10,8 @@ description: >-
   team that values safety, efficiency, an...
 location: 'Davis, CA'
 team: Industrial
-datePosted: '2024-12-27T19:32:08.801Z'
-validThrough: '2025-02-01T19:32:08.801Z'
+datePosted: '2025-01-21T13:41:54.554Z'
+validThrough: '2025-03-02T13:41:54.554Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

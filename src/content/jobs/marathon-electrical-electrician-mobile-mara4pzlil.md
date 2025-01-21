@@ -10,8 +10,8 @@ description: >-
   individual who is eager to grow the...
 location: 'Mobile, AL'
 team: Industrial
-datePosted: '2024-12-27T22:12:02.675Z'
-validThrough: '2025-02-01T22:12:02.675Z'
+datePosted: '2025-01-21T12:29:27.107Z'
+validThrough: '2025-02-21T12:29:27.107Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Marathon Electrical

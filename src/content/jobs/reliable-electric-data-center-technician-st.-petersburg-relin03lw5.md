@@ -18,8 +18,8 @@ description: >-
   - Run st...
 location: 'St. Petersburg, FL'
 team: Data Center
-datePosted: '2024-12-27T19:25:41.126Z'
-validThrough: '2025-02-10T19:25:41.126Z'
+datePosted: '2025-01-21T17:45:00.567Z'
+validThrough: '2025-02-26T17:45:00.567Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

@@ -16,8 +16,8 @@ description: >-
   cab...
 location: 'Wilmington, DE'
 team: Commercial
-datePosted: '2024-12-27T20:17:06.130Z'
-validThrough: '2025-02-09T20:17:06.130Z'
+datePosted: '2025-01-21T12:40:02.461Z'
+validThrough: '2025-03-01T12:40:02.461Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Dodge Electric

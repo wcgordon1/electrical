@@ -10,8 +10,8 @@ description: >-
   maintained to the highest standards. As part of our team...
 location: 'Athens, GA'
 team: Commercial
-datePosted: '2024-12-27T18:27:56.648Z'
-validThrough: '2025-02-02T18:27:56.648Z'
+datePosted: '2025-01-21T22:00:41.096Z'
+validThrough: '2025-02-23T22:00:41.096Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

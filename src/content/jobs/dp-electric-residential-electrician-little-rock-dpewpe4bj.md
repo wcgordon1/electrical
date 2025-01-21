@@ -10,8 +10,8 @@ description: >-
   professionalism and expertise are paramount. As part of our team, you...
 location: 'Little Rock, AR'
 team: Residential
-datePosted: '2024-12-27T21:24:14.728Z'
-validThrough: '2025-02-08T21:24:14.728Z'
+datePosted: '2025-01-21T19:22:37.567Z'
+validThrough: '2025-02-25T19:22:37.567Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: DP Electric

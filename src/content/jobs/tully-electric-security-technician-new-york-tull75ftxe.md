@@ -10,8 +10,8 @@ description: >-
   technology, from video surveillance to access contr...
 location: 'New York, NY'
 team: Commercial
-datePosted: '2024-12-28T02:14:35.769Z'
-validThrough: '2025-02-01T02:14:35.769Z'
+datePosted: '2025-01-21T20:21:19.392Z'
+validThrough: '2025-02-22T20:21:19.392Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tully Electric

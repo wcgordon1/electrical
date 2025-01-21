@@ -10,8 +10,8 @@ description: >-
   Park. If you're passionate about diagn...
 location: 'Orlando, FL'
 team: Commercial
-datePosted: '2024-12-28T05:08:02.730Z'
-validThrough: '2025-01-30T05:08:02.730Z'
+datePosted: '2025-01-21T17:14:34.747Z'
+validThrough: '2025-02-27T17:14:34.747Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Advantage Electric

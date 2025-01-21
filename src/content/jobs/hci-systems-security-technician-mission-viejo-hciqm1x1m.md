@@ -10,8 +10,8 @@ description: >-
   our team, you will play a crucial role in ensuring the ...
 location: 'Mission Viejo, CA'
 team: Commercial
-datePosted: '2024-12-27T17:14:38.528Z'
-validThrough: '2025-01-28T17:14:38.528Z'
+datePosted: '2025-01-21T13:31:13.954Z'
+validThrough: '2025-03-07T13:31:13.954Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

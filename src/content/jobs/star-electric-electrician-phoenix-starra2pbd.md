@@ -10,8 +10,8 @@ description: >-
   you will engage in the installation and maintena...
 location: 'Phoenix, AZ'
 team: Industrial
-datePosted: '2024-12-27T19:01:39.038Z'
-validThrough: '2025-01-27T19:01:39.038Z'
+datePosted: '2025-01-21T14:39:08.424Z'
+validThrough: '2025-02-28T14:39:08.424Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

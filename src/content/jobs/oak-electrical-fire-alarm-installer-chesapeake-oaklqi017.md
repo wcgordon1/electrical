@@ -15,8 +15,8 @@ description: >-
   a solid understanding of in...
 location: 'Chesapeake, VA'
 team: Commercial
-datePosted: '2024-12-28T01:40:27.799Z'
-validThrough: '2025-01-29T01:40:27.799Z'
+datePosted: '2025-01-21T21:13:37.403Z'
+validThrough: '2025-03-03T21:13:37.403Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

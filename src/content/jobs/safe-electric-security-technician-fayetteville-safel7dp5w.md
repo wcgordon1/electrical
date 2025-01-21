@@ -10,8 +10,8 @@ description: >-
   If you're ready to bring your expertise in...
 location: 'Fayetteville, AR'
 team: Commercial
-datePosted: '2024-12-28T01:21:29.030Z'
-validThrough: '2025-01-31T01:21:29.030Z'
+datePosted: '2025-01-21T21:15:06.133Z'
+validThrough: '2025-03-06T21:15:06.133Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe Electric
