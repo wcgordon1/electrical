@@ -20,8 +20,8 @@ description: >-
   ...
 location: 'Avondale, AZ'
 team: Data Center
-datePosted: '2024-12-27T13:57:54.452Z'
-validThrough: '2025-02-09T13:57:54.452Z'
+datePosted: '2025-01-21T08:23:39.046Z'
+validThrough: '2025-02-22T08:23:39.046Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

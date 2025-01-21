@@ -10,8 +10,8 @@ description: >-
   our clients across the region. This position is ideal ...
 location: 'Hartford, CT'
 team: Commercial
-datePosted: '2024-12-27T08:06:11.642Z'
-validThrough: '2025-02-03T08:06:11.642Z'
+datePosted: '2025-01-21T08:16:19.850Z'
+validThrough: '2025-03-04T08:16:19.850Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

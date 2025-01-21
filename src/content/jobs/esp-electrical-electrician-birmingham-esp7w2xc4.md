@@ -14,8 +14,8 @@ description: >-
   You'll be diving into task...
 location: 'Birmingham, AL'
 team: Industrial
-datePosted: '2024-12-27T13:00:29.890Z'
-validThrough: '2025-01-31T13:00:29.890Z'
+datePosted: '2025-01-21T08:21:47.745Z'
+validThrough: '2025-02-23T08:21:47.745Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ESP Electrical

@@ -12,8 +12,8 @@ description: >-
   ...
 location: 'Jackson, WY'
 team: Commercial
-datePosted: '2024-12-27T11:43:03.116Z'
-validThrough: '2025-02-06T11:43:03.116Z'
+datePosted: '2025-01-21T08:48:36.443Z'
+validThrough: '2025-02-27T08:48:36.443Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Eskew Electric

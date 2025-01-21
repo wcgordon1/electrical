@@ -14,8 +14,8 @@ description: >-
   - Install commercial electri...
 location: 'New Orleans, LA'
 team: Commercial
-datePosted: '2024-12-27T09:48:02.591Z'
-validThrough: '2025-02-04T09:48:02.591Z'
+datePosted: '2025-01-21T08:01:55.757Z'
+validThrough: '2025-03-07T08:01:55.757Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

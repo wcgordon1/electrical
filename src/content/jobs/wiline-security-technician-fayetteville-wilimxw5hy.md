@@ -10,8 +10,8 @@ description: >-
   VMS platforms. This role requires local travel...
 location: 'Fayetteville, AR'
 team: Commercial
-datePosted: '2024-12-27T09:36:04.901Z'
-validThrough: '2025-02-07T09:36:04.901Z'
+datePosted: '2025-01-21T08:01:23.067Z'
+validThrough: '2025-03-02T08:01:23.067Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

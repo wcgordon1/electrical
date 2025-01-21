@@ -10,8 +10,8 @@ description: >-
   neighboring cities like Dublin, Westerville...
 location: 'Columbus, OH'
 team: Industrial
-datePosted: '2024-12-27T09:09:12.433Z'
-validThrough: '2025-02-02T09:09:12.433Z'
+datePosted: '2025-01-21T08:16:59.007Z'
+validThrough: '2025-02-25T08:16:59.007Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

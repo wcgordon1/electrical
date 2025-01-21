@@ -14,8 +14,8 @@ description: >-
   - Install and terminate CAT5e/CAT6/CAT...
 location: 'Albuquerque, NM'
 team: Commercial
-datePosted: '2024-12-27T15:44:53.026Z'
-validThrough: '2025-01-27T15:44:53.026Z'
+datePosted: '2025-01-21T08:47:47.510Z'
+validThrough: '2025-03-02T08:47:47.510Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

@@ -19,8 +19,8 @@ description: >-
   Burbank, CA. The successful candidate will be responsible for installing...
 location: 'Burbank, CA'
 team: Data Center
-datePosted: '2024-12-27T16:37:52.926Z'
-validThrough: '2025-01-28T16:37:52.926Z'
+datePosted: '2025-01-21T08:50:17.214Z'
+validThrough: '2025-02-26T08:50:17.214Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

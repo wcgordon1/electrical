@@ -10,8 +10,8 @@ description: >-
   while maintaining a strong ability to work co...
 location: 'Folsom, CA'
 team: Commercial
-datePosted: '2024-12-27T09:23:35.552Z'
-validThrough: '2025-02-06T09:23:35.552Z'
+datePosted: '2025-01-21T08:51:49.696Z'
+validThrough: '2025-03-04T08:51:49.696Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

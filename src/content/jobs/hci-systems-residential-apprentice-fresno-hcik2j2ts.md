@@ -10,8 +10,8 @@ description: >-
   while making your mark on the future of resid...
 location: 'Fresno, CA'
 team: Residential
-datePosted: '2024-12-27T13:57:24.173Z'
-validThrough: '2025-02-08T13:57:24.173Z'
+datePosted: '2025-01-21T08:43:12.548Z'
+validThrough: '2025-02-26T08:43:12.548Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

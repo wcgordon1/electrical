@@ -17,8 +17,8 @@ description: >-
   - Experienc...
 location: 'Lubbock, TX'
 team: Commercial
-datePosted: '2024-12-27T12:51:13.183Z'
-validThrough: '2025-01-31T12:51:13.183Z'
+datePosted: '2025-01-21T08:13:32.668Z'
+validThrough: '2025-02-23T08:13:32.668Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

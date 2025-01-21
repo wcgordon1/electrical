@@ -10,8 +10,8 @@ description: >-
   systems are running smoothly, with a splash of c...
 location: 'State College, PA'
 team: Commercial
-datePosted: '2024-12-27T15:46:30.101Z'
-validThrough: '2025-02-04T15:46:30.101Z'
+datePosted: '2025-01-21T08:52:57.565Z'
+validThrough: '2025-02-22T08:52:57.565Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

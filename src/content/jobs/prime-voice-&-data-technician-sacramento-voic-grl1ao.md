@@ -23,8 +23,8 @@ description: >-
   voice and data systems in commercial settings...
 location: 'Sacramento, CA'
 team: Data Center
-datePosted: '2024-12-27T11:24:31.452Z'
-validThrough: '2025-02-07T11:24:31.452Z'
+datePosted: '2025-01-21T08:45:14.602Z'
+validThrough: '2025-03-05T08:45:14.602Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

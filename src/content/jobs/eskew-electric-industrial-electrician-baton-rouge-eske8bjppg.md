@@ -14,8 +14,8 @@ description: >-
   In this role, you'll be diving into p...
 location: 'Baton Rouge, LA'
 team: Industrial
-datePosted: '2024-12-27T09:50:02.378Z'
-validThrough: '2025-01-27T09:50:02.378Z'
+datePosted: '2025-01-21T08:56:09.402Z'
+validThrough: '2025-03-05T08:56:09.402Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Eskew Electric

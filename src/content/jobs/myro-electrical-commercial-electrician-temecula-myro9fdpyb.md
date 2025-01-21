@@ -10,8 +10,8 @@ description: >-
   We're all about quality and teamwork, and we...
 location: 'Temecula, CA'
 team: Commercial
-datePosted: '2024-12-27T14:40:30.634Z'
-validThrough: '2025-01-29T14:40:30.634Z'
+datePosted: '2025-01-21T08:38:36.477Z'
+validThrough: '2025-03-03T08:38:36.477Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

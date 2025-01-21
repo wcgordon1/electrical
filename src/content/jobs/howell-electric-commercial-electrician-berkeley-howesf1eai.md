@@ -15,8 +15,8 @@ description: >-
   - Install electrical systems in new commercial construction ...
 location: 'Berkeley, CA'
 team: Commercial
-datePosted: '2024-12-27T14:14:35.279Z'
-validThrough: '2025-02-05T14:14:35.279Z'
+datePosted: '2025-01-21T08:23:57.184Z'
+validThrough: '2025-02-27T08:23:57.184Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric

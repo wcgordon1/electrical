@@ -38,8 +38,8 @@ benefits:
   - 401k Match
   - Performance Bonuses
   - Tool Allowance
-datePosted: '2024-12-27T12:51:56.520Z'
-validThrough: '2025-02-05T12:51:56.520Z'
+datePosted: '2025-01-21T08:43:09.530Z'
+validThrough: '2025-02-23T08:43:09.530Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

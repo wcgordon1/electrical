@@ -13,8 +13,8 @@ description: >-
   ...
 location: 'Pueblo, CO'
 team: Commercial
-datePosted: '2024-12-27T13:31:37.599Z'
-validThrough: '2025-02-09T13:31:37.599Z'
+datePosted: '2025-01-21T08:25:54.505Z'
+validThrough: '2025-02-21T08:25:54.505Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

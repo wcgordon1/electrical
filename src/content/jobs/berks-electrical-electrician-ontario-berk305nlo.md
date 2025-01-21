@@ -10,8 +10,8 @@ description: >-
   in electrical systems within industrial se...
 location: 'Ontario, CA'
 team: Industrial
-datePosted: '2024-12-27T07:52:00.177Z'
-validThrough: '2025-02-04T07:52:00.177Z'
+datePosted: '2025-01-21T08:18:30.048Z'
+validThrough: '2025-02-26T08:18:30.048Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

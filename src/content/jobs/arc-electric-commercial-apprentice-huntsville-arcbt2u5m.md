@@ -10,8 +10,8 @@ description: >-
   journeyman electricians. Located in northern Al...
 location: 'Huntsville, AL'
 team: Commercial
-datePosted: '2024-12-27T14:16:43.502Z'
-validThrough: '2025-02-03T14:16:43.502Z'
+datePosted: '2025-01-21T08:25:14.213Z'
+validThrough: '2025-03-03T08:25:14.213Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Arc Electric

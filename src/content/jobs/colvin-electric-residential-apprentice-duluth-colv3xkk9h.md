@@ -10,8 +10,8 @@ description: >-
   Residential Apprentice, you'll be at the f...
 location: 'Duluth, MN'
 team: Residential
-datePosted: '2024-12-27T14:56:20.503Z'
-validThrough: '2025-02-05T14:56:20.503Z'
+datePosted: '2025-01-21T08:19:25.043Z'
+validThrough: '2025-03-02T08:19:25.043Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Colvin Electric

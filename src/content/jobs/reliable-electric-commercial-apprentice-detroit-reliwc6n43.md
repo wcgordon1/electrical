@@ -10,8 +10,8 @@ description: >-
   in commercial electrical installati...
 location: 'Detroit, MI'
 team: Commercial
-datePosted: '2024-12-27T12:35:40.953Z'
-validThrough: '2025-01-27T12:35:40.953Z'
+datePosted: '2025-01-21T08:40:18.985Z'
+validThrough: '2025-02-25T08:40:18.985Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

@@ -10,8 +10,8 @@ description: >-
   residential electrical systems, including smart home ...
 location: 'Fargo, ND'
 team: Residential
-datePosted: '2024-12-27T14:11:39.311Z'
-validThrough: '2025-01-31T14:11:39.311Z'
+datePosted: '2025-01-21T08:17:04.384Z'
+validThrough: '2025-03-06T08:17:04.384Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

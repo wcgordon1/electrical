@@ -10,8 +10,8 @@ description: >-
   about contributing to projects that make a differen...
 location: 'Montpelier, VT'
 team: Commercial
-datePosted: '2024-12-27T10:41:16.632Z'
-validThrough: '2025-01-30T10:41:16.632Z'
+datePosted: '2025-01-21T09:02:38.852Z'
+validThrough: '2025-02-21T09:02:38.852Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

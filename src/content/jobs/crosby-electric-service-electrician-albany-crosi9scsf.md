@@ -10,8 +10,8 @@ description: >-
   thrives in a dynamic environment and loves solving co...
 location: 'Albany, NY'
 team: Commercial
-datePosted: '2024-12-27T14:20:07.643Z'
-validThrough: '2025-02-07T14:20:07.643Z'
+datePosted: '2025-01-21T08:43:29.050Z'
+validThrough: '2025-02-26T08:43:29.050Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

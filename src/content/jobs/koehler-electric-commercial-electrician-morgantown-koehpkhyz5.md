@@ -10,8 +10,8 @@ description: >-
   of project opportunities. As a key player in t...
 location: 'Morgantown, WV'
 team: Commercial
-datePosted: '2024-12-27T15:40:54.563Z'
-validThrough: '2025-02-08T15:40:54.563Z'
+datePosted: '2025-01-21T08:24:38.697Z'
+validThrough: '2025-02-21T08:24:38.697Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Koehler Electric

@@ -18,8 +18,8 @@ description: >-
   - 1-3 years of experi...
 location: 'Washington, DC'
 team: Industrial
-datePosted: '2024-12-27T09:20:26.990Z'
-validThrough: '2025-01-30T09:20:26.990Z'
+datePosted: '2025-01-21T08:20:48.972Z'
+validThrough: '2025-03-01T08:20:48.972Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

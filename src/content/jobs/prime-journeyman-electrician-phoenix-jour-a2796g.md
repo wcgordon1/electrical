@@ -19,8 +19,8 @@ description: >-
   electrical issues...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-27T11:20:15.549Z'
-validThrough: '2025-02-10T11:20:15.549Z'
+datePosted: '2025-01-21T08:34:29.146Z'
+validThrough: '2025-02-27T08:34:29.146Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -10,8 +10,8 @@ description: >-
   The candidate must be familiar with ind...
 location: 'Kansas City, MO'
 team: Industrial
-datePosted: '2024-12-27T10:33:58.955Z'
-validThrough: '2025-02-09T10:33:58.955Z'
+datePosted: '2025-01-21T08:45:34.227Z'
+validThrough: '2025-02-27T08:45:34.227Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

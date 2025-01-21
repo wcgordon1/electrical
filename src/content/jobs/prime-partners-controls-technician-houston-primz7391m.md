@@ -15,8 +15,8 @@ description: >-
   Woodlands, and B...
 location: 'Houston, TX'
 team: Industrial
-datePosted: '2024-12-27T07:32:38.824Z'
-validThrough: '2025-02-08T07:32:38.824Z'
+datePosted: '2025-01-21T08:39:40.970Z'
+validThrough: '2025-02-21T08:39:40.970Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

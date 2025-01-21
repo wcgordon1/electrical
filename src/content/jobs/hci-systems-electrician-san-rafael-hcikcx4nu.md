@@ -10,8 +10,8 @@ description: >-
   learn, grow, and contribute to our success in a suppor...
 location: 'San Rafael, CA'
 team: Industrial
-datePosted: '2024-12-27T11:21:38.080Z'
-validThrough: '2025-01-30T11:21:38.080Z'
+datePosted: '2025-01-21T08:29:52.116Z'
+validThrough: '2025-03-01T08:29:52.116Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

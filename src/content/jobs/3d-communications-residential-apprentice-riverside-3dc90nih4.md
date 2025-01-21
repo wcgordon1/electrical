@@ -10,8 +10,8 @@ description: >-
   you'll get to experience the satisfaction of seei...
 location: 'Riverside, CA'
 team: Residential
-datePosted: '2024-12-27T14:18:15.521Z'
-validThrough: '2025-02-09T14:18:15.521Z'
+datePosted: '2025-01-21T08:05:27.756Z'
+validThrough: '2025-03-07T08:05:27.756Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

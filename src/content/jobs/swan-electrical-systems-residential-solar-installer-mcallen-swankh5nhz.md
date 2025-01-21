@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'McAllen, TX'
 team: Solar
-datePosted: '2024-12-27T12:15:54.090Z'
-validThrough: '2025-01-29T12:15:54.090Z'
+datePosted: '2025-01-21T08:54:44.107Z'
+validThrough: '2025-02-22T08:54:44.107Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Swan Electrical Systems

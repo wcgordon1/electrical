@@ -10,8 +10,8 @@ description: >-
   as Phenix City, Auburn, and LaGrange receive...
 location: 'Columbus, GA'
 team: Commercial
-datePosted: '2024-12-27T16:32:58.573Z'
-validThrough: '2025-02-05T16:32:58.573Z'
+datePosted: '2025-01-21T08:21:52.410Z'
+validThrough: '2025-03-03T08:21:52.410Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

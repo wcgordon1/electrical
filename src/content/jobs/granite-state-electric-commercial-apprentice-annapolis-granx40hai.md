@@ -10,8 +10,8 @@ description: >-
   experience with new construction and tenant ...
 location: 'Annapolis, MD'
 team: Commercial
-datePosted: '2024-12-27T10:28:09.265Z'
-validThrough: '2025-02-04T10:28:09.265Z'
+datePosted: '2025-01-21T09:02:59.257Z'
+validThrough: '2025-02-28T09:02:59.257Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

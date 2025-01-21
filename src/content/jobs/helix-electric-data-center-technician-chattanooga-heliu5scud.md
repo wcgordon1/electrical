@@ -10,8 +10,8 @@ description: >-
   cooling systems, and rack infrastructure n...
 location: 'Chattanooga, TN'
 team: Data Center
-datePosted: '2024-12-27T14:37:57.710Z'
-validThrough: '2025-01-30T14:37:57.710Z'
+datePosted: '2025-01-21T08:08:35.953Z'
+validThrough: '2025-03-06T08:08:35.953Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

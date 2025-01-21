@@ -10,8 +10,8 @@ description: >-
   top-tier electrical services to vital...
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-27T12:54:50.481Z'
-validThrough: '2025-02-07T12:54:50.481Z'
+datePosted: '2025-01-21T08:29:45.894Z'
+validThrough: '2025-02-24T08:29:45.894Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

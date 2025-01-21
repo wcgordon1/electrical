@@ -26,8 +26,8 @@ description: >-
   1. Install, maintain, and repa...
 location: 'Peoria, AZ'
 team: Data Center
-datePosted: '2024-12-27T13:45:00.933Z'
-validThrough: '2025-02-05T13:45:00.933Z'
+datePosted: '2025-01-21T08:00:09.703Z'
+validThrough: '2025-03-02T08:00:09.703Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

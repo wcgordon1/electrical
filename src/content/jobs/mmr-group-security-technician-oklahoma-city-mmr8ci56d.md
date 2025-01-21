@@ -10,8 +10,8 @@ description: >-
   to work on cutting-edge projects that re...
 location: 'Oklahoma City, OK'
 team: Commercial
-datePosted: '2024-12-27T10:08:15.337Z'
-validThrough: '2025-02-09T10:08:15.337Z'
+datePosted: '2025-01-21T08:23:37.767Z'
+validThrough: '2025-02-25T08:23:37.767Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

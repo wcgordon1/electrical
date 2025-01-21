@@ -10,8 +10,8 @@ description: >-
   reliability of our systems and supporti...
 location: 'Savannah, GA'
 team: Industrial
-datePosted: '2024-12-27T12:21:20.517Z'
-validThrough: '2025-02-05T12:21:20.517Z'
+datePosted: '2025-01-21T08:08:56.042Z'
+validThrough: '2025-02-21T08:08:56.042Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

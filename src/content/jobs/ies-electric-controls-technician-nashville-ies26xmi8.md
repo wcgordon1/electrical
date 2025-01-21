@@ -10,8 +10,8 @@ description: >-
   commissioning. This position is not just about having ...
 location: 'Nashville, TN'
 team: Industrial
-datePosted: '2024-12-27T11:27:44.122Z'
-validThrough: '2025-01-28T11:27:44.122Z'
+datePosted: '2025-01-21T08:54:22.845Z'
+validThrough: '2025-02-22T08:54:22.845Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: IES Electric

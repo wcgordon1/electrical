@@ -21,8 +21,8 @@ description: >-
   existing fire alarm s...
 location: 'Glendale, CA'
 team: Commercial
-datePosted: '2024-12-27T16:14:37.755Z'
-validThrough: '2025-02-03T16:14:37.755Z'
+datePosted: '2025-01-21T08:34:06.829Z'
+validThrough: '2025-03-06T08:34:06.829Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

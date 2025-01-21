@@ -10,8 +10,8 @@ description: >-
   learning cutting-edge home automation syste...
 location: 'Livermore, CA'
 team: Residential
-datePosted: '2024-12-27T07:37:42.468Z'
-validThrough: '2025-01-30T07:37:42.468Z'
+datePosted: '2025-01-21T08:53:50.377Z'
+validThrough: '2025-02-22T08:53:50.377Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Access Cabling

@@ -15,8 +15,8 @@ description: >-
   Design and implement...
 location: 'Philadelphia, PA'
 team: Commercial
-datePosted: '2024-12-27T10:13:19.868Z'
-validThrough: '2025-02-04T10:13:19.868Z'
+datePosted: '2025-01-21T08:51:05.672Z'
+validThrough: '2025-02-21T08:51:05.672Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

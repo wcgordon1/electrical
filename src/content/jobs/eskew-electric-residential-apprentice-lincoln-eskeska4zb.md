@@ -10,8 +10,8 @@ description: >-
   alongside experienced electrician...
 location: 'Lincoln, NE'
 team: Residential
-datePosted: '2024-12-27T11:27:17.988Z'
-validThrough: '2025-01-31T11:27:17.988Z'
+datePosted: '2025-01-21T08:39:33.307Z'
+validThrough: '2025-03-06T08:39:33.307Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Eskew Electric

@@ -21,8 +21,8 @@ description: >-
   electrician with broad knowledge of electri...
 location: 'Palmdale, CA'
 team: Commercial
-datePosted: '2024-12-27T14:41:02.647Z'
-validThrough: '2025-01-26T14:41:02.647Z'
+datePosted: '2025-01-21T08:30:56.658Z'
+validThrough: '2025-02-23T08:30:56.658Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

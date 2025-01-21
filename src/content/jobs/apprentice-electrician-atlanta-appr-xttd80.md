@@ -69,8 +69,8 @@ description: >-
   hear from you.
 location: 'Atlanta, GA'
 team: Commercial
-datePosted: '2024-12-27T08:02:20.156Z'
-validThrough: '2025-01-27T08:02:20.156Z'
+datePosted: '2025-01-21T08:13:13.663Z'
+validThrough: '2025-02-21T08:13:13.663Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

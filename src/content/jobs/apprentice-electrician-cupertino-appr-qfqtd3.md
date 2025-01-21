@@ -85,8 +85,8 @@ description: >-
   you are driven, dedicated, and have the skills, we invite you to apply.
 location: 'Cupertino, CA'
 team: Residential
-datePosted: '2024-12-27T09:23:55.252Z'
-validThrough: '2025-02-06T09:23:55.252Z'
+datePosted: '2025-01-21T08:25:26.146Z'
+validThrough: '2025-02-28T08:25:26.146Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

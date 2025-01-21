@@ -10,8 +10,8 @@ description: >-
   multi-million dollar residences. Work involves afte...
 location: 'Houston, TX'
 team: Residential
-datePosted: '2024-12-27T16:30:36.470Z'
-validThrough: '2025-02-10T16:30:36.470Z'
+datePosted: '2025-01-21T08:18:08.848Z'
+validThrough: '2025-03-03T08:18:08.848Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -15,8 +15,8 @@ description: >-
   We're looking for someone with a solid understanding of IP ...
 location: 'Asheville, NC'
 team: Commercial
-datePosted: '2024-12-27T11:29:45.928Z'
-validThrough: '2025-01-29T11:29:45.928Z'
+datePosted: '2025-01-21T08:16:41.060Z'
+validThrough: '2025-02-20T08:16:41.060Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

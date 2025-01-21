@@ -10,8 +10,8 @@ description: >-
   that will allow you to broaden your horizons....
 location: 'Glendale, AZ'
 team: Industrial
-datePosted: '2024-12-27T14:44:31.594Z'
-validThrough: '2025-02-05T14:44:31.594Z'
+datePosted: '2025-01-21T08:52:52.156Z'
+validThrough: '2025-03-01T08:52:52.156Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

@@ -10,8 +10,8 @@ description: >-
   professional journey and make a tangible imp...
 location: 'Chicago, IL'
 team: Commercial
-datePosted: '2024-12-27T15:27:23.461Z'
-validThrough: '2025-01-29T15:27:23.461Z'
+datePosted: '2025-01-21T08:06:40.436Z'
+validThrough: '2025-03-05T08:06:40.436Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Dodge Electric

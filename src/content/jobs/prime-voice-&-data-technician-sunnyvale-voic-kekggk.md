@@ -24,8 +24,8 @@ description: >-
   1. Installation, testing, and troubleshoo...
 location: 'Sunnyvale, CA'
 team: Commercial
-datePosted: '2024-12-27T10:31:23.151Z'
-validThrough: '2025-02-07T10:31:23.151Z'
+datePosted: '2025-01-21T08:56:40.079Z'
+validThrough: '2025-02-22T08:56:40.079Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

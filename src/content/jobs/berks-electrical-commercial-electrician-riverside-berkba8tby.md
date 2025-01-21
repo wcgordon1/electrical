@@ -18,8 +18,8 @@ description: >-
   - Read and...
 location: 'Riverside, CA'
 team: Commercial
-datePosted: '2024-12-27T11:53:27.150Z'
-validThrough: '2025-02-09T11:53:27.150Z'
+datePosted: '2025-01-21T08:07:38.587Z'
+validThrough: '2025-03-05T08:07:38.587Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

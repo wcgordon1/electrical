@@ -10,8 +10,8 @@ description: >-
   candidate will work in active manufacturing ...
 location: 'Buffalo, NY'
 team: Industrial
-datePosted: '2024-12-27T14:58:55.395Z'
-validThrough: '2025-01-28T14:58:55.395Z'
+datePosted: '2025-01-21T08:51:44.583Z'
+validThrough: '2025-03-06T08:51:44.583Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: JP Electric

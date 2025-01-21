@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Miami, FL'
 team: Industrial
-datePosted: '2024-12-27T12:32:27.418Z'
-validThrough: '2025-02-08T12:32:27.418Z'
+datePosted: '2025-01-21T08:13:17.232Z'
+validThrough: '2025-02-20T08:13:17.232Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Advantage Electric

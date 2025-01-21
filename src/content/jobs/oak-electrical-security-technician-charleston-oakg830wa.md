@@ -10,8 +10,8 @@ description: >-
   control, and intrusion detection systems. You'll be part of...
 location: 'Charleston, WV'
 team: Commercial
-datePosted: '2024-12-27T10:49:28.610Z'
-validThrough: '2025-02-09T10:49:28.610Z'
+datePosted: '2025-01-21T09:01:07.388Z'
+validThrough: '2025-03-04T09:01:07.388Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

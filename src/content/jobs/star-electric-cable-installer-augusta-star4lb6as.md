@@ -10,8 +10,8 @@ description: >-
   separation. Join our team to ensure the seamless operation of hi...
 location: 'Augusta, GA'
 team: Commercial
-datePosted: '2024-12-27T13:04:44.083Z'
-validThrough: '2025-02-02T13:04:44.083Z'
+datePosted: '2025-01-21T08:49:55.084Z'
+validThrough: '2025-02-24T08:49:55.084Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

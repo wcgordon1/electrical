@@ -10,8 +10,8 @@ description: >-
   lighting systems, and life safety,...
 location: 'Indianapolis, IN'
 team: Commercial
-datePosted: '2024-12-27T14:54:12.592Z'
-validThrough: '2025-02-02T14:54:12.592Z'
+datePosted: '2025-01-21T08:56:24.387Z'
+validThrough: '2025-03-02T08:56:24.387Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ESP Electrical

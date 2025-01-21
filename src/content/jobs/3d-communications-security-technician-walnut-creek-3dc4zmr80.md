@@ -10,8 +10,8 @@ description: >-
   individuals eager to make a difference in the world of l...
 location: 'Walnut Creek, CA'
 team: Commercial
-datePosted: '2024-12-27T15:19:34.380Z'
-validThrough: '2025-02-01T15:19:34.380Z'
+datePosted: '2025-01-21T08:49:41.519Z'
+validThrough: '2025-02-25T08:49:41.519Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

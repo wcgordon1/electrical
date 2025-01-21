@@ -10,8 +10,8 @@ description: >-
   life safety. Candidates must be enroll...
 location: 'San Antonio, TX'
 team: Commercial
-datePosted: '2024-12-27T15:31:58.930Z'
-validThrough: '2025-01-30T15:31:58.930Z'
+datePosted: '2025-01-21T08:28:24.244Z'
+validThrough: '2025-03-07T08:28:24.244Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

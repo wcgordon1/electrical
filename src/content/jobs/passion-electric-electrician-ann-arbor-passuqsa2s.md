@@ -14,8 +14,8 @@ description: >-
   As part of our team, you'll div...
 location: 'Ann Arbor, MI'
 team: Industrial
-datePosted: '2024-12-27T12:20:46.770Z'
-validThrough: '2025-02-03T12:20:46.770Z'
+datePosted: '2025-01-21T09:05:11.843Z'
+validThrough: '2025-02-26T09:05:11.843Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

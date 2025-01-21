@@ -10,8 +10,8 @@ description: >-
   certifications. A deep knowledge of industrial safety protocols, ...
 location: 'Los Angeles, CA'
 team: Industrial
-datePosted: '2024-12-27T15:43:26.329Z'
-validThrough: '2025-02-10T15:43:26.329Z'
+datePosted: '2025-01-21T08:37:35.831Z'
+validThrough: '2025-03-01T08:37:35.831Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

@@ -17,8 +17,8 @@ description: >-
   installations meet the necessary safety sta...
 location: 'Mesa, AZ'
 team: Commercial
-datePosted: '2024-12-27T10:33:39.204Z'
-validThrough: '2025-01-26T10:33:39.204Z'
+datePosted: '2025-01-21T09:05:00.220Z'
+validThrough: '2025-02-22T09:05:00.220Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

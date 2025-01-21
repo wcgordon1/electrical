@@ -22,8 +22,8 @@ description: >-
   Responsibil...
 location: 'Salinas, CA'
 team: Data Center
-datePosted: '2024-12-27T09:28:40.827Z'
-validThrough: '2025-02-06T09:28:40.827Z'
+datePosted: '2025-01-21T08:34:54.933Z'
+validThrough: '2025-03-02T08:34:54.933Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Prime Partners

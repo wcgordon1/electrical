@@ -18,8 +18,8 @@ description: >-
   - Arc...
 location: 'Tustin, CA'
 team: Industrial
-datePosted: '2024-12-27T16:30:10.927Z'
-validThrough: '2025-01-29T16:30:10.927Z'
+datePosted: '2025-01-21T08:57:53.226Z'
+validThrough: '2025-02-23T08:57:53.226Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications
