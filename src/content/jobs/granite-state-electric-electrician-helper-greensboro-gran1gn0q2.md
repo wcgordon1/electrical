@@ -12,7 +12,7 @@ description: >-
   extend our services to neighboring cities such as High Point, Winston-Salem,
   and Burlingt...
 location: 'Greensboro, NC'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T07:31:55.800Z'
 validThrough: '2025-02-20T07:31:55.800Z'
 employmentType: FULL_TIME
@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 22.45
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Granite State Electric
   value: GRAN1gn0q2

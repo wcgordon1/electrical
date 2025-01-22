@@ -14,7 +14,7 @@ description: >-
   ourselves on delivering top-notch electrical solutions that meet the unique
   needs of...
 location: 'Green Bay, WI'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:57:22.469Z'
 validThrough: '2025-02-20T06:57:22.469Z'
 employmentType: FULL_TIME
@@ -36,7 +36,7 @@ baseSalary:
   maxValue: 22.29
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Tech Electronics
   value: TECHhbj12c

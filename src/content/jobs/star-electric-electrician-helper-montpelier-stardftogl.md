@@ -11,7 +11,7 @@ description: >-
   various residential and light commercial construction projects. Your role is
   crucial in ensuring that electrical installations are completed efficient...
 location: 'Montpelier, VT'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:39:57.774Z'
 validThrough: '2025-02-20T06:39:57.774Z'
 employmentType: FULL_TIME
@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 21.74
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Star Electric
   value: STARdftogl

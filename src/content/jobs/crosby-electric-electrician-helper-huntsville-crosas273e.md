@@ -17,7 +17,7 @@ description: >-
 
   - 0-2 years exper...
 location: 'Huntsville, AL'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:28:52.717Z'
 validThrough: '2025-02-20T06:28:52.717Z'
 employmentType: FULL_TIME
@@ -38,7 +38,7 @@ baseSalary:
   maxValue: 21.73
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Crosby Electric
   value: CROSas273e

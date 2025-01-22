@@ -12,7 +12,7 @@ description: >-
   Cheyenne and surrounding cities like Laramie, Torrington, and Scottsbluff, NE.
   ...
 location: 'Cheyenne, WY'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T08:17:43.087Z'
 validThrough: '2025-02-20T08:17:43.087Z'
 employmentType: FULL_TIME
@@ -33,7 +33,7 @@ baseSalary:
   maxValue: 21.55
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Kirby Electric
   value: KIRBihko2m

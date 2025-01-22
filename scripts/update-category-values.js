@@ -15,9 +15,9 @@ function updateCategoryValues() {
     const { data, content } = matter(fileContent);
 
     // Check if occupationalCategory matches Level 2 or Level 3
-    if (['Network Engineering'].includes(data.occupationalCategory)) {
+    if (['Helper'].includes(data.occupationalCategory)) {
       // Update to Low Voltage
-      data.occupationalCategory = 'Data Center';
+      data.occupationalCategory = 'Apprentice';
 
       // Convert back to markdown
       const updatedContent = matter.stringify(content, data);

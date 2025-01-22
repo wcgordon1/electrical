@@ -11,7 +11,7 @@ description: >-
   efficient project execution by preparing job sites and supporting daily
   elec...
 location: 'Wichita, KS'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T07:55:53.866Z'
 validThrough: '2025-02-20T07:55:53.866Z'
 employmentType: FULL_TIME
@@ -32,7 +32,7 @@ baseSalary:
   maxValue: 22.22
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Berks Electrical
   value: BERKs13xmv

@@ -13,7 +13,7 @@ description: >-
   seamless execution of a wide array of projects, from residential complexes to
   light commercial construc...
 location: 'Annapolis, MD'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:54:35.615Z'
 validThrough: '2025-02-20T06:54:35.615Z'
 employmentType: FULL_TIME
@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 22.92
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: EZ Electric
   value: EZEk8fj5g

@@ -12,7 +12,7 @@ description: >-
   ensuring our clients receive top-notch service and reliable electrical
   solutions. Our work e...
 location: 'Louisville, KY'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T08:18:13.469Z'
 validThrough: '2025-02-20T08:18:13.469Z'
 employmentType: FULL_TIME
@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 22.24
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Oak Electrical
   value: OAKsf0o9m

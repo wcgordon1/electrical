@@ -24,10 +24,10 @@ function generatePrompt(jobType, company, city, state, responsibilities, qualifi
 
 Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are a Senior ${jobType} with 20 years of experience creating a job post for ${company} for a multi-year project in ${city}, ${state} with additional projects near ${city} (list neighboring cities to ${city}).
 
-## About Our ${jobType} Team
+## About the ${jobType} Position
 Start with a detailed paragraph about working as a ${jobType} at ${company}, our reputation in ${city}, and the types of projects our ${jobType}s handle. Mention surrounding cities we work in.
 
-## The ${jobType} Position
+## ${jobType} Position Overview
 Write a thorough overview of being a ${jobType} on our team, focusing on:
 - Day-to-day responsibilities of a ${jobType}
 - Types of projects and environments you'll work in
@@ -40,7 +40,7 @@ ${responsibilities}
 - Include regional project specifics
 - Detail safety protocols
 
-## Required Experience & Skills
+## Qualifications
 ${qualifications}
 - ${experience} years minimum experience as a ${jobType}
 - List essential certifications
@@ -127,7 +127,7 @@ const JOB_TYPES = {
   },
   "Apprentice Electrician": {
     "minValue": 18,
-    "maxValue": 22,
+    "maxValue": 24,
     "experienceLevel": "entryLevel",
     "category": "Apprentice",
     "team": "Commercial",
@@ -149,7 +149,7 @@ const JOB_TYPES = {
   },
   "Fire Alarm Installer": {
     "minValue": 23,
-    "maxValue": 26,
+    "maxValue": 28,
     "experienceLevel": "midLevel",
     "category": "Fire Alarm",
     "team": "Commercial",
@@ -160,7 +160,7 @@ const JOB_TYPES = {
   },
   "Apprentice Electrician ": {
     "minValue": 18,
-    "maxValue": 22,
+    "maxValue": 24,
     "experienceLevel": "entryLevel",
     "category": "Apprentice",
     "team": "Renewable Energy",
@@ -171,7 +171,7 @@ const JOB_TYPES = {
   },
   "Cable Puller": {
     "minValue": 17,
-    "maxValue": 22,
+    "maxValue": 25,
     "experienceLevel": "entryLevel",
     "category": "Voice Data",
     "team": "Commercial",
@@ -184,239 +184,142 @@ const JOB_TYPES = {
   "minValue": 16,
   "maxValue": 20,
   "experienceLevel": "entryLevel",
-  "category": "Helper",
-  "team": "Construction",
+  "category": "Apprentice",
+  "team": "Commercial",
   "yearsExperience": "0-2",
   "responsibilities": "Assist electricians in installing and maintaining electrical systems in residential and light commercial construction projects. Carry materials, tools, and equipment to work areas and ensure job sites remain organized and clean. Help pull wires and cables through conduits and walls under supervision. Support the installation of lighting fixtures, outlets, and switchgear. Perform basic tasks such as drilling holes, mounting boxes, and labeling wires. Follow instructions to prepare tools and materials needed for each task. Learn to identify electrical components and read basic diagrams to assist in system assembly.",
   "qualifications": "Willingness to learn electrical trade practices and safety protocols. Basic understanding of tools used in electrical work, including drills, saws, and voltage testers. Physical ability to lift and carry heavy materials, work on ladders, and perform repetitive tasks. Attention to detail and ability to follow instructions precisely. Strong work ethic and reliability in a fast-paced construction environment.",
   "prompt": "Create a job description for an entry-level Electrician Helper working on residential and light commercial construction projects. Focus on assisting electricians with material handling, basic tasks, and learning foundational skills on the job in California."
+},
+"Low Voltage Project Manager": {
+  "minValue": 48,
+  "maxValue": 60,
+  "experienceLevel": "midLevel",
+  "category": "Voice Data",
+  "team": "Project Management",
+  "yearsExperience": "5-7",
+  "responsibilities": "Oversee the planning, execution, and completion of low voltage system installations, including voice/data cabling, fire alarms, security systems, card access controls, and CCTV, for large commercial new construction projects. Coordinate with general contractors, subcontractors, and clients to ensure project timelines and specifications are met. Develop and manage project budgets, schedules, and material procurement plans. Review and interpret blueprints and technical drawings to provide guidance to installation teams. Conduct on-site inspections to monitor work progress, verify quality standards, and resolve any issues that arise. Ensure compliance with local building codes, safety regulations, and industry standards. Prepare progress reports, maintain project documentation, and communicate updates to stakeholders. Train and mentor field technicians to improve team performance and project efficiency.",
+  "qualifications": "Extensive knowledge of low voltage systems, including structured cabling, fire alarm panels, access control systems, and CCTV. Strong understanding of project management principles, including budgeting, scheduling, and resource allocation. Ability to read and interpret complex blueprints and technical specifications. Excellent communication and leadership skills to effectively coordinate with multiple teams and stakeholders. Proficiency with project management software and tools. Strong problem-solving skills to address on-site challenges and ensure project success. Physical ability to visit job sites and inspect installations as required.",
+  "prompt": "Create a job description for a Low Voltage Project Manager overseeing voice/data, fire alarm, and security system installations in commercial new construction. Emphasize project coordination, budgeting, and leadership in California."
+},
+"Building Automation Technician": {
+  "minValue": 44,
+  "maxValue": 58,
+  "experienceLevel": "midLevel",
+  "category": "HVAC",
+  "team": "Commercial",
+  "yearsExperience": "2-7",
+  "responsibilities": "Program, commission, and troubleshoot building automation systems, including network configuration and equipment integration. Configure DDC controls for HVAC and related mechanical systems. Collaborate with project managers to ensure projects are completed on time and within budget. Conduct on-site troubleshooting for control systems and mechanical integration. Document installation processes and maintain accurate project records. Communicate effectively with supervisors, team members, and clients. Adhere to safety protocols and ensure compliance with all relevant codes and regulations.",
+  "qualifications": "Experience with Niagara, Tridium, Distech, Alerton, or JCI Metasys systems. Proficiency in troubleshooting electrical and networking systems. Familiarity with HVAC operations and DDC systems. Ability to read and interpret electrical diagrams. Strong verbal and written communication skills. Physical ability to lift up to 50 lbs. and work on construction sites.",
+  "prompt": "Create a job description for a Building Automation Systems Technician with expertise in programming and maintaining DDC and building automation systems. Highlight project collaboration, troubleshooting, and adherence to safety standards."
+},
+"Electrical Project Manager": {
+  "minValue": 48,
+  "maxValue": 60,
+  "experienceLevel": "midLevel",
+  "category": "Industrial",
+  "team": "Project Management",
+  "yearsExperience": "5+",
+  "responsibilities": "Oversee all aspects of industrial electrical projects, including timelines, budgets, and resource allocation. Analyze project outlines to develop clear schedules and staffing plans. Manage financial aspects such as payroll, equipment costs, and material expenses. Coordinate purchasing efforts and negotiate sub-contracts. Collaborate with construction superintendents on daily operational tasks. Maintain accurate records, including RFIs, project submissions, and updates. Ensure projects remain on schedule and within budget by proactively addressing risks and challenges.",
+  "qualifications": "5+ years of electrical project management experience in industrial settings, such as water recycling or power plants. Proficiency with Microsoft Office Suite and Bluebeam software. Strong leadership, communication, and interpersonal skills. Familiarity with construction engineering codes and practices. Ability to create detailed project timelines and ensure team efficiency. Knowledge of industry standards and innovative management strategies.",
+  "prompt": "Create a job description for an Electrical Project Manager specializing in industrial projects like water recycling and power plants. Emphasize project leadership, financial management, and collaboration with diverse teams."
 }
+
 };
 
 
 const COMPANIES = {
-  'Kirby Electric': {
-    name: 'Kirby Electric',
-    sameAs: 'https://kirbyelectric.com/',
-    logo: 'https://kirbyelectric.com/wp-content/uploads/2023/03/kirby_logo.png'
-  },
-  'Myro Electrical': {
-    name: 'Myro Electrical',
-    sameAs: 'https://myroelectrical.com/',
-    logo: 'https://images.squarespace-cdn.com/content/v1/6441d6a8c943293c268b4359/7b2478ca-3514-499f-80c1-3a92bb142f0c/curve__1_-removebg-preview.png?format=1500w'
-  },
-  'Berks Electrical': {
-    name: 'Berks Electrical',
-    sameAs: 'https://berkselectrical.com/',
-    logo: 'https://berkselectrical.com/wp-content/uploads/2022/03/berk-logo.jpg'
-  },
-  'Tech Electronics': {
-    name: 'Tech Electronics',
-    sameAs: 'https://www.techelectronics.com/',
-    logo: 'https://www.techelectronics.com/wp-content/uploads/2020/10/tech-electronics-logo.png'
-  },
-  'Oak Electrical': {
-    name: 'Oak Electrical',
-    sameAs: 'https://oakelectriccompany.com/',
-    logo: 'https://oakelectriccompany.com/wp-content/uploads/2017/04/logoNav-for-web.png'
-  },
-  'Crosby Electric': {
-    name: 'Crosby Electric',
-    sameAs: 'https://www.crosbyelectric.com/',
-    logo: 'https://www.crosbyelectric.com/images/crosbyelectric_logo_crete.png'
-  },
-  'Reliable Electric': {
-    name: 'Reliable Electric',
-    sameAs: 'https://reliable-contractors.com/',
-    logo: 'https://reliable-contractors.com/wp-content/uploads/2020/03/Reliable-Electric-Logo.jpg'
-  },
-  'Granite State Electric': {
-    name: 'Granite State Electric',
-    sameAs: 'https://granitestateelectricians.com/',
-    logo: 'https://granitestateelectricians.com/wp-content/uploads/2018/03/GSE-2c-Logo-4.jpg'
-  },
-  'EZ Electric': {
-    name: 'EZ Electric',
-    sameAs: 'https://ezelectric.com/',
-    logo: 'https://cdn.prod.website-files.com/62858eb9f95b5ef6ab8256be/66195b93d011344d05b98867_ez-electric-logo.svg'
-  },
-  'JP Electric': {
-    name: 'JP Electric',
-    sameAs: 'https://jpelectric.com/',
-    logo: 'https://jpelectric.com/wp-content/uploads/2021/05/logo.png'
-  },
-  'Star Electric': {
-    name: 'Star Electric',
-    sameAs: 'https://www.starelectricmt.com/',
-    logo: 'https://www.starelectricmt.com/wp-content/uploads/2023/11/starelectric-favicon-black-and-white.svg'
-  },
-  'JD Electric': {
-    name: 'JD Electric',
-    sameAs: 'https://jdproelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/243bff06-83b1-4928-b792-0338b6394a0b/logo/f2643ee5-278f-40f6-b108-dfc392a3d6fa.png/:/rs=w:662,h:160,cg:true,m/cr=w:662,h:160/qt=q:95'
-  },
-  'Tully Electric': {
-    name: 'Tully Electric',
-    sameAs: 'https://www.tully-electric.com/',
-    logo: 'https://static.wixstatic.com/media/3a1e46_522696ccd68b4e63b984a72af3fe2da3~mv2.jpg/v1/fill/w_310,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/tully_logo_name_(640x245).jpg'
-  },
-  'Marathon Electrical': {
-    name: 'Marathon Electrical',
-    sameAs: 'https://marathonelectric.com/',
-    logo: 'https://static.wixstatic.com/media/619c2c_813b990e8a82413597ed3f144ac0cb67~mv2.png/v1/crop/x_0,y_93,w_2420,h_815/fill/w_820,h_276,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/Marathon_Horizontal_Reversed_RGB.png'
-  },
-  'Eskew Electric': {
-    name: 'Eskew Electric',
-    sameAs: 'https://eskewelectric.com/',
-    logo: 'https://img1.wsimg.com/isteam/ip/a06397fa-6f72-478f-ae05-6cf10229cbc5/blob-b5037f9.png/:/rs=w:501,h:400,cg:true,m/cr=w:501,h:400/qt=q:95'
-  },
-  'Colvin Electric': {
-    name: 'Colvin Electric',
-    sameAs: 'https://colvinelectric.com/',
-    logo: 'https://colvinelectric.com/wp-content/uploads/2018/10/colvin-electric_footer-logo-1.png'
-  },
-  'Passion Electric': {
-    name: 'Passion Electric',
-    sameAs: 'https://passionelectric.com/',
-    logo: 'https://passionelectric.com/wp-content/uploads/Passion-Electric-Logo-web-final-wide-full-color.png.webp'
-  },
-  'Braco Electrical': {
-    name: 'Braco Electrical',
-    sameAs: 'https://bracoelectrical.com/',
-    logo: 'https://www.bracoelectrical.com/images/logo.png'
-  },
-  'Safe Electric': {
-    name: 'Safe Electric',
-    sameAs: 'https://callsafe.com/',
-    logo: 'https://callsafe.com/wp-content/uploads/2024/05/Safe-Electric-Plumbing-Logo.png.webp'
-  },
-  'ESP Electrical': {
-    name: 'ESP Electrical',
-    sameAs: 'https://www.espelectrical.net/',
-    logo: 'https://www.espelectrical.net/images/logo.png'
-  },
-  'DP Electric': {
-    name: 'DP Electric',
-    sameAs: 'https://dpelectric.com/',
-    logo: 'https://dpelectric.com/wp-content/uploads/2022/03/DPA.png'
-  },
-  'Simple Electric': {
-    name: 'Simple Electric',
-    sameAs: 'https://simpleelectricaz.com/',
-    logo: 'https://simpleelectricaz.com/wp-content/uploads/2017/10/logo.png'
-  },
-  'Dodge Electric': {
-    name: 'Dodge Electric',
-    sameAs: 'https://dodgeelectric.com/',
-    logo: 'https://dodgeelectric.com/wp-content/uploads/2016/04/logo.jpg?quality=100.3022012111021'
-  },
-  'Miller Electric': {
-    name: 'Miller Electric',
-    sameAs: 'https://millerelect.com/',
-    logo: 'https://millerelect.com/wp-content/uploads/2022/04/logo.png'
-  },
-  'Arc Electric': {
-    name: 'Arc Electric',
-    sameAs: 'https://www.arcelectric.co/',
-    logo: 'https://static.wixstatic.com/media/6fbf59_32ce059a02c943c1a4ca0da76effedcc~mv2.png/v1/fill/w_116,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arc%20Electric%20Logo.png'
-  },
-  'Koehler Electric': {
-    name: 'Koehler Electric',
-    sameAs: 'https://jwkoehler.com/',
-    logo: 'https://jwkoehler.com/wp-content/uploads/2022/04/Koehler-Electric-Logo-2022-01.svg'
+  'Prime Partners': {
+    name: 'Prime Partners',
+    sameAs: 'https://www.primepartners.com/',
+    logo: 'https://primepartners.info/wp-content/uploads/2020/05/cropped-Prime-Partners-Logo-NO-BG-1.png'
   }
 };
 
 const LOCATIONS = [
-  { city: 'Denver', state: 'CO', zipCode: '80202' },
-{ city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
-{ city: 'Aurora', state: 'CO', zipCode: '80012' },
-{ city: 'Fort Collins', state: 'CO', zipCode: '80521' },
+  { city: 'San Francisco', state: 'CA', zipCode: '94103' },
+{ city: 'San Jose', state: 'CA', zipCode: '95112' },
+{ city: 'Oakland', state: 'CA', zipCode: '94612' },
+{ city: 'Los Angeles', state: 'CA', zipCode: '90001' },
+{ city: 'Seattle', state: 'WA', zipCode: '98101' },
+{ city: 'Bellevue', state: 'WA', zipCode: '98004' },
+{ city: 'Redmond', state: 'WA', zipCode: '98052' },
+{ city: 'Portland', state: 'OR', zipCode: '97201' },
+{ city: 'Bend', state: 'OR', zipCode: '97701' },
+{ city: 'Eugene', state: 'OR', zipCode: '97401' },
+{ city: 'New York', state: 'NY', zipCode: '10001' },
+{ city: 'White Plains', state: 'NY', zipCode: '10601' },
+{ city: 'Buffalo', state: 'NY', zipCode: '14201' },
+{ city: 'Boston', state: 'MA', zipCode: '02108' },
+{ city: 'Cambridge', state: 'MA', zipCode: '02138' },
+{ city: 'Newton', state: 'MA', zipCode: '02458' },
+{ city: 'Denver', state: 'CO', zipCode: '80202' },
 { city: 'Boulder', state: 'CO', zipCode: '80301' },
+{ city: 'Colorado Springs', state: 'CO', zipCode: '80903' },
+{ city: 'Fort Collins', state: 'CO', zipCode: '80521' },
+{ city: 'Aurora', state: 'CO', zipCode: '80012' },
 { city: 'Pueblo', state: 'CO', zipCode: '81003' },
-{ city: 'Cheyenne', state: 'WY', zipCode: '82001' },
-{ city: 'Casper', state: 'WY', zipCode: '82601' },
-{ city: 'Billings', state: 'MT', zipCode: '59101' },
-{ city: 'Missoula', state: 'MT', zipCode: '59801' },
-{ city: 'Bozeman', state: 'MT', zipCode: '59715' },
-{ city: 'Fargo', state: 'ND', zipCode: '58102' },
-{ city: 'Bismarck', state: 'ND', zipCode: '58501' },
-{ city: 'Minot', state: 'ND', zipCode: '58701' },
-{ city: 'Sioux Falls', state: 'SD', zipCode: '57101' },
-{ city: 'Rapid City', state: 'SD', zipCode: '57701' },
-{ city: 'Omaha', state: 'NE', zipCode: '68102' },
-{ city: 'Lincoln', state: 'NE', zipCode: '68502' },
-{ city: 'Grand Island', state: 'NE', zipCode: '68801' },
-{ city: 'Overland Park', state: 'KS', zipCode: '66212' },
-{ city: 'Wichita', state: 'KS', zipCode: '67202' },
-{ city: 'Topeka', state: 'KS', zipCode: '66603' },
-{ city: 'Des Moines', state: 'IA', zipCode: '50309' },
-{ city: 'Cedar Rapids', state: 'IA', zipCode: '52401' },
-{ city: 'Davenport', state: 'IA', zipCode: '52801' },
-{ city: 'Madison', state: 'WI', zipCode: '53703' },
-{ city: 'Milwaukee', state: 'WI', zipCode: '53202' },
-{ city: 'Green Bay', state: 'WI', zipCode: '54301' },
+{ city: 'Austin', state: 'TX', zipCode: '73301' },
+{ city: 'Dallas', state: 'TX', zipCode: '75201' },
+{ city: 'Houston', state: 'TX', zipCode: '77002' },
+{ city: 'San Antonio', state: 'TX', zipCode: '78205' },
 { city: 'Minneapolis', state: 'MN', zipCode: '55401' },
 { city: 'Saint Paul', state: 'MN', zipCode: '55101' },
 { city: 'Rochester', state: 'MN', zipCode: '55901' },
-{ city: 'Detroit', state: 'MI', zipCode: '48201' },
+{ city: 'Chicago', state: 'IL', zipCode: '60601' },
+{ city: 'Naperville', state: 'IL', zipCode: '60540' },
+{ city: 'Evanston', state: 'IL', zipCode: '60201' },
+{ city: 'Ann Arbor', state: 'MI', zipCode: '48104' },
 { city: 'Grand Rapids', state: 'MI', zipCode: '49503' },
-{ city: 'Lansing', state: 'MI', zipCode: '48933' },
-{ city: 'Louisville', state: 'KY', zipCode: '40202' },
-{ city: 'Lexington', state: 'KY', zipCode: '40507' },
-{ city: 'Bowling Green', state: 'KY', zipCode: '42101' },
-{ city: 'Nashville', state: 'TN', zipCode: '37203' },
-{ city: 'Memphis', state: 'TN', zipCode: '38103' },
-{ city: 'Knoxville', state: 'TN', zipCode: '37902' },
-{ city: 'Chattanooga', state: 'TN', zipCode: '37402' },
-{ city: 'Huntsville', state: 'AL', zipCode: '35801' },
-{ city: 'Birmingham', state: 'AL', zipCode: '35203' },
-{ city: 'Montgomery', state: 'AL', zipCode: '36104' },
-{ city: 'Jackson', state: 'MS', zipCode: '39201' },
-{ city: 'Gulfport', state: 'MS', zipCode: '39501' },
-{ city: 'Hattiesburg', state: 'MS', zipCode: '39401' },
-{ city: 'Atlanta', state: 'GA', zipCode: '30303' },
-{ city: 'Savannah', state: 'GA', zipCode: '31401' },
-{ city: 'Augusta', state: 'GA', zipCode: '30901' },
-{ city: 'Charleston', state: 'SC', zipCode: '29401' },
-{ city: 'Columbia', state: 'SC', zipCode: '29201' },
-{ city: 'Greenville', state: 'SC', zipCode: '29601' },
-{ city: 'Charlotte', state: 'NC', zipCode: '28202' },
-{ city: 'Raleigh', state: 'NC', zipCode: '27601' },
-{ city: 'Greensboro', state: 'NC', zipCode: '27401' },
-{ city: 'Richmond', state: 'VA', zipCode: '23219' },
-{ city: 'Virginia Beach', state: 'VA', zipCode: '23451' },
-{ city: 'Norfolk', state: 'VA', zipCode: '23510' },
-{ city: 'Roanoke', state: 'VA', zipCode: '24011' },
-{ city: 'Baltimore', state: 'MD', zipCode: '21202' },
-{ city: 'Frederick', state: 'MD', zipCode: '21701' },
-{ city: 'Annapolis', state: 'MD', zipCode: '21401' },
+{ city: 'Detroit', state: 'MI', zipCode: '48201' },
+{ city: 'Madison', state: 'WI', zipCode: '53703' },
+{ city: 'Milwaukee', state: 'WI', zipCode: '53202' },
+{ city: 'Green Bay', state: 'WI', zipCode: '54301' },
 { city: 'Philadelphia', state: 'PA', zipCode: '19103' },
 { city: 'Pittsburgh', state: 'PA', zipCode: '15222' },
 { city: 'Allentown', state: 'PA', zipCode: '18101' },
-{ city: 'Scranton', state: 'PA', zipCode: '18503' },
-{ city: 'Providence', state: 'RI', zipCode: '02903' },
-{ city: 'Worcester', state: 'MA', zipCode: '01608' },
-{ city: 'Boston', state: 'MA', zipCode: '02108' },
-{ city: 'Springfield', state: 'MA', zipCode: '01103' },
-{ city: 'Manchester', state: 'NH', zipCode: '03101' },
-{ city: 'Nashua', state: 'NH', zipCode: '03060' },
-{ city: 'Portland', state: 'ME', zipCode: '04101' },
-{ city: 'Bangor', state: 'ME', zipCode: '04401' },
-{ city: 'Burlington', state: 'VT', zipCode: '05401' },
-{ city: 'Montpelier', state: 'VT', zipCode: '05602' },
-{ city: 'Harrisburg', state: 'PA', zipCode: '17101' },
-{ city: 'Charleston', state: 'WV', zipCode: '25301' },
-{ city: 'Huntington', state: 'WV', zipCode: '25701' },
-{ city: 'Beckley', state: 'WV', zipCode: '25801' },
+{ city: 'Arlington', state: 'VA', zipCode: '22201' },
+{ city: 'Richmond', state: 'VA', zipCode: '23219' },
+{ city: 'Alexandria', state: 'VA', zipCode: '22314' },
+{ city: 'Charlotte', state: 'NC', zipCode: '28202' },
+{ city: 'Raleigh', state: 'NC', zipCode: '27601' },
+{ city: 'Durham', state: 'NC', zipCode: '27701' },
+{ city: 'Atlanta', state: 'GA', zipCode: '30303' },
+{ city: 'Savannah', state: 'GA', zipCode: '31401' },
+{ city: 'Augusta', state: 'GA', zipCode: '30901' },
+{ city: 'Nashville', state: 'TN', zipCode: '37203' },
+{ city: 'Memphis', state: 'TN', zipCode: '38103' },
+{ city: 'Knoxville', state: 'TN', zipCode: '37902' },
 { city: 'Salt Lake City', state: 'UT', zipCode: '84101' },
-{ city: 'West Valley City', state: 'UT', zipCode: '84119' },
 { city: 'Provo', state: 'UT', zipCode: '84601' },
 { city: 'Ogden', state: 'UT', zipCode: '84401' },
 { city: 'Albuquerque', state: 'NM', zipCode: '87101' },
 { city: 'Santa Fe', state: 'NM', zipCode: '87501' },
 { city: 'Las Cruces', state: 'NM', zipCode: '88001' },
-{ city: 'Taos', state: 'NM', zipCode: '87571' }
+{ city: 'Portland', state: 'ME', zipCode: '04101' },
+{ city: 'Bangor', state: 'ME', zipCode: '04401' },
+{ city: 'Lewiston', state: 'ME', zipCode: '04240' },
+{ city: 'Manchester', state: 'NH', zipCode: '03101' },
+{ city: 'Nashua', state: 'NH', zipCode: '03060' },
+{ city: 'Concord', state: 'NH', zipCode: '03301' },
+{ city: 'Providence', state: 'RI', zipCode: '02903' },
+{ city: 'Warwick', state: 'RI', zipCode: '02886' },
+{ city: 'Cranston', state: 'RI', zipCode: '02910' },
+{ city: 'Baltimore', state: 'MD', zipCode: '21202' },
+{ city: 'Annapolis', state: 'MD', zipCode: '21401' },
+{ city: 'Frederick', state: 'MD', zipCode: '21701' },
+{ city: 'Cheyenne', state: 'WY', zipCode: '82001' },
+{ city: 'Casper', state: 'WY', zipCode: '82601' },
+{ city: 'Laramie', state: 'WY', zipCode: '82070' },
+{ city: 'Fargo', state: 'ND', zipCode: '58102' },
+{ city: 'Bismarck', state: 'ND', zipCode: '58501' },
+{ city: 'Grand Forks', state: 'ND', zipCode: '58201' },
+{ city: 'Billings', state: 'MT', zipCode: '59101' },
+{ city: 'Missoula', state: 'MT', zipCode: '59801' },
+{ city: 'Bozeman', state: 'MT', zipCode: '59715' },
+{ city: 'Sioux Falls', state: 'SD', zipCode: '57101' },
+{ city: 'Rapid City', state: 'SD', zipCode: '57701' },
+{ city: 'Watertown', state: 'SD', zipCode: '57201' },
   ];
   
 

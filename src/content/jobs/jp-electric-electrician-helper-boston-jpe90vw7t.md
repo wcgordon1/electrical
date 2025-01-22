@@ -16,7 +16,7 @@ description: >-
 
   - Willingness to learn el...
 location: 'Boston, MA'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T07:51:14.746Z'
 validThrough: '2025-02-20T07:51:14.746Z'
 employmentType: FULL_TIME
@@ -37,7 +37,7 @@ baseSalary:
   maxValue: 21.39
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: JP Electric
   value: JPE90vw7t

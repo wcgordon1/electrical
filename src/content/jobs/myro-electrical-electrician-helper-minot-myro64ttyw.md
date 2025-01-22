@@ -17,7 +17,7 @@ description: >-
 
   - **Experience**: 0-2 years a...
 location: 'Minot, ND'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:07:58.040Z'
 validThrough: '2025-02-20T06:07:58.040Z'
 employmentType: FULL_TIME
@@ -39,7 +39,7 @@ baseSalary:
   maxValue: 22.18
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Myro Electrical
   value: MYRO64ttyw

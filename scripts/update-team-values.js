@@ -15,7 +15,7 @@ function updateTeamValues() {
     const { data, content } = matter(fileContent);
 
     // Check if team matches any of the specified values
-    if (['Security', 'Fire Alarm', 'Project Management'].includes(data.team)) {
+    if (['Construction'].includes(data.team)) {
       // Update team to Commercial
       data.team = 'Commercial';
 

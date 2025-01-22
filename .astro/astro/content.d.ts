@@ -12769,6 +12769,125 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--cambridge-primgezfku.md": {
+	id: "prime-partners-apprentice-electrician--cambridge-primgezfku.md";
+  slug: "prime-partners-apprentice-electrician--cambridge-primgezfku";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--charlotte-primspxl75.md": {
+	id: "prime-partners-apprentice-electrician--charlotte-primspxl75.md";
+  slug: "prime-partners-apprentice-electrician--charlotte-primspxl75";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--concord-primwqwwbs.md": {
+	id: "prime-partners-apprentice-electrician--concord-primwqwwbs.md";
+  slug: "prime-partners-apprentice-electrician--concord-primwqwwbs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--detroit-priml98zgr.md": {
+	id: "prime-partners-apprentice-electrician--detroit-priml98zgr.md";
+  slug: "prime-partners-apprentice-electrician--detroit-priml98zgr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--fargo-primfhp1vs.md": {
+	id: "prime-partners-apprentice-electrician--fargo-primfhp1vs.md";
+  slug: "prime-partners-apprentice-electrician--fargo-primfhp1vs";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--houston-primngexy8.md": {
+	id: "prime-partners-apprentice-electrician--houston-primngexy8.md";
+  slug: "prime-partners-apprentice-electrician--houston-primngexy8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--provo-primgdg7wv.md": {
+	id: "prime-partners-apprentice-electrician--provo-primgdg7wv.md";
+  slug: "prime-partners-apprentice-electrician--provo-primgdg7wv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician--seattle-prim8qeazm.md": {
+	id: "prime-partners-apprentice-electrician--seattle-prim8qeazm.md";
+  slug: "prime-partners-apprentice-electrician--seattle-prim8qeazm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-arlington-primb9ildd.md": {
+	id: "prime-partners-apprentice-electrician-arlington-primb9ildd.md";
+  slug: "prime-partners-apprentice-electrician-arlington-primb9ildd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-cheyenne-primml3nzo.md": {
+	id: "prime-partners-apprentice-electrician-cheyenne-primml3nzo.md";
+  slug: "prime-partners-apprentice-electrician-cheyenne-primml3nzo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-evanston-prim0g9eww.md": {
+	id: "prime-partners-apprentice-electrician-evanston-prim0g9eww.md";
+  slug: "prime-partners-apprentice-electrician-evanston-prim0g9eww";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-lewiston-primkgzk8k.md": {
+	id: "prime-partners-apprentice-electrician-lewiston-primkgzk8k.md";
+  slug: "prime-partners-apprentice-electrician-lewiston-primkgzk8k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-memphis-primxil42u.md": {
+	id: "prime-partners-apprentice-electrician-memphis-primxil42u.md";
+  slug: "prime-partners-apprentice-electrician-memphis-primxil42u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-pueblo-prim108vda.md": {
+	id: "prime-partners-apprentice-electrician-pueblo-prim108vda.md";
+  slug: "prime-partners-apprentice-electrician-pueblo-prim108vda";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-rapid-city-primsk69hx.md": {
+	id: "prime-partners-apprentice-electrician-rapid-city-primsk69hx.md";
+  slug: "prime-partners-apprentice-electrician-rapid-city-primsk69hx";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-san-jose-primmbw4uk.md": {
+	id: "prime-partners-apprentice-electrician-san-jose-primmbw4uk.md";
+  slug: "prime-partners-apprentice-electrician-san-jose-primmbw4uk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-apprentice-electrician-white-plains-primm7rr47.md": {
+	id: "prime-partners-apprentice-electrician-white-plains-primm7rr47.md";
+  slug: "prime-partners-apprentice-electrician-white-plains-primm7rr47";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "prime-partners-av-technician-boston-primvhbn4n.md": {
 	id: "prime-partners-av-technician-boston-primvhbn4n.md";
   slug: "prime-partners-av-technician-boston-primvhbn4n";
@@ -12786,6 +12905,118 @@ declare module 'astro:content' {
 "prime-partners-av-technician-phoenix-primafq4im.md": {
 	id: "prime-partners-av-technician-phoenix-primafq4im.md";
   slug: "prime-partners-av-technician-phoenix-primafq4im";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-baltimore-primbrlcht.md": {
+	id: "prime-partners-building-automation-technician-baltimore-primbrlcht.md";
+  slug: "prime-partners-building-automation-technician-baltimore-primbrlcht";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-bend-primove8j6.md": {
+	id: "prime-partners-building-automation-technician-bend-primove8j6.md";
+  slug: "prime-partners-building-automation-technician-bend-primove8j6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-colorado-springs-primdsn0q3.md": {
+	id: "prime-partners-building-automation-technician-colorado-springs-primdsn0q3.md";
+  slug: "prime-partners-building-automation-technician-colorado-springs-primdsn0q3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-las-cruces-primszbju1.md": {
+	id: "prime-partners-building-automation-technician-las-cruces-primszbju1.md";
+  slug: "prime-partners-building-automation-technician-las-cruces-primszbju1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-missoula-primnpwjej.md": {
+	id: "prime-partners-building-automation-technician-missoula-primnpwjej.md";
+  slug: "prime-partners-building-automation-technician-missoula-primnpwjej";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-philadelphia-primseyled.md": {
+	id: "prime-partners-building-automation-technician-philadelphia-primseyled.md";
+  slug: "prime-partners-building-automation-technician-philadelphia-primseyled";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-rochester-prim2l51rp.md": {
+	id: "prime-partners-building-automation-technician-rochester-prim2l51rp.md";
+  slug: "prime-partners-building-automation-technician-rochester-prim2l51rp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-building-automation-technician-savannah-primxqol2l.md": {
+	id: "prime-partners-building-automation-technician-savannah-primxqol2l.md";
+  slug: "prime-partners-building-automation-technician-savannah-primxqol2l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-bellevue-prim5pmu6f.md": {
+	id: "prime-partners-cable-puller-bellevue-prim5pmu6f.md";
+  slug: "prime-partners-cable-puller-bellevue-prim5pmu6f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-bismarck-primmlle5m.md": {
+	id: "prime-partners-cable-puller-bismarck-primmlle5m.md";
+  slug: "prime-partners-cable-puller-bismarck-primmlle5m";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-madison-primp1z7tt.md": {
+	id: "prime-partners-cable-puller-madison-primp1z7tt.md";
+  slug: "prime-partners-cable-puller-madison-primp1z7tt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-newton-primewi7m3.md": {
+	id: "prime-partners-cable-puller-newton-primewi7m3.md";
+  slug: "prime-partners-cable-puller-newton-primewi7m3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-ogden-primpcxhpe.md": {
+	id: "prime-partners-cable-puller-ogden-primpcxhpe.md";
+  slug: "prime-partners-cable-puller-ogden-primpcxhpe";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-providence-primkj4fvk.md": {
+	id: "prime-partners-cable-puller-providence-primkj4fvk.md";
+  slug: "prime-partners-cable-puller-providence-primkj4fvk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-raleigh-primvl1kg8.md": {
+	id: "prime-partners-cable-puller-raleigh-primvl1kg8.md";
+  slug: "prime-partners-cable-puller-raleigh-primvl1kg8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-cable-puller-san-antonio-prim32q0df.md": {
+	id: "prime-partners-cable-puller-san-antonio-prim32q0df.md";
+  slug: "prime-partners-cable-puller-san-antonio-prim32q0df";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12832,9 +13063,121 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-annapolis-primcvwhq3.md": {
+	id: "prime-partners-electrical-project-manager-annapolis-primcvwhq3.md";
+  slug: "prime-partners-electrical-project-manager-annapolis-primcvwhq3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-augusta-primpbzn5r.md": {
+	id: "prime-partners-electrical-project-manager-augusta-primpbzn5r.md";
+  slug: "prime-partners-electrical-project-manager-augusta-primpbzn5r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "prime-partners-electrical-project-manager-bakersfield-primn8w2oy.md": {
 	id: "prime-partners-electrical-project-manager-bakersfield-primn8w2oy.md";
   slug: "prime-partners-electrical-project-manager-bakersfield-primn8w2oy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-bozeman-prima2w03c.md": {
+	id: "prime-partners-electrical-project-manager-bozeman-prima2w03c.md";
+  slug: "prime-partners-electrical-project-manager-bozeman-prima2w03c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-chicago-prim34kbol.md": {
+	id: "prime-partners-electrical-project-manager-chicago-prim34kbol.md";
+  slug: "prime-partners-electrical-project-manager-chicago-prim34kbol";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-eugene-primas96iy.md": {
+	id: "prime-partners-electrical-project-manager-eugene-primas96iy.md";
+  slug: "prime-partners-electrical-project-manager-eugene-primas96iy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-fort-collins-primts20dt.md": {
+	id: "prime-partners-electrical-project-manager-fort-collins-primts20dt.md";
+  slug: "prime-partners-electrical-project-manager-fort-collins-primts20dt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-pittsburgh-prim3ilna3.md": {
+	id: "prime-partners-electrical-project-manager-pittsburgh-prim3ilna3.md";
+  slug: "prime-partners-electrical-project-manager-pittsburgh-prim3ilna3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrical-project-manager-portland-primo3ioda.md": {
+	id: "prime-partners-electrical-project-manager-portland-primo3ioda.md";
+  slug: "prime-partners-electrical-project-manager-portland-primo3ioda";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-albuquerque-primaodzyk.md": {
+	id: "prime-partners-electrician-helper-albuquerque-primaodzyk.md";
+  slug: "prime-partners-electrician-helper-albuquerque-primaodzyk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-denver-primvplh24.md": {
+	id: "prime-partners-electrician-helper-denver-primvplh24.md";
+  slug: "prime-partners-electrician-helper-denver-primvplh24";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-durham-primmnhiib.md": {
+	id: "prime-partners-electrician-helper-durham-primmnhiib.md";
+  slug: "prime-partners-electrician-helper-durham-primmnhiib";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-grand-forks-prim8nmc49.md": {
+	id: "prime-partners-electrician-helper-grand-forks-prim8nmc49.md";
+  slug: "prime-partners-electrician-helper-grand-forks-prim8nmc49";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-milwaukee-primsuy1jk.md": {
+	id: "prime-partners-electrician-helper-milwaukee-primsuy1jk.md";
+  slug: "prime-partners-electrician-helper-milwaukee-primsuy1jk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-minneapolis-primyctztr.md": {
+	id: "prime-partners-electrician-helper-minneapolis-primyctztr.md";
+  slug: "prime-partners-electrician-helper-minneapolis-primyctztr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-redmond-primh91zv6.md": {
+	id: "prime-partners-electrician-helper-redmond-primh91zv6.md";
+  slug: "prime-partners-electrician-helper-redmond-primh91zv6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-electrician-helper-warwick-primrwyf1s.md": {
+	id: "prime-partners-electrician-helper-warwick-primrwyf1s.md";
+  slug: "prime-partners-electrician-helper-warwick-primrwyf1s";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12849,6 +13192,62 @@ declare module 'astro:content' {
 "prime-partners-fire-alarm-designer-seattle-prim0l7ril.md": {
 	id: "prime-partners-fire-alarm-designer-seattle-prim0l7ril.md";
   slug: "prime-partners-fire-alarm-designer-seattle-prim0l7ril";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-alexandria-primy3hj5i.md": {
+	id: "prime-partners-fire-alarm-installer-alexandria-primy3hj5i.md";
+  slug: "prime-partners-fire-alarm-installer-alexandria-primy3hj5i";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-boston-primoewrlr.md": {
+	id: "prime-partners-fire-alarm-installer-boston-primoewrlr.md";
+  slug: "prime-partners-fire-alarm-installer-boston-primoewrlr";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-dallas-primdoy9pi.md": {
+	id: "prime-partners-fire-alarm-installer-dallas-primdoy9pi.md";
+  slug: "prime-partners-fire-alarm-installer-dallas-primdoy9pi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-grand-rapids-primgrlkao.md": {
+	id: "prime-partners-fire-alarm-installer-grand-rapids-primgrlkao.md";
+  slug: "prime-partners-fire-alarm-installer-grand-rapids-primgrlkao";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-laramie-primo3eygp.md": {
+	id: "prime-partners-fire-alarm-installer-laramie-primo3eygp.md";
+  slug: "prime-partners-fire-alarm-installer-laramie-primo3eygp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-los-angeles-primrwndm9.md": {
+	id: "prime-partners-fire-alarm-installer-los-angeles-primrwndm9.md";
+  slug: "prime-partners-fire-alarm-installer-los-angeles-primrwndm9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-nashua-primmhkzjh.md": {
+	id: "prime-partners-fire-alarm-installer-nashua-primmhkzjh.md";
+  slug: "prime-partners-fire-alarm-installer-nashua-primmhkzjh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-fire-alarm-installer-salt-lake-city-primuw506i.md": {
+	id: "prime-partners-fire-alarm-installer-salt-lake-city-primuw506i.md";
+  slug: "prime-partners-fire-alarm-installer-salt-lake-city-primuw506i";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12874,9 +13273,128 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-allentown-primaovouk.md": {
+	id: "prime-partners-journeyman-electrician-allentown-primaovouk.md";
+  slug: "prime-partners-journeyman-electrician-allentown-primaovouk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-aurora-primsdwvij.md": {
+	id: "prime-partners-journeyman-electrician-aurora-primsdwvij.md";
+  slug: "prime-partners-journeyman-electrician-aurora-primsdwvij";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-bangor-primjochox.md": {
+	id: "prime-partners-journeyman-electrician-bangor-primjochox.md";
+  slug: "prime-partners-journeyman-electrician-bangor-primjochox";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-frederick-primd0cjbc.md": {
+	id: "prime-partners-journeyman-electrician-frederick-primd0cjbc.md";
+  slug: "prime-partners-journeyman-electrician-frederick-primd0cjbc";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-naperville-prim3q86l2.md": {
+	id: "prime-partners-journeyman-electrician-naperville-prim3q86l2.md";
+  slug: "prime-partners-journeyman-electrician-naperville-prim3q86l2";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-nashville-prim1phvab.md": {
+	id: "prime-partners-journeyman-electrician-nashville-prim1phvab.md";
+  slug: "prime-partners-journeyman-electrician-nashville-prim1phvab";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-new-york-primumhxkf.md": {
+	id: "prime-partners-journeyman-electrician-new-york-primumhxkf.md";
+  slug: "prime-partners-journeyman-electrician-new-york-primumhxkf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-san-francisco-prim96b86u.md": {
+	id: "prime-partners-journeyman-electrician-san-francisco-prim96b86u.md";
+  slug: "prime-partners-journeyman-electrician-san-francisco-prim96b86u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-journeyman-electrician-sioux-falls-primrnvxmy.md": {
+	id: "prime-partners-journeyman-electrician-sioux-falls-primrnvxmy.md";
+  slug: "prime-partners-journeyman-electrician-sioux-falls-primrnvxmy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "prime-partners-junior-project-manager-santa-clarita-primu1n8e3.md": {
 	id: "prime-partners-junior-project-manager-santa-clarita-primu1n8e3.md";
   slug: "prime-partners-junior-project-manager-santa-clarita-primu1n8e3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-atlanta-prim7uazdu.md": {
+	id: "prime-partners-low-voltage-project-manager-atlanta-prim7uazdu.md";
+  slug: "prime-partners-low-voltage-project-manager-atlanta-prim7uazdu";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-billings-primwtsz1r.md": {
+	id: "prime-partners-low-voltage-project-manager-billings-primwtsz1r.md";
+  slug: "prime-partners-low-voltage-project-manager-billings-primwtsz1r";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-boulder-primqigium.md": {
+	id: "prime-partners-low-voltage-project-manager-boulder-primqigium.md";
+  slug: "prime-partners-low-voltage-project-manager-boulder-primqigium";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-cranston-primpng6a4.md": {
+	id: "prime-partners-low-voltage-project-manager-cranston-primpng6a4.md";
+  slug: "prime-partners-low-voltage-project-manager-cranston-primpng6a4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-green-bay-primwf08yq.md": {
+	id: "prime-partners-low-voltage-project-manager-green-bay-primwf08yq.md";
+  slug: "prime-partners-low-voltage-project-manager-green-bay-primwf08yq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-portland-primox4ryk.md": {
+	id: "prime-partners-low-voltage-project-manager-portland-primox4ryk.md";
+  slug: "prime-partners-low-voltage-project-manager-portland-primox4ryk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-saint-paul-primvbkn07.md": {
+	id: "prime-partners-low-voltage-project-manager-saint-paul-primvbkn07.md";
+  slug: "prime-partners-low-voltage-project-manager-saint-paul-primvbkn07";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-low-voltage-project-manager-santa-fe-prim25kebs.md": {
+	id: "prime-partners-low-voltage-project-manager-santa-fe-prim25kebs.md";
+  slug: "prime-partners-low-voltage-project-manager-santa-fe-prim25kebs";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">
@@ -12898,6 +13416,69 @@ declare module 'astro:content' {
 "prime-partners-residential-electrician-houston-primr3sjt0.md": {
 	id: "prime-partners-residential-electrician-houston-primr3sjt0.md";
   slug: "prime-partners-residential-electrician-houston-primr3sjt0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-ann-arbor-prim8o3c9w.md": {
+	id: "prime-partners-security-alarm-installer-ann-arbor-prim8o3c9w.md";
+  slug: "prime-partners-security-alarm-installer-ann-arbor-prim8o3c9w";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-austin-primpcv977.md": {
+	id: "prime-partners-security-alarm-installer-austin-primpcv977.md";
+  slug: "prime-partners-security-alarm-installer-austin-primpcv977";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-buffalo-prim8v46rd.md": {
+	id: "prime-partners-security-alarm-installer-buffalo-prim8v46rd.md";
+  slug: "prime-partners-security-alarm-installer-buffalo-prim8v46rd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-casper-primgrv0ms.md": {
+	id: "prime-partners-security-alarm-installer-casper-primgrv0ms.md";
+  slug: "prime-partners-security-alarm-installer-casper-primgrv0ms";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-knoxville-primxz91r4.md": {
+	id: "prime-partners-security-alarm-installer-knoxville-primxz91r4.md";
+  slug: "prime-partners-security-alarm-installer-knoxville-primxz91r4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-manchester-primc69ouw.md": {
+	id: "prime-partners-security-alarm-installer-manchester-primc69ouw.md";
+  slug: "prime-partners-security-alarm-installer-manchester-primc69ouw";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-oakland-prim5p93j5.md": {
+	id: "prime-partners-security-alarm-installer-oakland-prim5p93j5.md";
+  slug: "prime-partners-security-alarm-installer-oakland-prim5p93j5";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-richmond-primvpj8do.md": {
+	id: "prime-partners-security-alarm-installer-richmond-primvpj8do.md";
+  slug: "prime-partners-security-alarm-installer-richmond-primvpj8do";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"prime-partners-security-alarm-installer-watertown-primh5bvgw.md": {
+	id: "prime-partners-security-alarm-installer-watertown-primh5bvgw.md";
+  slug: "prime-partners-security-alarm-installer-watertown-primh5bvgw";
   body: string;
   collection: "jobs";
   data: InferEntrySchema<"jobs">

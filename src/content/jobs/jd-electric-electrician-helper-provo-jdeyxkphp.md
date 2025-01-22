@@ -13,7 +13,7 @@ description: >-
   from residential constructions in bustling neighborhoods to light commercial
   projects in expanding busine...
 location: 'Provo, UT'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T06:47:43.931Z'
 validThrough: '2025-02-20T06:47:43.931Z'
 employmentType: FULL_TIME
@@ -35,7 +35,7 @@ baseSalary:
   maxValue: 22.28
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: JD Electric
   value: JDEyxkphp

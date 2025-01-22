@@ -12,7 +12,7 @@ description: >-
   maintained at the highest standards. This is a multi-year project offering a
   stable an...
 location: 'Savannah, GA'
-team: Construction
+team: Commercial
 datePosted: '2025-01-21T08:17:16.198Z'
 validThrough: '2025-02-20T08:17:16.198Z'
 employmentType: FULL_TIME
@@ -34,7 +34,7 @@ baseSalary:
   maxValue: 23.38
   unitText: HOUR
 experienceRequirements: entryLevel
-occupationalCategory: Helper
+occupationalCategory: Apprentice
 identifier:
   name: Reliable Electric
   value: RELI8ikb4y
