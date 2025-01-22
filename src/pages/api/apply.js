@@ -74,7 +74,8 @@ will@bestelectricianjobs.com
       email: email,
       phone: phone,
       linkedin: linkedin || '',
-      coverLetter: coverLetter || ''
+      coverLetter: coverLetter || '',
+      resendEmailId: emailResponse.data.id
     });
 
     console.log('Sending to emails:', emails);

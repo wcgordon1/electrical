@@ -23,27 +23,38 @@ const HEADERS = [
 ];
 
 function debugEnvVars() {
-  console.log('Environment Variables:', {
-    SHEET_ID: SHEET_ID ? 'Loaded' : 'Missing',
-    CLIENT_EMAIL: CLIENT_EMAIL ? 'Loaded' : 'Missing',
-    PRIVATE_KEY: PRIVATE_KEY ? 'Loaded' : 'Missing',
-    SHEET_NAME: SHEET_NAME,  // Actually show the sheet name
-    SHEET_ID_VALUE: SHEET_ID // Show the actual sheet ID
+  // Add production-safe debugging
+  console.log('Environment Check:', {
+    SHEET_ID_LENGTH: SHEET_ID?.length || 0,
+    CLIENT_EMAIL_SET: !!CLIENT_EMAIL,
+    PRIVATE_KEY_SET: !!PRIVATE_KEY,
+    PRIVATE_KEY_LENGTH: PRIVATE_KEY?.length || 0,
+    PRIVATE_KEY_VALID: PRIVATE_KEY?.includes('PRIVATE KEY'),
+    SHEET_NAME: SHEET_NAME
   });
 }
 
 export async function getSheet() {
   try {
+    console.log('Starting Google Sheets connection...');
     debugEnvVars();
 
     if (!SHEET_ID) throw new Error('Missing GOOGLE_SHEET_ID environment variable');
     if (!CLIENT_EMAIL) throw new Error('Missing GOOGLE_SHEETS_CLIENT_EMAIL environment variable');
     if (!PRIVATE_KEY) throw new Error('Missing GOOGLE_SHEETS_PRIVATE_KEY environment variable');
 
+    // Log key format check
+    console.log('Key format check:', {
+      hasHeader: PRIVATE_KEY.includes('BEGIN PRIVATE KEY'),
+      hasFooter: PRIVATE_KEY.includes('END PRIVATE KEY'),
+      hasNewlines: PRIVATE_KEY.includes('\\n'),
+      length: PRIVATE_KEY.length
+    });
+
     // Create a new JWT client directly
     const client = new JWT({
       email: CLIENT_EMAIL,
-      key: PRIVATE_KEY,
+      key: PRIVATE_KEY.replace(/\\n/g, '\n'),  // Ensure newlines are properly handled
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
 
@@ -52,6 +63,7 @@ export async function getSheet() {
 
     // First, get the spreadsheet to see all available sheets
     try {
+      console.log('Authorizing client...');
       await client.authorize();
       
       console.log('Getting spreadsheet info...');
@@ -68,7 +80,7 @@ export async function getSheet() {
       console.log(`Attempting to read headers from sheet: ${SHEET_NAME}`);
       const headerResponse = await sheets.spreadsheets.values.get({
         spreadsheetId: SHEET_ID,
-        range: `'${SHEET_NAME}'!A1:L1`  // Note the added single quotes around sheet name
+        range: `'${SHEET_NAME}'!A1:L1`
       });
 
       // If no headers exist, add them
@@ -82,11 +94,14 @@ export async function getSheet() {
             values: [HEADERS]
           }
         });
+      } else {
+        console.log('Headers found:', headerResponse.data.values[0]);
       }
     } catch (error) {
       console.error('Spreadsheet access error:', {
         message: error.message,
-        response: error.response?.data
+        response: error.response?.data,
+        stack: error.stack
       });
       throw new Error(`Could not access or setup spreadsheet: ${error.message}`);
     }
@@ -126,8 +141,9 @@ export async function getSheet() {
         };
 
         try {
+          console.log('Attempting to append row...');
           const values = [Object.values(fullRowData)];
-          console.log('Attempting to append row with values:', {
+          console.log('Row data prepared:', {
             numFields: values[0].length,
             fields: Object.keys(fullRowData),
             sheetName: SHEET_NAME
@@ -136,7 +152,7 @@ export async function getSheet() {
           // Append the data after the headers
           const response = await sheets.spreadsheets.values.append({
             spreadsheetId: SHEET_ID,
-            range: `'${SHEET_NAME}'!A2:L`,  // Note the added single quotes around sheet name
+            range: `'${SHEET_NAME}'!A2:L`,
             valueInputOption: 'RAW',
             insertDataOption: 'INSERT_ROWS',
             requestBody: {
