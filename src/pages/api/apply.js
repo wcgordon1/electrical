@@ -5,6 +5,15 @@ export const prerender = false;
 
 export async function POST({ request }) {
   try {
+    // Add debug logging for environment variables
+    console.log('API Environment Check:', {
+      hasResendKey: !!import.meta.env.RESEND_API_KEY,
+      hasSheetId: !!import.meta.env.GOOGLE_SHEET_ID,
+      hasClientEmail: !!import.meta.env.GOOGLE_SHEETS_CLIENT_EMAIL,
+      hasPrivateKey: !!import.meta.env.GOOGLE_SHEETS_PRIVATE_KEY,
+      hasSheetName: !!import.meta.env.GOOGLE_SHEET_NAME
+    });
+
     if (!import.meta.env.RESEND_API_KEY) {
       throw new Error('Missing Resend API key');
     }
@@ -30,7 +39,7 @@ export async function POST({ request }) {
     const emailResponse = await resend.emails.send({
       from: 'Application Alert <application@bestelectricianmail.com>',
       replyTo: 'hello@bestelectricianjobs.com',
-      to: emails, // This sends to all emails in the array
+      to: emails,
       subject: `New Job Application: ${jobTitle} from ${name}`,
       text: `
 Job Application Details:
@@ -63,6 +72,8 @@ will@bestelectricianjobs.com
         },
       ],
     });
+
+    console.log('Email sent successfully:', emailResponse);
 
     // Log the application to Google Sheets
     await logEmailSent({

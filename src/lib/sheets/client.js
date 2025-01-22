@@ -30,7 +30,7 @@ function debugEnvVars() {
     PRIVATE_KEY_SET: !!PRIVATE_KEY,
     PRIVATE_KEY_LENGTH: PRIVATE_KEY?.length || 0,
     PRIVATE_KEY_VALID: PRIVATE_KEY?.includes('PRIVATE KEY'),
-    SHEET_NAME: SHEET_NAME
+    SHEET_NAME: SHEET_NAME,
   });
 }
 
