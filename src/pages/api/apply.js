@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { logEmailSent } from '@/lib/sheets/logger';
 
 export const prerender = false;
 
@@ -61,6 +62,19 @@ will@bestelectricianjobs.com
           contentType: resume.type,
         },
       ],
+    });
+
+    // Log the application to Google Sheets
+    await logEmailSent({
+      position: jobTitle,
+      company: formData.get('company'),
+      location: formData.get('location'),
+      jobId: formData.get('jobId'),
+      applicantName: name,
+      email: email,
+      phone: phone,
+      linkedin: linkedin || '',
+      coverLetter: coverLetter || ''
     });
 
     console.log('Sending to emails:', emails);
