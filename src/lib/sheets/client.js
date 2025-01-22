@@ -22,6 +22,47 @@ const HEADERS = [
   'Resend Email ID'
 ];
 
+function formatPrivateKey(key) {
+  try {
+    console.log('Starting private key formatting...');
+    // Remove any existing quotes and spaces
+    let cleanKey = key.replace(/"|'|\s/g, '');
+    
+    // Add spaces in the header and footer if they're missing
+    cleanKey = cleanKey
+      .replace('-----BEGINPRIVATEKEY-----', '-----BEGIN PRIVATE KEY-----')
+      .replace('-----ENDPRIVATEKEY-----', '-----END PRIVATE KEY-----');
+    
+    // Split into lines and ensure proper formatting
+    const keyContent = cleanKey
+      .replace('-----BEGIN PRIVATE KEY-----', '')
+      .replace('-----END PRIVATE KEY-----', '');
+      
+    // Format the key with proper line breaks
+    const formattedKey = [
+      '-----BEGIN PRIVATE KEY-----',
+      ...keyContent.match(/.{1,64}/g) || [],
+      '-----END PRIVATE KEY-----'
+    ].join('\n');
+
+    console.log('Private key formatting completed:', {
+      originalLength: key.length,
+      formattedLength: formattedKey.length,
+      hasCorrectHeader: formattedKey.startsWith('-----BEGIN PRIVATE KEY-----'),
+      hasCorrectFooter: formattedKey.endsWith('-----END PRIVATE KEY-----'),
+      lineCount: formattedKey.split('\n').length
+    });
+
+    return formattedKey;
+  } catch (error) {
+    console.error('Error formatting private key:', {
+      message: error.message,
+      stack: error.stack
+    });
+    throw error;
+  }
+}
+
 function debugEnvVars() {
   // Add production-safe debugging
   console.log('Environment Check:', {
@@ -30,7 +71,7 @@ function debugEnvVars() {
     PRIVATE_KEY_SET: !!PRIVATE_KEY,
     PRIVATE_KEY_LENGTH: PRIVATE_KEY?.length || 0,
     PRIVATE_KEY_VALID: PRIVATE_KEY?.includes('PRIVATE KEY'),
-    SHEET_NAME: SHEET_NAME,
+    SHEET_NAME: SHEET_NAME
   });
 }
 
@@ -43,18 +84,23 @@ export async function getSheet() {
     if (!CLIENT_EMAIL) throw new Error('Missing GOOGLE_SHEETS_CLIENT_EMAIL environment variable');
     if (!PRIVATE_KEY) throw new Error('Missing GOOGLE_SHEETS_PRIVATE_KEY environment variable');
 
+    const formattedKey = formatPrivateKey(PRIVATE_KEY);
+
     // Log key format check
     console.log('Key format check:', {
-      hasHeader: PRIVATE_KEY.includes('BEGIN PRIVATE KEY'),
-      hasFooter: PRIVATE_KEY.includes('END PRIVATE KEY'),
-      hasNewlines: PRIVATE_KEY.includes('\\n'),
-      length: PRIVATE_KEY.length
+      hasHeader: formattedKey.includes('-----BEGIN PRIVATE KEY-----'),
+      hasFooter: formattedKey.includes('-----END PRIVATE KEY-----'),
+      hasActualNewlines: formattedKey.includes('\n'),
+      length: formattedKey.length,
+      firstLine: formattedKey.split('\n')[0],
+      lastLine: formattedKey.split('\n').slice(-1)[0]
     });
 
+    console.log('Creating JWT client...');
     // Create a new JWT client directly
     const client = new JWT({
       email: CLIENT_EMAIL,
-      key: PRIVATE_KEY.replace(/\\n/g, '\n'),  // Ensure newlines are properly handled
+      key: formattedKey,
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
 
@@ -63,8 +109,20 @@ export async function getSheet() {
 
     // First, get the spreadsheet to see all available sheets
     try {
-      console.log('Authorizing client...');
-      await client.authorize();
+      console.log('Starting client authorization...');
+      try {
+        await client.authorize();
+        console.log('Google client authorized successfully');
+      } catch (authError) {
+        console.error('Error authorizing Google client:', {
+          message: authError.message,
+          stack: authError.stack,
+          details: authError.response?.data,
+          code: authError.code,
+          statusCode: authError.response?.status
+        });
+        throw authError;
+      }
       
       console.log('Getting spreadsheet info...');
       const spreadsheet = await sheets.spreadsheets.get({
@@ -101,7 +159,9 @@ export async function getSheet() {
       console.error('Spreadsheet access error:', {
         message: error.message,
         response: error.response?.data,
-        stack: error.stack
+        stack: error.stack,
+        code: error.code,
+        statusCode: error.response?.status
       });
       throw new Error(`Could not access or setup spreadsheet: ${error.message}`);
     }
@@ -171,7 +231,9 @@ export async function getSheet() {
           console.error('Error adding row to Google Sheets:', {
             message: error.message,
             stack: error.stack,
-            response: error.response?.data
+            response: error.response?.data,
+            code: error.code,
+            statusCode: error.response?.status
           });
           throw new Error(`Failed to add row to Google Sheets: ${error.message}`);
         }
@@ -180,7 +242,9 @@ export async function getSheet() {
   } catch (error) {
     console.error('Error connecting to Google Sheets:', {
       message: error.message,
-      stack: error.stack
+      stack: error.stack,
+      code: error.code,
+      statusCode: error.response?.status
     });
     throw new Error(`Failed to connect to Google Sheets: ${error.message}`);
   }
