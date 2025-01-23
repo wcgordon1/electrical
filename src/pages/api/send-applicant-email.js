@@ -33,7 +33,7 @@ Consider joining our Subreddit:
 https://www.reddit.com/r/ElectricalJobs/
 
 Thank you!
-Best Electrician Jobs Team
+Jake's Jobs Team
 
 *This is an automated email.*`
     });

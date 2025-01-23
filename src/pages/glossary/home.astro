@@ -7,7 +7,7 @@ const allEntries = await getCollection("glossary");
 
 // Debug what we're getting
 console.log('First entry:', allEntries[0]?.data);
-const pageTitle = "Electrical Glossary | Best Electrician Jobs";
+const pageTitle = "Electrical Glossary | Jake's Jobs";
 const pageDescription = "Comprehensive glossary of electrical industry terms, definitions, and concepts for electricians and industry professionals.";
 
 // Canonical URL
@@ -22,7 +22,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
   <section class="bg-white">
     <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
       <h1 class="text-purple-900 font-semibold tracking-tight text-3xl">
-        Best Electrician Jobs - Glossary
+        Jake's Jobs - Glossary
       </h1>
       <p class="mt-6 mb-4 text-lg text-gray-600">
         A glossary of terms related to the electrical trades.
@@ -35,7 +35,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
               {entry.data.description.slice(0, 100)}
               {entry.data.description.length > 100 ? "..." : ""}
             </p>
-            <a href={`/glossary/${entry.slug}`} class="mt-6 text-blue-500">Learn more →</a>
+            <a href={`/glossary/${entry.slug}`} class="mt-6 text-indigo-500">Learn more →</a>
           </div>
         ))}
       </div>

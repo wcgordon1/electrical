@@ -116,26 +116,26 @@ const footerSections = [
 ];
 ---
 
-<footer class="bg-purple-900">
+<footer class="bg-indigo-800">
   <div
     class="items-center max-w-7xl lg:px-16 md:px-12 mx-auto px-8 xl:px-24 pt-24 pb-12">
     <div class="xl:gap-8 xl:grid xl:grid-cols-3">
       <div class="text-white xl:col-span-3">
         <a
-          title="Best Electrician Jobs"
-          aria-label="Best Electrician Jobs"
+          title="Jake's Jobs"
+          aria-label="Jake's Jobs"
           href="/"
-          class="text-2xl text-white font-semibold tracking-tight inline-flex gap-4 items-center">
+          class="text-4xl text-white font-semibold tracking-tight flex flex-col items-start">
           <img
-          src="/images/eleclog.png"
-          alt="Electrician Logo"
-          class="h-7 w-7" 
+          src="/images/jakes.png"
+          alt="Jake's Jobs Logo"
+          class="h-14 w-14 mb-4" 
         />
-          Best Electrician Jobs
+          Jake's Jobs
         </a>
       </div>
       <div
-        class="mt-12 grid gap-8 grid-cols-2 md:grid-cols-2 lg:mt-24 lg:col-span-3">
+        class="mt-8 grid gap-8 grid-cols-2 md:grid-cols-2 lg:mt-12 lg:col-span-3">
         <div class="gap-8 grid md:grid-cols-2">
           {
             footerSections.slice(0, 2).map((section) => (
@@ -148,7 +148,7 @@ const footerSections = [
                     <li>
                       <a
                         href={link.href}
-                        class="text-white/60 hover:text-white font-normal text-sm"
+                        class="text-white/80 hover:text-white font-normal text-sm"
                         title="link to your page"
                         aria-label="your label">
                         {link.label}
@@ -172,7 +172,7 @@ const footerSections = [
                     <li>
                       <a
                         href={link.href}
-                        class="text-white/60 hover:text-white font-normal text-sm"
+                        class="text-white/80 hover:text-white font-normal text-sm"
                         title="link to your page"
                         aria-label="your label">
                         {link.label}
@@ -190,12 +190,12 @@ const footerSections = [
       <!-- Buttons container -->
       <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
         <a
-          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full"
+          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-indigo-500 hover:bg-indigo-600 w-full"
           href="/open-positions">
           Open Positions
         </a>
         <a
-          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-transparent border-white border hover:border-blue-500 w-full"
+          class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-transparent border-white border hover:border-indigo-500 w-full"
           href="/post-a-job">
           Post a Job
         </a>
@@ -210,7 +210,7 @@ const footerSections = [
             {teams.map(team => (
               <a 
                 href={formatUrl(team, 'setting')}
-                class="text-white/60 hover:text-white font-normal text-sm"
+                class="text-white/80 hover:text-white font-normal text-sm"
               >
                 {team}
               </a>
@@ -225,7 +225,7 @@ const footerSections = [
             {categories.map(category => (
               <a 
                 href={formatUrl(category, 'skill')}
-                class="text-white/60 hover:text-white font-normal text-sm"
+                class="text-white/80 hover:text-white font-normal text-sm"
               >
                 {category}
               </a>
@@ -240,7 +240,7 @@ const footerSections = [
             {recruitingStates.map(state => (
               <a 
                 href={`/recruiting/${state.slug}`}
-                class="text-white/60 hover:text-white font-normal text-sm whitespace-nowrap"
+                class="text-white/80 hover:text-white font-normal text-sm whitespace-nowrap"
               >
                 Electrical Staffing in {state.name}
               </a>
@@ -259,7 +259,7 @@ const footerSections = [
       class="sm:flex sm:items-center sm:justify-between border-t py-12 border-white/10">
       <div class="flex flex-col sm:flex-row items-center justify-between w-full gap-4">
         <h3 class="text-xs leading-6 text-white/30">
-          © 2025 Best Electrician Jobs. All rights reserved.
+          © 2025 Jake's Jobs. All rights reserved.
         </h3>
 
         <h3 class="text-xs leading-6 text-white/30">
@@ -272,7 +272,7 @@ const footerSections = [
             href="/infopages/terms">
             Terms & Conditions
           </a>
-          <span class="text-blue-500">⏤</span>
+          <span class="text-indigo-500">⏤</span>
           <a
             class="text-white/40 hover:text-white font-normal text-xs"
             href="/infopages/privacy">

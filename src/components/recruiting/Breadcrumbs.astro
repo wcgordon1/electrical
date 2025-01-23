@@ -35,13 +35,13 @@ const schema = {
       <li class="flex items-center whitespace-nowrap">
         {index > 0 && <span class="mx-2 text-gray-400">/</span>}
         {item.current ? (
-          <span class="text-blue-600 font-medium truncate" aria-current="page">
+          <span class="text-indigo-600 font-medium truncate" aria-current="page">
             {item.text}
           </span>
         ) : (
           <a
             href={item.href}
-            class="text-gray-600 hover:text-blue-600 hover:underline transition-colors truncate"
+            class="text-gray-600 hover:text-indigo-600 hover:underline transition-colors truncate"
           >
             {item.text}
           </a>

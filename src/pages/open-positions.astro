@@ -19,8 +19,8 @@ function formatSalary(baseSalary) {
   const { currency, minValue, maxValue, unitText } = baseSalary;
   return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
 }
-const pageTitle = "Companies Hiring Electricians";
-const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Controls, Voice/Data, Audio/Visual, Solar, and Security Installer, Technician, Project Manager, and more jobs.";
+const pageTitle = "Light Industrial Jobs";
+const pageDescription = "Discover your next career opportunity with Jake's Jobs. We connect job seekers with rewarding warehouse and light industrial positions across the United States.";
 ---
 
 <JobsListLayout title={pageTitle} description={pageDescription}>
@@ -31,18 +31,18 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
   <section>
     <header class="px-8 mx-auto max-w-7xl lg:px-16 xl:px-24 pt-8">
       <div
-        class="p-8 lg:px-20 lg:py-32 rounded-3xl bg-gradient-to-tr from-purple-900 via-purple-800 to-blue-700">
+        class="p-8 lg:px-20 lg:py-24 rounded-3xl bg-gradient-to-tr from-indigo-950 via-indigo-700 to-indigo-400">
         <div class="text-center max-w-xl mx-auto">
           <span
             class="text-white text-sm leading-6 px-4 py-2 relative bg-white/10 ring-1 ring-white/20 rounded-full"
             >Find your next opportunity</span
           >
           <h1
-            class="text-white font-semibold tracking-tight lg:text-5xl mt-8 text-3xl lg:text-balance">
-            Best Electrician Jobs
+            class="text-white font-semibold tracking-tight lg:text-6xl mt-8 text-3xl lg:text-balance">
+            Jake's Jobs
           </h1>
-          <p class="text-slate-300 mt-5 lg:text-pretty">
-            Discover your next career move with us. We connect skilled electricians with top employers across Electrical, Fire Protection, Controls, Voice/Data, Audio/Visual, Solar, and Security.
+          <p class="text-slate-100 mt-5 lg:text-pretty">
+            Discover your next job with Jake. 
           </p>
         </div>
       </div>
@@ -60,7 +60,7 @@ const pageDescription = "Electrican Apprentice/Journeyman, Fire Protection, Cont
         </div>
         
         <div class="lg:w-3/4 mt-8 lg:mt-0 mb-24">
-          <ul role="list" class="job-list divide-y divide-slate-100">
+          <ul role="list" class="job-list divide-y divide-purple-50">
             {
               sortedJobs.map((post) => (
                 <Entries

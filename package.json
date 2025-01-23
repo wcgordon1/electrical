@@ -2,6 +2,7 @@
   "name": "@bestelectricianjobs",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -44,7 +45,9 @@
     "notify-deleted": "node scripts/notify-deleted-jobs.js",
     "get-remaining": "node scripts/get-remaining-jobs.js",
     "update-mckeaige": "node scripts/update-mckeaige-emails.js",
-    "count-locations": "node scripts/count-jobs-by-location.js"
+    "count-locations": "node scripts/count-jobs-by-location.js",
+    "replace-colors": "node scripts/replace-colors.js",
+    "replace-company": "node scripts/replace-company-name.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

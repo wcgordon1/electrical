@@ -38,18 +38,18 @@ console.log(`Debug StateJobs: Found ${stateJobs.length} jobs in ${stateName} (${
       {stateJobs.map(job => (
         <a 
           href={`/jobs/${job.slug}`}
-          class="block bg-white p-4 rounded-xl hover:bg-blue-50 transition-colors group"
+          class="block bg-white p-4 rounded-xl hover:bg-indigo-50 transition-colors group"
         >
           <div class="flex items-center justify-between">
             <div>
-              <h3 class="font-medium text-gray-900 group-hover:text-blue-600">
+              <h3 class="font-medium text-gray-900 group-hover:text-indigo-600">
                 {job.data.position}
               </h3>
               <p class="text-sm text-gray-600 mt-1">
                 {job.data.hiringOrganization?.name} • {job.data.location}
               </p>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-blue-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-gray-400 group-hover:text-indigo-600" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
               <path d="M4 12h16m-7-7 7 7-7 7" />
             </svg>
           </div>
@@ -61,7 +61,7 @@ console.log(`Debug StateJobs: Found ${stateJobs.length} jobs in ${stateName} (${
       {/* Link to all jobs in state which page doesn't exist yet
       <a 
         href={`/jobs/location/${stateName.toLowerCase().replace(/\s+/g, '-')}-jobs`}
-        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+        class="text-indigo-600 hover:text-indigo-700 font-medium inline-flex items-center gap-2"
       >
         View all jobs in {stateName}
         <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
@@ -71,7 +71,7 @@ console.log(`Debug StateJobs: Found ${stateJobs.length} jobs in ${stateName} (${
      */}
       <a 
         href={`/open-positions`}
-        class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2"
+        class="text-indigo-600 hover:text-indigo-700 font-medium inline-flex items-center gap-2"
       >
         View all open positions
         <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
