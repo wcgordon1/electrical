@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**/*": {
+    "src/pages/api/**/*": {
       "runtime": "nodejs@20.17.0"
     }
   }
