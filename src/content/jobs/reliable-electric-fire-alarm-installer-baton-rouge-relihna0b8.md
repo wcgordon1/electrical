@@ -10,8 +10,8 @@ description: >-
   essential for maintaining the integrity and efficie...
 location: 'Baton Rouge, LA'
 team: Commercial
-datePosted: '2024-12-28T12:18:37.604Z'
-validThrough: '2025-01-29T12:18:37.604Z'
+datePosted: '2025-01-23T09:55:21.204Z'
+validThrough: '2025-02-28T09:55:21.204Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

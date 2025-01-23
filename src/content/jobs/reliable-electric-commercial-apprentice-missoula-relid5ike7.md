@@ -10,8 +10,8 @@ description: >-
   construction and tenant improvement projects, gaining hands-o...
 location: 'Missoula, MT'
 team: Commercial
-datePosted: '2024-12-29T01:45:10.932Z'
-validThrough: '2025-02-08T01:45:10.932Z'
+datePosted: '2025-01-23T11:04:15.241Z'
+validThrough: '2025-02-26T11:04:15.241Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

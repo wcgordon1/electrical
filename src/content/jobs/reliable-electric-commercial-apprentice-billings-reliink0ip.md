@@ -10,8 +10,8 @@ description: >-
   systems, and life safety measures. As part of our team, you ...
 location: 'Billings, MT'
 team: Commercial
-datePosted: '2024-12-28T09:17:29.271Z'
-validThrough: '2025-02-03T09:17:29.271Z'
+datePosted: '2025-01-23T13:00:40.405Z'
+validThrough: '2025-03-04T13:00:40.405Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

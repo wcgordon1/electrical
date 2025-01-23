@@ -10,8 +10,8 @@ description: >-
   working with structured cabling and fiber optics, and ...
 location: 'Memphis, TN'
 team: Commercial
-datePosted: '2024-12-28T21:32:39.975Z'
-validThrough: '2025-02-02T21:32:39.975Z'
+datePosted: '2025-01-23T10:57:34.687Z'
+validThrough: '2025-02-22T10:57:34.687Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

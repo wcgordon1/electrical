@@ -10,8 +10,8 @@ description: >-
   automation integration. This role requires a proactive ...
 location: 'Atlantic City, NJ'
 team: Commercial
-datePosted: '2024-12-28T22:00:27.269Z'
-validThrough: '2025-02-04T22:00:27.269Z'
+datePosted: '2025-01-23T09:25:45.013Z'
+validThrough: '2025-03-01T09:25:45.013Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ESP Electrical

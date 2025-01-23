@@ -10,8 +10,8 @@ description: >-
   detail-oriented individuals who are passionate about renewab...
 location: 'Spokane, WA'
 team: Solar
-datePosted: '2024-12-28T07:32:49.022Z'
-validThrough: '2025-01-28T07:32:49.022Z'
+datePosted: '2025-01-23T11:07:51.690Z'
+validThrough: '2025-03-08T11:07:51.690Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

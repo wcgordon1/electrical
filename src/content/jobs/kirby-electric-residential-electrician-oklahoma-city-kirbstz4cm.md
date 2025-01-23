@@ -10,8 +10,8 @@ description: >-
   service. Here, your expertise will power the future of...
 location: 'Oklahoma City, OK'
 team: Residential
-datePosted: '2024-12-28T17:45:25.561Z'
-validThrough: '2025-02-11T17:45:25.561Z'
+datePosted: '2025-01-23T13:04:56.188Z'
+validThrough: '2025-02-23T13:04:56.188Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

@@ -15,8 +15,8 @@ description: >-
   have a solid understanding of control i...
 location: 'Twin Falls, ID'
 team: Commercial
-datePosted: '2024-12-28T17:50:23.183Z'
-validThrough: '2025-02-09T17:50:23.183Z'
+datePosted: '2025-01-23T10:29:47.053Z'
+validThrough: '2025-03-07T10:29:47.053Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

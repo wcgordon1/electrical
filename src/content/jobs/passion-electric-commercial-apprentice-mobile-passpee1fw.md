@@ -10,8 +10,8 @@ description: >-
   history and cultural offerings but is also conveniently ...
 location: 'Mobile, AL'
 team: Commercial
-datePosted: '2024-12-28T23:17:21.902Z'
-validThrough: '2025-01-30T23:17:21.902Z'
+datePosted: '2025-01-23T10:37:07.278Z'
+validThrough: '2025-02-23T10:37:07.278Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

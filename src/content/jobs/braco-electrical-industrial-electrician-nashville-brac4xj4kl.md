@@ -10,8 +10,8 @@ description: >-
   maintenance technologies. This role provides a uniq...
 location: 'Nashville, TN'
 team: Industrial
-datePosted: '2024-12-28T17:58:09.906Z'
-validThrough: '2025-02-08T17:58:09.906Z'
+datePosted: '2025-01-23T12:48:48.402Z'
+validThrough: '2025-02-22T12:48:48.402Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

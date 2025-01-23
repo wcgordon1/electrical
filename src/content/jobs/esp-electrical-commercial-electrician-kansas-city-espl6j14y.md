@@ -10,8 +10,8 @@ description: >-
   who is eager to contribute to big, exc...
 location: 'Kansas City, MO'
 team: Commercial
-datePosted: '2024-12-28T18:02:06.293Z'
-validThrough: '2025-02-04T18:02:06.293Z'
+datePosted: '2025-01-23T09:12:20.953Z'
+validThrough: '2025-03-04T09:12:20.953Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ESP Electrical

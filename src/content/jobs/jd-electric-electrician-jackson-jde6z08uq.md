@@ -10,8 +10,8 @@ description: >-
   industrial electrical installations and maintenance. We are s...
 location: 'Jackson, MS'
 team: Industrial
-datePosted: '2024-12-28T11:07:15.767Z'
-validThrough: '2025-02-02T11:07:15.767Z'
+datePosted: '2025-01-23T10:37:25.500Z'
+validThrough: '2025-03-01T10:37:25.500Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: JD Electric

@@ -10,8 +10,8 @@ description: >-
   beauty. This position is perfect for in...
 location: 'Grand Junction, CO'
 team: Commercial
-datePosted: '2024-12-28T19:34:52.239Z'
-validThrough: '2025-02-06T19:34:52.239Z'
+datePosted: '2025-01-23T10:32:57.515Z'
+validThrough: '2025-03-03T10:32:57.515Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

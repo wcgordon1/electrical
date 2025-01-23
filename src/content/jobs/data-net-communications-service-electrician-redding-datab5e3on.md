@@ -10,8 +10,8 @@ description: >-
   especially when dealing with emergency respon...
 location: 'Redding, CA'
 team: Commercial
-datePosted: '2024-12-28T19:43:17.051Z'
-validThrough: '2025-02-02T19:43:17.051Z'
+datePosted: '2025-01-23T08:07:16.553Z'
+validThrough: '2025-02-22T08:07:16.553Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

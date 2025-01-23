@@ -10,8 +10,8 @@ description: >-
   for a state-approved apprenticeship...
 location: 'Stockton, CA'
 team: Residential
-datePosted: '2024-12-28T16:32:53.744Z'
-validThrough: '2025-02-08T16:32:53.744Z'
+datePosted: '2025-01-23T08:45:05.441Z'
+validThrough: '2025-03-05T08:45:05.441Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

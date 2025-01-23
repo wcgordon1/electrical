@@ -13,8 +13,8 @@ description: >-
   ##...
 location: 'Carlsbad, CA'
 team: Residential
-datePosted: '2024-12-28T16:07:17.890Z'
-validThrough: '2025-01-30T16:07:17.890Z'
+datePosted: '2025-01-23T09:19:43.881Z'
+validThrough: '2025-03-03T09:19:43.881Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

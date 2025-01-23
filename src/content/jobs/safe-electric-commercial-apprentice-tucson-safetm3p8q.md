@@ -10,8 +10,8 @@ description: >-
   buildings, retail spaces, and industrial facilities. ...
 location: 'Tucson, AZ'
 team: Commercial
-datePosted: '2024-12-28T11:52:27.009Z'
-validThrough: '2025-01-31T11:52:27.009Z'
+datePosted: '2025-01-23T12:43:41.059Z'
+validThrough: '2025-02-26T12:43:41.059Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe Electric

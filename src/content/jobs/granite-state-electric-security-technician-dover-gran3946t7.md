@@ -14,8 +14,8 @@ description: >-
   You'll be designing and setting up top-notch security systems, from ...
 location: 'Dover, DE'
 team: Commercial
-datePosted: '2024-12-28T14:57:23.782Z'
-validThrough: '2025-02-07T14:57:23.782Z'
+datePosted: '2025-01-23T09:43:43.526Z'
+validThrough: '2025-02-27T09:43:43.526Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

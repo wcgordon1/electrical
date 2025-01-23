@@ -14,8 +14,8 @@ description: >-
   - Master residential electrical installatio...
 location: 'Boulder, CO'
 team: Residential
-datePosted: '2024-12-28T11:04:54.972Z'
-validThrough: '2025-02-04T11:04:54.972Z'
+datePosted: '2025-01-23T08:17:26.450Z'
+validThrough: '2025-02-27T08:17:26.450Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Colvin Electric

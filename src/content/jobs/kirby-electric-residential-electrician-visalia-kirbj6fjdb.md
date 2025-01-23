@@ -10,8 +10,8 @@ description: >-
   controls, and advanced troubleshooting. This apprentices...
 location: 'Visalia, CA'
 team: Residential
-datePosted: '2024-12-28T08:57:07.199Z'
-validThrough: '2025-02-07T08:57:07.199Z'
+datePosted: '2025-01-23T12:58:31.496Z'
+validThrough: '2025-02-28T12:58:31.496Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

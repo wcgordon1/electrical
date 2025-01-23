@@ -10,8 +10,8 @@ description: >-
   center infrastructure, including str...
 location: 'Bangor, ME'
 team: Commercial
-datePosted: '2024-12-28T14:03:35.195Z'
-validThrough: '2025-02-09T14:03:35.195Z'
+datePosted: '2025-01-23T09:47:40.349Z'
+validThrough: '2025-02-22T09:47:40.349Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Miller Electric

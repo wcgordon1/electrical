@@ -10,8 +10,8 @@ description: >-
   Clyde, and Baird, offering a diverse wor...
 location: 'Abilene, TX'
 team: Commercial
-datePosted: '2024-12-28T23:55:58.251Z'
-validThrough: '2025-02-11T23:55:58.251Z'
+datePosted: '2025-01-23T08:50:59.976Z'
+validThrough: '2025-03-04T08:50:59.976Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

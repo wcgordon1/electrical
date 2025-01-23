@@ -10,8 +10,8 @@ description: >-
   regional connectivity and technological growth....
 location: 'Wenatchee, WA'
 team: Commercial
-datePosted: '2024-12-29T03:04:52.454Z'
-validThrough: '2025-02-11T03:04:52.454Z'
+datePosted: '2025-01-23T12:03:14.058Z'
+validThrough: '2025-02-26T12:03:14.058Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: T&D Communications

@@ -10,8 +10,8 @@ description: >-
   automation integration. This role demands a dedicate...
 location: 'Asheville, NC'
 team: Commercial
-datePosted: '2024-12-28T22:15:52.812Z'
-validThrough: '2025-02-09T22:15:52.812Z'
+datePosted: '2025-01-23T11:11:29.978Z'
+validThrough: '2025-03-01T11:11:29.978Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: JP Electric

@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Jersey City, NJ'
 team: Commercial
-datePosted: '2024-12-28T09:57:12.050Z'
-validThrough: '2025-02-07T09:57:12.050Z'
+datePosted: '2025-01-23T12:04:00.678Z'
+validThrough: '2025-03-04T12:04:00.678Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Simple Electric

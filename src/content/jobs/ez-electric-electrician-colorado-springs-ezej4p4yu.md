@@ -10,8 +10,8 @@ description: >-
   operate in dynamic environments, contribu...
 location: 'Colorado Springs, CO'
 team: Industrial
-datePosted: '2024-12-28T14:05:18.740Z'
-validThrough: '2025-02-01T14:05:18.740Z'
+datePosted: '2025-01-23T12:20:31.180Z'
+validThrough: '2025-03-05T12:20:31.180Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

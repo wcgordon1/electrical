@@ -10,8 +10,8 @@ description: >-
   supportive setting. Successful candidates will demon...
 location: 'Murrieta, CA'
 team: Industrial
-datePosted: '2024-12-28T22:39:13.707Z'
-validThrough: '2025-02-07T22:39:13.707Z'
+datePosted: '2025-01-23T09:28:44.690Z'
+validThrough: '2025-02-25T09:28:44.690Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

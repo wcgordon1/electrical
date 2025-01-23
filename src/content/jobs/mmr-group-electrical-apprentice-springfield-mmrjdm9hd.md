@@ -10,8 +10,8 @@ description: >-
   understanding of basic electrical theory, ligh...
 location: 'Springfield, MA'
 team: Commercial
-datePosted: '2024-12-28T07:26:11.313Z'
-validThrough: '2025-02-11T07:26:11.313Z'
+datePosted: '2025-01-23T12:18:38.984Z'
+validThrough: '2025-03-04T12:18:38.984Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

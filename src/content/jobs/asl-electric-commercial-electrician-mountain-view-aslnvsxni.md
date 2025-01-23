@@ -10,8 +10,8 @@ description: >-
   electrical systems within active construction sit...
 location: 'Mountain View, CA'
 team: Commercial
-datePosted: '2024-12-28T14:03:03.380Z'
-validThrough: '2025-02-01T14:03:03.380Z'
+datePosted: '2025-01-23T12:09:37.768Z'
+validThrough: '2025-02-23T12:09:37.768Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

@@ -10,8 +10,8 @@ description: >-
   complex industrial facilities. This position is an excel...
 location: 'St. Charles, MO'
 team: Commercial
-datePosted: '2024-12-28T23:46:08.355Z'
-validThrough: '2025-02-09T23:46:08.355Z'
+datePosted: '2025-01-23T10:36:08.977Z'
+validThrough: '2025-03-09T10:36:08.977Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Mirapath

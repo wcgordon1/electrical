@@ -10,8 +10,8 @@ description: >-
   role will involve advanced diagnostics, p...
 location: 'New Haven, CT'
 team: Commercial
-datePosted: '2024-12-28T20:49:40.318Z'
-validThrough: '2025-01-28T20:49:40.318Z'
+datePosted: '2025-01-23T09:51:48.722Z'
+validThrough: '2025-03-08T09:51:48.722Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Dodge Electric

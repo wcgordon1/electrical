@@ -10,8 +10,8 @@ description: >-
   Monroeville, Cranberry Township, and Bethel P...
 location: 'Pittsburgh, PA'
 team: Commercial
-datePosted: '2024-12-28T16:34:40.459Z'
-validThrough: '2025-01-28T16:34:40.459Z'
+datePosted: '2025-01-23T11:17:37.899Z'
+validThrough: '2025-02-28T11:17:37.899Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

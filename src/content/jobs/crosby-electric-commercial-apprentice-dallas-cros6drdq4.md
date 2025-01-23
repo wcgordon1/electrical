@@ -10,8 +10,8 @@ description: >-
   life safety systems. This role is ...
 location: 'Dallas, TX'
 team: Commercial
-datePosted: '2024-12-28T16:01:34.229Z'
-validThrough: '2025-02-10T16:01:34.229Z'
+datePosted: '2025-01-23T12:54:26.010Z'
+validThrough: '2025-02-23T12:54:26.010Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

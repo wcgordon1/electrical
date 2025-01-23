@@ -10,8 +10,8 @@ description: >-
   facilities such as data centers and healthcare envir...
 location: 'Charleston, SC'
 team: Commercial
-datePosted: '2024-12-28T20:29:30.567Z'
-validThrough: '2025-02-07T20:29:30.567Z'
+datePosted: '2025-01-23T12:19:34.859Z'
+validThrough: '2025-03-05T12:19:34.859Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

@@ -10,8 +10,8 @@ description: >-
   renewable energy and ready to harness t...
 location: 'Anderson, SC'
 team: Solar
-datePosted: '2024-12-28T10:41:56.783Z'
-validThrough: '2025-02-06T10:41:56.783Z'
+datePosted: '2025-01-23T08:40:26.464Z'
+validThrough: '2025-03-07T08:40:26.464Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

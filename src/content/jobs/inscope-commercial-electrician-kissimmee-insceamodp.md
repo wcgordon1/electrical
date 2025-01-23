@@ -10,8 +10,8 @@ description: >-
   security projects. Embrace the opportunity to eng...
 location: 'Kissimmee, FL'
 team: Commercial
-datePosted: '2024-12-28T23:25:07.777Z'
-validThrough: '2025-02-09T23:25:07.777Z'
+datePosted: '2025-01-23T09:48:00.632Z'
+validThrough: '2025-03-08T09:48:00.632Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: InScope

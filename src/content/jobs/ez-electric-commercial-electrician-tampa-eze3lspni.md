@@ -10,8 +10,8 @@ description: >-
   and lighting controls to our exciting pr...
 location: 'Tampa, FL'
 team: Commercial
-datePosted: '2024-12-28T22:09:33.805Z'
-validThrough: '2025-02-01T22:09:33.805Z'
+datePosted: '2025-01-23T11:11:59.963Z'
+validThrough: '2025-02-23T11:11:59.963Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

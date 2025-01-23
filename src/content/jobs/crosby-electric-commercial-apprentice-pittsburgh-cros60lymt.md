@@ -10,8 +10,8 @@ description: >-
   electrical installation. Dive into projects that shap...
 location: 'Pittsburgh, PA'
 team: Commercial
-datePosted: '2024-12-28T14:46:43.360Z'
-validThrough: '2025-02-04T14:46:43.360Z'
+datePosted: '2025-01-23T12:13:30.851Z'
+validThrough: '2025-03-04T12:13:30.851Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

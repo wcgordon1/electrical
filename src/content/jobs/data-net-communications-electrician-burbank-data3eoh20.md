@@ -15,8 +15,8 @@ description: >-
   - Install and maintain i...
 location: 'Burbank, CA'
 team: Industrial
-datePosted: '2024-12-28T07:22:33.640Z'
-validThrough: '2025-01-30T07:22:33.640Z'
+datePosted: '2025-01-23T10:39:26.997Z'
+validThrough: '2025-03-06T10:39:26.997Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

@@ -15,8 +15,8 @@ description: >-
   - In...
 location: 'Burbank, CA'
 team: Commercial
-datePosted: '2024-12-28T18:32:18.653Z'
-validThrough: '2025-02-11T18:32:18.653Z'
+datePosted: '2025-01-23T11:56:53.031Z'
+validThrough: '2025-03-04T11:56:53.031Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

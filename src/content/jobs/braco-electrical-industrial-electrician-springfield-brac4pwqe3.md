@@ -10,8 +10,8 @@ description: >-
   maintenance technologies to maintain an...
 location: 'Springfield, MO'
 team: Industrial
-datePosted: '2024-12-28T06:35:19.636Z'
-validThrough: '2025-02-03T06:35:19.636Z'
+datePosted: '2025-01-23T11:18:20.601Z'
+validThrough: '2025-03-09T10:18:20.601Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

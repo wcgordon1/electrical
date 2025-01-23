@@ -10,8 +10,8 @@ description: >-
   Kingsville. With upcoming large-scale projects li...
 location: 'Corpus Christi, TX'
 team: Commercial
-datePosted: '2024-12-29T02:27:30.538Z'
-validThrough: '2025-02-03T02:27:30.538Z'
+datePosted: '2025-01-23T12:05:00.519Z'
+validThrough: '2025-03-03T12:05:00.519Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: M3 Technology

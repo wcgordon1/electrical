@@ -10,8 +10,8 @@ description: >-
   Jenks. If you’re eager to learn, have a kna...
 location: 'Tulsa, OK'
 team: Residential
-datePosted: '2024-12-28T08:21:48.887Z'
-validThrough: '2025-02-01T08:21:48.887Z'
+datePosted: '2025-01-23T08:23:05.545Z'
+validThrough: '2025-03-08T08:23:05.545Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Miller Electric

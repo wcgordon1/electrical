@@ -10,8 +10,8 @@ description: >-
   Essex, and Winooski, providing you with a diverse...
 location: 'Burlington, VT'
 team: Commercial
-datePosted: '2024-12-28T23:36:51.300Z'
-validThrough: '2025-02-09T23:36:51.300Z'
+datePosted: '2025-01-23T09:31:29.374Z'
+validThrough: '2025-02-28T09:31:29.374Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Arc Electric

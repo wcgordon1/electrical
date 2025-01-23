@@ -10,8 +10,8 @@ description: >-
   automation and energy management, bringing...
 location: 'Denver, CO'
 team: Residential
-datePosted: '2024-12-28T17:25:38.575Z'
-validThrough: '2025-01-30T17:25:38.575Z'
+datePosted: '2025-01-23T08:55:50.637Z'
+validThrough: '2025-03-08T08:55:50.637Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

@@ -10,8 +10,8 @@ description: >-
   solutions, specializing in critical facilities and power...
 location: 'Idaho Falls, ID'
 team: Commercial
-datePosted: '2024-12-28T09:12:44.131Z'
-validThrough: '2025-02-06T09:12:44.131Z'
+datePosted: '2025-01-23T08:57:53.632Z'
+validThrough: '2025-03-05T08:57:53.632Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Colvin Electric

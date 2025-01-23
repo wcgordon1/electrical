@@ -10,8 +10,8 @@ description: >-
   about integrating smart home systems into th...
 location: 'Biloxi, MS'
 team: Residential
-datePosted: '2024-12-28T16:16:47.568Z'
-validThrough: '2025-02-04T16:16:47.568Z'
+datePosted: '2025-01-23T12:15:04.200Z'
+validThrough: '2025-03-08T12:15:04.200Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Dodge Electric

@@ -13,8 +13,8 @@ description: >-
   ## Key Responsibilitie...
 location: 'San Luis Obispo, CA'
 team: Industrial
-datePosted: '2024-12-28T19:12:20.623Z'
-validThrough: '2025-01-28T19:12:20.623Z'
+datePosted: '2025-01-23T09:40:31.604Z'
+validThrough: '2025-02-27T09:40:31.604Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Berks Electrical

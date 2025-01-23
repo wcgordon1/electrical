@@ -10,8 +10,8 @@ description: >-
   revolution? Here is your opportunity to grow and shine...
 location: 'Tulsa, OK'
 team: Solar
-datePosted: '2024-12-28T19:10:06.060Z'
-validThrough: '2025-02-05T19:10:06.060Z'
+datePosted: '2025-01-23T11:41:11.411Z'
+validThrough: '2025-03-02T11:41:11.411Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

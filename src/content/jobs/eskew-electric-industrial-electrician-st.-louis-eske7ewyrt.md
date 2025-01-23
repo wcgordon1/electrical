@@ -14,8 +14,8 @@ description: >-
   production lines, perform root cause analysis on system failures,...
 location: 'St. Louis, MO'
 team: Industrial
-datePosted: '2024-12-29T03:10:46.732Z'
-validThrough: '2025-02-09T03:10:46.732Z'
+datePosted: '2025-01-23T09:56:02.959Z'
+validThrough: '2025-03-05T09:56:02.959Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Eskew Electric

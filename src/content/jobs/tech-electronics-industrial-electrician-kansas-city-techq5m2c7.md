@@ -10,8 +10,8 @@ description: >-
   us at the top of our game. If you're ready...
 location: 'Kansas City, KS'
 team: Industrial
-datePosted: '2024-12-28T15:48:14.757Z'
-validThrough: '2025-02-09T15:48:14.757Z'
+datePosted: '2025-01-23T11:19:47.362Z'
+validThrough: '2025-02-23T11:19:47.362Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

@@ -14,8 +14,8 @@ description: >-
   - Install and maintain ind...
 location: 'Davis, CA'
 team: Industrial
-datePosted: '2024-12-28T11:25:49.038Z'
-validThrough: '2025-02-08T11:25:49.038Z'
+datePosted: '2025-01-23T09:34:21.154Z'
+validThrough: '2025-03-01T09:34:21.154Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

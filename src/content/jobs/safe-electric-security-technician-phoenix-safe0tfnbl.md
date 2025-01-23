@@ -10,8 +10,8 @@ description: >-
   cutting-edge security systems. This role not only demands...
 location: 'Phoenix, AZ'
 team: Commercial
-datePosted: '2024-12-28T08:36:02.925Z'
-validThrough: '2025-02-11T08:36:02.925Z'
+datePosted: '2025-01-23T11:51:30.904Z'
+validThrough: '2025-02-25T11:51:30.904Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Safe Electric

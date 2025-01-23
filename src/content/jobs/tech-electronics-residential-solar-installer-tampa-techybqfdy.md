@@ -16,8 +16,8 @@ description: >-
   - Ins...
 location: 'Tampa, FL'
 team: Solar
-datePosted: '2024-12-28T16:18:50.682Z'
-validThrough: '2025-02-04T16:18:50.682Z'
+datePosted: '2025-01-23T12:16:09.752Z'
+validThrough: '2025-02-27T12:16:09.752Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

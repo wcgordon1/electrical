@@ -10,8 +10,8 @@ description: >-
   photovoltaic (PV) systems, ensuring they are safe, ef...
 location: 'Murfreesboro, TN'
 team: Solar
-datePosted: '2024-12-28T18:09:00.106Z'
-validThrough: '2025-02-02T18:09:00.106Z'
+datePosted: '2025-01-23T10:07:07.275Z'
+validThrough: '2025-03-09T10:07:07.275Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Vision Technologies

@@ -10,8 +10,8 @@ description: >-
   this role will immerse you in the essentials of po...
 location: 'Portland, ME'
 team: Commercial
-datePosted: '2024-12-28T13:23:56.687Z'
-validThrough: '2025-02-04T13:23:56.687Z'
+datePosted: '2025-01-23T10:03:37.103Z'
+validThrough: '2025-03-03T10:03:37.103Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

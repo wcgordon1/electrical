@@ -10,8 +10,8 @@ description: >-
   manufacturing environment, ensuring our state-of-the-art syst...
 location: 'Palo Alto, CA'
 team: Industrial
-datePosted: '2024-12-28T09:47:20.150Z'
-validThrough: '2025-02-11T09:47:20.150Z'
+datePosted: '2025-01-23T08:24:39.169Z'
+validThrough: '2025-03-05T08:24:39.169Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: 3D Communications

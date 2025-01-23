@@ -13,8 +13,8 @@ description: >-
   ## ...
 location: 'Clearwater, FL'
 team: Commercial
-datePosted: '2024-12-28T19:17:57.396Z'
-validThrough: '2025-02-02T19:17:57.396Z'
+datePosted: '2025-01-23T10:15:26.923Z'
+validThrough: '2025-02-25T10:15:26.923Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

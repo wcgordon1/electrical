@@ -10,8 +10,8 @@ description: >-
   passionate about security technology...
 location: 'Anaheim, CA'
 team: Commercial
-datePosted: '2024-12-29T00:12:09.970Z'
-validThrough: '2025-02-11T00:12:09.970Z'
+datePosted: '2025-01-23T12:54:29.045Z'
+validThrough: '2025-02-24T12:54:29.045Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

@@ -13,8 +13,8 @@ description: >-
   ## Key Responsibi...
 location: 'Santa Cruz, CA'
 team: Industrial
-datePosted: '2024-12-29T01:13:53.489Z'
-validThrough: '2025-02-01T01:13:53.489Z'
+datePosted: '2025-01-23T10:28:05.604Z'
+validThrough: '2025-02-28T10:28:05.604Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: ASL Electric

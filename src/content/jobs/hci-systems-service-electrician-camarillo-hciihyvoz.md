@@ -10,8 +10,8 @@ description: >-
   power quality issues will be put to great use as you h...
 location: 'Camarillo, CA'
 team: Commercial
-datePosted: '2024-12-28T14:40:24.084Z'
-validThrough: '2025-01-29T14:40:24.084Z'
+datePosted: '2025-01-23T08:46:38.382Z'
+validThrough: '2025-03-01T08:46:38.382Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

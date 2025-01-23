@@ -10,8 +10,8 @@ description: >-
   for talented individuals to help us delive...
 location: 'Columbia, SC'
 team: Commercial
-datePosted: '2024-12-28T19:02:19.379Z'
-validThrough: '2025-02-04T19:02:19.379Z'
+datePosted: '2025-01-23T08:35:34.529Z'
+validThrough: '2025-03-06T08:35:34.529Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

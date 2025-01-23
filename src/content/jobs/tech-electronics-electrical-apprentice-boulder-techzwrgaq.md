@@ -10,8 +10,8 @@ description: >-
   we're committed to powering the future o...
 location: 'Boulder, CO'
 team: Commercial
-datePosted: '2024-12-28T09:17:14.117Z'
-validThrough: '2025-01-29T09:17:14.117Z'
+datePosted: '2025-01-23T09:49:44.839Z'
+validThrough: '2025-02-27T09:49:44.839Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Tech Electronics

@@ -10,8 +10,8 @@ description: >-
   employees. As part of HCI Systems, you...
 location: 'Fort Collins, CO'
 team: Data Center
-datePosted: '2024-12-28T14:52:53.648Z'
-validThrough: '2025-02-05T14:52:53.648Z'
+datePosted: '2025-01-23T12:02:19.447Z'
+validThrough: '2025-02-24T12:02:19.447Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

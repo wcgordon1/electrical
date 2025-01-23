@@ -10,8 +10,8 @@ description: >-
   This role requires a keen understanding of ind...
 location: 'Boise, ID'
 team: Industrial
-datePosted: '2024-12-28T14:16:09.048Z'
-validThrough: '2025-02-09T14:16:09.048Z'
+datePosted: '2025-01-23T10:11:46.461Z'
+validThrough: '2025-02-22T10:11:46.461Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

@@ -10,8 +10,8 @@ description: >-
   bring advanced diagnostic skills and a pas...
 location: 'Birmingham, AL'
 team: Commercial
-datePosted: '2024-12-28T18:37:36.613Z'
-validThrough: '2025-02-11T18:37:36.613Z'
+datePosted: '2025-01-23T08:38:28.272Z'
+validThrough: '2025-03-05T08:38:28.272Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Passion Electric

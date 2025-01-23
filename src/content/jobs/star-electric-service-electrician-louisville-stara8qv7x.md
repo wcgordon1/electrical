@@ -10,8 +10,8 @@ description: >-
   This role demands a strong commitment to quality a...
 location: 'Louisville, KY'
 team: Commercial
-datePosted: '2024-12-28T18:21:48.123Z'
-validThrough: '2025-02-11T18:21:48.123Z'
+datePosted: '2025-01-23T10:21:49.660Z'
+validThrough: '2025-03-05T10:21:49.660Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

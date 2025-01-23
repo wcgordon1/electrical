@@ -10,8 +10,8 @@ description: >-
   and technological advancement. Our specialists are expected to ...
 location: 'Fayetteville, AR'
 team: Residential
-datePosted: '2024-12-28T16:58:35.190Z'
-validThrough: '2025-02-04T16:58:35.190Z'
+datePosted: '2025-01-23T13:01:07.374Z'
+validThrough: '2025-02-26T13:01:07.374Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

@@ -10,8 +10,8 @@ description: >-
   predictive maintenance, and more. Are you up for the ...
 location: 'Park City, UT'
 team: Industrial
-datePosted: '2024-12-28T10:50:42.993Z'
-validThrough: '2025-01-29T10:50:42.993Z'
+datePosted: '2025-01-23T09:09:53.067Z'
+validThrough: '2025-02-27T09:09:53.067Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Star Electric

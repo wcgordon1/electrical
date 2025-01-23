@@ -10,8 +10,8 @@ description: >-
   conduit installation, wire pulling techniques, and...
 location: 'Fairfield, CA'
 team: Commercial
-datePosted: '2024-12-28T15:47:22.741Z'
-validThrough: '2025-02-04T15:47:22.741Z'
+datePosted: '2025-01-23T11:28:04.684Z'
+validThrough: '2025-03-08T11:28:04.684Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

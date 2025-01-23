@@ -10,8 +10,8 @@ description: >-
   expertise in single-mode, multi-mode,...
 location: 'Katy, TX'
 team: Commercial
-datePosted: '2024-12-29T00:05:23.826Z'
-validThrough: '2025-02-12T00:05:23.826Z'
+datePosted: '2025-01-23T09:39:31.259Z'
+validThrough: '2025-02-23T09:39:31.259Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Staley Technologies

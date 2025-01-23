@@ -10,8 +10,8 @@ description: >-
   structured cabling and enjoy working with a dynami...
 location: 'Marietta, GA'
 team: Commercial
-datePosted: '2024-12-28T09:05:38.844Z'
-validThrough: '2025-02-03T09:05:38.844Z'
+datePosted: '2025-01-23T12:35:00.831Z'
+validThrough: '2025-03-03T12:35:00.831Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Granite State Electric

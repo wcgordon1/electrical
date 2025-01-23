@@ -10,8 +10,8 @@ description: >-
   efficiently. If you've got the skills and the dri...
 location: 'Columbia, SC'
 team: Industrial
-datePosted: '2024-12-28T20:20:35.983Z'
-validThrough: '2025-01-28T20:20:35.983Z'
+datePosted: '2025-01-23T11:48:16.883Z'
+validThrough: '2025-03-09T10:48:16.883Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: EZ Electric

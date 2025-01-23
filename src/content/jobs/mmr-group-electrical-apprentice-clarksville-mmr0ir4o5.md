@@ -10,8 +10,8 @@ description: >-
   contributing to exciting projects that light up the city. P...
 location: 'Clarksville, TN'
 team: Commercial
-datePosted: '2024-12-28T10:28:20.150Z'
-validThrough: '2025-02-04T10:28:20.150Z'
+datePosted: '2025-01-23T10:09:28.941Z'
+validThrough: '2025-02-22T10:09:28.941Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

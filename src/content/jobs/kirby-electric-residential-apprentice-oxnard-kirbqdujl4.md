@@ -10,8 +10,8 @@ description: >-
   you master the art of electrical work in new ho...
 location: 'Oxnard, CA'
 team: Residential
-datePosted: '2024-12-28T06:54:53.324Z'
-validThrough: '2025-02-11T06:54:53.324Z'
+datePosted: '2025-01-23T11:24:24.219Z'
+validThrough: '2025-03-09T10:24:24.219Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

@@ -14,8 +14,8 @@ description: >-
   - Install electrical systems in new ...
 location: 'Napa, CA'
 team: Commercial
-datePosted: '2024-12-28T12:25:44.759Z'
-validThrough: '2025-02-02T12:25:44.759Z'
+datePosted: '2025-01-23T08:00:50.509Z'
+validThrough: '2025-02-23T08:00:50.509Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Advanced Alarm & Fire

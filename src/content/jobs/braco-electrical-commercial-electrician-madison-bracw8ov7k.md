@@ -14,8 +14,8 @@ description: >-
   Design and install complete electrical systems for commercial construc...
 location: 'Madison, WI'
 team: Commercial
-datePosted: '2024-12-28T11:00:37.404Z'
-validThrough: '2025-02-05T11:00:37.404Z'
+datePosted: '2025-01-23T12:44:59.235Z'
+validThrough: '2025-03-03T12:44:59.235Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

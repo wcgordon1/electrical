@@ -10,8 +10,8 @@ description: >-
   you'll not only refine your skills but also contribut...
 location: 'Waco, TX'
 team: Commercial
-datePosted: '2024-12-28T11:13:13.351Z'
-validThrough: '2025-01-28T11:13:13.351Z'
+datePosted: '2025-01-23T08:26:13.669Z'
+validThrough: '2025-03-03T08:26:13.669Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Crosby Electric

@@ -16,8 +16,8 @@ description: >-
   ...
 location: 'Ogden, UT'
 team: Commercial
-datePosted: '2024-12-28T15:24:19.020Z'
-validThrough: '2025-02-10T15:24:19.020Z'
+datePosted: '2025-01-23T11:46:10.144Z'
+validThrough: '2025-02-23T11:46:10.144Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: MMR Group

@@ -10,8 +10,8 @@ description: >-
   Portsmouth, our company thrives in a dynamic environment where innova...
 location: 'Virginia Beach, VA'
 team: Residential
-datePosted: '2024-12-28T07:50:40.724Z'
-validThrough: '2025-02-10T07:50:40.724Z'
+datePosted: '2025-01-23T12:37:48.593Z'
+validThrough: '2025-02-28T12:37:48.593Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Oak Electrical

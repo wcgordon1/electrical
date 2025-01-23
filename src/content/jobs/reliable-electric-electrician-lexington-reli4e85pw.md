@@ -15,8 +15,8 @@ description: >-
   - In...
 location: 'Lexington, KY'
 team: Industrial
-datePosted: '2024-12-28T18:38:13.217Z'
-validThrough: '2025-02-04T18:38:13.217Z'
+datePosted: '2025-01-23T10:10:25.810Z'
+validThrough: '2025-03-02T10:10:25.810Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Reliable Electric

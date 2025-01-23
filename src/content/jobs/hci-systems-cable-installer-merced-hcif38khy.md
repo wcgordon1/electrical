@@ -10,8 +10,8 @@ description: >-
   infrastructure. With local travel between job sites, you...
 location: 'Merced, CA'
 team: Commercial
-datePosted: '2024-12-28T08:47:44.525Z'
-validThrough: '2025-02-10T08:47:44.525Z'
+datePosted: '2025-01-23T09:08:37.597Z'
+validThrough: '2025-03-08T09:08:37.597Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

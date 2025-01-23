@@ -10,8 +10,8 @@ description: >-
   growth. This entry-level position is perfect ...
 location: 'Cleveland, OH'
 team: Residential
-datePosted: '2024-12-28T09:56:46.026Z'
-validThrough: '2025-01-30T09:56:46.026Z'
+datePosted: '2025-01-23T11:24:43.650Z'
+validThrough: '2025-02-24T11:24:43.650Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Simple Electric

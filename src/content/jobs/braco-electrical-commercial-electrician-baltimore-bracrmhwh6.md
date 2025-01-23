@@ -13,8 +13,8 @@ description: >-
   ## Key Res...
 location: 'Baltimore, MD'
 team: Commercial
-datePosted: '2024-12-28T10:58:28.670Z'
-validThrough: '2025-02-08T10:58:28.670Z'
+datePosted: '2025-01-23T10:24:36.045Z'
+validThrough: '2025-03-07T10:24:36.045Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Braco Electrical

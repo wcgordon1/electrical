@@ -10,8 +10,8 @@ description: >-
   contribute to the success of our upcomin...
 location: 'Pearland, TX'
 team: Commercial
-datePosted: '2024-12-29T03:05:15.678Z'
-validThrough: '2025-01-30T03:05:15.678Z'
+datePosted: '2025-01-23T11:54:03.883Z'
+validThrough: '2025-03-06T11:54:03.883Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Enhanced Voice & Data

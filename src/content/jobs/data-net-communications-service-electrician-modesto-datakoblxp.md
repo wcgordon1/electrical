@@ -10,8 +10,8 @@ description: >-
   emergency situations, and managing service routes efficient...
 location: 'Modesto, CA'
 team: Commercial
-datePosted: '2024-12-28T20:50:38.021Z'
-validThrough: '2025-02-11T20:50:38.021Z'
+datePosted: '2025-01-23T11:05:29.491Z'
+validThrough: '2025-03-07T11:05:29.491Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Data Net Communications

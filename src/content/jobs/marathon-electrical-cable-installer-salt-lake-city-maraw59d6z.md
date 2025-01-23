@@ -14,8 +14,8 @@ description: >-
   networks, perform high-density ...
 location: 'Salt Lake City, UT'
 team: Commercial
-datePosted: '2024-12-28T23:25:21.840Z'
-validThrough: '2025-02-08T23:25:21.840Z'
+datePosted: '2025-01-23T09:39:58.329Z'
+validThrough: '2025-02-25T09:39:58.329Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Marathon Electrical

@@ -10,8 +10,8 @@ description: >-
   mix of urban and suburban living. Our team i...
 location: 'Wichita, KS'
 team: Commercial
-datePosted: '2024-12-28T22:17:22.518Z'
-validThrough: '2025-02-09T22:17:22.518Z'
+datePosted: '2025-01-23T10:43:56.099Z'
+validThrough: '2025-02-24T10:43:56.099Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Myro Electrical

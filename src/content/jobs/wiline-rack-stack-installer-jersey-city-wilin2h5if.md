@@ -10,8 +10,8 @@ description: >-
   ensuring our data centers are efficiently equipped to ...
 location: 'Jersey City, NJ'
 team: Commercial
-datePosted: '2024-12-29T00:04:59.125Z'
-validThrough: '2025-02-01T00:04:59.125Z'
+datePosted: '2025-01-23T11:40:52.689Z'
+validThrough: '2025-02-27T11:40:52.689Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: WiLine

@@ -10,8 +10,8 @@ description: >-
   and eager to learn and grow, we want to hear from yo...
 location: 'Flagstaff, AZ'
 team: Industrial
-datePosted: '2024-12-28T12:27:12.994Z'
-validThrough: '2025-02-11T12:27:12.994Z'
+datePosted: '2025-01-23T11:26:30.285Z'
+validThrough: '2025-03-04T11:26:30.285Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Miller Electric

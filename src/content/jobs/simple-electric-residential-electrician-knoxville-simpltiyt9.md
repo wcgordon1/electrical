@@ -13,8 +13,8 @@ description: >-
   ## Key Responsi...
 location: 'Knoxville, TN'
 team: Residential
-datePosted: '2024-12-28T09:32:12.022Z'
-validThrough: '2025-02-11T09:32:12.022Z'
+datePosted: '2025-01-23T09:31:34.443Z'
+validThrough: '2025-02-24T09:31:34.443Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Simple Electric

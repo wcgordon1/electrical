@@ -17,8 +17,8 @@ description: >-
   - 3-5 years of experience in comme...
 location: 'Concord, CA'
 team: Commercial
-datePosted: '2024-12-28T18:48:23.069Z'
-validThrough: '2025-02-01T18:48:23.069Z'
+datePosted: '2025-01-23T09:00:22.431Z'
+validThrough: '2025-02-22T09:00:22.431Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

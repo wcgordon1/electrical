@@ -15,8 +15,8 @@ description: >-
   ...
 location: 'Franklin, TN'
 team: Commercial
-datePosted: '2024-12-28T12:39:52.347Z'
-validThrough: '2025-02-01T12:39:52.347Z'
+datePosted: '2025-01-23T08:53:20.970Z'
+validThrough: '2025-03-08T08:53:20.970Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Helix Electric

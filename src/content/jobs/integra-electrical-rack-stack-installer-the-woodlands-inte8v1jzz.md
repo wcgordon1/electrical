@@ -18,8 +18,8 @@ description: >-
   - Impleme...
 location: 'The Woodlands, TX'
 team: Commercial
-datePosted: '2024-12-29T03:18:08.974Z'
-validThrough: '2025-01-30T03:18:08.974Z'
+datePosted: '2025-01-23T09:32:42.519Z'
+validThrough: '2025-03-07T09:32:42.519Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Integra Electrical

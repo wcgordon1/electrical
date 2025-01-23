@@ -16,8 +16,8 @@ description: >-
   - Assist with motor control in...
 location: 'Redwood City, CA'
 team: Industrial
-datePosted: '2024-12-29T02:33:23.089Z'
-validThrough: '2025-02-11T02:33:23.089Z'
+datePosted: '2025-01-23T12:54:02.337Z'
+validThrough: '2025-02-23T12:54:02.337Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Advanced Alarm & Fire

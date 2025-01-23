@@ -15,8 +15,8 @@ description: >-
   - Instal...
 location: 'Richmond, CA'
 team: Commercial
-datePosted: '2024-12-28T19:26:52.500Z'
-validThrough: '2025-01-30T19:26:52.500Z'
+datePosted: '2025-01-23T08:11:58.560Z'
+validThrough: '2025-03-08T08:11:58.560Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Advanced Alarm & Fire

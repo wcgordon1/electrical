@@ -10,8 +10,8 @@ description: >-
   efficient electrical solutions in industrial environmen...
 location: 'Newark, NJ'
 team: Industrial
-datePosted: '2024-12-28T23:13:45.904Z'
-validThrough: '2025-02-02T23:13:45.904Z'
+datePosted: '2025-01-23T09:26:46.103Z'
+validThrough: '2025-02-24T09:26:46.103Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Eskew Electric

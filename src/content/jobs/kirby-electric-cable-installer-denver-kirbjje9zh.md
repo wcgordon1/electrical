@@ -10,8 +10,8 @@ description: >-
   need someone like you to help us mak...
 location: 'Denver, CO'
 team: Commercial
-datePosted: '2024-12-29T02:34:41.882Z'
-validThrough: '2025-02-03T02:34:41.882Z'
+datePosted: '2025-01-23T12:23:07.560Z'
+validThrough: '2025-03-03T12:23:07.560Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Kirby Electric

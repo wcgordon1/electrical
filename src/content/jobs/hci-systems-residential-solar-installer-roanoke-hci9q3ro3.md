@@ -10,8 +10,8 @@ description: >-
   energy landscape, one rooftop at a time. Embrace the o...
 location: 'Roanoke, VA'
 team: Solar
-datePosted: '2024-12-28T12:12:06.925Z'
-validThrough: '2025-01-29T12:12:06.925Z'
+datePosted: '2025-01-23T10:50:06.461Z'
+validThrough: '2025-02-27T10:50:06.461Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: HCI Systems

@@ -18,8 +18,8 @@ description: >-
   - Low voltage license where r...
 location: 'Chico, CA'
 team: Commercial
-datePosted: '2024-12-29T00:46:31.501Z'
-validThrough: '2025-02-06T00:46:31.501Z'
+datePosted: '2025-01-23T08:44:55.181Z'
+validThrough: '2025-03-03T08:44:55.181Z'
 employmentType: FULL_TIME
 hiringOrganization:
   name: Howell Electric
