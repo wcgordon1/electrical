@@ -3921,6 +3921,517 @@ declare module 'astro:content' {
   collection: "jobs";
   data: InferEntrySchema<"jobs">
 } & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-belvidere-burdqyuk3t.md": {
+	id: "burdett-hill-coatings-engineer-belvidere-burdqyuk3t.md";
+  slug: "burdett-hill-coatings-engineer-belvidere-burdqyuk3t";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-boykins-burd8kyshd.md": {
+	id: "burdett-hill-coatings-engineer-boykins-burd8kyshd.md";
+  slug: "burdett-hill-coatings-engineer-boykins-burd8kyshd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-carrollton-burds5j2ox.md": {
+	id: "burdett-hill-coatings-engineer-carrollton-burds5j2ox.md";
+  slug: "burdett-hill-coatings-engineer-carrollton-burds5j2ox";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-dendron-burdnf5ubn.md": {
+	id: "burdett-hill-coatings-engineer-dendron-burdnf5ubn.md";
+  slug: "burdett-hill-coatings-engineer-dendron-burdnf5ubn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-gloucester-point-burdir4wyl.md": {
+	id: "burdett-hill-coatings-engineer-gloucester-point-burdir4wyl.md";
+  slug: "burdett-hill-coatings-engineer-gloucester-point-burdir4wyl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-hertford-burdpgaimi.md": {
+	id: "burdett-hill-coatings-engineer-hertford-burdpgaimi.md";
+  slug: "burdett-hill-coatings-engineer-hertford-burdpgaimi";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-norfolk-burdkn8qs8.md": {
+	id: "burdett-hill-coatings-engineer-norfolk-burdkn8qs8.md";
+  slug: "burdett-hill-coatings-engineer-norfolk-burdkn8qs8";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-poplar-branch-burdvnvjxk.md": {
+	id: "burdett-hill-coatings-engineer-poplar-branch-burdvnvjxk.md";
+  slug: "burdett-hill-coatings-engineer-poplar-branch-burdvnvjxk";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-coatings-engineer-rushmere-burd2lq9z6.md": {
+	id: "burdett-hill-coatings-engineer-rushmere-burd2lq9z6.md";
+  slug: "burdett-hill-coatings-engineer-rushmere-burd2lq9z6";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-barco-burd6nupk4.md": {
+	id: "burdett-hill-field-service-technician-barco-burd6nupk4.md";
+  slug: "burdett-hill-field-service-technician-barco-burd6nupk4";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-camden-burdfz5gdf.md": {
+	id: "burdett-hill-field-service-technician-camden-burdfz5gdf.md";
+  slug: "burdett-hill-field-service-technician-camden-burdfz5gdf";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-courtland-burd4g0ndy.md": {
+	id: "burdett-hill-field-service-technician-courtland-burd4g0ndy.md";
+  slug: "burdett-hill-field-service-technician-courtland-burd4g0ndy";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-currituck-burddv7rq0.md": {
+	id: "burdett-hill-field-service-technician-currituck-burddv7rq0.md";
+  slug: "burdett-hill-field-service-technician-currituck-burddv7rq0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-gates-burdit7g69.md": {
+	id: "burdett-hill-field-service-technician-gates-burdit7g69.md";
+  slug: "burdett-hill-field-service-technician-gates-burdit7g69";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-lackey-burd7am24l.md": {
+	id: "burdett-hill-field-service-technician-lackey-burd7am24l.md";
+  slug: "burdett-hill-field-service-technician-lackey-burd7am24l";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-lanexa-burdif84ah.md": {
+	id: "burdett-hill-field-service-technician-lanexa-burdif84ah.md";
+  slug: "burdett-hill-field-service-technician-lanexa-burdif84ah";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-poquoson-burdq7joch.md": {
+	id: "burdett-hill-field-service-technician-poquoson-burdq7joch.md";
+  slug: "burdett-hill-field-service-technician-poquoson-burdq7joch";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-field-service-technician-wakefield-burdwrz8ce.md": {
+	id: "burdett-hill-field-service-technician-wakefield-burdwrz8ce.md";
+  slug: "burdett-hill-field-service-technician-wakefield-burdwrz8ce";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-ahoskie-burdnfbniz.md": {
+	id: "burdett-hill-machinist-ahoskie-burdnfbniz.md";
+  slug: "burdett-hill-machinist-ahoskie-burdnfbniz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-carrsville-burduk9um0.md": {
+	id: "burdett-hill-machinist-carrsville-burduk9um0.md";
+  slug: "burdett-hill-machinist-carrsville-burduk9um0";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-corolla-burd38k070.md": {
+	id: "burdett-hill-machinist-corolla-burd38k070.md";
+  slug: "burdett-hill-machinist-corolla-burd38k070";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-grafton-burdpeut60.md": {
+	id: "burdett-hill-machinist-grafton-burdpeut60.md";
+  slug: "burdett-hill-machinist-grafton-burdpeut60";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-hampton-burdsf0d1u.md": {
+	id: "burdett-hill-machinist-hampton-burdsf0d1u.md";
+  slug: "burdett-hill-machinist-hampton-burdsf0d1u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-point-harbor-burd8rj70v.md": {
+	id: "burdett-hill-machinist-point-harbor-burd8rj70v.md";
+  slug: "burdett-hill-machinist-point-harbor-burd8rj70v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-south-mills-burddmto4c.md": {
+	id: "burdett-hill-machinist-south-mills-burddmto4c.md";
+  slug: "burdett-hill-machinist-south-mills-burddmto4c";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-whaleyville-burd6ic496.md": {
+	id: "burdett-hill-machinist-whaleyville-burd6ic496.md";
+  slug: "burdett-hill-machinist-whaleyville-burd6ic496";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-machinist-williamsburg-burdg70o1k.md": {
+	id: "burdett-hill-machinist-williamsburg-burdg70o1k.md";
+  slug: "burdett-hill-machinist-williamsburg-burdg70o1k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-battery-park-burdr3jxki.md": {
+	id: "burdett-hill-motor-mechanic-battery-park-burdr3jxki.md";
+  slug: "burdett-hill-motor-mechanic-battery-park-burdr3jxki";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-edenton-burdmgc8v7.md": {
+	id: "burdett-hill-motor-mechanic-edenton-burdmgc8v7.md";
+  slug: "burdett-hill-motor-mechanic-edenton-burdmgc8v7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-hayes-burdopthtd.md": {
+	id: "burdett-hill-motor-mechanic-hayes-burdopthtd.md";
+  slug: "burdett-hill-motor-mechanic-hayes-burdopthtd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-jarvisburg-burdfsatbp.md": {
+	id: "burdett-hill-motor-mechanic-jarvisburg-burdfsatbp.md";
+  slug: "burdett-hill-motor-mechanic-jarvisburg-burdfsatbp";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-newsoms-burdfuruaj.md": {
+	id: "burdett-hill-motor-mechanic-newsoms-burdfuruaj.md";
+  slug: "burdett-hill-motor-mechanic-newsoms-burdfuruaj";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-surry-burdb1y17u.md": {
+	id: "burdett-hill-motor-mechanic-surry-burdb1y17u.md";
+  slug: "burdett-hill-motor-mechanic-surry-burdb1y17u";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-tyner-burdhy9srv.md": {
+	id: "burdett-hill-motor-mechanic-tyner-burdhy9srv.md";
+  slug: "burdett-hill-motor-mechanic-tyner-burdhy9srv";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-virginia-beach-burdk58i5a.md": {
+	id: "burdett-hill-motor-mechanic-virginia-beach-burdk58i5a.md";
+  slug: "burdett-hill-motor-mechanic-virginia-beach-burdk58i5a";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-mechanic-yorktown-burdufexe7.md": {
+	id: "burdett-hill-motor-mechanic-yorktown-burdufexe7.md";
+  slug: "burdett-hill-motor-mechanic-yorktown-burdufexe7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-chuckatuck-burdbjfnyo.md": {
+	id: "burdett-hill-motor-winder-chuckatuck-burdbjfnyo.md";
+  slug: "burdett-hill-motor-winder-chuckatuck-burdbjfnyo";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-harbinger-burdiamtlt.md": {
+	id: "burdett-hill-motor-winder-harbinger-burdiamtlt.md";
+  slug: "burdett-hill-motor-winder-harbinger-burdiamtlt";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-jamestown-burdtzs7we.md": {
+	id: "burdett-hill-motor-winder-jamestown-burdtzs7we.md";
+  slug: "burdett-hill-motor-winder-jamestown-burdtzs7we";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-moyock-burdhgjrwl.md": {
+	id: "burdett-hill-motor-winder-moyock-burdhgjrwl.md";
+  slug: "burdett-hill-motor-winder-moyock-burdhgjrwl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-seaford-burda3ql08.md": {
+	id: "burdett-hill-motor-winder-seaford-burda3ql08.md";
+  slug: "burdett-hill-motor-winder-seaford-burda3ql08";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-shiloh-burdqepo5k.md": {
+	id: "burdett-hill-motor-winder-shiloh-burdqepo5k.md";
+  slug: "burdett-hill-motor-winder-shiloh-burdqepo5k";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-suffolk-burdaq1mcb.md": {
+	id: "burdett-hill-motor-winder-suffolk-burdaq1mcb.md";
+  slug: "burdett-hill-motor-winder-suffolk-burdaq1mcb";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-sunbury-burd3626ot.md": {
+	id: "burdett-hill-motor-winder-sunbury-burd3626ot.md";
+  slug: "burdett-hill-motor-winder-sunbury-burd3626ot";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-motor-winder-zuni-burditfdwn.md": {
+	id: "burdett-hill-motor-winder-zuni-burditfdwn.md";
+  slug: "burdett-hill-motor-winder-zuni-burditfdwn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-barhamsville-burd4rtf5f.md": {
+	id: "burdett-hill-quality-control-technician-barhamsville-burd4rtf5f.md";
+  slug: "burdett-hill-quality-control-technician-barhamsville-burd4rtf5f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-benns-church-burdqg7aib.md": {
+	id: "burdett-hill-quality-control-technician-benns-church-burdqg7aib.md";
+  slug: "burdett-hill-quality-control-technician-benns-church-burdqg7aib";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-capron-burdjmagt7.md": {
+	id: "burdett-hill-quality-control-technician-capron-burdjmagt7.md";
+  slug: "burdett-hill-quality-control-technician-capron-burdjmagt7";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-chesapeake-burd5ltd79.md": {
+	id: "burdett-hill-quality-control-technician-chesapeake-burd5ltd79.md";
+  slug: "burdett-hill-quality-control-technician-chesapeake-burd5ltd79";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-currituck-burdu6kmcq.md": {
+	id: "burdett-hill-quality-control-technician-currituck-burdu6kmcq.md";
+  slug: "burdett-hill-quality-control-technician-currituck-burdu6kmcq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-eure-burd9ppb04.md": {
+	id: "burdett-hill-quality-control-technician-eure-burd9ppb04.md";
+  slug: "burdett-hill-quality-control-technician-eure-burd9ppb04";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-grandy-burdhekqfn.md": {
+	id: "burdett-hill-quality-control-technician-grandy-burdhekqfn.md";
+  slug: "burdett-hill-quality-control-technician-grandy-burdhekqfn";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-maple-burdps5jjh.md": {
+	id: "burdett-hill-quality-control-technician-maple-burdps5jjh.md";
+  slug: "burdett-hill-quality-control-technician-maple-burdps5jjh";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-smithfield-burdtqnz6s.md": {
+	id: "burdett-hill-quality-control-technician-smithfield-burdtqnz6s.md";
+  slug: "burdett-hill-quality-control-technician-smithfield-burdtqnz6s";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-quality-control-technician-waverly-burdlugyvq.md": {
+	id: "burdett-hill-quality-control-technician-waverly-burdlugyvq.md";
+  slug: "burdett-hill-quality-control-technician-waverly-burdlugyvq";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-claremont-burd9tk2t3.md": {
+	id: "burdett-hill-rcp-motor-mechanic-claremont-burd9tk2t3.md";
+  slug: "burdett-hill-rcp-motor-mechanic-claremont-burd9tk2t3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-gatesville-burdb7ru4v.md": {
+	id: "burdett-hill-rcp-motor-mechanic-gatesville-burdb7ru4v.md";
+  slug: "burdett-hill-rcp-motor-mechanic-gatesville-burdb7ru4v";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-ivor-burde6jzjd.md": {
+	id: "burdett-hill-rcp-motor-mechanic-ivor-burde6jzjd.md";
+  slug: "burdett-hill-rcp-motor-mechanic-ivor-burde6jzjd";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-ordinary-burdcyggah.md": {
+	id: "burdett-hill-rcp-motor-mechanic-ordinary-burdcyggah.md";
+  slug: "burdett-hill-rcp-motor-mechanic-ordinary-burdcyggah";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-portsmouth-burd6m4dgz.md": {
+	id: "burdett-hill-rcp-motor-mechanic-portsmouth-burd6m4dgz.md";
+  slug: "burdett-hill-rcp-motor-mechanic-portsmouth-burd6m4dgz";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-powells-point-burdaznq31.md": {
+	id: "burdett-hill-rcp-motor-mechanic-powells-point-burdaznq31.md";
+  slug: "burdett-hill-rcp-motor-mechanic-powells-point-burdaznq31";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-rescue-burd1fb156.md": {
+	id: "burdett-hill-rcp-motor-mechanic-rescue-burd1fb156.md";
+  slug: "burdett-hill-rcp-motor-mechanic-rescue-burd1fb156";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-windsor-burdu64sku.md": {
+	id: "burdett-hill-rcp-motor-mechanic-windsor-burdu64sku.md";
+  slug: "burdett-hill-rcp-motor-mechanic-windsor-burdu64sku";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-rcp-motor-mechanic-winfall-burdko7kko.md": {
+	id: "burdett-hill-rcp-motor-mechanic-winfall-burdko7kko.md";
+  slug: "burdett-hill-rcp-motor-mechanic-winfall-burdko7kko";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-coinjock-burdaii4b1.md": {
+	id: "burdett-hill-switchgear-technician-coinjock-burdaii4b1.md";
+  slug: "burdett-hill-switchgear-technician-coinjock-burdaii4b1";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-elizabeth-city-burdgcy4bl.md": {
+	id: "burdett-hill-switchgear-technician-elizabeth-city-burdgcy4bl.md";
+  slug: "burdett-hill-switchgear-technician-elizabeth-city-burdgcy4bl";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-fort-eustis-burdczened.md": {
+	id: "burdett-hill-switchgear-technician-fort-eustis-burdczened.md";
+  slug: "burdett-hill-switchgear-technician-fort-eustis-burdczened";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-franklin-burd61bki3.md": {
+	id: "burdett-hill-switchgear-technician-franklin-burd61bki3.md";
+  slug: "burdett-hill-switchgear-technician-franklin-burd61bki3";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-holland-burdnk0s8f.md": {
+	id: "burdett-hill-switchgear-technician-holland-burdnk0s8f.md";
+  slug: "burdett-hill-switchgear-technician-holland-burdnk0s8f";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-knotts-island-burdqyd5ed.md": {
+	id: "burdett-hill-switchgear-technician-knotts-island-burdqyd5ed.md";
+  slug: "burdett-hill-switchgear-technician-knotts-island-burdqyd5ed";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-newport-news-burdjc9ype.md": {
+	id: "burdett-hill-switchgear-technician-newport-news-burdjc9ype.md";
+  slug: "burdett-hill-switchgear-technician-newport-news-burdjc9ype";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-sedley-burd2jugcm.md": {
+	id: "burdett-hill-switchgear-technician-sedley-burd2jugcm.md";
+  slug: "burdett-hill-switchgear-technician-sedley-burd2jugcm";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
+"burdett-hill-switchgear-technician-toano-burdh1rrw9.md": {
+	id: "burdett-hill-switchgear-technician-toano-burdh1rrw9.md";
+  slug: "burdett-hill-switchgear-technician-toano-burdh1rrw9";
+  body: string;
+  collection: "jobs";
+  data: InferEntrySchema<"jobs">
+} & { render(): Render[".md"] };
 "cable-tech-encore-aurora-id-bz1188.md": {
 	id: "cable-tech-encore-aurora-id-bz1188.md";
   slug: "cable-tech-encore-aurora-id-bz1188";

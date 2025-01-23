@@ -13,15 +13,17 @@ export async function GET(context) {
     site: context.site,
     items: jobs.map((job) => ({
       title: job.data.position,
-      company: job.data.hiringOrganization.name,
-      companyLogo: job.data.hiringOrganization.logo,
-      companyUrl: job.data.hiringOrganization.sameAs,
       pubDate: new Date(job.data.datePosted),
       description: `
           <div>${marked.parse(job.body)}</div>
       `,
       link: `${context.site}jobs/${job.slug}`,
       customData: `
+      <company>
+        <name>${job.data.hiringOrganization.name}</name>
+        <logo>${job.data.hiringOrganization.logo}</logo>
+        <url>${job.data.hiringOrganization.sameAs}</url>
+      </company>
         <datePosted>${job.data.datePosted}</datePosted>
         <validThrough>${job.data.validThrough}</validThrough>
         <location>${job.data.location}</location>
@@ -38,6 +40,7 @@ export async function GET(context) {
         </salary>
         <category>${job.data.occupationalCategory}</category>
         <team>${job.data.team}</team>
+        <directApply>true</directApply>
         <setting>
         <remote>false</remote>
         <employmentType>${job.data.employmentType}</employmentType>
