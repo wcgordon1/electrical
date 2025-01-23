@@ -35,11 +35,11 @@ function debugEnvVars() {
 
 export async function getSheet() {
   try {
-    console.log('Runtime versions:', {
+    console.log('Runtime Environment:', {
       node: process.version,
       openssl: process.versions.openssl
     });
-    
+
     console.log('Starting Google Sheets connection...');
     debugEnvVars();
 
@@ -50,10 +50,12 @@ export async function getSheet() {
     // Create auth client using credentials object
     const auth = new google.auth.GoogleAuth({
       credentials: {
+        type: 'service_account',
+        project_id: 'electrician-jobs',
+        private_key: PRIVATE_KEY.split(String.fromCharCode(92, 110)).join('\n'),
         client_email: CLIENT_EMAIL,
-        private_key: PRIVATE_KEY.replace(/\\n/g, '\n'),
       },
-      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+      scopes: ['https://www.googleapis.com/auth/spreadsheets']
     });
 
     // Initialize the sheets API with auth
@@ -92,6 +94,80 @@ export async function getSheet() {
       } else {
         console.log('Headers found:', headerResponse.data.values[0]);
       }
+
+      return {
+        async addRow(rowData) {
+          if (!rowData || typeof rowData !== 'object') {
+            throw new Error('Invalid rowData: Must be a non-empty object');
+          }
+
+          // Required fields that must have values
+          const requiredFields = [
+            'Position',
+            'Company',
+            'Location',
+            'Job ID',
+            'Applicant Name',
+            'Email Address',
+            'Phone',
+            'Date Applied',
+            'Status',
+            'Resend Email ID'
+          ];
+
+          // Optional fields that can be blank
+          const optionalFields = ['LinkedIn', 'Cover Letter'];
+
+          const missingFields = requiredFields.filter(field => !(field in rowData));
+          if (missingFields.length > 0) {
+            throw new Error(`Missing required fields: ${missingFields.join(', ')}`);
+          }
+
+          // Ensure optional fields exist (even if blank)
+          const fullRowData = {
+            ...rowData,
+            ...Object.fromEntries(optionalFields.map(field => [field, rowData[field] || '']))
+          };
+
+          try {
+            console.log('Attempting to append row...');
+            const values = [Object.values(fullRowData)];
+            console.log('Row data prepared:', {
+              numFields: values[0].length,
+              fields: Object.keys(fullRowData),
+              sheetName: SHEET_NAME
+            });
+
+            // Append the data after the headers
+            const response = await sheets.spreadsheets.values.append({
+              spreadsheetId: SHEET_ID,
+              range: `'${SHEET_NAME}'!A2:L`,
+              valueInputOption: 'RAW',
+              insertDataOption: 'INSERT_ROWS',
+              requestBody: {
+                values,
+              },
+            });
+
+            const updatedRows = response.data.updates?.updatedRows || 0;
+            console.log('Row added successfully:', updatedRows);
+            return {
+              success: true,
+              rowsUpdated: updatedRows,
+              message: `Successfully added ${updatedRows} row(s) to the sheet`
+            };
+          } catch (error) {
+            console.error('Error adding row to Google Sheets:', {
+              message: error.message,
+              stack: error.stack,
+              response: error.response?.data,
+              code: error.code,
+              statusCode: error.response?.status
+            });
+            throw new Error(`Failed to add row to Google Sheets: ${error.message}`);
+          }
+        }
+      };
     } catch (error) {
       console.error('Spreadsheet access error:', {
         message: error.message,
@@ -102,80 +178,6 @@ export async function getSheet() {
       });
       throw new Error(`Could not access or setup spreadsheet: ${error.message}`);
     }
-
-    return {
-      async addRow(rowData) {
-        if (!rowData || typeof rowData !== 'object') {
-          throw new Error('Invalid rowData: Must be a non-empty object');
-        }
-
-        // Required fields that must have values
-        const requiredFields = [
-          'Position',
-          'Company',
-          'Location',
-          'Job ID',
-          'Applicant Name',
-          'Email Address',
-          'Phone',
-          'Date Applied',
-          'Status',
-          'Resend Email ID'
-        ];
-
-        // Optional fields that can be blank
-        const optionalFields = ['LinkedIn', 'Cover Letter'];
-
-        const missingFields = requiredFields.filter(field => !(field in rowData));
-        if (missingFields.length > 0) {
-          throw new Error(`Missing required fields: ${missingFields.join(', ')}`);
-        }
-
-        // Ensure optional fields exist (even if blank)
-        const fullRowData = {
-          ...rowData,
-          ...Object.fromEntries(optionalFields.map(field => [field, rowData[field] || '']))
-        };
-
-        try {
-          console.log('Attempting to append row...');
-          const values = [Object.values(fullRowData)];
-          console.log('Row data prepared:', {
-            numFields: values[0].length,
-            fields: Object.keys(fullRowData),
-            sheetName: SHEET_NAME
-          });
-
-          // Append the data after the headers
-          const response = await sheets.spreadsheets.values.append({
-            spreadsheetId: SHEET_ID,
-            range: `'${SHEET_NAME}'!A2:L`,
-            valueInputOption: 'RAW',
-            insertDataOption: 'INSERT_ROWS',
-            requestBody: {
-              values,
-            },
-          });
-
-          const updatedRows = response.data.updates?.updatedRows || 0;
-          console.log('Row added successfully:', updatedRows);
-          return {
-            success: true,
-            rowsUpdated: updatedRows,
-            message: `Successfully added ${updatedRows} row(s) to the sheet`
-          };
-        } catch (error) {
-          console.error('Error adding row to Google Sheets:', {
-            message: error.message,
-            stack: error.stack,
-            response: error.response?.data,
-            code: error.code,
-            statusCode: error.response?.status
-          });
-          throw new Error(`Failed to add row to Google Sheets: ${error.message}`);
-        }
-      }
-    };
   } catch (error) {
     console.error('Error connecting to Google Sheets:', {
       message: error.message,
