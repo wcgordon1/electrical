@@ -35,6 +35,11 @@ function debugEnvVars() {
 
 export async function getSheet() {
   try {
+    console.log('Runtime versions:', {
+      node: process.version,
+      openssl: process.versions.openssl
+    });
+    
     console.log('Starting Google Sheets connection...');
     debugEnvVars();
 
