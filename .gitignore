@@ -29,10 +29,13 @@ scripts/config/.env
 .env
 .env.*
 
+# Vercel
+.vercel
 
 # Logs
 scripts/logs/*
 
 jobupdates.md
 instructions.md
-jobstuff.md
+jobstuff.md.vercel
+.vercel
