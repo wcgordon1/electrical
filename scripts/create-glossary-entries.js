@@ -17,194 +17,217 @@ const openai = new OpenAI({
 
 const GLOSSARY_TERMS = [
   {
-    term: 'Server Rack',
-    icon: 'mdi:lan-pending',
+    term: 'Pallet Jack',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Warehouse Operations',
+    description: 'A manual or electric tool used to lift and move pallets within a warehouse. Designed for short-distance material handling and equipped with forks to fit under standard pallets.'
+},
+  {
+    term: 'Loading Dock',
+    icon: 'mdi:forklift',
     category: 'Infrastructure',
-    vertical: 'Network Infrastructure',
-    description: 'Standardized 19-inch frame for mounting servers, network equipment, and accessories. Typically 42U in height with proper airflow management and power distribution.'
-  },
-  {
-    term: 'PDU',
-    icon: 'mdi:lan-pending',
-    category: 'Power',
-    vertical: 'Network Infrastructure',
-    description: 'Power Distribution Unit providing managed power distribution to rack equipment, including monitoring, remote control, and surge protection capabilities.'
-  },
-  {
-    term: 'Hot Aisle',
-    icon: 'mdi:lan-pending',
-    category: 'Cooling',
-    vertical: 'Network Infrastructure',
-    description: 'Contained aisle in data center where equipment exhaust heat is collected and removed, part of efficient cooling design strategy.'
-  },
-  {
-    term: 'Cold Aisle',
-    icon: 'mdi:lan-pending',
-    category: 'Cooling',
-    vertical: 'Network Infrastructure',
-    description: 'Contained aisle where cooled air is supplied to server rack intakes, maintaining optimal operating temperatures for equipment.'
-  },
-  {
-    term: 'CRAH Unit',
-    icon: 'mdi:lan-pending',
-    category: 'Cooling',
-    vertical: 'Network Infrastructure',
-    description: 'Computer Room Air Handler providing precise temperature and humidity control for data center environments.'
-  },
-  {
-    term: 'Raised Floor',
-    icon: 'mdi:lan-pending',
+    vertical: 'Loading and Unloading',
+    description: 'A designated area where trucks are loaded and unloaded with goods, equipped with dock levelers to bridge the gap between the truck and warehouse floor.'
+},
+{
+    term: 'Dock Leveler',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Loading and Unloading',
+    description: 'A device used to bridge the height difference between a loading dock and a truck bed, ensuring safe and efficient loading and unloading.'
+},
+{
+    term: 'Loading Ramp',
+    icon: 'mdi:forklift',
     category: 'Infrastructure',
-    vertical: 'Network Infrastructure',
-    description: 'Elevated floor system providing space for power distribution, cooling, and cable management in data centers.'
-  },
-  {
-    term: 'Cable Tray',
-    icon: 'mdi:lan-pending',
+    vertical: 'Loading and Unloading',
+    description: 'An inclined plane used to load or unload goods from trucks when a dock is not available.'
+},
+{
+    term: 'Material Handler',
+    icon: 'mdi:forklift',
+    category: 'Position',
+    vertical: 'Material Movement',
+    description: 'A warehouse worker responsible for moving, organizing, and staging materials for shipping or storage.'
+},
+{
+    term: 'Freight Elevator',
+    icon: 'mdi:forklift',
     category: 'Infrastructure',
-    vertical: 'Network Infrastructure',
-    description: 'Overhead or under-floor support system for organizing and routing network and power cables throughout the facility.'
-  },
-  {
-    term: 'Fiber Backbone',
-    icon: 'mdi:lan-pending',
-    category: 'Cabling',
-    vertical: 'Network Infrastructure',
-    description: 'High-capacity fiber optic cabling connecting different areas of the facility, providing primary data transmission paths.'
-  },
-  {
-    term: 'UPS System',
-    icon: 'mdi:lan-pending',
-    category: 'Power',
-    vertical: 'Network Infrastructure',
-    description: 'Uninterruptible Power Supply providing battery backup and power conditioning for critical network equipment.'
-  },
-  {
-    term: 'DCIM',
-    icon: 'mdi:lan-pending',
-    category: 'Management',
-    vertical: 'Network Infrastructure',
-    description: 'Data Center Infrastructure Management software monitoring power, cooling, and equipment status in real-time.'
-  },
-  {
-    term: 'Core Switch',
-    icon: 'mdi:lan-pending',
-    category: 'Network',
-    vertical: 'Network Infrastructure',
-    description: 'Central network switch handling high-speed traffic between different areas of the network, requiring redundant power and cooling.'
-  },
-  {
-    term: 'MDA',
-    icon: 'mdi:lan-pending',
-    category: 'Distribution',
-    vertical: 'Network Infrastructure',
-    description: 'Main Distribution Area housing core networking equipment and primary connections to service provider equipment.'
-  },
-  {
-    term: 'HDA',
-    icon: 'mdi:lan-pending',
-    category: 'Distribution',
-    vertical: 'Network Infrastructure',
-    description: 'Horizontal Distribution Area serving as connection point between backbone and horizontal cabling to equipment.'
-  },
-  {
-    term: 'Environmental Monitoring',
-    icon: 'mdi:lan-pending',
-    category: 'Monitoring',
-    vertical: 'Network Infrastructure',
-    description: 'System tracking temperature, humidity, and other environmental conditions affecting equipment operation.'
-  },
-  {
-    term: 'Generator Backup',
-    icon: 'mdi:lan-pending',
-    category: 'Power',
-    vertical: 'Network Infrastructure',
-    description: 'Emergency power system providing long-term backup power during utility outages, including fuel systems and controls.'
-  },
-  {
-    term: 'Static Transfer Switch',
-    icon: 'mdi:lan-pending',
-    category: 'Power',
-    vertical: 'Network Infrastructure',
-    description: 'High-speed switch automatically transferring critical loads between power sources without interruption.'
-  },
-  {
-    term: 'Patch Panel',
-    icon: 'mdi:lan-pending',
-    category: 'Connectivity',
-    vertical: 'Network Infrastructure',
-    description: 'Organized termination point for network cables, facilitating connections and changes between network equipment.'
-  },
-  {
-    term: 'Cable Management',
-    icon: 'mdi:lan-pending',
+    vertical: 'Material Movement',
+    description: 'A heavy-duty elevator designed to carry goods and pallets between different floors of a warehouse.'
+},
+{
+    term: 'Hand Truck',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Material Handling',
+    description: 'A two-wheeled cart used to manually transport heavy or bulky items in short distances within a warehouse.'
+},
+{
+    term: 'Conveyor Belt',
+    icon: 'mdi:forklift',
     category: 'Infrastructure',
-    vertical: 'Network Infrastructure',
-    description: 'System of guides, troughs, and accessories organizing cables within racks and pathways for proper airflow and access.'
-  },
-  {
-    term: 'Grounding System',
-    icon: 'mdi:lan-pending',
-    category: 'Power',
-    vertical: 'Network Infrastructure',
-    description: 'Common ground reference system for equipment and racks, including mesh bonding network and ground bars.'
-  },
-  {
-    term: 'Power Monitoring',
-    icon: 'mdi:lan-pending',
-    category: 'Management',
-    vertical: 'Network Infrastructure',
-    description: 'System tracking power usage, quality, and efficiency throughout the facility, including branch circuit monitoring.'
-  },
-  {
-    term: 'Fiber Enclosure',
-    icon: 'mdi:lan-pending',
-    category: 'Connectivity',
-    vertical: 'Network Infrastructure',
-    description: 'Rack-mounted housing protecting fiber optic splices and connections, including splice trays and cable management.'
-  },
-  {
-    term: 'VESDA',
-    icon: 'mdi:lan-pending',
+    vertical: 'Material Movement',
+    description: 'A mechanical system that moves goods along a continuous belt for sorting, packing, or transportation.'
+},
+{
+    term: 'Lift Gate',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Truck Loading',
+    description: 'A hydraulic platform attached to the back of a truck to lift goods from the ground to the truck bed or vice versa.'
+},
+{
+    term: 'Pallet Rack',
+    icon: 'mdi:forklift',
+    category: 'Storage',
+    vertical: 'Warehouse Infrastructure',
+    description: 'A storage system designed to hold pallets in an organized manner, often allowing for vertical stacking to maximize warehouse space.'
+},
+{
+    term: 'Roller Conveyor',
+    icon: 'mdi:forklift',
+    category: 'Infrastructure',
+    vertical: 'Material Handling',
+    description: 'A system of rollers that transports goods or materials, often used for assembly lines or sorting processes.'
+},
+{
+    term: 'Shrink Wrap Machine',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Packaging',
+    description: 'A device used to wrap products or pallets in plastic film to secure them during transportation or storage.'
+},
+{
+    term: 'Loading Dock Bumper',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Dock Safety',
+    description: 'A protective device mounted on the loading dock to prevent damage to the dock and trucks during loading and unloading.'
+},
+{
+    term: 'Box Clamp',
+    icon: 'mdi:forklift',
+    category: 'Attachment',
+    vertical: 'Forklift Operations',
+    description: 'A forklift attachment designed to lift and move boxes or crates without the need for a pallet.'
+},
+{
+    term: 'Dock Shelter',
+    icon: 'mdi:forklift',
+    category: 'Infrastructure',
+    vertical: 'Dock Safety',
+    description: 'A structure that seals the gap between a truck and a loading dock, protecting goods and workers from external elements.'
+},
+{
+    term: 'Order Picker',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Order Fulfillment',
+    description: 'A specialized lift truck used to raise operators to access goods stored on high racks for picking orders.'
+},
+{
+    term: 'Strapping Machine',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Packaging',
+    description: 'A machine used to secure goods or pallets with straps for stability during storage or transit.'
+},
+{
+    term: 'Receiving Bay',
+    icon: 'mdi:forklift',
+    category: 'Infrastructure',
+    vertical: 'Receiving Operations',
+    description: 'A designated area in the warehouse where incoming goods are unloaded, inspected, and sorted before being stored.'
+},
+{
+    term: 'Floor Scale',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Weighing and Measuring',
+    description: 'A heavy-duty scale embedded in the warehouse floor used to weigh large pallets or bulk materials.'
+},
+{
+    term: 'Pick-to-Light System',
+    icon: 'mdi:forklift',
+    category: 'Technology',
+    vertical: 'Order Fulfillment',
+    description: 'A system that uses LED lights to guide warehouse workers to the correct picking locations, increasing efficiency and accuracy.'
+},
+{
+    term: 'Parcel Scanner',
+    icon: 'mdi:forklift',
+    category: 'Technology',
+    vertical: 'Shipping and Receiving',
+    description: 'A handheld device used to scan barcodes on parcels and track inventory or shipments in real-time.'
+},
+{
+    term: 'Bulk Storage Bin',
+    icon: 'mdi:forklift',
+    category: 'Storage',
+    vertical: 'Warehouse Storage',
+    description: 'A large container used to store bulk materials or loose products in an organized manner within the warehouse.'
+},
+{
+    term: 'Dock Plate',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Loading and Unloading',
+    description: 'A portable platform used to bridge the gap between the dock and the truck for smooth loading and unloading of goods.'
+},
+{
+    term: 'Stretch Wrap Dispenser',
+    icon: 'mdi:forklift',
+    category: 'Equipment',
+    vertical: 'Packaging',
+    description: 'A handheld device used to efficiently apply stretch wrap to pallets for securing goods during shipment.'
+},
+{
+    term: 'Shipping Bay',
+    icon: 'mdi:forklift',
+    category: 'Infrastructure',
+    vertical: 'Shipping Operations',
+    description: 'A designated area where goods are staged and loaded for shipment, ensuring efficient outbound logistics.'
+},
+{
+    term: 'Warehouse Safety Barrier',
+    icon: 'mdi:forklift',
     category: 'Safety',
-    vertical: 'Network Infrastructure',
-    description: 'Very Early Smoke Detection Apparatus providing early warning of potential fire conditions in critical facilities.'
-  },
-  {
-    term: 'EPO System',
-    icon: 'mdi:lan-pending',
-    category: 'Safety',
-    vertical: 'Network Infrastructure',
-    description: 'Emergency Power Off system providing rapid shutdown of power systems in emergency situations, required by code.'
-  }
+    vertical: 'Warehouse Infrastructure',
+    description: 'A protective barrier used to separate pedestrian and vehicle traffic, reducing the risk of accidents in busy warehouse areas.'
+}
   // ... more terms
 ];
 
 // Add related terms mapping
 const RELATED_TERMS = {
-  'Server Rack': ['PDU', 'Cable Management', 'Hot Aisle', 'Cold Aisle', 'Grounding System'],
-  'PDU': ['UPS System', 'Power Monitoring', 'Server Rack', 'Static Transfer Switch', 'Generator Backup'],
-  'Hot Aisle': ['Cold Aisle', 'CRAH Unit', 'Environmental Monitoring', 'Server Rack', 'Cable Management'],
-  'Cold Aisle': ['Hot Aisle', 'CRAH Unit', 'Environmental Monitoring', 'Server Rack', 'Raised Floor'],
-  'CRAH Unit': ['Hot Aisle', 'Cold Aisle', 'Environmental Monitoring', 'Raised Floor', 'DCIM'],
-  'Raised Floor': ['Cable Tray', 'CRAH Unit', 'Power Distribution', 'Grounding System', 'Fire Suppression'],
-  'Cable Tray': ['Fiber Backbone', 'Cable Management', 'Raised Floor', 'Patch Panel', 'Grounding System'],
-  'Fiber Backbone': ['Fiber Enclosure', 'MDA', 'HDA', 'Core Switch', 'Cable Tray'],
-  'UPS System': ['Generator Backup', 'Static Transfer Switch', 'PDU', 'Power Monitoring', 'EPO System'],
-  'DCIM': ['Environmental Monitoring', 'Power Monitoring', 'Access Control', 'Core Switch', 'VESDA'],
-  'Core Switch': ['MDA', 'HDA', 'Fiber Backbone', 'Patch Panel', 'DCIM'],
-  'MDA': ['HDA', 'Core Switch', 'Fiber Backbone', 'Patch Panel', 'Cable Management'],
-  'HDA': ['MDA', 'Patch Panel', 'Fiber Backbone', 'Cable Management', 'Core Switch'],
-  'Environmental Monitoring': ['CRAH Unit', 'DCIM', 'VESDA', 'Hot Aisle', 'Cold Aisle'],
-  'Generator Backup': ['UPS System', 'Static Transfer Switch', 'PDU', 'Power Monitoring', 'EPO System'],
-  'Static Transfer Switch': ['UPS System', 'Generator Backup', 'PDU', 'Power Monitoring', 'EPO System'],
-  'Patch Panel': ['Cable Management', 'Fiber Enclosure', 'MDA', 'HDA', 'Core Switch'],
-  'Cable Management': ['Server Rack', 'Cable Tray', 'Patch Panel', 'PDU', 'Fiber Enclosure'],
-  'Grounding System': ['Server Rack', 'PDU', 'Cable Tray', 'Raised Floor', 'UPS System'],
-  'Power Monitoring': ['PDU', 'UPS System', 'Generator Backup', 'DCIM', 'Static Transfer Switch'],
-  'Fiber Enclosure': ['Fiber Backbone', 'Patch Panel', 'Cable Management', 'MDA', 'HDA'],
-  'VESDA': ['Fire Suppression', 'Environmental Monitoring', 'DCIM', 'Access Control', 'EPO System'],
-  'EPO System': ['Fire Suppression', 'UPS System', 'Generator Backup', 'Static Transfer Switch', 'Access Control']
+  "Pallet Jack": ["Forklift", "Pallet Truck", "Pallet Stacker", "Conveyor Belt", "Dock Leveler"],
+  "Forklift": ["Pallet Jack", "Box Clamp", "Order Picker", "Pallet Stacker", "Dock Plate"],
+  "Pallet Truck": ["Pallet Jack", "Hand Truck", "Pallet Stacker", "Dock Plate", "Loading Dock"],
+  "Pallet Stacker": ["Forklift", "Pallet Truck", "Conveyor Belt", "Dock Leveler", "Loading Ramp"],
+  "Loading Dock": ["Dock Leveler", "Dock Plate", "Dock Shelter", "Receiving Bay", "Shipping Bay"],
+  "Dock Leveler": ["Loading Dock", "Dock Plate", "Forklift", "Pallet Jack", "Loading Ramp"],
+  "Loading Ramp": ["Dock Leveler", "Pallet Stacker", "Conveyor Belt", "Forklift", "Receiving Bay"],
+  "Material Handler": ["Pallet Jack", "Forklift", "Pallet Stacker", "Order Picker", "Roller Conveyor"],
+  "Freight Elevator": ["Pallet Jack", "Dock Plate", "Loading Dock", "Hand Truck", "Roller Conveyor"],
+  "Hand Truck": ["Pallet Jack", "Pallet Truck", "Freight Elevator", "Roller Conveyor", "Box Clamp"],
+  "Conveyor Belt": ["Roller Conveyor", "Pick-to-Light System", "Parcel Scanner", "Material Handler", "Stretch Wrap Dispenser"],
+  "Lift Gate": ["Pallet Jack", "Loading Dock", "Dock Plate", "Box Clamp", "Dock Shelter"],
+  "Pallet Rack": ["Pallet Stacker", "Forklift", "Order Picker", "Material Handler", "Bulk Storage Bin"],
+  "Roller Conveyor": ["Conveyor Belt", "Material Handler", "Pick-to-Light System", "Parcel Scanner", "Stretch Wrap Dispenser"],
+  "Shrink Wrap Machine": ["Stretch Wrap Dispenser", "Pallet Jack", "Pallet Rack", "Order Picker", "Conveyor Belt"],
+  "Loading Dock Bumper": ["Dock Plate", "Dock Shelter", "Loading Ramp", "Shipping Bay", "Warehouse Safety Barrier"],
+  "Box Clamp": ["Forklift", "Pallet Truck", "Order Picker", "Loading Dock", "Dock Plate"],
+  "Dock Shelter": ["Loading Dock", "Dock Leveler", "Dock Plate", "Loading Ramp", "Lift Gate"],
+  "Order Picker": ["Forklift", "Pallet Stacker", "Pallet Rack", "Conveyor Belt", "Roller Conveyor"],
+  "Strapping Machine": ["Shrink Wrap Machine", "Stretch Wrap Dispenser", "Shipping Bay", "Parcel Scanner", "Pick-to-Light System"],
+  "Receiving Bay": ["Loading Dock", "Freight Elevator", "Conveyor Belt", "Roller Conveyor", "Dock Plate"],
+  "Floor Scale": ["Pallet Jack", "Pallet Truck", "Material Handler", "Dock Plate", "Receiving Bay"],
+  "Pick-to-Light System": ["Conveyor Belt", "Parcel Scanner", "Stretch Wrap Dispenser", "Roller Conveyor", "Order Picker"],
+  "Parcel Scanner": ["Pick-to-Light System", "Stretch Wrap Dispenser", "Conveyor Belt", "Freight Elevator", "Receiving Bay"],
+  "Bulk Storage Bin": ["Pallet Rack", "Material Handler", "Freight Elevator", "Pallet Stacker", "Warehouse Safety Barrier"]
 };
 
 async function createGlossaryEntry(term, icon, category, vertical, description) {

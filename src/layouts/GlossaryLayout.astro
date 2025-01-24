@@ -64,6 +64,18 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
       <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div class="lg:col-span-2">
+            <a
+          title="Jake's Jobs - Back to Glossary"
+          aria-label="Jake's Jobs - Back to Glossary"
+          href="/glossary/home"
+          class="text-4xl text-white font-semibold tracking-tight flex flex-col items-start">
+          <img
+          src="/images/jakes.png"
+          alt="Jake's Jobs Logo"
+          class="h-14 w-14 mb-4" 
+        />
+          Jake's Jobs
+        </a>
             <h1 class="text-4xl font-bold tracking-tight text-purple-900 sm:text-5xl">
               {frontmatter.term}
             </h1>
@@ -85,16 +97,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
                 {frontmatter?.icon && (
                   <Icon 
                     name={frontmatter.icon} 
-                    class="w-16 h-16 text-purple-900" 
+                    class="w-16 h-16 text-indigo-700" 
                     aria-hidden="true"
                   />
                 )}
 
-                <h3 class="text-2xl font-bold tracking-tight text-purple-900 sm:text-3xl mt-8">
+                <h3 class="text-2xl font-bold tracking-tight text-purple-900 sm:text-3xl mt-6">
                   {frontmatter.term} 
                 </h3>
                 
-                <div class="mt-8 space-y-6">
+                <div class="mt-6 space-y-6">
                   {frontmatter.details.map(detail => (
                     <div>
                       <h3 class="text-sm font-medium text-purple-900">
@@ -102,7 +114,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
                       </h3>
                       <p class="mt-2 text-sm text-slate-500">
                         {detail.url ? (
-                          <a href={detail.url} class="text-blue-600 hover:text-blue-800">
+                          <a href={detail.url} class="text-indigo-600 hover:text-indigo-800">
                             {detail.value}
                           </a>
                         ) : (
@@ -113,12 +125,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
                   ))}
                 </div>
 
-                <div class="mt-12 space-y-4">
-                  <a href="/" class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full">
+                <div class="mt-8 space-y-4">
+                  <a href="/" class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-indigo-500 hover:bg-indigo-600 w-full">
                     View Open Positions
                   </a>
-                  <a href="/articles" class="text-blue-500 items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-current focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full hover:text-blue-600 w-full">
-                    Read Articles
+                  <a href="/glossary/home" class="text-indigo-500 items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-current focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full hover:text-indigo-600 w-full">
+                    Back to Glossary
                   </a>
                 </div>
               </div>

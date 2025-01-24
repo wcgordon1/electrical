@@ -175,7 +175,7 @@ author: Best Electrician
 title: ${postData.title}
 description: "${postData.description}"
 avatar:
-  url: "/images/eleclog.png"
+  url: "/images/jakes.png"
   alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
