@@ -45,7 +45,7 @@ identifier:
   value: VIRG0zq0nq
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

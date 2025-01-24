@@ -46,7 +46,7 @@ identifier:
   value: APEikmd0d
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

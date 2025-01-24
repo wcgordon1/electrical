@@ -37,8 +37,8 @@ export async function POST({ request }) {
 
     // Send email to all recipients
     const emailResponse = await resend.emails.send({
-      from: 'Application Alert <application@bestelectricianmail.com>',
-      replyTo: 'hello@bestelectricianjobs.com',
+      from: 'Application Alert <resumes@mail.jakesjobs.com>',
+      replyTo: 'will@jakesjobs.com',
       to: emails,
       subject: `New Job Application: ${jobTitle} from ${name}`,
       text: `
@@ -62,7 +62,7 @@ Thank you!
 
 *This is an automated email.*
 
-will@bestelectricianjobs.com
+support@mail.jakesjobs.com
       `,
       attachments: [
         {

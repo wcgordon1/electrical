@@ -8,8 +8,8 @@ export async function POST({ request }) {
     const formData = await request.formData();
 
     await resend.emails.send({
-      from: 'Application Alert <application@bestelectricianmail.com>',
-      replyTo: 'hello@bestelectricianjobs.com',
+      from: 'Application Info <Application@mail.jakesjobs.com>',
+      replyTo: 'support@jakesjobs.com',
       to: formData.get('email'),  // Applicant's email from form
       subject: `${formData.get('jobTitle')}: Application Information`,
       text: `Hi ${formData.get('name')},
@@ -18,22 +18,10 @@ Thank you for applying for the ${formData.get('jobTitle')} position at ${formDat
 
 We wish you success with your application and success in your job search. If you end up getting hired, let us know!
 
-PS
-
-We're giving away a hundred dollar Amazon Gift Card every month to someone who follows, likes, and reposts our Facebook page. 
-
-Extra points if you tag a friend. Help us grow this job board into the best Electrical Job Board in America! 
-
-https://www.facebook.com/bestelectricianjobs
-- Follow us on Facebook for up to date job postings and giveaways.
-
-OR
-
-Consider joining our Subreddit:
-https://www.reddit.com/r/ElectricalJobs/
-
 Thank you!
+
 Jake's Jobs Team
+support@jakesjobs.com
 
 *This is an automated email.*`
     });

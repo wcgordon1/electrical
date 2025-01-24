@@ -42,7 +42,7 @@ identifier:
   value: LAMIz262lg
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

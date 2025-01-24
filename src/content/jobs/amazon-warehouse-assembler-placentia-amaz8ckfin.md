@@ -40,7 +40,7 @@ identifier:
   value: AMAZ8ckfin
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

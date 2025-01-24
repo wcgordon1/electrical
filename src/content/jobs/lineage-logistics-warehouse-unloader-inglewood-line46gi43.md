@@ -46,7 +46,7 @@ identifier:
   value: LINE46gi43
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

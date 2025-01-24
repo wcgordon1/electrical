@@ -39,7 +39,7 @@ identifier:
   value: STATydisxr
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

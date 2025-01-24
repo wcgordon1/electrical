@@ -42,7 +42,7 @@ identifier:
   value: STATd6pm5s
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

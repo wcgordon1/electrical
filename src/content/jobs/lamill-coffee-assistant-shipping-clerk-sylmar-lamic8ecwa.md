@@ -42,7 +42,7 @@ identifier:
   value: LAMIc8ecwa
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -42,7 +42,7 @@ identifier:
   value: LINEry07qy
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

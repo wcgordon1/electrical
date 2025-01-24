@@ -41,7 +41,7 @@ identifier:
   value: LAMIvtltc4
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

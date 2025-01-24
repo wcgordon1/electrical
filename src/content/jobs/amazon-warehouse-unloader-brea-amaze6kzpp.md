@@ -46,7 +46,7 @@ identifier:
   value: AMAZe6kzpp
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

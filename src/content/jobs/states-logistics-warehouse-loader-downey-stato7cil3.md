@@ -44,7 +44,7 @@ identifier:
   value: STATo7cil3
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

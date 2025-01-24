@@ -44,7 +44,7 @@ identifier:
   value: BOEIuqbm77
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

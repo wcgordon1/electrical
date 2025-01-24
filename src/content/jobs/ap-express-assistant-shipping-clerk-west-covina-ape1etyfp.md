@@ -38,7 +38,7 @@ identifier:
   value: APE1etyfp
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

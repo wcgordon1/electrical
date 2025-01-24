@@ -41,7 +41,7 @@ identifier:
   value: TARGs95mlu
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

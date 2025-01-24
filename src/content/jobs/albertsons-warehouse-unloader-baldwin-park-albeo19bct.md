@@ -42,7 +42,7 @@ identifier:
   value: ALBEo19bct
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -40,7 +40,7 @@ identifier:
   value: LINEdacsr0
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

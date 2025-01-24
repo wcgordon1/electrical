@@ -20,8 +20,8 @@ export async function POST({ request }) {
 
     // Base email config
     const emailConfig = {
-      from: 'contact@bestelectricianmail.com',
-      to: ['will@bestelectricianjobs.com'],
+      from: 'contact@mail.jakesjobs.com',
+      to: ['will@jakesjobs.com'],
       subject: `New Contact Form Submission from ${name}`,
       text: `
 Contact Form Details:

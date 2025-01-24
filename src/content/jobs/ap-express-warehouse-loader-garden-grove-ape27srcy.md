@@ -41,7 +41,7 @@ identifier:
   value: APE27srcy
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

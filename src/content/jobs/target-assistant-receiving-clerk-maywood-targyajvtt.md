@@ -39,7 +39,7 @@ identifier:
   value: TARGyajvtt
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

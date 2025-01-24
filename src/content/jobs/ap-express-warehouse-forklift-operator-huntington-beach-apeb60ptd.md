@@ -38,7 +38,7 @@ identifier:
   value: APEb60ptd
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

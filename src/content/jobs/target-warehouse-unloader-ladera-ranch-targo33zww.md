@@ -41,7 +41,7 @@ identifier:
   value: TARGo33zww
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

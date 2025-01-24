@@ -41,7 +41,7 @@ identifier:
   value: BOEIflslbv
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

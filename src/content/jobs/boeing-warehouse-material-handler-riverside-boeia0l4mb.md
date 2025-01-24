@@ -39,7 +39,7 @@ identifier:
   value: BOEIa0l4mb
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -44,7 +44,7 @@ identifier:
   value: STAT596rxn
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

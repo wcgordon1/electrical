@@ -38,7 +38,7 @@ identifier:
   value: APExw8hon
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

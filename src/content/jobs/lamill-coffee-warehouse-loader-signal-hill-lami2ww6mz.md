@@ -45,7 +45,7 @@ identifier:
   value: LAMI2ww6mz
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

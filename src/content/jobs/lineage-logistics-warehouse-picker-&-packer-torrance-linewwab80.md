@@ -42,7 +42,7 @@ identifier:
   value: LINEwwab80
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

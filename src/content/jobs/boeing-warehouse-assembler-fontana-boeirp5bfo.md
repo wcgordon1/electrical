@@ -40,7 +40,7 @@ identifier:
   value: BOEIrp5bfo
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

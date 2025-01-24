@@ -39,7 +39,7 @@ identifier:
   value: APEidu561
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

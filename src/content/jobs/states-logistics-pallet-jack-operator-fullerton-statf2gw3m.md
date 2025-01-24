@@ -40,7 +40,7 @@ identifier:
   value: STATf2gw3m
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -46,7 +46,7 @@ identifier:
   value: ALBEf57bmx
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

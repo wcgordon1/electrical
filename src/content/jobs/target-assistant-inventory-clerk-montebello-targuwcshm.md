@@ -43,7 +43,7 @@ identifier:
   value: TARGuwcshm
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -40,7 +40,7 @@ identifier:
   value: APEeyejng
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

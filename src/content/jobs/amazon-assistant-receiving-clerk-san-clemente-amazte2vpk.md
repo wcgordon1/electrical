@@ -39,7 +39,7 @@ identifier:
   value: AMAZte2vpk
 featured: true
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

@@ -39,7 +39,7 @@ identifier:
   value: AMAZsxkhdk
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

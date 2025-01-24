@@ -39,7 +39,7 @@ identifier:
   value: APEq11ikg
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

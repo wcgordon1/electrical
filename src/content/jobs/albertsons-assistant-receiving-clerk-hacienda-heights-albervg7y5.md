@@ -39,7 +39,7 @@ identifier:
   value: ALBErvg7y5
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 

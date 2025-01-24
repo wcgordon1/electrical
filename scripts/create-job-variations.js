@@ -519,7 +519,7 @@ async function createJob(location, jobType, company) {
     },
     featured: Math.random() < 0.2,
     email: [
-      'will@bjakesjobs.com'
+      'will@jakesjobs.com'
     ]
   };
 

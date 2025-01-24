@@ -42,7 +42,7 @@ identifier:
   value: LINEdldwx1
 featured: false
 email:
-  - will@bjakesjobs.com
+  - will@jakesjobs.com
 ---
 
 
