@@ -6,11 +6,11 @@ pubDate: 2024-10-21
 
 **Last Updated:** November 7, 2024
 
-Welcome to **bestelectricianjobs.com** (the "Website"). By using our Website, you agree to these Terms and Conditions. Please read them carefully before accessing or using any services provided by us.
+Welcome to **jakesjobs.com** (the "Website"). By using our Website, you agree to these Terms and Conditions. Please read them carefully before accessing or using any services provided by us.
 
 ## 1. **Service Overview**
 
-bestelectricianjobs.com is a job board connecting employers with potential candidates in the electrician industry. We offer paid job posting services for employers and provide job listings for job seekers.
+jakesjobs.com is a job board connecting employers with potential candidates. We offer paid job posting services for employers and provide job listings for job seekers.
 
 ## 2. **Payment Terms**
 
@@ -39,12 +39,12 @@ bestelectricianjobs.com is a job board connecting employers with potential candi
 
 ## 6. **Ownership of Content**
 
-- All content posted on the Website, including job listings and blog articles, is owned by **bestelectricianjobs.com**.
+- All content posted on the Website, including job listings and blog articles, is owned by **jakesjobs.com**.
 - Users are **not permitted** to use any content from the Website for commercial purposes without explicit permission.
 
 ## 7. **Intellectual Property**
 
-- The Website, its content, features, and functionality are and will remain the exclusive property of **bestelectricianjobs.com**.
+- The Website, its content, features, and functionality are and will remain the exclusive property of **jakesjobs.com**.
 - Unauthorized use of our content may result in legal action.
 
 ## 8. **Liability and Disclaimers**
@@ -71,7 +71,7 @@ bestelectricianjobs.com is a job board connecting employers with potential candi
 
 If you have any questions or concerns about these Terms and Conditions, please contact us at:
 
-**Email:** [hello@bestelectricianjobs.com](mailto:hello@bestelectricianjobs.com)  
+**Email:** [hello@jakesjobs.com](mailto:hello@jakesjobs.com)  
 
 ---
 

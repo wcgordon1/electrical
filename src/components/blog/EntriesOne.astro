@@ -38,14 +38,14 @@ const { title, url, description, pubDate, author, image } = Astro.props;
     <div class="flex items-center mt-6">
       <div>
         <img
-          class="inline-block h-9 w-9 rounded-full"
+          class="inline-block h-9 w-9"
           src={image}
           alt={author}
         />
       </div>
       <div class="ml-3">
         <p
-          class="text-sm font-medium text-slate-500 group-hover:text-purple-900">
+          class="text-base font-medium text-indigo-500 group-hover:text-purple-900">
           {author}
         </p>
       </div>

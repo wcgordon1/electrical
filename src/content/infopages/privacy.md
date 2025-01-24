@@ -6,7 +6,7 @@ pubDate: 2024-10-21
 
 **Last Updated:** November 7, 2024
 
-Welcome to **bestelectricianjobs.com** (the "Website"). We value your privacy and are committed to protecting your personal data. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to safeguard it.
+Welcome to **jakesjobs.com** (the "Website"). We value your privacy and are committed to protecting your personal data. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to safeguard it.
 
 ## 1. **Information We Collect**
 
@@ -64,7 +64,7 @@ We implement appropriate technical and organizational measures to protect your d
 ## 10. **Your Rights**
 
 - **For Job Seekers and Employers:**
-  - You have the right to access, correct, or delete your personal data. If you wish to exercise these rights, please contact us at [support@bestelectricianjobs.com](mailto:support@bestelectricianjobs.com).
+  - You have the right to access, correct, or delete your personal data. If you wish to exercise these rights, please contact us at [support@jakesjobs.com](mailto:support@jakesjobs.com).
 - **Analytics Data:**
   - Since we use Pirsch.io, which is compliant with GDPR and other privacy regulations, you have the right to opt out of analytics tracking. Pirsch.io does not use cookies or other tracking methods that require user consent under GDPR.
 
@@ -80,8 +80,8 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 If you have any questions or concerns about this Privacy Policy, please contact us at:
 
-**Email:** [support@bestelectricianjobs.com](mailto:support@bestelectricianjobs.com)  
-**Address:** Best Electrician Jobs, 123 Main Street, Anytown, USA
+**Email:** [support@jakesjobs.com](mailto:support@jakesjobs.com)  
+**Address:** Jake's Jobs, 123 Main Street, Anytown, USA
 
 ---
 
