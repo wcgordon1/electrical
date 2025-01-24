@@ -29,10 +29,10 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Jake's Jobs",
-  "url": "https://bestelectricianjobs.com",
+  "url": "https://jakesjobs.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://bestelectricianjobs.com/images/eleclog.png",
+    "url": "https://jakesjobs.com/images/jakes.png",
     "width": "112",
     "height": "112",
     "caption": "Jake's Jobs Logo"
@@ -44,7 +44,7 @@ const organizationJsonLd = {
       "@type": "ContactPoint",
       "contactType": "customer service",
       "telephone": "+1-415-877-8810",
-      "email": "hello@bestelectricianjobs.com",
+      "email": "hello@jakesjobs.com",
       "availableLanguage": ["English", "Spanish"],  // Add all languages you support
       "areaServed": ["US", "CA"],  // Add all countries you serve
       "hoursAvailable": "Mo-Fr 09:00-17:00"
@@ -53,16 +53,16 @@ const organizationJsonLd = {
       "@type": "ContactPoint",
       "contactType": "sales",
       "telephone": "+1-415-877-8810",
-      "email": "sales@bestelectricianjobs.com",
+      "email": "sales@jakesjobs.com",
       "availableLanguage": ["English"],
       "areaServed": ["US", "CA"]
     }
   ],
   "sameAs": [
-    "https://www.reddit.com/r/ElectricalJobs/",
-    "https://www.linkedin.com/company/electrician-jobs/",
-    "https://x.com/electricaljob__",
-    "https://www.facebook.com/bestelectricianjobs"
+    "https://www.reddit.com/r/JakesJobs/",
+    "https://www.linkedin.com/company/jakesjobs/",
+    "https://x.com/jakesjobs",
+    "https://www.facebook.com/jakesjobs"
   ],
   "address": {
     "@type": "PostalAddress",
@@ -164,8 +164,8 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   </svg>
                 </dt>
                 <dd>
-                  <a href="mailto:hello@bestelectricianjobs.com" class="text-slate-500 hover:text-indigo-600">
-                    hello @ bestelectricianjobs.com
+                  <a href="mailto:hello@jakesjobs.com" class="text-slate-500 hover:text-indigo-600">
+                    hello @ jakesjobs.com
                   </a>
                 </dd>
               </div>
@@ -328,7 +328,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   <h3 class="text-purple-900 font-semibold">{feature.title}</h3>
                 </div>
                 <p class="mt-2 text-slate-500 text-sm">{feature.description}</p>
-                <a href="mailto:hello@bestelectricianjobs.com" class="mt-6 text-indigo-600 hover:text-indigo-700 inline-flex items-center gap-2 text-sm font-medium">
+                <a href="mailto:hello@jakesjobs.com" class="mt-6 text-indigo-600 hover:text-indigo-700 inline-flex items-center gap-2 text-sm font-medium">
                   Send us an Email
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -404,7 +404,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
             <path d="M12 9v4" />
             <path d="M12 16v.01" />
           </svg>
-          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@bestelectricianjobs.com'}</span>
+          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@jakesjobs.com'}</span>
         </div>
       `;
     } finally {

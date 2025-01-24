@@ -10,9 +10,9 @@ const { state, city, role } = Astro.props;
 // Build the form subject based on provided props
 const getSubject = () => {
   if (role && city && state) return `${role} Position in ${city}, ${state}`;
-  if (city && state) return `Electrical Positions in ${city}, ${state}`;
-  if (state) return `Electrical Positions in ${state}`;
-  return "Electrical Position Inquiry";
+  if (city && state) return `Positions in ${city}, ${state}`;
+  if (state) return `Positions in ${state}`;
+  return "Position Inquiry";
 };
 ---
 
@@ -166,7 +166,7 @@ const getSubject = () => {
             <path d="M12 9v4" />
             <path d="M12 16v.01" />
           </svg>
-          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@bestelectricianjobs.com'}</span>
+          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@jakesjobs.com'}</span>
         </div>
       `;
     } finally {

@@ -31,9 +31,7 @@ const footerSections = [
   {
     title: "Navigation",
     links: [
-      { href: "/", label: "Home" },
-      { href: "/open-positions", label: "Open Positions" },
-      { href: "/post-a-job", label: "Post a Job" },
+      { href: "/", label: "Open Positions" },
       { href: "/articles", label: "Articles" },
       { href: "/glossary/home", label: "Glossary" },
       { href: "/tags", label: "Article Tags" },
@@ -41,12 +39,11 @@ const footerSections = [
     ],
   },
   {
-    title: "Hire Electricians",
+    title: "Hire",
     links: [
       { href: "/recruiting", label: "Recruiting" },
-      { href: "/post-a-job", label: "Post a Job" },
       { href: "/rss.xml", label: "Post our Jobs (RSS)" },
-      { href: "/open-positions", label: "View Jobs" },
+      { href: "/", label: "View Jobs" },
       { href: "/contact", label: "Contact" },
       { href: "mailto:hello@jakesjobs.com", label: "Email" },
     ],
@@ -191,13 +188,13 @@ const footerSections = [
       <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
         <a
           class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-indigo-500 hover:bg-indigo-600 w-full"
-          href="/open-positions">
+          href="/">
           Open Positions
         </a>
         <a
           class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-transparent border-white border hover:border-indigo-500 w-full"
-          href="/post-a-job">
-          Post a Job
+          href="/articles">
+          Read Articles
         </a>
       </div>
 
@@ -233,21 +230,21 @@ const footerSections = [
           </div>
         </div>
 
-        <!-- Recruiting by State -->
+        <!-- Recruiting by State 
         <div class="mt-4 mb-4">
-          <h4 class="text-white text-lg mb-2">Electrical Staffing Locations:</h4>
+          <h4 class="text-white text-lg mb-2">Staffing Locations:</h4>
           <div class="flex flex-wrap gap-4">
             {recruitingStates.map(state => (
               <a 
                 href={`/recruiting/${state.slug}`}
                 class="text-white/80 hover:text-white font-normal text-sm whitespace-nowrap"
               >
-                Electrical Staffing in {state.name}
+                Staffing in {state.name}
               </a>
             ))}
           </div>
         </div>
-
+end comment out -->
         <!-- Locations -->
 
       </div>
