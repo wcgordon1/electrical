@@ -20,12 +20,12 @@ const openai = new OpenAI({
 
 function generatePrompt(jobType, company, city, state, responsibilities, qualifications, experience, benefits) {
   const prompts = [
-    `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
+    `Use these points as inspiration but create a warehouse-focused description using only h2 and h3 tags for headings:
 
-Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are a Senior ${jobType} with 20 years of experience creating a job post for ${company} for a multi-year project in ${city}, ${state} with additional projects near ${city} (list neighboring cities to ${city}).
+Create a COMPREHENSIVE job description (800+ words) for an experienced ${jobType}. Write this as if you are an operations manager overseeing a team of ${jobType}s with 20 years of experience creating a job post for ${company} (expand on company).
 
 ## About the ${jobType} Position
-Start with a detailed paragraph about working as a ${jobType} at ${company}, our reputation in ${city}, and the types of projects our ${jobType}s handle. Mention surrounding cities we work in.
+Start with a detailed paragraph about working as a ${jobType} at ${company}, the warehouse work involved, and the types of projects our ${jobType}s handle.
 
 ## ${jobType} Position Overview
 Write a thorough overview of being a ${jobType} on our team, focusing on:
@@ -46,11 +46,6 @@ ${qualifications}
 - List essential certifications
 - Detail required technical knowledge
 
-## Tools & Equipment
-- List specific tools used daily by our ${jobType}s
-- Detail required personal tools
-- Explain company-provided equipment
-
 ## Physical Requirements
 - Detail lifting requirements for a ${jobType}
 - Explain working conditions
@@ -69,10 +64,10 @@ ${benefits}
 
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a ${jobType}. Write it like a foreman explaining the ${jobType} position to a potential hire at ${company} for a multi-year project in ${city}, ${state} with additional projects near ${city} (list neighboring cities to ${city})..
+Create a PRACTICAL job description (400-500 words) that focuses on the daily work life of a ${jobType}. Write it like a supervisor explaining the ${jobType} position to a potential hire at ${company}.
 
 ## What You'll Do as a ${jobType}
-Quick overview of the ${jobType} role and our current projects in ${city}. Keep it real and straightforward about what a ${jobType} does day-to-day.
+Quick overview of the ${jobType} role and our current warehouse work in ${city}. Keep it real and straightforward about what a ${jobType} does day-to-day.
 
 ## Your Daily Tasks as a ${jobType}
 ${responsibilities}
@@ -92,7 +87,7 @@ ${benefits}
 
     `Use these points as inspiration but create a construction-focused description using only h2 and h3 tags for headings:
 
-Create a QUICK job description (200 words). Write it like a busy project manager needs this ${jobType} position filled ASAP at ${company} in ${city}, ${state} for long term projects.
+Create a QUICK job description (200 words). Write it like a busy project manager needs this ${jobType} position filled ASAP at ${company} in ${city}, ${state}.
 
 ## ${jobType} Position Overview
 One paragraph about what we need in a ${jobType} and what you'll do.
@@ -114,101 +109,128 @@ ${benefits}`
 }
 
 const JOB_TYPES = {
-  "Quality Control Technician": {
-  "minValue": 20,
-  "maxValue": 25,
-  "experienceLevel": "midLevel",
-  "category": "Quality Control",
-  "team": "Industrial",
-  "yearsExperience": "3+",
-  "responsibilities": "Perform dimensional and visual inspections of disassembled electric motors and parts to determine necessary repairs. Verify new and repaired parts against engineering drawings and specifications. Conduct in-process surveillance and perform final inspections to release motors for shipment. Ensure all paperwork and documentation is completed accurately and legibly. Collaborate with machinists and repair technicians to ensure quality standards are met.",
-  "qualifications": "High school diploma or equivalent. At least 3 years of experience with precision measurement tools such as micrometers, calipers, and dial indicators. Ability to safely lift 50 pounds and work in physically demanding environments. Flexibility to work overtime, weekends, and holidays as required. Military mechanical technician background preferred.",
-  "prompt": "Create a job description for a Mechanical Quality Control Technician specializing in electric motor inspections, verifying repairs, and ensuring compliance with engineering standards. Emphasize precision, technical skills, and flexibility to meet customer needs in an industrial environment."
-},
-
-"Coatings Engineer": {
-  "minValue": 45,
-  "maxValue": 50,
-  "experienceLevel": "senior",
-  "category": "Engineering",
-  "team": "Industrial",
-  "yearsExperience": "5+",
-  "responsibilities": "Perform and oversee Nuclear Service Level 1 coatings inspections and certifications. Supervise and qualify Level 1 and Level 2 coatings inspectors. Train applicators for coatings application and ensure compliance with regulatory standards. Review and improve coating methods and recommend equipment to enhance quality. Collaborate with customers to select coatings and develop application strategies. Maintain up-to-date knowledge of coatings regulations and standards. Write and revise coatings application and inspection procedures.",
-  "qualifications": "NACE/SSPC/AMPP Level 1 certification required; Level 2, Level 3, or Nuclear Coatings Inspection Specialty preferred. Bachelor’s degree in a related field. Minimum 5 years of coatings inspection experience, with at least 2 years in commercial nuclear coatings. Ability to qualify as a Level 3 Nuclear Grade Coatings Inspector. Strong understanding of industry standards and customer collaboration.",
-  "prompt": "Create a job description for a Coatings Engineer focused on nuclear coatings inspections, training, and quality improvement. Highlight expertise in NACE/SSPC standards, leadership skills, and technical proficiency in an industrial setting."
-},
-
-"Motor Mechanic": {
-  "minValue": 28,
-  "maxValue": 30,
-  "experienceLevel": "midLevel",
-  "category": "Mechanical",
-  "team": "Industrial",
-  "yearsExperience": "5+",
-  "responsibilities": "Disassemble, inspect, troubleshoot, and reassemble motors, pumps, and generators up to 12,000 HP. Diagnose issues such as oil leaks and vibrations, and determine necessary repairs. Perform test runs on rebuilt motors to ensure proper functionality. Collaborate with machinists and quality control technicians to meet specifications. Maintain accurate records of all work completed.",
-  "qualifications": "High school diploma or equivalent. At least 5 years of experience in disassembling and repairing motors and generators. Ability to read and interpret technical drawings. Must provide own tools and possess excellent communication skills. Physically able to lift 50 pounds and work extended hours, including weekends and holidays.",
-  "prompt": "Create a job description for an Electric Motor Mechanic responsible for diagnosing, repairing, and testing industrial motors and generators. Focus on technical skills, problem-solving, and attention to detail."
-},
-
-"RCP Motor Mechanic": {
-  "minValue": 28,
-  "maxValue": 34,
-  "experienceLevel": "midLevel",
-  "category": "Mechanical",
-  "team": "Industrial",
-  "yearsExperience": "5+",
-  "responsibilities": "Disassemble and reassemble vertical motors up to 12,000 HP operating at 13.2 kV. Perform incoming and outgoing inspections and test runs. Troubleshoot issues such as oil leaks and vibrations. Work with and around radioactive materials while adhering to safety protocols. Operate forklifts, cranes, and rigging equipment to safely handle motor components. Maintain accurate documentation and comply with written work instructions.",
-  "qualifications": "High school diploma or equivalent. At least 5 years of experience with motors and pumps. Familiarity with rigging practices, M&TE tools (micrometers, calipers, torque wrenches, etc.), and basic electrical knowledge. Ability to complete Radiological Worker Training. Strong attention to detail and adherence to safety standards.",
-  "prompt": "Create a job description for an RCP Motor Mechanic specializing in vertical motor repairs, radioactive material handling, and troubleshooting. Emphasize safety, technical skills, and adherence to industrial protocols."
-},
-
-"Motor Winder": {
-  "minValue": 20,
-  "maxValue": 28,
+  "Warehouse Associate": {
+  "minValue": 18,
+  "maxValue": 22,
   "experienceLevel": "entryLevel",
-  "category": "Electrical",
+  "category": "General Operations",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Assist with loading and unloading trucks in a high-volume warehouse. Organize and store products in designated areas, maintaining a clean and safe workspace. Use inventory tracking systems to ensure proper stock management. Operate basic warehouse equipment such as pallet jacks and hand trucks. Conduct regular inventory counts and report discrepancies to supervisors.",
+  "qualifications": "High school diploma or equivalent. Ability to lift up to 50 pounds and stand for long periods. Strong attention to detail and organizational skills. Experience with inventory systems is a plus but not required.",
+  "prompt": "Create a job description for a Warehouse Associate in a large industrial warehouse handling high-volume shipments. Focus on organizational skills, basic equipment use, and maintaining a clean work environment."
+},
+"Warehouse Loader": {
+  "minValue": 19,
+  "maxValue": 23,
+  "experienceLevel": "entryLevel",
+  "category": "Shipping",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Load outgoing trucks efficiently and securely, ensuring product safety during transport. Verify shipment details against manifests to confirm accuracy. Maintain organization of loading docks and staging areas. Operate forklifts or electric pallet jacks to move heavy goods. Collaborate with warehouse and logistics teams to meet shipping deadlines.",
+  "qualifications": "High school diploma or equivalent. Previous experience in a shipping/receiving environment preferred. Ability to lift and carry heavy loads. Forklift certification is a plus.",
+  "prompt": "Create a job description for a WarehouseLoader working in a high-capacity warehouse. Highlight efficiency in loading processes, adherence to safety standards, and collaboration with logistics teams."
+},
+"Warehouse Unloader": {
+  "minValue": 18,
+  "maxValue": 22,
+  "experienceLevel": "entryLevel",
+  "category": "Receiving",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Unload incoming shipments and inspect for damage or missing items. Ensure goods are stored in designated warehouse locations. Use RF scanners to track inventory as items are received. Assist with organizing incoming shipments on the receiving dock. Maintain a safe and clean workspace.",
+  "qualifications": "High school diploma or equivalent. Ability to lift 50 pounds and stand for extended periods. Basic knowledge of warehouse management systems preferred.",
+  "prompt": "Create a job description for a Warehouse Unloader in a large warehouse environment. Emphasize attention to detail, physical stamina, and proficiency with inventory systems."
+},
+"Warehouse Material Handler": {
+  "minValue": 20,
+  "maxValue": 24,
+  "experienceLevel": "midLevel",
+  "category": "Inventory Management",
   "team": "Industrial",
   "yearsExperience": "2+",
-  "responsibilities": "Rewind 3-phase form coil and random wound stators, as well as DC armatures and fields. Conduct electrical tests, including surge testing and resistance checks. Utilize electrical test equipment such as megohmeters, multimeters, and surge testers to ensure functionality. Maintain a clean and organized workspace and assist with troubleshooting as needed.",
-  "qualifications": "High school diploma or equivalent. Familiarity with electrical testing equipment and tests. Ability to lift 50 pounds and work extended hours. Strong communication skills and attention to detail. Must provide basic hand tools.",
-  "prompt": "Create a job description for an Electric Motor Winder focused on rewinding industrial motors and conducting electrical tests. Highlight technical skills, attention to detail, and ability to work in an industrial environment."
+  "responsibilities": "Move materials throughout the warehouse using forklifts or other industrial equipment. Ensure proper placement and storage of products based on inventory systems. Assist with cycle counts and inventory reconciliation. Prepare raw materials for production or distribution as required. Communicate with supervisors regarding inventory shortages or discrepancies.",
+  "qualifications": "High school diploma or equivalent. Forklift certification required. 2+ years of experience in material handling in a warehouse or manufacturing environment.",
+  "prompt": "Create a job description for a Warehouse Material Handler in a large warehouse setting. Focus on expertise in inventory movement, equipment operation, and maintaining inventory accuracy."
 },
-
-"Machinist": {
-  "minValue": 24,
+"Warehouse Assembler": {
+  "minValue": 21,
+  "maxValue": 26,
+  "experienceLevel": "midLevel",
+  "category": "Assembly",
+  "team": "Industrial",
+  "yearsExperience": "2+",
+  "responsibilities": "Assemble products according to specifications and blueprints in a high-volume warehouse. Inspect components for defects and ensure all assembled items meet quality standards. Maintain a clean and organized assembly area. Collaborate with the quality control team to address any issues in production. Report progress to supervisors and suggest process improvements.",
+  "qualifications": "High school diploma or equivalent. Experience in mechanical or electrical assembly is preferred. Strong attention to detail and ability to follow instructions. Must be able to work with hand tools and power tools.",
+  "prompt": "Create a job description for a Warehouse Assembler in an industrial warehouse specializing in high-volume product assembly. Emphasize attention to detail, quality control, and teamwork."
+},
+"Warehouse Picker & Packer": {
+  "minValue": 18,
+  "maxValue": 21,
+  "experienceLevel": "entryLevel",
+  "category": "Order Fulfillment",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Pick products from shelves based on order specifications using handheld scanners. Pack items securely for shipment, ensuring accuracy and quality. Maintain organized and clean packing stations. Communicate with inventory teams to replenish stock in picking areas. Meet daily quotas for order processing.",
+  "qualifications": "High school diploma or equivalent. Ability to work in a fast-paced environment. Strong attention to detail. Experience with handheld scanners or warehouse management systems is a plus.",
+  "prompt": "Create a job description for a Warehouse Picker & Packer in a large-scale industrial warehouse. Focus on accuracy, efficiency, and working in a fast-paced environment."
+},
+"Assistant Inventory Clerk": {
+  "minValue": 25,
   "maxValue": 30,
-  "experienceLevel": "midLevel",
-  "category": "Machining",
+  "experienceLevel": "entryLevel",
+  "category": "Inventory Management",
   "team": "Industrial",
-  "yearsExperience": "5+",
-  "responsibilities": "Manufacture and repair parts per specifications and drawings. Operate precision machining equipment, including milling machines, lathes, boring mills, and grinders. Perform inspections on manufactured components to ensure tolerances within .0005” to .001”. Handle rigging and overhead crane operations safely. Complete all required paperwork accurately.",
-  "qualifications": "High school diploma or equivalent. Minimum 5 years of machining experience with close tolerances. Strong verbal and written communication skills. Ability to lift 50 pounds and work overtime, weekends, and holidays as needed.",
-  "prompt": "Create a job description for a Manual Machinist specializing in precision manufacturing and repair, with expertise in machining equipment and industrial processes."
+  "yearsExperience": "1+",
+  "responsibilities": "Assist with maintaining accurate inventory records in a high-capacity warehouse. Conduct daily and weekly cycle counts. Use inventory management software to track stock levels and report discrepancies. Support inventory audits and reconciliations. Collaborate with the receiving and shipping teams to ensure proper inventory flow.",
+  "qualifications": "High school diploma or equivalent. Basic proficiency with inventory management software. Strong organizational and problem-solving skills.",
+  "prompt": "Create a job description for a Warehouse Assistant Inventory Clerk in a large industrial warehouse. Emphasize inventory accuracy, problem-solving, and organizational skills."
 },
-
-"Switchgear Technician": {
-  "minValue": 30,
-  "maxValue": 32,
-  "experienceLevel": "senior",
-  "category": "Electrical",
-  "team": "Industrial",
-  "yearsExperience": "5+",
-  "responsibilities": "Install, maintain, and test low and medium voltage switchgear systems. Troubleshoot and resolve technical problems in the shop and field. Train personnel on power distribution equipment maintenance and testing. Collaborate with customers to identify solutions and provide technical support. Ensure compliance with NETA, IEEE, and NEMA standards. Prepare detailed reports on completed work.",
-  "qualifications": "High school diploma or equivalent; technical training preferred. Hands-on experience with switchgear systems. NETA or NICET certifications preferred. Ability to travel frequently and work at heights. Strong organizational and communication skills.",
-  "prompt": "Create a job description for a Power Systems/Switchgear Technician focusing on installation, maintenance, and troubleshooting of industrial switchgear systems. Highlight expertise in NETA standards and customer collaboration."
-},
-
-"Field Service Technician": {
-  "minValue": 28,
-  "maxValue": 32,
+"Warehouse Forklift Operator": {
+  "minValue": 22,
+  "maxValue": 27,
   "experienceLevel": "midLevel",
-  "category": "Mechanical",
+  "category": "Equipment Operation",
   "team": "Industrial",
   "yearsExperience": "2+",
-  "responsibilities": "Install, troubleshoot, and repair industrial equipment, including motors, pumps, and gearboxes. Use rigging and alignment tools for equipment installation. Perform diagnostics using vibration analysis and visual inspections. Collaborate with customers to identify and resolve mechanical issues. Maintain detailed reports and ensure compliance with safety standards.",
-  "qualifications": "High school diploma or equivalent. Minimum 2 years in mechanical environments. Knowledge of industrial safety and rigging practices. Valid driver’s license required. Training in vibration analysis and laser alignment preferred.",
-  "prompt": "Create a job description for a Mechanical Field Service Technician specializing in industrial equipment installation and repair, emphasizing diagnostics, customer service, and safety."
+  "responsibilities": "Operate forklifts to load, unload, and transport materials throughout a high-volume warehouse. Perform regular safety checks on forklifts and report maintenance issues. Ensure proper placement and stacking of goods to maximize space. Assist with organizing pallets for outgoing shipments. Adhere to all safety guidelines and protocols.",
+  "qualifications": "High school diploma or equivalent. Valid forklift certification required. At least 2 years of forklift operation experience in a warehouse setting.",
+  "prompt": "Create a job description for a Warehouse Forklift Operator in a large industrial warehouse. Highlight safety, equipment operation, and efficiency in material handling."
+},
+"Assistant Shipping Clerk": {
+  "minValue": 22,
+  "maxValue": 26,
+  "experienceLevel": "entryLevel",
+  "category": "Shipping",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Assist in preparing shipping labels and verifying outgoing orders. Organize and stage shipments for pickup. Communicate with logistics partners to confirm shipping schedules. Maintain a clean and organized shipping area. Track and document outgoing shipments in warehouse management systems.",
+  "qualifications": "High school diploma or equivalent. Strong organizational and communication skills. Basic computer skills required.",
+  "prompt": "Create a job description for a Warehouse Assistant Shipping Clerk in a large warehouse. Focus on organization, shipping accuracy, and communication with logistics partners."
+},
+"Assistant Receiving Clerk": {
+  "minValue": 23,
+  "maxValue": 29,
+  "experienceLevel": "entryLevel",
+  "category": "Receiving",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Support the receiving process by inspecting incoming shipments for accuracy. Assist with unloading trucks and organizing received goods. Use RF scanners to log inventory into the warehouse management system. Communicate with supervisors about damaged or missing items. Maintain the cleanliness of the receiving dock.",
+  "qualifications": "High school diploma or equivalent. Ability to lift 50 pounds and work in a fast-paced environment. Basic computer and inventory tracking skills preferred.",
+  "prompt": "Create a job description for a Warehouse Assistant Receiving Clerk in a large warehouse. Emphasize accuracy in receiving processes and proficiency with inventory systems."
+},
+"Pallet Jack Operator": {
+  "minValue": 22,
+  "maxValue": 29,
+  "experienceLevel": "entryLevel",
+  "category": "Material Handling",
+  "team": "Industrial",
+  "yearsExperience": "1+",
+  "responsibilities": "Operate manual and electric pallet jacks to transport pallets, products, and materials throughout a large industrial warehouse. Safely load and unload goods onto trucks, trailers, and designated storage areas. Ensure pallets are stacked securely and in compliance with safety regulations to prevent damage or hazards. Assist in staging materials for shipment, following warehouse workflows and schedules. Conduct routine inspections of pallet jacks to ensure they are in good working condition, reporting any malfunctions or issues. Organize and maintain cleanliness of loading docks, storage areas, and workspaces. Collaborate with inventory teams to track and replenish stock in picking and packing areas. Follow established safety guidelines and wear appropriate personal protective equipment (PPE) at all times.",
+  "qualifications": "High school diploma or equivalent. Familiarity with operating manual and electric pallet jacks in a warehouse environment. Ability to lift and move items weighing up to 50 pounds and work on your feet for extended periods. Strong attention to detail to ensure accuracy in material handling and inventory tracking. Basic communication skills to coordinate with team members and supervisors. Understanding of warehouse safety standards and best practices. Prior experience in material handling or warehousing is preferred but not required.",
+  "prompt": "Create a job description for a Pallet Jack Operator in a large industrial warehouse. Emphasize safe operation of pallet jacks, material handling efficiency, and adherence to warehouse safety standards."
 }
+
 };
 
 
@@ -497,8 +519,7 @@ async function createJob(location, jobType, company) {
     },
     featured: Math.random() < 0.2,
     email: [
-      'will@bestelectricianjobs.com',
-      'vicki@burdetthill.com'
+      'will@bjakesjobs.com'
     ]
   };
 

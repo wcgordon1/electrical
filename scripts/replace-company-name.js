@@ -17,7 +17,7 @@ function processFile(filePath) {
   try {
     console.log(`📄 Reading file: ${filePath}`);
     const content = fs.readFileSync(filePath, 'utf8');
-    const updatedContent = content.replace(/Frog Jobs/g, 'Jake\'s Jobs');
+    const updatedContent = content.replace(/will@bestelectricianjobs.com/g, 'will@jakesjobs.com');
     
     if (content !== updatedContent) {
       fs.writeFileSync(filePath, updatedContent);

@@ -42,7 +42,7 @@ const jsonLd = {
    "name": "Jake's Jobs",
    "logo": {
      "@type": "ImageObject",
-     "url": "https://www.bestelectricianjobs.com/images/eleclog.png",
+     "url": "https://www.bestelectricianjobs.com/images/jakes.png",
      "width": 112,
      "height": 112
    }
@@ -102,12 +102,19 @@ if (frontmatter.category) {
   </Fragment>
   <!-- Rest of your template -->
   <section>
-    <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-24">
-      <div class="items-center grid gap-12">
+    <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24 py-12">
+      <div class="items-center grid gap-8">
         <!-- Author Info and Dates -->
         <div class="text-center">
+          
+        </div>
+        <!-- Title and Description -->
+        <div class="text-center">
+          <h1 id="article-title" class="text-purple-900 font-semibold tracking-tight lg:text-5xl mt-6 text-3xl lg:text-balance">
+            {frontmatter.title}
+          </h1>
           <img
-            class="size-20 rounded-full mx-auto object-cover"
+            class="size-12 mt-6 mx-auto object-cover"
             src={frontmatter.avatar.url}
             alt={frontmatter.avatar.alt}
           />
@@ -122,12 +129,6 @@ if (frontmatter.category) {
               Updated: {frontmatter.modDate.slice(0, 10)}
             </time>
           </div>
-        </div>
-        <!-- Title and Description -->
-        <div class="text-center">
-          <h1 id="article-title" class="text-purple-900 font-semibold tracking-tight lg:text-5xl mt-6 text-3xl lg:text-balance">
-            {frontmatter.title}
-          </h1>
           <p id="post-summary" class="text-slate-500 mt-5 lg:text-pretty max-w-2xl mx-auto">
             {frontmatter.description}
           </p>
@@ -138,14 +139,14 @@ if (frontmatter.category) {
             frontmatter.tags.map((tag) => (
               <a
                 href={`/tags/${tag}`}
-                class="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors"
+                class="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-50 text-indigo-600 hover:bg-indigo-100 transition-colors"
               >
                 {tag}
               </a>
             ))
           }
         </div>
-        <!-- Featured Image -->
+        <!-- Featured Image 
         {frontmatter.image && (
           <img
             src={frontmatter.image.url}
@@ -153,12 +154,13 @@ if (frontmatter.category) {
             class="rounded-2xl w-full max-w-4xl mx-auto object-cover aspect-video shadow-lg"
           />
         )}
+        -->
       </div>
     </div>
   </section>
   <!-- Content -->
-  <section>
-    <div class="mx-auto max-w-4xl lg:px-16 md:px-12 px-8 xl:px-24 py-12">
+  <section id="main-content">
+    <div class="mx-auto max-w-5xl lg:px-16 md:px-12 px-8 xl:px-24 py-6">
       <div id="main-content" class="prose prose-lg prose-slate max-w-none">
         <slot />
       </div>

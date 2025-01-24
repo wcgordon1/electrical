@@ -1,33 +1,90 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import HeaderOne from "@/components/headers/HeaderOne.astro";
-import FeatureOne from "@/components/features/FeatureOne.astro";
-import FeatureThree from "@/components/features/FeatureThree.astro";
-import FeatureFour from "@/components/features/FeatureFour.astro";
-import TestimonialTwo from "@/components/testimonials/TestimonialTwo.astro";
-import PricingOne from "@/components/pricing/PricingOne.astro";
-import FaqOne from "@/components/faqs/FaqOne.astro";
-import CtaOne from "@/components/cta/CtaOne.astro";
-import CompanyEntries from "@/components/company/CompanyEntries.astro";
-import CtaIndeed from "@/components/cta/CtaIndeed.astro";
+import { getRecentJobs } from "@/utils/jobs";
+import JobsListLayout from "@/layouts/JobsListLayout.astro";
+import JobFilters from "@/components/jobs/JobFilters.astro";
+import SearchJobs from "@/components/jobs/SearchJobs.astro";
+import Entries from "@/components/jobs/Entries.astro";
+import CtaWack from "@/components/cta/CtaWack.astro";
 
-const pageTitle = "Jake's Jobs | The #1 Platform for Hiring Qualified Electricians";
-const pageDescription = "Discover roles at innovative companies. Our recruiters connect talented professionals with opportunities that match their skills and aspirations.";
+const jobs = await getRecentJobs(500);
+
+// Sort jobs: featured first, then by date
+const sortedJobs = jobs.sort((a, b) => {
+  if (a.data.featured && !b.data.featured) return -1;
+  if (!a.data.featured && b.data.featured) return 1;
+  return new Date(b.data.datePosted).getTime() - new Date(a.data.datePosted).getTime();
+});
+
+function formatSalary(baseSalary) {
+  const { currency, minValue, maxValue, unitText } = baseSalary;
+  return `${currency} ${minValue.toLocaleString()}-${maxValue.toLocaleString()} per ${unitText.toLowerCase()}`;
+}
+const pageTitle = "Light Industrial Jobs";
+const pageDescription = "Discover your next career opportunity with Jake's Jobs. We connect job seekers with rewarding warehouse and light industrial positions across the United States.";
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<JobsListLayout title={pageTitle} description={pageDescription}>
   <Fragment slot="head">
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
   </Fragment>
 
-  <HeaderOne />
-  <TestimonialTwo />
-  <CompanyEntries />
-  <CtaIndeed />
-  <FeatureThree />
-  <FeatureOne />
-  <FeatureFour />
-  <PricingOne />
-  <FaqOne />
-  <CtaOne />
-</BaseLayout>
+  <section>
+    <header class="px-8 mx-auto max-w-7xl lg:px-16 xl:px-24 pt-8">
+      <div
+        class="p-8 lg:px-20 lg:py-24 rounded-3xl bg-gradient-to-tr from-indigo-950 via-indigo-700 to-indigo-400">
+        <div class="text-center max-w-xl mx-auto">
+          <span
+            class="text-white text-sm leading-6 px-4 py-2 relative bg-white/10 ring-1 ring-white/20 rounded-full"
+            >Find your next opportunity</span
+          >
+          <h1
+            class="text-white font-semibold tracking-tight lg:text-6xl mt-8 text-3xl lg:text-balance">
+            Jake's Jobs
+          </h1>
+          <p class="text-slate-100 mt-5 lg:text-pretty">
+            Discover your next job with Jake. 
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- This is where search filter spacing is adjusted -->
+    <div class="mx-auto max-w-7xl lg:px-16 md:px-12 px-8 xl:px-24">
+      <div class="lg:-mt-24 -mt-11">
+        <SearchJobs />
+      </div>
+      <!-- This is where search filter spacing is adjusted  -mt-11-->
+      <div class="mt-4 lg:mt-12 lg:flex lg:gap-x-16">
+        <div class="lg:w-1/4 -mt-11 lg:mt-0">
+          <JobFilters />
+        </div>
+        
+        <div class="lg:w-3/4 mt-8 lg:mt-0 mb-24">
+          <ul role="list" class="job-list divide-y divide-purple-50">
+            {
+              sortedJobs.map((post) => (
+                <Entries
+                  url={"/jobs/" + post.slug}
+                  position={post.data.position}
+                  location={post.data.location}
+                  team={post.data.team}
+                  company={post.data.hiringOrganization.name}
+                  companyLogo={post.data.hiringOrganization.logo}
+                  companySlug={post.data.hiringOrganization.name.toLowerCase().replace(/\s+/g, '-')}
+                  salary={formatSalary(post.data.baseSalary)}
+                  type={post.data.employmentType}
+                  description={post.data.description}
+                  category={post.data.occupationalCategory}
+                  featured={post.data.featured}
+                  datePosted={post.data.datePosted}
+                />
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <CtaWack />
+
+</JobsListLayout>

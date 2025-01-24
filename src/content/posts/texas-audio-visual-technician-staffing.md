@@ -5,7 +5,7 @@ author: Best Electrician
 title: Texas Audio Visual Technician Staffing
 description: "From corporate events to entertainment, Texas has a growing need for audio visual technicians. Learn how staffing solutions are helping businesses meet the demand for this specialized role."
 avatar:
-  url: "/images/eleclog.png"
+  url: "/images/jakes.png"
   alt: "Best Electrician Jobs"
 image:
   url: "https://i.pinimg.com/564x/f3/56/71/f35671374c45021df13bb688c390a3a2.jpg"
