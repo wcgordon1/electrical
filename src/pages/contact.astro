@@ -28,14 +28,14 @@ const features = [
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Jake's Jobs",
-  "url": "https://jakesjobs.com",
+  "name": "Electrical Jobs",
+  "url": "https://electrical.jobs.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://jakesjobs.com/images/jakes.png",
+    "url": "https://electrical.jobs.com/images/jakes.png",
     "width": "112",
     "height": "112",
-    "caption": "Jake's Jobs Logo"
+    "caption": "Electrical Jobs Logo"
   },
   "description": "Leading job board for electrical professionals, connecting skilled electricians with top employers across the United States.",
   "foundingDate": "2022",  // Add your actual founding date
@@ -44,7 +44,7 @@ const organizationJsonLd = {
       "@type": "ContactPoint",
       "contactType": "customer service",
       "telephone": "+1-415-877-8810",
-      "email": "hello@jakesjobs.com",
+      "email": "hello@electrical.jobs.com",
       "availableLanguage": ["English", "Spanish"],  // Add all languages you support
       "areaServed": ["US", "CA"],  // Add all countries you serve
       "hoursAvailable": "Mo-Fr 09:00-17:00"
@@ -53,16 +53,16 @@ const organizationJsonLd = {
       "@type": "ContactPoint",
       "contactType": "sales",
       "telephone": "+1-415-877-8810",
-      "email": "sales@jakesjobs.com",
+      "email": "sales@electrical.jobs.com",
       "availableLanguage": ["English"],
       "areaServed": ["US", "CA"]
     }
   ],
   "sameAs": [
-    "https://www.reddit.com/r/JakesJobs/",
-    "https://www.linkedin.com/company/jakesjobs/",
-    "https://x.com/jakesjobs",
-    "https://www.facebook.com/jakesjobs"
+    "https://www.reddit.com/r/electrical.jobs/",
+    "https://www.linkedin.com/company/electrical.jobs/",
+    "https://x.com/electrical.jobs",
+    "https://www.facebook.com/electrical.jobs"
   ],
   "address": {
     "@type": "PostalAddress",
@@ -124,7 +124,7 @@ const organizationJsonLd = {
   ]
 };
 const pageTitle = "Contact Us. We are happy to help!";
-const pageDescription = "Contact Jake's Jobs to learn more about our services and how we can help you find the perfect candidate for your business.";
+const pageDescription = "Contact Electrical Jobs to learn more about our services and how we can help you find the perfect candidate for your business.";
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
@@ -138,17 +138,17 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
       <div class="flex flex-col gap-12 lg:gap-24">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           <div class="lg:text-left">
-            <span class="text-sm uppercase font-medium tracking-wide text-indigo-600">
+            <span class="text-sm uppercase font-medium tracking-wide text-blue-600">
               Contact us
             </span>
             <h1 class="text-purple-900 font-semibold tracking-tight lg:text-5xl mt-6 text-3xl lg:text-balance">
-              Get in touch with Jake's Jobs
+              Get in touch with Electrical Jobs
             </h1>
             <dl class="mt-10 space-y-4 text-sm">
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Address</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="text-indigo-600 size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
                   </svg>
@@ -158,14 +158,14 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Email</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="text-indigo-600 size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
                     <path d="M3 7l9 6l9 -6"></path>
                   </svg>
                 </dt>
                 <dd>
-                  <a href="mailto:hello@jakesjobs.com" class="text-slate-500 hover:text-indigo-600">
-                    hello @ jakesjobs.com
+                  <a href="mailto:hello@electrical.jobs.com" class="text-slate-500 hover:text-blue-600">
+                    hello @ electrical.jobs.com
                   </a>
                 </dd>
               </div>
@@ -227,7 +227,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   type="file"
                   id="file"
                   name="file"
-                  class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-indigo-50 file:text-indigo-600 hover:file:bg-indigo-100"
+                  class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-blue-600 hover:file:bg-blue-100"
                 />
               </div>
             </div>
@@ -235,7 +235,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
               <button
                 type="submit"
                 id="submitButton"
-                class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-indigo-500 duration-200 py-3.5 rounded-full active:bg-indigo-800 active:text-white bg-indigo-500 hover:bg-indigo-600 w-full"
+                class="text-white items-center font-medium gap-3 inline-flex focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none justify-center px-6 lg:px-8 ring-2 ring-transparent focus:ring-offset-2 focus:ring-blue-500 duration-200 py-3.5 rounded-full active:bg-blue-800 active:text-white bg-blue-500 hover:bg-blue-600 w-full"
               >
                 Send Message
               </button>
@@ -258,7 +258,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   {feature.icon === "sales" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-5 text-indigo-600"
+                      class="size-5 text-blue-600"
                       viewBox="0 0 24 24"
                       stroke-width="2"
                       stroke="currentColor"
@@ -274,7 +274,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   {feature.icon === "support" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-5 text-indigo-600"
+                      class="size-5 text-blue-600"
                       viewBox="0 0 24 24"
                       stroke-width="2"
                       stroke="currentColor"
@@ -293,7 +293,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   {feature.icon === "press" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-5 text-indigo-600"
+                      class="size-5 text-blue-600"
                       viewBox="0 0 24 24"
                       stroke-width="2"
                       stroke="currentColor"
@@ -310,7 +310,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   {feature.icon === "partners" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="size-5 text-indigo-600"
+                      class="size-5 text-blue-600"
                       viewBox="0 0 24 24"
                       stroke-width="2"
                       stroke="currentColor"
@@ -328,7 +328,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
                   <h3 class="text-purple-900 font-semibold">{feature.title}</h3>
                 </div>
                 <p class="mt-2 text-slate-500 text-sm">{feature.description}</p>
-                <a href="mailto:hello@jakesjobs.com" class="mt-6 text-indigo-600 hover:text-indigo-700 inline-flex items-center gap-2 text-sm font-medium">
+                <a href="mailto:hello@electrical.jobs.com" class="mt-6 text-blue-600 hover:text-blue-700 inline-flex items-center gap-2 text-sm font-medium">
                   Send us an Email
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -374,7 +374,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
       const result = await response.json();
       if (result.success) {
         statusMessage.classList.remove('hidden');
-        statusMessage.classList.add('bg-indigo-50', 'text-indigo-800');
+        statusMessage.classList.add('bg-blue-50', 'text-blue-800');
         statusMessage.innerHTML = `
           <div class="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
@@ -404,7 +404,7 @@ const pageDescription = "Contact Jake's Jobs to learn more about our services an
             <path d="M12 9v4" />
             <path d="M12 16v.01" />
           </svg>
-          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@jakesjobs.com'}</span>
+          <span>Error: ${error.message || 'There was an error sending your message. Please try again or email us directly at hello@electrical.jobs.com'}</span>
         </div>
       `;
     } finally {

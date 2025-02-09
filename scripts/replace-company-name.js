@@ -1,14 +1,10 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 const directories = [
-  '../src/components',
-  '../src/layouts',
-  '../src/pages'
+  path.join(__dirname, '../src/components'),
+  path.join(__dirname, '../src/layouts'),
+  path.join(__dirname, '../src/pages')
 ];
 
 console.log('🔍 Starting company name replacement script...');
@@ -17,7 +13,10 @@ function processFile(filePath) {
   try {
     console.log(`📄 Reading file: ${filePath}`);
     const content = fs.readFileSync(filePath, 'utf8');
-    const updatedContent = content.replace(/will@bestelectricianjobs.com/g, 'will@jakesjobs.com');
+    let updatedContent = content
+      .replace(/jake'?s jobs/gi, 'Electrical Jobs')
+      .replace(/jakesjobs/gi, 'electrical.jobs')
+      .replace(/will@jakesjobs\.com/g, 'will@electrical.jobs');
     
     if (content !== updatedContent) {
       fs.writeFileSync(filePath, updatedContent);
@@ -47,12 +46,11 @@ function walkDir(dir) {
 }
 
 for (const dir of directories) {
-  const absolutePath = path.resolve(__dirname, dir);
-  if (fs.existsSync(absolutePath)) {
+  if (fs.existsSync(dir)) {
     console.log(`🎯 Processing directory: ${dir}`);
-    walkDir(absolutePath);
+    walkDir(dir);
   } else {
-    console.log(`⚠️  Directory not found: ${absolutePath}`);
+    console.log(`⚠️  Directory not found: ${dir}`);
   }
 }
 

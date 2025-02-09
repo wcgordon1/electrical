@@ -1,14 +1,10 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 const directories = [
-  '../src/components',
-  '../src/layout',
-  '../src/pages'
+  path.join(__dirname, '../src/components'),
+  path.join(__dirname, '../src/layout'),
+  path.join(__dirname, '../src/pages')
 ];
 
 console.log('🔍 Starting color replacement script...');
@@ -17,7 +13,7 @@ function processFile(filePath) {
   try {
     console.log(`📄 Reading file: ${filePath}`);
     const content = fs.readFileSync(filePath, 'utf8');
-    const updatedContent = content.replace(/\bgreen\b/g, 'indigo');
+    const updatedContent = content.replace(/\bgreen\b/g, 'blue');
     
     if (content !== updatedContent) {
       fs.writeFileSync(filePath, updatedContent);
@@ -40,7 +36,6 @@ function walkDir(dir) {
       const stat = fs.statSync(filePath);
       
       if (stat.isDirectory()) {
-        // Recursively process subdirectories
         walkDir(filePath);
       } else if (file.endsWith('.astro') || file.endsWith('.js') || file.endsWith('.jsx') || file.endsWith('.ts') || file.endsWith('.tsx') || file.endsWith('.css')) {
         processFile(filePath);
@@ -54,12 +49,11 @@ function walkDir(dir) {
 }
 
 for (const dir of directories) {
-  const absolutePath = path.resolve(__dirname, dir);
-  if (fs.existsSync(absolutePath)) {
+  if (fs.existsSync(dir)) {
     console.log(`🎯 Processing directory: ${dir}`);
-    walkDir(absolutePath);
+    walkDir(dir);
   } else {
-    console.log(`⚠️  Directory not found: ${absolutePath}`);
+    console.log(`⚠️  Directory not found: ${dir}`);
   }
 }
 

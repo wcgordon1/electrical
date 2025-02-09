@@ -8,8 +8,8 @@ export async function POST({ request }) {
     const formData = await request.formData();
 
     await resend.emails.send({
-      from: 'Application Info <Application@mail.jakesjobs.com>',
-      replyTo: 'support@jakesjobs.com',
+      from: 'Application Info <Application@mail.electrical.jobs.com>',
+      replyTo: 'support@electrical.jobs.com',
       to: formData.get('email'),  // Applicant's email from form
       subject: `${formData.get('jobTitle')}: Application Information`,
       text: `Hi ${formData.get('name')},
@@ -20,8 +20,8 @@ We wish you success with your application and success in your job search. If you
 
 Thank you!
 
-Jake's Jobs Team
-support@jakesjobs.com
+Electrical Jobs Team
+support@electrical.jobs.com
 
 *This is an automated email.*`
     });

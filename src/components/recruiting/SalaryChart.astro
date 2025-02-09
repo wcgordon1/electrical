@@ -65,16 +65,16 @@ const avgPercent = 50;
       
       <div class="relative h-8 bg-gray-50 rounded-full mb-4">
         <div
-          class="absolute h-full bg-indigo-100 rounded-full"
+          class="absolute h-full bg-blue-100 rounded-full"
           style={`left: ${minPercent}%; right: ${100 - maxPercent}%`}
         >
           <!-- Average Marker -->
           <div
-            class="absolute top-0 h-full w-2 bg-indigo-600"
+            class="absolute top-0 h-full w-2 bg-blue-600"
             style={`left: ${avgPercent}%`}
           >
             <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 whitespace-nowrap">
-              <span class="text-sm font-medium text-indigo-600">
+              <span class="text-sm font-medium text-blue-600">
                 Average: {formatCurrency(average)}
               </span>
             </div>
@@ -88,17 +88,17 @@ const avgPercent = 50;
       </div>
 
       <!-- New Hourly Rate Section -->
-      <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100 mt-4">
-        <h3 class="text-sm font-medium text-indigo-600 mb-2">Hourly Rate Range based on a 40 Hour Work Week</h3>
+      <div class="bg-blue-50 p-4 rounded-xl border border-blue-100 mt-4">
+        <h3 class="text-sm font-medium text-blue-600 mb-2">Hourly Rate Range based on a 40 Hour Work Week</h3>
         <div class="flex justify-between items-center">
           <div>
-            <p class="text-2xl font-bold text-indigo-700">{formatHourly(minHourly)}</p>
-            <p class="text-sm text-indigo-600">Starting Rate</p>
+            <p class="text-2xl font-bold text-blue-700">{formatHourly(minHourly)}</p>
+            <p class="text-sm text-blue-600">Starting Rate</p>
           </div>
-          <div class="h-8 w-px bg-indigo-200"></div>
+          <div class="h-8 w-px bg-blue-200"></div>
           <div class="text-right">
-            <p class="text-2xl font-bold text-indigo-700">{formatHourly(maxHourly)}</p>
-            <p class="text-sm text-indigo-600">Maximum Rate</p>
+            <p class="text-2xl font-bold text-blue-700">{formatHourly(maxHourly)}</p>
+            <p class="text-sm text-blue-600">Maximum Rate</p>
           </div>
         </div>
       </div>

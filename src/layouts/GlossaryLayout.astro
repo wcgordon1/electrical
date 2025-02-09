@@ -35,16 +35,16 @@ const jsonLd = {
   },
   "author": {
     "@type": "Organization",
-    "name": "Jake's Jobs",
-    "url": "https://www.jakesjobs.com"
+    "name": "Electrical Jobs",
+    "url": "https://www.electrical.jobs.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Jake's Jobs",
-    "url": "https://www.jakesjobs.com",
+    "name": "Electrical Jobs",
+    "url": "https://www.electrical.jobs.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.jakesjobs.com/images/jakes.png"
+      "url": "https://www.electrical.jobs.com/images/jakes.png"
     }
   }
 };
@@ -65,16 +65,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div class="lg:col-span-2">
             <a
-          title="Jake's Jobs - Back to Glossary"
-          aria-label="Jake's Jobs - Back to Glossary"
+          title="Electrical Jobs - Back to Glossary"
+          aria-label="Electrical Jobs - Back to Glossary"
           href="/glossary/home"
           class="text-4xl text-white font-semibold tracking-tight flex flex-col items-start">
           <img
           src="/images/jakes.png"
-          alt="Jake's Jobs Logo"
+          alt="Electrical Jobs Logo"
           class="h-14 w-14 mb-4" 
         />
-          Jake's Jobs
+          Electrical Jobs
         </a>
             <h1 class="text-4xl font-bold tracking-tight text-purple-900 sm:text-5xl">
               {frontmatter.term}
