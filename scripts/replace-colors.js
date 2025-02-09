@@ -13,7 +13,7 @@ function processFile(filePath) {
   try {
     console.log(`📄 Reading file: ${filePath}`);
     const content = fs.readFileSync(filePath, 'utf8');
-    const updatedContent = content.replace(/\bgreen\b/g, 'blue');
+    const updatedContent = content.replace(/\bemerald\b/g, 'blue');
     
     if (content !== updatedContent) {
       fs.writeFileSync(filePath, updatedContent);
